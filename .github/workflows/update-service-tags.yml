@@ -39,29 +39,21 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
+          
+          TAG_NAME="v$(date +'%Y.%m.%d')"
 
           if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit"
             exit 0
-          else
-            echo "Changes detected, committing..."
           fi
           
+          echo "Changes to be committed:"
           git diff --stat
           
           git add data/ServiceTags_Public.json data/services/
 
-          git commit -m "Update Azure Service Tags to change number ${{ steps.download.outputs.new_change_number }}
-
-          Automated update from Microsoft's ServiceTags JSON.
-
-          - Previous version: ${{ steps.download.outputs.old_change_number }}
-          - New version: ${{ steps.download.outputs.new_change_number }}
-          - Reason: ${{ steps.download.outputs.change_reason }}
-          - Source: ${{ steps.download.outputs.download_url }}"
-
+          git commit -m "Update Azure Service Tags: $TAG_NAME" -m "Automated update from Microsoft's ServiceTags JSON"
           git push
           
-          TAG_NAME="v$(date +'%Y.%m.%d')-${{ steps.download.outputs.new_change_number }}"
           git tag $TAG_NAME
           git push origin $TAG_NAME
