@@ -46,7 +46,6 @@ jobs:
           
           TAG_NAME="v$(date +'%Y.%m.%d')"
 
-          git status --porcelain
           if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit"
             exit 0
