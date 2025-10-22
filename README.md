@@ -160,14 +160,7 @@ The module data is automatically updated through GitHub Actions:
   5. Commits changes directly to the main branch
 - **Manual Trigger**: You can manually trigger the workflow from the Actions tab
 
-## Requirements
-
-- Terraform >= 1.0
-- OpenTofu >= 1.0 (compatible)
-
-## Local Development
-
-### Build the Generator
+## Build the Generator
 
 ```bash
 # Build the Go generator
@@ -175,42 +168,11 @@ cd generate
 go build -o generator .
 ```
 
-### Download and Generate Data
-
-```bash
-# Download latest data and generate YAML files
-./generate/generator --download --output data/services --json-output data/ServiceTags_Public.json --verbose
-
-# Or generate from existing JSON
-./generate/generator --input data/ServiceTags_Public.json --output data/services
-```
-
-### Test the Module
-
-```bash
-# Initialize and test
-cd examples/all-ip-addresses
-terraform init
-terraform plan
-```
-
-### Update Script
-
-For convenience, use the update script:
-
-```bash
-# Run the full update process
-bash scripts/update-ip-ranges.sh
-```
-
-## License
-
-This module is provided as-is. The Azure ServiceTags data is provided by Microsoft and subject to their terms of service.
-
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request.
+Contributions are welcome!
+Please open an issue or submit a pull request.
 
 ## Maintainer
 
-Andreas Eimer ([@aeimer](https://github.com/aeimer))
+Alexander Eimer ([@aeimer](https://github.com/aeimer))
