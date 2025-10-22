@@ -24,14 +24,14 @@ jobs:
       - name: Build go generator
         run: |
           # Build the Go generator
-          cd scripts
+          cd generate
           go mod download
-          go build
+          go build -o now
 
       - name: Run go generator
         run: |
           # Generate new YAML files
-          ./generate/generate -json-input data/ServiceTags_Public.json -output data/services
+          ./generate/now -json-input data/ServiceTags_Public.json -output data/services
 
           echo "YAML files generated successfully"
 
