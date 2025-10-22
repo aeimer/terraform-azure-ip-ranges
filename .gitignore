@@ -13,6 +13,8 @@ override.tf.json
 
 # Go
 generate/generate
+# Also ignore the funny name used in the CI to avoid accidental commits
+generate/now
 
 # IDE
 .idea/
