@@ -1,0 +1,63 @@
+name: Update Azure Service Tags
+
+on:
+  schedule:
+    # Run every night at 2:00 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.25'
+
+      - name: Build go generator
+        run: |
+          # Build the Go generator
+          cd scripts
+          go mod download
+          go build
+
+      - name: Run go generator
+        run: |
+          # Generate new YAML files
+          ./generate/generate -json-input data/ServiceTags_Public.json -output data/services
+
+          echo "YAML files generated successfully"
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          git add data/ServiceTags_Public.json data/services/
+
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update Azure Service Tags to change number ${{ steps.download.outputs.new_change_number }}
+
+          Automated update from Microsoft's ServiceTags JSON.
+
+          - Previous version: ${{ steps.download.outputs.old_change_number }}
+          - New version: ${{ steps.download.outputs.new_change_number }}
+          - Reason: ${{ steps.download.outputs.change_reason }}
+          - Source: ${{ steps.download.outputs.download_url }}"
+
+          git push
+          
+          TAG_NAME="v$(date +'%Y.%m.%d')-${{ steps.download.outputs.new_change_number }}"
+          git tag $TAG_NAME
+          git push origin $TAG_NAME
