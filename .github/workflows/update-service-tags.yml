@@ -43,6 +43,8 @@ jobs:
           if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit"
             exit 0
+          else
+            echo "Changes detected, committing..."
           fi
           
           git add data/ServiceTags_Public.json data/services/
