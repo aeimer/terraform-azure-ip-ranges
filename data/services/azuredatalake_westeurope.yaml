@@ -1,0 +1,24 @@
+id: AzureDataLake.WestEurope
+name: AzureDataLake.WestEurope
+metadata:
+  change_number: 2
+  region: westeurope
+  platform: Azure
+  system_service: AzureDataLake
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.90.141.167/32
+    - 40.90.145.192/27
+    - 104.44.90.194/31
+  ipv4:
+    - 40.90.141.167/32
+    - 40.90.145.192/27
+    - 104.44.90.194/31
+  ipv6: []
+  counts:
+    total: 3
+    ipv4: 3
+    ipv6: 0

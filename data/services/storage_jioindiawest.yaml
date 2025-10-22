@@ -1,0 +1,38 @@
+id: Storage.JioIndiaWest
+name: Storage.JioIndiaWest
+metadata:
+  change_number: 6
+  region: jioindiawest
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.60.54.0/23
+    - 20.150.65.0/24
+    - 20.150.97.0/24
+    - 20.153.59.0/24
+    - 20.157.153.0/24
+    - 20.157.234.0/24
+    - 57.150.242.0/23
+    - 2603:1040:d00::/48
+  ipv4:
+    - 20.60.54.0/23
+    - 20.150.65.0/24
+    - 20.150.97.0/24
+    - 20.153.59.0/24
+    - 20.157.153.0/24
+    - 20.157.234.0/24
+    - 57.150.242.0/23
+  ipv6:
+    - 2603:1040:d00::/48
+  counts:
+    total: 8
+    ipv4: 7
+    ipv6: 1

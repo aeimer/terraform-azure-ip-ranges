@@ -1,0 +1,30 @@
+id: ServiceFabric.SpainCentral
+name: ServiceFabric.SpainCentral
+metadata:
+  change_number: 1
+  region: spaincentral
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.221.98.76/30
+    - 68.221.146.72/30
+    - 68.221.154.72/30
+    - 2603:1020:1403:400::18/125
+    - 2603:1020:1403:800::10/125
+    - 2603:1020:1403:c00::50/125
+  ipv4:
+    - 68.221.98.76/30
+    - 68.221.146.72/30
+    - 68.221.154.72/30
+  ipv6:
+    - 2603:1020:1403:400::18/125
+    - 2603:1020:1403:800::10/125
+    - 2603:1020:1403:c00::50/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

@@ -1,0 +1,34 @@
+id: BatchNodeManagement.JapanWest
+name: BatchNodeManagement.JapanWest
+metadata:
+  change_number: 2
+  region: japanwest
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.74.101.0/27
+    - 40.74.140.140/32
+    - 40.80.58.160/27
+    - 104.46.232.208/32
+    - 104.46.236.29/32
+    - 138.91.17.36/32
+    - 2603:1040:606::400/122
+  ipv4:
+    - 40.74.101.0/27
+    - 40.74.140.140/32
+    - 40.80.58.160/27
+    - 104.46.232.208/32
+    - 104.46.236.29/32
+    - 138.91.17.36/32
+  ipv6:
+    - 2603:1040:606::400/122
+  counts:
+    total: 7
+    ipv4: 6
+    ipv6: 1

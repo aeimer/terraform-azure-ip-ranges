@@ -1,0 +1,28 @@
+id: AzureResourceManager.UKSouth
+name: AzureResourceManager.UKSouth
+metadata:
+  change_number: 1
+  region: uksouth
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.104.8.224/28
+    - 51.105.78.0/23
+    - 51.143.210.0/23
+    - 2603:1020:705::180/122
+    - 2603:1020:705:402::280/122
+  ipv4:
+    - 51.104.8.224/28
+    - 51.105.78.0/23
+    - 51.143.210.0/23
+  ipv6:
+    - 2603:1020:705::180/122
+    - 2603:1020:705:402::280/122
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

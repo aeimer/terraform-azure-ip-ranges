@@ -1,0 +1,28 @@
+id: AzureResourceManager.AustraliaEast
+name: AzureResourceManager.AustraliaEast
+metadata:
+  change_number: 1
+  region: australiaeast
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.70.74.64/28
+    - 13.70.76.0/23
+    - 20.53.42.0/23
+    - 2603:1010:6::180/122
+    - 2603:1010:6:402::280/122
+  ipv4:
+    - 13.70.74.64/28
+    - 13.70.76.0/23
+    - 20.53.42.0/23
+  ipv6:
+    - 2603:1010:6::180/122
+    - 2603:1010:6:402::280/122
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

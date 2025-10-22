@@ -1,0 +1,42 @@
+id: PowerPlatformPlex.SouthIndia
+name: PowerPlatformPlex.SouthIndia
+metadata:
+  change_number: 7
+  region: southindia
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.40.5.0/26
+    - 20.192.157.248/29
+    - 20.207.219.24/29
+    - 52.172.81.16/30
+    - 52.172.81.224/29
+    - 52.172.81.232/30
+    - 52.172.86.56/29
+    - 52.172.86.224/28
+    - 135.13.48.64/26
+    - 135.13.50.128/25
+    - 2603:1061:2004:3800::/57
+  ipv4:
+    - 20.40.5.0/26
+    - 20.192.157.248/29
+    - 20.207.219.24/29
+    - 52.172.81.16/30
+    - 52.172.81.224/29
+    - 52.172.81.232/30
+    - 52.172.86.56/29
+    - 52.172.86.224/28
+    - 135.13.48.64/26
+    - 135.13.50.128/25
+  ipv6:
+    - 2603:1061:2004:3800::/57
+  counts:
+    total: 11
+    ipv4: 10
+    ipv6: 1

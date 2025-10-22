@@ -1,0 +1,36 @@
+id: AzureKeyVault.UKWest
+name: AzureKeyVault.UKWest
+metadata:
+  change_number: 6
+  region: ukwest
+  platform: Azure
+  system_service: AzureKeyVault
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.58.67.48/29
+    - 20.58.67.56/30
+    - 51.140.210.80/30
+    - 2603:1020:605::104/126
+    - 2603:1020:605::108/125
+    - 2603:1020:605::2a0/125
+    - 2603:1020:605:402::80/125
+  ipv4:
+    - 20.58.67.48/29
+    - 20.58.67.56/30
+    - 51.140.210.80/30
+  ipv6:
+    - 2603:1020:605::104/126
+    - 2603:1020:605::108/125
+    - 2603:1020:605::2a0/125
+    - 2603:1020:605:402::80/125
+  counts:
+    total: 7
+    ipv4: 3
+    ipv6: 4

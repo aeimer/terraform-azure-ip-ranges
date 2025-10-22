@@ -1,0 +1,26 @@
+id: StorageSyncService.WestUS3
+name: StorageSyncService.WestUS3
+metadata:
+  change_number: 2
+  region: westus3
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.125.157.40/29
+    - 20.150.172.40/29
+    - 2603:1030:504:1::300/123
+    - 2603:1030:504:802::120/123
+  ipv4:
+    - 20.125.157.40/29
+    - 20.150.172.40/29
+  ipv6:
+    - 2603:1030:504:1::300/123
+    - 2603:1030:504:802::120/123
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

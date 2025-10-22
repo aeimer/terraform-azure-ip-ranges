@@ -1,0 +1,36 @@
+id: AzureResourceManager.NorthEurope
+name: AzureResourceManager.NorthEurope
+metadata:
+  change_number: 2
+  region: northeurope
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.69.229.224/28
+    - 13.69.234.0/23
+    - 13.104.150.85/32
+    - 20.50.68.96/28
+    - 20.135.136.30/32
+    - 20.135.138.85/32
+    - 52.146.134.0/23
+    - 2603:1020:5::180/122
+    - 2603:1020:5:402::280/122
+  ipv4:
+    - 13.69.229.224/28
+    - 13.69.234.0/23
+    - 13.104.150.85/32
+    - 20.50.68.96/28
+    - 20.135.136.30/32
+    - 20.135.138.85/32
+    - 52.146.134.0/23
+  ipv6:
+    - 2603:1020:5::180/122
+    - 2603:1020:5:402::280/122
+  counts:
+    total: 9
+    ipv4: 7
+    ipv6: 2

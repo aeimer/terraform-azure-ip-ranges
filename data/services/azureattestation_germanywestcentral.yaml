@@ -1,0 +1,22 @@
+id: AzureAttestation.GermanyWestCentral
+name: AzureAttestation.GermanyWestCentral
+metadata:
+  change_number: 1
+  region: germanywc
+  platform: Azure
+  system_service: AzureAttestation
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.116.149.224/30
+    - 51.116.246.16/30
+  ipv4:
+    - 51.116.149.224/30
+    - 51.116.246.16/30
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

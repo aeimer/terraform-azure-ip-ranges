@@ -1,0 +1,30 @@
+id: AzureSecurityCenter.FranceCentral
+name: AzureSecurityCenter.FranceCentral
+metadata:
+  change_number: 2
+  region: centralfrance
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.79.139.224/27
+    - 172.189.102.224/27
+    - 172.189.103.128/26
+    - 172.189.120.0/22
+    - 172.189.124.0/23
+    - 172.189.126.0/24
+  ipv4:
+    - 40.79.139.224/27
+    - 172.189.102.224/27
+    - 172.189.103.128/26
+    - 172.189.120.0/22
+    - 172.189.124.0/23
+    - 172.189.126.0/24
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

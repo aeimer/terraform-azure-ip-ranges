@@ -1,0 +1,22 @@
+id: MicrosoftCloudAppSecurity.CentralUSEUAP
+name: MicrosoftCloudAppSecurity.CentralUSEUAP
+metadata:
+  change_number: 1
+  region: centraluseuap
+  platform: Azure
+  system_service: MicrosoftCloudAppSecurity
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 172.215.37.14/31
+    - 172.215.37.136/29
+  ipv4:
+    - 172.215.37.14/31
+    - 172.215.37.136/29
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

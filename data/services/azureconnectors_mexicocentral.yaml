@@ -1,0 +1,30 @@
+id: AzureConnectors.MexicoCentral
+name: AzureConnectors.MexicoCentral
+metadata:
+  change_number: 2
+  region: mexicocentral
+  platform: Azure
+  system_service: AzureConnectors
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.155.80.0/32
+    - 68.155.80.2/32
+    - 158.23.108.64/26
+    - 2603:1030:702:2::80/122
+  ipv4:
+    - 68.155.80.0/32
+    - 68.155.80.2/32
+    - 158.23.108.64/26
+  ipv6:
+    - 2603:1030:702:2::80/122
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

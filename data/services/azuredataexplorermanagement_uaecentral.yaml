@@ -1,0 +1,24 @@
+id: AzureDataExplorerManagement.UAECentral
+name: AzureDataExplorerManagement.UAECentral
+metadata:
+  change_number: 3
+  region: uaecentral
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.203.91.112/28
+    - 2603:1040:b04:1::380/121
+    - 2603:1040:b04:402::150/124
+  ipv4:
+    - 20.203.91.112/28
+  ipv6:
+    - 2603:1040:b04:1::380/121
+    - 2603:1040:b04:402::150/124
+  counts:
+    total: 3
+    ipv4: 1
+    ipv6: 2

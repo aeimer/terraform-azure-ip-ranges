@@ -1,0 +1,38 @@
+id: Storage.QatarCentral
+name: Storage.QatarCentral
+metadata:
+  change_number: 6
+  region: qatarcentral
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.33.176.0/24
+    - 20.60.208.0/23
+    - 20.157.154.0/24
+    - 20.157.190.0/24
+    - 20.209.2.0/23
+    - 20.209.54.0/23
+    - 20.209.202.0/23
+    - 2603:1040:1004::/48
+  ipv4:
+    - 20.33.176.0/24
+    - 20.60.208.0/23
+    - 20.157.154.0/24
+    - 20.157.190.0/24
+    - 20.209.2.0/23
+    - 20.209.54.0/23
+    - 20.209.202.0/23
+  ipv6:
+    - 2603:1040:1004::/48
+  counts:
+    total: 8
+    ipv4: 7
+    ipv6: 1

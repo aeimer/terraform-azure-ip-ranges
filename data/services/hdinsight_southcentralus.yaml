@@ -1,0 +1,30 @@
+id: HDInsight.SouthCentralUS
+name: HDInsight.SouthCentralUS
+metadata:
+  change_number: 4
+  region: southcentralus
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.73.240.8/29
+    - 13.73.254.192/29
+    - 172.215.132.128/29
+    - 2603:1030:807:402::320/124
+  ipv4:
+    - 13.73.240.8/29
+    - 13.73.254.192/29
+    - 172.215.132.128/29
+  ipv6:
+    - 2603:1030:807:402::320/124
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

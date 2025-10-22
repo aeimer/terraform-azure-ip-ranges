@@ -1,0 +1,30 @@
+id: ServiceFabric.TaiwanNorth
+name: ServiceFabric.TaiwanNorth
+metadata:
+  change_number: 2
+  region: taiwannorth
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.53.106.76/30
+    - 70.157.88.8/30
+    - 167.105.104.8/30
+    - 2603:1040:1302:400::58/125
+    - 2603:1040:1302:800::20/125
+    - 2603:1040:1302:c00::20/125
+  ipv4:
+    - 51.53.106.76/30
+    - 70.157.88.8/30
+    - 167.105.104.8/30
+  ipv6:
+    - 2603:1040:1302:400::58/125
+    - 2603:1040:1302:800::20/125
+    - 2603:1040:1302:c00::20/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

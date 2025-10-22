@@ -1,0 +1,36 @@
+id: AzureSecurityCenter.AustraliaEast
+name: AzureSecurityCenter.AustraliaEast
+metadata:
+  change_number: 4
+  region: australiaeast
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.70.79.32/27
+    - 20.227.121.0/25
+    - 20.227.122.0/23
+    - 48.215.115.160/27
+    - 48.215.117.0/24
+    - 48.215.118.0/23
+    - 48.215.120.0/25
+    - 68.218.139.64/26
+    - 68.218.140.0/24
+  ipv4:
+    - 13.70.79.32/27
+    - 20.227.121.0/25
+    - 20.227.122.0/23
+    - 48.215.115.160/27
+    - 48.215.117.0/24
+    - 48.215.118.0/23
+    - 48.215.120.0/25
+    - 68.218.139.64/26
+    - 68.218.140.0/24
+  ipv6: []
+  counts:
+    total: 9
+    ipv4: 9
+    ipv6: 0

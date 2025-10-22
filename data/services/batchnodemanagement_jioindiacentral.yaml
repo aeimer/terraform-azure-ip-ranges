@@ -1,0 +1,26 @@
+id: BatchNodeManagement.JioIndiaCentral
+name: BatchNodeManagement.JioIndiaCentral
+metadata:
+  change_number: 1
+  region: jioindiacentral
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.192.228.160/27
+    - 20.192.235.192/27
+    - 2603:1040:1104::300/122
+  ipv4:
+    - 20.192.228.160/27
+    - 20.192.235.192/27
+  ipv6:
+    - 2603:1040:1104::300/122
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

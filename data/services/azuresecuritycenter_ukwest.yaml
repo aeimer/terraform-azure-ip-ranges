@@ -1,0 +1,30 @@
+id: AzureSecurityCenter.UKWest
+name: AzureSecurityCenter.UKWest
+metadata:
+  change_number: 3
+  region: ukwest
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.140.215.128/27
+    - 172.186.32.64/26
+    - 172.186.33.0/24
+    - 172.186.34.0/23
+    - 172.186.36.0/22
+    - 172.186.42.64/27
+  ipv4:
+    - 51.140.215.128/27
+    - 172.186.32.64/26
+    - 172.186.33.0/24
+    - 172.186.34.0/23
+    - 172.186.36.0/22
+    - 172.186.42.64/27
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

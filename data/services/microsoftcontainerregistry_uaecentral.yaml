@@ -1,0 +1,30 @@
+id: MicrosoftContainerRegistry.UAECentral
+name: MicrosoftContainerRegistry.UAECentral
+metadata:
+  change_number: 3
+  region: uaecentral
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.37.74.64/29
+    - 74.243.18.0/29
+    - 2603:1040:b04:402::88/125
+    - 2603:1040:b04:800::/125
+  ipv4:
+    - 20.37.74.64/29
+    - 74.243.18.0/29
+  ipv6:
+    - 2603:1040:b04:402::88/125
+    - 2603:1040:b04:800::/125
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

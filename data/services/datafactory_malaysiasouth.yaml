@@ -1,0 +1,34 @@
+id: DataFactory.MalaysiaSouth
+name: DataFactory.MalaysiaSouth
+metadata:
+  change_number: 1
+  region: malaysiasouth
+  platform: Azure
+  system_service: DataFactory
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.17.25.224/28
+    - 20.17.26.192/26
+    - 20.17.27.0/25
+    - 20.17.56.0/23
+    - 20.17.71.64/28
+    - 2603:1040:1503:1::400/121
+    - 2603:1040:1503:400::3c0/124
+  ipv4:
+    - 20.17.25.224/28
+    - 20.17.26.192/26
+    - 20.17.27.0/25
+    - 20.17.56.0/23
+    - 20.17.71.64/28
+  ipv6:
+    - 2603:1040:1503:1::400/121
+    - 2603:1040:1503:400::3c0/124
+  counts:
+    total: 7
+    ipv4: 5
+    ipv6: 2

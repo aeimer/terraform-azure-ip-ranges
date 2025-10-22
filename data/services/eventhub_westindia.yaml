@@ -1,0 +1,32 @@
+id: EventHub.WestIndia
+name: EventHub.WestIndia
+metadata:
+  change_number: 5
+  region: westindia
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.192.83.0/24
+    - 104.211.146.32/27
+    - 2603:1040:806::240/122
+    - 2603:1040:806:2::/120
+    - 2603:1040:806:402::1c0/123
+  ipv4:
+    - 20.192.83.0/24
+    - 104.211.146.32/27
+  ipv6:
+    - 2603:1040:806::240/122
+    - 2603:1040:806:2::/120
+    - 2603:1040:806:402::1c0/123
+  counts:
+    total: 5
+    ipv4: 2
+    ipv6: 3

@@ -1,0 +1,38 @@
+id: MicrosoftContainerRegistry.EastUS2EUAP
+name: MicrosoftContainerRegistry.EastUS2EUAP
+metadata:
+  change_number: 3
+  region: eastus2euap
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.74.146.40/29
+    - 40.75.34.24/29
+    - 52.138.90.24/29
+    - 68.220.82.64/29
+    - 2603:1030:40b:400::888/125
+    - 2603:1030:40b:800::88/125
+    - 2603:1030:40b:c00::88/125
+    - 2603:1030:40b:1000::/125
+  ipv4:
+    - 40.74.146.40/29
+    - 40.75.34.24/29
+    - 52.138.90.24/29
+    - 68.220.82.64/29
+  ipv6:
+    - 2603:1030:40b:400::888/125
+    - 2603:1030:40b:800::88/125
+    - 2603:1030:40b:c00::88/125
+    - 2603:1030:40b:1000::/125
+  counts:
+    total: 8
+    ipv4: 4
+    ipv6: 4

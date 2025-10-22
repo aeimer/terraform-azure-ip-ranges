@@ -1,0 +1,42 @@
+id: PowerBI.QatarCentral
+name: PowerBI.QatarCentral
+metadata:
+  change_number: 1
+  region: qatarcentral
+  platform: Azure
+  system_service: PowerBI
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.171.26.72/29
+    - 20.21.32.22/31
+    - 20.21.36.124/30
+    - 20.21.37.48/29
+    - 20.21.55.216/29
+    - 20.21.80.22/31
+    - 20.21.83.144/29
+    - 20.21.88.32/27
+    - 2603:1040:1002:1::400/122
+    - 2603:1040:1002:1::440/123
+  ipv4:
+    - 4.171.26.72/29
+    - 20.21.32.22/31
+    - 20.21.36.124/30
+    - 20.21.37.48/29
+    - 20.21.55.216/29
+    - 20.21.80.22/31
+    - 20.21.83.144/29
+    - 20.21.88.32/27
+  ipv6:
+    - 2603:1040:1002:1::400/122
+    - 2603:1040:1002:1::440/123
+  counts:
+    total: 10
+    ipv4: 8
+    ipv6: 2

@@ -1,0 +1,30 @@
+id: PowerPlatformInfra.CentralUS
+name: PowerPlatformInfra.CentralUS
+metadata:
+  change_number: 2
+  region: centralus
+  platform: Azure
+  system_service: PowerPlatformInfra
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 172.212.241.0/24
+    - 172.212.242.0/25
+    - 172.212.243.0/24
+    - 2603:1061:2002:200::/57
+  ipv4:
+    - 172.212.241.0/24
+    - 172.212.242.0/25
+    - 172.212.243.0/24
+  ipv6:
+    - 2603:1061:2002:200::/57
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

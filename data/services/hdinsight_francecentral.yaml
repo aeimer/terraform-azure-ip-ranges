@@ -1,0 +1,32 @@
+id: HDInsight.FranceCentral
+name: HDInsight.FranceCentral
+metadata:
+  change_number: 4
+  region: centralfrance
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.43.45.224/29
+    - 20.188.39.64/32
+    - 40.79.130.248/29
+    - 40.89.157.135/32
+    - 2603:1020:805:402::320/124
+  ipv4:
+    - 20.43.45.224/29
+    - 20.188.39.64/32
+    - 40.79.130.248/29
+    - 40.89.157.135/32
+  ipv6:
+    - 2603:1020:805:402::320/124
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

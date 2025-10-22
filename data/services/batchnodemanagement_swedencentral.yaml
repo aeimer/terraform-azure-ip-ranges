@@ -1,0 +1,30 @@
+id: BatchNodeManagement.SwedenCentral
+name: BatchNodeManagement.SwedenCentral
+metadata:
+  change_number: 1
+  region: swedencentral
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.12.41.192/27
+    - 51.12.100.0/27
+    - 51.12.227.96/27
+    - 51.12.235.96/27
+    - 2603:1020:1004::340/122
+  ipv4:
+    - 51.12.41.192/27
+    - 51.12.100.0/27
+    - 51.12.227.96/27
+    - 51.12.235.96/27
+  ipv6:
+    - 2603:1020:1004::340/122
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

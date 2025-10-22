@@ -1,0 +1,22 @@
+id: AzureAttestation.BrazilSouth
+name: AzureAttestation.BrazilSouth
+metadata:
+  change_number: 1
+  region: brazilsouth
+  platform: Azure
+  system_service: AzureAttestation
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 191.233.207.212/30
+    - 191.238.72.72/30
+  ipv4:
+    - 191.233.207.212/30
+    - 191.238.72.72/30
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

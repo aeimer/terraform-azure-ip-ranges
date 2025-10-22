@@ -1,0 +1,34 @@
+id: MicrosoftContainerRegistry.CanadaCentral
+name: MicrosoftContainerRegistry.CanadaCentral
+metadata:
+  change_number: 2
+  region: canadacentral
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.71.170.48/29
+    - 20.38.146.136/29
+    - 52.246.154.136/29
+    - 2603:1030:f05:402::88/125
+    - 2603:1030:f05:802::88/125
+    - 2603:1030:f05:c02::88/125
+  ipv4:
+    - 13.71.170.48/29
+    - 20.38.146.136/29
+    - 52.246.154.136/29
+  ipv6:
+    - 2603:1030:f05:402::88/125
+    - 2603:1030:f05:802::88/125
+    - 2603:1030:f05:c02::88/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

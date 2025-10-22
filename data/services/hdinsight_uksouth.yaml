@@ -1,0 +1,32 @@
+id: HDInsight.UKSouth
+name: HDInsight.UKSouth
+metadata:
+  change_number: 3
+  region: uksouth
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.104.8.96/29
+    - 51.104.31.56/29
+    - 51.140.47.39/32
+    - 51.140.52.16/32
+    - 2603:1020:705:402::320/124
+  ipv4:
+    - 51.104.8.96/29
+    - 51.104.31.56/29
+    - 51.140.47.39/32
+    - 51.140.52.16/32
+  ipv6:
+    - 2603:1020:705:402::320/124
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

@@ -1,0 +1,26 @@
+id: HDInsight.PolandCentral
+name: HDInsight.PolandCentral
+metadata:
+  change_number: 1
+  region: polandcentral
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.215.6.136/29
+    - 2603:1020:1302:1::540/124
+  ipv4:
+    - 20.215.6.136/29
+  ipv6:
+    - 2603:1020:1302:1::540/124
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

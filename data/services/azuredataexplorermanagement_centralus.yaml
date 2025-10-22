@@ -1,0 +1,30 @@
+id: AzureDataExplorerManagement.CentralUS
+name: AzureDataExplorerManagement.CentralUS
+metadata:
+  change_number: 3
+  region: centralus
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.86.36.42/32
+    - 13.89.174.80/28
+    - 40.67.188.68/32
+    - 172.212.135.160/28
+    - 2603:1030:10::600/121
+    - 2603:1030:10:402::150/124
+  ipv4:
+    - 13.86.36.42/32
+    - 13.89.174.80/28
+    - 40.67.188.68/32
+    - 172.212.135.160/28
+  ipv6:
+    - 2603:1030:10::600/121
+    - 2603:1030:10:402::150/124
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

@@ -1,0 +1,30 @@
+id: DataFactory.GermanyNorth
+name: DataFactory.GermanyNorth
+metadata:
+  change_number: 2
+  region: germanyn
+  platform: Azure
+  system_service: DataFactory
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.52.73.160/28
+    - 20.170.170.0/23
+    - 2603:1020:d04::440/122
+    - 2603:1020:d04::500/121
+    - 2603:1020:d04:402::330/124
+  ipv4:
+    - 20.52.73.160/28
+    - 20.170.170.0/23
+  ipv6:
+    - 2603:1020:d04::440/122
+    - 2603:1020:d04::500/121
+    - 2603:1020:d04:402::330/124
+  counts:
+    total: 5
+    ipv4: 2
+    ipv6: 3

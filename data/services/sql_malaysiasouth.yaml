@@ -1,0 +1,36 @@
+id: Sql.MalaysiaSouth
+name: Sql.MalaysiaSouth
+metadata:
+  change_number: 1
+  region: malaysiasouth
+  platform: Azure
+  system_service: AzureSQL
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.17.59.128/27
+    - 20.17.59.192/26
+    - 20.17.64.64/27
+    - 20.17.65.64/27
+    - 20.17.67.248/29
+    - 2603:1040:1503:2::300/123
+    - 2603:1040:1503:2::380/121
+  ipv4:
+    - 20.17.59.128/27
+    - 20.17.59.192/26
+    - 20.17.64.64/27
+    - 20.17.65.64/27
+    - 20.17.67.248/29
+  ipv6:
+    - 2603:1040:1503:2::300/123
+    - 2603:1040:1503:2::380/121
+  counts:
+    total: 7
+    ipv4: 5
+    ipv6: 2

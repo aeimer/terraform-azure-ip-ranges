@@ -1,0 +1,30 @@
+id: AzureSignalR.KoreaCentral
+name: AzureSignalR.KoreaCentral
+metadata:
+  change_number: 5
+  region: koreacentral
+  platform: Azure
+  system_service: AzureSignalR
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.181.42.224/27
+    - 4.181.53.0/27
+    - 20.194.73.192/27
+    - 52.231.20.96/27
+    - 52.231.20.192/26
+    - 2603:1040:f05:2::700/120
+  ipv4:
+    - 4.181.42.224/27
+    - 4.181.53.0/27
+    - 20.194.73.192/27
+    - 52.231.20.96/27
+    - 52.231.20.192/26
+  ipv6:
+    - 2603:1040:f05:2::700/120
+  counts:
+    total: 6
+    ipv4: 5
+    ipv6: 1

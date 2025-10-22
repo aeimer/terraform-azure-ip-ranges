@@ -1,0 +1,42 @@
+id: PowerBI.GermanyNorth
+name: PowerBI.GermanyNorth
+metadata:
+  change_number: 2
+  region: germanyn
+  platform: Azure
+  system_service: PowerBI
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.113.251.128/28
+    - 20.170.175.32/27
+    - 20.170.220.184/29
+    - 51.116.48.68/31
+    - 51.116.48.128/30
+    - 51.116.48.136/29
+    - 51.116.55.168/30
+    - 51.116.75.72/29
+    - 2603:1020:d04::620/123
+    - 2603:1020:d04::640/122
+  ipv4:
+    - 20.113.251.128/28
+    - 20.170.175.32/27
+    - 20.170.220.184/29
+    - 51.116.48.68/31
+    - 51.116.48.128/30
+    - 51.116.48.136/29
+    - 51.116.55.168/30
+    - 51.116.75.72/29
+  ipv6:
+    - 2603:1020:d04::620/123
+    - 2603:1020:d04::640/122
+  counts:
+    total: 10
+    ipv4: 8
+    ipv6: 2

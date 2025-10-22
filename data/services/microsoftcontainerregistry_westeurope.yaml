@@ -1,0 +1,36 @@
+id: MicrosoftContainerRegistry.WestEurope
+name: MicrosoftContainerRegistry.WestEurope
+metadata:
+  change_number: 3
+  region: westeurope
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.69.64.80/29
+    - 13.69.106.72/29
+    - 52.236.186.72/29
+    - 2603:1020:206:402::88/125
+    - 2603:1020:206:403::28/125
+    - 2603:1020:206:802::88/125
+    - 2603:1020:206:c02::88/125
+  ipv4:
+    - 13.69.64.80/29
+    - 13.69.106.72/29
+    - 52.236.186.72/29
+  ipv6:
+    - 2603:1020:206:402::88/125
+    - 2603:1020:206:403::28/125
+    - 2603:1020:206:802::88/125
+    - 2603:1020:206:c02::88/125
+  counts:
+    total: 7
+    ipv4: 3
+    ipv6: 4

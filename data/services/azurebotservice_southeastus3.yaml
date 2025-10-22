@@ -1,0 +1,22 @@
+id: AzureBotService.SoutheastUS3
+name: AzureBotService.SoutheastUS3
+metadata:
+  change_number: 1
+  region: southeastus3
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 74.7.40.16/30
+    - 2603:1030:1302::20/123
+  ipv4:
+    - 74.7.40.16/30
+  ipv6:
+    - 2603:1030:1302::20/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

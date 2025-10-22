@@ -1,0 +1,22 @@
+id: AzureCognitiveSearch.KoreaSouth
+name: AzureCognitiveSearch.KoreaSouth
+metadata:
+  change_number: 2
+  region: koreasouth
+  platform: Azure
+  system_service: AzureCognitiveSearch
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.80.169.64/26
+    - 2603:1040:e05:1::/121
+  ipv4:
+    - 40.80.169.64/26
+  ipv6:
+    - 2603:1040:e05:1::/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

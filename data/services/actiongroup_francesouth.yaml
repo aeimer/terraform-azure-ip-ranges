@@ -1,0 +1,26 @@
+id: ActionGroup.FranceSouth
+name: ActionGroup.FranceSouth
+metadata:
+  change_number: 3
+  region: southfrance
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.111.76.188/30
+    - 51.138.160.220/30
+    - 2603:1020:905::10c/126
+    - 2603:1020:905:402::178/125
+  ipv4:
+    - 20.111.76.188/30
+    - 51.138.160.220/30
+  ipv6:
+    - 2603:1020:905::10c/126
+    - 2603:1020:905:402::178/125
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

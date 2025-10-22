@@ -1,0 +1,28 @@
+id: EventHub.BelgiumCentral
+name: EventHub.BelgiumCentral
+metadata:
+  change_number: 1
+  region: belgiumcentral
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 9.160.45.0/24
+    - 9.160.80.128/26
+    - 2603:1020:1502:1::/120
+  ipv4:
+    - 9.160.45.0/24
+    - 9.160.80.128/26
+  ipv6:
+    - 2603:1020:1502:1::/120
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

@@ -1,0 +1,26 @@
+id: ActionGroup.MalaysiaSouth
+name: ActionGroup.MalaysiaSouth
+metadata:
+  change_number: 2
+  region: malaysiasouth
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.17.63.212/30
+    - 20.17.66.88/30
+    - 2603:1040:1503:1::1c4/126
+    - 2603:1040:1503:400::180/125
+  ipv4:
+    - 20.17.63.212/30
+    - 20.17.66.88/30
+  ipv6:
+    - 2603:1040:1503:1::1c4/126
+    - 2603:1040:1503:400::180/125
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

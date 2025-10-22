@@ -1,0 +1,38 @@
+id: Storage.SwedenSouth
+name: Storage.SwedenSouth
+metadata:
+  change_number: 4
+  region: swedensouth
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.33.175.0/24
+    - 20.60.76.0/23
+    - 20.60.192.0/23
+    - 20.150.45.0/24
+    - 20.150.99.0/24
+    - 20.157.150.0/24
+    - 2603:1020:1105::/48
+    - 2603:1020:1106::/47
+  ipv4:
+    - 20.33.175.0/24
+    - 20.60.76.0/23
+    - 20.60.192.0/23
+    - 20.150.45.0/24
+    - 20.150.99.0/24
+    - 20.157.150.0/24
+  ipv6:
+    - 2603:1020:1105::/48
+    - 2603:1020:1106::/47
+  counts:
+    total: 8
+    ipv4: 6
+    ipv6: 2

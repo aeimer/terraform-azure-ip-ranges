@@ -1,0 +1,24 @@
+id: AzureCognitiveSearch.BrazilSouth
+name: AzureCognitiveSearch.BrazilSouth
+metadata:
+  change_number: 1
+  region: brazilsouth
+  platform: Azure
+  system_service: AzureCognitiveSearch
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 191.233.26.156/32
+    - 191.235.225.64/26
+    - 2603:1050:6:1::180/121
+  ipv4:
+    - 191.233.26.156/32
+    - 191.235.225.64/26
+  ipv6:
+    - 2603:1050:6:1::180/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

@@ -1,0 +1,30 @@
+id: MicrosoftContainerRegistry.WestUS
+name: MicrosoftContainerRegistry.WestUS
+metadata:
+  change_number: 3
+  region: westus
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.168.162.64/29
+    - 40.112.242.152/29
+    - 2603:1030:a07:402::88/125
+    - 2603:1030:a07:c00::40/125
+  ipv4:
+    - 20.168.162.64/29
+    - 40.112.242.152/29
+  ipv6:
+    - 2603:1030:a07:402::88/125
+    - 2603:1030:a07:c00::40/125
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

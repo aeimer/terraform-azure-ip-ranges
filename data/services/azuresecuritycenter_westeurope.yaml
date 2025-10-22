@@ -1,0 +1,36 @@
+id: AzureSecurityCenter.WestEurope
+name: AzureSecurityCenter.WestEurope
+metadata:
+  change_number: 4
+  region: westeurope
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 48.209.0.0/23
+    - 48.209.2.0/25
+    - 50.85.247.64/27
+    - 50.85.247.128/25
+    - 52.178.17.32/27
+    - 57.153.216.0/24
+    - 128.251.169.0/24
+    - 128.251.170.0/23
+    - 172.211.127.64/26
+  ipv4:
+    - 48.209.0.0/23
+    - 48.209.2.0/25
+    - 50.85.247.64/27
+    - 50.85.247.128/25
+    - 52.178.17.32/27
+    - 57.153.216.0/24
+    - 128.251.169.0/24
+    - 128.251.170.0/23
+    - 172.211.127.64/26
+  ipv6: []
+  counts:
+    total: 9
+    ipv4: 9
+    ipv6: 0

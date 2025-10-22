@@ -1,0 +1,26 @@
+id: ApiManagement.MexicoCentral
+name: ApiManagement.MexicoCentral
+metadata:
+  change_number: 1
+  region: mexicocentral
+  platform: Azure
+  system_service: AzureApiManagement
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 158.23.100.128/28
+    - 2603:1030:702::5c0/124
+  ipv4:
+    - 158.23.100.128/28
+  ipv6:
+    - 2603:1030:702::5c0/124
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

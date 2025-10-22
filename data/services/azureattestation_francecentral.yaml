@@ -1,0 +1,22 @@
+id: AzureAttestation.FranceCentral
+name: AzureAttestation.FranceCentral
+metadata:
+  change_number: 1
+  region: centralfrance
+  platform: Azure
+  system_service: AzureAttestation
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.79.141.132/30
+    - 51.138.210.128/30
+  ipv4:
+    - 40.79.141.132/30
+    - 51.138.210.128/30
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

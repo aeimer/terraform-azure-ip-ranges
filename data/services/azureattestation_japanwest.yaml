@@ -1,0 +1,24 @@
+id: AzureAttestation.JapanWest
+name: AzureAttestation.JapanWest
+metadata:
+  change_number: 2
+  region: japanwest
+  platform: Azure
+  system_service: AzureAttestation
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.189.225.84/30
+    - 40.80.180.196/30
+    - 2603:1040:606:3::e0/124
+  ipv4:
+    - 20.189.225.84/30
+    - 40.80.180.196/30
+  ipv6:
+    - 2603:1040:606:3::e0/124
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

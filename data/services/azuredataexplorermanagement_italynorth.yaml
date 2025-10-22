@@ -1,0 +1,22 @@
+id: AzureDataExplorerManagement.ItalyNorth
+name: AzureDataExplorerManagement.ItalyNorth
+metadata:
+  change_number: 1
+  region: italynorth
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.232.30.160/28
+    - 2603:1020:1204:1::220/123
+  ipv4:
+    - 4.232.30.160/28
+  ipv6:
+    - 2603:1020:1204:1::220/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

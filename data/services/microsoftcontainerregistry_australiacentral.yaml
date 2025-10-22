@@ -1,0 +1,22 @@
+id: MicrosoftContainerRegistry.AustraliaCentral
+name: MicrosoftContainerRegistry.AustraliaCentral
+metadata:
+  change_number: 2
+  region: australiacentral
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.53.1.72/29
+    - 2603:1010:304:402::88/125
+  ipv4:
+    - 20.53.1.72/29
+  ipv6:
+    - 2603:1010:304:402::88/125
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

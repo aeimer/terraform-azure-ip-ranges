@@ -1,0 +1,28 @@
+id: StorageSyncService.CentralUSEUAP
+name: StorageSyncService.CentralUSEUAP
+metadata:
+  change_number: 4
+  region: centraluseuap
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.45.192.248/29
+    - 20.45.208.0/29
+    - 20.228.2.32/29
+    - 2603:1030:f:1::340/123
+    - 2603:1030:f:400::dc0/123
+  ipv4:
+    - 20.45.192.248/29
+    - 20.45.208.0/29
+    - 20.228.2.32/29
+  ipv6:
+    - 2603:1030:f:1::340/123
+    - 2603:1030:f:400::dc0/123
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

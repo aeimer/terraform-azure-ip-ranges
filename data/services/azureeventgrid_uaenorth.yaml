@@ -1,0 +1,26 @@
+id: AzureEventGrid.UAENorth
+name: AzureEventGrid.UAENorth
+metadata:
+  change_number: 2
+  region: uaenorth
+  platform: Azure
+  system_service: AzureEventGrid
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.38.137.0/25
+    - 20.46.152.112/28
+    - 20.46.152.128/28
+    - 2603:1040:904:1::380/121
+  ipv4:
+    - 20.38.137.0/25
+    - 20.46.152.112/28
+    - 20.46.152.128/28
+  ipv6:
+    - 2603:1040:904:1::380/121
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

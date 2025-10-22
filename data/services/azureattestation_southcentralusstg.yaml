@@ -1,0 +1,22 @@
+id: AzureAttestation.SouthCentralUSSTG
+name: AzureAttestation.SouthCentralUSSTG
+metadata:
+  change_number: 1
+  region: usstagec
+  platform: Azure
+  system_service: AzureAttestation
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.44.4.248/30
+    - 20.45.116.92/30
+  ipv4:
+    - 20.44.4.248/30
+    - 20.45.116.92/30
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

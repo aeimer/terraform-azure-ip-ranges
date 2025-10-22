@@ -1,0 +1,36 @@
+id: ApiManagement.UAENorth
+name: ApiManagement.UAENorth
+metadata:
+  change_number: 5
+  region: uaenorth
+  platform: Azure
+  system_service: AzureApiManagement
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.46.144.85/32
+    - 40.120.87.48/31
+    - 65.52.250.4/31
+    - 65.52.252.32/28
+    - 74.162.75.118/31
+    - 2603:1040:904:2::690/124
+    - 2603:1040:904:402::140/124
+  ipv4:
+    - 20.46.144.85/32
+    - 40.120.87.48/31
+    - 65.52.250.4/31
+    - 65.52.252.32/28
+    - 74.162.75.118/31
+  ipv6:
+    - 2603:1040:904:2::690/124
+    - 2603:1040:904:402::140/124
+  counts:
+    total: 7
+    ipv4: 5
+    ipv6: 2

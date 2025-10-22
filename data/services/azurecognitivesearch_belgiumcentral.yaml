@@ -1,0 +1,22 @@
+id: AzureCognitiveSearch.BelgiumCentral
+name: AzureCognitiveSearch.BelgiumCentral
+metadata:
+  change_number: 1
+  region: belgiumcentral
+  platform: Azure
+  system_service: AzureCognitiveSearch
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 9.160.40.192/26
+    - 2603:1020:1502::100/121
+  ipv4:
+    - 9.160.40.192/26
+  ipv6:
+    - 2603:1020:1502::100/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

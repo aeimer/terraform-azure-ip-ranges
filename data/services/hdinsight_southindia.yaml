@@ -1,0 +1,34 @@
+id: HDInsight.SouthIndia
+name: HDInsight.SouthIndia
+metadata:
+  change_number: 4
+  region: southindia
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.41.197.120/29
+    - 40.78.195.8/29
+    - 104.211.216.210/32
+    - 104.211.223.67/32
+    - 2603:1040:c06:3::7b0/124
+    - 2603:1040:c06:402::320/124
+  ipv4:
+    - 20.41.197.120/29
+    - 40.78.195.8/29
+    - 104.211.216.210/32
+    - 104.211.223.67/32
+  ipv6:
+    - 2603:1040:c06:3::7b0/124
+    - 2603:1040:c06:402::320/124
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

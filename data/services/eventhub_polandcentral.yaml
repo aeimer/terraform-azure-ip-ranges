@@ -1,0 +1,32 @@
+id: EventHub.PolandCentral
+name: EventHub.PolandCentral
+metadata:
+  change_number: 1
+  region: polandcentral
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.215.5.0/24
+    - 20.215.19.64/26
+    - 20.215.27.64/26
+    - 20.215.155.128/26
+    - 2603:1020:1302:1::/120
+  ipv4:
+    - 20.215.5.0/24
+    - 20.215.19.64/26
+    - 20.215.27.64/26
+    - 20.215.155.128/26
+  ipv6:
+    - 2603:1020:1302:1::/120
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

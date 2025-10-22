@@ -1,0 +1,25 @@
+id: AppServiceManagement.NewZealandNorth
+name: AppServiceManagement.NewZealandNorth
+metadata:
+  change_number: 2
+  region: newzealandnorth
+  platform: Azure
+  system_service: AzureAppServiceManagement
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 172.204.108.32/29
+    - 172.204.166.0/26
+    - 2603:1010:502:2::240/122
+  ipv4:
+    - 172.204.108.32/29
+    - 172.204.166.0/26
+  ipv6:
+    - 2603:1010:502:2::240/122
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

@@ -1,0 +1,40 @@
+id: AppService.KoreaSouth
+name: AppService.KoreaSouth
+metadata:
+  change_number: 4
+  region: koreasouth
+  platform: Azure
+  system_service: AzureAppService
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.80.170.224/27
+    - 52.147.117.224/27
+    - 52.147.118.128/25
+    - 52.147.119.64/27
+    - 52.147.119.128/25
+    - 52.231.146.96/27
+    - 52.231.200.101/32
+    - 52.231.200.179/32
+    - 2603:1040:e05:1::200/120
+  ipv4:
+    - 40.80.170.224/27
+    - 52.147.117.224/27
+    - 52.147.118.128/25
+    - 52.147.119.64/27
+    - 52.147.119.128/25
+    - 52.231.146.96/27
+    - 52.231.200.101/32
+    - 52.231.200.179/32
+  ipv6:
+    - 2603:1040:e05:1::200/120
+  counts:
+    total: 9
+    ipv4: 8
+    ipv6: 1

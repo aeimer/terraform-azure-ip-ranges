@@ -1,0 +1,40 @@
+id: Storage.MalaysiaWest
+name: Storage.MalaysiaWest
+metadata:
+  change_number: 1
+  region: malaysiawest
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.33.140.0/24
+    - 20.33.235.0/24
+    - 20.60.103.0/24
+    - 20.60.104.0/24
+    - 20.153.53.0/24
+    - 20.209.140.0/23
+    - 57.150.94.0/23
+    - 57.150.100.0/24
+    - 2603:1040:1603::/48
+  ipv4:
+    - 20.33.140.0/24
+    - 20.33.235.0/24
+    - 20.60.103.0/24
+    - 20.60.104.0/24
+    - 20.153.53.0/24
+    - 20.209.140.0/23
+    - 57.150.94.0/23
+    - 57.150.100.0/24
+  ipv6:
+    - 2603:1040:1603::/48
+  counts:
+    total: 9
+    ipv4: 8
+    ipv6: 1

@@ -1,0 +1,30 @@
+id: PowerPlatformPlex.SwedenCentral
+name: PowerPlatformPlex.SwedenCentral
+metadata:
+  change_number: 5
+  region: swedencentral
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.91.155.144/29
+    - 74.241.226.96/29
+    - 135.116.77.192/26
+    - 172.160.216.16/29
+    - 2603:1061:2004:8000::/57
+  ipv4:
+    - 20.91.155.144/29
+    - 74.241.226.96/29
+    - 135.116.77.192/26
+    - 172.160.216.16/29
+  ipv6:
+    - 2603:1061:2004:8000::/57
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

@@ -1,0 +1,22 @@
+id: AzureBackup.SouthCentralUSSTG
+name: AzureBackup.SouthCentralUSSTG
+metadata:
+  change_number: 1
+  region: usstagec
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.44.3.64/26
+    - 20.44.3.128/27
+  ipv4:
+    - 20.44.3.64/26
+    - 20.44.3.128/27
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

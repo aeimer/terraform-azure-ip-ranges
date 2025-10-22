@@ -1,0 +1,30 @@
+id: PowerQueryOnline.GermanyNorth
+name: PowerQueryOnline.GermanyNorth
+metadata:
+  change_number: 6
+  region: germanyn
+  platform: Azure
+  system_service: PowerQueryOnline
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.184.2.16/29
+    - 20.170.175.240/28
+    - 51.116.48.70/31
+    - 51.116.78.40/29
+    - 2603:1020:d04::200/123
+    - 2603:1020:d04:402::160/125
+  ipv4:
+    - 4.184.2.16/29
+    - 20.170.175.240/28
+    - 51.116.48.70/31
+    - 51.116.78.40/29
+  ipv6:
+    - 2603:1020:d04::200/123
+    - 2603:1020:d04:402::160/125
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

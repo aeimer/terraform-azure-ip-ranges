@@ -1,0 +1,32 @@
+id: ServiceFabric.UAENorth
+name: ServiceFabric.UAENorth
+metadata:
+  change_number: 2
+  region: uaenorth
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.38.152.68/30
+    - 40.120.74.4/30
+    - 40.123.204.26/32
+    - 65.52.250.224/29
+    - 2603:1040:904:402::98/125
+    - 2603:1040:904:802::98/125
+    - 2603:1040:904:c02::98/125
+  ipv4:
+    - 20.38.152.68/30
+    - 40.120.74.4/30
+    - 40.123.204.26/32
+    - 65.52.250.224/29
+  ipv6:
+    - 2603:1040:904:402::98/125
+    - 2603:1040:904:802::98/125
+    - 2603:1040:904:c02::98/125
+  counts:
+    total: 7
+    ipv4: 4
+    ipv6: 3

@@ -1,0 +1,28 @@
+id: HDInsight.SouthAfricaNorth
+name: HDInsight.SouthAfricaNorth
+metadata:
+  change_number: 3
+  region: southafricanorth
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 102.133.124.0/29
+    - 102.133.219.176/29
+    - 2603:1000:104:402::320/124
+  ipv4:
+    - 102.133.124.0/29
+    - 102.133.219.176/29
+  ipv6:
+    - 2603:1000:104:402::320/124
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

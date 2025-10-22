@@ -1,0 +1,20 @@
+id: AzureSecurityCenter.CentralUSEUAP
+name: AzureSecurityCenter.CentralUSEUAP
+metadata:
+  change_number: 1
+  region: centraluseuap
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 168.61.140.64/27
+  ipv4:
+    - 168.61.140.64/27
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

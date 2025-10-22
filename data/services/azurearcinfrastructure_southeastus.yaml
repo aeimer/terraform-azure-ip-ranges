@@ -1,0 +1,26 @@
+id: AzureArcInfrastructure.SoutheastUS
+name: AzureArcInfrastructure.SoutheastUS
+metadata:
+  change_number: 2
+  region: southeastus
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 57.151.220.212/30
+    - 68.154.136.52/32
+    - 68.154.147.29/32
+    - 2603:1030:902:2::280/124
+  ipv4:
+    - 57.151.220.212/30
+    - 68.154.136.52/32
+    - 68.154.147.29/32
+  ipv6:
+    - 2603:1030:902:2::280/124
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

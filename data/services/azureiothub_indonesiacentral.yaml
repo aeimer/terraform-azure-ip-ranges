@@ -1,0 +1,30 @@
+id: AzureIoTHub.IndonesiaCentral
+name: AzureIoTHub.IndonesiaCentral
+metadata:
+  change_number: 1
+  region: indonesiacentral
+  platform: Azure
+  system_service: AzureIoTHub
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 70.153.177.0/27
+    - 70.153.200.224/27
+    - 70.153.216.224/27
+    - 2603:1040:1802:400::80/123
+    - 2603:1040:1802:800::40/123
+    - 2603:1040:1802:c00::40/123
+  ipv4:
+    - 70.153.177.0/27
+    - 70.153.200.224/27
+    - 70.153.216.224/27
+  ipv6:
+    - 2603:1040:1802:400::80/123
+    - 2603:1040:1802:800::40/123
+    - 2603:1040:1802:c00::40/123
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

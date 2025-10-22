@@ -1,0 +1,22 @@
+id: AzureDevOps.WestCentralUS
+name: AzureDevOps.WestCentralUS
+metadata:
+  change_number: 2
+  region: westcentralus
+  platform: Azure
+  system_service: AzureDevOps
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 52.150.138.0/24
+    - 2603:1030:b04:d::200/120
+  ipv4:
+    - 52.150.138.0/24
+  ipv6:
+    - 2603:1030:b04:d::200/120
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

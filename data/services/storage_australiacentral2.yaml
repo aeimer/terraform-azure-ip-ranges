@@ -1,0 +1,36 @@
+id: Storage.AustraliaCentral2
+name: Storage.AustraliaCentral2
+metadata:
+  change_number: 6
+  region: australiacentral2
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.33.146.0/24
+    - 20.47.36.0/24
+    - 20.60.107.0/24
+    - 20.150.103.0/24
+    - 20.209.156.0/23
+    - 52.239.218.0/23
+    - 2603:1010:405::/48
+  ipv4:
+    - 20.33.146.0/24
+    - 20.47.36.0/24
+    - 20.60.107.0/24
+    - 20.150.103.0/24
+    - 20.209.156.0/23
+    - 52.239.218.0/23
+  ipv6:
+    - 2603:1010:405::/48
+  counts:
+    total: 7
+    ipv4: 6
+    ipv6: 1

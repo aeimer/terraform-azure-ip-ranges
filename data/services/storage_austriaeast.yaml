@@ -1,0 +1,32 @@
+id: Storage.AustriaEast
+name: Storage.AustriaEast
+metadata:
+  change_number: 1
+  region: austriaeast
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.33.239.0/24
+    - 20.33.245.0/24
+    - 57.150.117.0/24
+    - 57.150.120.0/22
+    - 2603:1020:101::/48
+  ipv4:
+    - 20.33.239.0/24
+    - 20.33.245.0/24
+    - 57.150.117.0/24
+    - 57.150.120.0/22
+  ipv6:
+    - 2603:1020:101::/48
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

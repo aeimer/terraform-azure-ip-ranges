@@ -1,0 +1,24 @@
+id: BatchNodeManagement.SouthCentralUS2
+name: BatchNodeManagement.SouthCentralUS2
+metadata:
+  change_number: 1
+  region: southcentralus2
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 48.216.17.64/27
+    - 2603:1030:1102::300/122
+  ipv4:
+    - 48.216.17.64/27
+  ipv6:
+    - 2603:1030:1102::300/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

@@ -1,0 +1,26 @@
+id: MicrosoftContainerRegistry.FranceSouth
+name: MicrosoftContainerRegistry.FranceSouth
+metadata:
+  change_number: 2
+  region: southfrance
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.79.178.72/29
+    - 2603:1020:905:402::88/125
+  ipv4:
+    - 40.79.178.72/29
+  ipv6:
+    - 2603:1020:905:402::88/125
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

@@ -1,0 +1,22 @@
+id: StorageSyncService.SouthAfricaWest
+name: StorageSyncService.SouthAfricaWest
+metadata:
+  change_number: 3
+  region: southafricawest
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 102.133.56.128/29
+    - 2603:1000:4::340/123
+  ipv4:
+    - 102.133.56.128/29
+  ipv6:
+    - 2603:1000:4::340/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

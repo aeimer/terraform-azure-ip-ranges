@@ -1,0 +1,26 @@
+id: LogicApps.SouthCentralUSSTG
+name: LogicApps.SouthCentralUSSTG
+metadata:
+  change_number: 3
+  region: usstagec
+  platform: Azure
+  system_service: LogicApps
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.44.4.176/28
+    - 20.44.4.192/27
+    - 23.100.223.16/28
+    - 57.152.135.32/28
+  ipv4:
+    - 20.44.4.176/28
+    - 20.44.4.192/27
+    - 23.100.223.16/28
+    - 57.152.135.32/28
+  ipv6: []
+  counts:
+    total: 4
+    ipv4: 4
+    ipv6: 0

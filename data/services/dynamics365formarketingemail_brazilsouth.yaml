@@ -1,0 +1,24 @@
+id: Dynamics365ForMarketingEmail.BrazilSouth
+name: Dynamics365ForMarketingEmail.BrazilSouth
+metadata:
+  change_number: 1
+  region: brazilsouth
+  platform: Azure
+  system_service: Dynamics365ForMarketingEmail
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 191.233.202.0/24
+  ipv4:
+    - 191.233.202.0/24
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

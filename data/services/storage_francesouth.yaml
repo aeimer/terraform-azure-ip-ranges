@@ -1,0 +1,40 @@
+id: Storage.FranceSouth
+name: Storage.FranceSouth
+metadata:
+  change_number: 6
+  region: southfrance
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.47.28.0/24
+    - 20.60.11.0/24
+    - 20.60.188.0/23
+    - 20.150.19.0/24
+    - 20.157.156.0/24
+    - 52.239.135.0/26
+    - 52.239.196.0/24
+    - 57.150.21.0/24
+    - 2603:1020:906::/48
+  ipv4:
+    - 20.47.28.0/24
+    - 20.60.11.0/24
+    - 20.60.188.0/23
+    - 20.150.19.0/24
+    - 20.157.156.0/24
+    - 52.239.135.0/26
+    - 52.239.196.0/24
+    - 57.150.21.0/24
+  ipv6:
+    - 2603:1020:906::/48
+  counts:
+    total: 9
+    ipv4: 8
+    ipv6: 1

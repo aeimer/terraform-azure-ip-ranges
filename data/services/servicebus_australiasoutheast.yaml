@@ -1,0 +1,36 @@
+id: ServiceBus.AustraliaSoutheast
+name: ServiceBus.AustraliaSoutheast
+metadata:
+  change_number: 11
+  region: australiasoutheast
+  platform: Azure
+  system_service: AzureServiceBus
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.77.50.16/28
+    - 20.92.0.128/25
+    - 68.218.174.0/24
+    - 68.218.175.0/25
+    - 68.218.175.128/26
+    - 2603:1010:101::220/123
+    - 2603:1010:101:1::500/120
+    - 2603:1010:101:402::170/125
+  ipv4:
+    - 13.77.50.16/28
+    - 20.92.0.128/25
+    - 68.218.174.0/24
+    - 68.218.175.0/25
+    - 68.218.175.128/26
+  ipv6:
+    - 2603:1010:101::220/123
+    - 2603:1010:101:1::500/120
+    - 2603:1010:101:402::170/125
+  counts:
+    total: 8
+    ipv4: 5
+    ipv6: 3

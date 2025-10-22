@@ -1,0 +1,34 @@
+id: AzureArcInfrastructure.SwitzerlandNorth
+name: AzureArcInfrastructure.SwitzerlandNorth
+metadata:
+  change_number: 4
+  region: switzerlandn
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.208.21.162/31
+    - 20.208.151.204/31
+    - 20.208.152.48/29
+    - 51.103.205.160/31
+    - 51.107.50.56/30
+    - 51.107.53.32/30
+    - 51.107.60.152/32
+    - 51.107.129.104/30
+  ipv4:
+    - 20.208.21.162/31
+    - 20.208.151.204/31
+    - 20.208.152.48/29
+    - 51.103.205.160/31
+    - 51.107.50.56/30
+    - 51.107.53.32/30
+    - 51.107.60.152/32
+    - 51.107.129.104/30
+  ipv6: []
+  counts:
+    total: 8
+    ipv4: 8
+    ipv6: 0

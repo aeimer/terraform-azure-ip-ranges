@@ -1,0 +1,24 @@
+id: AzureDataLake.CentralUS
+name: AzureDataLake.CentralUS
+metadata:
+  change_number: 2
+  region: centralus
+  platform: Azure
+  system_service: AzureDataLake
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 104.44.88.176/31
+    - 104.44.88.184/29
+    - 104.44.91.160/27
+  ipv4:
+    - 104.44.88.176/31
+    - 104.44.88.184/29
+    - 104.44.91.160/27
+  ipv6: []
+  counts:
+    total: 3
+    ipv4: 3
+    ipv6: 0

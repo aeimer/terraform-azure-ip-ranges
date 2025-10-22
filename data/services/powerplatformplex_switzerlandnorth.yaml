@@ -1,0 +1,42 @@
+id: PowerPlatformPlex.SwitzerlandNorth
+name: PowerPlatformPlex.SwitzerlandNorth
+metadata:
+  change_number: 9
+  region: switzerlandn
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.208.5.84/30
+    - 20.208.7.120/30
+    - 20.208.7.172/30
+    - 20.208.7.184/30
+    - 20.208.157.0/28
+    - 20.250.175.0/28
+    - 51.103.164.128/28
+    - 74.161.173.192/26
+    - 74.161.174.0/26
+    - 74.242.188.32/29
+    - 2603:1061:2004:5000::/57
+  ipv4:
+    - 20.208.5.84/30
+    - 20.208.7.120/30
+    - 20.208.7.172/30
+    - 20.208.7.184/30
+    - 20.208.157.0/28
+    - 20.250.175.0/28
+    - 51.103.164.128/28
+    - 74.161.173.192/26
+    - 74.161.174.0/26
+    - 74.242.188.32/29
+  ipv6:
+    - 2603:1061:2004:5000::/57
+  counts:
+    total: 11
+    ipv4: 10
+    ipv6: 1

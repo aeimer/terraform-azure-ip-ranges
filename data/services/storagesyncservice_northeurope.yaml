@@ -1,0 +1,22 @@
+id: StorageSyncService.NorthEurope
+name: StorageSyncService.NorthEurope
+metadata:
+  change_number: 2
+  region: northeurope
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.38.85.152/29
+    - 2603:1020:5:1::300/123
+  ipv4:
+    - 20.38.85.152/29
+  ipv6:
+    - 2603:1020:5:1::300/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

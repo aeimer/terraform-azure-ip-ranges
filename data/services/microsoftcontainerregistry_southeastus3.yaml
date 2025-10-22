@@ -1,0 +1,26 @@
+id: MicrosoftContainerRegistry.SoutheastUS3
+name: MicrosoftContainerRegistry.SoutheastUS3
+metadata:
+  change_number: 1
+  region: southeastus3
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 74.7.80.0/29
+    - 2603:1030:1302:400::/125
+  ipv4:
+    - 74.7.80.0/29
+  ipv6:
+    - 2603:1030:1302:400::/125
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

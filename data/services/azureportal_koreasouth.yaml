@@ -1,0 +1,26 @@
+id: AzurePortal.KoreaSouth
+name: AzurePortal.KoreaSouth
+metadata:
+  change_number: 3
+  region: koreasouth
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.80.169.224/27
+    - 40.80.172.16/30
+    - 40.80.173.192/29
+    - 2603:1040:e05:6::300/121
+  ipv4:
+    - 40.80.169.224/27
+    - 40.80.172.16/30
+    - 40.80.173.192/29
+  ipv6:
+    - 2603:1040:e05:6::300/121
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

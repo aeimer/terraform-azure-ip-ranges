@@ -1,0 +1,38 @@
+id: AzureContainerRegistry.WestIndia
+name: AzureContainerRegistry.WestIndia
+metadata:
+  change_number: 5
+  region: westindia
+  platform: Azure
+  system_service: AzureContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.38.132.192/26
+    - 20.38.134.0/25
+    - 104.211.146.80/29
+    - 2603:1040:806:2::310/125
+    - 2603:1040:806:402::90/125
+    - 2603:1040:806:402::340/122
+    - 2603:1040:806:402::580/122
+    - 2603:1040:806:402::600/121
+  ipv4:
+    - 20.38.132.192/26
+    - 20.38.134.0/25
+    - 104.211.146.80/29
+  ipv6:
+    - 2603:1040:806:2::310/125
+    - 2603:1040:806:402::90/125
+    - 2603:1040:806:402::340/122
+    - 2603:1040:806:402::580/122
+    - 2603:1040:806:402::600/121
+  counts:
+    total: 8
+    ipv4: 3
+    ipv6: 5

@@ -1,0 +1,24 @@
+id: AzureEventGrid.FranceCentral
+name: AzureEventGrid.FranceCentral
+metadata:
+  change_number: 1
+  region: centralfrance
+  platform: Azure
+  system_service: AzureEventGrid
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.40.152.128/27
+    - 20.43.42.128/25
+    - 2603:1020:805:1::380/121
+  ipv4:
+    - 20.40.152.128/27
+    - 20.43.42.128/25
+  ipv6:
+    - 2603:1020:805:1::380/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

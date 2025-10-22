@@ -1,0 +1,42 @@
+id: PowerBI.IsraelCentral
+name: PowerBI.IsraelCentral
+metadata:
+  change_number: 4
+  region: israelcentral
+  platform: Azure
+  system_service: PowerBI
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.217.13.64/27
+    - 20.217.44.248/31
+    - 20.217.44.252/30
+    - 20.217.46.128/29
+    - 51.4.87.40/29
+    - 51.58.11.240/28
+    - 51.58.24.112/28
+    - 51.58.25.64/28
+    - 2603:1040:1402:1::1e0/123
+    - 2603:1040:1402:1::280/122
+  ipv4:
+    - 20.217.13.64/27
+    - 20.217.44.248/31
+    - 20.217.44.252/30
+    - 20.217.46.128/29
+    - 51.4.87.40/29
+    - 51.58.11.240/28
+    - 51.58.24.112/28
+    - 51.58.25.64/28
+  ipv6:
+    - 2603:1040:1402:1::1e0/123
+    - 2603:1040:1402:1::280/122
+  counts:
+    total: 10
+    ipv4: 8
+    ipv6: 2

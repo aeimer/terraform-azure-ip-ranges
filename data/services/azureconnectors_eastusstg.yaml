@@ -1,0 +1,28 @@
+id: AzureConnectors.EastUSSTG
+name: AzureConnectors.EastUSSTG
+metadata:
+  change_number: 1
+  region: usstagee
+  platform: Azure
+  system_service: AzureConnectors
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.67.58.240/28
+    - 40.67.60.224/27
+    - 2603:1030:104:402::180/122
+  ipv4:
+    - 40.67.58.240/28
+    - 40.67.60.224/27
+  ipv6:
+    - 2603:1030:104:402::180/122
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

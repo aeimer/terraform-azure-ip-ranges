@@ -1,0 +1,34 @@
+id: MicrosoftContainerRegistry.AustriaEast
+name: MicrosoftContainerRegistry.AustriaEast
+metadata:
+  change_number: 1
+  region: austriaeast
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.210.152.0/29
+    - 68.210.192.0/29
+    - 68.210.208.0/29
+    - 2603:1020:104:403::/125
+    - 2603:1020:104:800::/125
+    - 2603:1020:104:c00::/125
+  ipv4:
+    - 68.210.152.0/29
+    - 68.210.192.0/29
+    - 68.210.208.0/29
+  ipv6:
+    - 2603:1020:104:403::/125
+    - 2603:1020:104:800::/125
+    - 2603:1020:104:c00::/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

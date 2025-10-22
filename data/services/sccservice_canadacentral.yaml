@@ -1,0 +1,24 @@
+id: SCCservice.CanadaCentral
+name: SCCservice.CanadaCentral
+metadata:
+  change_number: 2
+  region: canadacentral
+  platform: Azure
+  system_service: SCCservice
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.248.139.192/27
+    - 13.71.175.192/29
+    - 2603:1030:f05:8::380/123
+  ipv4:
+    - 4.248.139.192/27
+    - 13.71.175.192/29
+  ipv6:
+    - 2603:1030:f05:8::380/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

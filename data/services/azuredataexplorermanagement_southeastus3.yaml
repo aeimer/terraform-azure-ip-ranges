@@ -1,0 +1,22 @@
+id: AzureDataExplorerManagement.SoutheastUS3
+name: AzureDataExplorerManagement.SoutheastUS3
+metadata:
+  change_number: 1
+  region: southeastus3
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 74.7.47.16/28
+    - 2603:1030:1302:1::1e0/123
+  ipv4:
+    - 74.7.47.16/28
+  ipv6:
+    - 2603:1030:1302:1::1e0/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

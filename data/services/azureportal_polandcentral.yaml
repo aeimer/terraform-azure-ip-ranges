@@ -1,0 +1,22 @@
+id: AzurePortal.PolandCentral
+name: AzurePortal.PolandCentral
+metadata:
+  change_number: 1
+  region: polandcentral
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.215.7.0/27
+    - 2603:1020:1302:1::380/121
+  ipv4:
+    - 20.215.7.0/27
+  ipv6:
+    - 2603:1020:1302:1::380/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

@@ -1,0 +1,24 @@
+id: AzureEventGrid.SwitzerlandNorth
+name: AzureEventGrid.SwitzerlandNorth
+metadata:
+  change_number: 1
+  region: switzerlandn
+  platform: Azure
+  system_service: AzureEventGrid
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.107.4.128/27
+    - 51.107.49.0/25
+    - 2603:1020:a04:1::380/121
+  ipv4:
+    - 51.107.4.128/27
+    - 51.107.49.0/25
+  ipv6:
+    - 2603:1020:a04:1::380/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

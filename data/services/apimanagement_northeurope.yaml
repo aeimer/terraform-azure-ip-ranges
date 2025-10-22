@@ -1,0 +1,42 @@
+id: ApiManagement.NorthEurope
+name: ApiManagement.NorthEurope
+metadata:
+  change_number: 5
+  region: northeurope
+  platform: Azure
+  system_service: AzureApiManagement
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.69.227.76/31
+    - 13.69.229.80/28
+    - 40.69.202.80/32
+    - 40.112.94.196/32
+    - 52.142.95.35/32
+    - 52.146.139.194/31
+    - 104.41.217.243/32
+    - 104.41.218.160/32
+    - 134.149.92.118/31
+    - 2603:1020:5:402::140/124
+  ipv4:
+    - 13.69.227.76/31
+    - 13.69.229.80/28
+    - 40.69.202.80/32
+    - 40.112.94.196/32
+    - 52.142.95.35/32
+    - 52.146.139.194/31
+    - 104.41.217.243/32
+    - 104.41.218.160/32
+    - 134.149.92.118/31
+  ipv6:
+    - 2603:1020:5:402::140/124
+  counts:
+    total: 10
+    ipv4: 9
+    ipv6: 1

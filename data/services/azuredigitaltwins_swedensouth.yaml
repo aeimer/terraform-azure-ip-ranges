@@ -1,0 +1,26 @@
+id: AzureDigitalTwins.SwedenSouth
+name: AzureDigitalTwins.SwedenSouth
+metadata:
+  change_number: 1
+  region: swedensouth
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.12.194.120/29
+    - 51.12.195.192/27
+    - 2603:1020:1104:1::380/122
+    - 2603:1020:1104:1::680/121
+  ipv4:
+    - 51.12.194.120/29
+    - 51.12.195.192/27
+  ipv6:
+    - 2603:1020:1104:1::380/122
+    - 2603:1020:1104:1::680/121
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

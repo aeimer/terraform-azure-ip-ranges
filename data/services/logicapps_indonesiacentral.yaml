@@ -1,0 +1,30 @@
+id: LogicApps.IndonesiaCentral
+name: LogicApps.IndonesiaCentral
+metadata:
+  change_number: 3
+  region: indonesiacentral
+  platform: Azure
+  system_service: LogicApps
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 70.153.175.192/26
+    - 70.153.180.64/28
+    - 70.153.180.96/27
+    - 2603:1040:1802:3::340/123
+    - 2603:1040:1802:400::360/123
+    - 2603:1040:1802:400::380/123
+  ipv4:
+    - 70.153.175.192/26
+    - 70.153.180.64/28
+    - 70.153.180.96/27
+  ipv6:
+    - 2603:1040:1802:3::340/123
+    - 2603:1040:1802:400::360/123
+    - 2603:1040:1802:400::380/123
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

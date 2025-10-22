@@ -1,0 +1,26 @@
+id: AzureArcInfrastructure.SouthAfricaWest
+name: AzureArcInfrastructure.SouthAfricaWest
+metadata:
+  change_number: 3
+  region: southafricawest
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.117.28.40/29
+    - 40.117.28.96/31
+    - 102.37.64.160/30
+    - 102.133.57.188/30
+  ipv4:
+    - 40.117.28.40/29
+    - 40.117.28.96/31
+    - 102.37.64.160/30
+    - 102.133.57.188/30
+  ipv6: []
+  counts:
+    total: 4
+    ipv4: 4
+    ipv6: 0

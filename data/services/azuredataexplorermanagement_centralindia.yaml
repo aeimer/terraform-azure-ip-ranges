@@ -1,0 +1,30 @@
+id: AzureDataExplorerManagement.CentralIndia
+name: AzureDataExplorerManagement.CentralIndia
+metadata:
+  change_number: 3
+  region: centralindia
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.43.120.96/28
+    - 20.192.47.96/28
+    - 40.81.248.53/32
+    - 40.81.249.251/32
+    - 2603:1040:a06::700/121
+    - 2603:1040:a06:402::150/124
+  ipv4:
+    - 20.43.120.96/28
+    - 20.192.47.96/28
+    - 40.81.248.53/32
+    - 40.81.249.251/32
+  ipv6:
+    - 2603:1040:a06::700/121
+    - 2603:1040:a06:402::150/124
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

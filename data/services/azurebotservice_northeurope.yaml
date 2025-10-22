@@ -1,0 +1,24 @@
+id: AzureBotService.NorthEurope
+name: AzureBotService.NorthEurope
+metadata:
+  change_number: 2
+  region: northeurope
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.69.227.252/30
+    - 20.38.80.64/30
+    - 2603:1020:5:1::20/123
+  ipv4:
+    - 13.69.227.252/30
+    - 20.38.80.64/30
+  ipv6:
+    - 2603:1020:5:1::20/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

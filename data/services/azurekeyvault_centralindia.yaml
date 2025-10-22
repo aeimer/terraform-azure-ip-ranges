@@ -1,0 +1,44 @@
+id: AzureKeyVault.CentralIndia
+name: AzureKeyVault.CentralIndia
+metadata:
+  change_number: 7
+  region: centralindia
+  platform: Azure
+  system_service: AzureKeyVault
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.192.44.112/29
+    - 20.192.44.120/30
+    - 20.192.102.64/30
+    - 40.80.53.8/30
+    - 104.211.81.24/30
+    - 2603:1040:a06::440/125
+    - 2603:1040:a06:1::108/125
+    - 2603:1040:a06:3::254/126
+    - 2603:1040:a06:402::80/125
+    - 2603:1040:a06:802::80/125
+    - 2603:1040:a06:c02::80/125
+  ipv4:
+    - 20.192.44.112/29
+    - 20.192.44.120/30
+    - 20.192.102.64/30
+    - 40.80.53.8/30
+    - 104.211.81.24/30
+  ipv6:
+    - 2603:1040:a06::440/125
+    - 2603:1040:a06:1::108/125
+    - 2603:1040:a06:3::254/126
+    - 2603:1040:a06:402::80/125
+    - 2603:1040:a06:802::80/125
+    - 2603:1040:a06:c02::80/125
+  counts:
+    total: 11
+    ipv4: 5
+    ipv6: 6

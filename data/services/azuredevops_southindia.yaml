@@ -1,0 +1,22 @@
+id: AzureDevOps.SouthIndia
+name: AzureDevOps.SouthIndia
+metadata:
+  change_number: 2
+  region: southindia
+  platform: Azure
+  system_service: AzureDevOps
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.41.194.0/24
+    - 2603:1040:c06:a::300/120
+  ipv4:
+    - 20.41.194.0/24
+  ipv6:
+    - 2603:1040:c06:a::300/120
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

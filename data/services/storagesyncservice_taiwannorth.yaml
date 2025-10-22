@@ -1,0 +1,26 @@
+id: StorageSyncService.TaiwanNorth
+name: StorageSyncService.TaiwanNorth
+metadata:
+  change_number: 2
+  region: taiwannorth
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.53.107.240/29
+    - 70.157.11.144/29
+    - 2603:1040:1302:5::320/123
+    - 2603:1040:1302:400::260/123
+  ipv4:
+    - 51.53.107.240/29
+    - 70.157.11.144/29
+  ipv6:
+    - 2603:1040:1302:5::320/123
+    - 2603:1040:1302:400::260/123
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

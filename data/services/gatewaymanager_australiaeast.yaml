@@ -1,0 +1,27 @@
+id: GatewayManager.AustraliaEast
+name: GatewayManager.AustraliaEast
+metadata:
+  change_number: 4
+  region: australiaeast
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.70.72.208/29
+    - 20.37.192.72/29
+    - 20.70.222.128/27
+    - 2603:1010:6:1::40/122
+  ipv4:
+    - 13.70.72.208/29
+    - 20.37.192.72/29
+    - 20.70.222.128/27
+  ipv6:
+    - 2603:1010:6:1::40/122
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

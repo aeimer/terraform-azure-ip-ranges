@@ -1,0 +1,26 @@
+id: ServiceBus.BelgiumCentral
+name: ServiceBus.BelgiumCentral
+metadata:
+  change_number: 1
+  region: belgiumcentral
+  platform: Azure
+  system_service: AzureServiceBus
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 9.160.46.0/25
+    - 9.160.80.16/29
+    - 2603:1020:1502::780/121
+  ipv4:
+    - 9.160.46.0/25
+    - 9.160.80.16/29
+  ipv6:
+    - 2603:1020:1502::780/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

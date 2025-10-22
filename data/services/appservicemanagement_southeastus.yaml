@@ -1,0 +1,23 @@
+id: AppServiceManagement.SoutheastUS
+name: AppServiceManagement.SoutheastUS
+metadata:
+  change_number: 1
+  region: southeastus
+  platform: Azure
+  system_service: AzureAppServiceManagement
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 57.151.221.128/26
+    - 2603:1030:902:2::2c0/122
+  ipv4:
+    - 57.151.221.128/26
+  ipv6:
+    - 2603:1030:902:2::2c0/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

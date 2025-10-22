@@ -1,0 +1,26 @@
+id: AzurePortal.SouthIndia
+name: AzurePortal.SouthIndia
+metadata:
+  change_number: 1
+  region: southindia
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.41.193.224/27
+    - 20.41.197.16/30
+    - 52.172.112.152/29
+    - 2603:1040:c06::700/121
+  ipv4:
+    - 20.41.193.224/27
+    - 20.41.197.16/30
+    - 52.172.112.152/29
+  ipv6:
+    - 2603:1040:c06::700/121
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

@@ -1,0 +1,24 @@
+id: ActionGroup.CentralUS
+name: ActionGroup.CentralUS
+metadata:
+  change_number: 2
+  region: centralus
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 172.202.80.168/30
+    - 2603:1030:10:1::118/126
+    - 2603:1030:10:402::178/125
+  ipv4:
+    - 172.202.80.168/30
+  ipv6:
+    - 2603:1030:10:1::118/126
+    - 2603:1030:10:402::178/125
+  counts:
+    total: 3
+    ipv4: 1
+    ipv6: 2

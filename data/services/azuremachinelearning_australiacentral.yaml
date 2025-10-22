@@ -1,0 +1,24 @@
+id: AzureMachineLearning.AustraliaCentral
+name: AzureMachineLearning.AustraliaCentral
+metadata:
+  change_number: 2
+  region: australiacentral
+  platform: Azure
+  system_service: AzureMachineLearning
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.36.106.80/28
+    - 20.213.226.160/28
+    - 2603:1010:304::300/122
+  ipv4:
+    - 20.36.106.80/28
+    - 20.213.226.160/28
+  ipv6:
+    - 2603:1010:304::300/122
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

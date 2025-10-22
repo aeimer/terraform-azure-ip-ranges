@@ -1,0 +1,26 @@
+id: AzureMachineLearning.CentralUSEUAP
+name: AzureMachineLearning.CentralUSEUAP
+metadata:
+  change_number: 4
+  region: centraluseuap
+  platform: Azure
+  system_service: AzureMachineLearning
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.45.240.64/28
+    - 20.46.13.192/28
+    - 40.78.202.80/28
+    - 2603:1030:f:1::300/122
+  ipv4:
+    - 20.45.240.64/28
+    - 20.46.13.192/28
+    - 40.78.202.80/28
+  ipv6:
+    - 2603:1030:f:1::300/122
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

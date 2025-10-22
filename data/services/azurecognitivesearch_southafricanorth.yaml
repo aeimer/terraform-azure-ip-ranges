@@ -1,0 +1,24 @@
+id: AzureCognitiveSearch.SouthAfricaNorth
+name: AzureCognitiveSearch.SouthAfricaNorth
+metadata:
+  change_number: 1
+  region: southafricanorth
+  platform: Azure
+  system_service: AzureCognitiveSearch
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 102.133.128.33/32
+    - 102.133.217.128/26
+    - 2603:1000:104:1::180/121
+  ipv4:
+    - 102.133.128.33/32
+    - 102.133.217.128/26
+  ipv6:
+    - 2603:1000:104:1::180/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

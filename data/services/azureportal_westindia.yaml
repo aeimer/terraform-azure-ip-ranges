@@ -1,0 +1,26 @@
+id: AzurePortal.WestIndia
+name: AzurePortal.WestIndia
+metadata:
+  change_number: 1
+  region: westindia
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 52.136.49.160/27
+    - 52.136.51.72/30
+    - 52.136.52.232/29
+    - 2603:1040:806::700/121
+  ipv4:
+    - 52.136.49.160/27
+    - 52.136.51.72/30
+    - 52.136.52.232/29
+  ipv6:
+    - 2603:1040:806::700/121
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

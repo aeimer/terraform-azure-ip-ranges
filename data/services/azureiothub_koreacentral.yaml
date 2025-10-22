@@ -1,0 +1,36 @@
+id: AzureIoTHub.KoreaCentral
+name: AzureIoTHub.KoreaCentral
+metadata:
+  change_number: 1
+  region: koreacentral
+  platform: Azure
+  system_service: AzureIoTHub
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.41.68.96/27
+    - 20.41.68.128/25
+    - 20.44.29.0/27
+    - 20.194.67.96/27
+    - 52.231.20.32/27
+    - 52.231.32.236/32
+    - 2603:1040:f05:402::300/123
+    - 2603:1040:f05:802::240/123
+    - 2603:1040:f05:c02::240/123
+  ipv4:
+    - 20.41.68.96/27
+    - 20.41.68.128/25
+    - 20.44.29.0/27
+    - 20.194.67.96/27
+    - 52.231.20.32/27
+    - 52.231.32.236/32
+  ipv6:
+    - 2603:1040:f05:402::300/123
+    - 2603:1040:f05:802::240/123
+    - 2603:1040:f05:c02::240/123
+  counts:
+    total: 9
+    ipv4: 6
+    ipv6: 3

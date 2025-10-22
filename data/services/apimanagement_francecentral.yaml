@@ -1,0 +1,34 @@
+id: ApiManagement.FranceCentral
+name: ApiManagement.FranceCentral
+metadata:
+  change_number: 4
+  region: centralfrance
+  platform: Azure
+  system_service: AzureApiManagement
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.66.60.111/32
+    - 40.79.130.44/31
+    - 40.79.131.192/28
+    - 48.220.16.2/31
+    - 51.138.215.124/31
+    - 2603:1020:805:402::140/124
+  ipv4:
+    - 40.66.60.111/32
+    - 40.79.130.44/31
+    - 40.79.131.192/28
+    - 48.220.16.2/31
+    - 51.138.215.124/31
+  ipv6:
+    - 2603:1020:805:402::140/124
+  counts:
+    total: 6
+    ipv4: 5
+    ipv6: 1

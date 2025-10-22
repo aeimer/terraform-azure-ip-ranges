@@ -1,0 +1,28 @@
+id: AzureResourceManager.GermanyWestCentral
+name: AzureResourceManager.GermanyWestCentral
+metadata:
+  change_number: 1
+  region: germanywc
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.116.150.0/23
+    - 51.116.156.32/28
+    - 51.116.159.0/24
+    - 2603:1020:c04::180/122
+    - 2603:1020:c04:402::280/122
+  ipv4:
+    - 51.116.150.0/23
+    - 51.116.156.32/28
+    - 51.116.159.0/24
+  ipv6:
+    - 2603:1020:c04::180/122
+    - 2603:1020:c04:402::280/122
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

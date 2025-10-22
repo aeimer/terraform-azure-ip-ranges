@@ -1,0 +1,46 @@
+id: AzureConnectors.SwitzerlandNorth
+name: AzureConnectors.SwitzerlandNorth
+metadata:
+  change_number: 7
+  region: switzerlandn
+  platform: Azure
+  system_service: AzureConnectors
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.208.24.31/32
+    - 20.208.25.252/32
+    - 20.250.210.60/32
+    - 20.250.210.118/32
+    - 51.103.142.22/32
+    - 51.103.143.163/32
+    - 51.107.59.16/28
+    - 51.107.60.224/27
+    - 51.107.86.217/32
+    - 51.107.246.112/28
+    - 51.107.246.128/27
+    - 2603:1020:a04:402::180/122
+  ipv4:
+    - 20.208.24.31/32
+    - 20.208.25.252/32
+    - 20.250.210.60/32
+    - 20.250.210.118/32
+    - 51.103.142.22/32
+    - 51.103.143.163/32
+    - 51.107.59.16/28
+    - 51.107.60.224/27
+    - 51.107.86.217/32
+    - 51.107.246.112/28
+    - 51.107.246.128/27
+  ipv6:
+    - 2603:1020:a04:402::180/122
+  counts:
+    total: 12
+    ipv4: 11
+    ipv6: 1

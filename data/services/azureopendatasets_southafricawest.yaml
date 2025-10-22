@@ -1,0 +1,20 @@
+id: AzureOpenDatasets.SouthAfricaWest
+name: AzureOpenDatasets.SouthAfricaWest
+metadata:
+  change_number: 1
+  region: southafricawest
+  platform: Azure
+  system_service: AzureOpenDatasets
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 102.133.56.112/28
+  ipv4:
+    - 102.133.56.112/28
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

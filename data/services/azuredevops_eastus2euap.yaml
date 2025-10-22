@@ -1,0 +1,22 @@
+id: AzureDevOps.EastUS2EUAP
+name: AzureDevOps.EastUS2EUAP
+metadata:
+  change_number: 2
+  region: eastus2euap
+  platform: Azure
+  system_service: AzureDevOps
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.39.13.0/26
+    - 2603:1030:40b:f::400/122
+  ipv4:
+    - 20.39.13.0/26
+  ipv6:
+    - 2603:1030:40b:f::400/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

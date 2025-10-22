@@ -1,0 +1,26 @@
+id: MicrosoftContainerRegistry.UKWest
+name: MicrosoftContainerRegistry.UKWest
+metadata:
+  change_number: 2
+  region: ukwest
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.140.210.88/29
+    - 2603:1020:605:402::88/125
+  ipv4:
+    - 51.140.210.88/29
+  ipv6:
+    - 2603:1020:605:402::88/125
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

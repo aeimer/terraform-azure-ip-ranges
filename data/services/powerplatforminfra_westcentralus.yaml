@@ -1,0 +1,28 @@
+id: PowerPlatformInfra.WestCentralUS
+name: PowerPlatformInfra.WestCentralUS
+metadata:
+  change_number: 2
+  region: westcentralus
+  platform: Azure
+  system_service: PowerPlatformInfra
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 52.150.154.48/28
+    - 52.150.154.128/26
+    - 2603:1061:2002:400::/57
+  ipv4:
+    - 52.150.154.48/28
+    - 52.150.154.128/26
+  ipv6:
+    - 2603:1061:2002:400::/57
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

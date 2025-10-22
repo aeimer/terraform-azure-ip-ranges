@@ -1,0 +1,34 @@
+id: AzureArcInfrastructure.AustraliaCentral
+name: AzureArcInfrastructure.AustraliaCentral
+metadata:
+  change_number: 6
+  region: australiacentral
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.37.226.52/30
+    - 20.37.228.8/30
+    - 20.53.0.34/31
+    - 20.53.0.112/30
+    - 20.53.0.120/29
+    - 20.213.229.2/31
+    - 20.213.229.8/29
+    - 2603:1010:304:5::420/124
+  ipv4:
+    - 20.37.226.52/30
+    - 20.37.228.8/30
+    - 20.53.0.34/31
+    - 20.53.0.112/30
+    - 20.53.0.120/29
+    - 20.213.229.2/31
+    - 20.213.229.8/29
+  ipv6:
+    - 2603:1010:304:5::420/124
+  counts:
+    total: 8
+    ipv4: 7
+    ipv6: 1

@@ -1,0 +1,30 @@
+id: AzureResourceManager.WestIndia
+name: AzureResourceManager.WestIndia
+metadata:
+  change_number: 2
+  region: westindia
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.38.128.32/28
+    - 20.38.130.0/23
+    - 52.136.54.0/23
+    - 2603:1040:806::6c0/122
+    - 2603:1040:806:3::500/120
+    - 2603:1040:806:402::280/122
+  ipv4:
+    - 20.38.128.32/28
+    - 20.38.130.0/23
+    - 52.136.54.0/23
+  ipv6:
+    - 2603:1040:806::6c0/122
+    - 2603:1040:806:3::500/120
+    - 2603:1040:806:402::280/122
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

@@ -1,0 +1,28 @@
+id: HDInsight.GermanyWestCentral
+name: HDInsight.GermanyWestCentral
+metadata:
+  change_number: 3
+  region: germanywc
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.116.145.168/29
+    - 51.116.156.48/29
+    - 2603:1020:c04:402::320/124
+  ipv4:
+    - 51.116.145.168/29
+    - 51.116.156.48/29
+  ipv6:
+    - 2603:1020:c04:402::320/124
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

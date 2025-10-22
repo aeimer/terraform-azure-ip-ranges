@@ -1,0 +1,36 @@
+id: EventHub.EastAsia
+name: EventHub.EastAsia
+metadata:
+  change_number: 6
+  region: eastasia
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.75.34.64/26
+    - 20.195.77.0/24
+    - 20.205.75.128/26
+    - 20.205.83.128/26
+    - 2603:1040:207::240/122
+    - 2603:1040:207:2::100/120
+    - 2603:1040:207:402::1c0/123
+  ipv4:
+    - 13.75.34.64/26
+    - 20.195.77.0/24
+    - 20.205.75.128/26
+    - 20.205.83.128/26
+  ipv6:
+    - 2603:1040:207::240/122
+    - 2603:1040:207:2::100/120
+    - 2603:1040:207:402::1c0/123
+  counts:
+    total: 7
+    ipv4: 4
+    ipv6: 3

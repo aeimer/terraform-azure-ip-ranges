@@ -1,0 +1,30 @@
+id: AzureSecurityCenter.KoreaCentral
+name: AzureSecurityCenter.KoreaCentral
+metadata:
+  change_number: 2
+  region: koreacentral
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 52.231.23.64/27
+    - 72.155.32.32/27
+    - 72.155.32.64/26
+    - 72.155.33.0/24
+    - 72.155.34.0/23
+    - 72.155.36.0/22
+  ipv4:
+    - 52.231.23.64/27
+    - 72.155.32.32/27
+    - 72.155.32.64/26
+    - 72.155.33.0/24
+    - 72.155.34.0/23
+    - 72.155.36.0/22
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

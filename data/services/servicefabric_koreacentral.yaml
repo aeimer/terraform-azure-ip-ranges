@@ -1,0 +1,32 @@
+id: ServiceFabric.KoreaCentral
+name: ServiceFabric.KoreaCentral
+metadata:
+  change_number: 1
+  region: koreacentral
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.44.29.52/30
+    - 20.194.66.4/30
+    - 52.231.18.232/29
+    - 52.231.32.81/32
+    - 2603:1040:f05:402::98/125
+    - 2603:1040:f05:802::98/125
+    - 2603:1040:f05:c02::98/125
+  ipv4:
+    - 20.44.29.52/30
+    - 20.194.66.4/30
+    - 52.231.18.232/29
+    - 52.231.32.81/32
+  ipv6:
+    - 2603:1040:f05:402::98/125
+    - 2603:1040:f05:802::98/125
+    - 2603:1040:f05:c02::98/125
+  counts:
+    total: 7
+    ipv4: 4
+    ipv6: 3

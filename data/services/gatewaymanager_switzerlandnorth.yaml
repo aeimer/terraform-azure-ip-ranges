@@ -1,0 +1,27 @@
+id: GatewayManager.SwitzerlandNorth
+name: GatewayManager.SwitzerlandNorth
+metadata:
+  change_number: 3
+  region: switzerlandn
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.107.48.72/29
+    - 51.107.59.32/29
+    - 51.107.247.0/26
+    - 2603:1020:a04:1::40/122
+  ipv4:
+    - 51.107.48.72/29
+    - 51.107.59.32/29
+    - 51.107.247.0/26
+  ipv6:
+    - 2603:1020:a04:1::40/122
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

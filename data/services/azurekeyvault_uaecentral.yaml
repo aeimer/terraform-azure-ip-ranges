@@ -1,0 +1,40 @@
+id: AzureKeyVault.UAECentral
+name: AzureKeyVault.UAECentral
+metadata:
+  change_number: 6
+  region: uaecentral
+  platform: Azure
+  system_service: AzureKeyVault
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.37.74.228/30
+    - 20.45.90.72/29
+    - 20.45.90.80/30
+    - 74.243.18.12/30
+    - 2603:1040:b04::100/125
+    - 2603:1040:b04::108/126
+    - 2603:1040:b04::2a0/125
+    - 2603:1040:b04:402::80/125
+    - 2603:1040:b04:800::1e8/125
+  ipv4:
+    - 20.37.74.228/30
+    - 20.45.90.72/29
+    - 20.45.90.80/30
+    - 74.243.18.12/30
+  ipv6:
+    - 2603:1040:b04::100/125
+    - 2603:1040:b04::108/126
+    - 2603:1040:b04::2a0/125
+    - 2603:1040:b04:402::80/125
+    - 2603:1040:b04:800::1e8/125
+  counts:
+    total: 9
+    ipv4: 4
+    ipv6: 5

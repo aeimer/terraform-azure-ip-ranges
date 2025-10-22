@@ -1,0 +1,22 @@
+id: AzureResourceManager.BelgiumCentral
+name: AzureResourceManager.BelgiumCentral
+metadata:
+  change_number: 1
+  region: belgiumcentral
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 9.160.48.0/23
+    - 2603:1020:1502:1::300/120
+  ipv4:
+    - 9.160.48.0/23
+  ipv6:
+    - 2603:1020:1502:1::300/120
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

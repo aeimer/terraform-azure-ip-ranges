@@ -1,0 +1,30 @@
+id: PowerPlatformPlex.SouthCentralUS
+name: PowerPlatformPlex.SouthCentralUS
+metadata:
+  change_number: 3
+  region: southcentralus
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.97.35.52/30
+    - 20.97.39.56/29
+    - 20.97.39.112/30
+    - 145.132.192.0/24
+    - 2603:1061:2004:200::/57
+  ipv4:
+    - 20.97.35.52/30
+    - 20.97.39.56/29
+    - 20.97.39.112/30
+    - 145.132.192.0/24
+  ipv6:
+    - 2603:1061:2004:200::/57
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

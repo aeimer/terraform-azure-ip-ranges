@@ -1,0 +1,32 @@
+id: EventHub.SpainCentral
+name: EventHub.SpainCentral
+metadata:
+  change_number: 1
+  region: spaincentral
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.221.86.0/24
+    - 68.221.99.64/26
+    - 68.221.147.64/26
+    - 68.221.154.192/26
+    - 2603:1020:1403:1::/120
+  ipv4:
+    - 68.221.86.0/24
+    - 68.221.99.64/26
+    - 68.221.147.64/26
+    - 68.221.154.192/26
+  ipv6:
+    - 2603:1020:1403:1::/120
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

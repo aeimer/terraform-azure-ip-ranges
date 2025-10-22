@@ -1,0 +1,22 @@
+id: AzureAttestation.QatarCentral
+name: AzureAttestation.QatarCentral
+metadata:
+  change_number: 1
+  region: qatarcentral
+  platform: Azure
+  system_service: AzureAttestation
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.21.32.44/30
+    - 2603:1040:1002:1::80/124
+  ipv4:
+    - 20.21.32.44/30
+  ipv6:
+    - 2603:1040:1002:1::80/124
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

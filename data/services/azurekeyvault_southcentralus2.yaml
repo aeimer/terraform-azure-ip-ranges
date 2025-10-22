@@ -1,0 +1,32 @@
+id: AzureKeyVault.SouthCentralUS2
+name: AzureKeyVault.SouthCentralUS2
+metadata:
+  change_number: 1
+  region: southcentralus2
+  platform: Azure
+  system_service: AzureKeyVault
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 48.216.12.136/30
+    - 48.216.22.216/30
+    - 48.216.35.184/29
+    - 2603:1030:1102:1::1a8/125
+    - 2603:1030:1102:400::50/125
+  ipv4:
+    - 48.216.12.136/30
+    - 48.216.22.216/30
+    - 48.216.35.184/29
+  ipv6:
+    - 2603:1030:1102:1::1a8/125
+    - 2603:1030:1102:400::50/125
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

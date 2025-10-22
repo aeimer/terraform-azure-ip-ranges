@@ -1,0 +1,33 @@
+id: AppServiceManagement.SouthAfricaNorth
+name: AppServiceManagement.SouthAfricaNorth
+metadata:
+  change_number: 6
+  region: southafricanorth
+  platform: Azure
+  system_service: AzureAppServiceManagement
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.87.80.32/28
+    - 40.127.3.19/32
+    - 172.209.182.64/29
+    - 2603:1000:104:3::20/123
+    - 2603:1000:104:402::100/122
+    - 2603:1000:104:802::100/122
+    - 2603:1000:104:c02::100/122
+  ipv4:
+    - 20.87.80.32/28
+    - 40.127.3.19/32
+    - 172.209.182.64/29
+  ipv6:
+    - 2603:1000:104:3::20/123
+    - 2603:1000:104:402::100/122
+    - 2603:1000:104:802::100/122
+    - 2603:1000:104:c02::100/122
+  counts:
+    total: 7
+    ipv4: 3
+    ipv6: 4

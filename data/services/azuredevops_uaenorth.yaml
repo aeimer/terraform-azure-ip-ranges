@@ -1,0 +1,22 @@
+id: AzureDevOps.UAENorth
+name: AzureDevOps.UAENorth
+metadata:
+  change_number: 2
+  region: uaenorth
+  platform: Azure
+  system_service: AzureDevOps
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.233.130.0/25
+    - 2603:1040:904:7::700/121
+  ipv4:
+    - 20.233.130.0/25
+  ipv6:
+    - 2603:1040:904:7::700/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

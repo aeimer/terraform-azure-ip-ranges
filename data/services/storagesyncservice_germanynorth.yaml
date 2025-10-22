@@ -1,0 +1,24 @@
+id: StorageSyncService.GermanyNorth
+name: StorageSyncService.GermanyNorth
+metadata:
+  change_number: 2
+  region: germanyn
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.116.60.244/30
+    - 51.116.78.200/29
+    - 2603:1020:d04::340/123
+  ipv4:
+    - 51.116.60.244/30
+    - 51.116.78.200/29
+  ipv6:
+    - 2603:1020:d04::340/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

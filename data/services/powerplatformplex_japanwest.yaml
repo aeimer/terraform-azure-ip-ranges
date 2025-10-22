@@ -1,0 +1,42 @@
+id: PowerPlatformPlex.JapanWest
+name: PowerPlatformPlex.JapanWest
+metadata:
+  change_number: 6
+  region: japanwest
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.190.136.184/29
+    - 4.190.136.192/28
+    - 4.190.143.216/29
+    - 20.39.179.192/26
+    - 20.189.194.180/30
+    - 20.189.198.88/29
+    - 20.189.198.136/29
+    - 20.189.199.32/30
+    - 135.149.216.128/25
+    - 135.149.217.0/26
+    - 2603:1061:2004:3100::/57
+  ipv4:
+    - 4.190.136.184/29
+    - 4.190.136.192/28
+    - 4.190.143.216/29
+    - 20.39.179.192/26
+    - 20.189.194.180/30
+    - 20.189.198.88/29
+    - 20.189.198.136/29
+    - 20.189.199.32/30
+    - 135.149.216.128/25
+    - 135.149.217.0/26
+  ipv6:
+    - 2603:1061:2004:3100::/57
+  counts:
+    total: 11
+    ipv4: 10
+    ipv6: 1

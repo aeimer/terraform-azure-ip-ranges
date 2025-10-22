@@ -1,0 +1,36 @@
+id: AzureCosmosDB.MalaysiaSouth
+name: AzureCosmosDB.MalaysiaSouth
+metadata:
+  change_number: 2
+  region: malaysiasouth
+  platform: Azure
+  system_service: AzureCosmosDB
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.17.8.192/32
+    - 20.17.8.210/32
+    - 20.17.24.64/26
+    - 20.17.51.0/27
+    - 20.17.66.0/26
+    - 2603:1040:1503::1e0/123
+    - 2603:1040:1503:400::/122
+  ipv4:
+    - 20.17.8.192/32
+    - 20.17.8.210/32
+    - 20.17.24.64/26
+    - 20.17.51.0/27
+    - 20.17.66.0/26
+  ipv6:
+    - 2603:1040:1503::1e0/123
+    - 2603:1040:1503:400::/122
+  counts:
+    total: 7
+    ipv4: 5
+    ipv6: 2

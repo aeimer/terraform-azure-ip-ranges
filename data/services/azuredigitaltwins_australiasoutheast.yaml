@@ -1,0 +1,24 @@
+id: AzureDigitalTwins.AustraliaSoutheast
+name: AzureDigitalTwins.AustraliaSoutheast
+metadata:
+  change_number: 2
+  region: australiasoutheast
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 104.46.178.120/29
+    - 104.46.178.160/27
+    - 2603:1010:101:7::600/121
+  ipv4:
+    - 104.46.178.120/29
+    - 104.46.178.160/27
+  ipv6:
+    - 2603:1010:101:7::600/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

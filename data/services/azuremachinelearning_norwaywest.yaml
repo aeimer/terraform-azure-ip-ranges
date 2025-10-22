@@ -1,0 +1,24 @@
+id: AzureMachineLearning.NorwayWest
+name: AzureMachineLearning.NorwayWest
+metadata:
+  change_number: 1
+  region: norwayw
+  platform: Azure
+  system_service: AzureMachineLearning
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.120.219.80/28
+    - 51.120.227.80/28
+    - 2603:1020:f04::300/122
+  ipv4:
+    - 51.120.219.80/28
+    - 51.120.227.80/28
+  ipv6:
+    - 2603:1020:f04::300/122
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

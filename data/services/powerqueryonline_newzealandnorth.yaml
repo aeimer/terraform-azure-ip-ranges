@@ -1,0 +1,26 @@
+id: PowerQueryOnline.NewZealandNorth
+name: PowerQueryOnline.NewZealandNorth
+metadata:
+  change_number: 1
+  region: newzealandnorth
+  platform: Azure
+  system_service: PowerQueryOnline
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 172.204.152.40/29
+    - 172.204.172.24/29
+    - 172.204.174.16/28
+    - 2603:1010:502::1c0/123
+  ipv4:
+    - 172.204.152.40/29
+    - 172.204.172.24/29
+    - 172.204.174.16/28
+  ipv6:
+    - 2603:1010:502::1c0/123
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

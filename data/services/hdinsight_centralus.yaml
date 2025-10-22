@@ -1,0 +1,28 @@
+id: HDInsight.CentralUS
+name: HDInsight.CentralUS
+metadata:
+  change_number: 3
+  region: centralus
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.89.171.120/29
+    - 20.40.207.144/29
+    - 2603:1030:10:402::320/124
+  ipv4:
+    - 13.89.171.120/29
+    - 20.40.207.144/29
+  ipv6:
+    - 2603:1030:10:402::320/124
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

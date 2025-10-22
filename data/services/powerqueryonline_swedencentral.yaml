@@ -1,0 +1,40 @@
+id: PowerQueryOnline.SwedenCentral
+name: PowerQueryOnline.SwedenCentral
+metadata:
+  change_number: 8
+  region: swedencentral
+  platform: Azure
+  system_service: PowerQueryOnline
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.12.33.50/31
+    - 51.12.46.228/31
+    - 51.12.75.224/29
+    - 51.12.229.244/31
+    - 51.12.238.168/31
+    - 135.225.43.0/28
+    - 135.225.43.16/29
+    - 2603:1020:1004::200/123
+    - 2603:1020:1004:402::20/125
+    - 2603:1020:1004:800::460/125
+    - 2603:1020:1004:c00::/125
+  ipv4:
+    - 51.12.33.50/31
+    - 51.12.46.228/31
+    - 51.12.75.224/29
+    - 51.12.229.244/31
+    - 51.12.238.168/31
+    - 135.225.43.0/28
+    - 135.225.43.16/29
+  ipv6:
+    - 2603:1020:1004::200/123
+    - 2603:1020:1004:402::20/125
+    - 2603:1020:1004:800::460/125
+    - 2603:1020:1004:c00::/125
+  counts:
+    total: 11
+    ipv4: 7
+    ipv6: 4

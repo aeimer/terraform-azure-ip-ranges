@@ -1,0 +1,26 @@
+id: BatchNodeManagement.SouthAfricaWest
+name: BatchNodeManagement.SouthAfricaWest
+metadata:
+  change_number: 2
+  region: southafricawest
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 102.133.27.192/27
+    - 102.133.56.192/27
+    - 2603:1000:4::400/122
+  ipv4:
+    - 102.133.27.192/27
+    - 102.133.56.192/27
+  ipv6:
+    - 2603:1000:4::400/122
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

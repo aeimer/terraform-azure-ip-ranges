@@ -1,0 +1,22 @@
+id: ServiceFabric.SouthCentralUS2
+name: ServiceFabric.SouthCentralUS2
+metadata:
+  change_number: 1
+  region: southcentralus2
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 48.216.8.12/30
+    - 2603:1030:1102:400::18/125
+  ipv4:
+    - 48.216.8.12/30
+  ipv6:
+    - 2603:1030:1102:400::18/125
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

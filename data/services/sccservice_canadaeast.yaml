@@ -1,0 +1,24 @@
+id: SCCservice.CanadaEast
+name: SCCservice.CanadaEast
+metadata:
+  change_number: 2
+  region: canadaeast
+  platform: Azure
+  system_service: SCCservice
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.229.81.128/27
+    - 40.69.111.96/29
+    - 2603:1030:1005:8::420/123
+  ipv4:
+    - 4.229.81.128/27
+    - 40.69.111.96/29
+  ipv6:
+    - 2603:1030:1005:8::420/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

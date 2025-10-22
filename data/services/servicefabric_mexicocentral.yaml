@@ -1,0 +1,30 @@
+id: ServiceFabric.MexicoCentral
+name: ServiceFabric.MexicoCentral
+metadata:
+  change_number: 1
+  region: mexicocentral
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 158.23.10.76/30
+    - 158.23.122.72/30
+    - 158.23.194.72/30
+    - 2603:1030:702:400::18/125
+    - 2603:1030:702:800::10/125
+    - 2603:1030:702:c00::10/125
+  ipv4:
+    - 158.23.10.76/30
+    - 158.23.122.72/30
+    - 158.23.194.72/30
+  ipv6:
+    - 2603:1030:702:400::18/125
+    - 2603:1030:702:800::10/125
+    - 2603:1030:702:c00::10/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

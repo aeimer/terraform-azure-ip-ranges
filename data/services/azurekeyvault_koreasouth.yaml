@@ -1,0 +1,36 @@
+id: AzureKeyVault.KoreaSouth
+name: AzureKeyVault.KoreaSouth
+metadata:
+  change_number: 5
+  region: koreasouth
+  platform: Azure
+  system_service: AzureKeyVault
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 52.147.113.72/29
+    - 52.147.113.80/30
+    - 52.231.146.80/30
+    - 2603:1040:e05::20/125
+    - 2603:1040:e05:5::4a0/125
+    - 2603:1040:e05:5::4a8/126
+    - 2603:1040:e05:402::430/125
+  ipv4:
+    - 52.147.113.72/29
+    - 52.147.113.80/30
+    - 52.231.146.80/30
+  ipv6:
+    - 2603:1040:e05::20/125
+    - 2603:1040:e05:5::4a0/125
+    - 2603:1040:e05:5::4a8/126
+    - 2603:1040:e05:402::430/125
+  counts:
+    total: 7
+    ipv4: 3
+    ipv6: 4

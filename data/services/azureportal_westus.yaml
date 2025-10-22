@@ -1,0 +1,32 @@
+id: AzurePortal.WestUS
+name: AzurePortal.WestUS
+metadata:
+  change_number: 1
+  region: westus
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.49.120.0/27
+    - 20.49.120.36/30
+    - 20.49.126.156/30
+    - 20.49.127.224/28
+    - 40.82.253.224/27
+    - 104.42.195.92/32
+    - 2603:1030:a07::700/121
+  ipv4:
+    - 20.49.120.0/27
+    - 20.49.120.36/30
+    - 20.49.126.156/30
+    - 20.49.127.224/28
+    - 40.82.253.224/27
+    - 104.42.195.92/32
+  ipv6:
+    - 2603:1030:a07::700/121
+  counts:
+    total: 7
+    ipv4: 6
+    ipv6: 1

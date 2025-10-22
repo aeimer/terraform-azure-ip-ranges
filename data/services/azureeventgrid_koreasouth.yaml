@@ -1,0 +1,24 @@
+id: AzureEventGrid.KoreaSouth
+name: AzureEventGrid.KoreaSouth
+metadata:
+  change_number: 2
+  region: koreasouth
+  platform: Azure
+  system_service: AzureEventGrid
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.80.170.0/25
+    - 40.80.236.192/27
+    - 2603:1040:e05:1::700/121
+  ipv4:
+    - 40.80.170.0/25
+    - 40.80.236.192/27
+  ipv6:
+    - 2603:1040:e05:1::700/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

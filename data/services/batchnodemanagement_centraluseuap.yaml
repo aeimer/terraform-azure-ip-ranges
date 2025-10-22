@@ -1,0 +1,38 @@
+id: BatchNodeManagement.CentralUSEUAP
+name: BatchNodeManagement.CentralUSEUAP
+metadata:
+  change_number: 2
+  region: centraluseuap
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.45.195.192/27
+    - 40.78.203.0/27
+    - 52.180.176.58/32
+    - 52.180.177.108/32
+    - 52.180.177.206/32
+    - 52.180.179.94/32
+    - 52.180.181.0/32
+    - 52.180.181.239/32
+    - 2603:1030:f:1::400/122
+  ipv4:
+    - 20.45.195.192/27
+    - 40.78.203.0/27
+    - 52.180.176.58/32
+    - 52.180.177.108/32
+    - 52.180.177.206/32
+    - 52.180.179.94/32
+    - 52.180.181.0/32
+    - 52.180.181.239/32
+  ipv6:
+    - 2603:1030:f:1::400/122
+  counts:
+    total: 9
+    ipv4: 8
+    ipv6: 1

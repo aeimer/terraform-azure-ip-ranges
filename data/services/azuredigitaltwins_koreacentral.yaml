@@ -1,0 +1,26 @@
+id: AzureDigitalTwins.KoreaCentral
+name: AzureDigitalTwins.KoreaCentral
+metadata:
+  change_number: 3
+  region: koreacentral
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.194.72.136/29
+    - 20.194.72.160/27
+    - 2603:1040:f05::700/121
+    - 2603:1040:f05:7::/126
+  ipv4:
+    - 20.194.72.136/29
+    - 20.194.72.160/27
+  ipv6:
+    - 2603:1040:f05::700/121
+    - 2603:1040:f05:7::/126
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

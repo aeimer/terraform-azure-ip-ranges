@@ -1,0 +1,30 @@
+id: ServiceFabric.ChileCentral
+name: ServiceFabric.ChileCentral
+metadata:
+  change_number: 1
+  region: chilec
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.211.152.12/30
+    - 68.211.168.8/30
+    - 68.211.184.8/30
+    - 2603:1050:301:400::18/125
+    - 2603:1050:301:800::10/125
+    - 2603:1050:301:c00::10/125
+  ipv4:
+    - 68.211.152.12/30
+    - 68.211.168.8/30
+    - 68.211.184.8/30
+  ipv6:
+    - 2603:1050:301:400::18/125
+    - 2603:1050:301:800::10/125
+    - 2603:1050:301:c00::10/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

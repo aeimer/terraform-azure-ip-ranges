@@ -1,0 +1,30 @@
+id: AzureSecurityCenter.SwitzerlandNorth
+name: AzureSecurityCenter.SwitzerlandNorth
+metadata:
+  change_number: 2
+  region: switzerlandn
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.226.58.128/26
+    - 4.226.58.192/27
+    - 4.226.59.0/24
+    - 4.226.60.0/22
+    - 4.226.64.0/23
+    - 51.107.128.64/27
+  ipv4:
+    - 4.226.58.128/26
+    - 4.226.58.192/27
+    - 4.226.59.0/24
+    - 4.226.60.0/22
+    - 4.226.64.0/23
+    - 51.107.128.64/27
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

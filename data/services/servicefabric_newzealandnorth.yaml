@@ -1,0 +1,30 @@
+id: ServiceFabric.NewZealandNorth
+name: ServiceFabric.NewZealandNorth
+metadata:
+  change_number: 1
+  region: newzealandnorth
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 172.204.182.128/30
+    - 172.204.192.8/30
+    - 172.204.208.8/30
+    - 2603:1010:502:400::58/125
+    - 2603:1010:502:800::10/125
+    - 2603:1010:502:c00::10/125
+  ipv4:
+    - 172.204.182.128/30
+    - 172.204.192.8/30
+    - 172.204.208.8/30
+  ipv6:
+    - 2603:1010:502:400::58/125
+    - 2603:1010:502:800::10/125
+    - 2603:1010:502:c00::10/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

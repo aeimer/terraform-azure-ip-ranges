@@ -1,0 +1,24 @@
+id: WindowsVirtualDesktop.BrazilSouth
+name: WindowsVirtualDesktop.BrazilSouth
+metadata:
+  change_number: 7
+  region: brazilsouth
+  platform: Azure
+  system_service: WindowsVirtualDesktop
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.64.144.224/29
+    - 40.64.145.64/28
+    - 2603:1061:2010:2::/117
+  ipv4:
+    - 40.64.144.224/29
+    - 40.64.145.64/28
+  ipv6:
+    - 2603:1061:2010:2::/117
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

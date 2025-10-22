@@ -1,0 +1,38 @@
+id: ServiceBus.IsraelCentral
+name: ServiceBus.IsraelCentral
+metadata:
+  change_number: 2
+  region: israelcentral
+  platform: Azure
+  system_service: AzureServiceBus
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.217.46.0/25
+    - 20.217.58.80/29
+    - 20.217.58.96/28
+    - 20.217.74.80/29
+    - 20.217.74.96/28
+    - 20.217.90.80/29
+    - 20.217.90.96/28
+    - 20.217.166.128/25
+    - 2603:1040:1402::780/121
+  ipv4:
+    - 20.217.46.0/25
+    - 20.217.58.80/29
+    - 20.217.58.96/28
+    - 20.217.74.80/29
+    - 20.217.74.96/28
+    - 20.217.90.80/29
+    - 20.217.90.96/28
+    - 20.217.166.128/25
+  ipv6:
+    - 2603:1040:1402::780/121
+  counts:
+    total: 9
+    ipv4: 8
+    ipv6: 1

@@ -1,0 +1,28 @@
+id: PowerPlatformPlex.QatarCentral
+name: PowerPlatformPlex.QatarCentral
+metadata:
+  change_number: 5
+  region: qatarcentral
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.171.31.160/28
+    - 4.244.11.64/26
+    - 20.21.91.16/29
+    - 2603:1061:2004:9000::/57
+  ipv4:
+    - 4.171.31.160/28
+    - 4.244.11.64/26
+    - 20.21.91.16/29
+  ipv6:
+    - 2603:1061:2004:9000::/57
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

@@ -1,0 +1,40 @@
+id: EventHub.EastUSSTG
+name: EventHub.EastUSSTG
+metadata:
+  change_number: 1
+  region: usstagee
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.49.84.192/26
+    - 20.99.15.0/24
+    - 40.67.58.128/26
+    - 40.67.72.64/26
+    - 2603:1030:104:1::240/122
+    - 2603:1030:104:2::300/120
+    - 2603:1030:104:402::1c0/123
+    - 2603:1030:104:402::660/123
+    - 2603:1030:104:802::180/123
+  ipv4:
+    - 20.49.84.192/26
+    - 20.99.15.0/24
+    - 40.67.58.128/26
+    - 40.67.72.64/26
+  ipv6:
+    - 2603:1030:104:1::240/122
+    - 2603:1030:104:2::300/120
+    - 2603:1030:104:402::1c0/123
+    - 2603:1030:104:402::660/123
+    - 2603:1030:104:802::180/123
+  counts:
+    total: 9
+    ipv4: 4
+    ipv6: 5

@@ -1,0 +1,26 @@
+id: AzurePortal.SouthAfricaWest
+name: AzurePortal.SouthAfricaWest
+metadata:
+  change_number: 1
+  region: southafricawest
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 102.133.56.160/27
+    - 102.133.58.192/30
+    - 102.133.61.176/29
+    - 2603:1000:4::700/121
+  ipv4:
+    - 102.133.56.160/27
+    - 102.133.58.192/30
+    - 102.133.61.176/29
+  ipv6:
+    - 2603:1000:4::700/121
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

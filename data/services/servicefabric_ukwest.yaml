@@ -1,0 +1,24 @@
+id: ServiceFabric.UKWest
+name: ServiceFabric.UKWest
+metadata:
+  change_number: 1
+  region: ukwest
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.140.211.16/29
+    - 51.141.8.30/32
+    - 2603:1020:605:402::98/125
+  ipv4:
+    - 51.140.211.16/29
+    - 51.141.8.30/32
+  ipv6:
+    - 2603:1020:605:402::98/125
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

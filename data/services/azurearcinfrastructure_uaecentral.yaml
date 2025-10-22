@@ -1,0 +1,26 @@
+id: AzureArcInfrastructure.UAECentral
+name: AzureArcInfrastructure.UAECentral
+metadata:
+  change_number: 3
+  region: uaecentral
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.37.66.52/30
+    - 20.203.93.28/31
+    - 20.203.93.80/29
+    - 40.120.8.184/30
+  ipv4:
+    - 20.37.66.52/30
+    - 20.203.93.28/31
+    - 20.203.93.80/29
+    - 40.120.8.184/30
+  ipv6: []
+  counts:
+    total: 4
+    ipv4: 4
+    ipv6: 0

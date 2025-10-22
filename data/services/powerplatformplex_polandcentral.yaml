@@ -1,0 +1,28 @@
+id: PowerPlatformPlex.PolandCentral
+name: PowerPlatformPlex.PolandCentral
+metadata:
+  change_number: 5
+  region: polandcentral
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.215.74.80/28
+    - 20.215.78.96/29
+    - 134.112.73.0/26
+    - 2603:1061:2004:9800::/57
+  ipv4:
+    - 20.215.74.80/28
+    - 20.215.78.96/29
+    - 134.112.73.0/26
+  ipv6:
+    - 2603:1061:2004:9800::/57
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

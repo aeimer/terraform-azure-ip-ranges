@@ -1,0 +1,34 @@
+id: AzureConnectors.IndonesiaCentral
+name: AzureConnectors.IndonesiaCentral
+metadata:
+  change_number: 2
+  region: indonesiacentral
+  platform: Azure
+  system_service: AzureConnectors
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 70.153.64.0/27
+    - 70.153.64.32/28
+    - 70.153.164.128/26
+    - 2603:1040:1802:1::540/122
+    - 2603:1040:1802:3::360/123
+    - 2603:1040:1802:3::380/124
+  ipv4:
+    - 70.153.64.0/27
+    - 70.153.64.32/28
+    - 70.153.164.128/26
+  ipv6:
+    - 2603:1040:1802:1::540/122
+    - 2603:1040:1802:3::360/123
+    - 2603:1040:1802:3::380/124
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

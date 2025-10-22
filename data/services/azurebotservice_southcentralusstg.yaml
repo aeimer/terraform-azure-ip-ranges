@@ -1,0 +1,22 @@
+id: AzureBotService.SouthCentralUSSTG
+name: AzureBotService.SouthCentralUSSTG
+metadata:
+  change_number: 1
+  region: usstagec
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.44.4.72/30
+    - 20.45.112.64/30
+  ipv4:
+    - 20.44.4.72/30
+    - 20.45.112.64/30
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

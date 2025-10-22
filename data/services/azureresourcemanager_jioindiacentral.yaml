@@ -1,0 +1,26 @@
+id: AzureResourceManager.JioIndiaCentral
+name: AzureResourceManager.JioIndiaCentral
+metadata:
+  change_number: 1
+  region: jioindiacentral
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.192.32.128/26
+    - 20.192.52.0/23
+    - 2603:1040:1104:1::/120
+    - 2603:1040:1104:400::280/122
+  ipv4:
+    - 20.192.32.128/26
+    - 20.192.52.0/23
+  ipv6:
+    - 2603:1040:1104:1::/120
+    - 2603:1040:1104:400::280/122
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

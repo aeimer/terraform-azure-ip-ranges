@@ -1,0 +1,30 @@
+id: AzureSecurityCenter.BrazilSoutheast
+name: AzureSecurityCenter.BrazilSoutheast
+metadata:
+  change_number: 2
+  region: brazilse
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 108.140.56.32/27
+    - 108.140.56.64/26
+    - 108.140.57.0/24
+    - 108.140.58.0/23
+    - 108.140.60.0/22
+    - 191.237.224.128/27
+  ipv4:
+    - 108.140.56.32/27
+    - 108.140.56.64/26
+    - 108.140.57.0/24
+    - 108.140.58.0/23
+    - 108.140.60.0/22
+    - 191.237.224.128/27
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

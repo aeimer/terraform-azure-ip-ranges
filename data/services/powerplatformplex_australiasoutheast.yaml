@@ -1,0 +1,46 @@
+id: PowerPlatformPlex.AustraliaSoutheast
+name: PowerPlatformPlex.AustraliaSoutheast
+metadata:
+  change_number: 6
+  region: australiasoutheast
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.199.125.128/25
+    - 4.199.126.0/25
+    - 4.199.126.128/26
+    - 4.200.251.88/29
+    - 4.200.251.160/27
+    - 20.40.165.192/26
+    - 20.92.4.220/30
+    - 20.92.5.80/28
+    - 20.92.5.124/30
+    - 20.92.6.8/29
+    - 20.92.6.192/29
+    - 68.218.170.16/29
+    - 2603:1061:2004:5800::/57
+  ipv4:
+    - 4.199.125.128/25
+    - 4.199.126.0/25
+    - 4.199.126.128/26
+    - 4.200.251.88/29
+    - 4.200.251.160/27
+    - 20.40.165.192/26
+    - 20.92.4.220/30
+    - 20.92.5.80/28
+    - 20.92.5.124/30
+    - 20.92.6.8/29
+    - 20.92.6.192/29
+    - 68.218.170.16/29
+  ipv6:
+    - 2603:1061:2004:5800::/57
+  counts:
+    total: 13
+    ipv4: 12
+    ipv6: 1

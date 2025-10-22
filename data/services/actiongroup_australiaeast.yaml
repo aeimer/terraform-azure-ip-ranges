@@ -1,0 +1,24 @@
+id: ActionGroup.AustraliaEast
+name: ActionGroup.AustraliaEast
+metadata:
+  change_number: 2
+  region: australiaeast
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.218.131.40/30
+    - 2603:1010:6:1::10c/126
+    - 2603:1010:6:402::178/125
+  ipv4:
+    - 68.218.131.40/30
+  ipv6:
+    - 2603:1010:6:1::10c/126
+    - 2603:1010:6:402::178/125
+  counts:
+    total: 3
+    ipv4: 1
+    ipv6: 2

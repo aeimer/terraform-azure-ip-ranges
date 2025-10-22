@@ -1,0 +1,26 @@
+id: ApiManagement.SouthCentralUS2
+name: ApiManagement.SouthCentralUS2
+metadata:
+  change_number: 1
+  region: southcentralus2
+  platform: Azure
+  system_service: AzureApiManagement
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 48.216.19.176/28
+    - 2603:1030:1102::520/124
+  ipv4:
+    - 48.216.19.176/28
+  ipv6:
+    - 2603:1030:1102::520/124
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

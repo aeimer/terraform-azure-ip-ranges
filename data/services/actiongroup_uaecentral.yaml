@@ -1,0 +1,26 @@
+id: ActionGroup.UAECentral
+name: ActionGroup.UAECentral
+metadata:
+  change_number: 5
+  region: uaecentral
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.203.88.62/31
+    - 20.203.93.200/30
+    - 2603:1040:b04::10c/126
+    - 2603:1040:b04:402::178/125
+  ipv4:
+    - 20.203.88.62/31
+    - 20.203.93.200/30
+  ipv6:
+    - 2603:1040:b04::10c/126
+    - 2603:1040:b04:402::178/125
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

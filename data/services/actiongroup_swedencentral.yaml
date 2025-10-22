@@ -1,0 +1,28 @@
+id: ActionGroup.SwedenCentral
+name: ActionGroup.SwedenCentral
+metadata:
+  change_number: 3
+  region: swedencentral
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.240.1.100/31
+    - 51.12.101.172/30
+    - 172.160.216.24/30
+    - 2603:1020:1004::130/126
+    - 2603:1020:1004:800::f8/125
+  ipv4:
+    - 20.240.1.100/31
+    - 51.12.101.172/30
+    - 172.160.216.24/30
+  ipv6:
+    - 2603:1020:1004::130/126
+    - 2603:1020:1004:800::f8/125
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

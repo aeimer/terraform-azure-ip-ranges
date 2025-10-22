@@ -1,0 +1,26 @@
+id: ActionGroup.QatarCentral
+name: ActionGroup.QatarCentral
+metadata:
+  change_number: 2
+  region: qatarcentral
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.171.31.152/30
+    - 20.21.42.88/30
+    - 2603:1040:1002:5::30c/126
+    - 2603:1040:1002:400::180/125
+  ipv4:
+    - 4.171.31.152/30
+    - 20.21.42.88/30
+  ipv6:
+    - 2603:1040:1002:5::30c/126
+    - 2603:1040:1002:400::180/125
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

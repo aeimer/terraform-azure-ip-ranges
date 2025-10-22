@@ -1,0 +1,24 @@
+id: SCCservice.FranceSouth
+name: SCCservice.FranceSouth
+metadata:
+  change_number: 2
+  region: southfrance
+  platform: Azure
+  system_service: SCCservice
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.251.247.32/27
+    - 51.138.160.8/29
+    - 2603:1020:905:7::320/123
+  ipv4:
+    - 4.251.247.32/27
+    - 51.138.160.8/29
+  ipv6:
+    - 2603:1020:905:7::320/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

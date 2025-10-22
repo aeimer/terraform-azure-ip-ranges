@@ -1,0 +1,22 @@
+id: AzureDevOps.CentralIndia
+name: AzureDevOps.CentralIndia
+metadata:
+  change_number: 2
+  region: centralindia
+  platform: Azure
+  system_service: AzureDevOps
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.204.197.192/26
+    - 2603:1040:a06:c::80/122
+  ipv4:
+    - 20.204.197.192/26
+  ipv6:
+    - 2603:1040:a06:c::80/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

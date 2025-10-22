@@ -1,0 +1,34 @@
+id: MicrosoftContainerRegistry.ChileCentral
+name: MicrosoftContainerRegistry.ChileCentral
+metadata:
+  change_number: 1
+  region: chilec
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.211.152.0/29
+    - 68.211.168.0/29
+    - 68.211.184.0/29
+    - 2603:1050:301:400::/125
+    - 2603:1050:301:800::/125
+    - 2603:1050:301:c00::/125
+  ipv4:
+    - 68.211.152.0/29
+    - 68.211.168.0/29
+    - 68.211.184.0/29
+  ipv6:
+    - 2603:1050:301:400::/125
+    - 2603:1050:301:800::/125
+    - 2603:1050:301:c00::/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

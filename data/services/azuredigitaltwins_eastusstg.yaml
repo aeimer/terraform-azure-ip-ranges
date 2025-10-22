@@ -1,0 +1,24 @@
+id: AzureDigitalTwins.EastUSSTG
+name: AzureDigitalTwins.EastUSSTG
+metadata:
+  change_number: 1
+  region: usstagee
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.67.52.104/29
+    - 40.67.52.192/27
+    - 2603:1030:104::700/121
+  ipv4:
+    - 40.67.52.104/29
+    - 40.67.52.192/27
+  ipv6:
+    - 2603:1030:104::700/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

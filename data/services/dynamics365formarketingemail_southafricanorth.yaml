@@ -1,0 +1,24 @@
+id: Dynamics365ForMarketingEmail.SouthAfricaNorth
+name: Dynamics365ForMarketingEmail.SouthAfricaNorth
+metadata:
+  change_number: 1
+  region: southafricanorth
+  platform: Azure
+  system_service: Dynamics365ForMarketingEmail
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 102.133.251.96/27
+  ipv4:
+    - 102.133.251.96/27
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

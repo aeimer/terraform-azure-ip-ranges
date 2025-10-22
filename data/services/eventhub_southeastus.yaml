@@ -1,0 +1,28 @@
+id: EventHub.SoutheastUS
+name: EventHub.SoutheastUS
+metadata:
+  change_number: 1
+  region: southeastus
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 57.151.213.0/24
+    - 68.154.136.128/26
+    - 2603:1030:902:1::/120
+  ipv4:
+    - 57.151.213.0/24
+    - 68.154.136.128/26
+  ipv6:
+    - 2603:1030:902:1::/120
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

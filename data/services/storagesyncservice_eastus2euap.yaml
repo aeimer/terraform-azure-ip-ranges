@@ -1,0 +1,22 @@
+id: StorageSyncService.EastUS2EUAP
+name: StorageSyncService.EastUS2EUAP
+metadata:
+  change_number: 2
+  region: eastus2euap
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.39.11.96/29
+    - 2603:1030:40b:1::300/123
+  ipv4:
+    - 20.39.11.96/29
+  ipv6:
+    - 2603:1030:40b:1::300/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

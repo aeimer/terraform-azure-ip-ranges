@@ -1,0 +1,22 @@
+id: AzureBotService.NewZealandNorth
+name: AzureBotService.NewZealandNorth
+metadata:
+  change_number: 1
+  region: newzealandnorth
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 172.204.152.16/30
+    - 2603:1010:502::20/123
+  ipv4:
+    - 172.204.152.16/30
+  ipv6:
+    - 2603:1010:502::20/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

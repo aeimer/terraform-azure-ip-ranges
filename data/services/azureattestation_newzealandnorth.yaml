@@ -1,0 +1,22 @@
+id: AzureAttestation.NewZealandNorth
+name: AzureAttestation.NewZealandNorth
+metadata:
+  change_number: 1
+  region: newzealandnorth
+  platform: Azure
+  system_service: AzureAttestation
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 172.204.152.20/30
+    - 2603:1010:502::5c0/124
+  ipv4:
+    - 172.204.152.20/30
+  ipv6:
+    - 2603:1010:502::5c0/124
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

@@ -1,0 +1,22 @@
+id: AzureResourceManager.ChileCentral
+name: AzureResourceManager.ChileCentral
+metadata:
+  change_number: 1
+  region: chilec
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.211.10.0/23
+    - 2603:1050:301:1::400/120
+  ipv4:
+    - 68.211.10.0/23
+  ipv6:
+    - 2603:1050:301:1::400/120
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

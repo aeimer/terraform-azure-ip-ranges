@@ -1,0 +1,22 @@
+id: AzureDevSpaces.AustraliaEast
+name: AzureDevSpaces.AustraliaEast
+metadata:
+  change_number: 1
+  region: australiaeast
+  platform: Azure
+  system_service: AzureDevSpaces
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.70.78.176/28
+    - 20.37.195.80/28
+  ipv4:
+    - 13.70.78.176/28
+    - 20.37.195.80/28
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

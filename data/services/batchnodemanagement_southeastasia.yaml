@@ -1,0 +1,40 @@
+id: BatchNodeManagement.SoutheastAsia
+name: BatchNodeManagement.SoutheastAsia
+metadata:
+  change_number: 2
+  region: southeastasia
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.67.9.160/27
+    - 13.67.58.116/32
+    - 20.43.132.64/27
+    - 23.97.48.186/32
+    - 23.97.51.12/32
+    - 23.98.82.160/27
+    - 40.78.234.96/27
+    - 111.221.104.48/32
+    - 207.46.225.72/32
+    - 2603:1040:5:1::340/122
+  ipv4:
+    - 13.67.9.160/27
+    - 13.67.58.116/32
+    - 20.43.132.64/27
+    - 23.97.48.186/32
+    - 23.97.51.12/32
+    - 23.98.82.160/27
+    - 40.78.234.96/27
+    - 111.221.104.48/32
+    - 207.46.225.72/32
+  ipv6:
+    - 2603:1040:5:1::340/122
+  counts:
+    total: 10
+    ipv4: 9
+    ipv6: 1

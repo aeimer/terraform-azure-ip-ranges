@@ -1,0 +1,22 @@
+id: StorageSyncService.NorwayWest
+name: StorageSyncService.NorwayWest
+metadata:
+  change_number: 1
+  region: norwayw
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.120.224.216/29
+    - 2603:1020:f04::340/123
+  ipv4:
+    - 51.120.224.216/29
+  ipv6:
+    - 2603:1020:f04::340/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

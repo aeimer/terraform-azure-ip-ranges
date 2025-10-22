@@ -1,0 +1,24 @@
+id: ActionGroup.UAENorth
+name: ActionGroup.UAENorth
+metadata:
+  change_number: 2
+  region: uaenorth
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 172.164.208.220/30
+    - 2603:1040:904:1::114/126
+    - 2603:1040:904:402::178/125
+  ipv4:
+    - 172.164.208.220/30
+  ipv6:
+    - 2603:1040:904:1::114/126
+    - 2603:1040:904:402::178/125
+  counts:
+    total: 3
+    ipv4: 1
+    ipv6: 2

@@ -1,0 +1,31 @@
+id: AzureResourceManager.NorwayEast
+name: AzureResourceManager.NorwayEast
+metadata:
+  change_number: 2
+  region: norwaye
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features:
+    - API
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.120.46.0/23
+    - 51.120.100.32/28
+    - 51.120.102.0/23
+    - 2603:1020:e04::180/122
+    - 2603:1020:e04:3::300/120
+    - 2603:1020:e04:402::280/122
+  ipv4:
+    - 51.120.46.0/23
+    - 51.120.100.32/28
+    - 51.120.102.0/23
+  ipv6:
+    - 2603:1020:e04::180/122
+    - 2603:1020:e04:3::300/120
+    - 2603:1020:e04:402::280/122
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

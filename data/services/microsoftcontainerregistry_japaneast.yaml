@@ -1,0 +1,34 @@
+id: MicrosoftContainerRegistry.JapanEast
+name: MicrosoftContainerRegistry.JapanEast
+metadata:
+  change_number: 2
+  region: japaneast
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.78.106.192/29
+    - 40.79.186.0/29
+    - 40.79.194.88/29
+    - 2603:1040:407:402::88/125
+    - 2603:1040:407:802::88/125
+    - 2603:1040:407:c02::88/125
+  ipv4:
+    - 13.78.106.192/29
+    - 40.79.186.0/29
+    - 40.79.194.88/29
+  ipv6:
+    - 2603:1040:407:402::88/125
+    - 2603:1040:407:802::88/125
+    - 2603:1040:407:c02::88/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

@@ -1,0 +1,22 @@
+id: StorageSyncService.AustraliaSoutheast
+name: StorageSyncService.AustraliaSoutheast
+metadata:
+  change_number: 2
+  region: australiasoutheast
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.42.227.128/29
+    - 2603:1010:101::340/123
+  ipv4:
+    - 20.42.227.128/29
+  ipv6:
+    - 2603:1010:101::340/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

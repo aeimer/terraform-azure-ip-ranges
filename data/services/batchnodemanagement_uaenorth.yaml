@@ -1,0 +1,26 @@
+id: BatchNodeManagement.UAENorth
+name: BatchNodeManagement.UAENorth
+metadata:
+  change_number: 2
+  region: uaenorth
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.38.137.192/27
+    - 65.52.251.224/27
+    - 2603:1040:904:1::340/122
+  ipv4:
+    - 20.38.137.192/27
+    - 65.52.251.224/27
+  ipv6:
+    - 2603:1040:904:1::340/122
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

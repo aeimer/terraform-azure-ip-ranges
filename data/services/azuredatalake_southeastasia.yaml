@@ -1,0 +1,24 @@
+id: AzureDataLake.SoutheastAsia
+name: AzureDataLake.SoutheastAsia
+metadata:
+  change_number: 1
+  region: southeastasia
+  platform: Azure
+  system_service: AzureDataLake
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 104.44.89.39/32
+    - 104.44.89.42/32
+    - 104.44.90.128/27
+  ipv4:
+    - 104.44.89.39/32
+    - 104.44.89.42/32
+    - 104.44.90.128/27
+  ipv6: []
+  counts:
+    total: 3
+    ipv4: 3
+    ipv6: 0

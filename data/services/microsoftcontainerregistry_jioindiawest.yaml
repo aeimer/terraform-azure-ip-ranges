@@ -1,0 +1,30 @@
+id: MicrosoftContainerRegistry.JioIndiaWest
+name: MicrosoftContainerRegistry.JioIndiaWest
+metadata:
+  change_number: 1
+  region: jioindiawest
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.193.202.8/29
+    - 2603:1040:d04:400::88/125
+    - 2603:1040:d04:400::3b0/125
+    - 2603:1040:d04:800::148/125
+  ipv4:
+    - 20.193.202.8/29
+  ipv6:
+    - 2603:1040:d04:400::88/125
+    - 2603:1040:d04:400::3b0/125
+    - 2603:1040:d04:800::148/125
+  counts:
+    total: 4
+    ipv4: 1
+    ipv6: 3

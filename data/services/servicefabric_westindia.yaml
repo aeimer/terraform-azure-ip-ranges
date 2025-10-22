@@ -1,0 +1,24 @@
+id: ServiceFabric.WestIndia
+name: ServiceFabric.WestIndia
+metadata:
+  change_number: 1
+  region: westindia
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 104.211.146.240/29
+    - 104.211.164.163/32
+    - 2603:1040:806:402::98/125
+  ipv4:
+    - 104.211.146.240/29
+    - 104.211.164.163/32
+  ipv6:
+    - 2603:1040:806:402::98/125
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

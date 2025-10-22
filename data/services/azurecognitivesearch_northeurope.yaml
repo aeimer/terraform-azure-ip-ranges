@@ -1,0 +1,38 @@
+id: AzureCognitiveSearch.NorthEurope
+name: AzureCognitiveSearch.NorthEurope
+metadata:
+  change_number: 1
+  region: northeurope
+  platform: Azure
+  system_service: AzureCognitiveSearch
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.38.84.0/26
+    - 52.155.216.245/32
+    - 52.155.217.84/32
+    - 52.155.221.242/32
+    - 52.155.221.250/32
+    - 52.155.222.35/32
+    - 52.155.222.56/32
+    - 52.158.28.181/32
+    - 52.158.30.241/32
+    - 2603:1020:5:1::180/121
+  ipv4:
+    - 20.38.84.0/26
+    - 52.155.216.245/32
+    - 52.155.217.84/32
+    - 52.155.221.242/32
+    - 52.155.221.250/32
+    - 52.155.222.35/32
+    - 52.155.222.56/32
+    - 52.158.28.181/32
+    - 52.158.30.241/32
+  ipv6:
+    - 2603:1020:5:1::180/121
+  counts:
+    total: 10
+    ipv4: 9
+    ipv6: 1

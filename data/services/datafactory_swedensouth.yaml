@@ -1,0 +1,30 @@
+id: DataFactory.SwedenSouth
+name: DataFactory.SwedenSouth
+metadata:
+  change_number: 1
+  region: swedensouth
+  platform: Azure
+  system_service: DataFactory
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.104.254.128/28
+    - 51.12.18.0/23
+    - 51.12.206.16/28
+    - 2603:1020:1104::600/121
+    - 2603:1020:1104:400::500/124
+  ipv4:
+    - 13.104.254.128/28
+    - 51.12.18.0/23
+    - 51.12.206.16/28
+  ipv6:
+    - 2603:1020:1104::600/121
+    - 2603:1020:1104:400::500/124
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

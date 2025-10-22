@@ -1,0 +1,22 @@
+id: AzureCognitiveSearch.ChileCentral
+name: AzureCognitiveSearch.ChileCentral
+metadata:
+  change_number: 1
+  region: chilec
+  platform: Azure
+  system_service: AzureCognitiveSearch
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.211.1.64/26
+    - 2603:1050:301::100/121
+  ipv4:
+    - 68.211.1.64/26
+  ipv6:
+    - 2603:1050:301::100/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

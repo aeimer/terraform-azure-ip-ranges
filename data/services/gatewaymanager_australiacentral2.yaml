@@ -1,0 +1,27 @@
+id: GatewayManager.AustraliaCentral2
+name: GatewayManager.AustraliaCentral2
+metadata:
+  change_number: 4
+  region: australiacentral2
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.36.114.24/29
+    - 20.36.120.72/29
+    - 20.53.61.192/27
+    - 2603:1010:404::40/122
+  ipv4:
+    - 20.36.114.24/29
+    - 20.36.120.72/29
+    - 20.53.61.192/27
+  ipv6:
+    - 2603:1010:404::40/122
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

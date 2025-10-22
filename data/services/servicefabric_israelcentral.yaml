@@ -1,0 +1,30 @@
+id: ServiceFabric.IsraelCentral
+name: ServiceFabric.IsraelCentral
+metadata:
+  change_number: 1
+  region: israelcentral
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.217.58.76/30
+    - 20.217.74.72/30
+    - 20.217.90.72/30
+    - 2603:1040:1402:400::58/125
+    - 2603:1040:1402:800::50/125
+    - 2603:1040:1402:c00::50/125
+  ipv4:
+    - 20.217.58.76/30
+    - 20.217.74.72/30
+    - 20.217.90.72/30
+  ipv6:
+    - 2603:1040:1402:400::58/125
+    - 2603:1040:1402:800::50/125
+    - 2603:1040:1402:c00::50/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

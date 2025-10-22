@@ -1,0 +1,28 @@
+id: ServiceFabric.EastUSSTG
+name: ServiceFabric.EastUSSTG
+metadata:
+  change_number: 1
+  region: usstagee
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.49.82.4/30
+    - 40.67.59.72/29
+    - 2603:1030:104:402::98/125
+    - 2603:1030:104:402::3d8/125
+    - 2603:1030:104:802::60/125
+  ipv4:
+    - 20.49.82.4/30
+    - 40.67.59.72/29
+  ipv6:
+    - 2603:1030:104:402::98/125
+    - 2603:1030:104:402::3d8/125
+    - 2603:1030:104:802::60/125
+  counts:
+    total: 5
+    ipv4: 2
+    ipv6: 3

@@ -1,0 +1,26 @@
+id: AzureSignalR.JioIndiaCentral
+name: AzureSignalR.JioIndiaCentral
+metadata:
+  change_number: 3
+  region: jioindiacentral
+  platform: Azure
+  system_service: AzureSignalR
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.240.171.224/27
+    - 20.192.34.0/27
+    - 20.192.55.192/27
+    - 2603:1040:1104:2::/120
+  ipv4:
+    - 4.240.171.224/27
+    - 20.192.34.0/27
+    - 20.192.55.192/27
+  ipv6:
+    - 2603:1040:1104:2::/120
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

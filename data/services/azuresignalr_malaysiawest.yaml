@@ -1,0 +1,22 @@
+id: AzureSignalR.MalaysiaWest
+name: AzureSignalR.MalaysiaWest
+metadata:
+  change_number: 1
+  region: malaysiawest
+  platform: Azure
+  system_service: AzureSignalR
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.17.88.0/26
+    - 2603:1040:1602:3::5c0/122
+  ipv4:
+    - 20.17.88.0/26
+  ipv6:
+    - 2603:1040:1602:3::5c0/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

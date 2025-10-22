@@ -1,0 +1,32 @@
+id: EventHub.AustriaEast
+name: EventHub.AustriaEast
+metadata:
+  change_number: 1
+  region: austriaeast
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.210.152.128/26
+    - 68.210.165.0/24
+    - 68.210.192.128/26
+    - 68.210.208.128/26
+    - 2603:1020:104:4::600/120
+  ipv4:
+    - 68.210.152.128/26
+    - 68.210.165.0/24
+    - 68.210.192.128/26
+    - 68.210.208.128/26
+  ipv6:
+    - 2603:1020:104:4::600/120
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

@@ -1,0 +1,22 @@
+id: StorageSyncService.PolandCentral
+name: StorageSyncService.PolandCentral
+metadata:
+  change_number: 3
+  region: polandcentral
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 74.248.175.152/29
+    - 2603:1020:1302:400::240/123
+  ipv4:
+    - 74.248.175.152/29
+  ipv6:
+    - 2603:1020:1302:400::240/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

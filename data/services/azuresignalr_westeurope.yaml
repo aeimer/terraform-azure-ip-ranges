@@ -1,0 +1,24 @@
+id: AzureSignalR.WestEurope
+name: AzureSignalR.WestEurope
+metadata:
+  change_number: 5
+  region: westeurope
+  platform: Azure
+  system_service: AzureSignalR
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.61.102.64/27
+    - 20.86.94.128/25
+    - 2603:1020:206:4::200/120
+  ipv4:
+    - 20.61.102.64/27
+    - 20.86.94.128/25
+  ipv6:
+    - 2603:1020:206:4::200/120
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

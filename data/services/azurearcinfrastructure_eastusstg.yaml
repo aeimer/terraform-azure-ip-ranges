@@ -1,0 +1,22 @@
+id: AzureArcInfrastructure.EastUSSTG
+name: AzureArcInfrastructure.EastUSSTG
+metadata:
+  change_number: 1
+  region: usstagee
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.99.27.84/31
+    - 20.99.27.96/29
+  ipv4:
+    - 20.99.27.84/31
+    - 20.99.27.96/29
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

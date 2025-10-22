@@ -1,0 +1,26 @@
+id: ActionGroup.ItalyNorth
+name: ActionGroup.ItalyNorth
+metadata:
+  change_number: 2
+  region: italynorth
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.232.48.104/30
+    - 4.232.106.88/30
+    - 2603:1020:1204:3::56c/126
+    - 2603:1020:1204:400::c0/125
+  ipv4:
+    - 4.232.48.104/30
+    - 4.232.106.88/30
+  ipv6:
+    - 2603:1020:1204:3::56c/126
+    - 2603:1020:1204:400::c0/125
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

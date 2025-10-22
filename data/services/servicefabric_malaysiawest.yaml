@@ -1,0 +1,30 @@
+id: ServiceFabric.MalaysiaWest
+name: ServiceFabric.MalaysiaWest
+metadata:
+  change_number: 1
+  region: malaysiawest
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.17.130.12/30
+    - 20.17.168.8/30
+    - 20.17.184.8/30
+    - 2603:1040:1602:400::18/125
+    - 2603:1040:1602:800::20/125
+    - 2603:1040:1602:c00::20/125
+  ipv4:
+    - 20.17.130.12/30
+    - 20.17.168.8/30
+    - 20.17.184.8/30
+  ipv6:
+    - 2603:1040:1602:400::18/125
+    - 2603:1040:1602:800::20/125
+    - 2603:1040:1602:c00::20/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

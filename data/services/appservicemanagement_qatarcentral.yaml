@@ -1,0 +1,29 @@
+id: AppServiceManagement.QatarCentral
+name: AppServiceManagement.QatarCentral
+metadata:
+  change_number: 4
+  region: qatarcentral
+  platform: Azure
+  system_service: AzureAppServiceManagement
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.21.53.160/28
+    - 2603:1040:1002:2::340/123
+    - 2603:1040:1002:400::80/122
+    - 2603:1040:1002:800::80/122
+    - 2603:1040:1002:c00::80/122
+  ipv4:
+    - 20.21.53.160/28
+  ipv6:
+    - 2603:1040:1002:2::340/123
+    - 2603:1040:1002:400::80/122
+    - 2603:1040:1002:800::80/122
+    - 2603:1040:1002:c00::80/122
+  counts:
+    total: 5
+    ipv4: 1
+    ipv6: 4

@@ -1,0 +1,26 @@
+id: ActionGroup.KoreaSouth
+name: ActionGroup.KoreaSouth
+metadata:
+  change_number: 2
+  region: koreasouth
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.243.28.116/30
+    - 52.147.98.52/30
+    - 2603:1040:e05:5::4ac/126
+    - 2603:1040:e05:402::180/125
+  ipv4:
+    - 4.243.28.116/30
+    - 52.147.98.52/30
+  ipv6:
+    - 2603:1040:e05:5::4ac/126
+    - 2603:1040:e05:402::180/125
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

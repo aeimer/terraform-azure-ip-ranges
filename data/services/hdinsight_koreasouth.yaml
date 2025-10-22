@@ -1,0 +1,32 @@
+id: HDInsight.KoreaSouth
+name: HDInsight.KoreaSouth
+metadata:
+  change_number: 3
+  region: koreasouth
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.80.172.120/29
+    - 52.231.147.24/29
+    - 52.231.203.16/32
+    - 52.231.205.214/32
+    - 2603:1040:e05:5::4b0/124
+  ipv4:
+    - 40.80.172.120/29
+    - 52.231.147.24/29
+    - 52.231.203.16/32
+    - 52.231.205.214/32
+  ipv6:
+    - 2603:1040:e05:5::4b0/124
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

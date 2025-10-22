@@ -1,0 +1,30 @@
+id: AzureCognitiveSearch.AustraliaEast
+name: AzureCognitiveSearch.AustraliaEast
+metadata:
+  change_number: 1
+  region: australiaeast
+  platform: Azure
+  system_service: AzureCognitiveSearch
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.37.193.192/26
+    - 20.40.123.36/32
+    - 20.40.123.39/32
+    - 20.40.123.46/32
+    - 20.40.123.72/32
+    - 2603:1010:6:1::180/121
+  ipv4:
+    - 20.37.193.192/26
+    - 20.40.123.36/32
+    - 20.40.123.39/32
+    - 20.40.123.46/32
+    - 20.40.123.72/32
+  ipv6:
+    - 2603:1010:6:1::180/121
+  counts:
+    total: 6
+    ipv4: 5
+    ipv6: 1

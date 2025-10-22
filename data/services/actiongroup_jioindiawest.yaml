@@ -1,0 +1,26 @@
+id: ActionGroup.JioIndiaWest
+name: ActionGroup.JioIndiaWest
+metadata:
+  change_number: 2
+  region: jioindiawest
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.193.202.4/30
+    - 40.64.15.124/30
+    - 2603:1040:d04::10c/126
+    - 2603:1040:d04:800::f8/125
+  ipv4:
+    - 20.193.202.4/30
+    - 40.64.15.124/30
+  ipv6:
+    - 2603:1040:d04::10c/126
+    - 2603:1040:d04:800::f8/125
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

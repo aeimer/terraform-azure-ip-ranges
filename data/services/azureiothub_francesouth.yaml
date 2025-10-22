@@ -1,0 +1,28 @@
+id: AzureIoTHub.FranceSouth
+name: AzureIoTHub.FranceSouth
+metadata:
+  change_number: 1
+  region: southfrance
+  platform: Azure
+  system_service: AzureIoTHub
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.79.180.96/27
+    - 51.105.91.128/25
+    - 51.105.92.0/27
+    - 52.136.132.236/32
+    - 2603:1020:905:402::300/123
+  ipv4:
+    - 40.79.180.96/27
+    - 51.105.91.128/25
+    - 51.105.92.0/27
+    - 52.136.132.236/32
+  ipv6:
+    - 2603:1020:905:402::300/123
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

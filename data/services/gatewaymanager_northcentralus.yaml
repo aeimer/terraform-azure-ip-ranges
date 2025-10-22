@@ -1,0 +1,31 @@
+id: GatewayManager.NorthCentralUS
+name: GatewayManager.NorthCentralUS
+metadata:
+  change_number: 4
+  region: northcentralus
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.51.6.64/26
+    - 23.100.231.72/32
+    - 23.100.231.96/32
+    - 40.80.184.72/29
+    - 52.162.106.168/29
+    - 2603:1030:608::40/122
+  ipv4:
+    - 20.51.6.64/26
+    - 23.100.231.72/32
+    - 23.100.231.96/32
+    - 40.80.184.72/29
+    - 52.162.106.168/29
+  ipv6:
+    - 2603:1030:608::40/122
+  counts:
+    total: 6
+    ipv4: 5
+    ipv6: 1

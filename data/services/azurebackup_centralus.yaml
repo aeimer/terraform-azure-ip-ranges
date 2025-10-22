@@ -1,0 +1,38 @@
+id: AzureBackup.CentralUS
+name: AzureBackup.CentralUS
+metadata:
+  change_number: 2
+  region: centralus
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.89.171.128/26
+    - 13.89.171.192/27
+    - 20.40.229.128/25
+    - 20.44.8.32/27
+    - 20.44.8.64/26
+    - 52.182.139.64/27
+    - 52.182.139.128/26
+    - 2603:1030:10:402::200/121
+    - 2603:1030:10:802::180/121
+    - 2603:1030:10:c02::180/121
+  ipv4:
+    - 13.89.171.128/26
+    - 13.89.171.192/27
+    - 20.40.229.128/25
+    - 20.44.8.32/27
+    - 20.44.8.64/26
+    - 52.182.139.64/27
+    - 52.182.139.128/26
+  ipv6:
+    - 2603:1030:10:402::200/121
+    - 2603:1030:10:802::180/121
+    - 2603:1030:10:c02::180/121
+  counts:
+    total: 10
+    ipv4: 7
+    ipv6: 3

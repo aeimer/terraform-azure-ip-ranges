@@ -1,0 +1,32 @@
+id: ServiceFabric.SwitzerlandNorth
+name: ServiceFabric.SwitzerlandNorth
+metadata:
+  change_number: 2
+  region: switzerlandn
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.208.18.72/30
+    - 51.103.202.72/30
+    - 51.107.59.40/29
+    - 51.107.76.20/32
+    - 2603:1020:a04:402::98/125
+    - 2603:1020:a04:802::98/125
+    - 2603:1020:a04:c02::98/125
+  ipv4:
+    - 20.208.18.72/30
+    - 51.103.202.72/30
+    - 51.107.59.40/29
+    - 51.107.76.20/32
+  ipv6:
+    - 2603:1020:a04:402::98/125
+    - 2603:1020:a04:802::98/125
+    - 2603:1020:a04:c02::98/125
+  counts:
+    total: 7
+    ipv4: 4
+    ipv6: 3

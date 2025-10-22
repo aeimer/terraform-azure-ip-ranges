@@ -1,0 +1,30 @@
+id: AzureIoTHub.UAECentral
+name: AzureIoTHub.UAECentral
+metadata:
+  change_number: 2
+  region: uaecentral
+  platform: Azure
+  system_service: AzureIoTHub
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.37.67.128/25
+    - 20.37.68.0/27
+    - 20.37.76.160/27
+    - 74.243.18.224/27
+    - 2603:1040:b04:402::300/123
+    - 2603:1040:b04:800::40/123
+  ipv4:
+    - 20.37.67.128/25
+    - 20.37.68.0/27
+    - 20.37.76.160/27
+    - 74.243.18.224/27
+  ipv6:
+    - 2603:1040:b04:402::300/123
+    - 2603:1040:b04:800::40/123
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

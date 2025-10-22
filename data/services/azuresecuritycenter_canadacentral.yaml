@@ -1,0 +1,36 @@
+id: AzureSecurityCenter.CanadaCentral
+name: AzureSecurityCenter.CanadaCentral
+metadata:
+  change_number: 4
+  region: canadacentral
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.172.221.192/26
+    - 4.172.223.0/24
+    - 4.174.239.0/25
+    - 4.204.16.0/23
+    - 13.71.177.0/27
+    - 130.107.57.128/25
+    - 130.107.58.0/23
+    - 130.107.60.0/24
+    - 130.107.61.0/27
+  ipv4:
+    - 4.172.221.192/26
+    - 4.172.223.0/24
+    - 4.174.239.0/25
+    - 4.204.16.0/23
+    - 13.71.177.0/27
+    - 130.107.57.128/25
+    - 130.107.58.0/23
+    - 130.107.60.0/24
+    - 130.107.61.0/27
+  ipv6: []
+  counts:
+    total: 9
+    ipv4: 9
+    ipv6: 0

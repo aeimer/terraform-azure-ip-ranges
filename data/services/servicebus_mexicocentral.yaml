@@ -1,0 +1,36 @@
+id: ServiceBus.MexicoCentral
+name: ServiceBus.MexicoCentral
+metadata:
+  change_number: 1
+  region: mexicocentral
+  platform: Azure
+  system_service: AzureServiceBus
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 158.23.10.80/29
+    - 158.23.10.96/28
+    - 158.23.101.128/25
+    - 158.23.122.80/29
+    - 158.23.122.96/28
+    - 158.23.194.80/29
+    - 158.23.194.96/28
+    - 2603:1030:702:1::100/121
+  ipv4:
+    - 158.23.10.80/29
+    - 158.23.10.96/28
+    - 158.23.101.128/25
+    - 158.23.122.80/29
+    - 158.23.122.96/28
+    - 158.23.194.80/29
+    - 158.23.194.96/28
+  ipv6:
+    - 2603:1030:702:1::100/121
+  counts:
+    total: 8
+    ipv4: 7
+    ipv6: 1

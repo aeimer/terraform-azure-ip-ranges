@@ -1,0 +1,22 @@
+id: AzureEventGrid.SwedenCentral
+name: AzureEventGrid.SwedenCentral
+metadata:
+  change_number: 1
+  region: swedencentral
+  platform: Azure
+  system_service: AzureEventGrid
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.12.47.128/25
+    - 2603:1020:1004::380/121
+  ipv4:
+    - 51.12.47.128/25
+  ipv6:
+    - 2603:1020:1004::380/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

@@ -1,0 +1,30 @@
+id: AzureResourceManager.WestUS2
+name: AzureResourceManager.WestUS2
+metadata:
+  change_number: 4
+  region: westus2
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.66.141.176/28
+    - 20.51.10.0/23
+    - 40.78.254.0/23
+    - 2603:1030:c06:2::40/122
+    - 2603:1030:c06:18::240/122
+    - 2603:1030:c06:400::a80/122
+  ipv4:
+    - 13.66.141.176/28
+    - 20.51.10.0/23
+    - 40.78.254.0/23
+  ipv6:
+    - 2603:1030:c06:2::40/122
+    - 2603:1030:c06:18::240/122
+    - 2603:1030:c06:400::a80/122
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

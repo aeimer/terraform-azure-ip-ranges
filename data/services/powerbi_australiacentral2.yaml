@@ -1,0 +1,32 @@
+id: PowerBI.AustraliaCentral2
+name: PowerBI.AustraliaCentral2
+metadata:
+  change_number: 1
+  region: australiacentral2
+  platform: Azure
+  system_service: PowerBI
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.36.120.122/31
+    - 20.36.120.124/30
+    - 20.36.120.208/29
+    - 2603:1010:404::620/123
+    - 2603:1010:404::640/122
+  ipv4:
+    - 20.36.120.122/31
+    - 20.36.120.124/30
+    - 20.36.120.208/29
+  ipv6:
+    - 2603:1010:404::620/123
+    - 2603:1010:404::640/122
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

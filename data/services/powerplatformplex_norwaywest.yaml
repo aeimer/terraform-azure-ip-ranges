@@ -1,0 +1,38 @@
+id: PowerPlatformPlex.NorwayWest
+name: PowerPlatformPlex.NorwayWest
+metadata:
+  change_number: 7
+  region: norwayw
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.220.137.8/29
+    - 4.220.138.96/29
+    - 4.220.152.8/29
+    - 4.220.213.0/25
+    - 51.120.176.192/29
+    - 51.120.176.220/30
+    - 51.120.176.232/30
+    - 51.120.184.144/28
+    - 2603:1061:2004:1100::/57
+  ipv4:
+    - 4.220.137.8/29
+    - 4.220.138.96/29
+    - 4.220.152.8/29
+    - 4.220.213.0/25
+    - 51.120.176.192/29
+    - 51.120.176.220/30
+    - 51.120.176.232/30
+    - 51.120.184.144/28
+  ipv6:
+    - 2603:1061:2004:1100::/57
+  counts:
+    total: 9
+    ipv4: 8
+    ipv6: 1

@@ -1,0 +1,28 @@
+id: AzureArcInfrastructure.IsraelCentral
+name: AzureArcInfrastructure.IsraelCentral
+metadata:
+  change_number: 2
+  region: israelcentral
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.217.9.46/31
+    - 20.217.10.36/30
+    - 20.217.13.112/29
+    - 20.217.62.136/32
+    - 2603:1040:1402:3::2b0/124
+  ipv4:
+    - 20.217.9.46/31
+    - 20.217.10.36/30
+    - 20.217.13.112/29
+    - 20.217.62.136/32
+  ipv6:
+    - 2603:1040:1402:3::2b0/124
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

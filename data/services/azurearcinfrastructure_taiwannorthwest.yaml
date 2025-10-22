@@ -1,0 +1,28 @@
+id: AzureArcInfrastructure.TaiwanNorthwest
+name: AzureArcInfrastructure.TaiwanNorthwest
+metadata:
+  change_number: 1
+  region: taiwannorthwest
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.53.136.60/31
+    - 51.53.139.72/29
+    - 51.53.182.200/30
+    - 51.53.191.138/32
+    - 2603:1040:1202:2::680/124
+  ipv4:
+    - 51.53.136.60/31
+    - 51.53.139.72/29
+    - 51.53.182.200/30
+    - 51.53.191.138/32
+  ipv6:
+    - 2603:1040:1202:2::680/124
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

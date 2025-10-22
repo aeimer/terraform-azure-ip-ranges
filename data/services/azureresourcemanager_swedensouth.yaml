@@ -1,0 +1,26 @@
+id: AzureResourceManager.SwedenSouth
+name: AzureResourceManager.SwedenSouth
+metadata:
+  change_number: 1
+  region: swedensouth
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.12.196.0/23
+    - 51.12.205.0/26
+    - 2603:1020:1104:1::/120
+    - 2603:1020:1104:400::280/122
+  ipv4:
+    - 51.12.196.0/23
+    - 51.12.205.0/26
+  ipv6:
+    - 2603:1020:1104:1::/120
+    - 2603:1020:1104:400::280/122
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

@@ -1,0 +1,32 @@
+id: AzureCosmosDB.IsraelCentral
+name: AzureCosmosDB.IsraelCentral
+metadata:
+  change_number: 2
+  region: israelcentral
+  platform: Azure
+  system_service: AzureCosmosDB
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.217.10.64/26
+    - 20.217.32.7/32
+    - 20.217.32.43/32
+    - 20.217.43.32/27
+    - 2603:1040:1402::500/123
+  ipv4:
+    - 20.217.10.64/26
+    - 20.217.32.7/32
+    - 20.217.32.43/32
+    - 20.217.43.32/27
+  ipv6:
+    - 2603:1040:1402::500/123
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

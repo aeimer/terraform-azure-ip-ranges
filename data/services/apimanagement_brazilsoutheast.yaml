@@ -1,0 +1,30 @@
+id: ApiManagement.BrazilSoutheast
+name: ApiManagement.BrazilSoutheast
+metadata:
+  change_number: 2
+  region: brazilse
+  platform: Azure
+  system_service: AzureApiManagement
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 108.140.88.128/28
+    - 191.232.18.181/32
+    - 191.233.50.192/28
+    - 2603:1050:403:400::2a0/124
+  ipv4:
+    - 108.140.88.128/28
+    - 191.232.18.181/32
+    - 191.233.50.192/28
+  ipv6:
+    - 2603:1050:403:400::2a0/124
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

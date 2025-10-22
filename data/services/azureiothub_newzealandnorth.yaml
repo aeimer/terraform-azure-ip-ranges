@@ -1,0 +1,30 @@
+id: AzureIoTHub.NewZealandNorth
+name: AzureIoTHub.NewZealandNorth
+metadata:
+  change_number: 1
+  region: newzealandnorth
+  platform: Azure
+  system_service: AzureIoTHub
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 172.204.183.64/27
+    - 172.204.192.224/27
+    - 172.204.208.224/27
+    - 2603:1010:502:400::c0/123
+    - 2603:1010:502:800::40/123
+    - 2603:1010:502:c00::40/123
+  ipv4:
+    - 172.204.183.64/27
+    - 172.204.192.224/27
+    - 172.204.208.224/27
+  ipv6:
+    - 2603:1010:502:400::c0/123
+    - 2603:1010:502:800::40/123
+    - 2603:1010:502:c00::40/123
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

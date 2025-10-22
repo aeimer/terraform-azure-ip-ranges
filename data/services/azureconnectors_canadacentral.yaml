@@ -1,0 +1,46 @@
+id: AzureConnectors.CanadaCentral
+name: AzureConnectors.CanadaCentral
+metadata:
+  change_number: 7
+  region: canadacentral
+  platform: Azure
+  system_service: AzureConnectors
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.71.170.208/28
+    - 13.71.175.160/27
+    - 20.48.200.192/27
+    - 20.48.200.224/28
+    - 20.200.90.162/32
+    - 20.200.91.36/32
+    - 40.82.184.6/32
+    - 40.82.184.43/32
+    - 40.85.206.95/32
+    - 52.237.24.126/32
+    - 52.237.32.212/32
+    - 2603:1030:f05:402::180/122
+  ipv4:
+    - 13.71.170.208/28
+    - 13.71.175.160/27
+    - 20.48.200.192/27
+    - 20.48.200.224/28
+    - 20.200.90.162/32
+    - 20.200.91.36/32
+    - 40.82.184.6/32
+    - 40.82.184.43/32
+    - 40.85.206.95/32
+    - 52.237.24.126/32
+    - 52.237.32.212/32
+  ipv6:
+    - 2603:1030:f05:402::180/122
+  counts:
+    total: 12
+    ipv4: 11
+    ipv6: 1

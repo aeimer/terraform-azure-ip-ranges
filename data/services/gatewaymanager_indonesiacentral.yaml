@@ -1,0 +1,23 @@
+id: GatewayManager.IndonesiaCentral
+name: GatewayManager.IndonesiaCentral
+metadata:
+  change_number: 1
+  region: indonesiacentral
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 70.153.152.64/26
+    - 2603:1040:1802:2::700/122
+  ipv4:
+    - 70.153.152.64/26
+  ipv6:
+    - 2603:1040:1802:2::700/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

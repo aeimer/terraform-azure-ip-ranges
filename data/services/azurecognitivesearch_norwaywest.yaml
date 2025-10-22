@@ -1,0 +1,22 @@
+id: AzureCognitiveSearch.NorwayWest
+name: AzureCognitiveSearch.NorwayWest
+metadata:
+  change_number: 1
+  region: norwayw
+  platform: Azure
+  system_service: AzureCognitiveSearch
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.120.224.128/26
+    - 2603:1020:f04::180/121
+  ipv4:
+    - 51.120.224.128/26
+  ipv6:
+    - 2603:1020:f04::180/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

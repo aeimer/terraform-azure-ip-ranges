@@ -1,0 +1,35 @@
+id: AppServiceManagement.GermanyWestCentral
+name: AppServiceManagement.GermanyWestCentral
+metadata:
+  change_number: 5
+  region: germanywc
+  platform: Azure
+  system_service: AzureAppServiceManagement
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.52.95.16/28
+    - 51.116.155.0/26
+    - 51.116.175.204/32
+    - 135.220.116.64/29
+    - 2603:1020:c04:2::500/123
+    - 2603:1020:c04:402::100/122
+    - 2603:1020:c04:802::100/122
+    - 2603:1020:c04:c02::100/122
+  ipv4:
+    - 20.52.95.16/28
+    - 51.116.155.0/26
+    - 51.116.175.204/32
+    - 135.220.116.64/29
+  ipv6:
+    - 2603:1020:c04:2::500/123
+    - 2603:1020:c04:402::100/122
+    - 2603:1020:c04:802::100/122
+    - 2603:1020:c04:c02::100/122
+  counts:
+    total: 8
+    ipv4: 4
+    ipv6: 4

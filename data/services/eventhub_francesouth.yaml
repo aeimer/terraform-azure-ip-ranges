@@ -1,0 +1,34 @@
+id: EventHub.FranceSouth
+name: EventHub.FranceSouth
+metadata:
+  change_number: 6
+  region: southfrance
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.79.178.32/27
+    - 51.138.161.128/26
+    - 52.136.188.0/24
+    - 2603:1020:905::240/122
+    - 2603:1020:905:2::/120
+    - 2603:1020:905:402::1c0/123
+  ipv4:
+    - 40.79.178.32/27
+    - 51.138.161.128/26
+    - 52.136.188.0/24
+  ipv6:
+    - 2603:1020:905::240/122
+    - 2603:1020:905:2::/120
+    - 2603:1020:905:402::1c0/123
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

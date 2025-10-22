@@ -1,0 +1,36 @@
+id: AzureIoTHub.CanadaCentral
+name: AzureIoTHub.CanadaCentral
+metadata:
+  change_number: 1
+  region: canadacentral
+  platform: Azure
+  system_service: AzureIoTHub
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.71.175.32/27
+    - 20.38.147.192/27
+    - 52.228.85.224/27
+    - 52.228.86.0/25
+    - 52.237.27.123/32
+    - 52.246.155.192/27
+    - 2603:1030:f05:402::300/123
+    - 2603:1030:f05:802::240/123
+    - 2603:1030:f05:c02::240/123
+  ipv4:
+    - 13.71.175.32/27
+    - 20.38.147.192/27
+    - 52.228.85.224/27
+    - 52.228.86.0/25
+    - 52.237.27.123/32
+    - 52.246.155.192/27
+  ipv6:
+    - 2603:1030:f05:402::300/123
+    - 2603:1030:f05:802::240/123
+    - 2603:1030:f05:c02::240/123
+  counts:
+    total: 9
+    ipv4: 6
+    ipv6: 3

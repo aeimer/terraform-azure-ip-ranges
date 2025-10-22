@@ -1,0 +1,36 @@
+id: Storage.ChileCentral
+name: Storage.ChileCentral
+metadata:
+  change_number: 1
+  region: chilec
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.33.236.0/24
+    - 20.33.240.0/24
+    - 20.153.38.0/24
+    - 57.150.101.0/24
+    - 57.150.112.0/22
+    - 57.150.116.0/24
+    - 2603:1050:302::/48
+  ipv4:
+    - 20.33.236.0/24
+    - 20.33.240.0/24
+    - 20.153.38.0/24
+    - 57.150.101.0/24
+    - 57.150.112.0/22
+    - 57.150.116.0/24
+  ipv6:
+    - 2603:1050:302::/48
+  counts:
+    total: 7
+    ipv4: 6
+    ipv6: 1

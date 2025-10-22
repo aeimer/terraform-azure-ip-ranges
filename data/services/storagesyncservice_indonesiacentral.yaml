@@ -1,0 +1,24 @@
+id: StorageSyncService.IndonesiaCentral
+name: StorageSyncService.IndonesiaCentral
+metadata:
+  change_number: 2
+  region: indonesiacentral
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 70.153.88.232/29
+    - 70.153.176.56/29
+    - 2603:1040:1802:400::c0/123
+  ipv4:
+    - 70.153.88.232/29
+    - 70.153.176.56/29
+  ipv6:
+    - 2603:1040:1802:400::c0/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

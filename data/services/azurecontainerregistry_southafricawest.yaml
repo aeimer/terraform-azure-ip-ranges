@@ -1,0 +1,38 @@
+id: AzureContainerRegistry.SouthAfricaWest
+name: AzureContainerRegistry.SouthAfricaWest
+metadata:
+  change_number: 7
+  region: southafricawest
+  platform: Azure
+  system_service: AzureContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 102.37.65.64/26
+    - 102.37.65.192/26
+    - 102.133.26.24/29
+    - 172.209.9.128/26
+    - 2603:1000:4:5::740/122
+    - 2603:1000:4:402::90/125
+    - 2603:1000:4:402::340/122
+    - 2603:1000:4:402::580/122
+  ipv4:
+    - 102.37.65.64/26
+    - 102.37.65.192/26
+    - 102.133.26.24/29
+    - 172.209.9.128/26
+  ipv6:
+    - 2603:1000:4:5::740/122
+    - 2603:1000:4:402::90/125
+    - 2603:1000:4:402::340/122
+    - 2603:1000:4:402::580/122
+  counts:
+    total: 8
+    ipv4: 4
+    ipv6: 4

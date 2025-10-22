@@ -1,0 +1,22 @@
+id: AzureAttestation.WestCentralUS
+name: AzureAttestation.WestCentralUS
+metadata:
+  change_number: 1
+  region: westcentralus
+  platform: Azure
+  system_service: AzureAttestation
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.67.121.196/30
+    - 52.150.157.172/30
+  ipv4:
+    - 40.67.121.196/30
+    - 52.150.157.172/30
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

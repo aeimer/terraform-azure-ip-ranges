@@ -1,0 +1,24 @@
+id: AzureBotService.AustraliaEast
+name: AzureBotService.AustraliaEast
+metadata:
+  change_number: 1
+  region: australiaeast
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.70.74.112/30
+    - 20.37.192.64/30
+    - 2603:1010:6:1::20/123
+  ipv4:
+    - 13.70.74.112/30
+    - 20.37.192.64/30
+  ipv6:
+    - 2603:1010:6:1::20/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

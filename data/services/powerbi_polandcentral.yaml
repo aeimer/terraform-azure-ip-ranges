@@ -1,0 +1,42 @@
+id: PowerBI.PolandCentral
+name: PowerBI.PolandCentral
+metadata:
+  change_number: 1
+  region: polandcentral
+  platform: Azure
+  system_service: PowerBI
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.215.4.248/31
+    - 20.215.4.252/30
+    - 20.215.6.128/29
+    - 20.215.170.120/29
+    - 20.215.173.80/29
+    - 20.215.173.88/31
+    - 20.215.173.96/28
+    - 20.215.174.0/30
+    - 2603:1020:1302:1::1e0/123
+    - 2603:1020:1302:1::280/122
+  ipv4:
+    - 20.215.4.248/31
+    - 20.215.4.252/30
+    - 20.215.6.128/29
+    - 20.215.170.120/29
+    - 20.215.173.80/29
+    - 20.215.173.88/31
+    - 20.215.173.96/28
+    - 20.215.174.0/30
+  ipv6:
+    - 2603:1020:1302:1::1e0/123
+    - 2603:1020:1302:1::280/122
+  counts:
+    total: 10
+    ipv4: 8
+    ipv6: 2

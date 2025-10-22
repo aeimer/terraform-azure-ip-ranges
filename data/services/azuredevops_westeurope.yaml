@@ -1,0 +1,22 @@
+id: AzureDevOps.WestEurope
+name: AzureDevOps.WestEurope
+metadata:
+  change_number: 2
+  region: westeurope
+  platform: Azure
+  system_service: AzureDevOps
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.74.28.0/23
+    - 2603:1020:206:20::600/119
+  ipv4:
+    - 40.74.28.0/23
+  ipv6:
+    - 2603:1020:206:20::600/119
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

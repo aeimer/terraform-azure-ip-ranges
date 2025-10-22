@@ -1,0 +1,22 @@
+id: AzurePortal.MexicoCentral
+name: AzurePortal.MexicoCentral
+metadata:
+  change_number: 1
+  region: mexicocentral
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 158.23.112.0/27
+    - 2603:1030:702:2::300/121
+  ipv4:
+    - 158.23.112.0/27
+  ipv6:
+    - 2603:1030:702:2::300/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

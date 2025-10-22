@@ -1,0 +1,26 @@
+id: AzureIoTHub.AustraliaCentral2
+name: AzureIoTHub.AustraliaCentral2
+metadata:
+  change_number: 1
+  region: australiacentral2
+  platform: Azure
+  system_service: AzureIoTHub
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.36.117.64/27
+    - 20.36.123.32/27
+    - 20.36.123.128/25
+    - 2603:1010:404:402::300/123
+  ipv4:
+    - 20.36.117.64/27
+    - 20.36.123.32/27
+    - 20.36.123.128/25
+  ipv6:
+    - 2603:1010:404:402::300/123
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

@@ -1,0 +1,32 @@
+id: EventHub.GermanyNorth
+name: EventHub.GermanyNorth
+metadata:
+  change_number: 4
+  region: germanyn
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.116.58.128/27
+    - 51.116.73.0/24
+    - 2603:1020:d04::240/122
+    - 2603:1020:d04:1::600/120
+    - 2603:1020:d04:402::1c0/123
+  ipv4:
+    - 51.116.58.128/27
+    - 51.116.73.0/24
+  ipv6:
+    - 2603:1020:d04::240/122
+    - 2603:1020:d04:1::600/120
+    - 2603:1020:d04:402::1c0/123
+  counts:
+    total: 5
+    ipv4: 2
+    ipv6: 3

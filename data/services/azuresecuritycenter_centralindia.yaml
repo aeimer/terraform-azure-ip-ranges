@@ -1,0 +1,36 @@
+id: AzureSecurityCenter.CentralIndia
+name: AzureSecurityCenter.CentralIndia
+metadata:
+  change_number: 3
+  region: centralindia
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.43.123.128/27
+    - 57.159.87.192/26
+    - 57.159.88.0/23
+    - 57.159.90.0/24
+    - 57.159.91.0/25
+    - 98.70.194.32/27
+    - 98.70.194.128/25
+    - 98.70.195.0/24
+    - 98.70.196.0/23
+  ipv4:
+    - 20.43.123.128/27
+    - 57.159.87.192/26
+    - 57.159.88.0/23
+    - 57.159.90.0/24
+    - 57.159.91.0/25
+    - 98.70.194.32/27
+    - 98.70.194.128/25
+    - 98.70.195.0/24
+    - 98.70.196.0/23
+  ipv6: []
+  counts:
+    total: 9
+    ipv4: 9
+    ipv6: 0

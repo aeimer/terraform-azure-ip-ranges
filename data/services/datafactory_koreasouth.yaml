@@ -1,0 +1,38 @@
+id: DataFactory.KoreaSouth
+name: DataFactory.KoreaSouth
+metadata:
+  change_number: 6
+  region: koreasouth
+  platform: Azure
+  system_service: DataFactory
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.243.51.32/27
+    - 20.200.161.48/29
+    - 40.80.168.128/25
+    - 40.80.169.0/26
+    - 40.80.172.112/29
+    - 52.231.148.160/28
+    - 52.231.151.32/28
+    - 2603:1040:e05:6::100/121
+    - 2603:1040:e05:402::190/124
+  ipv4:
+    - 4.243.51.32/27
+    - 20.200.161.48/29
+    - 40.80.168.128/25
+    - 40.80.169.0/26
+    - 40.80.172.112/29
+    - 52.231.148.160/28
+    - 52.231.151.32/28
+  ipv6:
+    - 2603:1040:e05:6::100/121
+    - 2603:1040:e05:402::190/124
+  counts:
+    total: 9
+    ipv4: 7
+    ipv6: 2

@@ -1,0 +1,36 @@
+id: AzureBackup.ItalyNorth
+name: AzureBackup.ItalyNorth
+metadata:
+  change_number: 1
+  region: italynorth
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.232.28.64/26
+    - 4.232.107.0/26
+    - 4.232.123.0/26
+    - 4.232.125.192/27
+    - 4.232.195.0/26
+    - 2603:1020:1204::680/121
+    - 2603:1020:1204:400::100/121
+    - 2603:1020:1204:800::80/121
+    - 2603:1020:1204:c00::80/121
+  ipv4:
+    - 4.232.28.64/26
+    - 4.232.107.0/26
+    - 4.232.123.0/26
+    - 4.232.125.192/27
+    - 4.232.195.0/26
+  ipv6:
+    - 2603:1020:1204::680/121
+    - 2603:1020:1204:400::100/121
+    - 2603:1020:1204:800::80/121
+    - 2603:1020:1204:c00::80/121
+  counts:
+    total: 9
+    ipv4: 5
+    ipv6: 4

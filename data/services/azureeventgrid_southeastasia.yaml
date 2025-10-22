@@ -1,0 +1,30 @@
+id: AzureEventGrid.SoutheastAsia
+name: AzureEventGrid.SoutheastAsia
+metadata:
+  change_number: 3
+  region: southeastasia
+  platform: Azure
+  system_service: AzureEventGrid
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.43.131.128/25
+    - 20.43.165.144/28
+    - 20.43.172.128/27
+    - 20.44.205.112/28
+    - 57.155.33.0/25
+    - 2603:1040:5:1::380/121
+  ipv4:
+    - 20.43.131.128/25
+    - 20.43.165.144/28
+    - 20.43.172.128/27
+    - 20.44.205.112/28
+    - 57.155.33.0/25
+  ipv6:
+    - 2603:1040:5:1::380/121
+  counts:
+    total: 6
+    ipv4: 5
+    ipv6: 1

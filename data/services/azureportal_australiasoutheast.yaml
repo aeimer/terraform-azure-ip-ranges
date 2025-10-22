@@ -1,0 +1,36 @@
+id: AzurePortal.AustraliaSoutheast
+name: AzurePortal.AustraliaSoutheast
+metadata:
+  change_number: 1
+  region: australiasoutheast
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.77.1.236/32
+    - 13.77.55.208/28
+    - 20.42.227.192/27
+    - 20.42.228.220/30
+    - 20.42.228.224/27
+    - 20.42.230.80/28
+    - 52.243.76.246/32
+    - 104.46.178.96/29
+    - 2603:1010:101::700/121
+  ipv4:
+    - 13.77.1.236/32
+    - 13.77.55.208/28
+    - 20.42.227.192/27
+    - 20.42.228.220/30
+    - 20.42.228.224/27
+    - 20.42.230.80/28
+    - 52.243.76.246/32
+    - 104.46.178.96/29
+  ipv6:
+    - 2603:1010:101::700/121
+  counts:
+    total: 9
+    ipv4: 8
+    ipv6: 1

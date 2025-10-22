@@ -1,0 +1,22 @@
+id: AzureBotService.BrazilSoutheast
+name: AzureBotService.BrazilSoutheast
+metadata:
+  change_number: 1
+  region: brazilse
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 191.233.8.16/30
+    - 2603:1050:403::20/123
+  ipv4:
+    - 191.233.8.16/30
+  ipv6:
+    - 2603:1050:403::20/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

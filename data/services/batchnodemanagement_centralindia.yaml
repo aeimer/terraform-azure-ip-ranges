@@ -1,0 +1,34 @@
+id: BatchNodeManagement.CentralIndia
+name: BatchNodeManagement.CentralIndia
+metadata:
+  change_number: 2
+  region: centralindia
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.192.99.96/27
+    - 40.80.50.224/27
+    - 52.140.106.128/27
+    - 104.211.82.96/27
+    - 104.211.96.142/32
+    - 104.211.96.144/31
+    - 2603:1040:a06:1::340/122
+  ipv4:
+    - 20.192.99.96/27
+    - 40.80.50.224/27
+    - 52.140.106.128/27
+    - 104.211.82.96/27
+    - 104.211.96.142/32
+    - 104.211.96.144/31
+  ipv6:
+    - 2603:1040:a06:1::340/122
+  counts:
+    total: 7
+    ipv4: 6
+    ipv6: 1

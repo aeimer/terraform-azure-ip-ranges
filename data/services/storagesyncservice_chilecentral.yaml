@@ -1,0 +1,22 @@
+id: StorageSyncService.ChileCentral
+name: StorageSyncService.ChileCentral
+metadata:
+  change_number: 1
+  region: chilec
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.211.152.48/29
+    - 2603:1050:301:400::120/123
+  ipv4:
+    - 68.211.152.48/29
+  ipv6:
+    - 2603:1050:301:400::120/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

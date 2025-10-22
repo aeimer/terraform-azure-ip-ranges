@@ -1,0 +1,30 @@
+id: ActionGroup.WestEurope
+name: ActionGroup.WestEurope
+metadata:
+  change_number: 6
+  region: westeurope
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.69.109.132/30
+    - 20.105.215.20/31
+    - 172.201.232.60/30
+    - 2603:1020:206:b::fc/126
+    - 2603:1020:206:402::178/125
+    - 2603:1020:206:403::78/125
+  ipv4:
+    - 13.69.109.132/30
+    - 20.105.215.20/31
+    - 172.201.232.60/30
+  ipv6:
+    - 2603:1020:206:b::fc/126
+    - 2603:1020:206:402::178/125
+    - 2603:1020:206:403::78/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

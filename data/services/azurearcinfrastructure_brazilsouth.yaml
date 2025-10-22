@@ -1,0 +1,36 @@
+id: AzureArcInfrastructure.BrazilSouth
+name: AzureArcInfrastructure.BrazilSouth
+metadata:
+  change_number: 4
+  region: brazilsouth
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.226.211.158/31
+    - 20.226.212.160/29
+    - 191.233.207.26/32
+    - 191.233.207.30/31
+    - 191.234.136.44/30
+    - 191.234.138.144/30
+    - 191.234.149.138/32
+    - 191.234.157.42/32
+    - 191.234.157.172/30
+  ipv4:
+    - 20.226.211.158/31
+    - 20.226.212.160/29
+    - 191.233.207.26/32
+    - 191.233.207.30/31
+    - 191.234.136.44/30
+    - 191.234.138.144/30
+    - 191.234.149.138/32
+    - 191.234.157.42/32
+    - 191.234.157.172/30
+  ipv6: []
+  counts:
+    total: 9
+    ipv4: 9
+    ipv6: 0

@@ -1,0 +1,36 @@
+id: AzureArcInfrastructure.KoreaSouth
+name: AzureArcInfrastructure.KoreaSouth
+metadata:
+  change_number: 5
+  region: koreasouth
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.243.24.48/29
+    - 4.243.24.56/31
+    - 4.243.123.169/32
+    - 4.243.123.172/30
+    - 40.80.172.12/30
+    - 52.231.151.80/30
+    - 2603:1040:e05:6::90/124
+    - 2603:1040:e05:7::6ea/127
+    - 2603:1040:e05:7::6ec/128
+  ipv4:
+    - 4.243.24.48/29
+    - 4.243.24.56/31
+    - 4.243.123.169/32
+    - 4.243.123.172/30
+    - 40.80.172.12/30
+    - 52.231.151.80/30
+  ipv6:
+    - 2603:1040:e05:6::90/124
+    - 2603:1040:e05:7::6ea/127
+    - 2603:1040:e05:7::6ec/128
+  counts:
+    total: 9
+    ipv4: 6
+    ipv6: 3

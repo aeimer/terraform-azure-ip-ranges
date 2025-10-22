@@ -1,0 +1,36 @@
+id: AzureSecurityCenter.SouthCentralUS
+name: AzureSecurityCenter.SouthCentralUS
+metadata:
+  change_number: 3
+  region: southcentralus
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.45.126.64/27
+    - 135.233.204.32/27
+    - 135.233.205.128/25
+    - 135.233.207.0/24
+    - 135.233.216.0/23
+    - 172.215.184.0/23
+    - 172.215.186.0/24
+    - 172.215.187.0/25
+    - 172.215.187.128/26
+  ipv4:
+    - 20.45.126.64/27
+    - 135.233.204.32/27
+    - 135.233.205.128/25
+    - 135.233.207.0/24
+    - 135.233.216.0/23
+    - 172.215.184.0/23
+    - 172.215.186.0/24
+    - 172.215.187.0/25
+    - 172.215.187.128/26
+  ipv6: []
+  counts:
+    total: 9
+    ipv4: 9
+    ipv6: 0

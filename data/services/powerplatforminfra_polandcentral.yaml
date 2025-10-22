@@ -1,0 +1,34 @@
+id: PowerPlatformInfra.PolandCentral
+name: PowerPlatformInfra.PolandCentral
+metadata:
+  change_number: 3
+  region: polandcentral
+  platform: Azure
+  system_service: PowerPlatformInfra
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.215.74.96/29
+    - 20.215.75.0/26
+    - 20.215.75.64/27
+    - 134.112.64.40/29
+    - 134.112.64.64/26
+    - 2603:1061:2002:9800::/57
+  ipv4:
+    - 20.215.74.96/29
+    - 20.215.75.0/26
+    - 20.215.75.64/27
+    - 134.112.64.40/29
+    - 134.112.64.64/26
+  ipv6:
+    - 2603:1061:2002:9800::/57
+  counts:
+    total: 6
+    ipv4: 5
+    ipv6: 1

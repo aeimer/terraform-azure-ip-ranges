@@ -1,0 +1,36 @@
+id: PowerPlatformPlex.GermanyNorth
+name: PowerPlatformPlex.GermanyNorth
+metadata:
+  change_number: 6
+  region: germanyn
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.184.2.8/29
+    - 20.113.254.240/28
+    - 20.170.228.128/25
+    - 51.116.77.84/30
+    - 51.116.77.248/30
+    - 51.116.78.36/30
+    - 51.116.78.192/30
+    - 2603:1061:2004:4800::/57
+  ipv4:
+    - 4.184.2.8/29
+    - 20.113.254.240/28
+    - 20.170.228.128/25
+    - 51.116.77.84/30
+    - 51.116.77.248/30
+    - 51.116.78.36/30
+    - 51.116.78.192/30
+  ipv6:
+    - 2603:1061:2004:4800::/57
+  counts:
+    total: 8
+    ipv4: 7
+    ipv6: 1

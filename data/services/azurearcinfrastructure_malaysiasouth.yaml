@@ -1,0 +1,24 @@
+id: AzureArcInfrastructure.MalaysiaSouth
+name: AzureArcInfrastructure.MalaysiaSouth
+metadata:
+  change_number: 2
+  region: malaysiasouth
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.17.28.8/29
+    - 20.17.28.80/31
+    - 2603:1040:1503:5::350/124
+  ipv4:
+    - 20.17.28.8/29
+    - 20.17.28.80/31
+  ipv6:
+    - 2603:1040:1503:5::350/124
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

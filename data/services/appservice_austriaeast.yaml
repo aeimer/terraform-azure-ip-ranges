@@ -1,0 +1,26 @@
+id: AppService.AustriaEast
+name: AppService.AustriaEast
+metadata:
+  change_number: 1
+  region: austriaeast
+  platform: Azure
+  system_service: AzureAppService
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.210.171.0/24
+    - 2603:1020:104:5::500/120
+  ipv4:
+    - 68.210.171.0/24
+  ipv6:
+    - 2603:1020:104:5::500/120
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

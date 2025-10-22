@@ -1,0 +1,34 @@
+id: MicrosoftCloudAppSecurity.AustraliaEast
+name: MicrosoftCloudAppSecurity.AustraliaEast
+metadata:
+  change_number: 3
+  region: australiaeast
+  platform: Azure
+  system_service: MicrosoftCloudAppSecurity
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.70.74.160/27
+    - 20.227.120.240/28
+    - 20.227.121.128/25
+    - 20.227.125.0/29
+    - 68.218.141.6/31
+    - 68.218.141.8/29
+    - 68.218.141.16/28
+    - 68.218.141.32/30
+  ipv4:
+    - 13.70.74.160/27
+    - 20.227.120.240/28
+    - 20.227.121.128/25
+    - 20.227.125.0/29
+    - 68.218.141.6/31
+    - 68.218.141.8/29
+    - 68.218.141.16/28
+    - 68.218.141.32/30
+  ipv6: []
+  counts:
+    total: 8
+    ipv4: 8
+    ipv6: 0

@@ -1,0 +1,36 @@
+id: AzureDevOps.WestUS
+name: AzureDevOps.WestUS
+metadata:
+  change_number: 3
+  region: westus
+  platform: Azure
+  system_service: AzureDevOps
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.82.252.0/24
+    - 2603:1030:a07:15::3d2/127
+    - 2603:1030:a07:15::3d8/125
+    - 2603:1030:a07:1e::26e/127
+    - 2603:1030:a07:1f::340/122
+    - 2603:1030:a07:1f::380/121
+    - 2603:1030:a07:1f::400/123
+    - 2603:1030:a07:1f::420/124
+    - 2603:1030:a07:1f::430/126
+  ipv4:
+    - 40.82.252.0/24
+  ipv6:
+    - 2603:1030:a07:15::3d2/127
+    - 2603:1030:a07:15::3d8/125
+    - 2603:1030:a07:1e::26e/127
+    - 2603:1030:a07:1f::340/122
+    - 2603:1030:a07:1f::380/121
+    - 2603:1030:a07:1f::400/123
+    - 2603:1030:a07:1f::420/124
+    - 2603:1030:a07:1f::430/126
+  counts:
+    total: 9
+    ipv4: 1
+    ipv6: 8

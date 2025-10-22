@@ -1,0 +1,36 @@
+id: Sql.TaiwanNorthwest
+name: Sql.TaiwanNorthwest
+metadata:
+  change_number: 1
+  region: taiwannorthwest
+  platform: Azure
+  system_service: AzureSQL
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.53.182.32/27
+    - 51.53.182.64/26
+    - 51.53.184.64/27
+    - 51.53.185.64/27
+    - 51.53.187.248/29
+    - 2603:1040:1202:2::220/123
+    - 2603:1040:1202:2::280/121
+  ipv4:
+    - 51.53.182.32/27
+    - 51.53.182.64/26
+    - 51.53.184.64/27
+    - 51.53.185.64/27
+    - 51.53.187.248/29
+  ipv6:
+    - 2603:1040:1202:2::220/123
+    - 2603:1040:1202:2::280/121
+  counts:
+    total: 7
+    ipv4: 5
+    ipv6: 2

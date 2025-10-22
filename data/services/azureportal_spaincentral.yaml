@@ -1,0 +1,24 @@
+id: AzurePortal.SpainCentral
+name: AzurePortal.SpainCentral
+metadata:
+  change_number: 1
+  region: spaincentral
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.221.40.32/27
+    - 68.221.93.140/30
+    - 2603:1020:1403:2::300/121
+  ipv4:
+    - 68.221.40.32/27
+    - 68.221.93.140/30
+  ipv6:
+    - 2603:1020:1403:2::300/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

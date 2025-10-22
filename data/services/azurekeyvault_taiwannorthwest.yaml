@@ -1,0 +1,36 @@
+id: AzureKeyVault.TaiwanNorthwest
+name: AzureKeyVault.TaiwanNorthwest
+metadata:
+  change_number: 2
+  region: taiwannorthwest
+  platform: Azure
+  system_service: AzureKeyVault
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.53.178.16/29
+    - 51.53.178.204/30
+    - 51.53.186.124/30
+    - 2603:1040:1202:1::1a8/125
+    - 2603:1040:1202:2::420/125
+    - 2603:1040:1202:2::428/126
+    - 2603:1040:1202:400::88/125
+  ipv4:
+    - 51.53.178.16/29
+    - 51.53.178.204/30
+    - 51.53.186.124/30
+  ipv6:
+    - 2603:1040:1202:1::1a8/125
+    - 2603:1040:1202:2::420/125
+    - 2603:1040:1202:2::428/126
+    - 2603:1040:1202:400::88/125
+  counts:
+    total: 7
+    ipv4: 3
+    ipv6: 4

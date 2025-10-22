@@ -1,0 +1,22 @@
+id: AzureBotService.AustriaEast
+name: AzureBotService.AustriaEast
+metadata:
+  change_number: 1
+  region: austriaeast
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.210.160.16/30
+    - 2603:1020:104:3::6c0/123
+  ipv4:
+    - 68.210.160.16/30
+  ipv6:
+    - 2603:1020:104:3::6c0/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

@@ -1,0 +1,22 @@
+id: AzureDevSpaces.EastUS2EUAP
+name: AzureDevSpaces.EastUS2EUAP
+metadata:
+  change_number: 1
+  region: eastus2euap
+  platform: Azure
+  system_service: AzureDevSpaces
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.39.11.64/28
+    - 40.75.35.224/28
+  ipv4:
+    - 20.39.11.64/28
+    - 40.75.35.224/28
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

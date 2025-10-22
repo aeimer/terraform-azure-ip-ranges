@@ -1,0 +1,30 @@
+id: AzureSecurityCenter.JapanEast
+name: AzureSecurityCenter.JapanEast
+metadata:
+  change_number: 2
+  region: japaneast
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.79.190.128/27
+    - 74.176.228.64/26
+    - 74.176.230.0/23
+    - 130.33.120.0/22
+    - 130.33.124.0/24
+    - 130.33.125.0/27
+  ipv4:
+    - 40.79.190.128/27
+    - 74.176.228.64/26
+    - 74.176.230.0/23
+    - 130.33.120.0/22
+    - 130.33.124.0/24
+    - 130.33.125.0/27
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

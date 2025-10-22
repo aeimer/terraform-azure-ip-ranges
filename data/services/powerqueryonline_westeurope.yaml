@@ -1,0 +1,34 @@
+id: PowerQueryOnline.WestEurope
+name: PowerQueryOnline.WestEurope
+metadata:
+  change_number: 6
+  region: westeurope
+  platform: Azure
+  system_service: PowerQueryOnline
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.105.215.40/29
+    - 40.74.30.104/30
+    - 104.40.170.68/31
+    - 172.211.127.192/28
+    - 172.211.127.208/29
+    - 2603:1020:206:1::200/123
+    - 2603:1020:206:402::160/126
+    - 2603:1020:206:403::1a0/126
+  ipv4:
+    - 20.105.215.40/29
+    - 40.74.30.104/30
+    - 104.40.170.68/31
+    - 172.211.127.192/28
+    - 172.211.127.208/29
+  ipv6:
+    - 2603:1020:206:1::200/123
+    - 2603:1020:206:402::160/126
+    - 2603:1020:206:403::1a0/126
+  counts:
+    total: 8
+    ipv4: 5
+    ipv6: 3

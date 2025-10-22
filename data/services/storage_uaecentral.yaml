@@ -1,0 +1,42 @@
+id: Storage.UAECentral
+name: Storage.UAECentral
+metadata:
+  change_number: 7
+  region: uaecentral
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.33.193.0/24
+    - 20.47.54.0/24
+    - 20.60.108.0/24
+    - 20.150.6.0/23
+    - 20.150.115.0/24
+    - 20.157.131.0/24
+    - 20.209.200.0/23
+    - 20.209.219.0/24
+    - 52.239.233.0/25
+    - 2603:1040:b05::/48
+  ipv4:
+    - 20.33.193.0/24
+    - 20.47.54.0/24
+    - 20.60.108.0/24
+    - 20.150.6.0/23
+    - 20.150.115.0/24
+    - 20.157.131.0/24
+    - 20.209.200.0/23
+    - 20.209.219.0/24
+    - 52.239.233.0/25
+  ipv6:
+    - 2603:1040:b05::/48
+  counts:
+    total: 10
+    ipv4: 9
+    ipv6: 1

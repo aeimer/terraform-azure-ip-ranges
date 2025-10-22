@@ -1,0 +1,36 @@
+id: AzureBackup.SouthAfricaNorth
+name: AzureBackup.SouthAfricaNorth
+metadata:
+  change_number: 3
+  region: southafricanorth
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 102.37.160.192/26
+    - 102.133.123.96/27
+    - 102.133.155.64/26
+    - 102.133.155.128/27
+    - 102.133.251.0/27
+    - 102.133.254.128/26
+    - 2603:1000:104:402::200/121
+    - 2603:1000:104:802::180/121
+    - 2603:1000:104:c02::180/121
+  ipv4:
+    - 102.37.160.192/26
+    - 102.133.123.96/27
+    - 102.133.155.64/26
+    - 102.133.155.128/27
+    - 102.133.251.0/27
+    - 102.133.254.128/26
+  ipv6:
+    - 2603:1000:104:402::200/121
+    - 2603:1000:104:802::180/121
+    - 2603:1000:104:c02::180/121
+  counts:
+    total: 9
+    ipv4: 6
+    ipv6: 3

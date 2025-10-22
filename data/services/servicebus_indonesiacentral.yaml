@@ -1,0 +1,36 @@
+id: ServiceBus.IndonesiaCentral
+name: ServiceBus.IndonesiaCentral
+metadata:
+  change_number: 1
+  region: indonesiacentral
+  platform: Azure
+  system_service: AzureServiceBus
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 70.153.158.0/25
+    - 70.153.176.16/29
+    - 70.153.176.32/28
+    - 70.153.200.16/29
+    - 70.153.200.32/28
+    - 70.153.216.16/29
+    - 70.153.216.32/28
+    - 2603:1040:1802::600/121
+  ipv4:
+    - 70.153.158.0/25
+    - 70.153.176.16/29
+    - 70.153.176.32/28
+    - 70.153.200.16/29
+    - 70.153.200.32/28
+    - 70.153.216.16/29
+    - 70.153.216.32/28
+  ipv6:
+    - 2603:1040:1802::600/121
+  counts:
+    total: 8
+    ipv4: 7
+    ipv6: 1

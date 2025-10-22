@@ -1,0 +1,46 @@
+id: AzureContainerRegistry.JioIndiaCentral
+name: AzureContainerRegistry.JioIndiaCentral
+metadata:
+  change_number: 4
+  region: jioindiacentral
+  platform: Azure
+  system_service: AzureContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.240.148.192/26
+    - 20.192.32.0/26
+    - 20.192.33.0/26
+    - 20.192.33.128/25
+    - 20.192.50.0/26
+    - 20.192.234.24/29
+    - 20.192.236.0/26
+    - 2603:1040:1104::5a0/125
+    - 2603:1040:1104:5::1c0/122
+    - 2603:1040:1104:400::90/125
+    - 2603:1040:1104:400::380/121
+    - 2603:1040:1104:400::480/122
+  ipv4:
+    - 4.240.148.192/26
+    - 20.192.32.0/26
+    - 20.192.33.0/26
+    - 20.192.33.128/25
+    - 20.192.50.0/26
+    - 20.192.234.24/29
+    - 20.192.236.0/26
+  ipv6:
+    - 2603:1040:1104::5a0/125
+    - 2603:1040:1104:5::1c0/122
+    - 2603:1040:1104:400::90/125
+    - 2603:1040:1104:400::380/121
+    - 2603:1040:1104:400::480/122
+  counts:
+    total: 12
+    ipv4: 7
+    ipv6: 5

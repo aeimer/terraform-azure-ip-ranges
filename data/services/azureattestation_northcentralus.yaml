@@ -1,0 +1,24 @@
+id: AzureAttestation.NorthCentralUS
+name: AzureAttestation.NorthCentralUS
+metadata:
+  change_number: 3
+  region: northcentralus
+  platform: Azure
+  system_service: AzureAttestation
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.49.118.20/30
+    - 52.162.111.140/30
+    - 2603:1030:608:3::650/124
+  ipv4:
+    - 20.49.118.20/30
+    - 52.162.111.140/30
+  ipv6:
+    - 2603:1030:608:3::650/124
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

@@ -1,0 +1,22 @@
+id: AzureCognitiveSearch.PolandCentral
+name: AzureCognitiveSearch.PolandCentral
+metadata:
+  change_number: 1
+  region: polandcentral
+  platform: Azure
+  system_service: AzureCognitiveSearch
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.215.0.192/26
+    - 2603:1020:1302::100/121
+  ipv4:
+    - 20.215.0.192/26
+  ipv6:
+    - 2603:1020:1302::100/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

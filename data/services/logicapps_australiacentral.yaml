@@ -1,0 +1,30 @@
+id: LogicApps.AustraliaCentral
+name: LogicApps.AustraliaCentral
+metadata:
+  change_number: 4
+  region: australiacentral
+  platform: Azure
+  system_service: LogicApps
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.199.130.48/28
+    - 4.199.169.112/28
+    - 20.36.108.192/27
+    - 20.36.108.224/28
+    - 2603:1010:304:402::3c0/124
+    - 2603:1010:304:402::3e0/123
+  ipv4:
+    - 4.199.130.48/28
+    - 4.199.169.112/28
+    - 20.36.108.192/27
+    - 20.36.108.224/28
+  ipv6:
+    - 2603:1010:304:402::3c0/124
+    - 2603:1010:304:402::3e0/123
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

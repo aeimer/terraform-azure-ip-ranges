@@ -1,0 +1,22 @@
+id: AzureDevSpaces.UKSouth
+name: AzureDevSpaces.UKSouth
+metadata:
+  change_number: 1
+  region: uksouth
+  platform: Azure
+  system_service: AzureDevSpaces
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.104.25.208/28
+    - 51.105.77.64/28
+  ipv4:
+    - 51.104.25.208/28
+    - 51.105.77.64/28
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

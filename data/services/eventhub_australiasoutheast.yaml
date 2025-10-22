@@ -1,0 +1,32 @@
+id: EventHub.AustraliaSoutheast
+name: EventHub.AustraliaSoutheast
+metadata:
+  change_number: 8
+  region: australiasoutheast
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.77.50.32/27
+    - 20.92.2.0/24
+    - 2603:1010:101::240/122
+    - 2603:1010:101:2::600/119
+    - 2603:1010:101:402::1c0/123
+  ipv4:
+    - 13.77.50.32/27
+    - 20.92.2.0/24
+  ipv6:
+    - 2603:1010:101::240/122
+    - 2603:1010:101:2::600/119
+    - 2603:1010:101:402::1c0/123
+  counts:
+    total: 5
+    ipv4: 2
+    ipv6: 3

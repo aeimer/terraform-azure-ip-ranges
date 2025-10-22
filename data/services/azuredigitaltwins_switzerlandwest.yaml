@@ -1,0 +1,24 @@
+id: AzureDigitalTwins.SwitzerlandWest
+name: AzureDigitalTwins.SwitzerlandWest
+metadata:
+  change_number: 2
+  region: switzerlandw
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.107.249.80/29
+    - 51.107.249.96/27
+    - 2603:1020:b04:5::100/121
+  ipv4:
+    - 51.107.249.80/29
+    - 51.107.249.96/27
+  ipv6:
+    - 2603:1020:b04:5::100/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

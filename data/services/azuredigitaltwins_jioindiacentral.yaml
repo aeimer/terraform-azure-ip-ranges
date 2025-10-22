@@ -1,0 +1,24 @@
+id: AzureDigitalTwins.JioIndiaCentral
+name: AzureDigitalTwins.JioIndiaCentral
+metadata:
+  change_number: 1
+  region: jioindiacentral
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.192.231.192/27
+    - 20.192.231.224/29
+    - 2603:1040:1104:1::380/121
+  ipv4:
+    - 20.192.231.192/27
+    - 20.192.231.224/29
+  ipv6:
+    - 2603:1040:1104:1::380/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

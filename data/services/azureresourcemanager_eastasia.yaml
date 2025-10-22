@@ -1,0 +1,32 @@
+id: AzureResourceManager.EastAsia
+name: AzureResourceManager.EastAsia
+metadata:
+  change_number: 2
+  region: eastasia
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.75.39.16/28
+    - 20.187.198.0/23
+    - 104.214.162.0/23
+    - 104.214.166.0/26
+    - 2603:1040:207::6c0/122
+    - 2603:1040:207:2::300/120
+    - 2603:1040:207:402::280/122
+  ipv4:
+    - 13.75.39.16/28
+    - 20.187.198.0/23
+    - 104.214.162.0/23
+    - 104.214.166.0/26
+  ipv6:
+    - 2603:1040:207::6c0/122
+    - 2603:1040:207:2::300/120
+    - 2603:1040:207:402::280/122
+  counts:
+    total: 7
+    ipv4: 4
+    ipv6: 3

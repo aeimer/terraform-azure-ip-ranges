@@ -1,0 +1,24 @@
+id: AzureDigitalTwins.BelgiumCentral
+name: AzureDigitalTwins.BelgiumCentral
+metadata:
+  change_number: 1
+  region: belgiumcentral
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 9.160.43.192/27
+    - 9.160.58.32/29
+    - 2603:1020:1502::580/121
+  ipv4:
+    - 9.160.43.192/27
+    - 9.160.58.32/29
+  ipv6:
+    - 2603:1020:1502::580/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

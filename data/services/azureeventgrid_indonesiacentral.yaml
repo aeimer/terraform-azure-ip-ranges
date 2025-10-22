@@ -1,0 +1,22 @@
+id: AzureEventGrid.IndonesiaCentral
+name: AzureEventGrid.IndonesiaCentral
+metadata:
+  change_number: 1
+  region: indonesiacentral
+  platform: Azure
+  system_service: AzureEventGrid
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 70.153.153.128/25
+    - 2603:1040:1802:3::180/121
+  ipv4:
+    - 70.153.153.128/25
+  ipv6:
+    - 2603:1040:1802:3::180/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

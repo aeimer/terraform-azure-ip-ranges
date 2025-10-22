@@ -1,0 +1,24 @@
+id: AzureCognitiveSearch.JioIndiaWest
+name: AzureCognitiveSearch.JioIndiaWest
+metadata:
+  change_number: 2
+  region: jioindiawest
+  platform: Azure
+  system_service: AzureCognitiveSearch
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.192.161.0/26
+    - 40.64.8.64/26
+    - 2603:1040:d04::180/121
+  ipv4:
+    - 20.192.161.0/26
+    - 40.64.8.64/26
+  ipv6:
+    - 2603:1040:d04::180/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

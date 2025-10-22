@@ -1,0 +1,22 @@
+id: PowerPlatformPlex.SpainCentral
+name: PowerPlatformPlex.SpainCentral
+metadata:
+  change_number: 1
+  region: spaincentral
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 2603:1061:2004:b000::/57
+  ipv4: []
+  ipv6:
+    - 2603:1061:2004:b000::/57
+  counts:
+    total: 1
+    ipv4: 0
+    ipv6: 1

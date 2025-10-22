@@ -1,0 +1,36 @@
+id: AzureKeyVault.CanadaEast
+name: AzureKeyVault.CanadaEast
+metadata:
+  change_number: 6
+  region: canadaeast
+  platform: Azure
+  system_service: AzureKeyVault
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.69.106.64/30
+    - 52.139.107.208/29
+    - 52.139.107.216/30
+    - 2603:1030:1005::100/125
+    - 2603:1030:1005::108/126
+    - 2603:1030:1005::2a0/125
+    - 2603:1030:1005:402::80/125
+  ipv4:
+    - 40.69.106.64/30
+    - 52.139.107.208/29
+    - 52.139.107.216/30
+  ipv6:
+    - 2603:1030:1005::100/125
+    - 2603:1030:1005::108/126
+    - 2603:1030:1005::2a0/125
+    - 2603:1030:1005:402::80/125
+  counts:
+    total: 7
+    ipv4: 3
+    ipv6: 4

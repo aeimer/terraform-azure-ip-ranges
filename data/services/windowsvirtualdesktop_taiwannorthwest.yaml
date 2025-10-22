@@ -1,0 +1,22 @@
+id: WindowsVirtualDesktop.TaiwanNorthwest
+name: WindowsVirtualDesktop.TaiwanNorthwest
+metadata:
+  change_number: 2
+  region: taiwannorthwest
+  platform: Azure
+  system_service: WindowsVirtualDesktop
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.64.144.144/29
+    - 2603:1061:2010:3e::/117
+  ipv4:
+    - 40.64.144.144/29
+  ipv6:
+    - 2603:1061:2010:3e::/117
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

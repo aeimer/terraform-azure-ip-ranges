@@ -1,0 +1,28 @@
+id: AzureCosmosDB.SoutheastUS
+name: AzureCosmosDB.SoutheastUS
+metadata:
+  change_number: 1
+  region: southeastus
+  platform: Azure
+  system_service: AzureCosmosDB
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 57.151.210.64/26
+    - 57.151.228.32/27
+    - 2603:1030:902::1e0/123
+  ipv4:
+    - 57.151.210.64/26
+    - 57.151.228.32/27
+  ipv6:
+    - 2603:1030:902::1e0/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

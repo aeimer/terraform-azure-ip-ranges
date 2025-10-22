@@ -1,0 +1,34 @@
+id: AzureArcInfrastructure.KoreaCentral
+name: AzureArcInfrastructure.KoreaCentral
+metadata:
+  change_number: 4
+  region: koreacentral
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.41.67.84/30
+    - 20.41.69.52/30
+    - 20.44.29.50/31
+    - 20.44.31.36/30
+    - 20.194.68.148/31
+    - 20.214.135.216/29
+    - 20.214.135.224/31
+    - 52.231.23.10/32
+  ipv4:
+    - 20.41.67.84/30
+    - 20.41.69.52/30
+    - 20.44.29.50/31
+    - 20.44.31.36/30
+    - 20.194.68.148/31
+    - 20.214.135.216/29
+    - 20.214.135.224/31
+    - 52.231.23.10/32
+  ipv6: []
+  counts:
+    total: 8
+    ipv4: 8
+    ipv6: 0

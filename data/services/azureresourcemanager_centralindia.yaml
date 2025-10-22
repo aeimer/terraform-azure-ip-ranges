@@ -1,0 +1,30 @@
+id: AzureResourceManager.CentralIndia
+name: AzureResourceManager.CentralIndia
+metadata:
+  change_number: 2
+  region: centralindia
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.43.120.224/28
+    - 20.43.124.0/23
+    - 20.192.40.0/23
+    - 2603:1040:a06::280/122
+    - 2603:1040:a06:2::400/120
+    - 2603:1040:a06:402::280/122
+  ipv4:
+    - 20.43.120.224/28
+    - 20.43.124.0/23
+    - 20.192.40.0/23
+  ipv6:
+    - 2603:1040:a06::280/122
+    - 2603:1040:a06:2::400/120
+    - 2603:1040:a06:402::280/122
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

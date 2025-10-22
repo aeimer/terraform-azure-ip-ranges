@@ -1,0 +1,26 @@
+id: AzureArcInfrastructure.IsraelNorthwest
+name: AzureArcInfrastructure.IsraelNorthwest
+metadata:
+  change_number: 2
+  region: israelnorthwest
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.4.131.208/30
+    - 51.4.147.195/32
+    - 51.4.160.56/32
+    - 2603:1040:1702:2::20/124
+  ipv4:
+    - 51.4.131.208/30
+    - 51.4.147.195/32
+    - 51.4.160.56/32
+  ipv6:
+    - 2603:1040:1702:2::20/124
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

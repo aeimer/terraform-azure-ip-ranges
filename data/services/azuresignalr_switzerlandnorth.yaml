@@ -1,0 +1,26 @@
+id: AzureSignalR.SwitzerlandNorth
+name: AzureSignalR.SwitzerlandNorth
+metadata:
+  change_number: 4
+  region: switzerlandn
+  platform: Azure
+  system_service: AzureSignalR
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.107.128.128/27
+    - 51.107.242.192/27
+    - 74.242.255.192/27
+    - 2603:1020:a04:2::300/120
+  ipv4:
+    - 51.107.128.128/27
+    - 51.107.242.192/27
+    - 74.242.255.192/27
+  ipv6:
+    - 2603:1020:a04:2::300/120
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

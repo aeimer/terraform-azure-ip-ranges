@@ -1,0 +1,34 @@
+id: Sql.IsraelNorthwest
+name: Sql.IsraelNorthwest
+metadata:
+  change_number: 1
+  region: israelnorthwest
+  platform: Azure
+  system_service: AzureSQL
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.4.136.96/27
+    - 51.4.136.128/26
+    - 51.4.162.136/29
+    - 51.4.162.160/27
+    - 2603:1040:1702:2::620/123
+    - 2603:1040:1702:2::680/121
+  ipv4:
+    - 51.4.136.96/27
+    - 51.4.136.128/26
+    - 51.4.162.136/29
+    - 51.4.162.160/27
+  ipv6:
+    - 2603:1040:1702:2::620/123
+    - 2603:1040:1702:2::680/121
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

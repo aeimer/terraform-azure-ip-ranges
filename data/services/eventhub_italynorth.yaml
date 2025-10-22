@@ -1,0 +1,32 @@
+id: EventHub.ItalyNorth
+name: EventHub.ItalyNorth
+metadata:
+  change_number: 1
+  region: italynorth
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.232.29.0/24
+    - 4.232.107.64/26
+    - 4.232.123.64/26
+    - 4.232.195.64/26
+    - 2603:1020:1204:1::/120
+  ipv4:
+    - 4.232.29.0/24
+    - 4.232.107.64/26
+    - 4.232.123.64/26
+    - 4.232.195.64/26
+  ipv6:
+    - 2603:1020:1204:1::/120
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

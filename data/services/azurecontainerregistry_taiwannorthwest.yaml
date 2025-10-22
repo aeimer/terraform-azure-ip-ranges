@@ -1,0 +1,38 @@
+id: AzureContainerRegistry.TaiwanNorthwest
+name: AzureContainerRegistry.TaiwanNorthwest
+metadata:
+  change_number: 2
+  region: taiwannorthwest
+  platform: Azure
+  system_service: AzureContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.53.143.64/26
+    - 51.53.171.64/26
+    - 51.53.186.128/26
+    - 51.53.188.128/25
+    - 2603:1040:1202::520/125
+    - 2603:1040:1202:3::480/122
+    - 2603:1040:1202:400::48/125
+    - 2603:1040:1202:400::280/121
+  ipv4:
+    - 51.53.143.64/26
+    - 51.53.171.64/26
+    - 51.53.186.128/26
+    - 51.53.188.128/25
+  ipv6:
+    - 2603:1040:1202::520/125
+    - 2603:1040:1202:3::480/122
+    - 2603:1040:1202:400::48/125
+    - 2603:1040:1202:400::280/121
+  counts:
+    total: 8
+    ipv4: 4
+    ipv6: 4

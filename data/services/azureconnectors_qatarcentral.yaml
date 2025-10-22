@@ -1,0 +1,38 @@
+id: AzureConnectors.QatarCentral
+name: AzureConnectors.QatarCentral
+metadata:
+  change_number: 4
+  region: qatarcentral
+  platform: Azure
+  system_service: AzureConnectors
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.171.26.0/26
+    - 20.21.43.0/26
+    - 20.21.205.90/32
+    - 20.21.210.110/32
+    - 20.21.210.196/32
+    - 20.173.2.102/32
+    - 2603:1040:1002:5::380/122
+    - 2603:1040:1002:400::c0/122
+  ipv4:
+    - 4.171.26.0/26
+    - 20.21.43.0/26
+    - 20.21.205.90/32
+    - 20.21.210.110/32
+    - 20.21.210.196/32
+    - 20.173.2.102/32
+  ipv6:
+    - 2603:1040:1002:5::380/122
+    - 2603:1040:1002:400::c0/122
+  counts:
+    total: 8
+    ipv4: 6
+    ipv6: 2

@@ -1,0 +1,40 @@
+id: PowerQueryOnline.NorthEurope
+name: PowerQueryOnline.NorthEurope
+metadata:
+  change_number: 6
+  region: northeurope
+  platform: Azure
+  system_service: PowerQueryOnline
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.207.249.176/28
+    - 4.207.251.64/29
+    - 13.69.239.110/31
+    - 20.38.80.70/31
+    - 20.50.74.150/31
+    - 20.50.83.88/31
+    - 20.223.64.128/29
+    - 2603:1020:5:1::200/123
+    - 2603:1020:5:402::160/125
+    - 2603:1020:5:802::140/125
+    - 2603:1020:5:c00::20/125
+  ipv4:
+    - 4.207.249.176/28
+    - 4.207.251.64/29
+    - 13.69.239.110/31
+    - 20.38.80.70/31
+    - 20.50.74.150/31
+    - 20.50.83.88/31
+    - 20.223.64.128/29
+  ipv6:
+    - 2603:1020:5:1::200/123
+    - 2603:1020:5:402::160/125
+    - 2603:1020:5:802::140/125
+    - 2603:1020:5:c00::20/125
+  counts:
+    total: 11
+    ipv4: 7
+    ipv6: 4

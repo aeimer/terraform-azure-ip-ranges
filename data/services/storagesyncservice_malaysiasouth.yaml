@@ -1,0 +1,26 @@
+id: StorageSyncService.MalaysiaSouth
+name: StorageSyncService.MalaysiaSouth
+metadata:
+  change_number: 2
+  region: malaysiasouth
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.17.67.240/29
+    - 85.211.78.80/29
+    - 2603:1040:1503:5::700/123
+    - 2603:1040:1503:400::260/123
+  ipv4:
+    - 20.17.67.240/29
+    - 85.211.78.80/29
+  ipv6:
+    - 2603:1040:1503:5::700/123
+    - 2603:1040:1503:400::260/123
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

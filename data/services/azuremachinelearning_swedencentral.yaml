@@ -1,0 +1,32 @@
+id: AzureMachineLearning.SwedenCentral
+name: AzureMachineLearning.SwedenCentral
+metadata:
+  change_number: 2
+  region: swedencentral
+  platform: Azure
+  system_service: AzureMachineLearning
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.12.29.0/28
+    - 51.12.29.64/27
+    - 51.12.47.32/28
+    - 51.12.99.80/28
+    - 51.12.227.64/28
+    - 51.12.235.64/28
+    - 2603:1020:1004::2c0/122
+  ipv4:
+    - 51.12.29.0/28
+    - 51.12.29.64/27
+    - 51.12.47.32/28
+    - 51.12.99.80/28
+    - 51.12.227.64/28
+    - 51.12.235.64/28
+  ipv6:
+    - 2603:1020:1004::2c0/122
+  counts:
+    total: 7
+    ipv4: 6
+    ipv6: 1

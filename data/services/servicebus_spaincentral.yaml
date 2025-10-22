@@ -1,0 +1,36 @@
+id: ServiceBus.SpainCentral
+name: ServiceBus.SpainCentral
+metadata:
+  change_number: 1
+  region: spaincentral
+  platform: Azure
+  system_service: AzureServiceBus
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.221.85.128/25
+    - 68.221.98.80/29
+    - 68.221.98.96/28
+    - 68.221.146.80/29
+    - 68.221.146.96/28
+    - 68.221.154.80/29
+    - 68.221.154.96/28
+    - 2603:1020:1403:1::100/121
+  ipv4:
+    - 68.221.85.128/25
+    - 68.221.98.80/29
+    - 68.221.98.96/28
+    - 68.221.146.80/29
+    - 68.221.146.96/28
+    - 68.221.154.80/29
+    - 68.221.154.96/28
+  ipv6:
+    - 2603:1020:1403:1::100/121
+  counts:
+    total: 8
+    ipv4: 7
+    ipv6: 1

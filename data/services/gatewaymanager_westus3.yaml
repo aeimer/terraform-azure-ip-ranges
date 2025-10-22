@@ -1,0 +1,27 @@
+id: GatewayManager.WestUS3
+name: GatewayManager.WestUS3
+metadata:
+  change_number: 1
+  region: westus3
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.150.160.64/29
+    - 20.150.161.0/26
+    - 20.150.171.64/29
+    - 2603:1030:504:1::40/122
+  ipv4:
+    - 20.150.160.64/29
+    - 20.150.161.0/26
+    - 20.150.171.64/29
+  ipv6:
+    - 2603:1030:504:1::40/122
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

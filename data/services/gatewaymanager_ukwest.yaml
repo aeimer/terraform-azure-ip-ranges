@@ -1,0 +1,31 @@
+id: GatewayManager.UKWest
+name: GatewayManager.UKWest
+metadata:
+  change_number: 5
+  region: ukwest
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.90.36.64/27
+    - 51.137.160.72/29
+    - 51.140.210.200/29
+    - 52.142.152.114/32
+    - 52.142.154.100/32
+    - 2603:1020:605::40/122
+  ipv4:
+    - 20.90.36.64/27
+    - 51.137.160.72/29
+    - 51.140.210.200/29
+    - 52.142.152.114/32
+    - 52.142.154.100/32
+  ipv6:
+    - 2603:1020:605::40/122
+  counts:
+    total: 6
+    ipv4: 5
+    ipv6: 1

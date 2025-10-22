@@ -1,0 +1,24 @@
+id: AzureBotService.SouthIndia
+name: AzureBotService.SouthIndia
+metadata:
+  change_number: 1
+  region: southindia
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.41.192.64/30
+    - 40.78.196.56/30
+    - 2603:1040:c06::20/123
+  ipv4:
+    - 20.41.192.64/30
+    - 40.78.196.56/30
+  ipv6:
+    - 2603:1040:c06::20/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

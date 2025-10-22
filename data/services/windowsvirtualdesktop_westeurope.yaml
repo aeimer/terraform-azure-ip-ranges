@@ -1,0 +1,22 @@
+id: WindowsVirtualDesktop.WestEurope
+name: WindowsVirtualDesktop.WestEurope
+metadata:
+  change_number: 7
+  region: westeurope
+  platform: Azure
+  system_service: WindowsVirtualDesktop
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.64.144.32/27
+    - 2603:1061:2010:19::/117
+  ipv4:
+    - 40.64.144.32/27
+  ipv6:
+    - 2603:1061:2010:19::/117
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

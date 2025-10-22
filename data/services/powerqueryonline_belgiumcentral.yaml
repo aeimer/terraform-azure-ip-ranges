@@ -1,0 +1,22 @@
+id: PowerQueryOnline.BelgiumCentral
+name: PowerQueryOnline.BelgiumCentral
+metadata:
+  change_number: 1
+  region: belgiumcentral
+  platform: Azure
+  system_service: PowerQueryOnline
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 9.160.40.40/29
+    - 2603:1020:1502::1c0/123
+  ipv4:
+    - 9.160.40.40/29
+  ipv6:
+    - 2603:1020:1502::1c0/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

@@ -1,0 +1,22 @@
+id: AzureDigitalTwins.GermanyWestCentral
+name: AzureDigitalTwins.GermanyWestCentral
+metadata:
+  change_number: 1
+  region: germanywc
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.116.148.120/29
+    - 51.116.148.192/27
+  ipv4:
+    - 51.116.148.120/29
+    - 51.116.148.192/27
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

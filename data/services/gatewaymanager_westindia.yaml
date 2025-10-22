@@ -1,0 +1,31 @@
+id: GatewayManager.WestIndia
+name: GatewayManager.WestIndia
+metadata:
+  change_number: 4
+  region: westindia
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.192.84.224/27
+    - 40.81.94.172/32
+    - 40.81.94.182/32
+    - 52.136.48.72/29
+    - 104.211.146.88/29
+    - 2603:1040:806::40/122
+  ipv4:
+    - 20.192.84.224/27
+    - 40.81.94.172/32
+    - 40.81.94.182/32
+    - 52.136.48.72/29
+    - 104.211.146.88/29
+  ipv6:
+    - 2603:1040:806::40/122
+  counts:
+    total: 6
+    ipv4: 5
+    ipv6: 1

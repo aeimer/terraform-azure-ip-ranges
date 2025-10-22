@@ -1,0 +1,27 @@
+id: GatewayManager.SwitzerlandWest
+name: GatewayManager.SwitzerlandWest
+metadata:
+  change_number: 3
+  region: switzerlandw
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.199.200.128/27
+    - 51.107.144.72/29
+    - 51.107.155.32/29
+    - 2603:1020:b04::40/122
+  ipv4:
+    - 20.199.200.128/27
+    - 51.107.144.72/29
+    - 51.107.155.32/29
+  ipv6:
+    - 2603:1020:b04::40/122
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

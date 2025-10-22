@@ -1,0 +1,26 @@
+id: AzureEventGrid.BrazilSouth
+name: AzureEventGrid.BrazilSouth
+metadata:
+  change_number: 1
+  region: brazilsouth
+  platform: Azure
+  system_service: AzureEventGrid
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 191.235.126.0/28
+    - 191.235.126.144/28
+    - 191.235.227.0/25
+    - 2603:1050:6:1::380/121
+  ipv4:
+    - 191.235.126.0/28
+    - 191.235.126.144/28
+    - 191.235.227.0/25
+  ipv6:
+    - 2603:1050:6:1::380/121
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

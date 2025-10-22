@@ -1,0 +1,24 @@
+id: AzurePortal.BrazilSoutheast
+name: AzurePortal.BrazilSoutheast
+metadata:
+  change_number: 1
+  region: brazilse
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 191.233.10.96/27
+    - 191.233.15.0/29
+    - 2603:1050:403::680/121
+  ipv4:
+    - 191.233.10.96/27
+    - 191.233.15.0/29
+  ipv6:
+    - 2603:1050:403::680/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

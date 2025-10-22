@@ -1,0 +1,26 @@
+id: AzureArcInfrastructure.BelgiumCentral
+name: AzureArcInfrastructure.BelgiumCentral
+metadata:
+  change_number: 1
+  region: belgiumcentral
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 9.160.51.208/30
+    - 9.160.60.95/32
+    - 9.160.80.56/32
+    - 2603:1020:1502:2::20/124
+  ipv4:
+    - 9.160.51.208/30
+    - 9.160.60.95/32
+    - 9.160.80.56/32
+  ipv6:
+    - 2603:1020:1502:2::20/124
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

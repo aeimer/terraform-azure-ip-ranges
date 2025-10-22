@@ -1,0 +1,34 @@
+id: MicrosoftContainerRegistry.NorwayEast
+name: MicrosoftContainerRegistry.NorwayEast
+metadata:
+  change_number: 2
+  region: norwaye
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.120.98.24/29
+    - 51.120.106.136/29
+    - 51.120.210.136/29
+    - 2603:1020:e04:402::88/125
+    - 2603:1020:e04:802::88/125
+    - 2603:1020:e04:c02::88/125
+  ipv4:
+    - 51.120.98.24/29
+    - 51.120.106.136/29
+    - 51.120.210.136/29
+  ipv6:
+    - 2603:1020:e04:402::88/125
+    - 2603:1020:e04:802::88/125
+    - 2603:1020:e04:c02::88/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

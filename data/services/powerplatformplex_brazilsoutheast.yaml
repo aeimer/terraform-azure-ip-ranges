@@ -1,0 +1,36 @@
+id: PowerPlatformPlex.BrazilSoutheast
+name: PowerPlatformPlex.BrazilSoutheast
+metadata:
+  change_number: 6
+  region: brazilse
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.206.3.20/30
+    - 20.206.4.64/29
+    - 20.206.4.224/29
+    - 20.206.4.232/30
+    - 108.140.24.168/29
+    - 108.140.92.0/25
+    - 108.140.92.128/26
+    - 2603:1061:2004::/57
+  ipv4:
+    - 20.206.3.20/30
+    - 20.206.4.64/29
+    - 20.206.4.224/29
+    - 20.206.4.232/30
+    - 108.140.24.168/29
+    - 108.140.92.0/25
+    - 108.140.92.128/26
+  ipv6:
+    - 2603:1061:2004::/57
+  counts:
+    total: 8
+    ipv4: 7
+    ipv6: 1

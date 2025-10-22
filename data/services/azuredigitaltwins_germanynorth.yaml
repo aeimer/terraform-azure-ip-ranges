@@ -1,0 +1,24 @@
+id: AzureDigitalTwins.GermanyNorth
+name: AzureDigitalTwins.GermanyNorth
+metadata:
+  change_number: 2
+  region: germanyn
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.116.51.176/29
+    - 51.116.54.0/27
+    - 2603:1020:d04:2::680/121
+  ipv4:
+    - 51.116.51.176/29
+    - 51.116.54.0/27
+  ipv6:
+    - 2603:1020:d04:2::680/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

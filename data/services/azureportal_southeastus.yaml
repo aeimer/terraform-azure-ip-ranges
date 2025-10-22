@@ -1,0 +1,24 @@
+id: AzurePortal.SoutheastUS
+name: AzurePortal.SoutheastUS
+metadata:
+  change_number: 1
+  region: southeastus
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 57.151.221.224/27
+    - 57.151.228.84/30
+    - 2603:1030:902:2::580/121
+  ipv4:
+    - 57.151.221.224/27
+    - 57.151.228.84/30
+  ipv6:
+    - 2603:1030:902:2::580/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

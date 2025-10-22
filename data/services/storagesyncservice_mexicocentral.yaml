@@ -1,0 +1,22 @@
+id: StorageSyncService.MexicoCentral
+name: StorageSyncService.MexicoCentral
+metadata:
+  change_number: 1
+  region: mexicocentral
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 158.23.11.176/29
+    - 2603:1030:702:400::1e0/123
+  ipv4:
+    - 158.23.11.176/29
+  ipv6:
+    - 2603:1030:702:400::1e0/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

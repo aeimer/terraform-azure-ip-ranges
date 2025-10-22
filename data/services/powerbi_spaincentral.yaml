@@ -1,0 +1,40 @@
+id: PowerBI.SpainCentral
+name: PowerBI.SpainCentral
+metadata:
+  change_number: 3
+  region: spaincentral
+  platform: Azure
+  system_service: PowerBI
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.221.92.4/31
+    - 68.221.93.136/30
+    - 68.221.93.144/29
+    - 68.221.105.16/28
+    - 68.221.105.32/28
+    - 70.156.91.224/28
+    - 158.158.56.64/28
+    - 2603:1020:1403:2::160/123
+    - 2603:1020:1403:2::200/122
+  ipv4:
+    - 68.221.92.4/31
+    - 68.221.93.136/30
+    - 68.221.93.144/29
+    - 68.221.105.16/28
+    - 68.221.105.32/28
+    - 70.156.91.224/28
+    - 158.158.56.64/28
+  ipv6:
+    - 2603:1020:1403:2::160/123
+    - 2603:1020:1403:2::200/122
+  counts:
+    total: 9
+    ipv4: 7
+    ipv6: 2

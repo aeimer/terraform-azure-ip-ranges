@@ -1,0 +1,22 @@
+id: AzureDataExplorerManagement.IsraelNorthwest
+name: AzureDataExplorerManagement.IsraelNorthwest
+metadata:
+  change_number: 1
+  region: israelnorthwest
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.217.254.192/28
+    - 2603:1040:1702:1::1e0/123
+  ipv4:
+    - 20.217.254.192/28
+  ipv6:
+    - 2603:1040:1702:1::1e0/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

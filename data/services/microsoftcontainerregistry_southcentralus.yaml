@@ -1,0 +1,38 @@
+id: MicrosoftContainerRegistry.SouthCentralUS
+name: MicrosoftContainerRegistry.SouthCentralUS
+metadata:
+  change_number: 3
+  region: southcentralus
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.45.122.136/29
+    - 20.49.90.8/29
+    - 48.221.168.0/29
+    - 104.214.18.176/29
+    - 2603:1030:807:402::88/125
+    - 2603:1030:807:802::88/125
+    - 2603:1030:807:c02::88/125
+    - 2603:1030:807:1000::/125
+  ipv4:
+    - 20.45.122.136/29
+    - 20.49.90.8/29
+    - 48.221.168.0/29
+    - 104.214.18.176/29
+  ipv6:
+    - 2603:1030:807:402::88/125
+    - 2603:1030:807:802::88/125
+    - 2603:1030:807:c02::88/125
+    - 2603:1030:807:1000::/125
+  counts:
+    total: 8
+    ipv4: 4
+    ipv6: 4

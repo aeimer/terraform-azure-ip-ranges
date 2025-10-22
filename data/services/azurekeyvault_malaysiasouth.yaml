@@ -1,0 +1,40 @@
+id: AzureKeyVault.MalaysiaSouth
+name: AzureKeyVault.MalaysiaSouth
+metadata:
+  change_number: 4
+  region: malaysiasouth
+  platform: Azure
+  system_service: AzureKeyVault
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.17.51.64/27
+    - 20.17.58.48/29
+    - 20.17.66.124/30
+    - 20.17.194.176/30
+    - 2603:1040:1503::520/123
+    - 2603:1040:1503:1::1c8/125
+    - 2603:1040:1503:2::6a8/125
+    - 2603:1040:1503:2::6b0/126
+    - 2603:1040:1503:400::508/125
+  ipv4:
+    - 20.17.51.64/27
+    - 20.17.58.48/29
+    - 20.17.66.124/30
+    - 20.17.194.176/30
+  ipv6:
+    - 2603:1040:1503::520/123
+    - 2603:1040:1503:1::1c8/125
+    - 2603:1040:1503:2::6a8/125
+    - 2603:1040:1503:2::6b0/126
+    - 2603:1040:1503:400::508/125
+  counts:
+    total: 9
+    ipv4: 4
+    ipv6: 5

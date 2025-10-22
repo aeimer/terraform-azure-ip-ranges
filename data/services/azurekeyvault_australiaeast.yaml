@@ -1,0 +1,44 @@
+id: AzureKeyVault.AustraliaEast
+name: AzureKeyVault.AustraliaEast
+metadata:
+  change_number: 6
+  region: australiaeast
+  platform: Azure
+  system_service: AzureKeyVault
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.70.72.24/30
+    - 20.53.47.68/30
+    - 20.53.47.200/29
+    - 40.79.163.156/30
+    - 40.79.173.4/30
+    - 2603:1010:6::340/125
+    - 2603:1010:6:1::108/126
+    - 2603:1010:6:2::738/125
+    - 2603:1010:6:402::80/125
+    - 2603:1010:6:802::80/125
+    - 2603:1010:6:c02::80/125
+  ipv4:
+    - 13.70.72.24/30
+    - 20.53.47.68/30
+    - 20.53.47.200/29
+    - 40.79.163.156/30
+    - 40.79.173.4/30
+  ipv6:
+    - 2603:1010:6::340/125
+    - 2603:1010:6:1::108/126
+    - 2603:1010:6:2::738/125
+    - 2603:1010:6:402::80/125
+    - 2603:1010:6:802::80/125
+    - 2603:1010:6:c02::80/125
+  counts:
+    total: 11
+    ipv4: 5
+    ipv6: 6

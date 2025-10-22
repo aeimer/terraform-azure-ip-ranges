@@ -1,0 +1,28 @@
+id: AzureArcInfrastructure.ItalyNorth
+name: AzureArcInfrastructure.ItalyNorth
+metadata:
+  change_number: 2
+  region: italynorth
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.232.42.0/31
+    - 4.232.42.12/30
+    - 4.232.48.0/29
+    - 4.232.125.178/32
+    - 2603:1020:1204:2::670/124
+  ipv4:
+    - 4.232.42.0/31
+    - 4.232.42.12/30
+    - 4.232.48.0/29
+    - 4.232.125.178/32
+  ipv6:
+    - 2603:1020:1204:2::670/124
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

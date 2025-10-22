@@ -1,0 +1,24 @@
+id: AzureBotService.CentralUS
+name: AzureBotService.CentralUS
+metadata:
+  change_number: 2
+  region: centralus
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.89.171.116/30
+    - 20.37.152.64/30
+    - 2603:1030:10:1::20/123
+  ipv4:
+    - 13.89.171.116/30
+    - 20.37.152.64/30
+  ipv6:
+    - 2603:1030:10:1::20/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

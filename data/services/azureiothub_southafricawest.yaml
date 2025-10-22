@@ -1,0 +1,26 @@
+id: AzureIoTHub.SouthAfricaWest
+name: AzureIoTHub.SouthAfricaWest
+metadata:
+  change_number: 1
+  region: southafricawest
+  platform: Azure
+  system_service: AzureIoTHub
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 102.133.28.160/27
+    - 102.133.59.0/25
+    - 102.133.59.128/27
+    - 2603:1000:4:402::300/123
+  ipv4:
+    - 102.133.28.160/27
+    - 102.133.59.0/25
+    - 102.133.59.128/27
+  ipv6:
+    - 2603:1000:4:402::300/123
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

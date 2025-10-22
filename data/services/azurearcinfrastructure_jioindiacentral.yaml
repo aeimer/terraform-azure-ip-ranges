@@ -1,0 +1,26 @@
+id: AzureArcInfrastructure.JioIndiaCentral
+name: AzureArcInfrastructure.JioIndiaCentral
+metadata:
+  change_number: 3
+  region: jioindiacentral
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.240.144.50/31
+    - 4.240.144.80/29
+    - 20.192.34.68/32
+    - 20.192.228.252/30
+  ipv4:
+    - 4.240.144.50/31
+    - 4.240.144.80/29
+    - 20.192.34.68/32
+    - 20.192.228.252/30
+  ipv6: []
+  counts:
+    total: 4
+    ipv4: 4
+    ipv6: 0

@@ -1,0 +1,32 @@
+id: MicrosoftContainerRegistry.EastUSSTG
+name: MicrosoftContainerRegistry.EastUSSTG
+metadata:
+  change_number: 1
+  region: usstagee
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.49.82.8/29
+    - 40.67.58.16/29
+    - 2603:1030:104:402::88/125
+    - 2603:1030:104:402::160/125
+    - 2603:1030:104:802::50/125
+  ipv4:
+    - 20.49.82.8/29
+    - 40.67.58.16/29
+  ipv6:
+    - 2603:1030:104:402::88/125
+    - 2603:1030:104:402::160/125
+    - 2603:1030:104:802::50/125
+  counts:
+    total: 5
+    ipv4: 2
+    ipv6: 3

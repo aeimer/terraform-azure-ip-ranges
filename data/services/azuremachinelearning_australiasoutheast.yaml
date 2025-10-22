@@ -1,0 +1,26 @@
+id: AzureMachineLearning.AustraliaSoutheast
+name: AzureMachineLearning.AustraliaSoutheast
+metadata:
+  change_number: 2
+  region: australiasoutheast
+  platform: Azure
+  system_service: AzureMachineLearning
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.199.83.64/27
+    - 13.77.50.224/28
+    - 20.42.227.48/28
+    - 2603:1010:101::300/122
+  ipv4:
+    - 4.199.83.64/27
+    - 13.77.50.224/28
+    - 20.42.227.48/28
+  ipv6:
+    - 2603:1010:101::300/122
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

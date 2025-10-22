@@ -1,0 +1,36 @@
+id: Sql.SoutheastUS
+name: Sql.SoutheastUS
+metadata:
+  change_number: 1
+  region: southeastus
+  platform: Azure
+  system_service: AzureSQL
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 57.151.223.64/27
+    - 57.151.223.128/26
+    - 57.151.228.192/27
+    - 68.154.137.32/27
+    - 68.154.137.64/29
+    - 2603:1030:902:2::640/123
+    - 2603:1030:902:2::780/121
+  ipv4:
+    - 57.151.223.64/27
+    - 57.151.223.128/26
+    - 57.151.228.192/27
+    - 68.154.137.32/27
+    - 68.154.137.64/29
+  ipv6:
+    - 2603:1030:902:2::640/123
+    - 2603:1030:902:2::780/121
+  counts:
+    total: 7
+    ipv4: 5
+    ipv6: 2

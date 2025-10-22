@@ -1,0 +1,32 @@
+id: AzureIoTHub.UKWest
+name: AzureIoTHub.UKWest
+metadata:
+  change_number: 1
+  region: ukwest
+  platform: Azure
+  system_service: AzureIoTHub
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.137.164.160/27
+    - 51.137.165.0/25
+    - 51.140.212.160/27
+    - 51.140.226.207/32
+    - 51.140.240.234/32
+    - 51.141.49.253/32
+    - 2603:1020:605:402::300/123
+  ipv4:
+    - 51.137.164.160/27
+    - 51.137.165.0/25
+    - 51.140.212.160/27
+    - 51.140.226.207/32
+    - 51.140.240.234/32
+    - 51.141.49.253/32
+  ipv6:
+    - 2603:1020:605:402::300/123
+  counts:
+    total: 7
+    ipv4: 6
+    ipv6: 1

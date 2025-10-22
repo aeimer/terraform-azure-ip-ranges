@@ -1,0 +1,40 @@
+id: AzureConnectors.EastUS2EUAP
+name: AzureConnectors.EastUS2EUAP
+metadata:
+  change_number: 6
+  region: eastus2euap
+  platform: Azure
+  system_service: AzureConnectors
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.47.150.12/32
+    - 20.47.150.100/32
+    - 20.47.232.80/28
+    - 20.47.232.96/27
+    - 40.74.146.64/28
+    - 52.138.92.192/27
+    - 52.225.188.182/32
+    - 52.225.190.190/32
+    - 2603:1030:40b:400::980/122
+  ipv4:
+    - 20.47.150.12/32
+    - 20.47.150.100/32
+    - 20.47.232.80/28
+    - 20.47.232.96/27
+    - 40.74.146.64/28
+    - 52.138.92.192/27
+    - 52.225.188.182/32
+    - 52.225.190.190/32
+  ipv6:
+    - 2603:1030:40b:400::980/122
+  counts:
+    total: 9
+    ipv4: 8
+    ipv6: 1

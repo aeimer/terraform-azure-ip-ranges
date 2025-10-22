@@ -1,0 +1,22 @@
+id: AzureAttestation.IndonesiaCentral
+name: AzureAttestation.IndonesiaCentral
+metadata:
+  change_number: 1
+  region: indonesiacentral
+  platform: Azure
+  system_service: AzureAttestation
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 70.153.152.20/30
+    - 2603:1040:1802::2e0/124
+  ipv4:
+    - 70.153.152.20/30
+  ipv6:
+    - 2603:1040:1802::2e0/124
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

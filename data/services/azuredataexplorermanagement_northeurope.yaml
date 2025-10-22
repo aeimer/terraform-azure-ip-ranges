@@ -1,0 +1,28 @@
+id: AzureDataExplorerManagement.NorthEurope
+name: AzureDataExplorerManagement.NorthEurope
+metadata:
+  change_number: 3
+  region: northeurope
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.207.251.80/28
+    - 13.69.229.176/28
+    - 52.142.91.221/32
+    - 2603:1020:5::600/121
+    - 2603:1020:5:402::150/124
+  ipv4:
+    - 4.207.251.80/28
+    - 13.69.229.176/28
+    - 52.142.91.221/32
+  ipv6:
+    - 2603:1020:5::600/121
+    - 2603:1020:5:402::150/124
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

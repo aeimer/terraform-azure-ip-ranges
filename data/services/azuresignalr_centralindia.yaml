@@ -1,0 +1,26 @@
+id: AzureSignalR.CentralIndia
+name: AzureSignalR.CentralIndia
+metadata:
+  change_number: 4
+  region: centralindia
+  platform: Azure
+  system_service: AzureSignalR
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.192.44.64/27
+    - 40.80.53.32/27
+    - 57.159.87.64/27
+    - 2603:1040:a06:3::/120
+  ipv4:
+    - 20.192.44.64/27
+    - 40.80.53.32/27
+    - 57.159.87.64/27
+  ipv6:
+    - 2603:1040:a06:3::/120
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

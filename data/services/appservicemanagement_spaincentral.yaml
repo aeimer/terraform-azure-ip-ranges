@@ -1,0 +1,25 @@
+id: AppServiceManagement.SpainCentral
+name: AppServiceManagement.SpainCentral
+metadata:
+  change_number: 2
+  region: spaincentral
+  platform: Azure
+  system_service: AzureAppServiceManagement
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.221.43.0/26
+    - 70.156.216.0/29
+    - 2603:1020:1403:2::7c0/123
+  ipv4:
+    - 68.221.43.0/26
+    - 70.156.216.0/29
+  ipv6:
+    - 2603:1020:1403:2::7c0/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

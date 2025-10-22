@@ -1,0 +1,42 @@
+id: PowerBI.FranceSouth
+name: PowerBI.FranceSouth
+metadata:
+  change_number: 2
+  region: southfrance
+  platform: Azure
+  system_service: PowerBI
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.111.76.192/28
+    - 20.111.105.128/26
+    - 40.80.103.208/28
+    - 51.105.88.122/31
+    - 51.105.88.124/30
+    - 51.105.88.208/28
+    - 52.136.186.112/30
+    - 52.136.190.184/29
+    - 2603:1020:905::620/123
+    - 2603:1020:905::640/122
+  ipv4:
+    - 20.111.76.192/28
+    - 20.111.105.128/26
+    - 40.80.103.208/28
+    - 51.105.88.122/31
+    - 51.105.88.124/30
+    - 51.105.88.208/28
+    - 52.136.186.112/30
+    - 52.136.190.184/29
+  ipv6:
+    - 2603:1020:905::620/123
+    - 2603:1020:905::640/122
+  counts:
+    total: 10
+    ipv4: 8
+    ipv6: 2

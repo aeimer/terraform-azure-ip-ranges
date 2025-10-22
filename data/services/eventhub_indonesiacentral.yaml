@@ -1,0 +1,32 @@
+id: EventHub.IndonesiaCentral
+name: EventHub.IndonesiaCentral
+metadata:
+  change_number: 1
+  region: indonesiacentral
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 70.153.157.0/24
+    - 70.153.176.128/26
+    - 70.153.200.128/26
+    - 70.153.216.128/26
+    - 2603:1040:1802::500/120
+  ipv4:
+    - 70.153.157.0/24
+    - 70.153.176.128/26
+    - 70.153.200.128/26
+    - 70.153.216.128/26
+  ipv6:
+    - 2603:1040:1802::500/120
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

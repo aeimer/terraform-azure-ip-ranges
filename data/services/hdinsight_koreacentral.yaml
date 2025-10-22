@@ -1,0 +1,34 @@
+id: HDInsight.KoreaCentral
+name: HDInsight.KoreaCentral
+metadata:
+  change_number: 4
+  region: koreacentral
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.41.69.32/29
+    - 20.44.26.240/29
+    - 52.231.36.209/32
+    - 52.231.39.142/32
+    - 2603:1040:f05::790/124
+    - 2603:1040:f05:402::320/124
+  ipv4:
+    - 20.41.69.32/29
+    - 20.44.26.240/29
+    - 52.231.36.209/32
+    - 52.231.39.142/32
+  ipv6:
+    - 2603:1040:f05::790/124
+    - 2603:1040:f05:402::320/124
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

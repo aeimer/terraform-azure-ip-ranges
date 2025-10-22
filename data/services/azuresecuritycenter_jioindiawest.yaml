@@ -1,0 +1,30 @@
+id: AzureSecurityCenter.JioIndiaWest
+name: AzureSecurityCenter.JioIndiaWest
+metadata:
+  change_number: 2
+  region: jioindiawest
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.193.206.160/27
+    - 135.235.4.64/26
+    - 135.235.5.0/24
+    - 135.235.6.0/23
+    - 135.235.24.0/22
+    - 135.235.28.0/27
+  ipv4:
+    - 20.193.206.160/27
+    - 135.235.4.64/26
+    - 135.235.5.0/24
+    - 135.235.6.0/23
+    - 135.235.24.0/22
+    - 135.235.28.0/27
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

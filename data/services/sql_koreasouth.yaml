@@ -1,0 +1,40 @@
+id: Sql.KoreaSouth
+name: Sql.KoreaSouth
+metadata:
+  change_number: 7
+  region: koreasouth
+  platform: Azure
+  system_service: AzureSQL
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.200.165.192/26
+    - 52.147.112.160/27
+    - 52.231.144.0/27
+    - 52.231.145.0/27
+    - 52.231.151.88/29
+    - 52.231.151.96/27
+    - 2603:1040:e05::/123
+    - 2603:1040:e05:6::440/122
+    - 2603:1040:e05:6::480/121
+  ipv4:
+    - 20.200.165.192/26
+    - 52.147.112.160/27
+    - 52.231.144.0/27
+    - 52.231.145.0/27
+    - 52.231.151.88/29
+    - 52.231.151.96/27
+  ipv6:
+    - 2603:1040:e05::/123
+    - 2603:1040:e05:6::440/122
+    - 2603:1040:e05:6::480/121
+  counts:
+    total: 9
+    ipv4: 6
+    ipv6: 3

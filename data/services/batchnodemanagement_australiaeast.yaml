@@ -1,0 +1,36 @@
+id: BatchNodeManagement.AustraliaEast
+name: BatchNodeManagement.AustraliaEast
+metadata:
+  change_number: 2
+  region: australiaeast
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.70.73.0/27
+    - 20.37.196.128/27
+    - 40.79.162.96/27
+    - 40.79.170.192/27
+    - 104.210.115.52/32
+    - 191.239.64.139/32
+    - 191.239.64.152/32
+    - 2603:1010:6:1::340/122
+  ipv4:
+    - 13.70.73.0/27
+    - 20.37.196.128/27
+    - 40.79.162.96/27
+    - 40.79.170.192/27
+    - 104.210.115.52/32
+    - 191.239.64.139/32
+    - 191.239.64.152/32
+  ipv6:
+    - 2603:1010:6:1::340/122
+  counts:
+    total: 8
+    ipv4: 7
+    ipv6: 1

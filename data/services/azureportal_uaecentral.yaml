@@ -1,0 +1,26 @@
+id: AzurePortal.UAECentral
+name: AzurePortal.UAECentral
+metadata:
+  change_number: 1
+  region: uaecentral
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.37.65.128/27
+    - 20.37.66.56/30
+    - 20.37.70.96/29
+    - 2603:1040:b04::700/121
+  ipv4:
+    - 20.37.65.128/27
+    - 20.37.66.56/30
+    - 20.37.70.96/29
+  ipv6:
+    - 2603:1040:b04::700/121
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

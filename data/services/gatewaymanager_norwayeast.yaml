@@ -1,0 +1,27 @@
+id: GatewayManager.NorwayEast
+name: GatewayManager.NorwayEast
+metadata:
+  change_number: 3
+  region: norwaye
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.120.40.72/29
+    - 51.120.98.168/29
+    - 51.120.235.128/26
+    - 2603:1020:e04:1::40/122
+  ipv4:
+    - 51.120.40.72/29
+    - 51.120.98.168/29
+    - 51.120.235.128/26
+  ipv6:
+    - 2603:1020:e04:1::40/122
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

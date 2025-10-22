@@ -1,0 +1,40 @@
+id: Storage.TaiwanNorth
+name: Storage.TaiwanNorth
+metadata:
+  change_number: 3
+  region: taiwannorth
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.60.113.0/24
+    - 20.153.96.0/24
+    - 20.157.173.0/24
+    - 20.157.187.0/24
+    - 20.209.42.0/23
+    - 20.209.152.0/23
+    - 135.130.35.0/24
+    - 135.130.41.0/24
+    - 2603:1040:1303::/48
+  ipv4:
+    - 20.60.113.0/24
+    - 20.153.96.0/24
+    - 20.157.173.0/24
+    - 20.157.187.0/24
+    - 20.209.42.0/23
+    - 20.209.152.0/23
+    - 135.130.35.0/24
+    - 135.130.41.0/24
+  ipv6:
+    - 2603:1040:1303::/48
+  counts:
+    total: 9
+    ipv4: 8
+    ipv6: 1

@@ -1,0 +1,30 @@
+id: AzureSecurityCenter.SouthAfricaWest
+name: AzureSecurityCenter.SouthAfricaWest
+metadata:
+  change_number: 2
+  region: southafricawest
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 102.37.64.64/27
+    - 172.209.42.96/27
+    - 172.209.43.0/24
+    - 172.209.44.0/22
+    - 172.209.48.0/23
+    - 172.209.50.0/26
+  ipv4:
+    - 102.37.64.64/27
+    - 172.209.42.96/27
+    - 172.209.43.0/24
+    - 172.209.44.0/22
+    - 172.209.48.0/23
+    - 172.209.50.0/26
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

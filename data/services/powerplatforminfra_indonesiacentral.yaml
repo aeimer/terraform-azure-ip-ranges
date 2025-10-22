@@ -1,0 +1,36 @@
+id: PowerPlatformInfra.IndonesiaCentral
+name: PowerPlatformInfra.IndonesiaCentral
+metadata:
+  change_number: 2
+  region: indonesiacentral
+  platform: Azure
+  system_service: PowerPlatformInfra
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 70.153.65.180/30
+    - 70.153.65.184/29
+    - 70.153.65.224/28
+    - 70.153.65.240/31
+    - 70.153.66.64/26
+    - 70.153.66.128/26
+    - 2603:1061:2002:b800::/57
+  ipv4:
+    - 70.153.65.180/30
+    - 70.153.65.184/29
+    - 70.153.65.224/28
+    - 70.153.65.240/31
+    - 70.153.66.64/26
+    - 70.153.66.128/26
+  ipv6:
+    - 2603:1061:2002:b800::/57
+  counts:
+    total: 7
+    ipv4: 6
+    ipv6: 1

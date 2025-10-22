@@ -1,0 +1,20 @@
+id: Dynamics365ForMarketingEmail.EastUS
+name: Dynamics365ForMarketingEmail.EastUS
+metadata:
+  change_number: 1
+  region: eastus
+  platform: Azure
+  system_service: Dynamics365ForMarketingEmail
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 48.211.37.0/26
+  ipv4:
+    - 48.211.37.0/26
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

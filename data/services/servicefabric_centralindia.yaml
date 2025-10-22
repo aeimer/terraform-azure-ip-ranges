@@ -1,0 +1,32 @@
+id: ServiceFabric.CentralIndia
+name: ServiceFabric.CentralIndia
+metadata:
+  change_number: 1
+  region: centralindia
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.192.101.28/30
+    - 40.80.53.4/30
+    - 104.211.81.216/29
+    - 104.211.103.201/32
+    - 2603:1040:a06:402::98/125
+    - 2603:1040:a06:802::98/125
+    - 2603:1040:a06:c02::98/125
+  ipv4:
+    - 20.192.101.28/30
+    - 40.80.53.4/30
+    - 104.211.81.216/29
+    - 104.211.103.201/32
+  ipv6:
+    - 2603:1040:a06:402::98/125
+    - 2603:1040:a06:802::98/125
+    - 2603:1040:a06:c02::98/125
+  counts:
+    total: 7
+    ipv4: 4
+    ipv6: 3

@@ -1,0 +1,38 @@
+id: EventHub.BrazilSoutheast
+name: EventHub.BrazilSoutheast
+metadata:
+  change_number: 4
+  region: brazilse
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.195.150.160/27
+    - 20.195.150.192/26
+    - 20.195.151.0/25
+    - 191.233.9.64/27
+    - 191.237.224.0/26
+    - 2603:1050:403::240/122
+    - 2603:1050:403:2::/120
+    - 2603:1050:403:400::1c0/123
+  ipv4:
+    - 20.195.150.160/27
+    - 20.195.150.192/26
+    - 20.195.151.0/25
+    - 191.233.9.64/27
+    - 191.237.224.0/26
+  ipv6:
+    - 2603:1050:403::240/122
+    - 2603:1050:403:2::/120
+    - 2603:1050:403:400::1c0/123
+  counts:
+    total: 8
+    ipv4: 5
+    ipv6: 3

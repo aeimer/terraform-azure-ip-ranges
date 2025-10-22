@@ -1,0 +1,26 @@
+id: AzureEventGrid.SouthIndia
+name: AzureEventGrid.SouthIndia
+metadata:
+  change_number: 2
+  region: southindia
+  platform: Azure
+  system_service: AzureEventGrid
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.41.195.0/25
+    - 20.44.39.176/28
+    - 20.44.39.192/28
+    - 2603:1040:c06::380/121
+  ipv4:
+    - 20.41.195.0/25
+    - 20.44.39.176/28
+    - 20.44.39.192/28
+  ipv6:
+    - 2603:1040:c06::380/121
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

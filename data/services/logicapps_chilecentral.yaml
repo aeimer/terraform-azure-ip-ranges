@@ -1,0 +1,34 @@
+id: LogicApps.ChileCentral
+name: LogicApps.ChileCentral
+metadata:
+  change_number: 1
+  region: chilec
+  platform: Azure
+  system_service: LogicApps
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.211.20.48/28
+    - 68.211.20.128/27
+    - 68.211.156.32/28
+    - 68.211.156.64/27
+    - 2603:1050:301:3::5a0/124
+    - 2603:1050:301:3::5c0/123
+    - 2603:1050:301:400::330/124
+    - 2603:1050:301:400::340/123
+  ipv4:
+    - 68.211.20.48/28
+    - 68.211.20.128/27
+    - 68.211.156.32/28
+    - 68.211.156.64/27
+  ipv6:
+    - 2603:1050:301:3::5a0/124
+    - 2603:1050:301:3::5c0/123
+    - 2603:1050:301:400::330/124
+    - 2603:1050:301:400::340/123
+  counts:
+    total: 8
+    ipv4: 4
+    ipv6: 4

@@ -1,0 +1,24 @@
+id: StorageSyncService.IsraelCentral
+name: StorageSyncService.IsraelCentral
+metadata:
+  change_number: 2
+  region: israelcentral
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.217.58.120/29
+    - 51.4.37.240/29
+    - 2603:1040:1402:400::240/123
+  ipv4:
+    - 20.217.58.120/29
+    - 51.4.37.240/29
+  ipv6:
+    - 2603:1040:1402:400::240/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

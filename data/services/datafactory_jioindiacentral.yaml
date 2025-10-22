@@ -1,0 +1,28 @@
+id: DataFactory.JioIndiaCentral
+name: DataFactory.JioIndiaCentral
+metadata:
+  change_number: 1
+  region: jioindiacentral
+  platform: Azure
+  system_service: DataFactory
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.192.226.0/23
+    - 20.192.238.96/28
+    - 2603:1040:1104::600/121
+    - 2603:1040:1104:400::500/124
+  ipv4:
+    - 20.192.226.0/23
+    - 20.192.238.96/28
+  ipv6:
+    - 2603:1040:1104::600/121
+    - 2603:1040:1104:400::500/124
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

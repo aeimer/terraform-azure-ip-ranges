@@ -1,0 +1,28 @@
+id: AzureBackup.CanadaEast
+name: AzureBackup.CanadaEast
+metadata:
+  change_number: 3
+  region: canadaeast
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.69.107.32/27
+    - 40.69.107.64/26
+    - 52.139.107.128/26
+    - 2603:1030:1005:3::280/121
+    - 2603:1030:1005:402::200/121
+  ipv4:
+    - 40.69.107.32/27
+    - 40.69.107.64/26
+    - 52.139.107.128/26
+  ipv6:
+    - 2603:1030:1005:3::280/121
+    - 2603:1030:1005:402::200/121
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

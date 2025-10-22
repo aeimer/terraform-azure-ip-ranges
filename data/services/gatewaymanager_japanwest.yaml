@@ -1,0 +1,37 @@
+id: GatewayManager.JapanWest
+name: GatewayManager.JapanWest
+metadata:
+  change_number: 6
+  region: japanwest
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.189.194.192/27
+    - 20.210.145.192/26
+    - 40.74.100.168/29
+    - 40.80.56.72/29
+    - 40.81.180.83/32
+    - 40.81.182.82/32
+    - 40.81.189.24/32
+    - 40.81.189.42/32
+    - 2603:1040:606::40/122
+  ipv4:
+    - 20.189.194.192/27
+    - 20.210.145.192/26
+    - 40.74.100.168/29
+    - 40.80.56.72/29
+    - 40.81.180.83/32
+    - 40.81.182.82/32
+    - 40.81.189.24/32
+    - 40.81.189.42/32
+  ipv6:
+    - 2603:1040:606::40/122
+  counts:
+    total: 9
+    ipv4: 8
+    ipv6: 1

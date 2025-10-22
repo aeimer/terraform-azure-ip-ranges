@@ -1,0 +1,24 @@
+id: AzureDigitalTwins.FranceSouth
+name: AzureDigitalTwins.FranceSouth
+metadata:
+  change_number: 2
+  region: southfrance
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 52.136.184.80/29
+    - 52.136.184.96/27
+    - 2603:1020:905:2::780/121
+  ipv4:
+    - 52.136.184.80/29
+    - 52.136.184.96/27
+  ipv6:
+    - 2603:1020:905:2::780/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

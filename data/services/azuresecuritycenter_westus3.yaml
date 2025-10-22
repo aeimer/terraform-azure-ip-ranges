@@ -1,0 +1,30 @@
+id: AzureSecurityCenter.WestUS3
+name: AzureSecurityCenter.WestUS3
+metadata:
+  change_number: 2
+  region: westus3
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.150.173.224/27
+    - 135.234.96.32/27
+    - 135.234.96.64/26
+    - 135.234.97.0/24
+    - 135.234.98.0/23
+    - 135.234.100.0/22
+  ipv4:
+    - 20.150.173.224/27
+    - 135.234.96.32/27
+    - 135.234.96.64/26
+    - 135.234.97.0/24
+    - 135.234.98.0/23
+    - 135.234.100.0/22
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

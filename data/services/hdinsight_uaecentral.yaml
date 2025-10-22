@@ -1,0 +1,30 @@
+id: HDInsight.UAECentral
+name: HDInsight.UAECentral
+metadata:
+  change_number: 4
+  region: uaecentral
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.37.68.40/29
+    - 20.37.76.96/29
+    - 2603:1040:b04:5::240/124
+    - 2603:1040:b04:402::320/124
+  ipv4:
+    - 20.37.68.40/29
+    - 20.37.76.96/29
+  ipv6:
+    - 2603:1040:b04:5::240/124
+    - 2603:1040:b04:402::320/124
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

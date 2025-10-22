@@ -1,0 +1,24 @@
+id: AzureBackup.SoutheastUS3
+name: AzureBackup.SoutheastUS3
+metadata:
+  change_number: 1
+  region: southeastus3
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 74.7.44.16/28
+    - 74.7.44.64/26
+    - 2603:1030:1302::600/121
+  ipv4:
+    - 74.7.44.16/28
+    - 74.7.44.64/26
+  ipv6:
+    - 2603:1030:1302::600/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

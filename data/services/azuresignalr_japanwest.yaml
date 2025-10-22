@@ -1,0 +1,22 @@
+id: AzureSignalR.JapanWest
+name: AzureSignalR.JapanWest
+metadata:
+  change_number: 3
+  region: japanwest
+  platform: Azure
+  system_service: AzureSignalR
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.189.229.224/27
+    - 2603:1040:606:2::100/120
+  ipv4:
+    - 20.189.229.224/27
+  ipv6:
+    - 2603:1040:606:2::100/120
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

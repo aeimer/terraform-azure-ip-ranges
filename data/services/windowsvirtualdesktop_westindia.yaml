@@ -1,0 +1,22 @@
+id: WindowsVirtualDesktop.WestIndia
+name: WindowsVirtualDesktop.WestIndia
+metadata:
+  change_number: 7
+  region: westindia
+  platform: Azure
+  system_service: WindowsVirtualDesktop
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.64.146.0/28
+    - 2603:1061:2010:1a::/117
+  ipv4:
+    - 40.64.146.0/28
+  ipv6:
+    - 2603:1061:2010:1a::/117
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

@@ -1,0 +1,26 @@
+id: AzureCognitiveSearch.CanadaCentral
+name: AzureCognitiveSearch.CanadaCentral
+metadata:
+  change_number: 1
+  region: canadacentral
+  platform: Azure
+  system_service: AzureCognitiveSearch
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 52.139.0.47/32
+    - 52.139.0.49/32
+    - 52.228.81.64/26
+    - 2603:1030:f05:1::180/121
+  ipv4:
+    - 52.139.0.47/32
+    - 52.139.0.49/32
+    - 52.228.81.64/26
+  ipv6:
+    - 2603:1030:f05:1::180/121
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

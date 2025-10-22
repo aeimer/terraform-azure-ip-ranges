@@ -1,0 +1,24 @@
+id: ActionGroup.NorwayEast
+name: ActionGroup.NorwayEast
+metadata:
+  change_number: 2
+  region: norwaye
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.219.249.220/30
+    - 2603:1020:e04:1::128/126
+    - 2603:1020:e04:402::178/125
+  ipv4:
+    - 4.219.249.220/30
+  ipv6:
+    - 2603:1020:e04:1::128/126
+    - 2603:1020:e04:402::178/125
+  counts:
+    total: 3
+    ipv4: 1
+    ipv6: 2

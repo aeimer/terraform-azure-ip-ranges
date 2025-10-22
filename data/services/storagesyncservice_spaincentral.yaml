@@ -1,0 +1,22 @@
+id: StorageSyncService.SpainCentral
+name: StorageSyncService.SpainCentral
+metadata:
+  change_number: 3
+  region: spaincentral
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 70.156.83.160/29
+    - 2603:1020:1403:400::1e0/123
+  ipv4:
+    - 70.156.83.160/29
+  ipv6:
+    - 2603:1020:1403:400::1e0/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

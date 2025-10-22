@@ -1,0 +1,34 @@
+id: PowerPlatformInfra.IsraelCentral
+name: PowerPlatformInfra.IsraelCentral
+metadata:
+  change_number: 3
+  region: israelcentral
+  platform: Azure
+  system_service: PowerPlatformInfra
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.217.161.88/29
+    - 20.217.162.32/27
+    - 20.217.162.64/26
+    - 51.4.87.32/29
+    - 51.4.87.64/26
+    - 2603:1061:2002:9000::/57
+  ipv4:
+    - 20.217.161.88/29
+    - 20.217.162.32/27
+    - 20.217.162.64/26
+    - 51.4.87.32/29
+    - 51.4.87.64/26
+  ipv6:
+    - 2603:1061:2002:9000::/57
+  counts:
+    total: 6
+    ipv4: 5
+    ipv6: 1

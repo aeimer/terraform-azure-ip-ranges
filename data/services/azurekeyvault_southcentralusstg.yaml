@@ -1,0 +1,34 @@
+id: AzureKeyVault.SouthCentralUSSTG
+name: AzureKeyVault.SouthCentralUSSTG
+metadata:
+  change_number: 3
+  region: usstagec
+  platform: Azure
+  system_service: AzureKeyVault
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.44.2.0/30
+    - 20.45.117.32/29
+    - 20.45.117.40/30
+    - 2603:1030:302::90/125
+    - 2603:1030:302::98/126
+    - 2603:1030:302:402::180/125
+  ipv4:
+    - 20.44.2.0/30
+    - 20.45.117.32/29
+    - 20.45.117.40/30
+  ipv6:
+    - 2603:1030:302::90/125
+    - 2603:1030:302::98/126
+    - 2603:1030:302:402::180/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

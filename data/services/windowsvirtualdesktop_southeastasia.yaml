@@ -1,0 +1,24 @@
+id: WindowsVirtualDesktop.SoutheastAsia
+name: WindowsVirtualDesktop.SoutheastAsia
+metadata:
+  change_number: 8
+  region: southeastasia
+  platform: Azure
+  system_service: WindowsVirtualDesktop
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.64.144.216/29
+    - 40.64.145.144/28
+    - 2603:1061:2010:14::/117
+  ipv4:
+    - 40.64.144.216/29
+    - 40.64.145.144/28
+  ipv6:
+    - 2603:1061:2010:14::/117
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

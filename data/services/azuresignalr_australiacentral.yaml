@@ -1,0 +1,22 @@
+id: AzureSignalR.AustraliaCentral
+name: AzureSignalR.AustraliaCentral
+metadata:
+  change_number: 2
+  region: australiacentral
+  platform: Azure
+  system_service: AzureSignalR
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.199.172.64/26
+    - 2603:1010:304:2::100/120
+  ipv4:
+    - 4.199.172.64/26
+  ipv6:
+    - 2603:1010:304:2::100/120
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

@@ -1,0 +1,34 @@
+id: AzureArcInfrastructure.UKWest
+name: AzureArcInfrastructure.UKWest
+metadata:
+  change_number: 6
+  region: ukwest
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.11.98.64/29
+    - 51.137.164.76/30
+    - 51.137.166.40/30
+    - 51.140.212.216/31
+    - 51.140.215.180/30
+    - 172.187.0.16/29
+    - 172.187.0.24/31
+    - 2603:1020:605:6::180/124
+  ipv4:
+    - 51.11.98.64/29
+    - 51.137.164.76/30
+    - 51.137.166.40/30
+    - 51.140.212.216/31
+    - 51.140.215.180/30
+    - 172.187.0.16/29
+    - 172.187.0.24/31
+  ipv6:
+    - 2603:1020:605:6::180/124
+  counts:
+    total: 8
+    ipv4: 7
+    ipv6: 1

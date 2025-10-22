@@ -1,0 +1,31 @@
+id: AppServiceManagement.BrazilSoutheast
+name: AppServiceManagement.BrazilSoutheast
+metadata:
+  change_number: 3
+  region: brazilse
+  platform: Azure
+  system_service: AzureAppServiceManagement
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.238.16.64/29
+    - 20.206.0.112/28
+    - 23.97.120.79/32
+    - 191.233.50.128/26
+    - 2603:1050:403:1::4c0/123
+    - 2603:1050:403:400::100/122
+  ipv4:
+    - 4.238.16.64/29
+    - 20.206.0.112/28
+    - 23.97.120.79/32
+    - 191.233.50.128/26
+  ipv6:
+    - 2603:1050:403:1::4c0/123
+    - 2603:1050:403:400::100/122
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

@@ -1,0 +1,32 @@
+id: EventHub.MalaysiaWest
+name: EventHub.MalaysiaWest
+metadata:
+  change_number: 1
+  region: malaysiawest
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.17.117.0/24
+    - 20.17.130.128/26
+    - 20.17.168.128/26
+    - 20.17.184.128/26
+    - 2603:1040:1602:1::/120
+  ipv4:
+    - 20.17.117.0/24
+    - 20.17.130.128/26
+    - 20.17.168.128/26
+    - 20.17.184.128/26
+  ipv6:
+    - 2603:1040:1602:1::/120
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

@@ -1,0 +1,26 @@
+id: ApiManagement.AustriaEast
+name: ApiManagement.AustriaEast
+metadata:
+  change_number: 1
+  region: austriaeast
+  platform: Azure
+  system_service: AzureApiManagement
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.210.163.176/28
+    - 2603:1020:104:4::400/124
+  ipv4:
+    - 68.210.163.176/28
+  ipv6:
+    - 2603:1020:104:4::400/124
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

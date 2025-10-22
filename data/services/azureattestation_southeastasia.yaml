@@ -1,0 +1,22 @@
+id: AzureAttestation.SoutheastAsia
+name: AzureAttestation.SoutheastAsia
+metadata:
+  change_number: 2
+  region: southeastasia
+  platform: Azure
+  system_service: AzureAttestation
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 23.98.109.52/30
+    - 40.78.239.116/30
+  ipv4:
+    - 23.98.109.52/30
+    - 40.78.239.116/30
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

@@ -1,0 +1,22 @@
+id: AzureAttestation.SouthAfricaNorth
+name: AzureAttestation.SouthAfricaNorth
+metadata:
+  change_number: 1
+  region: southafricanorth
+  platform: Azure
+  system_service: AzureAttestation
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 102.133.126.132/30
+    - 102.133.221.196/30
+  ipv4:
+    - 102.133.126.132/30
+    - 102.133.221.196/30
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

@@ -1,0 +1,24 @@
+id: AzureDigitalTwins.SouthIndia
+name: AzureDigitalTwins.SouthIndia
+metadata:
+  change_number: 2
+  region: southindia
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 52.172.112.168/29
+    - 52.172.113.0/27
+    - 2603:1040:c06:3::300/121
+  ipv4:
+    - 52.172.112.168/29
+    - 52.172.113.0/27
+  ipv6:
+    - 2603:1040:c06:3::300/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

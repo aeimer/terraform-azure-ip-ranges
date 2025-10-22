@@ -1,0 +1,34 @@
+id: MicrosoftContainerRegistry.NorthCentralUS
+name: MicrosoftContainerRegistry.NorthCentralUS
+metadata:
+  change_number: 3
+  region: northcentralus
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.125.170.64/29
+    - 20.125.202.64/29
+    - 52.162.106.152/29
+    - 2603:1030:608:402::88/125
+    - 2603:1030:608:800::40/125
+    - 2603:1030:608:c00::40/125
+  ipv4:
+    - 20.125.170.64/29
+    - 20.125.202.64/29
+    - 52.162.106.152/29
+  ipv6:
+    - 2603:1030:608:402::88/125
+    - 2603:1030:608:800::40/125
+    - 2603:1030:608:c00::40/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

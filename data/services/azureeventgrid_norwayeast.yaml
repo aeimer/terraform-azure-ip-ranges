@@ -1,0 +1,24 @@
+id: AzureEventGrid.NorwayEast
+name: AzureEventGrid.NorwayEast
+metadata:
+  change_number: 1
+  region: norwaye
+  platform: Azure
+  system_service: AzureEventGrid
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.120.4.0/27
+    - 51.120.41.0/25
+    - 2603:1020:e04:1::380/121
+  ipv4:
+    - 51.120.4.0/27
+    - 51.120.41.0/25
+  ipv6:
+    - 2603:1020:e04:1::380/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

@@ -1,0 +1,40 @@
+id: PowerPlatformPlex.SouthAfricaWest
+name: PowerPlatformPlex.SouthAfricaWest
+metadata:
+  change_number: 8
+  region: southafricawest
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.117.28.240/29
+    - 102.37.87.100/30
+    - 102.37.87.136/30
+    - 102.37.87.184/29
+    - 102.133.78.96/28
+    - 172.209.8.32/29
+    - 172.209.15.8/29
+    - 172.209.84.192/26
+    - 172.209.87.128/26
+    - 2603:1061:2004:2100::/57
+  ipv4:
+    - 40.117.28.240/29
+    - 102.37.87.100/30
+    - 102.37.87.136/30
+    - 102.37.87.184/29
+    - 102.133.78.96/28
+    - 172.209.8.32/29
+    - 172.209.15.8/29
+    - 172.209.84.192/26
+    - 172.209.87.128/26
+  ipv6:
+    - 2603:1061:2004:2100::/57
+  counts:
+    total: 10
+    ipv4: 9
+    ipv6: 1

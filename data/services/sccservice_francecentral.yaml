@@ -1,0 +1,24 @@
+id: SCCservice.FranceCentral
+name: SCCservice.FranceCentral
+metadata:
+  change_number: 2
+  region: centralfrance
+  platform: Azure
+  system_service: SCCservice
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.251.58.160/27
+    - 40.79.139.200/29
+    - 2603:1020:805:8::500/123
+  ipv4:
+    - 4.251.58.160/27
+    - 40.79.139.200/29
+  ipv6:
+    - 2603:1020:805:8::500/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

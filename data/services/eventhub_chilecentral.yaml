@@ -1,0 +1,32 @@
+id: EventHub.ChileCentral
+name: EventHub.ChileCentral
+metadata:
+  change_number: 1
+  region: chilec
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.211.6.0/24
+    - 68.211.152.128/26
+    - 68.211.168.128/26
+    - 68.211.184.128/26
+    - 2603:1050:301::700/120
+  ipv4:
+    - 68.211.6.0/24
+    - 68.211.152.128/26
+    - 68.211.168.128/26
+    - 68.211.184.128/26
+  ipv6:
+    - 2603:1050:301::700/120
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

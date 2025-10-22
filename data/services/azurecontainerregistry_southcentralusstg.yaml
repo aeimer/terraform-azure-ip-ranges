@@ -1,0 +1,26 @@
+id: AzureContainerRegistry.SouthCentralUSSTG
+name: AzureContainerRegistry.SouthCentralUSSTG
+metadata:
+  change_number: 1
+  region: usstagec
+  platform: Azure
+  system_service: AzureContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.44.2.24/29
+    - 2603:1030:302:402::c0/122
+  ipv4:
+    - 20.44.2.24/29
+  ipv6:
+    - 2603:1030:302:402::c0/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

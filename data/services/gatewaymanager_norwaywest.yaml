@@ -1,0 +1,27 @@
+id: GatewayManager.NorwayWest
+name: GatewayManager.NorwayWest
+metadata:
+  change_number: 3
+  region: norwayw
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.120.176.32/27
+    - 51.120.219.64/29
+    - 51.120.224.72/29
+    - 2603:1020:f04::40/122
+  ipv4:
+    - 51.120.176.32/27
+    - 51.120.219.64/29
+    - 51.120.224.72/29
+  ipv6:
+    - 2603:1020:f04::40/122
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

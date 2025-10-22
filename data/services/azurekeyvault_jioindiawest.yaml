@@ -1,0 +1,40 @@
+id: AzureKeyVault.JioIndiaWest
+name: AzureKeyVault.JioIndiaWest
+metadata:
+  change_number: 2
+  region: jioindiawest
+  platform: Azure
+  system_service: AzureKeyVault
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.193.194.44/30
+    - 20.193.194.80/29
+    - 20.193.202.0/30
+    - 2603:1040:d04::100/125
+    - 2603:1040:d04::108/126
+    - 2603:1040:d04:1::1f8/125
+    - 2603:1040:d04:400::80/125
+    - 2603:1040:d04:400::2f8/125
+    - 2603:1040:d04:800::140/125
+  ipv4:
+    - 20.193.194.44/30
+    - 20.193.194.80/29
+    - 20.193.202.0/30
+  ipv6:
+    - 2603:1040:d04::100/125
+    - 2603:1040:d04::108/126
+    - 2603:1040:d04:1::1f8/125
+    - 2603:1040:d04:400::80/125
+    - 2603:1040:d04:400::2f8/125
+    - 2603:1040:d04:800::140/125
+  counts:
+    total: 9
+    ipv4: 3
+    ipv6: 6

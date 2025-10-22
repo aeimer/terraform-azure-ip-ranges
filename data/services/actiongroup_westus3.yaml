@@ -1,0 +1,26 @@
+id: ActionGroup.WestUS3
+name: ActionGroup.WestUS3
+metadata:
+  change_number: 2
+  region: westus3
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.150.172.228/30
+    - 172.182.164.108/30
+    - 2603:1030:504:1::10c/126
+    - 2603:1030:504:802::f8/125
+  ipv4:
+    - 20.150.172.228/30
+    - 172.182.164.108/30
+  ipv6:
+    - 2603:1030:504:1::10c/126
+    - 2603:1030:504:802::f8/125
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

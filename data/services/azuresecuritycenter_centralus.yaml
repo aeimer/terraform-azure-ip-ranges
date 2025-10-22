@@ -1,0 +1,36 @@
+id: AzureSecurityCenter.CentralUS
+name: AzureSecurityCenter.CentralUS
+metadata:
+  change_number: 4
+  region: centralus
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.44.10.224/27
+    - 130.131.135.64/27
+    - 130.131.137.0/24
+    - 130.131.138.0/23
+    - 130.131.140.0/25
+    - 172.212.133.128/26
+    - 172.212.134.0/24
+    - 172.212.244.0/23
+    - 172.212.246.0/25
+  ipv4:
+    - 20.44.10.224/27
+    - 130.131.135.64/27
+    - 130.131.137.0/24
+    - 130.131.138.0/23
+    - 130.131.140.0/25
+    - 172.212.133.128/26
+    - 172.212.134.0/24
+    - 172.212.244.0/23
+    - 172.212.246.0/25
+  ipv6: []
+  counts:
+    total: 9
+    ipv4: 9
+    ipv6: 0

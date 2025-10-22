@@ -1,0 +1,24 @@
+id: AzureAttestation.NorwayEast
+name: AzureAttestation.NorwayEast
+metadata:
+  change_number: 1
+  region: norwaye
+  platform: Azure
+  system_service: AzureAttestation
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.120.100.244/30
+    - 51.120.233.128/30
+    - 2603:1020:e04::7a0/123
+  ipv4:
+    - 51.120.100.244/30
+    - 51.120.233.128/30
+  ipv6:
+    - 2603:1020:e04::7a0/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

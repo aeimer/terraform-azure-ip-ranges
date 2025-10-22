@@ -1,0 +1,36 @@
+id: AzureArcInfrastructure.SpainCentral
+name: AzureArcInfrastructure.SpainCentral
+metadata:
+  change_number: 2
+  region: spaincentral
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.221.41.72/30
+    - 68.221.44.32/29
+    - 68.221.44.40/31
+    - 68.221.98.112/32
+    - 70.156.91.182/32
+    - 70.156.91.188/30
+    - 2603:1020:1403:2::570/124
+    - 2603:1020:1403:5::37d/128
+    - 2603:1020:1403:5::37e/127
+  ipv4:
+    - 68.221.41.72/30
+    - 68.221.44.32/29
+    - 68.221.44.40/31
+    - 68.221.98.112/32
+    - 70.156.91.182/32
+    - 70.156.91.188/30
+  ipv6:
+    - 2603:1020:1403:2::570/124
+    - 2603:1020:1403:5::37d/128
+    - 2603:1020:1403:5::37e/127
+  counts:
+    total: 9
+    ipv4: 6
+    ipv6: 3

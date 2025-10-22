@@ -1,0 +1,36 @@
+id: AzureContainerRegistry.BrazilSoutheast
+name: AzureContainerRegistry.BrazilSoutheast
+metadata:
+  change_number: 4
+  region: brazilse
+  platform: Azure
+  system_service: AzureContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 108.140.5.192/26
+    - 191.233.50.16/29
+    - 191.233.54.64/26
+    - 191.233.54.128/26
+    - 2603:1050:403:6::440/122
+    - 2603:1050:403:400::98/125
+    - 2603:1050:403:400::480/121
+  ipv4:
+    - 108.140.5.192/26
+    - 191.233.50.16/29
+    - 191.233.54.64/26
+    - 191.233.54.128/26
+  ipv6:
+    - 2603:1050:403:6::440/122
+    - 2603:1050:403:400::98/125
+    - 2603:1050:403:400::480/121
+  counts:
+    total: 7
+    ipv4: 4
+    ipv6: 3

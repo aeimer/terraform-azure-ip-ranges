@@ -1,0 +1,22 @@
+id: AzureEventGrid.NewZealandNorth
+name: AzureEventGrid.NewZealandNorth
+metadata:
+  change_number: 1
+  region: newzealandnorth
+  platform: Azure
+  system_service: AzureEventGrid
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 172.204.153.128/25
+    - 2603:1010:502::280/121
+  ipv4:
+    - 172.204.153.128/25
+  ipv6:
+    - 2603:1010:502::280/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

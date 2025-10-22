@@ -1,0 +1,24 @@
+id: AzureMachineLearning.BrazilSoutheast
+name: AzureMachineLearning.BrazilSoutheast
+metadata:
+  change_number: 2
+  region: brazilse
+  platform: Azure
+  system_service: AzureMachineLearning
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 108.140.0.224/28
+    - 191.233.8.48/28
+    - 2603:1050:403::2c0/122
+  ipv4:
+    - 108.140.0.224/28
+    - 191.233.8.48/28
+  ipv6:
+    - 2603:1050:403::2c0/122
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

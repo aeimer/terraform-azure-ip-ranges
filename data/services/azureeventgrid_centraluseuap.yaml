@@ -1,0 +1,22 @@
+id: AzureEventGrid.CentralUSEUAP
+name: AzureEventGrid.CentralUSEUAP
+metadata:
+  change_number: 1
+  region: centraluseuap
+  platform: Azure
+  system_service: AzureEventGrid
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.45.195.0/25
+    - 2603:1030:f:1::380/121
+  ipv4:
+    - 20.45.195.0/25
+  ipv6:
+    - 2603:1030:f:1::380/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

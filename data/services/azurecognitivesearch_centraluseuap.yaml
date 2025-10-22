@@ -1,0 +1,22 @@
+id: AzureCognitiveSearch.CentralUSEUAP
+name: AzureCognitiveSearch.CentralUSEUAP
+metadata:
+  change_number: 2
+  region: centraluseuap
+  platform: Azure
+  system_service: AzureCognitiveSearch
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.45.192.128/26
+    - 2603:1030:f:1::180/121
+  ipv4:
+    - 20.45.192.128/26
+  ipv6:
+    - 2603:1030:f:1::180/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

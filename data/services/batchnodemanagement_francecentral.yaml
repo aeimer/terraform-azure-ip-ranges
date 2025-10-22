@@ -1,0 +1,38 @@
+id: BatchNodeManagement.FranceCentral
+name: BatchNodeManagement.FranceCentral
+metadata:
+  change_number: 2
+  region: centralfrance
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.40.137.186/32
+    - 20.40.149.165/32
+    - 20.43.42.96/27
+    - 40.79.131.96/27
+    - 40.79.138.96/27
+    - 40.79.146.96/27
+    - 52.143.139.121/32
+    - 52.143.140.12/32
+    - 2603:1020:805:1::340/122
+  ipv4:
+    - 20.40.137.186/32
+    - 20.40.149.165/32
+    - 20.43.42.96/27
+    - 40.79.131.96/27
+    - 40.79.138.96/27
+    - 40.79.146.96/27
+    - 52.143.139.121/32
+    - 52.143.140.12/32
+  ipv6:
+    - 2603:1020:805:1::340/122
+  counts:
+    total: 9
+    ipv4: 8
+    ipv6: 1

@@ -1,0 +1,38 @@
+id: AzureContainerRegistry.IsraelNorthwest
+name: AzureContainerRegistry.IsraelNorthwest
+metadata:
+  change_number: 1
+  region: israelnorthwest
+  platform: Azure
+  system_service: AzureContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.217.251.64/26
+    - 51.4.143.0/26
+    - 51.4.160.64/26
+    - 51.4.162.0/25
+    - 2603:1040:1702::3e0/125
+    - 2603:1040:1702:4::200/121
+    - 2603:1040:1702:400::8/125
+    - 2603:1040:1702:400::80/121
+  ipv4:
+    - 20.217.251.64/26
+    - 51.4.143.0/26
+    - 51.4.160.64/26
+    - 51.4.162.0/25
+  ipv6:
+    - 2603:1040:1702::3e0/125
+    - 2603:1040:1702:4::200/121
+    - 2603:1040:1702:400::8/125
+    - 2603:1040:1702:400::80/121
+  counts:
+    total: 8
+    ipv4: 4
+    ipv6: 4

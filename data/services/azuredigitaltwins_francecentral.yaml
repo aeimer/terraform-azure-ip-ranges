@@ -1,0 +1,22 @@
+id: AzureDigitalTwins.FranceCentral
+name: AzureDigitalTwins.FranceCentral
+metadata:
+  change_number: 1
+  region: centralfrance
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.43.47.72/29
+    - 20.43.47.96/27
+  ipv4:
+    - 20.43.47.72/29
+    - 20.43.47.96/27
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

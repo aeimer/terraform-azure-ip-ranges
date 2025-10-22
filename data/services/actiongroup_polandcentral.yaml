@@ -1,0 +1,26 @@
+id: ActionGroup.PolandCentral
+name: ActionGroup.PolandCentral
+metadata:
+  change_number: 2
+  region: polandcentral
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.215.74.56/30
+    - 20.215.154.88/30
+    - 2603:1020:1302:2::5a0/126
+    - 2603:1020:1302:400::180/125
+  ipv4:
+    - 20.215.74.56/30
+    - 20.215.154.88/30
+  ipv6:
+    - 2603:1020:1302:2::5a0/126
+    - 2603:1020:1302:400::180/125
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

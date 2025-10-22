@@ -1,0 +1,22 @@
+id: AzureDataExplorerManagement.QatarCentral
+name: AzureDataExplorerManagement.QatarCentral
+metadata:
+  change_number: 1
+  region: qatarcentral
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.21.37.0/28
+    - 2603:1040:1002:1::180/123
+  ipv4:
+    - 20.21.37.0/28
+  ipv6:
+    - 2603:1040:1002:1::180/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

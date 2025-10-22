@@ -1,0 +1,28 @@
+id: AzureArcInfrastructure.MexicoCentral
+name: AzureArcInfrastructure.MexicoCentral
+metadata:
+  change_number: 1
+  region: mexicocentral
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 158.23.10.112/32
+    - 158.23.96.20/30
+    - 158.23.115.20/31
+    - 158.23.115.48/29
+    - 2603:1030:702:2::570/124
+  ipv4:
+    - 158.23.10.112/32
+    - 158.23.96.20/30
+    - 158.23.115.20/31
+    - 158.23.115.48/29
+  ipv6:
+    - 2603:1030:702:2::570/124
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

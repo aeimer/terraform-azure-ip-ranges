@@ -1,0 +1,38 @@
+id: HDInsight.WestUS
+name: HDInsight.WestUS
+metadata:
+  change_number: 4
+  region: westus
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.64.254.98/32
+    - 13.86.218.240/29
+    - 20.49.126.128/29
+    - 23.99.5.239/32
+    - 23.101.196.19/32
+    - 138.91.141.162/32
+    - 2603:1030:a07:9::1c0/124
+    - 2603:1030:a07:402::9a0/124
+  ipv4:
+    - 13.64.254.98/32
+    - 13.86.218.240/29
+    - 20.49.126.128/29
+    - 23.99.5.239/32
+    - 23.101.196.19/32
+    - 138.91.141.162/32
+  ipv6:
+    - 2603:1030:a07:9::1c0/124
+    - 2603:1030:a07:402::9a0/124
+  counts:
+    total: 8
+    ipv4: 6
+    ipv6: 2

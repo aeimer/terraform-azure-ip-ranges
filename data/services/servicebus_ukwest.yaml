@@ -1,0 +1,32 @@
+id: ServiceBus.UKWest
+name: ServiceBus.UKWest
+metadata:
+  change_number: 7
+  region: ukwest
+  platform: Azure
+  system_service: AzureServiceBus
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.58.70.0/25
+    - 51.140.210.64/28
+    - 172.186.0.0/25
+    - 2603:1020:605::220/123
+    - 2603:1020:605:1::500/120
+    - 2603:1020:605:402::170/125
+  ipv4:
+    - 20.58.70.0/25
+    - 51.140.210.64/28
+    - 172.186.0.0/25
+  ipv6:
+    - 2603:1020:605::220/123
+    - 2603:1020:605:1::500/120
+    - 2603:1020:605:402::170/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

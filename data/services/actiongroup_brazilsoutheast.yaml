@@ -1,0 +1,26 @@
+id: ActionGroup.BrazilSoutheast
+name: ActionGroup.BrazilSoutheast
+metadata:
+  change_number: 2
+  region: brazilse
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 108.140.5.168/30
+    - 191.233.50.4/30
+    - 2603:1050:403::10c/126
+    - 2603:1050:403:400::1f8/125
+  ipv4:
+    - 108.140.5.168/30
+    - 191.233.50.4/30
+  ipv6:
+    - 2603:1050:403::10c/126
+    - 2603:1050:403:400::1f8/125
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

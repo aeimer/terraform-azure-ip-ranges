@@ -1,0 +1,38 @@
+id: Storage.SoutheastUS3
+name: Storage.SoutheastUS3
+metadata:
+  change_number: 3
+  region: southeastus3
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.153.28.0/24
+    - 20.153.46.0/24
+    - 20.153.112.0/24
+    - 57.150.186.0/23
+    - 57.150.214.0/23
+    - 135.130.124.0/23
+    - 135.130.144.0/23
+    - 2603:1030:1303::/48
+  ipv4:
+    - 20.153.28.0/24
+    - 20.153.46.0/24
+    - 20.153.112.0/24
+    - 57.150.186.0/23
+    - 57.150.214.0/23
+    - 135.130.124.0/23
+    - 135.130.144.0/23
+  ipv6:
+    - 2603:1030:1303::/48
+  counts:
+    total: 8
+    ipv4: 7
+    ipv6: 1

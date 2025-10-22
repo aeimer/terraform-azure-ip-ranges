@@ -1,0 +1,30 @@
+id: AzureSecurityCenter.NorwayWest
+name: AzureSecurityCenter.NorwayWest
+metadata:
+  change_number: 2
+  region: norwayw
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.220.175.224/27
+    - 4.220.176.128/26
+    - 4.220.177.0/24
+    - 4.220.178.0/23
+    - 4.220.180.0/22
+    - 51.120.220.224/27
+  ipv4:
+    - 4.220.175.224/27
+    - 4.220.176.128/26
+    - 4.220.177.0/24
+    - 4.220.178.0/23
+    - 4.220.180.0/22
+    - 51.120.220.224/27
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

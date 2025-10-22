@@ -1,0 +1,36 @@
+id: HDInsight.CentralIndia
+name: HDInsight.CentralIndia
+metadata:
+  change_number: 5
+  region: centralindia
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.213.24.24/29
+    - 20.43.120.8/29
+    - 52.140.108.248/29
+    - 52.172.152.49/32
+    - 52.172.153.209/32
+    - 2603:1040:a06:2::540/124
+    - 2603:1040:a06:402::320/124
+  ipv4:
+    - 4.213.24.24/29
+    - 20.43.120.8/29
+    - 52.140.108.248/29
+    - 52.172.152.49/32
+    - 52.172.153.209/32
+  ipv6:
+    - 2603:1040:a06:2::540/124
+    - 2603:1040:a06:402::320/124
+  counts:
+    total: 7
+    ipv4: 5
+    ipv6: 2

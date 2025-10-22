@@ -1,0 +1,34 @@
+id: DataFactory.BrazilSoutheast
+name: DataFactory.BrazilSoutheast
+metadata:
+  change_number: 2
+  region: brazilse
+  platform: Azure
+  system_service: DataFactory
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 108.140.86.160/27
+    - 108.140.86.192/29
+    - 191.233.12.0/23
+    - 191.233.54.224/28
+    - 2603:1050:403::480/121
+    - 2603:1050:403::500/122
+    - 2603:1050:403:400::240/124
+  ipv4:
+    - 108.140.86.160/27
+    - 108.140.86.192/29
+    - 191.233.12.0/23
+    - 191.233.54.224/28
+  ipv6:
+    - 2603:1050:403::480/121
+    - 2603:1050:403::500/122
+    - 2603:1050:403:400::240/124
+  counts:
+    total: 7
+    ipv4: 4
+    ipv6: 3

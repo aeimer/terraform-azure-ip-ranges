@@ -1,0 +1,26 @@
+id: AzureDataExplorerManagement.BrazilSoutheast
+name: AzureDataExplorerManagement.BrazilSoutheast
+metadata:
+  change_number: 3
+  region: brazilse
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 108.140.7.144/28
+    - 191.233.50.208/28
+    - 2603:1050:403:1::400/121
+    - 2603:1050:403:400::2b0/124
+  ipv4:
+    - 108.140.7.144/28
+    - 191.233.50.208/28
+  ipv6:
+    - 2603:1050:403:1::400/121
+    - 2603:1050:403:400::2b0/124
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

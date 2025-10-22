@@ -1,0 +1,30 @@
+id: AzureDataExplorerManagement.SouthCentralUS
+name: AzureDataExplorerManagement.SouthCentralUS
+metadata:
+  change_number: 3
+  region: southcentralus
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.73.240.96/28
+    - 20.45.3.60/32
+    - 40.119.3.195/32
+    - 172.215.131.64/28
+    - 2603:1030:807::600/121
+    - 2603:1030:807:402::150/124
+  ipv4:
+    - 13.73.240.96/28
+    - 20.45.3.60/32
+    - 40.119.3.195/32
+    - 172.215.131.64/28
+  ipv6:
+    - 2603:1030:807::600/121
+    - 2603:1030:807:402::150/124
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

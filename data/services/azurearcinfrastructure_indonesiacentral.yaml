@@ -1,0 +1,26 @@
+id: AzureArcInfrastructure.IndonesiaCentral
+name: AzureArcInfrastructure.IndonesiaCentral
+metadata:
+  change_number: 2
+  region: indonesiacentral
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 70.153.67.251/32
+    - 70.153.165.84/30
+    - 70.153.176.52/32
+    - 2603:1040:1802:1::710/124
+  ipv4:
+    - 70.153.67.251/32
+    - 70.153.165.84/30
+    - 70.153.176.52/32
+  ipv6:
+    - 2603:1040:1802:1::710/124
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

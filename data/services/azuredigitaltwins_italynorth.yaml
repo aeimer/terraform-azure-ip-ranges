@@ -1,0 +1,22 @@
+id: AzureDigitalTwins.ItalyNorth
+name: AzureDigitalTwins.ItalyNorth
+metadata:
+  change_number: 1
+  region: italynorth
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.232.26.224/27
+    - 2603:1020:1204::600/121
+  ipv4:
+    - 4.232.26.224/27
+  ipv6:
+    - 2603:1020:1204::600/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

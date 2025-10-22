@@ -1,0 +1,26 @@
+id: HDInsight.ChileCentral
+name: HDInsight.ChileCentral
+metadata:
+  change_number: 1
+  region: chilec
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.211.7.80/29
+    - 2603:1050:301:1::360/124
+  ipv4:
+    - 68.211.7.80/29
+  ipv6:
+    - 2603:1050:301:1::360/124
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

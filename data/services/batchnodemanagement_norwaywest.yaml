@@ -1,0 +1,26 @@
+id: BatchNodeManagement.NorwayWest
+name: BatchNodeManagement.NorwayWest
+metadata:
+  change_number: 2
+  region: norwayw
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.120.220.0/27
+    - 51.120.225.160/27
+    - 2603:1020:f04::400/122
+  ipv4:
+    - 51.120.220.0/27
+    - 51.120.225.160/27
+  ipv6:
+    - 2603:1020:f04::400/122
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

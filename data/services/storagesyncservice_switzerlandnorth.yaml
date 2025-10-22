@@ -1,0 +1,22 @@
+id: StorageSyncService.SwitzerlandNorth
+name: StorageSyncService.SwitzerlandNorth
+metadata:
+  change_number: 1
+  region: switzerlandn
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.107.48.224/29
+    - 2603:1020:a04:1::300/123
+  ipv4:
+    - 51.107.48.224/29
+  ipv6:
+    - 2603:1020:a04:1::300/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

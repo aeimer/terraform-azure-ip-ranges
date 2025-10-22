@@ -1,0 +1,25 @@
+id: GatewayManager.SouthCentralUSSTG
+name: GatewayManager.SouthCentralUSSTG
+metadata:
+  change_number: 2
+  region: usstagec
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.44.3.16/29
+    - 20.45.112.72/29
+    - 23.100.217.32/27
+  ipv4:
+    - 20.44.3.16/29
+    - 20.45.112.72/29
+    - 23.100.217.32/27
+  ipv6: []
+  counts:
+    total: 3
+    ipv4: 3
+    ipv6: 0

@@ -1,0 +1,26 @@
+id: AzureBackup.KoreaSouth
+name: AzureBackup.KoreaSouth
+metadata:
+  change_number: 3
+  region: koreasouth
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 52.147.113.0/26
+    - 52.231.147.32/27
+    - 52.231.147.64/26
+    - 2603:1040:e05:5::300/121
+  ipv4:
+    - 52.147.113.0/26
+    - 52.231.147.32/27
+    - 52.231.147.64/26
+  ipv6:
+    - 2603:1040:e05:5::300/121
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

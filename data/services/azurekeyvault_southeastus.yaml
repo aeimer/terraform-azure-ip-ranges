@@ -1,0 +1,32 @@
+id: AzureKeyVault.SoutheastUS
+name: AzureKeyVault.SoutheastUS
+metadata:
+  change_number: 1
+  region: southeastus
+  platform: Azure
+  system_service: AzureKeyVault
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 57.151.214.204/30
+    - 57.151.228.168/29
+    - 68.154.140.184/30
+    - 2603:1030:902:1::228/125
+    - 2603:1030:902:400::50/125
+  ipv4:
+    - 57.151.214.204/30
+    - 57.151.228.168/29
+    - 68.154.140.184/30
+  ipv6:
+    - 2603:1030:902:1::228/125
+    - 2603:1030:902:400::50/125
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

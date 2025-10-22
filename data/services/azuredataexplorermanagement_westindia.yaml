@@ -1,0 +1,30 @@
+id: AzureDataExplorerManagement.WestIndia
+name: AzureDataExplorerManagement.WestIndia
+metadata:
+  change_number: 3
+  region: westindia
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.207.174.240/28
+    - 40.81.88.112/32
+    - 40.81.89.242/32
+    - 104.211.147.224/28
+    - 2603:1040:806:1::380/121
+    - 2603:1040:806:402::150/124
+  ipv4:
+    - 20.207.174.240/28
+    - 40.81.88.112/32
+    - 40.81.89.242/32
+    - 104.211.147.224/28
+  ipv6:
+    - 2603:1040:806:1::380/121
+    - 2603:1040:806:402::150/124
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

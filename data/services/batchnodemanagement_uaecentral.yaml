@@ -1,0 +1,26 @@
+id: BatchNodeManagement.UAECentral
+name: BatchNodeManagement.UAECentral
+metadata:
+  change_number: 2
+  region: uaecentral
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.37.65.160/27
+    - 20.37.75.224/27
+    - 2603:1040:b04::400/122
+  ipv4:
+    - 20.37.65.160/27
+    - 20.37.75.224/27
+  ipv6:
+    - 2603:1040:b04::400/122
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

@@ -1,0 +1,30 @@
+id: BatchNodeManagement.WestIndia
+name: BatchNodeManagement.WestIndia
+metadata:
+  change_number: 2
+  region: westindia
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 52.136.49.192/27
+    - 104.211.147.96/27
+    - 104.211.160.72/32
+    - 104.211.160.74/31
+    - 2603:1040:806::400/122
+  ipv4:
+    - 52.136.49.192/27
+    - 104.211.147.96/27
+    - 104.211.160.72/32
+    - 104.211.160.74/31
+  ipv6:
+    - 2603:1040:806::400/122
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

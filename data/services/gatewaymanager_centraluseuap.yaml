@@ -1,0 +1,37 @@
+id: GatewayManager.CentralUSEUAP
+name: GatewayManager.CentralUSEUAP
+metadata:
+  change_number: 5
+  region: centraluseuap
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.45.192.72/29
+    - 20.46.13.128/26
+    - 40.78.202.112/29
+    - 52.180.182.210/32
+    - 52.253.157.2/32
+    - 52.253.159.209/32
+    - 52.253.232.235/32
+    - 52.253.239.162/32
+    - 2603:1030:f:1::40/122
+  ipv4:
+    - 20.45.192.72/29
+    - 20.46.13.128/26
+    - 40.78.202.112/29
+    - 52.180.182.210/32
+    - 52.253.157.2/32
+    - 52.253.159.209/32
+    - 52.253.232.235/32
+    - 52.253.239.162/32
+  ipv6:
+    - 2603:1030:f:1::40/122
+  counts:
+    total: 9
+    ipv4: 8
+    ipv6: 1

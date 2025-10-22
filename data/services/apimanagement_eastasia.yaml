@@ -1,0 +1,40 @@
+id: ApiManagement.EastAsia
+name: ApiManagement.EastAsia
+metadata:
+  change_number: 4
+  region: eastasia
+  platform: Azure
+  system_service: AzureApiManagement
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.75.34.148/31
+    - 13.75.38.16/28
+    - 13.75.67.143/32
+    - 20.195.78.64/28
+    - 52.139.152.27/32
+    - 65.52.164.91/32
+    - 65.52.173.247/32
+    - 2603:1040:207:1::4a0/124
+    - 2603:1040:207:402::140/124
+  ipv4:
+    - 13.75.34.148/31
+    - 13.75.38.16/28
+    - 13.75.67.143/32
+    - 20.195.78.64/28
+    - 52.139.152.27/32
+    - 65.52.164.91/32
+    - 65.52.173.247/32
+  ipv6:
+    - 2603:1040:207:1::4a0/124
+    - 2603:1040:207:402::140/124
+  counts:
+    total: 9
+    ipv4: 7
+    ipv6: 2

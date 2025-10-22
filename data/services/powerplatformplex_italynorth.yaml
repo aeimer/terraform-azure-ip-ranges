@@ -1,0 +1,28 @@
+id: PowerPlatformPlex.ItalyNorth
+name: PowerPlatformPlex.ItalyNorth
+metadata:
+  change_number: 4
+  region: italynorth
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.232.50.144/28
+    - 4.232.53.136/29
+    - 9.235.18.0/26
+    - 2603:1061:2004:a800::/57
+  ipv4:
+    - 4.232.50.144/28
+    - 4.232.53.136/29
+    - 9.235.18.0/26
+  ipv6:
+    - 2603:1061:2004:a800::/57
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

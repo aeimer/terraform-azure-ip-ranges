@@ -1,0 +1,24 @@
+id: AzureBackup.BelgiumCentral
+name: AzureBackup.BelgiumCentral
+metadata:
+  change_number: 1
+  region: belgiumcentral
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 9.160.44.0/26
+    - 9.160.58.48/28
+    - 2603:1020:1502::600/121
+  ipv4:
+    - 9.160.44.0/26
+    - 9.160.58.48/28
+  ipv6:
+    - 2603:1020:1502::600/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

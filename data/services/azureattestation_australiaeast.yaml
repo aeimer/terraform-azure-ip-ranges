@@ -1,0 +1,22 @@
+id: AzureAttestation.AustraliaEast
+name: AzureAttestation.AustraliaEast
+metadata:
+  change_number: 1
+  region: australiaeast
+  platform: Azure
+  system_service: AzureAttestation
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.70.79.80/30
+    - 20.53.47.64/30
+  ipv4:
+    - 13.70.79.80/30
+    - 20.53.47.64/30
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

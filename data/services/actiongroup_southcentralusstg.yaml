@@ -1,0 +1,22 @@
+id: ActionGroup.SouthCentralUSSTG
+name: ActionGroup.SouthCentralUSSTG
+metadata:
+  change_number: 1
+  region: usstagec
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 23.100.222.168/30
+    - 2603:1030:302:1::90/126
+  ipv4:
+    - 23.100.222.168/30
+  ipv6:
+    - 2603:1030:302:1::90/126
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

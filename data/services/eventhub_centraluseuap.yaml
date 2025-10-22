@@ -1,0 +1,40 @@
+id: EventHub.CentralUSEUAP
+name: EventHub.CentralUSEUAP
+metadata:
+  change_number: 7
+  region: centraluseuap
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.45.240.128/25
+    - 20.45.241.0/26
+    - 20.46.15.64/26
+    - 40.78.202.32/27
+    - 168.61.143.128/26
+    - 2603:1030:f:1::240/122
+    - 2603:1030:f:3::200/122
+    - 2603:1030:f:3::400/120
+    - 2603:1030:f:400::9c0/123
+  ipv4:
+    - 20.45.240.128/25
+    - 20.45.241.0/26
+    - 20.46.15.64/26
+    - 40.78.202.32/27
+    - 168.61.143.128/26
+  ipv6:
+    - 2603:1030:f:1::240/122
+    - 2603:1030:f:3::200/122
+    - 2603:1030:f:3::400/120
+    - 2603:1030:f:400::9c0/123
+  counts:
+    total: 9
+    ipv4: 5
+    ipv6: 4

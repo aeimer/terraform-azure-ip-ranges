@@ -1,7 +1,7 @@
 id: GuestAndHybridManagement
 name: GuestAndHybridManagement
 metadata:
-  change_number: 45
+  change_number: 59
   region: ""
   platform: Azure
   system_service: AzureAutomation

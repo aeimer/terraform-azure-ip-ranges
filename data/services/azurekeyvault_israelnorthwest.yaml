@@ -1,0 +1,32 @@
+id: AzureKeyVault.IsraelNorthwest
+name: AzureKeyVault.IsraelNorthwest
+metadata:
+  change_number: 1
+  region: israelnorthwest
+  platform: Azure
+  system_service: AzureKeyVault
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.217.255.24/30
+    - 51.4.136.248/29
+    - 51.4.160.60/30
+    - 2603:1040:1702:1::1c8/125
+    - 2603:1040:1702:400::48/125
+  ipv4:
+    - 20.217.255.24/30
+    - 51.4.136.248/29
+    - 51.4.160.60/30
+  ipv6:
+    - 2603:1040:1702:1::1c8/125
+    - 2603:1040:1702:400::48/125
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

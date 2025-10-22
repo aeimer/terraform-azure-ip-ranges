@@ -1,0 +1,24 @@
+id: AzureBotService.WestUS
+name: AzureBotService.WestUS
+metadata:
+  change_number: 1
+  region: westus
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.86.219.168/30
+    - 40.82.248.64/30
+    - 2603:1030:a07::20/123
+  ipv4:
+    - 13.86.219.168/30
+    - 40.82.248.64/30
+  ipv6:
+    - 2603:1030:a07::20/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

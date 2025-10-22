@@ -1,0 +1,36 @@
+id: PowerBI.BrazilSoutheast
+name: PowerBI.BrazilSoutheast
+metadata:
+  change_number: 1
+  region: brazilse
+  platform: Azure
+  system_service: PowerBI
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.195.146.200/30
+    - 20.206.0.96/29
+    - 191.233.8.22/31
+    - 191.233.10.32/30
+    - 191.233.10.40/29
+    - 2603:1050:403::5e0/123
+    - 2603:1050:403::600/122
+  ipv4:
+    - 20.195.146.200/30
+    - 20.206.0.96/29
+    - 191.233.8.22/31
+    - 191.233.10.32/30
+    - 191.233.10.40/29
+  ipv6:
+    - 2603:1050:403::5e0/123
+    - 2603:1050:403::600/122
+  counts:
+    total: 7
+    ipv4: 5
+    ipv6: 2

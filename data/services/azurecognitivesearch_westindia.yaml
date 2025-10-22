@@ -1,0 +1,22 @@
+id: AzureCognitiveSearch.WestIndia
+name: AzureCognitiveSearch.WestIndia
+metadata:
+  change_number: 1
+  region: westindia
+  platform: Azure
+  system_service: AzureCognitiveSearch
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 52.136.48.128/26
+    - 2603:1040:806::180/121
+  ipv4:
+    - 52.136.48.128/26
+  ipv6:
+    - 2603:1040:806::180/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

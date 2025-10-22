@@ -1,0 +1,24 @@
+id: SCCservice.JapanEast
+name: SCCservice.JapanEast
+metadata:
+  change_number: 3
+  region: japaneast
+  platform: Azure
+  system_service: SCCservice
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.78.111.200/29
+    - 48.210.98.160/27
+    - 2603:1040:407:8::220/123
+  ipv4:
+    - 13.78.111.200/29
+    - 48.210.98.160/27
+  ipv6:
+    - 2603:1040:407:8::220/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

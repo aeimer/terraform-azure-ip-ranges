@@ -1,0 +1,36 @@
+id: Storage.NorwayWest
+name: Storage.NorwayWest
+metadata:
+  change_number: 6
+  region: norwayw
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.33.170.0/24
+    - 20.47.49.0/24
+    - 20.60.15.0/24
+    - 20.150.0.0/24
+    - 20.150.56.0/24
+    - 57.150.238.0/23
+    - 2603:1020:f05::/48
+  ipv4:
+    - 20.33.170.0/24
+    - 20.47.49.0/24
+    - 20.60.15.0/24
+    - 20.150.0.0/24
+    - 20.150.56.0/24
+    - 57.150.238.0/23
+  ipv6:
+    - 2603:1020:f05::/48
+  counts:
+    total: 7
+    ipv4: 6
+    ipv6: 1

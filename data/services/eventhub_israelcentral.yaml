@@ -1,0 +1,32 @@
+id: EventHub.IsraelCentral
+name: EventHub.IsraelCentral
+metadata:
+  change_number: 1
+  region: israelcentral
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.217.45.0/24
+    - 20.217.59.128/26
+    - 20.217.75.64/26
+    - 20.217.91.64/26
+    - 2603:1040:1402:1::/120
+  ipv4:
+    - 20.217.45.0/24
+    - 20.217.59.128/26
+    - 20.217.75.64/26
+    - 20.217.91.64/26
+  ipv6:
+    - 2603:1040:1402:1::/120
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

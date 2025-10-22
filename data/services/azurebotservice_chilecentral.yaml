@@ -1,0 +1,22 @@
+id: AzureBotService.ChileCentral
+name: AzureBotService.ChileCentral
+metadata:
+  change_number: 1
+  region: chilec
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.211.18.148/30
+    - 2603:1050:301::20/123
+  ipv4:
+    - 68.211.18.148/30
+  ipv6:
+    - 2603:1050:301::20/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

@@ -1,0 +1,23 @@
+id: GatewayManager.ItalyNorth
+name: GatewayManager.ItalyNorth
+metadata:
+  change_number: 1
+  region: italynorth
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.232.24.64/26
+    - 2603:1020:1204::40/122
+  ipv4:
+    - 4.232.24.64/26
+  ipv6:
+    - 2603:1020:1204::40/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

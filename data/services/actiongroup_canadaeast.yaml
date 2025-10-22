@@ -1,0 +1,26 @@
+id: ActionGroup.CanadaEast
+name: ActionGroup.CanadaEast
+metadata:
+  change_number: 3
+  region: canadaeast
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.248.83.192/30
+    - 40.69.111.196/30
+    - 2603:1030:1005::10c/126
+    - 2603:1030:1005:402::178/125
+  ipv4:
+    - 4.248.83.192/30
+    - 40.69.111.196/30
+  ipv6:
+    - 2603:1030:1005::10c/126
+    - 2603:1030:1005:402::178/125
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

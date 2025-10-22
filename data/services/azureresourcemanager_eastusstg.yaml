@@ -1,0 +1,28 @@
+id: AzureResourceManager.EastUSSTG
+name: AzureResourceManager.EastUSSTG
+metadata:
+  change_number: 1
+  region: usstagee
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.67.54.0/23
+    - 40.67.59.208/28
+    - 40.67.62.0/23
+    - 2603:1030:104::180/122
+    - 2603:1030:104:402::280/122
+  ipv4:
+    - 40.67.54.0/23
+    - 40.67.59.208/28
+    - 40.67.62.0/23
+  ipv6:
+    - 2603:1030:104::180/122
+    - 2603:1030:104:402::280/122
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

@@ -1,0 +1,24 @@
+id: AzureDataLake.NorthEurope
+name: AzureDataLake.NorthEurope
+metadata:
+  change_number: 2
+  region: northeurope
+  platform: Azure
+  system_service: AzureDataLake
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.90.141.128/29
+    - 40.90.145.224/27
+    - 104.44.88.66/31
+  ipv4:
+    - 40.90.141.128/29
+    - 40.90.145.224/27
+    - 104.44.88.66/31
+  ipv6: []
+  counts:
+    total: 3
+    ipv4: 3
+    ipv6: 0

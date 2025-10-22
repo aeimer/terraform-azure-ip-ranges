@@ -1,0 +1,22 @@
+id: AzurePortal.ItalyNorth
+name: AzurePortal.ItalyNorth
+metadata:
+  change_number: 1
+  region: italynorth
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.232.100.224/27
+    - 2603:1020:1204:2::300/121
+  ipv4:
+    - 4.232.100.224/27
+  ipv6:
+    - 2603:1020:1204:2::300/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

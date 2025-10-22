@@ -1,0 +1,34 @@
+id: PowerPlatformInfra.NewZealandNorth
+name: PowerPlatformInfra.NewZealandNorth
+metadata:
+  change_number: 2
+  region: newzealandnorth
+  platform: Azure
+  system_service: PowerPlatformInfra
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 172.204.240.90/31
+    - 172.204.242.16/28
+    - 172.204.242.32/29
+    - 172.204.242.40/30
+    - 172.204.243.128/25
+    - 2603:1061:2002:b000::/57
+  ipv4:
+    - 172.204.240.90/31
+    - 172.204.242.16/28
+    - 172.204.242.32/29
+    - 172.204.242.40/30
+    - 172.204.243.128/25
+  ipv6:
+    - 2603:1061:2002:b000::/57
+  counts:
+    total: 6
+    ipv4: 5
+    ipv6: 1

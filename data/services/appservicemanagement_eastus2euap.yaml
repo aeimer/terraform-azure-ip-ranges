@@ -1,0 +1,43 @@
+id: AppServiceManagement.EastUS2EUAP
+name: AppServiceManagement.EastUS2EUAP
+metadata:
+  change_number: 8
+  region: eastus2euap
+  platform: Azure
+  system_service: AzureAppServiceManagement
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.47.233.128/28
+    - 40.89.122.64/26
+    - 52.225.177.15/32
+    - 52.225.177.153/32
+    - 52.225.177.238/32
+    - 68.220.82.192/26
+    - 72.147.54.0/29
+    - 2603:1030:40b:3::360/123
+    - 2603:1030:40b:400::900/122
+    - 2603:1030:40b:800::100/122
+    - 2603:1030:40b:c00::100/122
+    - 2603:1030:40b:1000::40/122
+  ipv4:
+    - 20.47.233.128/28
+    - 40.89.122.64/26
+    - 52.225.177.15/32
+    - 52.225.177.153/32
+    - 52.225.177.238/32
+    - 68.220.82.192/26
+    - 72.147.54.0/29
+  ipv6:
+    - 2603:1030:40b:3::360/123
+    - 2603:1030:40b:400::900/122
+    - 2603:1030:40b:800::100/122
+    - 2603:1030:40b:c00::100/122
+    - 2603:1030:40b:1000::40/122
+  counts:
+    total: 12
+    ipv4: 7
+    ipv6: 5

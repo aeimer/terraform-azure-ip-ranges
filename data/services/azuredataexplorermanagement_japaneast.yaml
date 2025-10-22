@@ -1,0 +1,30 @@
+id: AzureDataExplorerManagement.JapanEast
+name: AzureDataExplorerManagement.JapanEast
+metadata:
+  change_number: 3
+  region: japaneast
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.43.89.90/32
+    - 40.79.187.16/28
+    - 40.81.220.38/32
+    - 172.207.68.80/28
+    - 2603:1040:407::600/121
+    - 2603:1040:407:402::150/124
+  ipv4:
+    - 20.43.89.90/32
+    - 40.79.187.16/28
+    - 40.81.220.38/32
+    - 172.207.68.80/28
+  ipv6:
+    - 2603:1040:407::600/121
+    - 2603:1040:407:402::150/124
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

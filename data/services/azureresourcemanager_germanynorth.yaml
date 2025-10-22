@@ -1,0 +1,30 @@
+id: AzureResourceManager.GermanyNorth
+name: AzureResourceManager.GermanyNorth
+metadata:
+  change_number: 2
+  region: germanyn
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.116.52.0/23
+    - 51.116.60.32/28
+    - 51.116.62.0/23
+    - 2603:1020:d04::6c0/122
+    - 2603:1020:d04:5::200/120
+    - 2603:1020:d04:402::280/122
+  ipv4:
+    - 51.116.52.0/23
+    - 51.116.60.32/28
+    - 51.116.62.0/23
+  ipv6:
+    - 2603:1020:d04::6c0/122
+    - 2603:1020:d04:5::200/120
+    - 2603:1020:d04:402::280/122
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

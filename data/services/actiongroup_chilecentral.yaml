@@ -1,0 +1,22 @@
+id: ActionGroup.ChileCentral
+name: ActionGroup.ChileCentral
+metadata:
+  change_number: 1
+  region: chilec
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.211.152.24/30
+    - 2603:1050:301:400::40/125
+  ipv4:
+    - 68.211.152.24/30
+  ipv6:
+    - 2603:1050:301:400::40/125
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

@@ -1,0 +1,42 @@
+id: PowerBI.KoreaSouth
+name: PowerBI.KoreaSouth
+metadata:
+  change_number: 3
+  region: koreasouth
+  platform: Azure
+  system_service: PowerBI
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.243.117.16/29
+    - 4.243.139.160/28
+    - 20.200.166.224/28
+    - 40.80.168.122/31
+    - 40.80.168.124/30
+    - 40.80.169.144/29
+    - 52.147.113.176/30
+    - 52.147.119.8/29
+    - 2603:1040:e05:6::1c0/122
+    - 2603:1040:e05:6::200/123
+  ipv4:
+    - 4.243.117.16/29
+    - 4.243.139.160/28
+    - 20.200.166.224/28
+    - 40.80.168.122/31
+    - 40.80.168.124/30
+    - 40.80.169.144/29
+    - 52.147.113.176/30
+    - 52.147.119.8/29
+  ipv6:
+    - 2603:1040:e05:6::1c0/122
+    - 2603:1040:e05:6::200/123
+  counts:
+    total: 10
+    ipv4: 8
+    ipv6: 2

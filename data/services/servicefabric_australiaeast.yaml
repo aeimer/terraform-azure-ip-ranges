@@ -1,0 +1,36 @@
+id: ServiceFabric.AustraliaEast
+name: ServiceFabric.AustraliaEast
+metadata:
+  change_number: 1
+  region: australiaeast
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.70.72.216/29
+    - 13.70.78.172/30
+    - 40.79.165.80/29
+    - 40.79.171.228/30
+    - 40.79.173.0/30
+    - 104.210.107.69/32
+    - 2603:1010:6:402::98/125
+    - 2603:1010:6:802::98/125
+    - 2603:1010:6:c02::98/125
+  ipv4:
+    - 13.70.72.216/29
+    - 13.70.78.172/30
+    - 40.79.165.80/29
+    - 40.79.171.228/30
+    - 40.79.173.0/30
+    - 104.210.107.69/32
+  ipv6:
+    - 2603:1010:6:402::98/125
+    - 2603:1010:6:802::98/125
+    - 2603:1010:6:c02::98/125
+  counts:
+    total: 9
+    ipv4: 6
+    ipv6: 3

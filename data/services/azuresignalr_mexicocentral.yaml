@@ -1,0 +1,22 @@
+id: AzureSignalR.MexicoCentral
+name: AzureSignalR.MexicoCentral
+metadata:
+  change_number: 1
+  region: mexicocentral
+  platform: Azure
+  system_service: AzureSignalR
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.155.77.64/26
+    - 2603:1030:702:4::780/122
+  ipv4:
+    - 68.155.77.64/26
+  ipv6:
+    - 2603:1030:702:4::780/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

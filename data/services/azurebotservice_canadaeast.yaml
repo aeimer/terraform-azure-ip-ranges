@@ -1,0 +1,24 @@
+id: AzureBotService.CanadaEast
+name: AzureBotService.CanadaEast
+metadata:
+  change_number: 1
+  region: canadaeast
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.69.108.56/30
+    - 40.89.16.64/30
+    - 2603:1030:1005::20/123
+  ipv4:
+    - 40.69.108.56/30
+    - 40.89.16.64/30
+  ipv6:
+    - 2603:1030:1005::20/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

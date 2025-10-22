@@ -1,0 +1,28 @@
+id: HDInsight.BrazilSoutheast
+name: HDInsight.BrazilSoutheast
+metadata:
+  change_number: 1
+  region: brazilse
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 191.233.10.184/29
+    - 191.233.51.152/29
+    - 2603:1050:403:400::420/124
+  ipv4:
+    - 191.233.10.184/29
+    - 191.233.51.152/29
+  ipv6:
+    - 2603:1050:403:400::420/124
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

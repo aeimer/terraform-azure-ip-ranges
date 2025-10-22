@@ -1,0 +1,30 @@
+id: AzureConnectors.MalaysiaSouth
+name: AzureConnectors.MalaysiaSouth
+metadata:
+  change_number: 1
+  region: malaysiasouth
+  platform: Azure
+  system_service: AzureConnectors
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.17.25.0/26
+    - 20.17.67.0/26
+    - 2603:1040:1503:2::580/122
+    - 2603:1040:1503:400::c0/122
+  ipv4:
+    - 20.17.25.0/26
+    - 20.17.67.0/26
+  ipv6:
+    - 2603:1040:1503:2::580/122
+    - 2603:1040:1503:400::c0/122
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

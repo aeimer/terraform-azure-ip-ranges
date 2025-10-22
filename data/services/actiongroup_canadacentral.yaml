@@ -1,0 +1,28 @@
+id: ActionGroup.CanadaCentral
+name: ActionGroup.CanadaCentral
+metadata:
+  change_number: 5
+  region: canadacentral
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.206.229.96/30
+    - 20.38.149.132/30
+    - 20.116.43.108/31
+    - 2603:1030:f05:1::120/126
+    - 2603:1030:f05:402::178/125
+  ipv4:
+    - 4.206.229.96/30
+    - 20.38.149.132/30
+    - 20.116.43.108/31
+  ipv6:
+    - 2603:1030:f05:1::120/126
+    - 2603:1030:f05:402::178/125
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

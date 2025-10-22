@@ -1,0 +1,24 @@
+id: AzureMachineLearning.JioIndiaCentral
+name: AzureMachineLearning.JioIndiaCentral
+metadata:
+  change_number: 1
+  region: jioindiacentral
+  platform: Azure
+  system_service: AzureMachineLearning
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.192.225.144/28
+    - 20.192.235.16/28
+    - 2603:1040:1104::240/122
+  ipv4:
+    - 20.192.225.144/28
+    - 20.192.235.16/28
+  ipv6:
+    - 2603:1040:1104::240/122
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

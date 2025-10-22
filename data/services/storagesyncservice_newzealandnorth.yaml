@@ -1,0 +1,24 @@
+id: StorageSyncService.NewZealandNorth
+name: StorageSyncService.NewZealandNorth
+metadata:
+  change_number: 2
+  region: newzealandnorth
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 172.204.177.56/29
+    - 172.204.242.200/29
+    - 2603:1010:502:400::180/123
+  ipv4:
+    - 172.204.177.56/29
+    - 172.204.242.200/29
+  ipv6:
+    - 2603:1010:502:400::180/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

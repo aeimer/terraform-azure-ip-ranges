@@ -1,0 +1,28 @@
+id: AzurePortal.NorwayEast
+name: AzurePortal.NorwayEast
+metadata:
+  change_number: 1
+  region: norwaye
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.120.41.160/27
+    - 51.120.42.60/30
+    - 51.120.232.16/29
+    - 2603:1020:e04::100/121
+    - 2603:1020:e04:1::680/121
+  ipv4:
+    - 51.120.41.160/27
+    - 51.120.42.60/30
+    - 51.120.232.16/29
+  ipv6:
+    - 2603:1020:e04::100/121
+    - 2603:1020:e04:1::680/121
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

@@ -1,0 +1,20 @@
+id: SCCservice.EastUSSTG
+name: SCCservice.EastUSSTG
+metadata:
+  change_number: 1
+  region: usstagee
+  platform: Azure
+  system_service: SCCservice
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.67.60.168/29
+  ipv4:
+    - 40.67.60.168/29
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

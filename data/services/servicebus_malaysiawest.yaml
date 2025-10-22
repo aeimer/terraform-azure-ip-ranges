@@ -1,0 +1,36 @@
+id: ServiceBus.MalaysiaWest
+name: ServiceBus.MalaysiaWest
+metadata:
+  change_number: 1
+  region: malaysiawest
+  platform: Azure
+  system_service: AzureServiceBus
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.17.118.0/25
+    - 20.17.130.16/29
+    - 20.17.130.32/28
+    - 20.17.168.16/29
+    - 20.17.168.32/28
+    - 20.17.184.16/29
+    - 20.17.184.32/28
+    - 2603:1040:1602::780/121
+  ipv4:
+    - 20.17.118.0/25
+    - 20.17.130.16/29
+    - 20.17.130.32/28
+    - 20.17.168.16/29
+    - 20.17.168.32/28
+    - 20.17.184.16/29
+    - 20.17.184.32/28
+  ipv6:
+    - 2603:1040:1602::780/121
+  counts:
+    total: 8
+    ipv4: 7
+    ipv6: 1

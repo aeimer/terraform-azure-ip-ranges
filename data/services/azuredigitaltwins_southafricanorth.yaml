@@ -1,0 +1,22 @@
+id: AzureDigitalTwins.SouthAfricaNorth
+name: AzureDigitalTwins.SouthAfricaNorth
+metadata:
+  change_number: 1
+  region: southafricanorth
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 102.133.221.16/29
+    - 102.133.221.32/27
+  ipv4:
+    - 102.133.221.16/29
+    - 102.133.221.32/27
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

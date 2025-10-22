@@ -1,0 +1,38 @@
+id: PowerPlatformPlex.GermanyWestCentral
+name: PowerPlatformPlex.GermanyWestCentral
+metadata:
+  change_number: 5
+  region: germanywc
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.182.42.232/29
+    - 20.52.95.84/30
+    - 20.52.95.216/30
+    - 20.79.108.100/30
+    - 20.79.108.104/30
+    - 98.67.183.168/29
+    - 98.67.183.176/29
+    - 135.220.124.0/25
+    - 2603:1061:2004:4900::/57
+  ipv4:
+    - 4.182.42.232/29
+    - 20.52.95.84/30
+    - 20.52.95.216/30
+    - 20.79.108.100/30
+    - 20.79.108.104/30
+    - 98.67.183.168/29
+    - 98.67.183.176/29
+    - 135.220.124.0/25
+  ipv6:
+    - 2603:1061:2004:4900::/57
+  counts:
+    total: 9
+    ipv4: 8
+    ipv6: 1

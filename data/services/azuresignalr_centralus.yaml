@@ -1,0 +1,34 @@
+id: AzureSignalR.CentralUS
+name: AzureSignalR.CentralUS
+metadata:
+  change_number: 5
+  region: centralus
+  platform: Azure
+  system_service: AzureSignalR
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.89.175.128/26
+    - 20.40.229.0/27
+    - 20.44.10.128/26
+    - 52.182.141.64/26
+    - 135.233.94.160/27
+    - 135.233.94.192/26
+    - 172.212.135.0/26
+    - 2603:1030:10:4::/120
+  ipv4:
+    - 13.89.175.128/26
+    - 20.40.229.0/27
+    - 20.44.10.128/26
+    - 52.182.141.64/26
+    - 135.233.94.160/27
+    - 135.233.94.192/26
+    - 172.212.135.0/26
+  ipv6:
+    - 2603:1030:10:4::/120
+  counts:
+    total: 8
+    ipv4: 7
+    ipv6: 1

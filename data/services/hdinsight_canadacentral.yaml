@@ -1,0 +1,32 @@
+id: HDInsight.CanadaCentral
+name: HDInsight.CanadaCentral
+metadata:
+  change_number: 3
+  region: canadacentral
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.71.172.240/29
+    - 20.48.192.24/29
+    - 52.228.37.66/32
+    - 52.228.45.222/32
+    - 2603:1030:f05:402::320/124
+  ipv4:
+    - 13.71.172.240/29
+    - 20.48.192.24/29
+    - 52.228.37.66/32
+    - 52.228.45.222/32
+  ipv6:
+    - 2603:1030:f05:402::320/124
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

@@ -1,0 +1,26 @@
+id: AzureResourceManager.BrazilSoutheast
+name: AzureResourceManager.BrazilSoutheast
+metadata:
+  change_number: 1
+  region: brazilse
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.195.144.0/23
+    - 191.233.52.0/23
+    - 2603:1050:403:1::40/122
+    - 2603:1050:403:400::440/122
+  ipv4:
+    - 20.195.144.0/23
+    - 191.233.52.0/23
+  ipv6:
+    - 2603:1050:403:1::40/122
+    - 2603:1050:403:400::440/122
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

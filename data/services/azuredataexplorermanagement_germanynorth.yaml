@@ -1,0 +1,26 @@
+id: AzureDataExplorerManagement.GermanyNorth
+name: AzureDataExplorerManagement.GermanyNorth
+metadata:
+  change_number: 3
+  region: germanyn
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.113.254.32/28
+    - 51.116.59.160/28
+    - 2603:1020:d04:1::380/121
+    - 2603:1020:d04:402::150/124
+  ipv4:
+    - 20.113.254.32/28
+    - 51.116.59.160/28
+  ipv6:
+    - 2603:1020:d04:1::380/121
+    - 2603:1020:d04:402::150/124
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

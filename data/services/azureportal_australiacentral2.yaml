@@ -1,0 +1,26 @@
+id: AzurePortal.AustraliaCentral2
+name: AzurePortal.AustraliaCentral2
+metadata:
+  change_number: 1
+  region: australiacentral2
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.36.121.128/27
+    - 20.36.122.56/30
+    - 20.36.125.104/29
+    - 2603:1010:404::700/121
+  ipv4:
+    - 20.36.121.128/27
+    - 20.36.122.56/30
+    - 20.36.125.104/29
+  ipv6:
+    - 2603:1010:404::700/121
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

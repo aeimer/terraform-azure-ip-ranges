@@ -1,0 +1,25 @@
+id: AppServiceManagement.TaiwanNorthwest
+name: AppServiceManagement.TaiwanNorthwest
+metadata:
+  change_number: 2
+  region: taiwannorthwest
+  platform: Azure
+  system_service: AzureAppServiceManagement
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.53.139.0/26
+    - 167.105.228.0/29
+    - 2603:1040:1202:2::6a0/123
+  ipv4:
+    - 51.53.139.0/26
+    - 167.105.228.0/29
+  ipv6:
+    - 2603:1040:1202:2::6a0/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

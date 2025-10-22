@@ -1,0 +1,24 @@
+id: PowerPlatformPlex.IndonesiaCentral
+name: PowerPlatformPlex.IndonesiaCentral
+metadata:
+  change_number: 2
+  region: indonesiacentral
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 70.153.66.0/26
+    - 2603:1061:2004:c000::/57
+  ipv4:
+    - 70.153.66.0/26
+  ipv6:
+    - 2603:1061:2004:c000::/57
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

@@ -1,0 +1,20 @@
+id: AzureSignalR.GermanyNorth
+name: AzureSignalR.GermanyNorth
+metadata:
+  change_number: 1
+  region: germanyn
+  platform: Azure
+  system_service: AzureSignalR
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 2603:1020:d04:1::700/120
+  ipv4: []
+  ipv6:
+    - 2603:1020:d04:1::700/120
+  counts:
+    total: 1
+    ipv4: 0
+    ipv6: 1

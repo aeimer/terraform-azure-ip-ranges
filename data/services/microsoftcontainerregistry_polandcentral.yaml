@@ -1,0 +1,34 @@
+id: MicrosoftContainerRegistry.PolandCentral
+name: MicrosoftContainerRegistry.PolandCentral
+metadata:
+  change_number: 1
+  region: polandcentral
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.215.18.64/29
+    - 20.215.26.64/29
+    - 20.215.154.64/29
+    - 2603:1020:1302:400::40/125
+    - 2603:1020:1302:800::40/125
+    - 2603:1020:1302:c00::40/125
+  ipv4:
+    - 20.215.18.64/29
+    - 20.215.26.64/29
+    - 20.215.154.64/29
+  ipv6:
+    - 2603:1020:1302:400::40/125
+    - 2603:1020:1302:800::40/125
+    - 2603:1020:1302:c00::40/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

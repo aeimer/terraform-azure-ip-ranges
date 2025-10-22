@@ -1,0 +1,30 @@
+id: AzureArcInfrastructure.QatarCentral
+name: AzureArcInfrastructure.QatarCentral
+metadata:
+  change_number: 3
+  region: qatarcentral
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.171.27.116/31
+    - 4.171.27.176/29
+    - 20.21.46.136/31
+    - 20.21.69.176/31
+    - 20.21.77.184/31
+    - 2603:1040:1002:5::420/124
+  ipv4:
+    - 4.171.27.116/31
+    - 4.171.27.176/29
+    - 20.21.46.136/31
+    - 20.21.69.176/31
+    - 20.21.77.184/31
+  ipv6:
+    - 2603:1040:1002:5::420/124
+  counts:
+    total: 6
+    ipv4: 5
+    ipv6: 1

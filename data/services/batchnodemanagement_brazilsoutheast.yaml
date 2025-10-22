@@ -1,0 +1,24 @@
+id: BatchNodeManagement.BrazilSoutheast
+name: BatchNodeManagement.BrazilSoutheast
+metadata:
+  change_number: 1
+  region: brazilse
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 191.233.10.0/27
+    - 2603:1050:403::340/122
+  ipv4:
+    - 191.233.10.0/27
+  ipv6:
+    - 2603:1050:403::340/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

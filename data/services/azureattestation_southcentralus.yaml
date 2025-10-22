@@ -1,0 +1,22 @@
+id: AzureAttestation.SouthCentralUS
+name: AzureAttestation.SouthCentralUS
+metadata:
+  change_number: 2
+  region: southcentralus
+  platform: Azure
+  system_service: AzureAttestation
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.45.126.116/30
+    - 20.65.130.92/30
+  ipv4:
+    - 20.45.126.116/30
+    - 20.65.130.92/30
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

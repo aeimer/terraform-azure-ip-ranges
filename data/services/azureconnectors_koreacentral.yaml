@@ -1,0 +1,46 @@
+id: AzureConnectors.KoreaCentral
+name: AzureConnectors.KoreaCentral
+metadata:
+  change_number: 6
+  region: koreacentral
+  platform: Azure
+  system_service: AzureConnectors
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.44.29.64/27
+    - 20.194.40.106/32
+    - 20.196.249.60/32
+    - 20.196.249.145/32
+    - 20.196.250.135/32
+    - 20.200.194.160/27
+    - 20.200.194.192/28
+    - 20.200.204.248/32
+    - 52.141.1.104/32
+    - 52.141.36.214/32
+    - 52.231.18.208/28
+    - 2603:1040:f05:402::180/122
+  ipv4:
+    - 20.44.29.64/27
+    - 20.194.40.106/32
+    - 20.196.249.60/32
+    - 20.196.249.145/32
+    - 20.196.250.135/32
+    - 20.200.194.160/27
+    - 20.200.194.192/28
+    - 20.200.204.248/32
+    - 52.141.1.104/32
+    - 52.141.36.214/32
+    - 52.231.18.208/28
+  ipv6:
+    - 2603:1040:f05:402::180/122
+  counts:
+    total: 12
+    ipv4: 11
+    ipv6: 1

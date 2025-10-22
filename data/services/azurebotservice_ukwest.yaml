@@ -1,0 +1,24 @@
+id: AzureBotService.UKWest
+name: AzureBotService.UKWest
+metadata:
+  change_number: 2
+  region: ukwest
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.137.160.64/30
+    - 51.140.212.72/30
+    - 2603:1020:605::20/123
+  ipv4:
+    - 51.137.160.64/30
+    - 51.140.212.72/30
+  ipv6:
+    - 2603:1020:605::20/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

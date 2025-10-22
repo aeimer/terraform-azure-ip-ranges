@@ -1,0 +1,36 @@
+id: AzureMachineLearning.CanadaCentral
+name: AzureMachineLearning.CanadaCentral
+metadata:
+  change_number: 2
+  region: canadacentral
+  platform: Azure
+  system_service: AzureMachineLearning
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.71.170.192/28
+    - 13.71.173.80/28
+    - 20.38.147.128/28
+    - 20.48.197.240/28
+    - 40.82.187.230/32
+    - 52.139.3.33/32
+    - 52.228.80.80/28
+    - 52.246.155.128/28
+    - 2603:1030:f05:1::2c0/122
+  ipv4:
+    - 13.71.170.192/28
+    - 13.71.173.80/28
+    - 20.38.147.128/28
+    - 20.48.197.240/28
+    - 40.82.187.230/32
+    - 52.139.3.33/32
+    - 52.228.80.80/28
+    - 52.246.155.128/28
+  ipv6:
+    - 2603:1030:f05:1::2c0/122
+  counts:
+    total: 9
+    ipv4: 8
+    ipv6: 1

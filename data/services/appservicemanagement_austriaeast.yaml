@@ -1,0 +1,25 @@
+id: AppServiceManagement.AustriaEast
+name: AppServiceManagement.AustriaEast
+metadata:
+  change_number: 2
+  region: austriaeast
+  platform: Azure
+  system_service: AzureAppServiceManagement
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.210.1.0/29
+    - 68.210.172.192/26
+    - 2603:1020:104:6::c0/122
+  ipv4:
+    - 68.210.1.0/29
+    - 68.210.172.192/26
+  ipv6:
+    - 2603:1020:104:6::c0/122
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

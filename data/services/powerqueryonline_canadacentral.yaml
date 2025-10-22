@@ -1,0 +1,40 @@
+id: PowerQueryOnline.CanadaCentral
+name: PowerQueryOnline.CanadaCentral
+metadata:
+  change_number: 6
+  region: canadacentral
+  platform: Azure
+  system_service: PowerQueryOnline
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.172.221.136/29
+    - 4.172.221.144/28
+    - 13.71.178.96/31
+    - 20.116.43.120/29
+    - 20.151.32.154/31
+    - 52.228.80.70/31
+    - 52.246.158.184/31
+    - 2603:1030:f05:1::200/123
+    - 2603:1030:f05:402::160/125
+    - 2603:1030:f05:802::140/125
+    - 2603:1030:f05:c00::20/125
+  ipv4:
+    - 4.172.221.136/29
+    - 4.172.221.144/28
+    - 13.71.178.96/31
+    - 20.116.43.120/29
+    - 20.151.32.154/31
+    - 52.228.80.70/31
+    - 52.246.158.184/31
+  ipv6:
+    - 2603:1030:f05:1::200/123
+    - 2603:1030:f05:402::160/125
+    - 2603:1030:f05:802::140/125
+    - 2603:1030:f05:c00::20/125
+  counts:
+    total: 11
+    ipv4: 7
+    ipv6: 4

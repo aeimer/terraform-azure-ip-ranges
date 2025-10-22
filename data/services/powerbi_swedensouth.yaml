@@ -1,0 +1,40 @@
+id: PowerBI.SwedenSouth
+name: PowerBI.SwedenSouth
+metadata:
+  change_number: 1
+  region: swedensouth
+  platform: Azure
+  system_service: PowerBI
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.91.96.80/28
+    - 51.12.17.16/30
+    - 51.12.17.24/29
+    - 51.12.17.246/31
+    - 51.12.22.168/30
+    - 51.12.22.200/30
+    - 51.12.198.210/31
+    - 2603:1020:1104::6a0/123
+    - 2603:1020:1104::6c0/122
+  ipv4:
+    - 20.91.96.80/28
+    - 51.12.17.16/30
+    - 51.12.17.24/29
+    - 51.12.17.246/31
+    - 51.12.22.168/30
+    - 51.12.22.200/30
+    - 51.12.198.210/31
+  ipv6:
+    - 2603:1020:1104::6a0/123
+    - 2603:1020:1104::6c0/122
+  counts:
+    total: 9
+    ipv4: 7
+    ipv6: 2

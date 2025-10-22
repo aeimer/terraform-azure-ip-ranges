@@ -1,0 +1,23 @@
+id: GatewayManager.SpainCentral
+name: GatewayManager.SpainCentral
+metadata:
+  change_number: 1
+  region: spaincentral
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.221.80.64/26
+    - 2603:1020:1403::40/122
+  ipv4:
+    - 68.221.80.64/26
+  ipv6:
+    - 2603:1020:1403::40/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

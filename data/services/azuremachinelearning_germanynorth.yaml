@@ -1,0 +1,24 @@
+id: AzureMachineLearning.GermanyNorth
+name: AzureMachineLearning.GermanyNorth
+metadata:
+  change_number: 1
+  region: germanyn
+  platform: Azure
+  system_service: AzureMachineLearning
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.116.49.176/28
+    - 51.116.59.48/28
+    - 2603:1020:d04::300/122
+  ipv4:
+    - 51.116.49.176/28
+    - 51.116.59.48/28
+  ipv6:
+    - 2603:1020:d04::300/122
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

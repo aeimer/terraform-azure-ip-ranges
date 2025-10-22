@@ -1,0 +1,30 @@
+id: ApiManagement.SwedenCentral
+name: ApiManagement.SwedenCentral
+metadata:
+  change_number: 1
+  region: swedencentral
+  platform: Azure
+  system_service: AzureApiManagement
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.12.25.16/28
+    - 51.12.98.224/28
+    - 2603:1020:1004:1::700/124
+    - 2603:1020:1004:800::c0/124
+  ipv4:
+    - 51.12.25.16/28
+    - 51.12.98.224/28
+  ipv6:
+    - 2603:1020:1004:1::700/124
+    - 2603:1020:1004:800::c0/124
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

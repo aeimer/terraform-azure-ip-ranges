@@ -1,0 +1,34 @@
+id: AzureBackup.WestUS
+name: AzureBackup.WestUS
+metadata:
+  change_number: 4
+  region: westus
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.86.218.0/25
+    - 13.86.218.128/26
+    - 20.66.4.0/25
+    - 20.66.4.128/26
+    - 20.168.163.0/26
+    - 2603:1030:a07:4::300/121
+    - 2603:1030:a07:402::180/121
+    - 2603:1030:a07:c00::100/121
+  ipv4:
+    - 13.86.218.0/25
+    - 13.86.218.128/26
+    - 20.66.4.0/25
+    - 20.66.4.128/26
+    - 20.168.163.0/26
+  ipv6:
+    - 2603:1030:a07:4::300/121
+    - 2603:1030:a07:402::180/121
+    - 2603:1030:a07:c00::100/121
+  counts:
+    total: 8
+    ipv4: 5
+    ipv6: 3

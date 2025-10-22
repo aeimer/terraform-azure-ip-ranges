@@ -1,0 +1,22 @@
+id: AzureBotService.SpainCentral
+name: AzureBotService.SpainCentral
+metadata:
+  change_number: 1
+  region: spaincentral
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.221.80.16/30
+    - 2603:1020:1403::20/123
+  ipv4:
+    - 68.221.80.16/30
+  ipv6:
+    - 2603:1020:1403::20/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

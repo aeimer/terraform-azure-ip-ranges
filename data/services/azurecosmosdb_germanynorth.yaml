@@ -1,0 +1,42 @@
+id: AzureCosmosDB.GermanyNorth
+name: AzureCosmosDB.GermanyNorth
+metadata:
+  change_number: 8
+  region: germanyn
+  platform: Azure
+  system_service: AzureCosmosDB
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.113.248.192/26
+    - 20.113.250.64/26
+    - 20.113.250.128/25
+    - 51.116.1.247/32
+    - 51.116.4.11/32
+    - 51.116.4.76/32
+    - 51.116.50.224/27
+    - 51.116.58.64/26
+    - 2603:1020:d04:2::420/123
+    - 2603:1020:d04:402::c0/122
+  ipv4:
+    - 20.113.248.192/26
+    - 20.113.250.64/26
+    - 20.113.250.128/25
+    - 51.116.1.247/32
+    - 51.116.4.11/32
+    - 51.116.4.76/32
+    - 51.116.50.224/27
+    - 51.116.58.64/26
+  ipv6:
+    - 2603:1020:d04:2::420/123
+    - 2603:1020:d04:402::c0/122
+  counts:
+    total: 10
+    ipv4: 8
+    ipv6: 2

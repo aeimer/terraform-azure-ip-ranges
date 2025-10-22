@@ -1,0 +1,22 @@
+id: WindowsVirtualDesktop.KoreaSouth
+name: WindowsVirtualDesktop.KoreaSouth
+metadata:
+  change_number: 5
+  region: koreasouth
+  platform: Azure
+  system_service: WindowsVirtualDesktop
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.64.147.16/28
+    - 2603:1061:2010:10::/117
+  ipv4:
+    - 40.64.147.16/28
+  ipv6:
+    - 2603:1061:2010:10::/117
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

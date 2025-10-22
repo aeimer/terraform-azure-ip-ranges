@@ -1,0 +1,28 @@
+id: AzureDataExplorerManagement.CanadaCentral
+name: AzureDataExplorerManagement.CanadaCentral
+metadata:
+  change_number: 3
+  region: canadacentral
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.174.144.144/28
+    - 13.71.173.64/28
+    - 40.82.188.208/32
+    - 2603:1030:f05::600/121
+    - 2603:1030:f05:402::150/124
+  ipv4:
+    - 4.174.144.144/28
+    - 13.71.173.64/28
+    - 40.82.188.208/32
+  ipv6:
+    - 2603:1030:f05::600/121
+    - 2603:1030:f05:402::150/124
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

@@ -1,0 +1,26 @@
+id: AzureArcInfrastructure.NewZealandNorth
+name: AzureArcInfrastructure.NewZealandNorth
+metadata:
+  change_number: 2
+  region: newzealandnorth
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 172.204.165.72/30
+    - 172.204.177.160/32
+    - 172.204.248.104/32
+    - 2603:1010:502:2::130/124
+  ipv4:
+    - 172.204.165.72/30
+    - 172.204.177.160/32
+    - 172.204.248.104/32
+  ipv6:
+    - 2603:1010:502:2::130/124
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

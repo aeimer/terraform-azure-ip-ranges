@@ -1,0 +1,26 @@
+id: AzureArcInfrastructure.BrazilSoutheast
+name: AzureArcInfrastructure.BrazilSoutheast
+metadata:
+  change_number: 2
+  region: brazilse
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.206.6.188/30
+    - 108.140.1.96/29
+    - 108.140.1.104/31
+    - 191.237.224.230/32
+  ipv4:
+    - 20.206.6.188/30
+    - 108.140.1.96/29
+    - 108.140.1.104/31
+    - 191.237.224.230/32
+  ipv6: []
+  counts:
+    total: 4
+    ipv4: 4
+    ipv6: 0

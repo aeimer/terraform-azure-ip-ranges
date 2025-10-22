@@ -1,0 +1,24 @@
+id: SCCservice.NorthEurope
+name: SCCservice.NorthEurope
+metadata:
+  change_number: 2
+  region: northeurope
+  platform: Azure
+  system_service: SCCservice
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.69.233.48/29
+    - 74.178.86.160/27
+    - 2603:1020:5:12::640/123
+  ipv4:
+    - 13.69.233.48/29
+    - 74.178.86.160/27
+  ipv6:
+    - 2603:1020:5:12::640/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

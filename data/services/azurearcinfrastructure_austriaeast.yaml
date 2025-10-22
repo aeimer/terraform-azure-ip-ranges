@@ -1,0 +1,26 @@
+id: AzureArcInfrastructure.AustriaEast
+name: AzureArcInfrastructure.AustriaEast
+metadata:
+  change_number: 2
+  region: austriaeast
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.210.29.64/32
+    - 68.210.152.56/32
+    - 68.210.172.144/30
+    - 2603:1020:104:6::80/124
+  ipv4:
+    - 68.210.29.64/32
+    - 68.210.152.56/32
+    - 68.210.172.144/30
+  ipv6:
+    - 2603:1020:104:6::80/124
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

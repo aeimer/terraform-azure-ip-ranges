@@ -1,0 +1,22 @@
+id: AzureMachineLearning.BelgiumCentral
+name: AzureMachineLearning.BelgiumCentral
+metadata:
+  change_number: 1
+  region: belgiumcentral
+  platform: Azure
+  system_service: AzureMachineLearning
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 9.160.41.0/27
+    - 2603:1020:1502::200/122
+  ipv4:
+    - 9.160.41.0/27
+  ipv6:
+    - 2603:1020:1502::200/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

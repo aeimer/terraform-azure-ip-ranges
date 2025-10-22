@@ -1,0 +1,32 @@
+id: BatchNodeManagement.UKWest
+name: BatchNodeManagement.UKWest
+metadata:
+  change_number: 2
+  region: ukwest
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.137.162.192/27
+    - 51.140.211.128/27
+    - 51.141.8.61/32
+    - 51.141.8.62/32
+    - 51.141.8.64/32
+    - 2603:1020:605::400/122
+  ipv4:
+    - 51.137.162.192/27
+    - 51.140.211.128/27
+    - 51.141.8.61/32
+    - 51.141.8.62/32
+    - 51.141.8.64/32
+  ipv6:
+    - 2603:1020:605::400/122
+  counts:
+    total: 6
+    ipv4: 5
+    ipv6: 1

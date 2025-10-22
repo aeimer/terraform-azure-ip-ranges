@@ -1,0 +1,30 @@
+id: AzureIoTHub.IsraelCentral
+name: AzureIoTHub.IsraelCentral
+metadata:
+  change_number: 1
+  region: israelcentral
+  platform: Azure
+  system_service: AzureIoTHub
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.217.60.96/27
+    - 20.217.75.160/27
+    - 20.217.91.160/27
+    - 2603:1040:1402:400::220/123
+    - 2603:1040:1402:800::e0/123
+    - 2603:1040:1402:c00::e0/123
+  ipv4:
+    - 20.217.60.96/27
+    - 20.217.75.160/27
+    - 20.217.91.160/27
+  ipv6:
+    - 2603:1040:1402:400::220/123
+    - 2603:1040:1402:800::e0/123
+    - 2603:1040:1402:c00::e0/123
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

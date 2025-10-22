@@ -1,0 +1,38 @@
+id: Storage.SouthCentralUS2
+name: Storage.SouthCentralUS2
+metadata:
+  change_number: 2
+  region: southcentralus2
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.33.220.0/24
+    - 20.153.37.0/24
+    - 20.153.100.0/23
+    - 57.150.88.0/23
+    - 57.150.92.0/24
+    - 57.150.240.0/23
+    - 135.130.88.0/22
+    - 2603:1030:1103::/48
+  ipv4:
+    - 20.33.220.0/24
+    - 20.153.37.0/24
+    - 20.153.100.0/23
+    - 57.150.88.0/23
+    - 57.150.92.0/24
+    - 57.150.240.0/23
+    - 135.130.88.0/22
+  ipv6:
+    - 2603:1030:1103::/48
+  counts:
+    total: 8
+    ipv4: 7
+    ipv6: 1

@@ -1,0 +1,36 @@
+id: ServiceFabric.EastAsia
+name: ServiceFabric.EastAsia
+metadata:
+  change_number: 3
+  region: eastasia
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.75.36.80/29
+    - 13.75.41.166/32
+    - 13.75.42.35/32
+    - 20.205.74.72/30
+    - 20.205.82.72/30
+    - 104.214.165.68/30
+    - 2603:1040:207:402::98/125
+    - 2603:1040:207:800::50/125
+    - 2603:1040:207:c00::50/125
+  ipv4:
+    - 13.75.36.80/29
+    - 13.75.41.166/32
+    - 13.75.42.35/32
+    - 20.205.74.72/30
+    - 20.205.82.72/30
+    - 104.214.165.68/30
+  ipv6:
+    - 2603:1040:207:402::98/125
+    - 2603:1040:207:800::50/125
+    - 2603:1040:207:c00::50/125
+  counts:
+    total: 9
+    ipv4: 6
+    ipv6: 3

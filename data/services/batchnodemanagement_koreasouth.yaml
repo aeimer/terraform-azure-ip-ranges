@@ -1,0 +1,30 @@
+id: BatchNodeManagement.KoreaSouth
+name: BatchNodeManagement.KoreaSouth
+metadata:
+  change_number: 2
+  region: koreasouth
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.80.170.128/27
+    - 52.231.147.128/27
+    - 52.231.200.112/31
+    - 52.231.200.126/32
+    - 2603:1040:e05:1::6c0/122
+  ipv4:
+    - 40.80.170.128/27
+    - 52.231.147.128/27
+    - 52.231.200.112/31
+    - 52.231.200.126/32
+  ipv6:
+    - 2603:1040:e05:1::6c0/122
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

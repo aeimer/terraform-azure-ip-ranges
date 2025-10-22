@@ -1,0 +1,28 @@
+id: HDInsight.JioIndiaCentral
+name: HDInsight.JioIndiaCentral
+metadata:
+  change_number: 1
+  region: jioindiacentral
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.192.48.216/29
+    - 20.192.235.248/29
+    - 2603:1040:1104:1::140/124
+  ipv4:
+    - 20.192.48.216/29
+    - 20.192.235.248/29
+  ipv6:
+    - 2603:1040:1104:1::140/124
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

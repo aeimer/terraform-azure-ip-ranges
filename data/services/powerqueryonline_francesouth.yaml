@@ -1,0 +1,24 @@
+id: PowerQueryOnline.FranceSouth
+name: PowerQueryOnline.FranceSouth
+metadata:
+  change_number: 4
+  region: southfrance
+  platform: Azure
+  system_service: PowerQueryOnline
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.80.96.40/29
+    - 51.105.88.120/31
+    - 2603:1020:905::200/123
+  ipv4:
+    - 40.80.96.40/29
+    - 51.105.88.120/31
+  ipv6:
+    - 2603:1020:905::200/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

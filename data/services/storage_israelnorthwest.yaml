@@ -1,0 +1,34 @@
+id: Storage.IsraelNorthwest
+name: Storage.IsraelNorthwest
+metadata:
+  change_number: 1
+  region: israelnorthwest
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.153.14.0/24
+    - 20.153.44.0/24
+    - 57.150.177.0/24
+    - 57.150.180.0/23
+    - 135.130.56.0/23
+    - 2603:1040:1703::/48
+  ipv4:
+    - 20.153.14.0/24
+    - 20.153.44.0/24
+    - 57.150.177.0/24
+    - 57.150.180.0/23
+    - 135.130.56.0/23
+  ipv6:
+    - 2603:1040:1703::/48
+  counts:
+    total: 6
+    ipv4: 5
+    ipv6: 1

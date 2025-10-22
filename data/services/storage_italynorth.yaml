@@ -1,0 +1,42 @@
+id: Storage.ItalyNorth
+name: Storage.ItalyNorth
+metadata:
+  change_number: 4
+  region: italynorth
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.33.128.0/24
+    - 20.33.221.0/24
+    - 20.157.237.0/24
+    - 20.157.255.0/24
+    - 20.209.80.0/23
+    - 20.209.86.0/23
+    - 20.209.120.0/23
+    - 57.150.36.0/23
+    - 135.130.84.0/23
+    - 2603:1020:1201::/48
+  ipv4:
+    - 20.33.128.0/24
+    - 20.33.221.0/24
+    - 20.157.237.0/24
+    - 20.157.255.0/24
+    - 20.209.80.0/23
+    - 20.209.86.0/23
+    - 20.209.120.0/23
+    - 57.150.36.0/23
+    - 135.130.84.0/23
+  ipv6:
+    - 2603:1020:1201::/48
+  counts:
+    total: 10
+    ipv4: 9
+    ipv6: 1

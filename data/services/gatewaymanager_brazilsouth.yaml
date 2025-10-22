@@ -1,0 +1,31 @@
+id: GatewayManager.BrazilSouth
+name: GatewayManager.BrazilSouth
+metadata:
+  change_number: 4
+  region: brazilsouth
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 191.233.203.208/29
+    - 191.233.245.75/32
+    - 191.233.245.118/32
+    - 191.235.224.72/29
+    - 191.238.78.96/27
+    - 2603:1050:6:1::40/122
+  ipv4:
+    - 191.233.203.208/29
+    - 191.233.245.75/32
+    - 191.233.245.118/32
+    - 191.235.224.72/29
+    - 191.238.78.96/27
+  ipv6:
+    - 2603:1050:6:1::40/122
+  counts:
+    total: 6
+    ipv4: 5
+    ipv6: 1

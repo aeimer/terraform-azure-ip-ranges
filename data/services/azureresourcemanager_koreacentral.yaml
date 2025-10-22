@@ -1,0 +1,32 @@
+id: AzureResourceManager.KoreaCentral
+name: AzureResourceManager.KoreaCentral
+metadata:
+  change_number: 4
+  region: koreacentral
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.41.70.0/23
+    - 20.44.30.0/24
+    - 52.231.19.208/28
+    - 52.231.22.0/24
+    - 2603:1040:f05::180/122
+    - 2603:1040:f05:2::100/120
+    - 2603:1040:f05:402::280/122
+  ipv4:
+    - 20.41.70.0/23
+    - 20.44.30.0/24
+    - 52.231.19.208/28
+    - 52.231.22.0/24
+  ipv6:
+    - 2603:1040:f05::180/122
+    - 2603:1040:f05:2::100/120
+    - 2603:1040:f05:402::280/122
+  counts:
+    total: 7
+    ipv4: 4
+    ipv6: 3

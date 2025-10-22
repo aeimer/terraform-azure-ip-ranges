@@ -1,0 +1,32 @@
+id: ActionGroup.CentralIndia
+name: ActionGroup.CentralIndia
+metadata:
+  change_number: 6
+  region: centralindia
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.43.121.124/30
+    - 20.204.192.216/31
+    - 20.204.199.124/30
+    - 20.244.66.175/32
+    - 20.244.67.158/32
+    - 2603:1040:a06:1::128/126
+    - 2603:1040:a06:402::178/125
+  ipv4:
+    - 20.43.121.124/30
+    - 20.204.192.216/31
+    - 20.204.199.124/30
+    - 20.244.66.175/32
+    - 20.244.67.158/32
+  ipv6:
+    - 2603:1040:a06:1::128/126
+    - 2603:1040:a06:402::178/125
+  counts:
+    total: 7
+    ipv4: 5
+    ipv6: 2

@@ -1,0 +1,36 @@
+id: DataFactory.NorwayWest
+name: DataFactory.NorwayWest
+metadata:
+  change_number: 2
+  region: norwayw
+  platform: Azure
+  system_service: DataFactory
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.220.136.0/24
+    - 51.13.128.0/28
+    - 51.120.228.224/27
+    - 51.120.229.64/26
+    - 51.120.229.128/25
+    - 2603:1020:f04::440/122
+    - 2603:1020:f04::500/121
+    - 2603:1020:f04:402::330/124
+  ipv4:
+    - 4.220.136.0/24
+    - 51.13.128.0/28
+    - 51.120.228.224/27
+    - 51.120.229.64/26
+    - 51.120.229.128/25
+  ipv6:
+    - 2603:1020:f04::440/122
+    - 2603:1020:f04::500/121
+    - 2603:1020:f04:402::330/124
+  counts:
+    total: 8
+    ipv4: 5
+    ipv6: 3

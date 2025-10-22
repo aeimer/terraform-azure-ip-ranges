@@ -1,0 +1,36 @@
+id: MicrosoftContainerRegistry.SwedenCentral
+name: MicrosoftContainerRegistry.SwedenCentral
+metadata:
+  change_number: 2
+  region: swedencentral
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.12.98.16/29
+    - 51.12.226.136/29
+    - 51.12.234.136/29
+    - 2603:1020:1004:400::88/125
+    - 2603:1020:1004:400::3b0/125
+    - 2603:1020:1004:800::148/125
+    - 2603:1020:1004:c02::1a8/125
+  ipv4:
+    - 51.12.98.16/29
+    - 51.12.226.136/29
+    - 51.12.234.136/29
+  ipv6:
+    - 2603:1020:1004:400::88/125
+    - 2603:1020:1004:400::3b0/125
+    - 2603:1020:1004:800::148/125
+    - 2603:1020:1004:c02::1a8/125
+  counts:
+    total: 7
+    ipv4: 3
+    ipv6: 4

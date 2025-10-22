@@ -1,0 +1,34 @@
+id: ServiceFabric.SwedenCentral
+name: ServiceFabric.SwedenCentral
+metadata:
+  change_number: 2
+  region: swedencentral
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.12.99.64/29
+    - 51.12.101.168/30
+    - 51.12.229.28/30
+    - 51.12.237.28/30
+    - 2603:1020:1004:400::98/125
+    - 2603:1020:1004:800::158/125
+    - 2603:1020:1004:800::350/125
+    - 2603:1020:1004:c02::1b8/125
+  ipv4:
+    - 51.12.99.64/29
+    - 51.12.101.168/30
+    - 51.12.229.28/30
+    - 51.12.237.28/30
+  ipv6:
+    - 2603:1020:1004:400::98/125
+    - 2603:1020:1004:800::158/125
+    - 2603:1020:1004:800::350/125
+    - 2603:1020:1004:c02::1b8/125
+  counts:
+    total: 8
+    ipv4: 4
+    ipv6: 4

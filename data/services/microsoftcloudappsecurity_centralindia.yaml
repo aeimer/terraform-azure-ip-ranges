@@ -1,0 +1,32 @@
+id: MicrosoftCloudAppSecurity.CentralIndia
+name: MicrosoftCloudAppSecurity.CentralIndia
+metadata:
+  change_number: 2
+  region: centralindia
+  platform: Azure
+  system_service: MicrosoftCloudAppSecurity
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.213.28.74/31
+    - 4.213.28.76/30
+    - 4.213.28.80/28
+    - 4.213.28.96/29
+    - 4.213.106.240/28
+    - 4.213.107.0/25
+    - 4.213.107.128/29
+  ipv4:
+    - 4.213.28.74/31
+    - 4.213.28.76/30
+    - 4.213.28.80/28
+    - 4.213.28.96/29
+    - 4.213.106.240/28
+    - 4.213.107.0/25
+    - 4.213.107.128/29
+  ipv6: []
+  counts:
+    total: 7
+    ipv4: 7
+    ipv6: 0

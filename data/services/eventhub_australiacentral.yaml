@@ -1,0 +1,34 @@
+id: EventHub.AustraliaCentral
+name: EventHub.AustraliaCentral
+metadata:
+  change_number: 6
+  region: australiacentral
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.36.106.192/27
+    - 20.53.1.128/26
+    - 20.53.51.0/24
+    - 2603:1010:304::240/122
+    - 2603:1010:304:2::/120
+    - 2603:1010:304:402::1c0/123
+  ipv4:
+    - 20.36.106.192/27
+    - 20.53.1.128/26
+    - 20.53.51.0/24
+  ipv6:
+    - 2603:1010:304::240/122
+    - 2603:1010:304:2::/120
+    - 2603:1010:304:402::1c0/123
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

@@ -1,0 +1,26 @@
+id: AzureSignalR.WestIndia
+name: AzureSignalR.WestIndia
+metadata:
+  change_number: 4
+  region: westindia
+  platform: Azure
+  system_service: AzureSignalR
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.38.132.96/27
+    - 52.136.53.224/27
+    - 57.159.128.128/27
+    - 2603:1040:806:2::100/120
+  ipv4:
+    - 20.38.132.96/27
+    - 52.136.53.224/27
+    - 57.159.128.128/27
+  ipv6:
+    - 2603:1040:806:2::100/120
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

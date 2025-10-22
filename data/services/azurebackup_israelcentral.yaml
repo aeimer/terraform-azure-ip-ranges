@@ -1,0 +1,34 @@
+id: AzureBackup.IsraelCentral
+name: AzureBackup.IsraelCentral
+metadata:
+  change_number: 1
+  region: israelcentral
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.217.44.0/26
+    - 20.217.59.64/26
+    - 20.217.75.0/26
+    - 20.217.91.0/26
+    - 2603:1040:1402::680/121
+    - 2603:1040:1402:400::100/121
+    - 2603:1040:1402:800::100/121
+    - 2603:1040:1402:c00::100/121
+  ipv4:
+    - 20.217.44.0/26
+    - 20.217.59.64/26
+    - 20.217.75.0/26
+    - 20.217.91.0/26
+  ipv6:
+    - 2603:1040:1402::680/121
+    - 2603:1040:1402:400::100/121
+    - 2603:1040:1402:800::100/121
+    - 2603:1040:1402:c00::100/121
+  counts:
+    total: 8
+    ipv4: 4
+    ipv6: 4

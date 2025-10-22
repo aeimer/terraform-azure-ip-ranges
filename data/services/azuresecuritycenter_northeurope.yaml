@@ -1,0 +1,36 @@
+id: AzureSecurityCenter.NorthEurope
+name: AzureSecurityCenter.NorthEurope
+metadata:
+  change_number: 4
+  region: northeurope
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.207.250.0/24
+    - 4.207.251.0/26
+    - 13.69.233.64/27
+    - 48.209.132.128/25
+    - 48.209.134.0/23
+    - 132.164.130.32/27
+    - 132.164.130.128/25
+    - 132.164.132.0/23
+    - 132.164.134.0/24
+  ipv4:
+    - 4.207.250.0/24
+    - 4.207.251.0/26
+    - 13.69.233.64/27
+    - 48.209.132.128/25
+    - 48.209.134.0/23
+    - 132.164.130.32/27
+    - 132.164.130.128/25
+    - 132.164.132.0/23
+    - 132.164.134.0/24
+  ipv6: []
+  counts:
+    total: 9
+    ipv4: 9
+    ipv6: 0

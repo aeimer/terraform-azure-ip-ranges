@@ -1,0 +1,36 @@
+id: ServiceFabric.NorthCentralUS
+name: ServiceFabric.NorthCentralUS
+metadata:
+  change_number: 2
+  region: northcentralus
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.125.170.72/30
+    - 20.125.202.72/30
+    - 23.96.200.228/32
+    - 23.96.210.6/32
+    - 23.96.214.100/32
+    - 52.162.107.176/29
+    - 2603:1030:608:402::98/125
+    - 2603:1030:608:800::50/125
+    - 2603:1030:608:c00::50/125
+  ipv4:
+    - 20.125.170.72/30
+    - 20.125.202.72/30
+    - 23.96.200.228/32
+    - 23.96.210.6/32
+    - 23.96.214.100/32
+    - 52.162.107.176/29
+  ipv6:
+    - 2603:1030:608:402::98/125
+    - 2603:1030:608:800::50/125
+    - 2603:1030:608:c00::50/125
+  counts:
+    total: 9
+    ipv4: 6
+    ipv6: 3

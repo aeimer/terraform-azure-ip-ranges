@@ -1,0 +1,26 @@
+id: AzurePortal.GermanyNorth
+name: AzurePortal.GermanyNorth
+metadata:
+  change_number: 2
+  region: germanyn
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.116.48.192/27
+    - 51.116.49.140/30
+    - 51.116.51.160/29
+    - 2603:1020:d04::700/121
+  ipv4:
+    - 51.116.48.192/27
+    - 51.116.49.140/30
+    - 51.116.51.160/29
+  ipv6:
+    - 2603:1020:d04::700/121
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

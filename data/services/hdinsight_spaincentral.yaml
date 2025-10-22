@@ -1,0 +1,26 @@
+id: HDInsight.SpainCentral
+name: HDInsight.SpainCentral
+metadata:
+  change_number: 1
+  region: spaincentral
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.221.87.104/29
+    - 2603:1020:1403:1::2b0/124
+  ipv4:
+    - 68.221.87.104/29
+  ipv6:
+    - 2603:1020:1403:1::2b0/124
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

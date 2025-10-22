@@ -1,0 +1,22 @@
+id: WindowsVirtualDesktop.SouthCentralUS
+name: WindowsVirtualDesktop.SouthCentralUS
+metadata:
+  change_number: 9
+  region: southcentralus
+  platform: Azure
+  system_service: WindowsVirtualDesktop
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.64.144.0/27
+    - 2603:1061:2010:13::/117
+  ipv4:
+    - 40.64.144.0/27
+  ipv6:
+    - 2603:1061:2010:13::/117
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

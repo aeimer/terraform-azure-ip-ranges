@@ -1,0 +1,28 @@
+id: ApiManagement.WestUS3
+name: ApiManagement.WestUS3
+metadata:
+  change_number: 1
+  region: westus3
+  platform: Azure
+  system_service: AzureApiManagement
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.150.167.160/28
+    - 20.150.170.224/28
+    - 2603:1030:504:2::80/124
+  ipv4:
+    - 20.150.167.160/28
+    - 20.150.170.224/28
+  ipv6:
+    - 2603:1030:504:2::80/124
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

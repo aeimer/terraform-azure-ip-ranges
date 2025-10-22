@@ -1,0 +1,34 @@
+id: PowerPlatformPlex.KoreaCentral
+name: PowerPlatformPlex.KoreaCentral
+metadata:
+  change_number: 6
+  region: koreacentral
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.181.26.80/29
+    - 4.218.236.128/28
+    - 20.200.198.200/29
+    - 20.200.199.88/29
+    - 72.155.105.192/26
+    - 72.155.106.0/26
+    - 2603:1061:2004:1800::/57
+  ipv4:
+    - 4.181.26.80/29
+    - 4.218.236.128/28
+    - 20.200.198.200/29
+    - 20.200.199.88/29
+    - 72.155.105.192/26
+    - 72.155.106.0/26
+  ipv6:
+    - 2603:1061:2004:1800::/57
+  counts:
+    total: 7
+    ipv4: 6
+    ipv6: 1

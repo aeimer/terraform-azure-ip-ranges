@@ -1,0 +1,39 @@
+id: AzureMonitor.SouthCentralUSSTG
+name: AzureMonitor.SouthCentralUSSTG
+metadata:
+  change_number: 4
+  region: usstagec
+  platform: Azure
+  system_service: AzureMonitor
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.44.3.48/28
+    - 23.100.208.80/28
+    - 23.100.218.160/27
+    - 23.100.223.32/27
+    - 23.100.223.64/26
+    - 2603:1030:302:1::/122
+    - 2603:1030:302:1::c0/123
+    - 2603:1030:302:1::100/122
+    - 2603:1030:302:402::80/123
+    - 2603:1030:302:402::100/121
+  ipv4:
+    - 20.44.3.48/28
+    - 23.100.208.80/28
+    - 23.100.218.160/27
+    - 23.100.223.32/27
+    - 23.100.223.64/26
+  ipv6:
+    - 2603:1030:302:1::/122
+    - 2603:1030:302:1::c0/123
+    - 2603:1030:302:1::100/122
+    - 2603:1030:302:402::80/123
+    - 2603:1030:302:402::100/121
+  counts:
+    total: 10
+    ipv4: 5
+    ipv6: 5

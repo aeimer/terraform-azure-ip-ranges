@@ -1,0 +1,27 @@
+id: GatewayManager.SouthIndia
+name: GatewayManager.SouthIndia
+metadata:
+  change_number: 4
+  region: southindia
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.41.192.72/29
+    - 20.192.153.224/27
+    - 40.78.194.88/29
+    - 2603:1040:c06::40/122
+  ipv4:
+    - 20.41.192.72/29
+    - 20.192.153.224/27
+    - 40.78.194.88/29
+  ipv6:
+    - 2603:1040:c06::40/122
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

@@ -1,0 +1,30 @@
+id: LogicApps.QatarCentral
+name: LogicApps.QatarCentral
+metadata:
+  change_number: 4
+  region: qatarcentral
+  platform: Azure
+  system_service: LogicApps
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.21.46.80/28
+    - 20.21.46.96/27
+    - 20.21.80.96/27
+    - 20.21.91.0/28
+    - 2603:1040:1002:400::3c0/124
+    - 2603:1040:1002:400::3e0/123
+  ipv4:
+    - 20.21.46.80/28
+    - 20.21.46.96/27
+    - 20.21.80.96/27
+    - 20.21.91.0/28
+  ipv6:
+    - 2603:1040:1002:400::3c0/124
+    - 2603:1040:1002:400::3e0/123
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

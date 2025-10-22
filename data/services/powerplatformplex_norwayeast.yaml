@@ -1,0 +1,40 @@
+id: PowerPlatformPlex.NorwayEast
+name: PowerPlatformPlex.NorwayEast
+metadata:
+  change_number: 6
+  region: norwaye
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.219.249.200/29
+    - 4.219.249.208/29
+    - 20.100.4.136/29
+    - 20.100.4.180/30
+    - 20.100.5.16/30
+    - 20.100.129.0/28
+    - 74.240.192.32/29
+    - 131.163.105.64/26
+    - 131.163.105.128/26
+    - 2603:1061:2004:1000::/57
+  ipv4:
+    - 4.219.249.200/29
+    - 4.219.249.208/29
+    - 20.100.4.136/29
+    - 20.100.4.180/30
+    - 20.100.5.16/30
+    - 20.100.129.0/28
+    - 74.240.192.32/29
+    - 131.163.105.64/26
+    - 131.163.105.128/26
+  ipv6:
+    - 2603:1061:2004:1000::/57
+  counts:
+    total: 10
+    ipv4: 9
+    ipv6: 1

@@ -1,0 +1,24 @@
+id: AzurePortal.AustriaEast
+name: AzurePortal.AustriaEast
+metadata:
+  change_number: 1
+  region: austriaeast
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.210.173.224/27
+    - 68.210.179.88/30
+    - 2603:1020:104:3::280/121
+  ipv4:
+    - 68.210.173.224/27
+    - 68.210.179.88/30
+  ipv6:
+    - 2603:1020:104:3::280/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

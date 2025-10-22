@@ -1,0 +1,24 @@
+id: PowerPlatformPlex.NewZealandNorth
+name: PowerPlatformPlex.NewZealandNorth
+metadata:
+  change_number: 2
+  region: newzealandnorth
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 172.204.242.128/26
+    - 2603:1061:2004:b800::/57
+  ipv4:
+    - 172.204.242.128/26
+  ipv6:
+    - 2603:1061:2004:b800::/57
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

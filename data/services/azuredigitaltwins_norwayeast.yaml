@@ -1,0 +1,24 @@
+id: AzureDigitalTwins.NorwayEast
+name: AzureDigitalTwins.NorwayEast
+metadata:
+  change_number: 2
+  region: norwaye
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.120.232.40/29
+    - 51.120.232.128/27
+    - 2603:1020:e04::700/121
+  ipv4:
+    - 51.120.232.40/29
+    - 51.120.232.128/27
+  ipv6:
+    - 2603:1020:e04::700/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

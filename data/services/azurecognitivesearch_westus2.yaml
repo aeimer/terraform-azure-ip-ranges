@@ -1,0 +1,32 @@
+id: AzureCognitiveSearch.WestUS2
+name: AzureCognitiveSearch.WestUS2
+metadata:
+  change_number: 1
+  region: westus2
+  platform: Azure
+  system_service: AzureCognitiveSearch
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.42.129.192/26
+    - 40.91.93.84/32
+    - 40.91.127.116/32
+    - 40.91.127.241/32
+    - 51.143.104.54/32
+    - 51.143.104.90/32
+    - 2603:1030:c06:1::180/121
+  ipv4:
+    - 20.42.129.192/26
+    - 40.91.93.84/32
+    - 40.91.127.116/32
+    - 40.91.127.241/32
+    - 51.143.104.54/32
+    - 51.143.104.90/32
+  ipv6:
+    - 2603:1030:c06:1::180/121
+  counts:
+    total: 7
+    ipv4: 6
+    ipv6: 1

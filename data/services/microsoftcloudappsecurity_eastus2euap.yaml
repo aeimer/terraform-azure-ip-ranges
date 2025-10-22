@@ -1,0 +1,22 @@
+id: MicrosoftCloudAppSecurity.EastUS2EUAP
+name: MicrosoftCloudAppSecurity.EastUS2EUAP
+metadata:
+  change_number: 1
+  region: eastus2euap
+  platform: Azure
+  system_service: MicrosoftCloudAppSecurity
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 172.173.47.82/31
+    - 172.173.47.88/29
+  ipv4:
+    - 172.173.47.82/31
+    - 172.173.47.88/29
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

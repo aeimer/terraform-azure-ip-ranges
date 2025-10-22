@@ -1,0 +1,26 @@
+id: AzureSignalR.SouthCentralUS
+name: AzureSignalR.SouthCentralUS
+metadata:
+  change_number: 5
+  region: southcentralus
+  platform: Azure
+  system_service: AzureSignalR
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.73.244.64/27
+    - 20.65.132.224/27
+    - 172.215.132.0/25
+    - 2603:1030:807:3::/120
+  ipv4:
+    - 13.73.244.64/27
+    - 20.65.132.224/27
+    - 172.215.132.0/25
+  ipv6:
+    - 2603:1030:807:3::/120
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

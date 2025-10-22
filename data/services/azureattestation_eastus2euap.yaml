@@ -1,0 +1,22 @@
+id: AzureAttestation.EastUS2EUAP
+name: AzureAttestation.EastUS2EUAP
+metadata:
+  change_number: 1
+  region: eastus2euap
+  platform: Azure
+  system_service: AzureAttestation
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.51.20.80/30
+    - 40.89.121.168/30
+  ipv4:
+    - 20.51.20.80/30
+    - 40.89.121.168/30
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

@@ -1,0 +1,24 @@
+id: BatchNodeManagement.NewZealandNorth
+name: BatchNodeManagement.NewZealandNorth
+metadata:
+  change_number: 1
+  region: newzealandnorth
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 172.204.153.64/27
+    - 2603:1010:502::300/122
+  ipv4:
+    - 172.204.153.64/27
+  ipv6:
+    - 2603:1010:502::300/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

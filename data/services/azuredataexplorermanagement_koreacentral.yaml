@@ -1,0 +1,30 @@
+id: AzureDataExplorerManagement.KoreaCentral
+name: AzureDataExplorerManagement.KoreaCentral
+metadata:
+  change_number: 3
+  region: koreacentral
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.44.27.96/28
+    - 20.194.75.224/28
+    - 40.82.154.174/32
+    - 40.82.156.149/32
+    - 2603:1040:f05::600/121
+    - 2603:1040:f05:402::150/124
+  ipv4:
+    - 20.44.27.96/28
+    - 20.194.75.224/28
+    - 40.82.154.174/32
+    - 40.82.156.149/32
+  ipv6:
+    - 2603:1040:f05::600/121
+    - 2603:1040:f05:402::150/124
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

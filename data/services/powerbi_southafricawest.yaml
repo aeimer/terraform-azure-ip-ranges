@@ -1,0 +1,42 @@
+id: PowerBI.SouthAfricaWest
+name: PowerBI.SouthAfricaWest
+metadata:
+  change_number: 3
+  region: southafricawest
+  platform: Azure
+  system_service: PowerBI
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.117.25.224/28
+    - 102.37.81.140/30
+    - 102.37.85.208/29
+    - 102.133.56.98/31
+    - 102.133.56.100/30
+    - 102.133.56.104/29
+    - 172.209.83.216/29
+    - 172.209.83.224/27
+    - 2603:1000:4::620/123
+    - 2603:1000:4::640/122
+  ipv4:
+    - 40.117.25.224/28
+    - 102.37.81.140/30
+    - 102.37.85.208/29
+    - 102.133.56.98/31
+    - 102.133.56.100/30
+    - 102.133.56.104/29
+    - 172.209.83.216/29
+    - 172.209.83.224/27
+  ipv6:
+    - 2603:1000:4::620/123
+    - 2603:1000:4::640/122
+  counts:
+    total: 10
+    ipv4: 8
+    ipv6: 2

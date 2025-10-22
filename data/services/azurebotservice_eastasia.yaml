@@ -1,0 +1,24 @@
+id: AzureBotService.EastAsia
+name: AzureBotService.EastAsia
+metadata:
+  change_number: 1
+  region: eastasia
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.75.39.72/30
+    - 20.189.104.64/30
+    - 2603:1040:207::20/123
+  ipv4:
+    - 13.75.39.72/30
+    - 20.189.104.64/30
+  ipv6:
+    - 2603:1040:207::20/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

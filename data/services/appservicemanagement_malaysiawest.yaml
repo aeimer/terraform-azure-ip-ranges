@@ -1,0 +1,23 @@
+id: AppServiceManagement.MalaysiaWest
+name: AppServiceManagement.MalaysiaWest
+metadata:
+  change_number: 1
+  region: malaysiawest
+  platform: Azure
+  system_service: AzureAppServiceManagement
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.17.126.0/26
+    - 2603:1040:1602:2::240/122
+  ipv4:
+    - 20.17.126.0/26
+  ipv6:
+    - 2603:1040:1602:2::240/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

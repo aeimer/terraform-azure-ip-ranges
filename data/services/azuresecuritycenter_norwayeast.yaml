@@ -1,0 +1,30 @@
+id: AzureSecurityCenter.NorwayEast
+name: AzureSecurityCenter.NorwayEast
+metadata:
+  change_number: 2
+  region: norwaye
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.235.60.160/27
+    - 4.235.60.192/26
+    - 4.235.61.0/24
+    - 4.235.62.0/23
+    - 51.120.109.64/27
+    - 131.163.8.0/22
+  ipv4:
+    - 4.235.60.160/27
+    - 4.235.60.192/26
+    - 4.235.61.0/24
+    - 4.235.62.0/23
+    - 51.120.109.64/27
+    - 131.163.8.0/22
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

@@ -1,0 +1,30 @@
+id: AzureSecurityCenter.WestIndia
+name: AzureSecurityCenter.WestIndia
+metadata:
+  change_number: 2
+  region: westindia
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.38.132.32/27
+    - 57.159.130.224/27
+    - 57.159.131.128/26
+    - 57.159.132.0/22
+    - 57.159.136.0/23
+    - 57.159.138.0/24
+  ipv4:
+    - 20.38.132.32/27
+    - 57.159.130.224/27
+    - 57.159.131.128/26
+    - 57.159.132.0/22
+    - 57.159.136.0/23
+    - 57.159.138.0/24
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

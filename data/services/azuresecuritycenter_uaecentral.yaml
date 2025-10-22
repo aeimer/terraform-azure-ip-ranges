@@ -1,0 +1,30 @@
+id: AzureSecurityCenter.UAECentral
+name: AzureSecurityCenter.UAECentral
+metadata:
+  change_number: 2
+  region: uaecentral
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.120.8.128/27
+    - 74.243.67.128/26
+    - 74.243.67.192/27
+    - 74.243.68.0/22
+    - 74.243.72.0/23
+    - 74.243.74.0/24
+  ipv4:
+    - 40.120.8.128/27
+    - 74.243.67.128/26
+    - 74.243.67.192/27
+    - 74.243.68.0/22
+    - 74.243.72.0/23
+    - 74.243.74.0/24
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

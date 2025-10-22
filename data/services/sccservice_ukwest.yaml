@@ -1,0 +1,24 @@
+id: SCCservice.UKWest
+name: SCCservice.UKWest
+metadata:
+  change_number: 2
+  region: ukwest
+  platform: Azure
+  system_service: SCCservice
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.140.215.160/29
+    - 172.186.27.0/27
+    - 2603:1020:605:9::640/123
+  ipv4:
+    - 51.140.215.160/29
+    - 172.186.27.0/27
+  ipv6:
+    - 2603:1020:605:9::640/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

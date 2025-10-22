@@ -1,0 +1,24 @@
+id: Sql.NorthCentralUSStage
+name: Sql.NorthCentralUSStage
+metadata:
+  change_number: 1
+  region: northcentralus
+  platform: Azure
+  system_service: AzureSQL
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 168.62.115.112/28
+  ipv4:
+    - 168.62.115.112/28
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

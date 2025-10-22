@@ -1,0 +1,22 @@
+id: AzureDevSpaces.SouthCentralUS
+name: AzureDevSpaces.SouthCentralUS
+metadata:
+  change_number: 1
+  region: southcentralus
+  platform: Azure
+  system_service: AzureDevSpaces
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.73.244.128/28
+    - 40.119.9.240/28
+  ipv4:
+    - 13.73.244.128/28
+    - 40.119.9.240/28
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

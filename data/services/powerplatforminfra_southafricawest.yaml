@@ -1,0 +1,46 @@
+id: PowerPlatformInfra.SouthAfricaWest
+name: PowerPlatformInfra.SouthAfricaWest
+metadata:
+  change_number: 3
+  region: southafricawest
+  platform: Azure
+  system_service: PowerPlatformInfra
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 102.37.80.40/29
+    - 102.37.85.32/27
+    - 102.37.85.64/26
+    - 102.37.85.200/29
+    - 102.133.0.199/32
+    - 102.133.0.212/32
+    - 102.133.1.24/32
+    - 102.133.59.192/26
+    - 102.133.60.0/27
+    - 172.209.12.192/26
+    - 172.209.13.0/25
+    - 2603:1061:2002:2900::/57
+  ipv4:
+    - 102.37.80.40/29
+    - 102.37.85.32/27
+    - 102.37.85.64/26
+    - 102.37.85.200/29
+    - 102.133.0.199/32
+    - 102.133.0.212/32
+    - 102.133.1.24/32
+    - 102.133.59.192/26
+    - 102.133.60.0/27
+    - 172.209.12.192/26
+    - 172.209.13.0/25
+  ipv6:
+    - 2603:1061:2002:2900::/57
+  counts:
+    total: 12
+    ipv4: 11
+    ipv6: 1

@@ -1,0 +1,22 @@
+id: AzureBotService.JioIndiaCentral
+name: AzureBotService.JioIndiaCentral
+metadata:
+  change_number: 1
+  region: jioindiacentral
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.192.224.64/26
+    - 2603:1040:1104::20/123
+  ipv4:
+    - 20.192.224.64/26
+  ipv6:
+    - 2603:1040:1104::20/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

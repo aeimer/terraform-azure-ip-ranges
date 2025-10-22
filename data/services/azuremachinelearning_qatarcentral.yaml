@@ -1,0 +1,28 @@
+id: AzureMachineLearning.QatarCentral
+name: AzureMachineLearning.QatarCentral
+metadata:
+  change_number: 4
+  region: qatarcentral
+  platform: Azure
+  system_service: AzureMachineLearning
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.171.27.64/27
+    - 4.171.27.160/28
+    - 20.21.33.0/27
+    - 20.21.83.64/27
+    - 2603:1040:1002::440/122
+  ipv4:
+    - 4.171.27.64/27
+    - 4.171.27.160/28
+    - 20.21.33.0/27
+    - 20.21.83.64/27
+  ipv6:
+    - 2603:1040:1002::440/122
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

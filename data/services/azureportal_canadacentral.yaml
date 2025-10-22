@@ -1,0 +1,36 @@
+id: AzurePortal.CanadaCentral
+name: AzurePortal.CanadaCentral
+metadata:
+  change_number: 1
+  region: canadacentral
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.71.190.228/32
+    - 20.38.149.208/28
+    - 20.48.193.48/29
+    - 52.228.24.159/32
+    - 52.228.83.160/27
+    - 52.228.84.84/30
+    - 52.228.84.96/28
+    - 2603:1030:f05::100/121
+    - 2603:1030:f05:1::680/121
+  ipv4:
+    - 13.71.190.228/32
+    - 20.38.149.208/28
+    - 20.48.193.48/29
+    - 52.228.24.159/32
+    - 52.228.83.160/27
+    - 52.228.84.84/30
+    - 52.228.84.96/28
+  ipv6:
+    - 2603:1030:f05::100/121
+    - 2603:1030:f05:1::680/121
+  counts:
+    total: 9
+    ipv4: 7
+    ipv6: 2

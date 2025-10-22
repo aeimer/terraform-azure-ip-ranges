@@ -1,0 +1,28 @@
+id: AzureBackup.GermanyNorth
+name: AzureBackup.GermanyNorth
+metadata:
+  change_number: 3
+  region: germanyn
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.116.55.0/26
+    - 51.116.59.64/26
+    - 51.116.59.128/27
+    - 2603:1020:d04:2::700/121
+    - 2603:1020:d04:402::200/121
+  ipv4:
+    - 51.116.55.0/26
+    - 51.116.59.64/26
+    - 51.116.59.128/27
+  ipv6:
+    - 2603:1020:d04:2::700/121
+    - 2603:1020:d04:402::200/121
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

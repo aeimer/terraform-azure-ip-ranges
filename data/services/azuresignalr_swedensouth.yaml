@@ -1,0 +1,26 @@
+id: AzureSignalR.SwedenSouth
+name: AzureSignalR.SwedenSouth
+metadata:
+  change_number: 3
+  region: swedensouth
+  platform: Azure
+  system_service: AzureSignalR
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.12.17.160/27
+    - 51.12.168.0/27
+    - 74.241.0.192/27
+    - 2603:1020:1104:2::/120
+  ipv4:
+    - 51.12.17.160/27
+    - 51.12.168.0/27
+    - 74.241.0.192/27
+  ipv6:
+    - 2603:1020:1104:2::/120
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

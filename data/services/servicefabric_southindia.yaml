@@ -1,0 +1,24 @@
+id: ServiceFabric.SouthIndia
+name: ServiceFabric.SouthIndia
+metadata:
+  change_number: 1
+  region: southindia
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.78.195.0/29
+    - 104.211.228.68/32
+    - 2603:1040:c06:402::98/125
+  ipv4:
+    - 40.78.195.0/29
+    - 104.211.228.68/32
+  ipv6:
+    - 2603:1040:c06:402::98/125
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

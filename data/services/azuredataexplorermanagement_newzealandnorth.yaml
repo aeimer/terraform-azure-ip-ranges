@@ -1,0 +1,22 @@
+id: AzureDataExplorerManagement.NewZealandNorth
+name: AzureDataExplorerManagement.NewZealandNorth
+metadata:
+  change_number: 1
+  region: newzealandnorth
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 172.204.158.208/28
+    - 2603:1010:502:1::240/123
+  ipv4:
+    - 172.204.158.208/28
+  ipv6:
+    - 2603:1010:502:1::240/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

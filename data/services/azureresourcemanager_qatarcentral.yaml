@@ -1,0 +1,26 @@
+id: AzureResourceManager.QatarCentral
+name: AzureResourceManager.QatarCentral
+metadata:
+  change_number: 1
+  region: qatarcentral
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.21.44.0/26
+    - 20.21.50.0/23
+    - 2603:1040:1002:1::600/120
+    - 2603:1040:1002:400::1c0/122
+  ipv4:
+    - 20.21.44.0/26
+    - 20.21.50.0/23
+  ipv6:
+    - 2603:1040:1002:1::600/120
+    - 2603:1040:1002:400::1c0/122
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

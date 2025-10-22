@@ -1,0 +1,33 @@
+id: AppServiceManagement.JioIndiaWest
+name: AppServiceManagement.JioIndiaWest
+metadata:
+  change_number: 2
+  region: jioindiawest
+  platform: Azure
+  system_service: AzureAppServiceManagement
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.193.202.192/26
+    - 40.64.9.160/28
+    - 2603:1040:d04:3::40/123
+    - 2603:1040:d04:400::440/122
+    - 2603:1040:d04:800::80/122
+    - 2603:1040:d04:800::200/122
+    - 2603:1040:d04:800::380/122
+  ipv4:
+    - 20.193.202.192/26
+    - 40.64.9.160/28
+  ipv6:
+    - 2603:1040:d04:3::40/123
+    - 2603:1040:d04:400::440/122
+    - 2603:1040:d04:800::80/122
+    - 2603:1040:d04:800::200/122
+    - 2603:1040:d04:800::380/122
+  counts:
+    total: 7
+    ipv4: 2
+    ipv6: 5

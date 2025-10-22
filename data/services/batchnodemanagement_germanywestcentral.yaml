@@ -1,0 +1,30 @@
+id: BatchNodeManagement.GermanyWestCentral
+name: BatchNodeManagement.GermanyWestCentral
+metadata:
+  change_number: 2
+  region: germanywc
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.116.144.224/27
+    - 51.116.154.32/27
+    - 51.116.243.0/27
+    - 51.116.251.0/27
+    - 2603:1020:c04:1::340/122
+  ipv4:
+    - 51.116.144.224/27
+    - 51.116.154.32/27
+    - 51.116.243.0/27
+    - 51.116.251.0/27
+  ipv6:
+    - 2603:1020:c04:1::340/122
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

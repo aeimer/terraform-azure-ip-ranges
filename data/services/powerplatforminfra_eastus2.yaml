@@ -1,0 +1,30 @@
+id: PowerPlatformInfra.EastUS2
+name: PowerPlatformInfra.EastUS2
+metadata:
+  change_number: 2
+  region: eastus2
+  platform: Azure
+  system_service: PowerPlatformInfra
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.84.87.192/26
+    - 40.84.88.0/23
+    - 40.84.90.0/26
+    - 2603:1061:2002:300::/57
+  ipv4:
+    - 40.84.87.192/26
+    - 40.84.88.0/23
+    - 40.84.90.0/26
+  ipv6:
+    - 2603:1061:2002:300::/57
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

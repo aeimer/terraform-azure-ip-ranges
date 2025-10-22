@@ -1,0 +1,28 @@
+id: AzureBackup.AustraliaCentral2
+name: AzureBackup.AustraliaCentral2
+metadata:
+  change_number: 4
+  region: australiacentral2
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.36.114.224/27
+    - 20.36.115.0/26
+    - 20.53.56.192/26
+    - 2603:1010:404:5::/121
+    - 2603:1010:404:402::200/121
+  ipv4:
+    - 20.36.114.224/27
+    - 20.36.115.0/26
+    - 20.53.56.192/26
+  ipv6:
+    - 2603:1010:404:5::/121
+    - 2603:1010:404:402::200/121
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

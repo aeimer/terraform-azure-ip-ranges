@@ -1,0 +1,26 @@
+id: AzureArcInfrastructure.SwedenSouth
+name: AzureArcInfrastructure.SwedenSouth
+metadata:
+  change_number: 3
+  region: swedensouth
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.91.96.162/31
+    - 20.91.100.128/29
+    - 51.12.22.220/30
+    - 51.12.168.72/30
+  ipv4:
+    - 20.91.96.162/31
+    - 20.91.100.128/29
+    - 51.12.22.220/30
+    - 51.12.168.72/30
+  ipv6: []
+  counts:
+    total: 4
+    ipv4: 4
+    ipv6: 0

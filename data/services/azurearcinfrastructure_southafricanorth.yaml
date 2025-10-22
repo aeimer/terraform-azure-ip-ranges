@@ -1,0 +1,34 @@
+id: AzureArcInfrastructure.SouthAfricaNorth
+name: AzureArcInfrastructure.SouthAfricaNorth
+metadata:
+  change_number: 4
+  region: southafricanorth
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.164.154.166/31
+    - 20.164.158.128/29
+    - 102.133.127.176/31
+    - 102.133.154.6/31
+    - 102.133.218.52/30
+    - 102.133.219.188/30
+    - 102.133.254.200/30
+    - 102.133.254.204/32
+  ipv4:
+    - 20.164.154.166/31
+    - 20.164.158.128/29
+    - 102.133.127.176/31
+    - 102.133.154.6/31
+    - 102.133.218.52/30
+    - 102.133.219.188/30
+    - 102.133.254.200/30
+    - 102.133.254.204/32
+  ipv6: []
+  counts:
+    total: 8
+    ipv4: 8
+    ipv6: 0

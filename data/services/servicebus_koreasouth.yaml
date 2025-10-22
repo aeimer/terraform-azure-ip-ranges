@@ -1,0 +1,28 @@
+id: ServiceBus.KoreaSouth
+name: ServiceBus.KoreaSouth
+metadata:
+  change_number: 6
+  region: koreasouth
+  platform: Azure
+  system_service: AzureServiceBus
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.243.45.192/26
+    - 52.147.116.0/25
+    - 52.231.146.64/28
+    - 2603:1040:e05::400/120
+  ipv4:
+    - 4.243.45.192/26
+    - 52.147.116.0/25
+    - 52.231.146.64/28
+  ipv6:
+    - 2603:1040:e05::400/120
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

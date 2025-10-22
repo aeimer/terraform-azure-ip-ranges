@@ -1,0 +1,30 @@
+id: EventHub.KoreaSouth
+name: EventHub.KoreaSouth
+metadata:
+  change_number: 5
+  region: koreasouth
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 52.147.98.64/26
+    - 52.147.115.0/24
+    - 52.231.146.32/27
+    - 2603:1040:e05::500/120
+  ipv4:
+    - 52.147.98.64/26
+    - 52.147.115.0/24
+    - 52.231.146.32/27
+  ipv6:
+    - 2603:1040:e05::500/120
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

@@ -1,0 +1,28 @@
+id: ServiceBus.SwedenSouth
+name: ServiceBus.SwedenSouth
+metadata:
+  change_number: 4
+  region: swedensouth
+  platform: Azure
+  system_service: AzureServiceBus
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.12.22.0/25
+    - 51.12.202.8/29
+    - 51.12.206.0/28
+    - 2603:1020:1104:400::170/125
+  ipv4:
+    - 51.12.22.0/25
+    - 51.12.202.8/29
+    - 51.12.206.0/28
+  ipv6:
+    - 2603:1020:1104:400::170/125
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

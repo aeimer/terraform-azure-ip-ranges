@@ -1,0 +1,30 @@
+id: BatchNodeManagement.NorwayEast
+name: BatchNodeManagement.NorwayEast
+metadata:
+  change_number: 2
+  region: norwaye
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.120.41.192/27
+    - 51.120.99.224/27
+    - 51.120.107.96/27
+    - 51.120.211.96/27
+    - 2603:1020:e04:1::340/122
+  ipv4:
+    - 51.120.41.192/27
+    - 51.120.99.224/27
+    - 51.120.107.96/27
+    - 51.120.211.96/27
+  ipv6:
+    - 2603:1020:e04:1::340/122
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

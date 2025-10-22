@@ -1,0 +1,26 @@
+id: AzureDigitalTwins.QatarCentral
+name: AzureDigitalTwins.QatarCentral
+metadata:
+  change_number: 2
+  region: qatarcentral
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.21.36.64/27
+    - 2603:1040:1002::7c0/123
+    - 2603:1040:1002:1::/121
+    - 2603:1040:1002:5::64c/126
+  ipv4:
+    - 20.21.36.64/27
+  ipv6:
+    - 2603:1040:1002::7c0/123
+    - 2603:1040:1002:1::/121
+    - 2603:1040:1002:5::64c/126
+  counts:
+    total: 4
+    ipv4: 1
+    ipv6: 3

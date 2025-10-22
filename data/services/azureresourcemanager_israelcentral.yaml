@@ -1,0 +1,26 @@
+id: AzureResourceManager.IsraelCentral
+name: AzureResourceManager.IsraelCentral
+metadata:
+  change_number: 1
+  region: israelcentral
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.217.50.0/23
+    - 20.217.60.0/26
+    - 2603:1040:1402:1::400/120
+    - 2603:1040:1402:400::1c0/122
+  ipv4:
+    - 20.217.50.0/23
+    - 20.217.60.0/26
+  ipv6:
+    - 2603:1040:1402:1::400/120
+    - 2603:1040:1402:400::1c0/122
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

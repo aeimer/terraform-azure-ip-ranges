@@ -1,0 +1,34 @@
+id: ApiManagement.JapanEast
+name: ApiManagement.JapanEast
+metadata:
+  change_number: 4
+  region: japaneast
+  platform: Azure
+  system_service: AzureApiManagement
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.78.106.92/31
+    - 13.78.108.176/28
+    - 20.191.167.246/31
+    - 52.140.238.179/32
+    - 135.149.50.220/31
+    - 2603:1040:407:402::140/124
+  ipv4:
+    - 13.78.106.92/31
+    - 13.78.108.176/28
+    - 20.191.167.246/31
+    - 52.140.238.179/32
+    - 135.149.50.220/31
+  ipv6:
+    - 2603:1040:407:402::140/124
+  counts:
+    total: 6
+    ipv4: 5
+    ipv6: 1

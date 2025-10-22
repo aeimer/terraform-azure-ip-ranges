@@ -1,0 +1,24 @@
+id: StorageSyncService.KoreaCentral
+name: StorageSyncService.KoreaCentral
+metadata:
+  change_number: 3
+  region: koreacentral
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.41.65.184/29
+    - 2603:1040:f05:1::300/123
+    - 2603:1040:f05:802::2a0/123
+  ipv4:
+    - 20.41.65.184/29
+  ipv6:
+    - 2603:1040:f05:1::300/123
+    - 2603:1040:f05:802::2a0/123
+  counts:
+    total: 3
+    ipv4: 1
+    ipv6: 2

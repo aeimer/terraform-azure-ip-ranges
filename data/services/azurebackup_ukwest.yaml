@@ -1,0 +1,28 @@
+id: AzureBackup.UKWest
+name: AzureBackup.UKWest
+metadata:
+  change_number: 3
+  region: ukwest
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.58.67.128/25
+    - 51.140.211.32/27
+    - 51.140.211.64/26
+    - 2603:1020:605:3::480/121
+    - 2603:1020:605:402::200/121
+  ipv4:
+    - 20.58.67.128/25
+    - 51.140.211.32/27
+    - 51.140.211.64/26
+  ipv6:
+    - 2603:1020:605:3::480/121
+    - 2603:1020:605:402::200/121
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

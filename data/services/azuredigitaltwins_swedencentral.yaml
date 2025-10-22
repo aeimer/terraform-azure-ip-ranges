@@ -1,0 +1,26 @@
+id: AzureDigitalTwins.SwedenCentral
+name: AzureDigitalTwins.SwedenCentral
+metadata:
+  change_number: 1
+  region: swedencentral
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.12.43.144/29
+    - 51.12.43.160/27
+    - 2603:1020:1004:1::540/122
+    - 2603:1020:1004:2::/121
+  ipv4:
+    - 51.12.43.144/29
+    - 51.12.43.160/27
+  ipv6:
+    - 2603:1020:1004:1::540/122
+    - 2603:1020:1004:2::/121
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

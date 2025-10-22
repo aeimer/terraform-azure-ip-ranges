@@ -1,0 +1,26 @@
+id: Dynamics365ForMarketingEmail.WestUS2
+name: Dynamics365ForMarketingEmail.WestUS2
+metadata:
+  change_number: 1
+  region: westus2
+  platform: Azure
+  system_service: Dynamics365ForMarketingEmail
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.66.138.128/25
+    - 40.78.242.0/25
+  ipv4:
+    - 13.66.138.128/25
+    - 40.78.242.0/25
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

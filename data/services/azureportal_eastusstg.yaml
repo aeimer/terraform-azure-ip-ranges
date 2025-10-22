@@ -1,0 +1,30 @@
+id: AzurePortal.EastUSSTG
+name: AzurePortal.EastUSSTG
+metadata:
+  change_number: 1
+  region: usstagee
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.67.48.124/30
+    - 40.67.49.128/27
+    - 40.67.50.192/27
+    - 40.67.52.88/29
+    - 2603:1030:104::100/121
+    - 2603:1030:104:1::680/121
+  ipv4:
+    - 40.67.48.124/30
+    - 40.67.49.128/27
+    - 40.67.50.192/27
+    - 40.67.52.88/29
+  ipv6:
+    - 2603:1030:104::100/121
+    - 2603:1030:104:1::680/121
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

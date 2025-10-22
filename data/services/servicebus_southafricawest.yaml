@@ -1,0 +1,32 @@
+id: ServiceBus.SouthAfricaWest
+name: ServiceBus.SouthAfricaWest
+metadata:
+  change_number: 7
+  region: southafricawest
+  platform: Azure
+  system_service: AzureServiceBus
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 102.37.64.192/26
+    - 102.37.84.0/25
+    - 102.133.26.8/29
+    - 2603:1000:4::220/123
+    - 2603:1000:4:1::500/120
+    - 2603:1000:4:402::170/125
+  ipv4:
+    - 102.37.64.192/26
+    - 102.37.84.0/25
+    - 102.133.26.8/29
+  ipv6:
+    - 2603:1000:4::220/123
+    - 2603:1000:4:1::500/120
+    - 2603:1000:4:402::170/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

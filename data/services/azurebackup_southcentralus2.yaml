@@ -1,0 +1,22 @@
+id: AzureBackup.SouthCentralUS2
+name: AzureBackup.SouthCentralUS2
+metadata:
+  change_number: 1
+  region: southcentralus2
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 48.216.20.0/26
+    - 2603:1030:1102::600/121
+  ipv4:
+    - 48.216.20.0/26
+  ipv6:
+    - 2603:1030:1102::600/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

@@ -1,0 +1,22 @@
+id: AzureDigitalTwins.PolandCentral
+name: AzureDigitalTwins.PolandCentral
+metadata:
+  change_number: 1
+  region: polandcentral
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.215.3.192/27
+    - 2603:1020:1302::580/121
+  ipv4:
+    - 20.215.3.192/27
+  ipv6:
+    - 2603:1020:1302::580/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

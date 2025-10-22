@@ -1,0 +1,26 @@
+id: AzureEventGrid.CentralIndia
+name: AzureEventGrid.CentralIndia
+metadata:
+  change_number: 1
+  region: centralindia
+  platform: Azure
+  system_service: AzureEventGrid
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.71.56.240/28
+    - 13.71.57.0/28
+    - 52.140.106.0/25
+    - 2603:1040:a06:1::380/121
+  ipv4:
+    - 13.71.56.240/28
+    - 13.71.57.0/28
+    - 52.140.106.0/25
+  ipv6:
+    - 2603:1040:a06:1::380/121
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

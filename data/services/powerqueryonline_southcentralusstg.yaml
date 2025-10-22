@@ -1,0 +1,30 @@
+id: PowerQueryOnline.SouthCentralUSSTG
+name: PowerQueryOnline.SouthCentralUSSTG
+metadata:
+  change_number: 4
+  region: usstagec
+  platform: Azure
+  system_service: PowerQueryOnline
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.45.112.120/31
+    - 23.100.217.20/31
+    - 23.100.217.24/29
+    - 23.100.223.8/29
+    - 23.100.223.128/28
+    - 2603:1030:302:402::a0/126
+  ipv4:
+    - 20.45.112.120/31
+    - 23.100.217.20/31
+    - 23.100.217.24/29
+    - 23.100.223.8/29
+    - 23.100.223.128/28
+  ipv6:
+    - 2603:1030:302:402::a0/126
+  counts:
+    total: 6
+    ipv4: 5
+    ipv6: 1

@@ -1,0 +1,24 @@
+id: BatchNodeManagement.SouthCentralUSSTG
+name: BatchNodeManagement.SouthCentralUSSTG
+metadata:
+  change_number: 1
+  region: usstagec
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.44.4.112/29
+    - 20.45.113.160/27
+  ipv4:
+    - 20.44.4.112/29
+    - 20.45.113.160/27
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

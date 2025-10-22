@@ -1,0 +1,32 @@
+id: AzureArcInfrastructure.WestCentralUS
+name: AzureArcInfrastructure.WestCentralUS
+metadata:
+  change_number: 5
+  region: westcentralus
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.71.199.117/32
+    - 40.67.122.108/30
+    - 40.67.122.112/32
+    - 40.67.122.120/29
+    - 52.150.152.204/30
+    - 52.150.156.36/30
+    - 172.215.202.52/32
+  ipv4:
+    - 13.71.199.117/32
+    - 40.67.122.108/30
+    - 40.67.122.112/32
+    - 40.67.122.120/29
+    - 52.150.152.204/30
+    - 52.150.156.36/30
+    - 172.215.202.52/32
+  ipv6: []
+  counts:
+    total: 7
+    ipv4: 7
+    ipv6: 0

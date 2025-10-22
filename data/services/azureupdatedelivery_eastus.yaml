@@ -1,0 +1,22 @@
+id: AzureUpdateDelivery.EastUS
+name: AzureUpdateDelivery.EastUS
+metadata:
+  change_number: 6
+  region: eastus
+  platform: Azure
+  system_service: AzureUpdateDelivery
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.117.248.145/32
+    - 74.235.227.153/32
+  ipv4:
+    - 40.117.248.145/32
+    - 74.235.227.153/32
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

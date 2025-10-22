@@ -1,0 +1,27 @@
+id: GatewayManager.CanadaCentral
+name: GatewayManager.CanadaCentral
+metadata:
+  change_number: 4
+  region: canadacentral
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.71.170.240/29
+    - 20.116.42.128/27
+    - 52.228.80.72/29
+    - 2603:1030:f05:1::40/122
+  ipv4:
+    - 13.71.170.240/29
+    - 20.116.42.128/27
+    - 52.228.80.72/29
+  ipv6:
+    - 2603:1030:f05:1::40/122
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

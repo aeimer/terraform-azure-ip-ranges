@@ -1,0 +1,34 @@
+id: AzureArcInfrastructure.NorwayEast
+name: AzureArcInfrastructure.NorwayEast
+metadata:
+  change_number: 4
+  region: norwaye
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.100.21.120/29
+    - 20.100.21.128/31
+    - 51.120.42.56/30
+    - 51.120.44.196/30
+    - 51.120.100.156/31
+    - 51.120.109.26/31
+    - 51.120.213.26/32
+    - 51.120.214.148/30
+  ipv4:
+    - 20.100.21.120/29
+    - 20.100.21.128/31
+    - 51.120.42.56/30
+    - 51.120.44.196/30
+    - 51.120.100.156/31
+    - 51.120.109.26/31
+    - 51.120.213.26/32
+    - 51.120.214.148/30
+  ipv6: []
+  counts:
+    total: 8
+    ipv4: 8
+    ipv6: 0

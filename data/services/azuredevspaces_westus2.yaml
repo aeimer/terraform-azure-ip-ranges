@@ -1,0 +1,22 @@
+id: AzureDevSpaces.WestUS2
+name: AzureDevSpaces.WestUS2
+metadata:
+  change_number: 1
+  region: westus2
+  platform: Azure
+  system_service: AzureDevSpaces
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.42.131.192/27
+    - 40.78.251.224/27
+  ipv4:
+    - 20.42.131.192/27
+    - 40.78.251.224/27
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

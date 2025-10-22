@@ -1,0 +1,28 @@
+id: EventHub.TaiwanNorth
+name: EventHub.TaiwanNorth
+metadata:
+  change_number: 3
+  region: taiwannorth
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.53.29.0/24
+    - 51.53.107.128/26
+    - 2603:1040:1302:1::300/120
+  ipv4:
+    - 51.53.29.0/24
+    - 51.53.107.128/26
+  ipv6:
+    - 2603:1040:1302:1::300/120
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

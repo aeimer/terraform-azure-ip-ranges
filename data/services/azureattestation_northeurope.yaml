@@ -1,0 +1,22 @@
+id: AzureAttestation.NorthEurope
+name: AzureAttestation.NorthEurope
+metadata:
+  change_number: 2
+  region: northeurope
+  platform: Azure
+  system_service: AzureAttestation
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.69.233.128/30
+    - 52.146.132.244/30
+  ipv4:
+    - 13.69.233.128/30
+    - 52.146.132.244/30
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

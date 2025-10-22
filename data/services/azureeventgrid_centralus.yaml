@@ -1,0 +1,34 @@
+id: AzureEventGrid.CentralUS
+name: AzureEventGrid.CentralUS
+metadata:
+  change_number: 2
+  region: centralus
+  platform: Azure
+  system_service: AzureEventGrid
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.86.56.32/27
+    - 13.86.56.160/27
+    - 20.37.157.128/25
+    - 40.89.240.144/28
+    - 52.154.57.48/28
+    - 52.154.57.80/28
+    - 74.249.137.0/24
+    - 2603:1030:10:1::380/121
+  ipv4:
+    - 13.86.56.32/27
+    - 13.86.56.160/27
+    - 20.37.157.128/25
+    - 40.89.240.144/28
+    - 52.154.57.48/28
+    - 52.154.57.80/28
+    - 74.249.137.0/24
+  ipv6:
+    - 2603:1030:10:1::380/121
+  counts:
+    total: 8
+    ipv4: 7
+    ipv6: 1

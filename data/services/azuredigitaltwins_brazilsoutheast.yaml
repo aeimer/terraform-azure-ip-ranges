@@ -1,0 +1,22 @@
+id: AzureDigitalTwins.BrazilSoutheast
+name: AzureDigitalTwins.BrazilSoutheast
+metadata:
+  change_number: 1
+  region: brazilse
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 191.233.15.16/29
+    - 191.233.15.32/27
+  ipv4:
+    - 191.233.15.16/29
+    - 191.233.15.32/27
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

@@ -1,0 +1,24 @@
+id: AzureBotService.NorwayEast
+name: AzureBotService.NorwayEast
+metadata:
+  change_number: 2
+  region: norwaye
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.120.40.64/30
+    - 51.120.98.12/30
+    - 2603:1020:e04:1::20/123
+  ipv4:
+    - 51.120.40.64/30
+    - 51.120.98.12/30
+  ipv6:
+    - 2603:1020:e04:1::20/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

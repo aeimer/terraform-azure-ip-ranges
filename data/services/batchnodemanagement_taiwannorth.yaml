@@ -1,0 +1,24 @@
+id: BatchNodeManagement.TaiwanNorth
+name: BatchNodeManagement.TaiwanNorth
+metadata:
+  change_number: 1
+  region: taiwannorth
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.53.25.32/27
+    - 2603:1040:1302::240/122
+  ipv4:
+    - 51.53.25.32/27
+  ipv6:
+    - 2603:1040:1302::240/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

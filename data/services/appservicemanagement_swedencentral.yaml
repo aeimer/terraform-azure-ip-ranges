@@ -1,0 +1,37 @@
+id: AppServiceManagement.SwedenCentral
+name: AppServiceManagement.SwedenCentral
+metadata:
+  change_number: 6
+  region: swedencentral
+  platform: Azure
+  system_service: AzureAppServiceManagement
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 9.223.122.64/29
+    - 51.12.29.32/27
+    - 51.12.73.192/28
+    - 2603:1020:1004:3::60/123
+    - 2603:1020:1004:400::440/122
+    - 2603:1020:1004:800::80/122
+    - 2603:1020:1004:800::200/122
+    - 2603:1020:1004:800::380/122
+    - 2603:1020:1004:c02::3c0/122
+  ipv4:
+    - 9.223.122.64/29
+    - 51.12.29.32/27
+    - 51.12.73.192/28
+  ipv6:
+    - 2603:1020:1004:3::60/123
+    - 2603:1020:1004:400::440/122
+    - 2603:1020:1004:800::80/122
+    - 2603:1020:1004:800::200/122
+    - 2603:1020:1004:800::380/122
+    - 2603:1020:1004:c02::3c0/122
+  counts:
+    total: 9
+    ipv4: 3
+    ipv6: 6

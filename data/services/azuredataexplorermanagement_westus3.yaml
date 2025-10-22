@@ -1,0 +1,26 @@
+id: AzureDataExplorerManagement.WestUS3
+name: AzureDataExplorerManagement.WestUS3
+metadata:
+  change_number: 1
+  region: westus3
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.150.171.192/28
+    - 20.150.245.112/28
+    - 2603:1030:504:2::180/121
+    - 2603:1030:504:802::d0/124
+  ipv4:
+    - 20.150.171.192/28
+    - 20.150.245.112/28
+  ipv6:
+    - 2603:1030:504:2::180/121
+    - 2603:1030:504:802::d0/124
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

@@ -1,0 +1,26 @@
+id: AzureDataExplorerManagement.SwedenCentral
+name: AzureDataExplorerManagement.SwedenCentral
+metadata:
+  change_number: 1
+  region: swedencentral
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.12.28.48/28
+    - 51.12.99.192/28
+    - 2603:1020:1004:2::100/121
+    - 2603:1020:1004:800::d0/124
+  ipv4:
+    - 51.12.28.48/28
+    - 51.12.99.192/28
+  ipv6:
+    - 2603:1020:1004:2::100/121
+    - 2603:1020:1004:800::d0/124
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

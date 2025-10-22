@@ -1,0 +1,28 @@
+id: AzureBackup.NorwayWest
+name: AzureBackup.NorwayWest
+metadata:
+  change_number: 3
+  region: norwayw
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.13.137.128/26
+    - 51.120.219.96/27
+    - 51.120.219.128/26
+    - 2603:1020:f04:6::/121
+    - 2603:1020:f04:402::200/121
+  ipv4:
+    - 51.13.137.128/26
+    - 51.120.219.96/27
+    - 51.120.219.128/26
+  ipv6:
+    - 2603:1020:f04:6::/121
+    - 2603:1020:f04:402::200/121
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

@@ -1,0 +1,30 @@
+id: WindowsVirtualDesktop
+name: WindowsVirtualDesktop
+metadata:
+  change_number: 32
+  region: ""
+  platform: Azure
+  system_service: WVDRelays
+  network_features:
+    - API
+    - NSG
+    - FW
+    - UDR
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.64.144.0/20
+    - 51.5.0.0/16
+    - 2603:1061:2010::/48
+    - 2603:1061:2011::/48
+  ipv4:
+    - 40.64.144.0/20
+    - 51.5.0.0/16
+  ipv6:
+    - 2603:1061:2010::/48
+    - 2603:1061:2011::/48
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

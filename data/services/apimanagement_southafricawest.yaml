@@ -1,0 +1,34 @@
+id: ApiManagement.SouthAfricaWest
+name: ApiManagement.SouthAfricaWest
+metadata:
+  change_number: 3
+  region: southafricawest
+  platform: Azure
+  system_service: AzureApiManagement
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 102.133.0.79/32
+    - 102.133.26.4/31
+    - 102.133.28.0/28
+    - 172.209.80.74/31
+    - 172.209.83.192/28
+    - 2603:1000:4:402::140/124
+  ipv4:
+    - 102.133.0.79/32
+    - 102.133.26.4/31
+    - 102.133.28.0/28
+    - 172.209.80.74/31
+    - 172.209.83.192/28
+  ipv6:
+    - 2603:1000:4:402::140/124
+  counts:
+    total: 6
+    ipv4: 5
+    ipv6: 1

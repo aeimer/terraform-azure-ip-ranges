@@ -1,0 +1,24 @@
+id: StorageSyncService.EastUSSTG
+name: StorageSyncService.EastUSSTG
+metadata:
+  change_number: 1
+  region: usstagee
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.67.48.208/29
+    - 2603:1030:104:1::300/123
+    - 2603:1030:104:402::760/123
+  ipv4:
+    - 40.67.48.208/29
+  ipv6:
+    - 2603:1030:104:1::300/123
+    - 2603:1030:104:402::760/123
+  counts:
+    total: 3
+    ipv4: 1
+    ipv6: 2

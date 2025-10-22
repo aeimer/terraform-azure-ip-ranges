@@ -1,0 +1,40 @@
+id: AzureBackup.KoreaCentral
+name: AzureBackup.KoreaCentral
+metadata:
+  change_number: 6
+  region: koreacentral
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.44.27.128/27
+    - 20.44.31.192/26
+    - 20.194.66.192/26
+    - 20.194.67.0/27
+    - 20.194.74.0/26
+    - 52.231.19.0/26
+    - 52.231.19.64/27
+    - 2603:1040:f05:2::/121
+    - 2603:1040:f05:402::200/121
+    - 2603:1040:f05:802::180/121
+    - 2603:1040:f05:c02::180/121
+  ipv4:
+    - 20.44.27.128/27
+    - 20.44.31.192/26
+    - 20.194.66.192/26
+    - 20.194.67.0/27
+    - 20.194.74.0/26
+    - 52.231.19.0/26
+    - 52.231.19.64/27
+  ipv6:
+    - 2603:1040:f05:2::/121
+    - 2603:1040:f05:402::200/121
+    - 2603:1040:f05:802::180/121
+    - 2603:1040:f05:c02::180/121
+  counts:
+    total: 11
+    ipv4: 7
+    ipv6: 4

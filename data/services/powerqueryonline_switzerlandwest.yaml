@@ -1,0 +1,28 @@
+id: PowerQueryOnline.SwitzerlandWest
+name: PowerQueryOnline.SwitzerlandWest
+metadata:
+  change_number: 6
+  region: switzerlandw
+  platform: Azure
+  system_service: PowerQueryOnline
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.199.201.88/29
+    - 51.107.144.120/31
+    - 74.242.7.128/29
+    - 74.242.36.128/28
+    - 2603:1020:b04::200/123
+  ipv4:
+    - 20.199.201.88/29
+    - 51.107.144.120/31
+    - 74.242.7.128/29
+    - 74.242.36.128/28
+  ipv6:
+    - 2603:1020:b04::200/123
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

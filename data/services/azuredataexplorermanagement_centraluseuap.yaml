@@ -1,0 +1,30 @@
+id: AzureDataExplorerManagement.CentralUSEUAP
+name: AzureDataExplorerManagement.CentralUSEUAP
+metadata:
+  change_number: 3
+  region: centraluseuap
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.46.13.240/28
+    - 40.78.203.176/28
+    - 40.89.56.69/32
+    - 52.253.159.186/32
+    - 2603:1030:f:2::380/121
+    - 2603:1030:f:400::950/124
+  ipv4:
+    - 20.46.13.240/28
+    - 40.78.203.176/28
+    - 40.89.56.69/32
+    - 52.253.159.186/32
+  ipv6:
+    - 2603:1030:f:2::380/121
+    - 2603:1030:f:400::950/124
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

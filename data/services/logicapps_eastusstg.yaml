@@ -1,0 +1,30 @@
+id: LogicApps.EastUSSTG
+name: LogicApps.EastUSSTG
+metadata:
+  change_number: 3
+  region: usstagee
+  platform: Azure
+  system_service: LogicApps
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.67.60.176/28
+    - 40.67.60.192/27
+    - 40.67.88.80/28
+    - 40.67.92.0/28
+    - 2603:1030:104:402::3c0/124
+    - 2603:1030:104:402::3e0/123
+  ipv4:
+    - 40.67.60.176/28
+    - 40.67.60.192/27
+    - 40.67.88.80/28
+    - 40.67.92.0/28
+  ipv6:
+    - 2603:1030:104:402::3c0/124
+    - 2603:1030:104:402::3e0/123
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

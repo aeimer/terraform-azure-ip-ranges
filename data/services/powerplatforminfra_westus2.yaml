@@ -1,0 +1,30 @@
+id: PowerPlatformInfra.WestUS2
+name: PowerPlatformInfra.WestUS2
+metadata:
+  change_number: 3
+  region: westus2
+  platform: Azure
+  system_service: PowerPlatformInfra
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.64.134.144/28
+    - 40.64.134.192/26
+    - 40.91.87.146/32
+    - 2603:1061:2002:500::/57
+  ipv4:
+    - 40.64.134.144/28
+    - 40.64.134.192/26
+    - 40.91.87.146/32
+  ipv6:
+    - 2603:1061:2002:500::/57
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

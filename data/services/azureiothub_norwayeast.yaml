@@ -1,0 +1,34 @@
+id: AzureIoTHub.NorwayEast
+name: AzureIoTHub.NorwayEast
+metadata:
+  change_number: 3
+  region: norwaye
+  platform: Azure
+  system_service: AzureIoTHub
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.120.43.128/25
+    - 51.120.44.0/27
+    - 51.120.100.96/27
+    - 51.120.107.224/27
+    - 51.120.211.224/27
+    - 2603:1020:e04:402::300/123
+    - 2603:1020:e04:802::240/123
+    - 2603:1020:e04:c02::240/123
+  ipv4:
+    - 51.120.43.128/25
+    - 51.120.44.0/27
+    - 51.120.100.96/27
+    - 51.120.107.224/27
+    - 51.120.211.224/27
+  ipv6:
+    - 2603:1020:e04:402::300/123
+    - 2603:1020:e04:802::240/123
+    - 2603:1020:e04:c02::240/123
+  counts:
+    total: 8
+    ipv4: 5
+    ipv6: 3

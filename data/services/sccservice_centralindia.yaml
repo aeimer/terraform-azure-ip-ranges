@@ -1,0 +1,24 @@
+id: SCCservice.CentralIndia
+name: SCCservice.CentralIndia
+metadata:
+  change_number: 2
+  region: centralindia
+  platform: Azure
+  system_service: SCCservice
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.43.123.176/29
+    - 57.159.92.96/27
+    - 2603:1040:a06:8::660/123
+  ipv4:
+    - 20.43.123.176/29
+    - 57.159.92.96/27
+  ipv6:
+    - 2603:1040:a06:8::660/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

@@ -1,0 +1,36 @@
+id: AzureIoTHub.SwedenCentral
+name: AzureIoTHub.SwedenCentral
+metadata:
+  change_number: 1
+  region: swedencentral
+  platform: Azure
+  system_service: AzureIoTHub
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.12.42.32/27
+    - 51.12.42.128/25
+    - 51.12.100.64/27
+    - 51.12.227.224/27
+    - 51.12.235.224/27
+    - 2603:1020:1004:400::480/123
+    - 2603:1020:1004:800::100/123
+    - 2603:1020:1004:800::240/123
+    - 2603:1020:1004:c02::2a0/123
+  ipv4:
+    - 51.12.42.32/27
+    - 51.12.42.128/25
+    - 51.12.100.64/27
+    - 51.12.227.224/27
+    - 51.12.235.224/27
+  ipv6:
+    - 2603:1020:1004:400::480/123
+    - 2603:1020:1004:800::100/123
+    - 2603:1020:1004:800::240/123
+    - 2603:1020:1004:c02::2a0/123
+  counts:
+    total: 9
+    ipv4: 5
+    ipv6: 4

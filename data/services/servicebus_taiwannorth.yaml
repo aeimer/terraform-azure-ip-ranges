@@ -1,0 +1,28 @@
+id: ServiceBus.TaiwanNorth
+name: ServiceBus.TaiwanNorth
+metadata:
+  change_number: 3
+  region: taiwannorth
+  platform: Azure
+  system_service: AzureServiceBus
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.53.30.0/25
+    - 51.53.106.80/29
+    - 51.53.106.96/28
+    - 2603:1040:1302::780/121
+  ipv4:
+    - 51.53.30.0/25
+    - 51.53.106.80/29
+    - 51.53.106.96/28
+  ipv6:
+    - 2603:1040:1302::780/121
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

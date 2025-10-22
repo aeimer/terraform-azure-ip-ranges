@@ -1,0 +1,28 @@
+id: AzureBackup.SouthIndia
+name: AzureBackup.SouthIndia
+metadata:
+  change_number: 3
+  region: southindia
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.78.195.32/27
+    - 40.78.195.64/26
+    - 52.172.116.64/26
+    - 2603:1040:c06:3::600/121
+    - 2603:1040:c06:402::200/121
+  ipv4:
+    - 40.78.195.32/27
+    - 40.78.195.64/26
+    - 52.172.116.64/26
+  ipv6:
+    - 2603:1040:c06:3::600/121
+    - 2603:1040:c06:402::200/121
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

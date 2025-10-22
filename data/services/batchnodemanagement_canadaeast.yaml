@@ -1,0 +1,36 @@
+id: BatchNodeManagement.CanadaEast
+name: BatchNodeManagement.CanadaEast
+metadata:
+  change_number: 2
+  region: canadaeast
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.69.107.128/27
+    - 40.86.224.98/32
+    - 40.86.224.104/32
+    - 40.89.18.192/27
+    - 52.235.41.66/32
+    - 52.242.22.129/32
+    - 52.242.33.105/32
+    - 2603:1030:1005::400/122
+  ipv4:
+    - 40.69.107.128/27
+    - 40.86.224.98/32
+    - 40.86.224.104/32
+    - 40.89.18.192/27
+    - 52.235.41.66/32
+    - 52.242.22.129/32
+    - 52.242.33.105/32
+  ipv6:
+    - 2603:1030:1005::400/122
+  counts:
+    total: 8
+    ipv4: 7
+    ipv6: 1

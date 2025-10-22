@@ -1,0 +1,40 @@
+id: ServiceFabric.SoutheastAsia
+name: ServiceFabric.SoutheastAsia
+metadata:
+  change_number: 1
+  region: southeastasia
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.67.9.136/29
+    - 20.184.2.84/32
+    - 23.98.86.60/30
+    - 40.78.238.60/30
+    - 52.163.90.165/32
+    - 52.163.94.113/32
+    - 52.230.8.61/32
+    - 207.46.234.62/32
+    - 2603:1040:5:402::98/125
+    - 2603:1040:5:802::98/125
+    - 2603:1040:5:c02::98/125
+  ipv4:
+    - 13.67.9.136/29
+    - 20.184.2.84/32
+    - 23.98.86.60/30
+    - 40.78.238.60/30
+    - 52.163.90.165/32
+    - 52.163.94.113/32
+    - 52.230.8.61/32
+    - 207.46.234.62/32
+  ipv6:
+    - 2603:1040:5:402::98/125
+    - 2603:1040:5:802::98/125
+    - 2603:1040:5:c02::98/125
+  counts:
+    total: 11
+    ipv4: 8
+    ipv6: 3

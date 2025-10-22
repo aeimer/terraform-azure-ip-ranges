@@ -1,0 +1,22 @@
+id: AzureDevSpaces.CanadaCentral
+name: AzureDevSpaces.CanadaCentral
+metadata:
+  change_number: 1
+  region: canadacentral
+  platform: Azure
+  system_service: AzureDevSpaces
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.71.175.112/28
+    - 52.228.81.224/28
+  ipv4:
+    - 13.71.175.112/28
+    - 52.228.81.224/28
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

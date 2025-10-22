@@ -1,0 +1,34 @@
+id: Storage.BelgiumCentral
+name: Storage.BelgiumCentral
+metadata:
+  change_number: 1
+  region: belgiumcentral
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.153.19.0/24
+    - 20.153.20.0/24
+    - 57.150.194.0/23
+    - 57.150.196.0/23
+    - 57.150.198.0/24
+    - 2603:1020:1503::/48
+  ipv4:
+    - 20.153.19.0/24
+    - 20.153.20.0/24
+    - 57.150.194.0/23
+    - 57.150.196.0/23
+    - 57.150.198.0/24
+  ipv6:
+    - 2603:1020:1503::/48
+  counts:
+    total: 6
+    ipv4: 5
+    ipv6: 1

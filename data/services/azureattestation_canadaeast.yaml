@@ -1,0 +1,24 @@
+id: AzureAttestation.CanadaEast
+name: AzureAttestation.CanadaEast
+metadata:
+  change_number: 3
+  region: canadaeast
+  platform: Azure
+  system_service: AzureAttestation
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.69.111.116/30
+    - 40.89.23.44/30
+    - 2603:1030:1005:3::1e0/124
+  ipv4:
+    - 40.69.111.116/30
+    - 40.89.23.44/30
+  ipv6:
+    - 2603:1030:1005:3::1e0/124
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

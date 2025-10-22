@@ -1,0 +1,46 @@
+id: AzureCosmosDB.CanadaEast
+name: AzureCosmosDB.CanadaEast
+metadata:
+  change_number: 10
+  region: canadaeast
+  platform: Azure
+  system_service: AzureCosmosDB
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.175.0.128/26
+    - 20.175.6.0/25
+    - 20.175.6.128/26
+    - 40.69.106.0/28
+    - 40.69.117.0/26
+    - 40.86.229.245/32
+    - 40.89.22.224/27
+    - 52.139.86.210/32
+    - 52.155.27.249/32
+    - 52.155.28.10/32
+    - 2603:1030:1005:3::20/123
+    - 2603:1030:1005:402::c0/122
+  ipv4:
+    - 20.175.0.128/26
+    - 20.175.6.0/25
+    - 20.175.6.128/26
+    - 40.69.106.0/28
+    - 40.69.117.0/26
+    - 40.86.229.245/32
+    - 40.89.22.224/27
+    - 52.139.86.210/32
+    - 52.155.27.249/32
+    - 52.155.28.10/32
+  ipv6:
+    - 2603:1030:1005:3::20/123
+    - 2603:1030:1005:402::c0/122
+  counts:
+    total: 12
+    ipv4: 10
+    ipv6: 2

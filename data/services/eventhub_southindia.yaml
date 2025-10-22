@@ -1,0 +1,34 @@
+id: EventHub.SouthIndia
+name: EventHub.SouthIndia
+metadata:
+  change_number: 7
+  region: southindia
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.192.185.64/26
+    - 40.78.194.32/27
+    - 52.172.119.0/24
+    - 2603:1040:c06::240/122
+    - 2603:1040:c06:2::/120
+    - 2603:1040:c06:402::1c0/123
+  ipv4:
+    - 20.192.185.64/26
+    - 40.78.194.32/27
+    - 52.172.119.0/24
+  ipv6:
+    - 2603:1040:c06::240/122
+    - 2603:1040:c06:2::/120
+    - 2603:1040:c06:402::1c0/123
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

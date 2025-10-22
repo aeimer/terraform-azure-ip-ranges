@@ -1,0 +1,32 @@
+id: DataFactory.AustraliaCentral
+name: DataFactory.AustraliaCentral
+metadata:
+  change_number: 1
+  region: australiacentral
+  platform: Azure
+  system_service: DataFactory
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.37.228.16/28
+    - 20.37.228.192/26
+    - 20.37.229.0/25
+    - 20.53.0.48/28
+    - 2603:1010:304::440/122
+    - 2603:1010:304::500/121
+    - 2603:1010:304:402::330/124
+  ipv4:
+    - 20.37.228.16/28
+    - 20.37.228.192/26
+    - 20.37.229.0/25
+    - 20.53.0.48/28
+  ipv6:
+    - 2603:1010:304::440/122
+    - 2603:1010:304::500/121
+    - 2603:1010:304:402::330/124
+  counts:
+    total: 7
+    ipv4: 4
+    ipv6: 3

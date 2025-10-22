@@ -1,0 +1,31 @@
+id: AppServiceManagement.KoreaSouth
+name: AppServiceManagement.KoreaSouth
+metadata:
+  change_number: 4
+  region: koreasouth
+  platform: Azure
+  system_service: AzureAppServiceManagement
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.243.130.64/29
+    - 52.147.119.32/28
+    - 52.231.146.128/26
+    - 52.231.200.177/32
+    - 2603:1040:e05:1::e0/123
+    - 2603:1040:e05:6::c0/122
+  ipv4:
+    - 4.243.130.64/29
+    - 52.147.119.32/28
+    - 52.231.146.128/26
+    - 52.231.200.177/32
+  ipv6:
+    - 2603:1040:e05:1::e0/123
+    - 2603:1040:e05:6::c0/122
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

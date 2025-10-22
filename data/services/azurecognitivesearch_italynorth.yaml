@@ -1,0 +1,22 @@
+id: AzureCognitiveSearch.ItalyNorth
+name: AzureCognitiveSearch.ItalyNorth
+metadata:
+  change_number: 1
+  region: italynorth
+  platform: Azure
+  system_service: AzureCognitiveSearch
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.232.24.192/26
+    - 2603:1020:1204::100/121
+  ipv4:
+    - 4.232.24.192/26
+  ipv6:
+    - 2603:1020:1204::100/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

@@ -1,0 +1,26 @@
+id: HDInsight.SoutheastUS
+name: HDInsight.SoutheastUS
+metadata:
+  change_number: 1
+  region: southeastus
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 57.151.216.24/29
+    - 2603:1030:902:1::2e0/124
+  ipv4:
+    - 57.151.216.24/29
+  ipv6:
+    - 2603:1030:902:1::2e0/124
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

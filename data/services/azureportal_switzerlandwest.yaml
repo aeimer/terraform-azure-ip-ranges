@@ -1,0 +1,26 @@
+id: AzurePortal.SwitzerlandWest
+name: AzurePortal.SwitzerlandWest
+metadata:
+  change_number: 1
+  region: switzerlandw
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.107.145.128/27
+    - 51.107.146.56/30
+    - 51.107.149.248/29
+    - 2603:1020:b04::700/121
+  ipv4:
+    - 51.107.145.128/27
+    - 51.107.146.56/30
+    - 51.107.149.248/29
+  ipv6:
+    - 2603:1020:b04::700/121
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

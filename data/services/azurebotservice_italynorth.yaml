@@ -1,0 +1,22 @@
+id: AzureBotService.ItalyNorth
+name: AzureBotService.ItalyNorth
+metadata:
+  change_number: 1
+  region: italynorth
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.232.24.16/30
+    - 2603:1020:1204::20/123
+  ipv4:
+    - 4.232.24.16/30
+  ipv6:
+    - 2603:1020:1204::20/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

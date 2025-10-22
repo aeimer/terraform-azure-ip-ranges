@@ -1,0 +1,30 @@
+id: HDInsight.UAENorth
+name: HDInsight.UAENorth
+metadata:
+  change_number: 4
+  region: uaenorth
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.38.139.88/29
+    - 65.52.252.96/29
+    - 2603:1040:904:3::10/124
+    - 2603:1040:904:402::320/124
+  ipv4:
+    - 20.38.139.88/29
+    - 65.52.252.96/29
+  ipv6:
+    - 2603:1040:904:3::10/124
+    - 2603:1040:904:402::320/124
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

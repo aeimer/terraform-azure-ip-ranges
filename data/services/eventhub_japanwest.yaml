@@ -1,0 +1,38 @@
+id: EventHub.JapanWest
+name: EventHub.JapanWest
+metadata:
+  change_number: 8
+  region: japanwest
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.190.144.128/26
+    - 20.18.179.64/26
+    - 20.189.231.0/24
+    - 40.74.100.0/27
+    - 40.80.181.192/26
+    - 2603:1040:606::240/122
+    - 2603:1040:606:2::/120
+    - 2603:1040:606:402::1c0/123
+  ipv4:
+    - 4.190.144.128/26
+    - 20.18.179.64/26
+    - 20.189.231.0/24
+    - 40.74.100.0/27
+    - 40.80.181.192/26
+  ipv6:
+    - 2603:1040:606::240/122
+    - 2603:1040:606:2::/120
+    - 2603:1040:606:402::1c0/123
+  counts:
+    total: 8
+    ipv4: 5
+    ipv6: 3

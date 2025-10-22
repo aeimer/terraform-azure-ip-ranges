@@ -1,0 +1,32 @@
+id: HDInsight.SoutheastAsia
+name: HDInsight.SoutheastAsia
+metadata:
+  change_number: 3
+  region: southeastasia
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.67.9.152/29
+    - 13.76.136.249/32
+    - 13.76.245.160/32
+    - 23.98.107.192/29
+    - 2603:1040:5:402::320/124
+  ipv4:
+    - 13.67.9.152/29
+    - 13.76.136.249/32
+    - 13.76.245.160/32
+    - 23.98.107.192/29
+  ipv6:
+    - 2603:1040:5:402::320/124
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

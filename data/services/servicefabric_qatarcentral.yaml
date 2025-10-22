@@ -1,0 +1,30 @@
+id: ServiceFabric.QatarCentral
+name: ServiceFabric.QatarCentral
+metadata:
+  change_number: 2
+  region: qatarcentral
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.21.42.76/30
+    - 20.21.66.72/30
+    - 20.21.74.72/30
+    - 2603:1040:1002:400::58/125
+    - 2603:1040:1002:800::50/125
+    - 2603:1040:1002:c00::50/125
+  ipv4:
+    - 20.21.42.76/30
+    - 20.21.66.72/30
+    - 20.21.74.72/30
+  ipv6:
+    - 2603:1040:1002:400::58/125
+    - 2603:1040:1002:800::50/125
+    - 2603:1040:1002:c00::50/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

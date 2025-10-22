@@ -1,0 +1,28 @@
+id: AzureDataExplorerManagement.SwitzerlandWest
+name: AzureDataExplorerManagement.SwitzerlandWest
+metadata:
+  change_number: 3
+  region: switzerlandw
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.199.207.240/28
+    - 51.107.98.201/32
+    - 51.107.155.160/28
+    - 2603:1020:b04:1::380/121
+    - 2603:1020:b04:402::150/124
+  ipv4:
+    - 20.199.207.240/28
+    - 51.107.98.201/32
+    - 51.107.155.160/28
+  ipv6:
+    - 2603:1020:b04:1::380/121
+    - 2603:1020:b04:402::150/124
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

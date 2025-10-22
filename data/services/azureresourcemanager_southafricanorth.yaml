@@ -1,0 +1,28 @@
+id: AzureResourceManager.SouthAfricaNorth
+name: AzureResourceManager.SouthAfricaNorth
+metadata:
+  change_number: 3
+  region: southafricanorth
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 102.133.123.224/28
+    - 102.133.158.0/23
+    - 102.133.222.0/23
+    - 2603:1000:104::480/122
+    - 2603:1000:104:402::280/122
+  ipv4:
+    - 102.133.123.224/28
+    - 102.133.158.0/23
+    - 102.133.222.0/23
+  ipv6:
+    - 2603:1000:104::480/122
+    - 2603:1000:104:402::280/122
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

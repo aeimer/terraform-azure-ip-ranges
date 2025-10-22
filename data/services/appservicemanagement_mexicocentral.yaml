@@ -1,0 +1,25 @@
+id: AppServiceManagement.MexicoCentral
+name: AppServiceManagement.MexicoCentral
+metadata:
+  change_number: 2
+  region: mexicocentral
+  platform: Azure
+  system_service: AzureAppServiceManagement
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.155.250.0/29
+    - 158.23.114.64/26
+    - 2603:1030:702:2::7c0/123
+  ipv4:
+    - 68.155.250.0/29
+    - 158.23.114.64/26
+  ipv6:
+    - 2603:1030:702:2::7c0/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

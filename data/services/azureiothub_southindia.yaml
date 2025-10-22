@@ -1,0 +1,32 @@
+id: AzureIoTHub.SouthIndia
+name: AzureIoTHub.SouthIndia
+metadata:
+  change_number: 3
+  region: southindia
+  platform: Azure
+  system_service: AzureIoTHub
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.71.84.34/32
+    - 13.71.113.127/32
+    - 20.41.197.64/27
+    - 20.41.197.128/25
+    - 40.78.196.96/27
+    - 104.211.210.195/32
+    - 2603:1040:c06:402::300/123
+  ipv4:
+    - 13.71.84.34/32
+    - 13.71.113.127/32
+    - 20.41.197.64/27
+    - 20.41.197.128/25
+    - 40.78.196.96/27
+    - 104.211.210.195/32
+  ipv6:
+    - 2603:1040:c06:402::300/123
+  counts:
+    total: 7
+    ipv4: 6
+    ipv6: 1

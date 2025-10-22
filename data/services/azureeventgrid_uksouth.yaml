@@ -1,0 +1,26 @@
+id: AzureEventGrid.UKSouth
+name: AzureEventGrid.UKSouth
+metadata:
+  change_number: 2
+  region: uksouth
+  platform: Azure
+  system_service: AzureEventGrid
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.104.27.128/25
+    - 51.132.161.160/28
+    - 51.132.170.64/28
+    - 2603:1020:705:1::380/121
+  ipv4:
+    - 51.104.27.128/25
+    - 51.132.161.160/28
+    - 51.132.170.64/28
+  ipv6:
+    - 2603:1020:705:1::380/121
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

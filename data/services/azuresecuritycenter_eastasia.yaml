@@ -1,0 +1,30 @@
+id: AzureSecurityCenter.EastAsia
+name: AzureSecurityCenter.EastAsia
+metadata:
+  change_number: 2
+  region: eastasia
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 57.158.34.96/27
+    - 57.158.34.128/26
+    - 57.158.35.0/24
+    - 57.158.36.0/22
+    - 57.158.40.0/23
+    - 104.214.164.64/27
+  ipv4:
+    - 57.158.34.96/27
+    - 57.158.34.128/26
+    - 57.158.35.0/24
+    - 57.158.36.0/22
+    - 57.158.40.0/23
+    - 104.214.164.64/27
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

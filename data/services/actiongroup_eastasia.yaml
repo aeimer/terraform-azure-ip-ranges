@@ -1,0 +1,26 @@
+id: ActionGroup.EastAsia
+name: ActionGroup.EastAsia
+metadata:
+  change_number: 3
+  region: eastasia
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 23.97.93.60/30
+    - 104.214.165.80/30
+    - 2603:1040:207::114/126
+    - 2603:1040:207:402::178/125
+  ipv4:
+    - 23.97.93.60/30
+    - 104.214.165.80/30
+  ipv6:
+    - 2603:1040:207::114/126
+    - 2603:1040:207:402::178/125
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

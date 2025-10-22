@@ -1,0 +1,40 @@
+id: PowerQueryOnline.JioIndiaWest
+name: PowerQueryOnline.JioIndiaWest
+metadata:
+  change_number: 6
+  region: jioindiawest
+  platform: Azure
+  system_service: PowerQueryOnline
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.192.160.20/31
+    - 20.193.160.232/31
+    - 40.64.11.116/31
+    - 40.64.11.120/29
+    - 98.70.128.64/28
+    - 98.70.128.80/29
+    - 2603:1040:d04::200/123
+    - 2603:1040:d04:400::4a0/126
+    - 2603:1040:d04:402::20/126
+    - 2603:1040:d04:800::3c8/125
+    - 2603:1040:d04:c02::180/125
+  ipv4:
+    - 20.192.160.20/31
+    - 20.193.160.232/31
+    - 40.64.11.116/31
+    - 40.64.11.120/29
+    - 98.70.128.64/28
+    - 98.70.128.80/29
+  ipv6:
+    - 2603:1040:d04::200/123
+    - 2603:1040:d04:400::4a0/126
+    - 2603:1040:d04:402::20/126
+    - 2603:1040:d04:800::3c8/125
+    - 2603:1040:d04:c02::180/125
+  counts:
+    total: 11
+    ipv4: 6
+    ipv6: 5

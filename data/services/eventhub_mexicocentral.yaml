@@ -1,0 +1,32 @@
+id: EventHub.MexicoCentral
+name: EventHub.MexicoCentral
+metadata:
+  change_number: 1
+  region: mexicocentral
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 158.23.11.64/26
+    - 158.23.102.0/24
+    - 158.23.123.64/26
+    - 158.23.195.64/26
+    - 2603:1030:702:1::/120
+  ipv4:
+    - 158.23.11.64/26
+    - 158.23.102.0/24
+    - 158.23.123.64/26
+    - 158.23.195.64/26
+  ipv6:
+    - 2603:1030:702:1::/120
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

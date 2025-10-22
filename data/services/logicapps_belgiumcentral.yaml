@@ -1,0 +1,26 @@
+id: LogicApps.BelgiumCentral
+name: LogicApps.BelgiumCentral
+metadata:
+  change_number: 1
+  region: belgiumcentral
+  platform: Azure
+  system_service: LogicApps
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 9.160.56.240/28
+    - 9.160.57.192/27
+    - 2603:1020:1502:3::440/124
+    - 2603:1020:1502:3::460/123
+  ipv4:
+    - 9.160.56.240/28
+    - 9.160.57.192/27
+  ipv6:
+    - 2603:1020:1502:3::440/124
+    - 2603:1020:1502:3::460/123
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

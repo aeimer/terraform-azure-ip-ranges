@@ -1,0 +1,24 @@
+id: AzureBotService.UAECentral
+name: AzureBotService.UAECentral
+metadata:
+  change_number: 1
+  region: uaecentral
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.37.64.64/30
+    - 20.37.76.104/30
+    - 2603:1040:b04::20/123
+  ipv4:
+    - 20.37.64.64/30
+    - 20.37.76.104/30
+  ipv6:
+    - 2603:1040:b04::20/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

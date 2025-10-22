@@ -1,0 +1,28 @@
+id: AzureResourceManager.EastUS
+name: AzureResourceManager.EastUS
+metadata:
+  change_number: 1
+  region: eastus
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.62.130.0/23
+    - 40.71.13.224/28
+    - 40.79.158.0/23
+    - 2603:1030:210::180/122
+    - 2603:1030:210:402::280/122
+  ipv4:
+    - 20.62.130.0/23
+    - 40.71.13.224/28
+    - 40.79.158.0/23
+  ipv6:
+    - 2603:1030:210::180/122
+    - 2603:1030:210:402::280/122
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

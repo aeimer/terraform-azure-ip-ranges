@@ -1,0 +1,26 @@
+id: AzureIoTHub.BrazilSoutheast
+name: AzureIoTHub.BrazilSoutheast
+metadata:
+  change_number: 1
+  region: brazilse
+  platform: Azure
+  system_service: AzureIoTHub
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 191.233.11.160/27
+    - 191.233.14.0/25
+    - 191.233.54.0/27
+    - 2603:1050:403:400::220/123
+  ipv4:
+    - 191.233.11.160/27
+    - 191.233.14.0/25
+    - 191.233.54.0/27
+  ipv6:
+    - 2603:1050:403:400::220/123
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

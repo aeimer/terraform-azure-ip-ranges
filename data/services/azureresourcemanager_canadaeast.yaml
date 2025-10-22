@@ -1,0 +1,30 @@
+id: AzureResourceManager.CanadaEast
+name: AzureResourceManager.CanadaEast
+metadata:
+  change_number: 2
+  region: canadaeast
+  platform: Azure
+  system_service: AzureResourceManager
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 40.69.108.32/28
+    - 40.69.112.0/22
+    - 52.139.104.0/23
+    - 2603:1030:1005::6c0/122
+    - 2603:1030:1005:3::500/120
+    - 2603:1030:1005:402::280/122
+  ipv4:
+    - 40.69.108.32/28
+    - 40.69.112.0/22
+    - 52.139.104.0/23
+  ipv6:
+    - 2603:1030:1005::6c0/122
+    - 2603:1030:1005:3::500/120
+    - 2603:1030:1005:402::280/122
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

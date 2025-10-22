@@ -1,0 +1,26 @@
+id: AzureArcInfrastructure.JapanWest
+name: AzureArcInfrastructure.JapanWest
+metadata:
+  change_number: 3
+  region: japanwest
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.190.132.42/31
+    - 4.190.132.184/29
+    - 40.74.102.16/30
+    - 40.80.59.24/30
+  ipv4:
+    - 4.190.132.42/31
+    - 4.190.132.184/29
+    - 40.74.102.16/30
+    - 40.80.59.24/30
+  ipv6: []
+  counts:
+    total: 4
+    ipv4: 4
+    ipv6: 0

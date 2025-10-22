@@ -1,0 +1,24 @@
+id: AzureDigitalTwins.SwitzerlandNorth
+name: AzureDigitalTwins.SwitzerlandNorth
+metadata:
+  change_number: 2
+  region: switzerlandn
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.107.241.64/27
+    - 51.107.241.96/29
+    - 2603:1020:a04:2::580/121
+  ipv4:
+    - 51.107.241.64/27
+    - 51.107.241.96/29
+  ipv6:
+    - 2603:1020:a04:2::580/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

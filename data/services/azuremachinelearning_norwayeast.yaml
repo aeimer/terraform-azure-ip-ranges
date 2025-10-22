@@ -1,0 +1,28 @@
+id: AzureMachineLearning.NorwayEast
+name: AzureMachineLearning.NorwayEast
+metadata:
+  change_number: 2
+  region: norwaye
+  platform: Azure
+  system_service: AzureMachineLearning
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 51.120.99.64/28
+    - 51.120.107.64/28
+    - 51.120.211.64/28
+    - 51.120.234.224/28
+    - 2603:1020:e04:1::2c0/122
+  ipv4:
+    - 51.120.99.64/28
+    - 51.120.107.64/28
+    - 51.120.211.64/28
+    - 51.120.234.224/28
+  ipv6:
+    - 2603:1020:e04:1::2c0/122
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

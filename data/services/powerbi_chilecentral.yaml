@@ -1,0 +1,36 @@
+id: PowerBI.ChileCentral
+name: PowerBI.ChileCentral
+metadata:
+  change_number: 1
+  region: chilec
+  platform: Azure
+  system_service: PowerBI
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 68.211.13.20/31
+    - 68.211.13.48/30
+    - 68.211.13.56/29
+    - 68.211.24.16/28
+    - 68.211.24.32/28
+    - 2603:1050:301:2::380/122
+    - 2603:1050:301:2::3c0/123
+  ipv4:
+    - 68.211.13.20/31
+    - 68.211.13.48/30
+    - 68.211.13.56/29
+    - 68.211.24.16/28
+    - 68.211.24.32/28
+  ipv6:
+    - 2603:1050:301:2::380/122
+    - 2603:1050:301:2::3c0/123
+  counts:
+    total: 7
+    ipv4: 5
+    ipv6: 2

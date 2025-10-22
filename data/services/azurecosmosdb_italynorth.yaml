@@ -1,0 +1,28 @@
+id: AzureCosmosDB.ItalyNorth
+name: AzureCosmosDB.ItalyNorth
+metadata:
+  change_number: 1
+  region: italynorth
+  platform: Azure
+  system_service: AzureCosmosDB
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 4.232.26.64/27
+    - 4.232.42.64/26
+    - 2603:1020:1204::1e0/123
+  ipv4:
+    - 4.232.26.64/27
+    - 4.232.42.64/26
+  ipv6:
+    - 2603:1020:1204::1e0/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

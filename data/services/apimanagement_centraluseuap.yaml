@@ -1,0 +1,34 @@
+id: ApiManagement.CentralUSEUAP
+name: ApiManagement.CentralUSEUAP
+metadata:
+  change_number: 3
+  region: centraluseuap
+  platform: Azure
+  system_service: AzureApiManagement
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.46.13.224/28
+    - 40.78.202.128/31
+    - 40.78.203.160/28
+    - 52.253.159.160/32
+    - 2603:1030:f:2::490/124
+    - 2603:1030:f:400::940/124
+  ipv4:
+    - 20.46.13.224/28
+    - 40.78.202.128/31
+    - 40.78.203.160/28
+    - 52.253.159.160/32
+  ipv6:
+    - 2603:1030:f:2::490/124
+    - 2603:1030:f:400::940/124
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

@@ -1,0 +1,22 @@
+id: StorageSyncService.SouthCentralUS
+name: StorageSyncService.SouthCentralUS
+metadata:
+  change_number: 2
+  region: southcentralus
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 13.73.248.112/29
+    - 2603:1030:807:1::300/123
+  ipv4:
+    - 13.73.248.112/29
+  ipv6:
+    - 2603:1030:807:1::300/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

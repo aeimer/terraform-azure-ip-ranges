@@ -1,0 +1,36 @@
+id: AzureKeyVault.AustraliaCentral
+name: AzureKeyVault.AustraliaCentral
+metadata:
+  change_number: 5
+  region: australiacentral
+  platform: Azure
+  system_service: AzureKeyVault
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 20.36.106.64/30
+    - 20.53.48.40/29
+    - 20.53.49.96/30
+    - 2603:1010:304::100/125
+    - 2603:1010:304::108/126
+    - 2603:1010:304::2a0/125
+    - 2603:1010:304:402::80/125
+  ipv4:
+    - 20.36.106.64/30
+    - 20.53.48.40/29
+    - 20.53.49.96/30
+  ipv6:
+    - 2603:1010:304::100/125
+    - 2603:1010:304::108/126
+    - 2603:1010:304::2a0/125
+    - 2603:1010:304:402::80/125
+  counts:
+    total: 7
+    ipv4: 3
+    ipv6: 4

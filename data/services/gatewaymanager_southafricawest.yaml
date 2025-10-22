@@ -1,0 +1,27 @@
+id: GatewayManager.SouthAfricaWest
+name: GatewayManager.SouthAfricaWest
+metadata:
+  change_number: 3
+  region: southafricawest
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+  global_change_number: 373
+  cloud: Public
+address_prefixes:
+  all:
+    - 102.37.86.224/27
+    - 102.133.27.16/29
+    - 102.133.56.72/29
+    - 2603:1000:4::40/122
+  ipv4:
+    - 102.37.86.224/27
+    - 102.133.27.16/29
+    - 102.133.56.72/29
+  ipv6:
+    - 2603:1000:4::40/122
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1
