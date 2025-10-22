@@ -40,12 +40,12 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-          git add data/ServiceTags_Public.json data/services/
-
           if [ -z "$(git status --porcelain)" ]; then
             echo "No changes to commit"
             exit 0
           fi
+          
+          git add data/ServiceTags_Public.json data/services/
 
           git commit -m "Update Azure Service Tags to change number ${{ steps.download.outputs.new_change_number }}
 
