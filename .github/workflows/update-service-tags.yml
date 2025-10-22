@@ -47,6 +47,8 @@ jobs:
             echo "Changes detected, committing..."
           fi
           
+          git diff --stat
+          
           git add data/ServiceTags_Public.json data/services/
 
           git commit -m "Update Azure Service Tags to change number ${{ steps.download.outputs.new_change_number }}
