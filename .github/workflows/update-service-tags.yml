@@ -60,7 +60,11 @@ jobs:
           
           git add data/ServiceTags_Public.json data/services/
 
-          git commit -m "Update Azure Service Tags: $TRUNKVER" -m "Automated update from Microsoft's ServiceTags JSON"
+          git commit \
+          -m "Update Azure Service Tags: $TRUNKVER" \
+          -m "Automated update from Microsoft's ServiceTags JSON" \
+          -m "Pipeline: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          
           git push
           
           git tag $TRUNKVER
