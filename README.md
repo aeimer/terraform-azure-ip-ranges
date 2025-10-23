@@ -180,3 +180,7 @@ Please open an issue or submit a pull request.
 ## Maintainer
 
 Alexander Eimer ([@aeimer](https://github.com/aeimer))
+
+## Star history
+
+[![Star History](https://api.star-history.com/svg?repos=aeimer/terraform-azure-ip-ranges&type=Date)](https://star-history.com/#aeimer/terraform-azure-ip-ranges&Date)
