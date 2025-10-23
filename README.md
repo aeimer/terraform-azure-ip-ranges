@@ -16,7 +16,8 @@ A Terraform/OpenTofu module that provides all IP address ranges used by Azure se
 
 ```hcl
 module "azure_ip_ranges" {
-  source = "github.com/aeimer/terraform-azure-ip-ranges"
+  # Use either main or a specific version tag which is updates by e.g. renovate bot
+  source = "git::https://github.com/aeimer/terraform-azure-ip-ranges.git?ref=main"
 }
 
 output "all_azure_ips" {
@@ -36,7 +37,8 @@ output "ipv6_only" {
 
 ```hcl
 module "azure_ip_ranges" {
-  source = "github.com/aeimer/terraform-azure-ip-ranges"
+  # Use either main or a specific version tag which is updates by e.g. renovate bot
+  source = "git::https://github.com/aeimer/terraform-azure-ip-ranges.git?ref=main"
 }
 
 locals {
@@ -56,7 +58,8 @@ output "azure_portal_ipv6" {
 
 ```hcl
 module "azure_ip_ranges" {
-  source = "github.com/aeimer/terraform-azure-ip-ranges"
+  # Use either main or a specific version tag which is updates by e.g. renovate bot
+  source = "git::https://github.com/aeimer/terraform-azure-ip-ranges.git?ref=main"
 }
 
 # Regional services use the format: ServiceName.RegionName
@@ -73,7 +76,8 @@ output "sweden_portal_ips" {
 
 ```hcl
 module "azure_ip_ranges" {
-  source = "github.com/aeimer/terraform-azure-ip-ranges"
+  # Use either main or a specific version tag which is updates by e.g. renovate bot
+  source = "git::https://github.com/aeimer/terraform-azure-ip-ranges.git?ref=main"
 }
 
 output "all_service_ids" {

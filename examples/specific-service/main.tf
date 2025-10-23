@@ -1,5 +1,6 @@
 module "azure_ip_ranges" {
-  source = "../.."
+  # Use either main or a specific version tag which is updates by e.g. renovate bot
+  source = "git::https://github.com/aeimer/terraform-azure-ip-ranges.git?ref=v20251022173335.0.0-ga9de95d-18724697633-1"
 }
 
 # Get IP ranges for a specific service (AzurePortal)
