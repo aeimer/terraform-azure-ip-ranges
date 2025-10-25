@@ -1,14 +1,14 @@
 id: AzureCloud.northeurope
 name: AzureCloud.northeurope
 metadata:
-  change_number: 130
+  change_number: 131
   region: northeurope
   platform: Azure
   system_service: ""
   network_features:
     - API
     - NSG
-  global_change_number: 373
+  global_change_number: 374
   cloud: Public
 address_prefixes:
   all:
@@ -287,7 +287,8 @@ address_prefixes:
     - 57.150.164.0/23
     - 57.150.220.0/23
     - 57.157.28.0/24
-    - 57.157.29.0/29
+    - 57.157.29.0/27
+    - 57.157.29.32/30
     - 65.52.64.0/20
     - 65.52.224.0/21
     - 68.219.0.0/17
@@ -675,7 +676,8 @@ address_prefixes:
     - 57.150.164.0/23
     - 57.150.220.0/23
     - 57.157.28.0/24
-    - 57.157.29.0/29
+    - 57.157.29.0/27
+    - 57.157.29.32/30
     - 65.52.64.0/20
     - 65.52.224.0/21
     - 68.219.0.0/17
@@ -789,6 +791,6 @@ address_prefixes:
     - 2a01:111:f403:da00::/64
     - 2a01:111:f403:e200::/64
   counts:
-    total: 387
-    ipv4: 345
+    total: 388
+    ipv4: 346
     ipv6: 42

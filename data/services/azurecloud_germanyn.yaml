@@ -1,14 +1,14 @@
 id: AzureCloud.germanyn
 name: AzureCloud.germanyn
 metadata:
-  change_number: 35
+  change_number: 36
   region: germanyn
   platform: Azure
   system_service: ""
   network_features:
     - API
     - NSG
-  global_change_number: 373
+  global_change_number: 374
   cloud: Public
 address_prefixes:
   all:
@@ -24,6 +24,7 @@ address_prefixes:
     - 20.135.56.0/23
     - 20.150.60.0/24
     - 20.150.112.0/24
+    - 20.153.123.0/24
     - 20.157.229.0/24
     - 20.170.160.0/19
     - 20.170.192.0/18
@@ -116,6 +117,7 @@ address_prefixes:
     - 20.135.56.0/23
     - 20.150.60.0/24
     - 20.150.112.0/24
+    - 20.153.123.0/24
     - 20.157.229.0/24
     - 20.170.160.0/19
     - 20.170.192.0/18
@@ -197,6 +199,6 @@ address_prefixes:
     - 2a01:111:f403:da0b::/64
     - 2a01:111:f403:e20b::/64
   counts:
-    total: 91
-    ipv4: 55
+    total: 92
+    ipv4: 56
     ipv6: 36

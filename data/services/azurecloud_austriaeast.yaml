@@ -1,14 +1,14 @@
 id: AzureCloud.austriaeast
 name: AzureCloud.austriaeast
 metadata:
-  change_number: 5
+  change_number: 6
   region: austriaeast
   platform: Azure
   system_service: ""
   network_features:
     - API
     - NSG
-  global_change_number: 373
+  global_change_number: 374
   cloud: Public
 address_prefixes:
   all:
@@ -57,6 +57,7 @@ address_prefixes:
     - 70.152.216.0/22
     - 70.152.220.0/23
     - 70.152.248.0/24
+    - 145.190.128.0/24
     - 209.199.22.176/28
     - 209.199.24.64/26
     - 209.199.24.128/26
@@ -138,6 +139,7 @@ address_prefixes:
     - 70.152.216.0/22
     - 70.152.220.0/23
     - 70.152.248.0/24
+    - 145.190.128.0/24
     - 209.199.22.176/28
     - 209.199.24.64/26
     - 209.199.24.128/26
@@ -175,6 +177,6 @@ address_prefixes:
     - 2a01:111:f403:da16::/64
     - 2a01:111:f403:e216::/64
   counts:
-    total: 80
-    ipv4: 50
+    total: 81
+    ipv4: 51
     ipv6: 30

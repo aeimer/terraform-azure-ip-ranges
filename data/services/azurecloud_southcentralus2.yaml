@@ -1,20 +1,21 @@
 id: AzureCloud.southcentralus2
 name: AzureCloud.southcentralus2
 metadata:
-  change_number: 8
+  change_number: 9
   region: southcentralus2
   platform: Azure
   system_service: ""
   network_features:
     - API
     - NSG
-  global_change_number: 373
+  global_change_number: 374
   cloud: Public
 address_prefixes:
   all:
     - 20.20.47.128/27
     - 20.20.72.0/26
     - 20.20.72.64/27
+    - 20.20.72.96/31
     - 20.33.220.0/24
     - 20.38.29.0/24
     - 20.152.30.0/23
@@ -43,6 +44,7 @@ address_prefixes:
     - 2603:1037:1:220::/59
     - 2603:1061:1012::/59
     - 2603:1061:1012:20::/61
+    - 2603:1061:1012:28::/64
     - 2603:1061:1312:4c00::/54
     - 2603:1061:1747::/63
     - 2603:1063:2200:3c::/64
@@ -50,6 +52,7 @@ address_prefixes:
     - 20.20.47.128/27
     - 20.20.72.0/26
     - 20.20.72.64/27
+    - 20.20.72.96/31
     - 20.33.220.0/24
     - 20.38.29.0/24
     - 20.152.30.0/23
@@ -79,10 +82,11 @@ address_prefixes:
     - 2603:1037:1:220::/59
     - 2603:1061:1012::/59
     - 2603:1061:1012:20::/61
+    - 2603:1061:1012:28::/64
     - 2603:1061:1312:4c00::/54
     - 2603:1061:1747::/63
     - 2603:1063:2200:3c::/64
   counts:
-    total: 34
-    ipv4: 23
-    ipv6: 11
+    total: 36
+    ipv4: 24
+    ipv6: 12

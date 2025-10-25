@@ -1,7 +1,7 @@
 id: Storage.EastUS
 name: Storage.EastUS
 metadata:
-  change_number: 47
+  change_number: 48
   region: eastus
   platform: Azure
   system_service: AzureStorage
@@ -10,7 +10,7 @@ metadata:
     - NSG
     - UDR
     - FW
-  global_change_number: 373
+  global_change_number: 374
   cloud: Public
 address_prefixes:
   all:
@@ -50,6 +50,7 @@ address_prefixes:
     - 20.153.88.0/24
     - 20.153.105.0/24
     - 20.153.107.0/24
+    - 20.153.124.0/24
     - 20.157.39.0/24
     - 20.157.59.0/24
     - 20.157.61.0/24
@@ -121,6 +122,7 @@ address_prefixes:
     - 135.130.64.0/23
     - 135.130.108.0/23
     - 135.130.112.0/23
+    - 135.130.160.0/23
     - 138.91.96.64/26
     - 138.91.96.128/26
     - 168.62.32.0/26
@@ -173,6 +175,7 @@ address_prefixes:
     - 20.153.88.0/24
     - 20.153.105.0/24
     - 20.153.107.0/24
+    - 20.153.124.0/24
     - 20.157.39.0/24
     - 20.157.59.0/24
     - 20.157.61.0/24
@@ -244,6 +247,7 @@ address_prefixes:
     - 135.130.64.0/23
     - 135.130.108.0/23
     - 135.130.112.0/23
+    - 135.130.160.0/23
     - 138.91.96.64/26
     - 138.91.96.128/26
     - 168.62.32.0/26
@@ -261,6 +265,6 @@ address_prefixes:
     - 2603:1030:213:8018::/62
     - 2603:1030:213:801c::/63
   counts:
-    total: 122
-    ipv4: 117
+    total: 124
+    ipv4: 119
     ipv6: 5

@@ -1,14 +1,14 @@
 id: AzureCloud.brazilsouth
 name: AzureCloud.brazilsouth
 metadata:
-  change_number: 80
+  change_number: 81
   region: brazilsouth
   platform: Azure
   system_service: ""
   network_features:
     - API
     - NSG
-  global_change_number: 373
+  global_change_number: 374
   cloud: Public
 address_prefixes:
   all:
@@ -22,9 +22,10 @@ address_prefixes:
     - 4.238.128.0/17
     - 13.105.52.80/28
     - 13.105.52.128/26
-    - 20.20.96.0/26
-    - 20.20.96.64/27
-    - 20.20.96.96/30
+    - 20.20.96.0/25
+    - 20.20.96.128/28
+    - 20.20.96.144/29
+    - 20.20.96.152/30
     - 20.33.5.0/24
     - 20.33.63.0/24
     - 20.33.161.0/24
@@ -212,9 +213,10 @@ address_prefixes:
     - 4.238.128.0/17
     - 13.105.52.80/28
     - 13.105.52.128/26
-    - 20.20.96.0/26
-    - 20.20.96.64/27
-    - 20.20.96.96/30
+    - 20.20.96.0/25
+    - 20.20.96.128/28
+    - 20.20.96.144/29
+    - 20.20.96.152/30
     - 20.33.5.0/24
     - 20.33.63.0/24
     - 20.33.161.0/24
@@ -393,6 +395,6 @@ address_prefixes:
     - 2a01:111:f403:d919::/64
     - 2a01:111:f403:e01c::/64
   counts:
-    total: 189
-    ipv4: 149
+    total: 190
+    ipv4: 150
     ipv6: 40

@@ -1,7 +1,7 @@
 id: AzureMonitor
 name: AzureMonitor
 metadata:
-  change_number: 168
+  change_number: 169
   region: ""
   platform: Azure
   system_service: AzureMonitor
@@ -10,7 +10,7 @@ metadata:
     - NSG
     - UDR
     - FW
-  global_change_number: 373
+  global_change_number: 374
   cloud: Public
 address_prefixes:
   all:
@@ -1850,6 +1850,8 @@ address_prefixes:
     - 2603:1020:1501:f::10/127
     - 2603:1020:1502:2::480/121
     - 2603:1020:1502:2::500/120
+    - 2603:1020:1601:8::f/128
+    - 2603:1020:1601:8::18/128
     - 2603:1020:1602:2::480/121
     - 2603:1020:1602:2::500/120
     - 2603:1030:7::25/128
@@ -4349,6 +4351,8 @@ address_prefixes:
     - 2603:1020:1501:f::10/127
     - 2603:1020:1502:2::480/121
     - 2603:1020:1502:2::500/120
+    - 2603:1020:1601:8::f/128
+    - 2603:1020:1601:8::18/128
     - 2603:1020:1602:2::480/121
     - 2603:1020:1602:2::500/120
     - 2603:1030:7::25/128
@@ -5011,6 +5015,6 @@ address_prefixes:
     - 2a01:111:f102:8001::1761:4c10/128
     - 2a01:111:f102:8001::1761:4f3b/128
   counts:
-    total: 2497
+    total: 2499
     ipv4: 1590
-    ipv6: 907
+    ipv6: 909

@@ -1,14 +1,14 @@
 id: AzureCloud.centralindia
 name: AzureCloud.centralindia
 metadata:
-  change_number: 109
+  change_number: 110
   region: centralindia
   platform: Azure
   system_service: ""
   network_features:
     - API
     - NSG
-  global_change_number: 373
+  global_change_number: 374
   cloud: Public
 address_prefixes:
   all:
@@ -28,6 +28,7 @@ address_prefixes:
     - 20.20.84.128/26
     - 20.20.84.192/28
     - 20.20.84.208/29
+    - 20.20.84.216/30
     - 20.33.9.0/24
     - 20.33.19.0/24
     - 20.33.28.0/24
@@ -238,6 +239,7 @@ address_prefixes:
     - 20.20.84.128/26
     - 20.20.84.192/28
     - 20.20.84.208/29
+    - 20.20.84.216/30
     - 20.33.9.0/24
     - 20.33.19.0/24
     - 20.33.28.0/24
@@ -433,6 +435,6 @@ address_prefixes:
     - 2a01:111:f403:dc09::/64
     - 2a01:111:f403:e409::/64
   counts:
-    total: 209
-    ipv4: 167
+    total: 210
+    ipv4: 168
     ipv6: 42

@@ -1,7 +1,7 @@
 id: Scuba
 name: Scuba
 metadata:
-  change_number: 23
+  change_number: 24
   region: ""
   platform: Azure
   system_service: Scuba
@@ -10,7 +10,7 @@ metadata:
     - API
     - UDR
     - FW
-  global_change_number: 373
+  global_change_number: 374
   cloud: Public
 address_prefixes:
   all:
@@ -58,6 +58,8 @@ address_prefixes:
     - 20.241.116.184/29
     - 40.80.103.224/29
     - 40.117.27.192/29
+    - 48.195.218.212/30
+    - 48.195.218.216/31
     - 48.196.101.64/29
     - 48.197.92.176/29
     - 48.198.102.192/29
@@ -202,6 +204,8 @@ address_prefixes:
     - 20.241.116.184/29
     - 40.80.103.224/29
     - 40.117.27.192/29
+    - 48.195.218.212/30
+    - 48.195.218.216/31
     - 48.196.101.64/29
     - 48.197.92.176/29
     - 48.198.102.192/29
@@ -303,6 +307,6 @@ address_prefixes:
     - 2603:1040:1b02:3::600/124
     - 2603:1050:301:2::5e0/124
   counts:
-    total: 143
-    ipv4: 116
+    total: 145
+    ipv4: 118
     ipv6: 27

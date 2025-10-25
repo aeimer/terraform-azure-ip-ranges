@@ -1,14 +1,14 @@
 id: AzureCloud.northcentralus
 name: AzureCloud.northcentralus
 metadata:
-  change_number: 98
+  change_number: 99
   region: northcentralus
   platform: Azure
   system_service: ""
   network_features:
     - API
     - NSG
-  global_change_number: 373
+  global_change_number: 374
   cloud: Public
 address_prefixes:
   all:
@@ -137,9 +137,7 @@ address_prefixes:
     - 40.116.0.0/16
     - 40.120.188.0/23
     - 40.120.190.0/25
-    - 40.120.190.128/27
-    - 40.120.190.160/28
-    - 40.120.190.176/30
+    - 40.120.190.128/26
     - 40.126.7.0/24
     - 40.126.28.0/24
     - 48.208.11.0/24
@@ -454,9 +452,7 @@ address_prefixes:
     - 40.116.0.0/16
     - 40.120.188.0/23
     - 40.120.190.0/25
-    - 40.120.190.128/27
-    - 40.120.190.160/28
-    - 40.120.190.176/30
+    - 40.120.190.128/26
     - 40.126.7.0/24
     - 40.126.28.0/24
     - 48.208.11.0/24
@@ -647,6 +643,6 @@ address_prefixes:
     - 2a01:111:f403:d918::/64
     - 2a01:111:f403:e01b::/64
   counts:
-    total: 316
-    ipv4: 274
+    total: 314
+    ipv4: 272
     ipv6: 42

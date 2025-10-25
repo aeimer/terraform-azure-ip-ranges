@@ -6,7 +6,7 @@ metadata:
   platform: Azure
   system_service: WindowsVirtualDesktop
   network_features: []
-  global_change_number: 373
+  global_change_number: 374
   cloud: Public
 address_prefixes:
   all:

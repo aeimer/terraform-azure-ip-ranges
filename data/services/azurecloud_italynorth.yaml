@@ -1,14 +1,14 @@
 id: AzureCloud.italynorth
 name: AzureCloud.italynorth
 metadata:
-  change_number: 53
+  change_number: 54
   region: italynorth
   platform: Azure
   system_service: ""
   network_features:
     - API
     - NSG
-  global_change_number: 373
+  global_change_number: 374
   cloud: Public
 address_prefixes:
   all:
@@ -53,6 +53,7 @@ address_prefixes:
     - 40.107.164.0/23
     - 40.120.132.0/23
     - 40.120.134.0/29
+    - 40.120.134.8/30
     - 48.212.19.0/24
     - 48.212.147.0/24
     - 48.213.19.0/24
@@ -96,6 +97,7 @@ address_prefixes:
     - 2603:1061:100b:e0::/60
     - 2603:1061:100b:f0::/61
     - 2603:1061:100b:f8::/62
+    - 2603:1061:100b:fc::/63
     - 2603:1061:1311:1c00::/54
     - 2603:1061:173b::/48
     - 2603:1061:2000:760::/62
@@ -165,6 +167,7 @@ address_prefixes:
     - 40.107.164.0/23
     - 40.120.132.0/23
     - 40.120.134.0/29
+    - 40.120.134.8/30
     - 48.212.19.0/24
     - 48.212.147.0/24
     - 48.213.19.0/24
@@ -209,6 +212,7 @@ address_prefixes:
     - 2603:1061:100b:e0::/60
     - 2603:1061:100b:f0::/61
     - 2603:1061:100b:f8::/62
+    - 2603:1061:100b:fc::/63
     - 2603:1061:1311:1c00::/54
     - 2603:1061:173b::/48
     - 2603:1061:2000:760::/62
@@ -237,6 +241,6 @@ address_prefixes:
     - 2a01:111:f403:da15::/64
     - 2a01:111:f403:e215::/64
   counts:
-    total: 111
-    ipv4: 69
-    ipv6: 42
+    total: 113
+    ipv4: 70
+    ipv6: 43

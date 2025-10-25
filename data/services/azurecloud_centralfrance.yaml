@@ -1,14 +1,14 @@
 id: AzureCloud.centralfrance
 name: AzureCloud.centralfrance
 metadata:
-  change_number: 86
+  change_number: 87
   region: centralfrance
   platform: Azure
   system_service: ""
   network_features:
     - API
     - NSG
-  global_change_number: 373
+  global_change_number: 374
   cloud: Public
 address_prefixes:
   all:
@@ -152,8 +152,7 @@ address_prefixes:
     - 52.245.116.0/22
     - 57.150.40.0/23
     - 57.157.36.0/25
-    - 57.157.36.128/28
-    - 57.157.36.144/30
+    - 57.157.36.128/26
     - 70.37.152.0/24
     - 70.152.10.0/24
     - 70.152.46.0/23
@@ -350,8 +349,7 @@ address_prefixes:
     - 52.245.116.0/22
     - 57.150.40.0/23
     - 57.157.36.0/25
-    - 57.157.36.128/28
-    - 57.157.36.144/30
+    - 57.157.36.128/26
     - 70.37.152.0/24
     - 70.152.10.0/24
     - 70.152.46.0/23
@@ -409,6 +407,6 @@ address_prefixes:
     - 2a01:111:f403:da0a::/64
     - 2a01:111:f403:e20a::/64
   counts:
-    total: 197
-    ipv4: 155
+    total: 196
+    ipv4: 154
     ipv6: 42

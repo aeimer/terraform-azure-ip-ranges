@@ -1,14 +1,14 @@
 id: AzureCloud.westus
 name: AzureCloud.westus
 metadata:
-  change_number: 122
+  change_number: 123
   region: westus
   platform: Azure
   system_service: ""
   network_features:
     - API
     - NSG
-  global_change_number: 373
+  global_change_number: 374
   cloud: Public
 address_prefixes:
   all:
@@ -38,6 +38,7 @@ address_prefixes:
     - 20.20.94.0/26
     - 20.20.94.64/28
     - 20.20.94.80/30
+    - 20.20.94.84/31
     - 20.20.137.0/24
     - 20.33.105.0/24
     - 20.33.135.0/24
@@ -395,6 +396,7 @@ address_prefixes:
     - 20.20.94.0/26
     - 20.20.94.64/28
     - 20.20.94.80/30
+    - 20.20.94.84/31
     - 20.20.137.0/24
     - 20.33.105.0/24
     - 20.33.135.0/24
@@ -727,6 +729,6 @@ address_prefixes:
     - 2a01:111:f403:e000::/63
     - 2a01:111:f403:f800::/62
   counts:
-    total: 356
-    ipv4: 302
+    total: 357
+    ipv4: 303
     ipv6: 54
