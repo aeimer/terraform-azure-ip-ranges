@@ -113,13 +113,11 @@ Each service in the `services` output has the following structure:
   id = "AzurePortal"
   name = "AzurePortal"
   metadata = {
-    change_number        = 53
-    region              = ""
-    platform            = "Azure"
-    system_service      = "AzurePortal"
-    network_features    = ["API", "NSG", "UDR", "FW"]
-    global_change_number = 373
-    cloud               = "Public"
+    change_number    = 53
+    region           = ""
+    platform         = "Azure"
+    system_service   = "AzurePortal"
+    network_features = ["API", "NSG", "UDR", "FW"]
   }
   address_prefixes = {
     all   = ["4.145.74.52/30", "2603:1000:4::10c/126", ...]

@@ -12,6 +12,8 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
+// INPUT JSON STRUCTURES
+
 // ServiceTags represents the top-level JSON structure
 type ServiceTags struct {
 	ChangeNumber int       `json:"changeNumber"`
@@ -36,6 +38,8 @@ type ServiceProperties struct {
 	NetworkFeatures []string `json:"networkFeatures"`
 }
 
+// OUTPUT YAML STRUCTURES
+
 // ServiceYAML represents the YAML output structure
 type ServiceYAML struct {
 	ID              string              `yaml:"id"`
@@ -46,13 +50,11 @@ type ServiceYAML struct {
 
 // MetadataYAML contains service metadata
 type MetadataYAML struct {
-	ChangeNumber       int      `yaml:"change_number"`
-	Region             string   `yaml:"region"`
-	Platform           string   `yaml:"platform"`
-	SystemService      string   `yaml:"system_service"`
-	NetworkFeatures    []string `yaml:"network_features"`
-	GlobalChangeNumber int      `yaml:"global_change_number"`
-	Cloud              string   `yaml:"cloud"`
+	ChangeNumber    int      `yaml:"change_number"`
+	Region          string   `yaml:"region"`
+	Platform        string   `yaml:"platform"`
+	SystemService   string   `yaml:"system_service"`
+	NetworkFeatures []string `yaml:"network_features"`
 }
 
 // AddressPrefixesYAML contains categorized IP prefixes
@@ -190,13 +192,11 @@ func generateServiceYAML(service Service, globalChangeNumber int, cloud string) 
 		ID:   service.ID,
 		Name: service.Name,
 		Metadata: MetadataYAML{
-			ChangeNumber:       service.Properties.ChangeNumber,
-			Region:             service.Properties.Region,
-			Platform:           service.Properties.Platform,
-			SystemService:      service.Properties.SystemService,
-			NetworkFeatures:    service.Properties.NetworkFeatures,
-			GlobalChangeNumber: globalChangeNumber,
-			Cloud:              cloud,
+			ChangeNumber:    service.Properties.ChangeNumber,
+			Region:          service.Properties.Region,
+			Platform:        service.Properties.Platform,
+			SystemService:   service.Properties.SystemService,
+			NetworkFeatures: service.Properties.NetworkFeatures,
 		},
 		AddressPrefixes: AddressPrefixesYAML{
 			All:  service.Properties.AddressPrefixes,
