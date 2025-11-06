@@ -10,8 +10,6 @@ metadata:
     - API
     - FW
     - UDR
-  global_change_number: 374
-  cloud: Public
 address_prefixes:
   all:
     - 4.218.246.30/31

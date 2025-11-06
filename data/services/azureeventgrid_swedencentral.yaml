@@ -6,8 +6,6 @@ metadata:
   platform: Azure
   system_service: AzureEventGrid
   network_features: []
-  global_change_number: 374
-  cloud: Public
 address_prefixes:
   all:
     - 51.12.47.128/25

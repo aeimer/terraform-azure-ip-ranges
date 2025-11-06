@@ -10,8 +10,6 @@ metadata:
     - NSG
     - UDR
     - FW
-  global_change_number: 374
-  cloud: Public
 address_prefixes:
   all:
     - 68.154.136.0/29

@@ -6,8 +6,6 @@ metadata:
   platform: Azure
   system_service: AzureAttestation
   network_features: []
-  global_change_number: 374
-  cloud: Public
 address_prefixes:
   all:
     - 20.40.225.60/30

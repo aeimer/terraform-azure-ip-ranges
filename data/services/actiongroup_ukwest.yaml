@@ -6,8 +6,6 @@ metadata:
   platform: Azure
   system_service: ActionGroup
   network_features: []
-  global_change_number: 374
-  cloud: Public
 address_prefixes:
   all:
     - 20.90.38.38/31

@@ -7,8 +7,6 @@ metadata:
   system_service: GatewayManager
   network_features:
     - NSG
-  global_change_number: 374
-  cloud: Public
 address_prefixes:
   all:
     - 68.210.160.64/26

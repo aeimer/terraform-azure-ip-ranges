@@ -8,8 +8,6 @@ metadata:
   network_features:
     - NSG
     - API
-  global_change_number: 374
-  cloud: Public
 address_prefixes:
   all:
     - 4.154.148.0/24

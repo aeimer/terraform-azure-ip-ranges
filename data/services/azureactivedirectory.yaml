@@ -11,8 +11,6 @@ metadata:
     - UDR
     - FW
     - VSE
-  global_change_number: 374
-  cloud: Public
 address_prefixes:
   all:
     - 4.149.98.192/27

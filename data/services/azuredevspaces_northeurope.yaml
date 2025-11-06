@@ -6,8 +6,6 @@ metadata:
   platform: Azure
   system_service: AzureDevSpaces
   network_features: []
-  global_change_number: 374
-  cloud: Public
 address_prefixes:
   all:
     - 13.74.111.128/28

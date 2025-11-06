@@ -7,8 +7,6 @@ metadata:
   system_service: AzureMonitor
   network_features:
     - NSG
-  global_change_number: 374
-  cloud: Public
 address_prefixes:
   all:
     - 20.206.0.196/31

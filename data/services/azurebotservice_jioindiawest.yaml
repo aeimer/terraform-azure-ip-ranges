@@ -6,8 +6,6 @@ metadata:
   platform: Azure
   system_service: AzureBotService
   network_features: []
-  global_change_number: 374
-  cloud: Public
 address_prefixes:
   all:
     - 20.192.160.16/30

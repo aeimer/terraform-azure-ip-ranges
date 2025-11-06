@@ -10,8 +10,6 @@ metadata:
     - NSG
     - FW
     - UDR
-  global_change_number: 374
-  cloud: Public
 address_prefixes:
   all:
     - 40.64.144.0/20
