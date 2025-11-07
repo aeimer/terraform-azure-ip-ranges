@@ -1,7 +1,7 @@
 id: DataFactory.UAECentral
 name: DataFactory.UAECentral
 metadata:
-  change_number: 3
+  change_number: 4
   region: uaecentral
   platform: Azure
   system_service: DataFactory
@@ -16,6 +16,7 @@ address_prefixes:
     - 40.120.8.56/29
     - 40.120.9.192/28
     - 74.243.20.176/28
+    - 74.243.172.128/27
     - 2603:1040:b04::440/122
     - 2603:1040:b04::500/121
     - 2603:1040:b04:402::330/124
@@ -27,12 +28,13 @@ address_prefixes:
     - 40.120.8.56/29
     - 40.120.9.192/28
     - 74.243.20.176/28
+    - 74.243.172.128/27
   ipv6:
     - 2603:1040:b04::440/122
     - 2603:1040:b04::500/121
     - 2603:1040:b04:402::330/124
     - 2603:1040:b04:800::70/124
   counts:
-    total: 10
-    ipv4: 6
+    total: 11
+    ipv4: 7
     ipv6: 4

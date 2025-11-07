@@ -1,7 +1,7 @@
 id: MicrosoftCloudAppSecurity.EastAsia
 name: MicrosoftCloudAppSecurity.EastAsia
 metadata:
-  change_number: 3
+  change_number: 4
   region: eastasia
   platform: Azure
   system_service: MicrosoftCloudAppSecurity
@@ -16,6 +16,10 @@ address_prefixes:
     - 4.252.149.64/28
     - 4.252.149.128/25
     - 13.75.39.128/27
+    - 20.24.111.211/32
+    - 20.187.120.211/32
+    - 20.255.128.79/32
+    - 20.255.128.143/32
   ipv4:
     - 4.192.252.174/31
     - 4.192.252.176/28
@@ -25,8 +29,12 @@ address_prefixes:
     - 4.252.149.64/28
     - 4.252.149.128/25
     - 13.75.39.128/27
+    - 20.24.111.211/32
+    - 20.187.120.211/32
+    - 20.255.128.79/32
+    - 20.255.128.143/32
   ipv6: []
   counts:
-    total: 8
-    ipv4: 8
+    total: 12
+    ipv4: 12
     ipv6: 0

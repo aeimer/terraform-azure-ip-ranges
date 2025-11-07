@@ -1,7 +1,7 @@
 id: MicrosoftCloudAppSecurity.BrazilSouth
 name: MicrosoftCloudAppSecurity.BrazilSouth
 metadata:
-  change_number: 2
+  change_number: 3
   region: brazilsouth
   platform: Azure
   system_service: MicrosoftCloudAppSecurity
@@ -15,6 +15,10 @@ address_prefixes:
     - 4.203.148.128/25
     - 4.203.149.0/28
     - 4.203.149.16/29
+    - 20.226.65.185/32
+    - 191.232.73.128/32
+    - 191.232.73.148/32
+    - 191.232.73.167/32
   ipv4:
     - 4.203.121.92/30
     - 4.203.121.96/28
@@ -23,8 +27,12 @@ address_prefixes:
     - 4.203.148.128/25
     - 4.203.149.0/28
     - 4.203.149.16/29
+    - 20.226.65.185/32
+    - 191.232.73.128/32
+    - 191.232.73.148/32
+    - 191.232.73.167/32
   ipv6: []
   counts:
-    total: 7
-    ipv4: 7
+    total: 11
+    ipv4: 11
     ipv6: 0

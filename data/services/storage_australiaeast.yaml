@@ -1,7 +1,7 @@
 id: Storage.AustraliaEast
 name: Storage.AustraliaEast
 metadata:
-  change_number: 15
+  change_number: 16
   region: australiaeast
   platform: Azure
   system_service: AzureStorage
@@ -43,6 +43,7 @@ address_prefixes:
     - 57.150.210.0/23
     - 104.46.31.16/28
     - 135.130.126.0/23
+    - 145.190.129.0/24
     - 191.238.66.0/26
     - 2603:1010:7::/48
   ipv4:
@@ -77,10 +78,11 @@ address_prefixes:
     - 57.150.210.0/23
     - 104.46.31.16/28
     - 135.130.126.0/23
+    - 145.190.129.0/24
     - 191.238.66.0/26
   ipv6:
     - 2603:1010:7::/48
   counts:
-    total: 33
-    ipv4: 32
+    total: 34
+    ipv4: 33
     ipv6: 1
