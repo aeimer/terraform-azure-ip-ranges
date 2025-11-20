@@ -1,7 +1,7 @@
 id: EventHub.EastUS2
 name: EventHub.EastUS2
 metadata:
-  change_number: 11
+  change_number: 12
   region: eastus2
   platform: Azure
   system_service: AzureEventHub
@@ -20,6 +20,8 @@ address_prefixes:
     - 52.167.145.0/26
     - 104.208.144.0/26
     - 104.208.181.0/24
+    - 172.175.14.128/25
+    - 172.175.104.0/23
     - 172.210.216.128/26
     - 2603:1030:40c:1::240/122
     - 2603:1030:40c:b::600/119
@@ -43,6 +45,8 @@ address_prefixes:
     - 52.167.145.0/26
     - 104.208.144.0/26
     - 104.208.181.0/24
+    - 172.175.14.128/25
+    - 172.175.104.0/23
     - 172.210.216.128/26
   ipv6:
     - 2603:1030:40c:1::240/122
@@ -59,6 +63,6 @@ address_prefixes:
     - 2603:1030:40c:802::160/123
     - 2603:1030:40c:c02::160/123
   counts:
-    total: 22
-    ipv4: 9
+    total: 24
+    ipv4: 11
     ipv6: 13

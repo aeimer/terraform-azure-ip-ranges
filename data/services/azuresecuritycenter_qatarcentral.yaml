@@ -1,0 +1,28 @@
+id: AzureSecurityCenter.QatarCentral
+name: AzureSecurityCenter.QatarCentral
+metadata:
+  change_number: 1
+  region: qatarcentral
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+address_prefixes:
+  all:
+    - 20.173.57.8/30
+    - 20.173.57.16/28
+    - 20.173.57.32/27
+    - 20.173.57.64/26
+    - 20.173.57.128/25
+    - 20.173.58.0/24
+  ipv4:
+    - 20.173.57.8/30
+    - 20.173.57.16/28
+    - 20.173.57.32/27
+    - 20.173.57.64/26
+    - 20.173.57.128/25
+    - 20.173.58.0/24
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

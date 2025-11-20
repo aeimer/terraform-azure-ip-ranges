@@ -1,7 +1,7 @@
 id: AzureAttestation.GermanyNorth
 name: AzureAttestation.GermanyNorth
 metadata:
-  change_number: 2
+  change_number: 3
   region: germanyn
   platform: Azure
   system_service: AzureAttestation
@@ -9,14 +9,16 @@ metadata:
 address_prefixes:
   all:
     - 20.52.72.44/30
+    - 20.170.241.200/29
     - 51.116.54.72/30
     - 2603:1020:d04:2::650/124
   ipv4:
     - 20.52.72.44/30
+    - 20.170.241.200/29
     - 51.116.54.72/30
   ipv6:
     - 2603:1020:d04:2::650/124
   counts:
-    total: 3
-    ipv4: 2
+    total: 4
+    ipv4: 3
     ipv6: 1

@@ -1,7 +1,7 @@
 id: SCCservice
 name: SCCservice
 metadata:
-  change_number: 10
+  change_number: 11
   region: ""
   platform: Azure
   system_service: SCCservice
@@ -62,6 +62,7 @@ address_prefixes:
     - 51.12.101.160/29
     - 51.12.204.232/29
     - 51.13.128.16/29
+    - 51.59.58.192/27
     - 51.107.128.40/29
     - 51.107.192.136/29
     - 51.116.60.248/29
@@ -194,6 +195,7 @@ address_prefixes:
     - 51.12.101.160/29
     - 51.12.204.232/29
     - 51.13.128.16/29
+    - 51.59.58.192/27
     - 51.107.128.40/29
     - 51.107.192.136/29
     - 51.116.60.248/29
@@ -277,6 +279,6 @@ address_prefixes:
     - 2603:1040:b04:6::600/123
     - 2603:1063:c000::/44
   counts:
-    total: 131
-    ipv4: 109
+    total: 132
+    ipv4: 110
     ipv6: 22

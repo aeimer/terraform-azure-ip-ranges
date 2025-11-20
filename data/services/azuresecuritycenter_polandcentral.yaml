@@ -1,0 +1,28 @@
+id: AzureSecurityCenter.PolandCentral
+name: AzureSecurityCenter.PolandCentral
+metadata:
+  change_number: 1
+  region: polandcentral
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+address_prefixes:
+  all:
+    - 20.215.122.24/30
+    - 20.215.122.32/27
+    - 20.215.122.64/26
+    - 20.215.123.0/24
+    - 20.215.124.0/25
+    - 20.215.124.128/28
+  ipv4:
+    - 20.215.122.24/30
+    - 20.215.122.32/27
+    - 20.215.122.64/26
+    - 20.215.123.0/24
+    - 20.215.124.0/25
+    - 20.215.124.128/28
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

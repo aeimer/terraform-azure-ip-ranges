@@ -1,7 +1,7 @@
 id: M365ManagementActivityApi
 name: M365ManagementActivityApi
 metadata:
-  change_number: 22
+  change_number: 23
   region: ""
   platform: Azure
   system_service: M365ManagementActivityApi
@@ -21,6 +21,7 @@ address_prefixes:
     - 4.190.132.70/31
     - 4.194.228.24/30
     - 4.232.106.8/31
+    - 9.205.75.56/31
     - 13.69.109.192/29
     - 13.69.233.40/29
     - 13.71.175.136/31
@@ -178,6 +179,7 @@ address_prefixes:
     - 4.190.132.70/31
     - 4.194.228.24/30
     - 4.232.106.8/31
+    - 9.205.75.56/31
     - 13.69.109.192/29
     - 13.69.233.40/29
     - 13.71.175.136/31
@@ -327,6 +329,6 @@ address_prefixes:
     - 2603:1050:6::34c/127
     - 2603:1050:403:1::22c/127
   counts:
-    total: 156
-    ipv4: 112
+    total: 157
+    ipv4: 113
     ipv6: 44

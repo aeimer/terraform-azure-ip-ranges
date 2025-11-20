@@ -1,7 +1,7 @@
 id: AzureContainerRegistry.NewZealandNorth
 name: AzureContainerRegistry.NewZealandNorth
 metadata:
-  change_number: 1
+  change_number: 2
   region: newzealandnorth
   platform: Azure
   system_service: AzureContainerRegistry
@@ -21,6 +21,9 @@ address_prefixes:
     - 172.204.208.64/26
     - 172.204.210.0/25
     - 2603:1010:502::560/125
+    - 2603:1010:502:5::418/125
+    - 2603:1010:502:5::430/124
+    - 2603:1010:502:5::460/123
     - 2603:1010:502:400::48/125
     - 2603:1010:502:400::100/121
     - 2603:1010:502:800::8/125
@@ -38,6 +41,9 @@ address_prefixes:
     - 172.204.210.0/25
   ipv6:
     - 2603:1010:502::560/125
+    - 2603:1010:502:5::418/125
+    - 2603:1010:502:5::430/124
+    - 2603:1010:502:5::460/123
     - 2603:1010:502:400::48/125
     - 2603:1010:502:400::100/121
     - 2603:1010:502:800::8/125
@@ -45,6 +51,6 @@ address_prefixes:
     - 2603:1010:502:c00::8/125
     - 2603:1010:502:c00::80/121
   counts:
-    total: 15
+    total: 18
     ipv4: 8
-    ipv6: 7
+    ipv6: 10

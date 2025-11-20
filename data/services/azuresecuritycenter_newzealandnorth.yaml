@@ -1,0 +1,28 @@
+id: AzureSecurityCenter.NewZealandNorth
+name: AzureSecurityCenter.NewZealandNorth
+metadata:
+  change_number: 1
+  region: newzealandnorth
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+address_prefixes:
+  all:
+    - 172.196.57.128/25
+    - 172.196.58.0/24
+    - 172.196.59.0/26
+    - 172.196.59.64/27
+    - 172.196.59.96/28
+    - 172.204.255.248/30
+  ipv4:
+    - 172.196.57.128/25
+    - 172.196.58.0/24
+    - 172.196.59.0/26
+    - 172.196.59.64/27
+    - 172.196.59.96/28
+    - 172.204.255.248/30
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

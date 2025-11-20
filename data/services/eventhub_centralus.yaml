@@ -1,7 +1,7 @@
 id: EventHub.CentralUS
 name: EventHub.CentralUS
 metadata:
-  change_number: 8
+  change_number: 9
   region: centralus
   platform: Azure
   system_service: AzureEventHub
@@ -19,7 +19,9 @@ address_prefixes:
     - 52.165.179.109/32
     - 52.182.138.128/26
     - 52.182.143.64/26
+    - 52.255.16.0/23
     - 104.208.16.0/26
+    - 172.170.168.0/25
     - 172.202.80.0/25
     - 2603:1030:10:1::240/122
     - 2603:1030:10:c::/119
@@ -34,7 +36,9 @@ address_prefixes:
     - 52.165.179.109/32
     - 52.182.138.128/26
     - 52.182.143.64/26
+    - 52.255.16.0/23
     - 104.208.16.0/26
+    - 172.170.168.0/25
     - 172.202.80.0/25
   ipv6:
     - 2603:1030:10:1::240/122
@@ -43,6 +47,6 @@ address_prefixes:
     - 2603:1030:10:802::160/123
     - 2603:1030:10:c02::160/123
   counts:
-    total: 14
-    ipv4: 9
+    total: 16
+    ipv4: 11
     ipv6: 5

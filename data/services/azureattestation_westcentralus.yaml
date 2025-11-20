@@ -1,20 +1,22 @@
 id: AzureAttestation.WestCentralUS
 name: AzureAttestation.WestCentralUS
 metadata:
-  change_number: 1
+  change_number: 2
   region: westcentralus
   platform: Azure
   system_service: AzureAttestation
   network_features: []
 address_prefixes:
   all:
+    - 20.51.53.8/29
     - 40.67.121.196/30
     - 52.150.157.172/30
   ipv4:
+    - 20.51.53.8/29
     - 40.67.121.196/30
     - 52.150.157.172/30
   ipv6: []
   counts:
-    total: 2
-    ipv4: 2
+    total: 3
+    ipv4: 3
     ipv6: 0

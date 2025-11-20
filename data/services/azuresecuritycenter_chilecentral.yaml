@@ -1,0 +1,28 @@
+id: AzureSecurityCenter.ChileCentral
+name: AzureSecurityCenter.ChileCentral
+metadata:
+  change_number: 1
+  region: chilec
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+address_prefixes:
+  all:
+    - 57.156.1.176/28
+    - 57.156.1.192/26
+    - 57.156.2.0/24
+    - 57.156.3.0/25
+    - 57.156.3.128/27
+    - 68.211.31.220/30
+  ipv4:
+    - 57.156.1.176/28
+    - 57.156.1.192/26
+    - 57.156.2.0/24
+    - 57.156.3.0/25
+    - 57.156.3.128/27
+    - 68.211.31.220/30
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

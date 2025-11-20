@@ -1,0 +1,28 @@
+id: AzureSecurityCenter.AustriaEast
+name: AzureSecurityCenter.AustriaEast
+metadata:
+  change_number: 1
+  region: austriaeast
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+address_prefixes:
+  all:
+    - 68.210.30.216/30
+    - 68.210.30.240/28
+    - 68.210.56.160/27
+    - 68.210.56.192/26
+    - 68.210.57.0/24
+    - 68.210.58.0/25
+  ipv4:
+    - 68.210.30.216/30
+    - 68.210.30.240/28
+    - 68.210.56.160/27
+    - 68.210.56.192/26
+    - 68.210.57.0/24
+    - 68.210.58.0/25
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

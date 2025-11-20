@@ -1,0 +1,28 @@
+id: AzureSecurityCenter.MexicoCentral
+name: AzureSecurityCenter.MexicoCentral
+metadata:
+  change_number: 1
+  region: mexicocentral
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+address_prefixes:
+  all:
+    - 172.195.50.60/30
+    - 172.195.50.64/26
+    - 172.195.50.128/25
+    - 172.195.51.0/24
+    - 172.195.52.0/27
+    - 172.195.52.32/28
+  ipv4:
+    - 172.195.50.60/30
+    - 172.195.50.64/26
+    - 172.195.50.128/25
+    - 172.195.51.0/24
+    - 172.195.52.0/27
+    - 172.195.52.32/28
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

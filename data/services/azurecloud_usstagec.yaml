@@ -1,7 +1,7 @@
 id: AzureCloud.usstagec
 name: AzureCloud.usstagec
 metadata:
-  change_number: 25
+  change_number: 26
   region: usstagec
   platform: Azure
   system_service: ""
@@ -43,7 +43,6 @@ address_prefixes:
     - 40.90.16.32/27
     - 40.90.128.32/28
     - 40.90.151.192/27
-    - 40.97.63.0/26
     - 40.123.164.138/31
     - 40.123.164.140/30
     - 40.123.165.0/30
@@ -127,7 +126,6 @@ address_prefixes:
     - 40.90.16.32/27
     - 40.90.128.32/28
     - 40.90.151.192/27
-    - 40.97.63.0/26
     - 40.123.164.138/31
     - 40.123.164.140/30
     - 40.123.165.0/30
@@ -179,6 +177,6 @@ address_prefixes:
     - 2603:1061:2010:25::/64
     - 2603:1061:2011:25::/64
   counts:
-    total: 83
-    ipv4: 47
+    total: 82
+    ipv4: 46
     ipv6: 36

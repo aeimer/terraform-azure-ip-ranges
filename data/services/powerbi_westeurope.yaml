@@ -1,7 +1,7 @@
 id: PowerBI.WestEurope
 name: PowerBI.WestEurope
 metadata:
-  change_number: 4
+  change_number: 5
   region: westeurope
   platform: Azure
   system_service: PowerBI
@@ -21,6 +21,7 @@ address_prefixes:
     - 40.74.30.160/27
     - 40.74.30.192/26
     - 40.74.31.0/26
+    - 48.199.6.192/26
     - 48.222.183.64/26
     - 48.222.186.224/27
     - 48.222.187.0/26
@@ -45,6 +46,7 @@ address_prefixes:
     - 40.74.30.160/27
     - 40.74.30.192/26
     - 40.74.31.0/26
+    - 48.199.6.192/26
     - 48.222.183.64/26
     - 48.222.186.224/27
     - 48.222.187.0/26
@@ -61,6 +63,6 @@ address_prefixes:
     - 2603:1020:206:1::5e0/123
     - 2603:1020:206:1::600/122
   counts:
-    total: 23
-    ipv4: 19
+    total: 24
+    ipv4: 20
     ipv6: 4

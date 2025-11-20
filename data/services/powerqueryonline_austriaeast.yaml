@@ -1,20 +1,26 @@
 id: PowerQueryOnline.AustriaEast
 name: PowerQueryOnline.AustriaEast
 metadata:
-  change_number: 1
+  change_number: 2
   region: austriaeast
   platform: Azure
   system_service: PowerQueryOnline
   network_features: []
 address_prefixes:
   all:
+    - 68.210.30.96/27
     - 68.210.160.40/29
     - 2603:1020:104:4::20/123
+    - 2603:1020:104:6::430/124
+    - 2603:1020:104:6::4a0/123
   ipv4:
+    - 68.210.30.96/27
     - 68.210.160.40/29
   ipv6:
     - 2603:1020:104:4::20/123
+    - 2603:1020:104:6::430/124
+    - 2603:1020:104:6::4a0/123
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 5
+    ipv4: 2
+    ipv6: 3

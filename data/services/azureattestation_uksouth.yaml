@@ -1,20 +1,22 @@
 id: AzureAttestation.UKSouth
 name: AzureAttestation.UKSouth
 metadata:
-  change_number: 2
+  change_number: 3
   region: uksouth
   platform: Azure
   system_service: AzureAttestation
   network_features: []
 address_prefixes:
   all:
+    - 4.159.236.184/29
     - 51.140.149.84/30
     - 51.143.209.132/30
   ipv4:
+    - 4.159.236.184/29
     - 51.140.149.84/30
     - 51.143.209.132/30
   ipv6: []
   counts:
-    total: 2
-    ipv4: 2
+    total: 3
+    ipv4: 3
     ipv6: 0

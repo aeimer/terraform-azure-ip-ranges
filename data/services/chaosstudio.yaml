@@ -1,7 +1,7 @@
 id: ChaosStudio
 name: ChaosStudio
 metadata:
-  change_number: 9
+  change_number: 10
   region: ""
   platform: Azure
   system_service: ChaosStudio
@@ -66,6 +66,8 @@ address_prefixes:
     - 20.125.157.4/30
     - 20.164.152.72/29
     - 20.166.47.172/30
+    - 20.174.245.82/31
+    - 20.174.245.84/30
     - 20.175.6.240/29
     - 20.192.175.32/30
     - 20.195.87.50/31
@@ -186,6 +188,8 @@ address_prefixes:
     - 20.125.157.4/30
     - 20.164.152.72/29
     - 20.166.47.172/30
+    - 20.174.245.82/31
+    - 20.174.245.84/30
     - 20.175.6.240/29
     - 20.192.175.32/30
     - 20.195.87.50/31
@@ -253,6 +257,6 @@ address_prefixes:
     - 172.215.253.72/29
   ipv6: []
   counts:
-    total: 119
-    ipv4: 119
+    total: 121
+    ipv4: 121
     ipv6: 0

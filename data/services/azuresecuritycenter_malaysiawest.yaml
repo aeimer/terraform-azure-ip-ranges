@@ -1,0 +1,28 @@
+id: AzureSecurityCenter.MalaysiaWest
+name: AzureSecurityCenter.MalaysiaWest
+metadata:
+  change_number: 1
+  region: malaysiawest
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+address_prefixes:
+  all:
+    - 85.211.140.136/30
+    - 85.211.143.176/28
+    - 85.211.143.192/26
+    - 85.211.232.0/24
+    - 85.211.233.0/25
+    - 85.211.233.128/27
+  ipv4:
+    - 85.211.140.136/30
+    - 85.211.143.176/28
+    - 85.211.143.192/26
+    - 85.211.232.0/24
+    - 85.211.233.0/25
+    - 85.211.233.128/27
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

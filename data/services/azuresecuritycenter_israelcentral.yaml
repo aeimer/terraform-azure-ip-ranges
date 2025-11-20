@@ -1,0 +1,28 @@
+id: AzureSecurityCenter.IsraelCentral
+name: AzureSecurityCenter.IsraelCentral
+metadata:
+  change_number: 1
+  region: israelcentral
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+address_prefixes:
+  all:
+    - 51.58.49.60/30
+    - 51.58.49.64/26
+    - 51.58.49.128/25
+    - 51.58.50.0/24
+    - 51.58.51.0/27
+    - 51.58.51.32/28
+  ipv4:
+    - 51.58.49.60/30
+    - 51.58.49.64/26
+    - 51.58.49.128/25
+    - 51.58.50.0/24
+    - 51.58.51.0/27
+    - 51.58.51.32/28
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

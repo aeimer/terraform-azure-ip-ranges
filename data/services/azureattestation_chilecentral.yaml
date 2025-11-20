@@ -1,7 +1,7 @@
 id: AzureAttestation.ChileCentral
 name: AzureAttestation.ChileCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: chilec
   platform: Azure
   system_service: AzureAttestation
@@ -9,12 +9,14 @@ metadata:
 address_prefixes:
   all:
     - 68.211.19.184/30
+    - 68.211.31.176/29
     - 2603:1050:301::540/124
   ipv4:
     - 68.211.19.184/30
+    - 68.211.31.176/29
   ipv6:
     - 2603:1050:301::540/124
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

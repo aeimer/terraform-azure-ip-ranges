@@ -1,7 +1,7 @@
 id: Storage.QatarCentral
 name: Storage.QatarCentral
 metadata:
-  change_number: 6
+  change_number: 7
   region: qatarcentral
   platform: Azure
   system_service: AzureStorage
@@ -19,6 +19,7 @@ address_prefixes:
     - 20.209.2.0/23
     - 20.209.54.0/23
     - 20.209.202.0/23
+    - 145.190.131.0/24
     - 2603:1040:1004::/48
   ipv4:
     - 20.33.176.0/24
@@ -28,9 +29,10 @@ address_prefixes:
     - 20.209.2.0/23
     - 20.209.54.0/23
     - 20.209.202.0/23
+    - 145.190.131.0/24
   ipv6:
     - 2603:1040:1004::/48
   counts:
-    total: 8
-    ipv4: 7
+    total: 9
+    ipv4: 8
     ipv6: 1

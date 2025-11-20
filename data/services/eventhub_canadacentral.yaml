@@ -1,7 +1,7 @@
 id: EventHub.CanadaCentral
 name: EventHub.CanadaCentral
 metadata:
-  change_number: 10
+  change_number: 11
   region: canadacentral
   platform: Azure
   system_service: AzureEventHub
@@ -12,6 +12,7 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 4.172.80.0/25
     - 4.206.228.192/26
     - 13.71.170.16/28
     - 13.71.177.128/26
@@ -32,6 +33,7 @@ address_prefixes:
     - 2603:1030:f05:c02::160/123
     - 2603:10e1:100:2::348b:476/128
   ipv4:
+    - 4.172.80.0/25
     - 4.206.228.192/26
     - 13.71.170.16/28
     - 13.71.177.128/26
@@ -53,6 +55,6 @@ address_prefixes:
     - 2603:1030:f05:c02::160/123
     - 2603:10e1:100:2::348b:476/128
   counts:
-    total: 19
-    ipv4: 9
+    total: 20
+    ipv4: 10
     ipv6: 10

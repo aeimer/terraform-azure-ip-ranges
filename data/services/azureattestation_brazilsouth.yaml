@@ -1,20 +1,22 @@
 id: AzureAttestation.BrazilSouth
 name: AzureAttestation.BrazilSouth
 metadata:
-  change_number: 1
+  change_number: 2
   region: brazilsouth
   platform: Azure
   system_service: AzureAttestation
   network_features: []
 address_prefixes:
   all:
+    - 51.59.56.192/29
     - 191.233.207.212/30
     - 191.238.72.72/30
   ipv4:
+    - 51.59.56.192/29
     - 191.233.207.212/30
     - 191.238.72.72/30
   ipv6: []
   counts:
-    total: 2
-    ipv4: 2
+    total: 3
+    ipv4: 3
     ipv6: 0

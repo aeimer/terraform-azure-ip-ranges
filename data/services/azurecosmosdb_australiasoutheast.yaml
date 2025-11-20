@@ -1,7 +1,7 @@
 id: AzureCosmosDB.AustraliaSoutheast
 name: AzureCosmosDB.AustraliaSoutheast
 metadata:
-  change_number: 11
+  change_number: 12
   region: australiasoutheast
   platform: Azure
   system_service: AzureCosmosDB
@@ -12,6 +12,7 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 4.199.44.192/27
     - 13.77.50.0/28
     - 20.46.109.213/32
     - 20.46.110.132/32
@@ -25,6 +26,7 @@ address_prefixes:
     - 2603:1010:101:402::c0/122
     - 2603:1010:207::2e0/123
   ipv4:
+    - 4.199.44.192/27
     - 13.77.50.0/28
     - 20.46.109.213/32
     - 20.46.110.132/32
@@ -39,6 +41,6 @@ address_prefixes:
     - 2603:1010:101:402::c0/122
     - 2603:1010:207::2e0/123
   counts:
-    total: 12
-    ipv4: 10
+    total: 13
+    ipv4: 11
     ipv6: 2

@@ -1,0 +1,28 @@
+id: AzureSecurityCenter.SpainCentral
+name: AzureSecurityCenter.SpainCentral
+metadata:
+  change_number: 1
+  region: spaincentral
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+address_prefixes:
+  all:
+    - 70.156.174.4/30
+    - 70.156.174.16/28
+    - 70.156.174.32/27
+    - 70.156.174.64/26
+    - 70.156.175.0/24
+    - 158.158.128.0/25
+  ipv4:
+    - 70.156.174.4/30
+    - 70.156.174.16/28
+    - 70.156.174.32/27
+    - 70.156.174.64/26
+    - 70.156.175.0/24
+    - 158.158.128.0/25
+  ipv6: []
+  counts:
+    total: 6
+    ipv4: 6
+    ipv6: 0

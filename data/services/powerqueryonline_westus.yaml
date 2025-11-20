@@ -1,7 +1,7 @@
 id: PowerQueryOnline.WestUS
 name: PowerQueryOnline.WestUS
 metadata:
-  change_number: 7
+  change_number: 8
   region: westus
   platform: Azure
   system_service: PowerQueryOnline
@@ -12,17 +12,21 @@ address_prefixes:
     - 20.189.175.164/31
     - 40.82.253.72/29
     - 52.159.212.192/28
+    - 52.238.20.48/29
     - 2603:1030:a07::200/123
+    - 2603:1030:a07:1f::5c0/122
     - 2603:1030:a07:402::358/126
   ipv4:
     - 20.59.81.240/28
     - 20.189.175.164/31
     - 40.82.253.72/29
     - 52.159.212.192/28
+    - 52.238.20.48/29
   ipv6:
     - 2603:1030:a07::200/123
+    - 2603:1030:a07:1f::5c0/122
     - 2603:1030:a07:402::358/126
   counts:
-    total: 6
-    ipv4: 4
-    ipv6: 2
+    total: 8
+    ipv4: 5
+    ipv6: 3

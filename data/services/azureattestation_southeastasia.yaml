@@ -1,20 +1,22 @@
 id: AzureAttestation.SoutheastAsia
 name: AzureAttestation.SoutheastAsia
 metadata:
-  change_number: 2
+  change_number: 3
   region: southeastasia
   platform: Azure
   system_service: AzureAttestation
   network_features: []
 address_prefixes:
   all:
+    - 4.145.10.168/29
     - 23.98.109.52/30
     - 40.78.239.116/30
   ipv4:
+    - 4.145.10.168/29
     - 23.98.109.52/30
     - 40.78.239.116/30
   ipv6: []
   counts:
-    total: 2
-    ipv4: 2
+    total: 3
+    ipv4: 3
     ipv6: 0

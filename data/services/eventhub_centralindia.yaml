@@ -1,7 +1,7 @@
 id: EventHub.CentralIndia
 name: EventHub.CentralIndia
 metadata:
-  change_number: 7
+  change_number: 8
   region: centralindia
   platform: Azure
   system_service: AzureEventHub
@@ -12,6 +12,7 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 4.186.6.64/26
     - 20.43.126.64/26
     - 20.192.98.64/26
     - 20.192.102.0/26
@@ -25,6 +26,7 @@ address_prefixes:
     - 2603:1040:a06:802::160/123
     - 2603:1040:a06:c02::160/123
   ipv4:
+    - 4.186.6.64/26
     - 20.43.126.64/26
     - 20.192.98.64/26
     - 20.192.102.0/26
@@ -39,6 +41,6 @@ address_prefixes:
     - 2603:1040:a06:802::160/123
     - 2603:1040:a06:c02::160/123
   counts:
-    total: 12
-    ipv4: 7
+    total: 13
+    ipv4: 8
     ipv6: 5

@@ -1,7 +1,7 @@
 id: PowerBI.WestCentralUS
 name: PowerBI.WestCentralUS
 metadata:
-  change_number: 3
+  change_number: 4
   region: westcentralus
   platform: Azure
   system_service: PowerBI
@@ -15,6 +15,7 @@ address_prefixes:
     - 20.51.36.160/27
     - 20.69.4.224/28
     - 20.69.4.240/30
+    - 48.194.140.0/27
     - 52.148.44.160/28
     - 52.148.46.0/28
     - 52.150.139.76/31
@@ -29,6 +30,7 @@ address_prefixes:
     - 20.51.36.160/27
     - 20.69.4.224/28
     - 20.69.4.240/30
+    - 48.194.140.0/27
     - 52.148.44.160/28
     - 52.148.46.0/28
     - 52.150.139.76/31
@@ -41,6 +43,6 @@ address_prefixes:
     - 2603:1030:b04::620/123
     - 2603:1030:b04::640/122
   counts:
-    total: 13
-    ipv4: 11
+    total: 14
+    ipv4: 12
     ipv6: 2

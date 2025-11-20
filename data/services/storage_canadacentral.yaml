@@ -1,7 +1,7 @@
 id: Storage.CanadaCentral
 name: Storage.CanadaCentral
 metadata:
-  change_number: 14
+  change_number: 15
   region: canadacentral
   platform: Azure
   system_service: AzureStorage
@@ -37,6 +37,7 @@ address_prefixes:
     - 52.239.189.0/24
     - 57.150.54.0/23
     - 135.130.52.0/23
+    - 145.190.132.0/24
     - 2603:1030:f08::/48
   ipv4:
     - 20.33.151.0/24
@@ -64,9 +65,10 @@ address_prefixes:
     - 52.239.189.0/24
     - 57.150.54.0/23
     - 135.130.52.0/23
+    - 145.190.132.0/24
   ipv6:
     - 2603:1030:f08::/48
   counts:
-    total: 26
-    ipv4: 25
+    total: 27
+    ipv4: 26
     ipv6: 1

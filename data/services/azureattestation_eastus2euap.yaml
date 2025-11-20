@@ -1,7 +1,7 @@
 id: AzureAttestation.EastUS2EUAP
 name: AzureAttestation.EastUS2EUAP
 metadata:
-  change_number: 1
+  change_number: 2
   region: eastus2euap
   platform: Azure
   system_service: AzureAttestation
@@ -10,11 +10,13 @@ address_prefixes:
   all:
     - 20.51.20.80/30
     - 40.89.121.168/30
+    - 48.223.29.136/29
   ipv4:
     - 20.51.20.80/30
     - 40.89.121.168/30
+    - 48.223.29.136/29
   ipv6: []
   counts:
-    total: 2
-    ipv4: 2
+    total: 3
+    ipv4: 3
     ipv6: 0

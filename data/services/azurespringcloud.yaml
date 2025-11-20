@@ -1,7 +1,7 @@
 id: AzureSpringCloud
 name: AzureSpringCloud
 metadata:
-  change_number: 23
+  change_number: 24
   region: ""
   platform: Azure
   system_service: AzureSpringCloud
@@ -615,7 +615,6 @@ address_prefixes:
     - 52.191.228.91/32
     - 52.191.239.43/32
     - 52.224.17.124/32
-    - 52.224.17.219/32
     - 52.224.18.31/32
     - 52.224.20.104/32
     - 52.224.25.144/32
@@ -1383,7 +1382,6 @@ address_prefixes:
     - 52.191.228.91/32
     - 52.191.239.43/32
     - 52.224.17.124/32
-    - 52.224.17.219/32
     - 52.224.18.31/32
     - 52.224.20.104/32
     - 52.224.25.144/32
@@ -1549,6 +1547,6 @@ address_prefixes:
     - 2603:1050:301::400/120
     - 2603:1050:403::700/120
   counts:
-    total: 767
-    ipv4: 687
+    total: 766
+    ipv4: 686
     ipv6: 80

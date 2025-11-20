@@ -1,7 +1,7 @@
 id: AzureAttestation.SouthCentralUS
 name: AzureAttestation.SouthCentralUS
 metadata:
-  change_number: 2
+  change_number: 3
   region: southcentralus
   platform: Azure
   system_service: AzureAttestation
@@ -10,11 +10,13 @@ address_prefixes:
   all:
     - 20.45.126.116/30
     - 20.65.130.92/30
+    - 48.192.143.112/29
   ipv4:
     - 20.45.126.116/30
     - 20.65.130.92/30
+    - 48.192.143.112/29
   ipv6: []
   counts:
-    total: 2
-    ipv4: 2
+    total: 3
+    ipv4: 3
     ipv6: 0
