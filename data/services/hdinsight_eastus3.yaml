@@ -1,0 +1,24 @@
+id: HDInsight.EastUS3
+name: HDInsight.EastUS3
+metadata:
+  change_number: 1
+  region: eastus3
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 134.138.73.152/29
+    - 2603:1030:1402:1::490/124
+  ipv4:
+    - 134.138.73.152/29
+  ipv6:
+    - 2603:1030:1402:1::490/124
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

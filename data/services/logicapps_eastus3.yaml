@@ -1,0 +1,24 @@
+id: LogicApps.EastUS3
+name: LogicApps.EastUS3
+metadata:
+  change_number: 1
+  region: eastus3
+  platform: Azure
+  system_service: LogicApps
+  network_features: []
+address_prefixes:
+  all:
+    - 134.138.84.192/28
+    - 134.138.84.224/27
+    - 2603:1030:1402:3::2e0/124
+    - 2603:1030:1402:3::300/123
+  ipv4:
+    - 134.138.84.192/28
+    - 134.138.84.224/27
+  ipv6:
+    - 2603:1030:1402:3::2e0/124
+    - 2603:1030:1402:3::300/123
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

@@ -1,0 +1,22 @@
+id: AzureBackup.EastUS3
+name: AzureBackup.EastUS3
+metadata:
+  change_number: 1
+  region: eastus3
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+address_prefixes:
+  all:
+    - 134.138.70.80/28
+    - 134.138.70.128/26
+    - 2603:1030:1402:1::/121
+  ipv4:
+    - 134.138.70.80/28
+    - 134.138.70.128/26
+  ipv6:
+    - 2603:1030:1402:1::/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

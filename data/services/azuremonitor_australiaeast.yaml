@@ -1,7 +1,7 @@
 id: AzureMonitor.AustraliaEast
 name: AzureMonitor.AustraliaEast
 metadata:
-  change_number: 19
+  change_number: 20
   region: australiaeast
   platform: Azure
   system_service: AzureMonitor
@@ -53,6 +53,7 @@ address_prefixes:
     - 2603:1010:6:7::/122
     - 2603:1010:6:7::40/123
     - 2603:1010:6:c::7f0/124
+    - 2603:1010:6:e::100/120
     - 2603:1010:6:402::500/121
     - 2603:1010:6:802::480/121
     - 2603:1010:6:802::500/121
@@ -104,12 +105,13 @@ address_prefixes:
     - 2603:1010:6:7::/122
     - 2603:1010:6:7::40/123
     - 2603:1010:6:c::7f0/124
+    - 2603:1010:6:e::100/120
     - 2603:1010:6:402::500/121
     - 2603:1010:6:802::480/121
     - 2603:1010:6:802::500/121
     - 2603:1010:6:c00::100/121
     - 2603:1010:6:c02::480/121
   counts:
-    total: 49
+    total: 50
     ipv4: 35
-    ipv6: 14
+    ipv6: 15

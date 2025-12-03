@@ -1,20 +1,22 @@
 id: StorageSyncService.BelgiumCentral
 name: StorageSyncService.BelgiumCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: belgiumcentral
   platform: Azure
   system_service: StorageSyncService
   network_features: []
 address_prefixes:
   all:
+    - 9.160.69.152/29
     - 9.160.80.48/29
     - 2603:1020:1502:400::120/123
   ipv4:
+    - 9.160.69.152/29
     - 9.160.80.48/29
   ipv6:
     - 2603:1020:1502:400::120/123
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

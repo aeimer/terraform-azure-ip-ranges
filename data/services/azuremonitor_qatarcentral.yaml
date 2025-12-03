@@ -1,7 +1,7 @@
 id: AzureMonitor.QatarCentral
 name: AzureMonitor.QatarCentral
 metadata:
-  change_number: 12
+  change_number: 13
   region: qatarcentral
   platform: Azure
   system_service: AzureMonitor
@@ -41,6 +41,7 @@ address_prefixes:
     - 2603:1040:1002:5::360/123
     - 2603:1040:1002:5::5c0/122
     - 2603:1040:1002:7::6c0/124
+    - 2603:1040:1002:8::300/120
   ipv4:
     - 4.244.170.0/27
     - 4.244.170.32/28
@@ -75,7 +76,8 @@ address_prefixes:
     - 2603:1040:1002:5::360/123
     - 2603:1040:1002:5::5c0/122
     - 2603:1040:1002:7::6c0/124
+    - 2603:1040:1002:8::300/120
   counts:
-    total: 32
+    total: 33
     ipv4: 22
-    ipv6: 10
+    ipv6: 11

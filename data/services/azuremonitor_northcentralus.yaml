@@ -1,7 +1,7 @@
 id: AzureMonitor.NorthCentralUS
 name: AzureMonitor.NorthCentralUS
 metadata:
-  change_number: 32
+  change_number: 33
   region: northcentralus
   platform: Azure
   system_service: AzureMonitor
@@ -46,6 +46,7 @@ address_prefixes:
     - 2603:1030:608:8::80/123
     - 2603:1030:608:8::c0/122
     - 2603:1030:608:13::400/122
+    - 2603:1030:608:14::200/120
     - 2603:1030:608:402::500/121
     - 2603:1030:608:802::80/121
     - 2603:1030:608:c00::300/121
@@ -103,6 +104,7 @@ address_prefixes:
     - 2603:1030:608:8::80/123
     - 2603:1030:608:8::c0/122
     - 2603:1030:608:13::400/122
+    - 2603:1030:608:14::200/120
     - 2603:1030:608:402::500/121
     - 2603:1030:608:802::80/121
     - 2603:1030:608:c00::300/121
@@ -122,6 +124,6 @@ address_prefixes:
     - 2a01:111:f100:1003::4134:37d9/128
     - 2a01:111:f100:1005::a83e:f7fe/128
   counts:
-    total: 55
+    total: 56
     ipv4: 30
-    ipv6: 25
+    ipv6: 26

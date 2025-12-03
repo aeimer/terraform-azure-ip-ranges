@@ -1,7 +1,7 @@
 id: AzureMonitor.SouthIndia
 name: AzureMonitor.SouthIndia
 metadata:
-  change_number: 12
+  change_number: 13
   region: southindia
   platform: Azure
   system_service: AzureMonitor
@@ -32,6 +32,7 @@ address_prefixes:
     - 2603:1040:c06:6::600/123
     - 2603:1040:c06:6::640/122
     - 2603:1040:c06:a::5a0/124
+    - 2603:1040:c06:b::100/120
     - 2603:1040:c06:402::500/121
   ipv4:
     - 20.41.208.32/27
@@ -58,8 +59,9 @@ address_prefixes:
     - 2603:1040:c06:6::600/123
     - 2603:1040:c06:6::640/122
     - 2603:1040:c06:a::5a0/124
+    - 2603:1040:c06:b::100/120
     - 2603:1040:c06:402::500/121
   counts:
-    total: 24
+    total: 25
     ipv4: 16
-    ipv6: 8
+    ipv6: 9

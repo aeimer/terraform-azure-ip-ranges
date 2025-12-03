@@ -1,0 +1,26 @@
+id: AzureCosmosDB.EastUS3
+name: AzureCosmosDB.EastUS3
+metadata:
+  change_number: 1
+  region: eastus3
+  platform: Azure
+  system_service: AzureCosmosDB
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 134.138.68.32/27
+    - 134.138.68.64/26
+    - 2603:1030:1402::5c0/123
+  ipv4:
+    - 134.138.68.32/27
+    - 134.138.68.64/26
+  ipv6:
+    - 2603:1030:1402::5c0/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

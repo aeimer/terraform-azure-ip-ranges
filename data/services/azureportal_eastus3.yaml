@@ -1,0 +1,22 @@
+id: AzurePortal.EastUS3
+name: AzurePortal.EastUS3
+metadata:
+  change_number: 1
+  region: eastus3
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+address_prefixes:
+  all:
+    - 134.138.82.8/30
+    - 134.138.82.160/27
+    - 2603:1030:1402:2::680/121
+  ipv4:
+    - 134.138.82.8/30
+    - 134.138.82.160/27
+  ipv6:
+    - 2603:1030:1402:2::680/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

@@ -1,7 +1,7 @@
 id: AzureCloud.southafricanorth
 name: AzureCloud.southafricanorth
 metadata:
-  change_number: 62
+  change_number: 63
   region: southafricanorth
   platform: Azure
   system_service: ""
@@ -49,6 +49,7 @@ address_prefixes:
     - 20.209.208.0/23
     - 20.231.142.0/24
     - 40.64.146.112/28
+    - 40.64.150.224/27
     - 40.64.176.0/25
     - 40.79.203.0/24
     - 40.82.20.0/22
@@ -195,6 +196,7 @@ address_prefixes:
     - 20.209.208.0/23
     - 20.231.142.0/24
     - 40.64.146.112/28
+    - 40.64.150.224/27
     - 40.64.176.0/25
     - 40.79.203.0/24
     - 40.82.20.0/22
@@ -303,6 +305,6 @@ address_prefixes:
     - 2a01:111:f403:da08::/64
     - 2a01:111:f403:e208::/64
   counts:
-    total: 145
-    ipv4: 108
+    total: 146
+    ipv4: 109
     ipv6: 37

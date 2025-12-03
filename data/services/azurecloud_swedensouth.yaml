@@ -1,7 +1,7 @@
 id: AzureCloud.swedensouth
 name: AzureCloud.swedensouth
 metadata:
-  change_number: 28
+  change_number: 29
   region: swedensouth
   platform: Azure
   system_service: ""
@@ -24,6 +24,7 @@ address_prefixes:
     - 20.157.196.0/24
     - 20.190.182.0/24
     - 40.64.144.128/29
+    - 40.64.153.96/27
     - 40.64.182.128/25
     - 40.93.213.0/24
     - 40.101.0.0/24
@@ -107,6 +108,7 @@ address_prefixes:
     - 20.157.196.0/24
     - 20.190.182.0/24
     - 40.64.144.128/29
+    - 40.64.153.96/27
     - 40.64.182.128/25
     - 40.93.213.0/24
     - 40.101.0.0/24
@@ -177,6 +179,6 @@ address_prefixes:
     - 2a01:111:f403:da03::/64
     - 2a01:111:f403:e203::/64
   counts:
-    total: 82
-    ipv4: 49
+    total: 83
+    ipv4: 50
     ipv6: 33

@@ -1,0 +1,30 @@
+id: AzureKeyVault.EastUS3
+name: AzureKeyVault.EastUS3
+metadata:
+  change_number: 1
+  region: eastus3
+  platform: Azure
+  system_service: AzureKeyVault
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 134.138.71.124/30
+    - 134.138.73.160/29
+    - 134.138.96.12/30
+    - 2603:1030:1402:1::3e8/125
+    - 2603:1030:1402:400::48/125
+  ipv4:
+    - 134.138.71.124/30
+    - 134.138.73.160/29
+    - 134.138.96.12/30
+  ipv6:
+    - 2603:1030:1402:1::3e8/125
+    - 2603:1030:1402:400::48/125
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

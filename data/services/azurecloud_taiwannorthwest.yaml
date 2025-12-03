@@ -1,7 +1,7 @@
 id: AzureCloud.taiwannorthwest
 name: AzureCloud.taiwannorthwest
 metadata:
-  change_number: 19
+  change_number: 20
   region: taiwannorthwest
   platform: Azure
   system_service: ""
@@ -24,6 +24,7 @@ address_prefixes:
     - 20.209.144.0/23
     - 20.231.134.128/25
     - 40.64.144.144/29
+    - 40.64.153.32/27
     - 40.64.191.0/25
     - 40.93.71.0/24
     - 40.93.72.0/24
@@ -109,6 +110,7 @@ address_prefixes:
     - 20.209.144.0/23
     - 20.231.134.128/25
     - 40.64.144.144/29
+    - 40.64.153.32/27
     - 40.64.191.0/25
     - 40.93.71.0/24
     - 40.93.72.0/24
@@ -181,6 +183,6 @@ address_prefixes:
     - 2a01:111:f403:e403::/64
     - 2a01:111:f403:e404::/64
   counts:
-    total: 84
-    ipv4: 45
+    total: 85
+    ipv4: 46
     ipv6: 39

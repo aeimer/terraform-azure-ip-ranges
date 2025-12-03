@@ -1,7 +1,7 @@
 id: AzureMonitor.JapanWest
 name: AzureMonitor.JapanWest
 metadata:
-  change_number: 14
+  change_number: 15
   region: japanwest
   platform: Azure
   system_service: AzureMonitor
@@ -39,6 +39,7 @@ address_prefixes:
     - 2603:1040:606:3::780/121
     - 2603:1040:606:6::400/122
     - 2603:1040:606:9::7d0/124
+    - 2603:1040:606:b::400/120
     - 2603:1040:606:402::500/121
     - 2603:1040:606:800::300/121
     - 2603:1040:606:c00::/121
@@ -74,10 +75,11 @@ address_prefixes:
     - 2603:1040:606:3::780/121
     - 2603:1040:606:6::400/122
     - 2603:1040:606:9::7d0/124
+    - 2603:1040:606:b::400/120
     - 2603:1040:606:402::500/121
     - 2603:1040:606:800::300/121
     - 2603:1040:606:c00::/121
   counts:
-    total: 33
+    total: 34
     ipv4: 22
-    ipv6: 11
+    ipv6: 12

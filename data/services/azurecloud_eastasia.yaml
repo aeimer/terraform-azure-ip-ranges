@@ -1,7 +1,7 @@
 id: AzureCloud.eastasia
 name: AzureCloud.eastasia
 metadata:
-  change_number: 76
+  change_number: 77
   region: eastasia
   platform: Azure
   system_service: ""
@@ -89,6 +89,7 @@ address_prefixes:
     - 23.102.200.0/23
     - 23.102.224.0/19
     - 40.64.145.192/28
+    - 40.64.149.128/27
     - 40.64.164.0/25
     - 40.77.134.0/24
     - 40.77.136.16/28
@@ -313,6 +314,7 @@ address_prefixes:
     - 23.102.200.0/23
     - 23.102.224.0/19
     - 40.64.145.192/28
+    - 40.64.149.128/27
     - 40.64.164.0/25
     - 40.77.134.0/24
     - 40.77.136.16/28
@@ -459,6 +461,6 @@ address_prefixes:
     - 2a01:111:f403:dc00::/64
     - 2a01:111:f403:e400::/64
   counts:
-    total: 223
-    ipv4: 188
+    total: 224
+    ipv4: 189
     ipv6: 35

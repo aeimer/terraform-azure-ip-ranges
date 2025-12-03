@@ -1,7 +1,7 @@
 id: AzureCloud.switzerlandn
 name: AzureCloud.switzerlandn
 metadata:
-  change_number: 64
+  change_number: 65
   region: switzerlandn
   platform: Azure
   system_service: ""
@@ -46,6 +46,7 @@ address_prefixes:
     - 20.231.140.0/24
     - 20.250.0.0/16
     - 40.64.147.32/28
+    - 40.64.152.64/27
     - 40.64.180.0/25
     - 40.90.30.128/27
     - 40.90.128.208/28
@@ -179,6 +180,7 @@ address_prefixes:
     - 20.231.140.0/24
     - 20.250.0.0/16
     - 40.64.147.32/28
+    - 40.64.152.64/27
     - 40.64.180.0/25
     - 40.90.30.128/27
     - 40.90.128.208/28
@@ -277,6 +279,6 @@ address_prefixes:
     - 2a01:111:f403:da13::/64
     - 2a01:111:f403:e213::/64
   counts:
-    total: 132
-    ipv4: 90
+    total: 133
+    ipv4: 91
     ipv6: 42

@@ -1,7 +1,7 @@
 id: AzureMonitor.WestUS
 name: AzureMonitor.WestUS
 metadata:
-  change_number: 46
+  change_number: 47
   region: westus
   platform: Azure
   system_service: AzureMonitor
@@ -56,6 +56,7 @@ address_prefixes:
     - 2603:1030:a07:e::100/122
     - 2603:1030:a07:20::440/122
     - 2603:1030:a07:20::480/123
+    - 2603:1030:a07:21::300/120
     - 2603:1030:a07:402::380/121
     - 2603:1030:a07:800::/121
     - 2603:1030:a07:c00::300/121
@@ -156,6 +157,7 @@ address_prefixes:
     - 2603:1030:a07:e::100/122
     - 2603:1030:a07:20::440/122
     - 2603:1030:a07:20::480/123
+    - 2603:1030:a07:21::300/120
     - 2603:1030:a07:402::380/121
     - 2603:1030:a07:800::/121
     - 2603:1030:a07:c00::300/121
@@ -208,6 +210,6 @@ address_prefixes:
     - 2a01:111:f100:3001::a83e:a67/128
     - 2a01:111:f100:3002::8987:34df/128
   counts:
-    total: 98
+    total: 99
     ipv4: 38
-    ipv6: 60
+    ipv6: 61

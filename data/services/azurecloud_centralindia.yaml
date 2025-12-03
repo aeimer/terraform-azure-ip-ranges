@@ -1,7 +1,7 @@
 id: AzureCloud.centralindia
 name: AzureCloud.centralindia
 metadata:
-  change_number: 112
+  change_number: 113
   region: centralindia
   platform: Azure
   system_service: ""
@@ -110,6 +110,7 @@ address_prefixes:
     - 20.244.0.0/17
     - 40.64.144.232/29
     - 40.64.145.80/28
+    - 40.64.148.192/27
     - 40.64.162.128/25
     - 40.79.207.32/27
     - 40.79.207.64/28
@@ -325,6 +326,7 @@ address_prefixes:
     - 20.244.0.0/17
     - 40.64.144.232/29
     - 40.64.145.80/28
+    - 40.64.148.192/27
     - 40.64.162.128/25
     - 40.79.207.32/27
     - 40.79.207.64/28
@@ -441,6 +443,6 @@ address_prefixes:
     - 2a01:111:f403:dc09::/64
     - 2a01:111:f403:e409::/64
   counts:
-    total: 214
-    ipv4: 172
+    total: 215
+    ipv4: 173
     ipv6: 42

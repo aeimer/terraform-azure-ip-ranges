@@ -1,0 +1,22 @@
+id: ServiceBus.EastUS3
+name: ServiceBus.EastUS3
+metadata:
+  change_number: 1
+  region: eastus3
+  platform: Azure
+  system_service: AzureServiceBus
+  network_features:
+    - API
+    - NSG
+address_prefixes:
+  all:
+    - 134.138.71.128/25
+    - 2603:1030:1402:1::180/121
+  ipv4:
+    - 134.138.71.128/25
+  ipv6:
+    - 2603:1030:1402:1::180/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

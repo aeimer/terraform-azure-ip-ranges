@@ -1,7 +1,7 @@
 id: AzureMonitor.IsraelCentral
 name: AzureMonitor.IsraelCentral
 metadata:
-  change_number: 6
+  change_number: 7
   region: israelcentral
   platform: Azure
   system_service: AzureMonitor
@@ -36,6 +36,7 @@ address_prefixes:
     - 2603:1040:1402:2::600/122
     - 2603:1040:1402:3::180/121
     - 2603:1040:1402:5::420/124
+    - 2603:1040:1402:8::200/120
   ipv4:
     - 20.217.9.0/27
     - 20.217.40.40/31
@@ -65,7 +66,8 @@ address_prefixes:
     - 2603:1040:1402:2::600/122
     - 2603:1040:1402:3::180/121
     - 2603:1040:1402:5::420/124
+    - 2603:1040:1402:8::200/120
   counts:
-    total: 27
+    total: 28
     ipv4: 17
-    ipv6: 10
+    ipv6: 11
