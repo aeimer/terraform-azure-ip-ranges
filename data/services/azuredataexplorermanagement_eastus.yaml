@@ -1,7 +1,7 @@
 id: AzureDataExplorerManagement.EastUS
 name: AzureDataExplorerManagement.EastUS
 metadata:
-  change_number: 6
+  change_number: 7
   region: eastus
   platform: Azure
   system_service: AzureDataExplorerManagement
@@ -11,6 +11,7 @@ address_prefixes:
     - 20.185.100.27/32
     - 40.71.13.176/28
     - 48.195.238.128/28
+    - 48.202.151.64/28
     - 52.224.146.56/32
     - 2603:1030:210::600/121
     - 2603:1030:210:402::150/124
@@ -18,11 +19,12 @@ address_prefixes:
     - 20.185.100.27/32
     - 40.71.13.176/28
     - 48.195.238.128/28
+    - 48.202.151.64/28
     - 52.224.146.56/32
   ipv6:
     - 2603:1030:210::600/121
     - 2603:1030:210:402::150/124
   counts:
-    total: 6
-    ipv4: 4
+    total: 7
+    ipv4: 5
     ipv6: 2

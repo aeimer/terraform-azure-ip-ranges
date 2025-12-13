@@ -1,7 +1,7 @@
 id: AzureMonitor.CentralIndia
 name: AzureMonitor.CentralIndia
 metadata:
-  change_number: 17
+  change_number: 18
   region: centralindia
   platform: Azure
   system_service: AzureMonitor
@@ -10,6 +10,7 @@ metadata:
 address_prefixes:
   all:
     - 4.186.1.0/24
+    - 4.188.8.112/28
     - 4.213.26.192/27
     - 4.213.29.64/26
     - 4.247.186.32/28
@@ -58,6 +59,7 @@ address_prefixes:
     - 2603:1040:a06:c02::480/121
   ipv4:
     - 4.186.1.0/24
+    - 4.188.8.112/28
     - 4.213.26.192/27
     - 4.213.29.64/26
     - 4.247.186.32/28
@@ -106,6 +108,6 @@ address_prefixes:
     - 2603:1040:a06:802::480/121
     - 2603:1040:a06:c02::480/121
   counts:
-    total: 47
-    ipv4: 34
+    total: 48
+    ipv4: 35
     ipv6: 13

@@ -1,7 +1,7 @@
 id: AzureMonitor.AustraliaCentral
 name: AzureMonitor.AustraliaCentral
 metadata:
-  change_number: 16
+  change_number: 17
   region: australiacentral
   platform: Azure
   system_service: AzureMonitor
@@ -12,6 +12,7 @@ address_prefixes:
     - 4.199.130.64/27
     - 4.199.196.192/27
     - 4.199.196.224/28
+    - 4.199.208.240/28
     - 20.28.117.0/26
     - 20.36.107.24/29
     - 20.36.107.160/28
@@ -40,6 +41,7 @@ address_prefixes:
     - 4.199.130.64/27
     - 4.199.196.192/27
     - 4.199.196.224/28
+    - 4.199.208.240/28
     - 20.28.117.0/26
     - 20.36.107.24/29
     - 20.36.107.160/28
@@ -66,6 +68,6 @@ address_prefixes:
     - 2603:1010:304:a::300/120
     - 2603:1010:304:402::500/121
   counts:
-    total: 27
-    ipv4: 16
+    total: 28
+    ipv4: 17
     ipv6: 11

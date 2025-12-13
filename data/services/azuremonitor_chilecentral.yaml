@@ -1,7 +1,7 @@
 id: AzureMonitor.ChileCentral
 name: AzureMonitor.ChileCentral
 metadata:
-  change_number: 2
+  change_number: 3
   region: chilec
   platform: Azure
   system_service: AzureMonitor
@@ -9,6 +9,7 @@ metadata:
     - NSG
 address_prefixes:
   all:
+    - 57.156.5.112/28
     - 68.211.13.22/31
     - 68.211.13.52/30
     - 68.211.14.176/29
@@ -30,6 +31,7 @@ address_prefixes:
     - 2603:1050:301:2::600/120
     - 2603:1050:301:4::390/124
   ipv4:
+    - 57.156.5.112/28
     - 68.211.13.22/31
     - 68.211.13.52/30
     - 68.211.14.176/29
@@ -52,6 +54,6 @@ address_prefixes:
     - 2603:1050:301:2::600/120
     - 2603:1050:301:4::390/124
   counts:
-    total: 20
-    ipv4: 13
+    total: 21
+    ipv4: 14
     ipv6: 7

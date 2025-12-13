@@ -1,7 +1,7 @@
 id: AzureMonitor.IndonesiaCentral
 name: AzureMonitor.IndonesiaCentral
 metadata:
-  change_number: 2
+  change_number: 3
   region: indonesiacentral
   platform: Azure
   system_service: AzureMonitor
@@ -9,6 +9,7 @@ metadata:
     - NSG
 address_prefixes:
   all:
+    - 48.193.48.80/28
     - 70.153.90.160/28
     - 70.153.166.192/29
     - 70.153.166.200/30
@@ -29,6 +30,7 @@ address_prefixes:
     - 2603:1040:1802:2::400/121
     - 2603:1040:1802:4::590/124
   ipv4:
+    - 48.193.48.80/28
     - 70.153.90.160/28
     - 70.153.166.192/29
     - 70.153.166.200/30
@@ -50,6 +52,6 @@ address_prefixes:
     - 2603:1040:1802:2::400/121
     - 2603:1040:1802:4::590/124
   counts:
-    total: 19
-    ipv4: 12
+    total: 20
+    ipv4: 13
     ipv6: 7
