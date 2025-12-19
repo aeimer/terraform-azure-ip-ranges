@@ -1,28 +1,32 @@
 id: ServiceFabric.IndonesiaCentral
 name: ServiceFabric.IndonesiaCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: indonesiacentral
   platform: Azure
   system_service: ServiceFabric
   network_features: []
 address_prefixes:
   all:
+    - 48.193.50.104/29
     - 70.153.176.12/30
     - 70.153.200.8/30
     - 70.153.216.8/30
+    - 2603:1040:1802:5::5a8/125
     - 2603:1040:1802:400::18/125
     - 2603:1040:1802:800::10/125
     - 2603:1040:1802:c00::10/125
   ipv4:
+    - 48.193.50.104/29
     - 70.153.176.12/30
     - 70.153.200.8/30
     - 70.153.216.8/30
   ipv6:
+    - 2603:1040:1802:5::5a8/125
     - 2603:1040:1802:400::18/125
     - 2603:1040:1802:800::10/125
     - 2603:1040:1802:c00::10/125
   counts:
-    total: 6
-    ipv4: 3
-    ipv6: 3
+    total: 8
+    ipv4: 4
+    ipv6: 4

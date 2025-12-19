@@ -1,7 +1,7 @@
 id: Storage.SoutheastAsia
 name: Storage.SoutheastAsia
 metadata:
-  change_number: 15
+  change_number: 16
   region: southeastasia
   platform: Azure
   system_service: AzureStorage
@@ -41,6 +41,7 @@ address_prefixes:
     - 57.150.44.0/23
     - 104.215.240.64/28
     - 104.215.240.96/28
+    - 135.130.202.0/23
     - 168.63.160.0/26
     - 168.63.160.192/26
     - 168.63.161.64/26
@@ -85,6 +86,7 @@ address_prefixes:
     - 57.150.44.0/23
     - 104.215.240.64/28
     - 104.215.240.96/28
+    - 135.130.202.0/23
     - 168.63.160.0/26
     - 168.63.160.192/26
     - 168.63.161.64/26
@@ -101,6 +103,6 @@ address_prefixes:
   ipv6:
     - 2603:1040:6::/48
   counts:
-    total: 43
-    ipv4: 42
+    total: 44
+    ipv4: 43
     ipv6: 1

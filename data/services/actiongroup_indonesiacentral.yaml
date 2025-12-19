@@ -1,20 +1,24 @@
 id: ActionGroup.IndonesiaCentral
 name: ActionGroup.IndonesiaCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: indonesiacentral
   platform: Azure
   system_service: ActionGroup
   network_features: []
 address_prefixes:
   all:
+    - 48.193.50.96/30
     - 70.153.176.24/30
+    - 2603:1040:1802:5::5a0/125
     - 2603:1040:1802:400::40/125
   ipv4:
+    - 48.193.50.96/30
     - 70.153.176.24/30
   ipv6:
+    - 2603:1040:1802:5::5a0/125
     - 2603:1040:1802:400::40/125
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 4
+    ipv4: 2
+    ipv6: 2

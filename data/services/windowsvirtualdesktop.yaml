@@ -1,7 +1,7 @@
 id: WindowsVirtualDesktop
 name: WindowsVirtualDesktop
 metadata:
-  change_number: 32
+  change_number: 33
   region: ""
   platform: Azure
   system_service: WVDRelays
@@ -14,15 +14,19 @@ address_prefixes:
   all:
     - 40.64.144.0/20
     - 51.5.0.0/16
+    - 57.156.5.248/29
+    - 57.156.73.192/28
     - 2603:1061:2010::/48
     - 2603:1061:2011::/48
   ipv4:
     - 40.64.144.0/20
     - 51.5.0.0/16
+    - 57.156.5.248/29
+    - 57.156.73.192/28
   ipv6:
     - 2603:1061:2010::/48
     - 2603:1061:2011::/48
   counts:
-    total: 4
-    ipv4: 2
+    total: 6
+    ipv4: 4
     ipv6: 2
