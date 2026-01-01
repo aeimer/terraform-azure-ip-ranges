@@ -1,7 +1,7 @@
 id: AzureFrontDoor.Backend
 name: AzureFrontDoor.Backend
 metadata:
-  change_number: 21
+  change_number: 22
   region: ""
   platform: Azure
   system_service: ""
@@ -26,6 +26,7 @@ address_prefixes:
     - 4.207.187.66/31
     - 4.213.28.114/31
     - 4.213.81.64/29
+    - 4.223.184.164/30
     - 4.232.98.120/29
     - 13.73.248.16/29
     - 20.17.126.64/29
@@ -225,6 +226,7 @@ address_prefixes:
     - 4.207.187.66/31
     - 4.213.28.114/31
     - 4.213.81.64/29
+    - 4.223.184.164/30
     - 4.232.98.120/29
     - 13.73.248.16/29
     - 20.17.126.64/29
@@ -411,6 +413,6 @@ address_prefixes:
     - 2a01:111:20a::/48
     - 2a01:111:2050::/44
   counts:
-    total: 198
-    ipv4: 106
+    total: 199
+    ipv4: 107
     ipv6: 92
