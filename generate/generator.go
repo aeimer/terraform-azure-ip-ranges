@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/charmbracelet/log"
-	"gopkg.in/yaml.v3"
+	"go.yaml.in/yaml/v3"
 )
 
 // INPUT JSON STRUCTURES
@@ -130,7 +130,7 @@ func (g *Generator) Generate(jsonData []byte) error {
 			continue
 		}
 
-		serviceYAML := generateServiceYAML(service, serviceTags.ChangeNumber, serviceTags.Cloud)
+		serviceYAML := generateServiceYAML(service)
 
 		filename := fmt.Sprintf("%s.yaml", sanitizeFilename(service.ID))
 		outputFile := filepath.Join(g.outputDir, filename)
@@ -185,7 +185,7 @@ func sanitizeFilename(serviceID string) string {
 }
 
 // generateServiceYAML creates the YAML structure for a service
-func generateServiceYAML(service Service, globalChangeNumber int, cloud string) ServiceYAML {
+func generateServiceYAML(service Service) ServiceYAML {
 	ipv4, ipv6 := categorizeIPPrefixes(service.Properties.AddressPrefixes)
 
 	return ServiceYAML{
@@ -217,7 +217,9 @@ func writeYAML(filename string, data interface{}) error {
 	if err != nil {
 		return err
 	}
-	defer file.Close()
+	defer func(file *os.File) {
+		_ = file.Close()
+	}(file)
 
 	encoder := yaml.NewEncoder(file)
 	encoder.SetIndent(2)
