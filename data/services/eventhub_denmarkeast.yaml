@@ -1,0 +1,26 @@
+id: EventHub.DenmarkEast
+name: EventHub.DenmarkEast
+metadata:
+  change_number: 1
+  region: denmarkeast
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 9.205.37.0/24
+    - 9.205.96.128/26
+    - 2603:1020:1602:1::/120
+  ipv4:
+    - 9.205.37.0/24
+    - 9.205.96.128/26
+  ipv6:
+    - 2603:1020:1602:1::/120
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

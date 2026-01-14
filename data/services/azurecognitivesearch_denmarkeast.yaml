@@ -1,0 +1,20 @@
+id: AzureCognitiveSearch.DenmarkEast
+name: AzureCognitiveSearch.DenmarkEast
+metadata:
+  change_number: 1
+  region: denmarkeast
+  platform: Azure
+  system_service: AzureCognitiveSearch
+  network_features: []
+address_prefixes:
+  all:
+    - 9.205.32.192/26
+    - 2603:1020:1602::100/121
+  ipv4:
+    - 9.205.32.192/26
+  ipv6:
+    - 2603:1020:1602::100/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

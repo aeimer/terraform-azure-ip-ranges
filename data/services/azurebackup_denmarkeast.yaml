@@ -1,0 +1,22 @@
+id: AzureBackup.DenmarkEast
+name: AzureBackup.DenmarkEast
+metadata:
+  change_number: 1
+  region: denmarkeast
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+address_prefixes:
+  all:
+    - 9.205.36.0/26
+    - 9.205.50.80/28
+    - 2603:1020:1602::600/121
+  ipv4:
+    - 9.205.36.0/26
+    - 9.205.50.80/28
+  ipv6:
+    - 2603:1020:1602::600/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

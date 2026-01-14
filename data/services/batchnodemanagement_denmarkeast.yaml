@@ -1,0 +1,22 @@
+id: BatchNodeManagement.DenmarkEast
+name: BatchNodeManagement.DenmarkEast
+metadata:
+  change_number: 1
+  region: denmarkeast
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+address_prefixes:
+  all:
+    - 9.205.33.64/27
+    - 2603:1020:1602::300/122
+  ipv4:
+    - 9.205.33.64/27
+  ipv6:
+    - 2603:1020:1602::300/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

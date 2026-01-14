@@ -1,0 +1,20 @@
+id: AzureBotService.DenmarkEast
+name: AzureBotService.DenmarkEast
+metadata:
+  change_number: 1
+  region: denmarkeast
+  platform: Azure
+  system_service: AzureBotService
+  network_features: []
+address_prefixes:
+  all:
+    - 9.205.32.16/30
+    - 2603:1020:1602::20/123
+  ipv4:
+    - 9.205.32.16/30
+  ipv6:
+    - 2603:1020:1602::20/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

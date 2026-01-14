@@ -1,0 +1,24 @@
+id: AzureArcInfrastructure.DenmarkEast
+name: AzureArcInfrastructure.DenmarkEast
+metadata:
+  change_number: 1
+  region: denmarkeast
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+address_prefixes:
+  all:
+    - 9.205.43.208/30
+    - 9.205.58.158/32
+    - 9.205.75.48/32
+    - 2603:1020:1602:2::20/124
+  ipv4:
+    - 9.205.43.208/30
+    - 9.205.58.158/32
+    - 9.205.75.48/32
+  ipv6:
+    - 2603:1020:1602:2::20/124
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

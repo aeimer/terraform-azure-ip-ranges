@@ -1,0 +1,34 @@
+id: PowerBI.DenmarkEast
+name: PowerBI.DenmarkEast
+metadata:
+  change_number: 1
+  region: denmarkeast
+  platform: Azure
+  system_service: PowerBI
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 9.205.43.240/31
+    - 9.205.43.244/30
+    - 9.205.43.248/29
+    - 9.205.58.176/28
+    - 9.205.58.192/28
+    - 2603:1020:1602:2::1a0/123
+    - 2603:1020:1602:2::300/122
+  ipv4:
+    - 9.205.43.240/31
+    - 9.205.43.244/30
+    - 9.205.43.248/29
+    - 9.205.58.176/28
+    - 9.205.58.192/28
+  ipv6:
+    - 2603:1020:1602:2::1a0/123
+    - 2603:1020:1602:2::300/122
+  counts:
+    total: 7
+    ipv4: 5
+    ipv6: 2

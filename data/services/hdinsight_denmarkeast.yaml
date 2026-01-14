@@ -1,0 +1,24 @@
+id: HDInsight.DenmarkEast
+name: HDInsight.DenmarkEast
+metadata:
+  change_number: 1
+  region: denmarkeast
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 9.205.39.16/29
+    - 2603:1020:1602:1::2c0/124
+  ipv4:
+    - 9.205.39.16/29
+  ipv6:
+    - 2603:1020:1602:1::2c0/124
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

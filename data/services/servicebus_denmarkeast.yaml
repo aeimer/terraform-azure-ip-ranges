@@ -1,0 +1,22 @@
+id: ServiceBus.DenmarkEast
+name: ServiceBus.DenmarkEast
+metadata:
+  change_number: 1
+  region: denmarkeast
+  platform: Azure
+  system_service: AzureServiceBus
+  network_features:
+    - API
+    - NSG
+address_prefixes:
+  all:
+    - 9.205.38.0/25
+    - 2603:1020:1602::780/121
+  ipv4:
+    - 9.205.38.0/25
+  ipv6:
+    - 2603:1020:1602::780/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

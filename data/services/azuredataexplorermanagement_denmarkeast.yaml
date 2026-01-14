@@ -1,0 +1,20 @@
+id: AzureDataExplorerManagement.DenmarkEast
+name: AzureDataExplorerManagement.DenmarkEast
+metadata:
+  change_number: 1
+  region: denmarkeast
+  platform: Azure
+  system_service: AzureDataExplorerManagement
+  network_features: []
+address_prefixes:
+  all:
+    - 9.205.38.192/28
+    - 2603:1020:1602:1::1e0/123
+  ipv4:
+    - 9.205.38.192/28
+  ipv6:
+    - 2603:1020:1602:1::1e0/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1
