@@ -1,7 +1,7 @@
 id: Storage.PolandCentral
 name: Storage.PolandCentral
 metadata:
-  change_number: 4
+  change_number: 5
   region: polandcentral
   platform: Azure
   system_service: AzureStorage
@@ -20,6 +20,7 @@ address_prefixes:
     - 20.209.60.0/23
     - 20.209.94.0/23
     - 57.150.76.0/23
+    - 135.130.208.0/23
     - 2603:1020:1301::/48
   ipv4:
     - 20.33.174.0/24
@@ -30,9 +31,10 @@ address_prefixes:
     - 20.209.60.0/23
     - 20.209.94.0/23
     - 57.150.76.0/23
+    - 135.130.208.0/23
   ipv6:
     - 2603:1020:1301::/48
   counts:
-    total: 9
-    ipv4: 8
+    total: 10
+    ipv4: 9
     ipv6: 1

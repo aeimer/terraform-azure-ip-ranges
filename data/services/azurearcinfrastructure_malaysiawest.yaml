@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.MalaysiaWest
 name: AzureArcInfrastructure.MalaysiaWest
 metadata:
-  change_number: 1
+  change_number: 2
   region: malaysiawest
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -12,15 +12,21 @@ address_prefixes:
     - 20.17.131.32/32
     - 20.17.138.132/31
     - 20.17.138.168/29
+    - 85.211.236.234/31
+    - 85.211.236.248/30
     - 2603:1040:1602:2::130/124
+    - 2603:1040:1602:4::7f2/128
   ipv4:
     - 20.17.125.68/30
     - 20.17.131.32/32
     - 20.17.138.132/31
     - 20.17.138.168/29
+    - 85.211.236.234/31
+    - 85.211.236.248/30
   ipv6:
     - 2603:1040:1602:2::130/124
+    - 2603:1040:1602:4::7f2/128
   counts:
-    total: 5
-    ipv4: 4
-    ipv6: 1
+    total: 8
+    ipv4: 6
+    ipv6: 2
