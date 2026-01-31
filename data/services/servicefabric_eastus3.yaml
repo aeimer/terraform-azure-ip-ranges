@@ -1,20 +1,24 @@
 id: ServiceFabric.EastUS3
 name: ServiceFabric.EastUS3
 metadata:
-  change_number: 1
+  change_number: 2
   region: eastus3
   platform: Azure
   system_service: ServiceFabric
   network_features: []
 address_prefixes:
   all:
+    - 51.57.136.216/29
     - 134.138.96.8/30
+    - 2603:1030:1402:4::780/125
     - 2603:1030:1402:400::18/125
   ipv4:
+    - 51.57.136.216/29
     - 134.138.96.8/30
   ipv6:
+    - 2603:1030:1402:4::780/125
     - 2603:1030:1402:400::18/125
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 4
+    ipv4: 2
+    ipv6: 2

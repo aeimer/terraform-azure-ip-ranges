@@ -1,7 +1,7 @@
 id: PowerQueryOnline.EastUS3
 name: PowerQueryOnline.EastUS3
 metadata:
-  change_number: 1
+  change_number: 2
   region: eastus3
   platform: Azure
   system_service: PowerQueryOnline
@@ -9,12 +9,16 @@ metadata:
 address_prefixes:
   all:
     - 134.138.64.32/29
+    - 134.138.95.224/27
     - 2603:1030:1402::1a0/123
+    - 2603:1030:1402:4::680/122
   ipv4:
     - 134.138.64.32/29
+    - 134.138.95.224/27
   ipv6:
     - 2603:1030:1402::1a0/123
+    - 2603:1030:1402:4::680/122
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 4
+    ipv4: 2
+    ipv6: 2

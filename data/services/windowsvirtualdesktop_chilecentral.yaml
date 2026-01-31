@@ -1,22 +1,18 @@
 id: WindowsVirtualDesktop.ChileCentral
 name: WindowsVirtualDesktop.ChileCentral
 metadata:
-  change_number: 2
+  change_number: 3
   region: chilec
   platform: Azure
   system_service: WindowsVirtualDesktop
   network_features: []
 address_prefixes:
   all:
-    - 57.156.5.248/29
-    - 57.156.73.192/28
     - 2603:1061:2010:7::/117
-  ipv4:
-    - 57.156.5.248/29
-    - 57.156.73.192/28
+  ipv4: []
   ipv6:
     - 2603:1061:2010:7::/117
   counts:
-    total: 3
-    ipv4: 2
+    total: 1
+    ipv4: 0
     ipv6: 1

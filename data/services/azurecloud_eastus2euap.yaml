@@ -1,7 +1,7 @@
 id: AzureCloud.eastus2euap
 name: AzureCloud.eastus2euap
 metadata:
-  change_number: 125
+  change_number: 126
   region: eastus2euap
   platform: Azure
   system_service: ""
@@ -312,6 +312,7 @@ address_prefixes:
     - 72.147.0.0/17
     - 104.44.95.208/28
     - 135.18.0.0/17
+    - 135.130.25.0/25
     - 135.130.72.0/23
     - 172.173.0.0/21
     - 172.173.32.0/19
@@ -839,6 +840,7 @@ address_prefixes:
     - 72.147.0.0/17
     - 104.44.95.208/28
     - 135.18.0.0/17
+    - 135.130.25.0/25
     - 135.130.72.0/23
     - 172.173.0.0/21
     - 172.173.32.0/19
@@ -1065,6 +1067,6 @@ address_prefixes:
     - 2a01:111:f403:d914::/64
     - 2a01:111:f403:e003::/64
   counts:
-    total: 526
-    ipv4: 315
+    total: 527
+    ipv4: 316
     ipv6: 211

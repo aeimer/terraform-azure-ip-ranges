@@ -1,7 +1,7 @@
 id: AzureCloud.chilec
 name: AzureCloud.chilec
 metadata:
-  change_number: 10
+  change_number: 11
   region: chilec
   platform: Azure
   system_service: ""
@@ -26,6 +26,8 @@ address_prefixes:
     - 20.231.128.128/25
     - 20.231.144.224/27
     - 20.231.148.0/26
+    - 40.64.147.232/29
+    - 40.64.154.32/27
     - 40.64.163.128/25
     - 40.93.24.0/24
     - 40.97.14.64/26
@@ -104,6 +106,8 @@ address_prefixes:
     - 20.231.128.128/25
     - 20.231.144.224/27
     - 20.231.148.0/26
+    - 40.64.147.232/29
+    - 40.64.154.32/27
     - 40.64.163.128/25
     - 40.93.24.0/24
     - 40.97.14.64/26
@@ -167,6 +171,6 @@ address_prefixes:
     - 2a01:111:f403:d91d::/64
     - 2a01:111:f403:e020::/64
   counts:
-    total: 77
-    ipv4: 49
+    total: 79
+    ipv4: 51
     ipv6: 28

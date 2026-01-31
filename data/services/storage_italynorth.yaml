@@ -1,7 +1,7 @@
 id: Storage.ItalyNorth
 name: Storage.ItalyNorth
 metadata:
-  change_number: 4
+  change_number: 5
   region: italynorth
   platform: Azure
   system_service: AzureStorage
@@ -21,6 +21,7 @@ address_prefixes:
     - 20.209.120.0/23
     - 57.150.36.0/23
     - 135.130.84.0/23
+    - 145.190.148.0/24
     - 2603:1020:1201::/48
   ipv4:
     - 20.33.128.0/24
@@ -32,9 +33,10 @@ address_prefixes:
     - 20.209.120.0/23
     - 57.150.36.0/23
     - 135.130.84.0/23
+    - 145.190.148.0/24
   ipv6:
     - 2603:1020:1201::/48
   counts:
-    total: 10
-    ipv4: 9
+    total: 11
+    ipv4: 10
     ipv6: 1
