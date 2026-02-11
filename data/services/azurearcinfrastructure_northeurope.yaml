@@ -1,13 +1,14 @@
 id: AzureArcInfrastructure.NorthEurope
 name: AzureArcInfrastructure.NorthEurope
 metadata:
-  change_number: 4
+  change_number: 5
   region: northeurope
   platform: Azure
   system_service: AzureArcInfrastructure
   network_features: []
 address_prefixes:
   all:
+    - 4.208.114.163/32
     - 13.69.239.84/30
     - 13.69.239.88/32
     - 13.74.107.94/31
@@ -16,7 +17,9 @@ address_prefixes:
     - 52.146.130.180/30
     - 68.219.196.6/31
     - 68.219.197.8/29
+    - 2603:1020:5:1b::5f4/128
   ipv4:
+    - 4.208.114.163/32
     - 13.69.239.84/30
     - 13.69.239.88/32
     - 13.74.107.94/31
@@ -25,8 +28,9 @@ address_prefixes:
     - 52.146.130.180/30
     - 68.219.196.6/31
     - 68.219.197.8/29
-  ipv6: []
+  ipv6:
+    - 2603:1020:5:1b::5f4/128
   counts:
-    total: 8
-    ipv4: 8
-    ipv6: 0
+    total: 10
+    ipv4: 9
+    ipv6: 1

@@ -1,7 +1,7 @@
 id: AzureCloud.koreacentral
 name: AzureCloud.koreacentral
 metadata:
-  change_number: 75
+  change_number: 76
   region: koreacentral
   platform: Azure
   system_service: ""
@@ -127,6 +127,7 @@ address_prefixes:
     - 74.227.136.0/21
     - 104.44.90.160/27
     - 135.130.106.0/23
+    - 151.206.159.0/24
     - 2603:1040:f00::/47
     - 2603:1040:f02::/48
     - 2603:1040:f04::/48
@@ -289,6 +290,7 @@ address_prefixes:
     - 74.227.136.0/21
     - 104.44.90.160/27
     - 135.130.106.0/23
+    - 151.206.159.0/24
   ipv6:
     - 2603:1040:f00::/47
     - 2603:1040:f02::/48
@@ -335,6 +337,6 @@ address_prefixes:
     - 2a01:111:f403:dc0f::/64
     - 2a01:111:f403:e40f::/64
   counts:
-    total: 161
-    ipv4: 117
+    total: 162
+    ipv4: 118
     ipv6: 44

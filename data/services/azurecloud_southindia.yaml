@@ -1,7 +1,7 @@
 id: AzureCloud.southindia
 name: AzureCloud.southindia
 metadata:
-  change_number: 54
+  change_number: 55
   region: southindia
   platform: Azure
   system_service: ""
@@ -103,6 +103,7 @@ address_prefixes:
     - 104.211.192.0/18
     - 135.13.0.0/17
     - 151.206.70.0/25
+    - 151.206.147.0/24
     - 2603:1040:c00::/46
     - 2603:1040:c05::/48
     - 2603:1040:c06::/47
@@ -237,6 +238,7 @@ address_prefixes:
     - 104.211.192.0/18
     - 135.13.0.0/17
     - 151.206.70.0/25
+    - 151.206.147.0/24
   ipv6:
     - 2603:1040:c00::/46
     - 2603:1040:c05::/48
@@ -279,6 +281,6 @@ address_prefixes:
     - 2a01:111:f403:dc08::/64
     - 2a01:111:f403:e408::/64
   counts:
-    total: 133
-    ipv4: 93
+    total: 134
+    ipv4: 94
     ipv6: 40

@@ -1,24 +1,28 @@
 id: AzureArcInfrastructure.SwedenCentral
 name: AzureArcInfrastructure.SwedenCentral
 metadata:
-  change_number: 3
+  change_number: 4
   region: swedencentral
   platform: Azure
   system_service: AzureArcInfrastructure
   network_features: []
 address_prefixes:
   all:
+    - 4.223.187.21/32
     - 20.91.151.152/29
     - 20.91.152.84/31
     - 51.12.75.188/30
     - 51.12.229.232/30
+    - 2603:1020:1004:d::285/128
   ipv4:
+    - 4.223.187.21/32
     - 20.91.151.152/29
     - 20.91.152.84/31
     - 51.12.75.188/30
     - 51.12.229.232/30
-  ipv6: []
+  ipv6:
+    - 2603:1020:1004:d::285/128
   counts:
-    total: 4
-    ipv4: 4
-    ipv6: 0
+    total: 6
+    ipv4: 5
+    ipv6: 1

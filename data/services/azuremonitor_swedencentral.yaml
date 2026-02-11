@@ -1,7 +1,7 @@
 id: AzureMonitor.SwedenCentral
 name: AzureMonitor.SwedenCentral
 metadata:
-  change_number: 17
+  change_number: 18
   region: swedencentral
   platform: Azure
   system_service: AzureMonitor
@@ -41,7 +41,6 @@ address_prefixes:
     - 2603:1020:1004:3::300/121
     - 2603:1020:1004:6::c0/123
     - 2603:1020:1004:6::100/122
-    - 2603:1020:1004:c::110/124
     - 2603:1020:1004:c::700/120
     - 2603:1020:1004:d::80/123
     - 2603:1020:1004:400::420/123
@@ -83,7 +82,6 @@ address_prefixes:
     - 2603:1020:1004:3::300/121
     - 2603:1020:1004:6::c0/123
     - 2603:1020:1004:6::100/122
-    - 2603:1020:1004:c::110/124
     - 2603:1020:1004:c::700/120
     - 2603:1020:1004:d::80/123
     - 2603:1020:1004:400::420/123
@@ -92,6 +90,6 @@ address_prefixes:
     - 2603:1020:1004:800::500/121
     - 2603:1020:1004:c02::100/121
   counts:
-    total: 40
+    total: 39
     ipv4: 24
-    ipv6: 16
+    ipv6: 15

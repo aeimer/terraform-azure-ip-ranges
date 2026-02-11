@@ -1,7 +1,7 @@
 id: AzureMonitor.UKWest
 name: AzureMonitor.UKWest
 metadata:
-  change_number: 17
+  change_number: 18
   region: ukwest
   platform: Azure
   system_service: AzureMonitor
@@ -37,7 +37,6 @@ address_prefixes:
     - 2603:1020:605:3::/121
     - 2603:1020:605:7::400/123
     - 2603:1020:605:7::440/122
-    - 2603:1020:605:a::5d0/124
     - 2603:1020:605:b::600/120
     - 2603:1020:605:b::700/123
     - 2603:1020:605:402::500/121
@@ -71,11 +70,10 @@ address_prefixes:
     - 2603:1020:605:3::/121
     - 2603:1020:605:7::400/123
     - 2603:1020:605:7::440/122
-    - 2603:1020:605:a::5d0/124
     - 2603:1020:605:b::600/120
     - 2603:1020:605:b::700/123
     - 2603:1020:605:402::500/121
   counts:
-    total: 32
+    total: 31
     ipv4: 19
-    ipv6: 13
+    ipv6: 12

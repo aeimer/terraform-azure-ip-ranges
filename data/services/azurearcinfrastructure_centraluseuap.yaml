@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.CentralUSEUAP
 name: AzureArcInfrastructure.CentralUSEUAP
 metadata:
-  change_number: 4
+  change_number: 5
   region: centraluseuap
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -13,18 +13,22 @@ address_prefixes:
     - 20.45.208.12/30
     - 20.45.208.40/30
     - 40.78.204.46/32
+    - 134.138.220.80/32
     - 168.61.233.50/31
     - 168.61.233.56/29
+    - 2603:1030:f:f::604/127
   ipv4:
     - 20.45.197.224/30
     - 20.45.199.32/30
     - 20.45.208.12/30
     - 20.45.208.40/30
     - 40.78.204.46/32
+    - 134.138.220.80/32
     - 168.61.233.50/31
     - 168.61.233.56/29
-  ipv6: []
+  ipv6:
+    - 2603:1030:f:f::604/127
   counts:
-    total: 7
-    ipv4: 7
-    ipv6: 0
+    total: 9
+    ipv4: 8
+    ipv6: 1

@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.GermanyWestCentral
 name: AzureArcInfrastructure.GermanyWestCentral
 metadata:
-  change_number: 4
+  change_number: 5
   region: germanywc
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -10,23 +10,27 @@ address_prefixes:
   all:
     - 20.218.190.20/31
     - 20.218.190.88/29
+    - 48.201.165.111/32
     - 51.116.145.136/30
     - 51.116.146.212/30
     - 51.116.158.60/31
     - 51.116.243.218/31
     - 51.116.251.186/32
     - 51.116.253.164/30
+    - 2603:1020:c04:b::1e8/128
   ipv4:
     - 20.218.190.20/31
     - 20.218.190.88/29
+    - 48.201.165.111/32
     - 51.116.145.136/30
     - 51.116.146.212/30
     - 51.116.158.60/31
     - 51.116.243.218/31
     - 51.116.251.186/32
     - 51.116.253.164/30
-  ipv6: []
+  ipv6:
+    - 2603:1020:c04:b::1e8/128
   counts:
-    total: 8
-    ipv4: 8
-    ipv6: 0
+    total: 10
+    ipv4: 9
+    ipv6: 1

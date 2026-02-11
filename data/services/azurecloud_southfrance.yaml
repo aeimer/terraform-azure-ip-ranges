@@ -1,7 +1,7 @@
 id: AzureCloud.southfrance
 name: AzureCloud.southfrance
 metadata:
-  change_number: 36
+  change_number: 37
   region: southfrance
   platform: Azure
   system_service: ""
@@ -75,6 +75,7 @@ address_prefixes:
     - 70.152.11.0/24
     - 98.65.0.0/16
     - 98.66.0.0/17
+    - 151.206.168.0/24
     - 2603:1020:900::/47
     - 2603:1020:902::/48
     - 2603:1020:904::/48
@@ -179,6 +180,7 @@ address_prefixes:
     - 70.152.11.0/24
     - 98.65.0.0/16
     - 98.66.0.0/17
+    - 151.206.168.0/24
   ipv6:
     - 2603:1020:900::/47
     - 2603:1020:902::/48
@@ -219,6 +221,6 @@ address_prefixes:
     - 2a01:111:f403:da07::/64
     - 2a01:111:f403:e207::/64
   counts:
-    total: 103
-    ipv4: 65
+    total: 104
+    ipv4: 66
     ipv6: 38

@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.WestEurope
 name: AzureArcInfrastructure.WestEurope
 metadata:
-  change_number: 4
+  change_number: 5
   region: westeurope
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -15,8 +15,10 @@ address_prefixes:
     - 20.50.201.210/31
     - 20.50.201.212/30
     - 20.61.96.184/30
+    - 48.199.213.228/32
     - 52.178.17.240/31
     - 52.236.189.74/32
+    - 2603:1020:206:22::3b5/128
   ipv4:
     - 4.210.131.40/29
     - 4.210.131.48/31
@@ -25,10 +27,12 @@ address_prefixes:
     - 20.50.201.210/31
     - 20.50.201.212/30
     - 20.61.96.184/30
+    - 48.199.213.228/32
     - 52.178.17.240/31
     - 52.236.189.74/32
-  ipv6: []
+  ipv6:
+    - 2603:1020:206:22::3b5/128
   counts:
-    total: 9
-    ipv4: 9
-    ipv6: 0
+    total: 11
+    ipv4: 10
+    ipv6: 1

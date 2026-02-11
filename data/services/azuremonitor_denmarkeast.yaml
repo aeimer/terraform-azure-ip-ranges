@@ -1,7 +1,7 @@
 id: AzureMonitor.DenmarkEast
 name: AzureMonitor.DenmarkEast
 metadata:
-  change_number: 1
+  change_number: 2
   region: denmarkeast
   platform: Azure
   system_service: AzureMonitor
@@ -27,7 +27,6 @@ address_prefixes:
     - 2603:1020:1601:8::18/128
     - 2603:1020:1602:2::480/121
     - 2603:1020:1602:2::500/120
-    - 2603:1020:1602:4::3d0/124
     - 2603:1020:1602:4::580/123
   ipv4:
     - 9.205.43.242/31
@@ -49,9 +48,8 @@ address_prefixes:
     - 2603:1020:1601:8::18/128
     - 2603:1020:1602:2::480/121
     - 2603:1020:1602:2::500/120
-    - 2603:1020:1602:4::3d0/124
     - 2603:1020:1602:4::580/123
   counts:
-    total: 20
+    total: 19
     ipv4: 14
-    ipv6: 6
+    ipv6: 5

@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.BrazilSouth
 name: AzureArcInfrastructure.BrazilSouth
 metadata:
-  change_number: 4
+  change_number: 5
   region: brazilsouth
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -10,6 +10,7 @@ address_prefixes:
   all:
     - 20.226.211.158/31
     - 20.226.212.160/29
+    - 74.163.252.230/32
     - 191.233.207.26/32
     - 191.233.207.30/31
     - 191.234.136.44/30
@@ -17,9 +18,11 @@ address_prefixes:
     - 191.234.149.138/32
     - 191.234.157.42/32
     - 191.234.157.172/30
+    - 2603:1050:6:c::61/128
   ipv4:
     - 20.226.211.158/31
     - 20.226.212.160/29
+    - 74.163.252.230/32
     - 191.233.207.26/32
     - 191.233.207.30/31
     - 191.234.136.44/30
@@ -27,8 +30,9 @@ address_prefixes:
     - 191.234.149.138/32
     - 191.234.157.42/32
     - 191.234.157.172/30
-  ipv6: []
+  ipv6:
+    - 2603:1050:6:c::61/128
   counts:
-    total: 9
-    ipv4: 9
-    ipv6: 0
+    total: 11
+    ipv4: 10
+    ipv6: 1

@@ -1,7 +1,7 @@
 id: AzureMonitor.ItalyNorth
 name: AzureMonitor.ItalyNorth
 metadata:
-  change_number: 7
+  change_number: 8
   region: italynorth
   platform: Azure
   system_service: AzureMonitor
@@ -36,7 +36,6 @@ address_prefixes:
     - 2603:1020:1204:2::400/120
     - 2603:1020:1204:3::5a0/123
     - 2603:1020:1204:3::5c0/122
-    - 2603:1020:1204:7::130/124
     - 2603:1020:1204:7::500/120
     - 2603:1020:1204:7::620/123
   ipv4:
@@ -68,10 +67,9 @@ address_prefixes:
     - 2603:1020:1204:2::400/120
     - 2603:1020:1204:3::5a0/123
     - 2603:1020:1204:3::5c0/122
-    - 2603:1020:1204:7::130/124
     - 2603:1020:1204:7::500/120
     - 2603:1020:1204:7::620/123
   counts:
-    total: 30
+    total: 29
     ipv4: 19
-    ipv6: 11
+    ipv6: 10

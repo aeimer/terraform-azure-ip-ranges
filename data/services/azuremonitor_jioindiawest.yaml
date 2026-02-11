@@ -1,7 +1,7 @@
 id: AzureMonitor.JioIndiaWest
 name: AzureMonitor.JioIndiaWest
 metadata:
-  change_number: 13
+  change_number: 14
   region: jioindiawest
   platform: Azure
   system_service: AzureMonitor
@@ -34,7 +34,6 @@ address_prefixes:
     - 2603:1040:d04:3::60/126
     - 2603:1040:d04:3::5c0/123
     - 2603:1040:d04:3::600/122
-    - 2603:1040:d04:7::150/124
     - 2603:1040:d04:7::2e0/123
     - 2603:1040:d04:7::300/120
     - 2603:1040:d04:400::420/123
@@ -68,7 +67,6 @@ address_prefixes:
     - 2603:1040:d04:3::60/126
     - 2603:1040:d04:3::5c0/123
     - 2603:1040:d04:3::600/122
-    - 2603:1040:d04:7::150/124
     - 2603:1040:d04:7::2e0/123
     - 2603:1040:d04:7::300/120
     - 2603:1040:d04:400::420/123
@@ -76,6 +74,6 @@ address_prefixes:
     - 2603:1040:d04:800::400/121
     - 2603:1040:d04:c02::100/121
   counts:
-    total: 32
+    total: 31
     ipv4: 17
-    ipv6: 15
+    ipv6: 14

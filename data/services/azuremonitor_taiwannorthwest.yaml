@@ -1,7 +1,7 @@
 id: AzureMonitor.TaiwanNorthwest
 name: AzureMonitor.TaiwanNorthwest
 metadata:
-  change_number: 4
+  change_number: 5
   region: taiwannorthwest
   platform: Azure
   system_service: AzureMonitor
@@ -30,7 +30,6 @@ address_prefixes:
     - 2603:1040:1202:2::540/123
     - 2603:1040:1202:2::700/121
     - 2603:1040:1202:3::4c0/122
-    - 2603:1040:1202:5::1d0/124
   ipv4:
     - 51.53.137.192/27
     - 51.53.172.214/31
@@ -54,8 +53,7 @@ address_prefixes:
     - 2603:1040:1202:2::540/123
     - 2603:1040:1202:2::700/121
     - 2603:1040:1202:3::4c0/122
-    - 2603:1040:1202:5::1d0/124
   counts:
-    total: 22
+    total: 21
     ipv4: 13
-    ipv6: 9
+    ipv6: 8

@@ -1,7 +1,7 @@
 id: Marketplace
 name: Marketplace
 metadata:
-  change_number: 7
+  change_number: 8
   region: ""
   platform: Azure
   system_service: Marketplace
@@ -43,6 +43,9 @@ address_prefixes:
     - 20.49.121.160/28
     - 20.50.65.112/28
     - 20.50.68.32/28
+    - 20.51.45.4/31
+    - 20.51.45.8/29
+    - 20.51.45.16/28
     - 20.59.84.184/29
     - 20.59.85.0/25
     - 20.59.85.128/26
@@ -160,6 +163,9 @@ address_prefixes:
     - 20.49.121.160/28
     - 20.50.65.112/28
     - 20.50.68.32/28
+    - 20.51.45.4/31
+    - 20.51.45.8/29
+    - 20.51.45.16/28
     - 20.59.84.184/29
     - 20.59.85.0/25
     - 20.59.85.128/26
@@ -247,6 +253,6 @@ address_prefixes:
     - 172.175.149.32/30
   ipv6: []
   counts:
-    total: 116
-    ipv4: 116
+    total: 119
+    ipv4: 119
     ipv6: 0

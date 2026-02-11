@@ -1,7 +1,7 @@
 id: AzureMonitor.NewZealandNorth
 name: AzureMonitor.NewZealandNorth
 metadata:
-  change_number: 4
+  change_number: 5
   region: newzealandnorth
   platform: Azure
   system_service: AzureMonitor
@@ -29,7 +29,6 @@ address_prefixes:
     - 2603:1010:502:2::640/123
     - 2603:1010:502:2::680/121
     - 2603:1010:502:2::700/121
-    - 2603:1010:502:5::310/124
     - 2603:1010:502:5::5a0/123
   ipv4:
     - 172.196.61.176/28
@@ -53,9 +52,8 @@ address_prefixes:
     - 2603:1010:502:2::640/123
     - 2603:1010:502:2::680/121
     - 2603:1010:502:2::700/121
-    - 2603:1010:502:5::310/124
     - 2603:1010:502:5::5a0/123
   counts:
-    total: 22
+    total: 21
     ipv4: 14
-    ipv6: 8
+    ipv6: 7

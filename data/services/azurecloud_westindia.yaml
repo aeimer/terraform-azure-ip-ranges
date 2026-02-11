@@ -1,7 +1,7 @@
 id: AzureCloud.westindia
 name: AzureCloud.westindia
 metadata:
-  change_number: 42
+  change_number: 43
   region: westindia
   platform: Azure
   system_service: ""
@@ -78,6 +78,7 @@ address_prefixes:
     - 104.47.212.0/23
     - 104.211.128.0/18
     - 151.206.70.128/25
+    - 151.206.162.0/24
     - 2603:1040:800::/46
     - 2603:1040:805::/48
     - 2603:1040:806::/47
@@ -182,6 +183,7 @@ address_prefixes:
     - 104.47.212.0/23
     - 104.211.128.0/18
     - 151.206.70.128/25
+    - 151.206.162.0/24
   ipv6:
     - 2603:1040:800::/46
     - 2603:1040:805::/48
@@ -219,6 +221,6 @@ address_prefixes:
     - 2a01:111:f403:dc0a::/64
     - 2a01:111:f403:e40a::/64
   counts:
-    total: 103
-    ipv4: 68
+    total: 104
+    ipv4: 69
     ipv6: 35

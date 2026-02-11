@@ -1,7 +1,7 @@
 id: AzureCloud.uaenorth
 name: AzureCloud.uaenorth
 metadata:
-  change_number: 70
+  change_number: 71
   region: uaenorth
   platform: Azure
   system_service: ""
@@ -109,6 +109,7 @@ address_prefixes:
     - 74.162.0.0/16
     - 74.243.192.0/18
     - 151.206.69.0/25
+    - 151.206.146.0/24
     - 172.163.0.0/16
     - 172.164.0.0/16
     - 2603:1040:900::/47
@@ -251,6 +252,7 @@ address_prefixes:
     - 74.162.0.0/16
     - 74.243.192.0/18
     - 151.206.69.0/25
+    - 151.206.146.0/24
     - 172.163.0.0/16
     - 172.164.0.0/16
   ipv6:
@@ -295,6 +297,6 @@ address_prefixes:
     - 2a01:111:f403:dc0c::/64
     - 2a01:111:f403:e40c::/64
   counts:
-    total: 141
-    ipv4: 101
+    total: 142
+    ipv4: 102
     ipv6: 40

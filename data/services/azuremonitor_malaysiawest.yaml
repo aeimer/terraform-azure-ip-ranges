@@ -1,7 +1,7 @@
 id: AzureMonitor.MalaysiaWest
 name: AzureMonitor.MalaysiaWest
 metadata:
-  change_number: 3
+  change_number: 4
   region: malaysiawest
   platform: Azure
   system_service: AzureMonitor
@@ -29,7 +29,6 @@ address_prefixes:
     - 2603:1040:1602:2::500/122
     - 2603:1040:1602:2::580/121
     - 2603:1040:1602:2::600/121
-    - 2603:1040:1602:4::560/124
     - 2603:1040:1602:4::780/123
   ipv4:
     - 20.17.126.74/31
@@ -53,9 +52,8 @@ address_prefixes:
     - 2603:1040:1602:2::500/122
     - 2603:1040:1602:2::580/121
     - 2603:1040:1602:2::600/121
-    - 2603:1040:1602:4::560/124
     - 2603:1040:1602:4::780/123
   counts:
-    total: 22
+    total: 21
     ipv4: 14
-    ipv6: 8
+    ipv6: 7

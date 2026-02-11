@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.CanadaCentral
 name: AzureArcInfrastructure.CanadaCentral
 metadata:
-  change_number: 4
+  change_number: 5
   region: canadacentral
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -17,6 +17,8 @@ address_prefixes:
     - 20.220.7.208/31
     - 52.228.84.80/30
     - 52.246.157.2/31
+    - 145.191.108.225/32
+    - 2603:1030:f05:d::6f5/128
   ipv4:
     - 13.71.175.129/32
     - 13.71.177.224/32
@@ -27,8 +29,10 @@ address_prefixes:
     - 20.220.7.208/31
     - 52.228.84.80/30
     - 52.246.157.2/31
-  ipv6: []
+    - 145.191.108.225/32
+  ipv6:
+    - 2603:1030:f05:d::6f5/128
   counts:
-    total: 9
-    ipv4: 9
-    ipv6: 0
+    total: 11
+    ipv4: 10
+    ipv6: 1

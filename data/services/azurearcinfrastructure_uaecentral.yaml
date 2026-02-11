@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.UAECentral
 name: AzureArcInfrastructure.UAECentral
 metadata:
-  change_number: 3
+  change_number: 4
   region: uaecentral
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -11,14 +11,18 @@ address_prefixes:
     - 20.37.66.52/30
     - 20.203.93.28/31
     - 20.203.93.80/29
+    - 20.216.93.140/32
     - 40.120.8.184/30
+    - 2603:1040:b04:8::4f6/128
   ipv4:
     - 20.37.66.52/30
     - 20.203.93.28/31
     - 20.203.93.80/29
+    - 20.216.93.140/32
     - 40.120.8.184/30
-  ipv6: []
+  ipv6:
+    - 2603:1040:b04:8::4f6/128
   counts:
-    total: 4
-    ipv4: 4
-    ipv6: 0
+    total: 6
+    ipv4: 5
+    ipv6: 1

@@ -1,7 +1,7 @@
 id: AzureMonitor.SpainCentral
 name: AzureMonitor.SpainCentral
 metadata:
-  change_number: 8
+  change_number: 9
   region: spaincentral
   platform: Azure
   system_service: AzureMonitor
@@ -31,7 +31,6 @@ address_prefixes:
     - 2603:1020:1403:2::40/122
     - 2603:1020:1403:2::380/121
     - 2603:1020:1403:2::400/120
-    - 2603:1020:1403:7::110/124
     - 2603:1020:1403:7::300/120
     - 2603:1020:1403:7::440/123
   ipv4:
@@ -58,10 +57,9 @@ address_prefixes:
     - 2603:1020:1403:2::40/122
     - 2603:1020:1403:2::380/121
     - 2603:1020:1403:2::400/120
-    - 2603:1020:1403:7::110/124
     - 2603:1020:1403:7::300/120
     - 2603:1020:1403:7::440/123
   counts:
-    total: 25
+    total: 24
     ipv4: 16
-    ipv6: 9
+    ipv6: 8

@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.SouthCentralUS
 name: AzureArcInfrastructure.SouthCentralUS
 metadata:
-  change_number: 4
+  change_number: 5
   region: southcentralus
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -17,6 +17,8 @@ address_prefixes:
     - 20.49.95.58/31
     - 40.119.9.232/30
     - 40.124.65.160/31
+    - 48.192.212.50/32
+    - 2603:1030:807:16::347/128
   ipv4:
     - 4.151.99.20/31
     - 4.151.99.72/29
@@ -27,8 +29,10 @@ address_prefixes:
     - 20.49.95.58/31
     - 40.119.9.232/30
     - 40.124.65.160/31
-  ipv6: []
+    - 48.192.212.50/32
+  ipv6:
+    - 2603:1030:807:16::347/128
   counts:
-    total: 9
-    ipv4: 9
-    ipv6: 0
+    total: 11
+    ipv4: 10
+    ipv6: 1

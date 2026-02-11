@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.JapanWest
 name: AzureArcInfrastructure.JapanWest
 metadata:
-  change_number: 3
+  change_number: 4
   region: japanwest
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -12,13 +12,17 @@ address_prefixes:
     - 4.190.132.184/29
     - 40.74.102.16/30
     - 40.80.59.24/30
+    - 172.192.187.112/32
+    - 2603:1040:606:b::637/128
   ipv4:
     - 4.190.132.42/31
     - 4.190.132.184/29
     - 40.74.102.16/30
     - 40.80.59.24/30
-  ipv6: []
+    - 172.192.187.112/32
+  ipv6:
+    - 2603:1040:606:b::637/128
   counts:
-    total: 4
-    ipv4: 4
-    ipv6: 0
+    total: 6
+    ipv4: 5
+    ipv6: 1

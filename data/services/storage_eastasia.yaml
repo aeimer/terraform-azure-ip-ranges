@@ -1,7 +1,7 @@
 id: Storage.EastAsia
 name: Storage.EastAsia
 metadata:
-  change_number: 14
+  change_number: 15
   region: eastasia
   platform: Azure
   system_service: AzureStorage
@@ -48,7 +48,8 @@ address_prefixes:
     - 168.63.156.64/26
     - 168.63.156.192/26
     - 191.237.238.32/28
-    - 2603:1040:208::/48
+    - 2603:1040:208::/49
+    - 2603:1040:208:8000::/63
   ipv4:
     - 20.33.184.0/24
     - 20.47.43.0/24
@@ -87,8 +88,9 @@ address_prefixes:
     - 168.63.156.192/26
     - 191.237.238.32/28
   ipv6:
-    - 2603:1040:208::/48
+    - 2603:1040:208::/49
+    - 2603:1040:208:8000::/63
   counts:
-    total: 37
+    total: 38
     ipv4: 36
-    ipv6: 1
+    ipv6: 2

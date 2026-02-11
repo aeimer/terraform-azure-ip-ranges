@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.UKSouth
 name: AzureArcInfrastructure.UKSouth
 metadata:
-  change_number: 4
+  change_number: 5
   region: uksouth
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -14,8 +14,10 @@ address_prefixes:
     - 51.105.71.144/31
     - 51.105.77.50/31
     - 51.140.151.168/30
+    - 74.177.105.18/32
     - 172.167.234.102/31
     - 172.167.236.56/29
+    - 2603:1020:705:15::547/128
   ipv4:
     - 51.104.15.254/32
     - 51.104.28.216/30
@@ -23,10 +25,12 @@ address_prefixes:
     - 51.105.71.144/31
     - 51.105.77.50/31
     - 51.140.151.168/30
+    - 74.177.105.18/32
     - 172.167.234.102/31
     - 172.167.236.56/29
-  ipv6: []
+  ipv6:
+    - 2603:1020:705:15::547/128
   counts:
-    total: 8
-    ipv4: 8
-    ipv6: 0
+    total: 10
+    ipv4: 9
+    ipv6: 1

@@ -1,7 +1,7 @@
 id: AzureCloud.italynorth
 name: AzureCloud.italynorth
 metadata:
-  change_number: 61
+  change_number: 62
   region: italynorth
   platform: Azure
   system_service: ""
@@ -81,6 +81,7 @@ address_prefixes:
     - 135.130.84.0/23
     - 145.190.69.0/24
     - 145.190.148.0/24
+    - 151.206.157.0/24
     - 172.213.0.0/19
     - 172.213.64.0/18
     - 172.213.128.0/17
@@ -196,6 +197,7 @@ address_prefixes:
     - 135.130.84.0/23
     - 145.190.69.0/24
     - 145.190.148.0/24
+    - 151.206.157.0/24
     - 172.213.0.0/19
     - 172.213.64.0/18
     - 172.213.128.0/17
@@ -241,6 +243,6 @@ address_prefixes:
     - 2a01:111:f403:da15::/64
     - 2a01:111:f403:e215::/64
   counts:
-    total: 114
-    ipv4: 74
+    total: 115
+    ipv4: 75
     ipv6: 40

@@ -1,13 +1,14 @@
 id: AzureArcInfrastructure.EastAsia
 name: AzureArcInfrastructure.EastAsia
 metadata:
-  change_number: 4
+  change_number: 5
   region: eastasia
   platform: Azure
   system_service: AzureArcInfrastructure
   network_features: []
 address_prefixes:
   all:
+    - 4.191.86.255/32
     - 20.6.141.126/31
     - 20.187.194.204/30
     - 20.189.111.204/30
@@ -16,7 +17,9 @@ address_prefixes:
     - 20.205.85.198/31
     - 23.97.88.88/29
     - 104.214.164.48/31
+    - 2603:1040:207:11::356/128
   ipv4:
+    - 4.191.86.255/32
     - 20.6.141.126/31
     - 20.187.194.204/30
     - 20.189.111.204/30
@@ -25,8 +28,9 @@ address_prefixes:
     - 20.205.85.198/31
     - 23.97.88.88/29
     - 104.214.164.48/31
-  ipv6: []
+  ipv6:
+    - 2603:1040:207:11::356/128
   counts:
-    total: 8
-    ipv4: 8
-    ipv6: 0
+    total: 10
+    ipv4: 9
+    ipv6: 1

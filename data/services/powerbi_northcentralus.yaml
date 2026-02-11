@@ -1,7 +1,7 @@
 id: PowerBI.NorthCentralUS
 name: PowerBI.NorthCentralUS
 metadata:
-  change_number: 5
+  change_number: 6
   region: northcentralus
   platform: Azure
   system_service: PowerBI
@@ -17,6 +17,7 @@ address_prefixes:
     - 20.51.1.32/28
     - 20.51.5.4/30
     - 20.51.5.192/26
+    - 20.66.132.0/26
     - 40.80.184.70/31
     - 40.80.188.48/28
     - 40.80.188.64/27
@@ -38,6 +39,7 @@ address_prefixes:
     - 20.51.1.32/28
     - 20.51.5.4/30
     - 20.51.5.192/26
+    - 20.66.132.0/26
     - 40.80.184.70/31
     - 40.80.188.48/28
     - 40.80.188.64/27
@@ -55,6 +57,6 @@ address_prefixes:
     - 2603:1030:608::620/123
     - 2603:1030:608::640/122
   counts:
-    total: 20
-    ipv4: 18
+    total: 21
+    ipv4: 19
     ipv6: 2

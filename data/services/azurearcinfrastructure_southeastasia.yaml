@@ -1,13 +1,14 @@
 id: AzureArcInfrastructure.SoutheastAsia
 name: AzureArcInfrastructure.SoutheastAsia
 metadata:
-  change_number: 4
+  change_number: 5
   region: southeastasia
   platform: Azure
   system_service: AzureArcInfrastructure
   network_features: []
 address_prefixes:
   all:
+    - 4.145.20.102/32
     - 4.145.72.0/29
     - 4.145.72.8/31
     - 13.67.15.1/32
@@ -16,7 +17,9 @@ address_prefixes:
     - 23.98.104.12/30
     - 23.98.108.32/30
     - 40.78.239.96/31
+    - 2603:1040:5:16::42e/128
   ipv4:
+    - 4.145.20.102/32
     - 4.145.72.0/29
     - 4.145.72.8/31
     - 13.67.15.1/32
@@ -25,8 +28,9 @@ address_prefixes:
     - 23.98.104.12/30
     - 23.98.108.32/30
     - 40.78.239.96/31
-  ipv6: []
+  ipv6:
+    - 2603:1040:5:16::42e/128
   counts:
-    total: 8
-    ipv4: 8
-    ipv6: 0
+    total: 10
+    ipv4: 9
+    ipv6: 1

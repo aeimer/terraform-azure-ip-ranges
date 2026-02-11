@@ -1,7 +1,7 @@
 id: Storage.BrazilSouth
 name: Storage.BrazilSouth
 metadata:
-  change_number: 13
+  change_number: 14
   region: brazilsouth
   platform: Azure
   system_service: AzureStorage
@@ -24,6 +24,7 @@ address_prefixes:
     - 20.209.232.0/23
     - 23.97.112.64/26
     - 57.150.130.0/23
+    - 145.190.149.0/24
     - 191.232.216.32/27
     - 191.232.221.16/28
     - 191.232.221.32/28
@@ -44,6 +45,7 @@ address_prefixes:
     - 20.209.232.0/23
     - 23.97.112.64/26
     - 57.150.130.0/23
+    - 145.190.149.0/24
     - 191.232.216.32/27
     - 191.232.221.16/28
     - 191.232.221.32/28
@@ -53,6 +55,6 @@ address_prefixes:
   ipv6:
     - 2603:1050:7::/48
   counts:
-    total: 19
-    ipv4: 18
+    total: 20
+    ipv4: 19
     ipv6: 1
