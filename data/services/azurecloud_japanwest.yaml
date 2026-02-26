@@ -1,7 +1,7 @@
 id: AzureCloud.japanwest
 name: AzureCloud.japanwest
 metadata:
-  change_number: 80
+  change_number: 81
   region: japanwest
   platform: Azure
   system_service: ""
@@ -157,6 +157,7 @@ address_prefixes:
     - 52.123.15.0/24
     - 52.123.170.0/23
     - 52.123.172.0/24
+    - 52.123.219.0/24
     - 52.147.64.0/19
     - 52.175.128.0/18
     - 52.232.158.0/24
@@ -374,6 +375,7 @@ address_prefixes:
     - 52.123.15.0/24
     - 52.123.170.0/23
     - 52.123.172.0/24
+    - 52.123.219.0/24
     - 52.147.64.0/19
     - 52.175.128.0/18
     - 52.232.158.0/24
@@ -445,6 +447,6 @@ address_prefixes:
     - 2a01:111:f403:dc06::/63
     - 2a01:111:f403:e406::/63
   counts:
-    total: 216
-    ipv4: 177
+    total: 217
+    ipv4: 178
     ipv6: 39

@@ -1,7 +1,7 @@
 id: AzureFrontDoor.FirstParty
 name: AzureFrontDoor.FirstParty
 metadata:
-  change_number: 20
+  change_number: 21
   region: ""
   platform: Azure
   system_service: AzureFrontDoor
@@ -76,6 +76,7 @@ address_prefixes:
     - 2620:1ec:44::/47
     - 2620:1ec:8f0::/44
     - 2620:1ec:900::/44
+    - 2620:1ec:911::/48
     - 2620:1ec:a92::/48
     - 2620:1ec:c11::/48
     - 2a01:111:2003::/48
@@ -146,11 +147,12 @@ address_prefixes:
     - 2620:1ec:44::/47
     - 2620:1ec:8f0::/44
     - 2620:1ec:900::/44
+    - 2620:1ec:911::/48
     - 2620:1ec:a92::/48
     - 2620:1ec:c11::/48
     - 2a01:111:2003::/48
     - 2a01:111:202c::/46
   counts:
-    total: 68
+    total: 69
     ipv4: 42
-    ipv6: 26
+    ipv6: 27
