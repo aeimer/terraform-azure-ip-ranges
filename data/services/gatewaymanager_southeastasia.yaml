@@ -1,7 +1,7 @@
 id: GatewayManager.SoutheastAsia
 name: GatewayManager.SoutheastAsia
 metadata:
-  change_number: 5
+  change_number: 6
   region: southeastasia
   platform: Azure
   system_service: GatewayManager
@@ -9,6 +9,7 @@ metadata:
     - NSG
 address_prefixes:
   all:
+    - 4.145.21.64/27
     - 13.67.9.128/29
     - 20.43.128.72/29
     - 20.195.37.65/32
@@ -18,6 +19,7 @@ address_prefixes:
     - 40.90.186.91/32
     - 2603:1040:5:1::40/122
   ipv4:
+    - 4.145.21.64/27
     - 13.67.9.128/29
     - 20.43.128.72/29
     - 20.195.37.65/32
@@ -28,6 +30,6 @@ address_prefixes:
   ipv6:
     - 2603:1040:5:1::40/122
   counts:
-    total: 8
-    ipv4: 7
+    total: 9
+    ipv4: 8
     ipv6: 1

@@ -1,7 +1,7 @@
 id: GatewayManager.WestUS2
 name: GatewayManager.WestUS2
 metadata:
-  change_number: 5
+  change_number: 6
   region: westus2
   platform: Azure
   system_service: GatewayManager
@@ -14,6 +14,7 @@ address_prefixes:
     - 20.83.222.224/27
     - 40.91.89.36/32
     - 40.91.91.51/32
+    - 48.204.72.192/27
     - 52.149.24.100/32
     - 52.149.26.14/32
     - 2603:1030:c06:1::40/122
@@ -23,11 +24,12 @@ address_prefixes:
     - 20.83.222.224/27
     - 40.91.89.36/32
     - 40.91.91.51/32
+    - 48.204.72.192/27
     - 52.149.24.100/32
     - 52.149.26.14/32
   ipv6:
     - 2603:1030:c06:1::40/122
   counts:
-    total: 8
-    ipv4: 7
+    total: 9
+    ipv4: 8
     ipv6: 1

@@ -1,7 +1,7 @@
 id: GatewayManager.CanadaEast
 name: GatewayManager.CanadaEast
 metadata:
-  change_number: 5
+  change_number: 6
   region: canadaeast
   platform: Azure
   system_service: GatewayManager
@@ -9,6 +9,7 @@ metadata:
     - NSG
 address_prefixes:
   all:
+    - 20.200.32.224/27
     - 40.69.106.88/29
     - 40.89.16.72/29
     - 52.139.87.129/32
@@ -16,6 +17,7 @@ address_prefixes:
     - 52.242.44.0/27
     - 2603:1030:1005::40/122
   ipv4:
+    - 20.200.32.224/27
     - 40.69.106.88/29
     - 40.89.16.72/29
     - 52.139.87.129/32
@@ -24,6 +26,6 @@ address_prefixes:
   ipv6:
     - 2603:1030:1005::40/122
   counts:
-    total: 6
-    ipv4: 5
+    total: 7
+    ipv4: 6
     ipv6: 1

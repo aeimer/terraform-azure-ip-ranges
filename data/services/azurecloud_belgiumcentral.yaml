@@ -1,7 +1,7 @@
 id: AzureCloud.belgiumcentral
 name: AzureCloud.belgiumcentral
 metadata:
-  change_number: 4
+  change_number: 5
   region: belgiumcentral
   platform: Azure
   system_service: ""
@@ -34,6 +34,7 @@ address_prefixes:
     - 57.150.194.0/23
     - 57.150.196.0/23
     - 57.150.198.0/24
+    - 145.190.157.0/24
     - 209.199.27.32/27
     - 209.199.28.64/26
     - 209.199.28.128/25
@@ -81,6 +82,7 @@ address_prefixes:
     - 57.150.194.0/23
     - 57.150.196.0/23
     - 57.150.198.0/24
+    - 145.190.157.0/24
     - 209.199.27.32/27
     - 209.199.28.64/26
     - 209.199.28.128/25
@@ -105,6 +107,6 @@ address_prefixes:
     - 2603:1061:2010:3f::/64
     - 2603:1061:2011:3f::/64
   counts:
-    total: 46
-    ipv4: 30
+    total: 47
+    ipv4: 31
     ipv6: 16

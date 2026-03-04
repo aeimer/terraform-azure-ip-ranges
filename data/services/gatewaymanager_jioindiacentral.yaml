@@ -1,7 +1,7 @@
 id: GatewayManager.JioIndiaCentral
 name: GatewayManager.JioIndiaCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: jioindiacentral
   platform: Azure
   system_service: GatewayManager
@@ -10,12 +10,14 @@ metadata:
 address_prefixes:
   all:
     - 20.192.224.192/26
+    - 74.225.118.0/28
     - 2603:1040:1104::40/122
   ipv4:
     - 20.192.224.192/26
+    - 74.225.118.0/28
   ipv6:
     - 2603:1040:1104::40/122
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

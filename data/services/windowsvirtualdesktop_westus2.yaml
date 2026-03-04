@@ -1,7 +1,7 @@
 id: WindowsVirtualDesktop.WestUS2
 name: WindowsVirtualDesktop.WestUS2
 metadata:
-  change_number: 5
+  change_number: 6
   region: westus2
   platform: Azure
   system_service: WindowsVirtualDesktop
@@ -9,12 +9,14 @@ metadata:
 address_prefixes:
   all:
     - 40.64.145.160/28
+    - 40.64.149.64/27
     - 2603:1061:2010:1c::/117
   ipv4:
     - 40.64.145.160/28
+    - 40.64.149.64/27
   ipv6:
     - 2603:1061:2010:1c::/117
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

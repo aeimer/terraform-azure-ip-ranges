@@ -1,7 +1,7 @@
 id: GatewayManager.IsraelNorthwest
 name: GatewayManager.IsraelNorthwest
 metadata:
-  change_number: 1
+  change_number: 2
   region: israelnorthwest
   platform: Azure
   system_service: GatewayManager
@@ -10,12 +10,14 @@ metadata:
 address_prefixes:
   all:
     - 20.217.248.64/26
+    - 51.4.155.144/28
     - 2603:1040:1702::40/122
   ipv4:
     - 20.217.248.64/26
+    - 51.4.155.144/28
   ipv6:
     - 2603:1040:1702::40/122
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

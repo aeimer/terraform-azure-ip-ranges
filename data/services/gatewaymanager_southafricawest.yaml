@@ -1,7 +1,7 @@
 id: GatewayManager.SouthAfricaWest
 name: GatewayManager.SouthAfricaWest
 metadata:
-  change_number: 3
+  change_number: 4
   region: southafricawest
   platform: Azure
   system_service: GatewayManager
@@ -12,14 +12,16 @@ address_prefixes:
     - 102.37.86.224/27
     - 102.133.27.16/29
     - 102.133.56.72/29
+    - 172.209.114.192/27
     - 2603:1000:4::40/122
   ipv4:
     - 102.37.86.224/27
     - 102.133.27.16/29
     - 102.133.56.72/29
+    - 172.209.114.192/27
   ipv6:
     - 2603:1000:4::40/122
   counts:
-    total: 4
-    ipv4: 3
+    total: 5
+    ipv4: 4
     ipv6: 1

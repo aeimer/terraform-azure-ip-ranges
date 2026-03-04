@@ -1,7 +1,7 @@
 id: GatewayManager.EastUS2EUAP
 name: GatewayManager.EastUS2EUAP
 metadata:
-  change_number: 5
+  change_number: 6
   region: eastus2euap
   platform: Azure
   system_service: GatewayManager
@@ -15,6 +15,7 @@ address_prefixes:
     - 20.39.26.140/32
     - 20.39.26.246/32
     - 20.47.233.224/27
+    - 48.223.70.192/26
     - 52.138.90.40/29
     - 2603:1030:40b:1::40/122
   ipv4:
@@ -24,10 +25,11 @@ address_prefixes:
     - 20.39.26.140/32
     - 20.39.26.246/32
     - 20.47.233.224/27
+    - 48.223.70.192/26
     - 52.138.90.40/29
   ipv6:
     - 2603:1030:40b:1::40/122
   counts:
-    total: 8
-    ipv4: 7
+    total: 9
+    ipv4: 8
     ipv6: 1

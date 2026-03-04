@@ -1,7 +1,7 @@
 id: WindowsVirtualDesktop.KoreaCentral
 name: WindowsVirtualDesktop.KoreaCentral
 metadata:
-  change_number: 5
+  change_number: 6
   region: koreacentral
   platform: Azure
   system_service: WindowsVirtualDesktop
@@ -9,12 +9,14 @@ metadata:
 address_prefixes:
   all:
     - 40.64.147.0/28
+    - 40.64.152.0/27
     - 2603:1061:2010:f::/117
   ipv4:
     - 40.64.147.0/28
+    - 40.64.152.0/27
   ipv6:
     - 2603:1061:2010:f::/117
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

@@ -1,7 +1,7 @@
 id: GatewayManager.NorthEurope
 name: GatewayManager.NorthEurope
 metadata:
-  change_number: 5
+  change_number: 6
   region: northeurope
   platform: Azure
   system_service: GatewayManager
@@ -9,6 +9,7 @@ metadata:
     - NSG
 address_prefixes:
   all:
+    - 4.208.122.32/27
     - 13.69.227.224/29
     - 20.38.80.72/29
     - 20.54.106.86/32
@@ -16,6 +17,7 @@ address_prefixes:
     - 20.107.239.96/27
     - 2603:1020:5:1::40/122
   ipv4:
+    - 4.208.122.32/27
     - 13.69.227.224/29
     - 20.38.80.72/29
     - 20.54.106.86/32
@@ -24,6 +26,6 @@ address_prefixes:
   ipv6:
     - 2603:1020:5:1::40/122
   counts:
-    total: 6
-    ipv4: 5
+    total: 7
+    ipv4: 6
     ipv6: 1

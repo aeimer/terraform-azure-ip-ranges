@@ -1,7 +1,7 @@
 id: GatewayManager.SouthIndia
 name: GatewayManager.SouthIndia
 metadata:
-  change_number: 4
+  change_number: 5
   region: southindia
   platform: Azure
   system_service: GatewayManager
@@ -12,14 +12,16 @@ address_prefixes:
     - 20.41.192.72/29
     - 20.192.153.224/27
     - 40.78.194.88/29
+    - 74.225.47.96/27
     - 2603:1040:c06::40/122
   ipv4:
     - 20.41.192.72/29
     - 20.192.153.224/27
     - 40.78.194.88/29
+    - 74.225.47.96/27
   ipv6:
     - 2603:1040:c06::40/122
   counts:
-    total: 4
-    ipv4: 3
+    total: 5
+    ipv4: 4
     ipv6: 1

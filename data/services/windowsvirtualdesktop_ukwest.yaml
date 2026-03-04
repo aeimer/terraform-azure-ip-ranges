@@ -1,7 +1,7 @@
 id: WindowsVirtualDesktop.UKWest
 name: WindowsVirtualDesktop.UKWest
 metadata:
-  change_number: 7
+  change_number: 8
   region: ukwest
   platform: Azure
   system_service: WindowsVirtualDesktop
@@ -10,13 +10,15 @@ address_prefixes:
   all:
     - 40.64.144.240/29
     - 40.64.145.96/28
+    - 40.64.148.224/27
     - 2603:1061:2010:17::/117
   ipv4:
     - 40.64.144.240/29
     - 40.64.145.96/28
+    - 40.64.148.224/27
   ipv6:
     - 2603:1061:2010:17::/117
   counts:
-    total: 3
-    ipv4: 2
+    total: 4
+    ipv4: 3
     ipv6: 1

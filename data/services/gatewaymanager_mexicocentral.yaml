@@ -1,7 +1,7 @@
 id: GatewayManager.MexicoCentral
 name: GatewayManager.MexicoCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: mexicocentral
   platform: Azure
   system_service: GatewayManager
@@ -10,12 +10,14 @@ metadata:
 address_prefixes:
   all:
     - 158.23.96.64/26
+    - 172.195.113.144/28
     - 2603:1030:702::40/122
   ipv4:
     - 158.23.96.64/26
+    - 172.195.113.144/28
   ipv6:
     - 2603:1030:702::40/122
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

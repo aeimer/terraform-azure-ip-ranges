@@ -1,7 +1,7 @@
 id: GatewayManager.JapanEast
 name: GatewayManager.JapanEast
 metadata:
-  change_number: 4
+  change_number: 5
   region: japaneast
   platform: Azure
   system_service: GatewayManager
@@ -9,17 +9,19 @@ metadata:
     - NSG
 address_prefixes:
   all:
+    - 4.216.6.128/27
     - 13.78.108.16/29
     - 20.43.64.72/29
     - 20.210.68.160/27
     - 2603:1040:407:1::40/122
   ipv4:
+    - 4.216.6.128/27
     - 13.78.108.16/29
     - 20.43.64.72/29
     - 20.210.68.160/27
   ipv6:
     - 2603:1040:407:1::40/122
   counts:
-    total: 4
-    ipv4: 3
+    total: 5
+    ipv4: 4
     ipv6: 1

@@ -1,7 +1,7 @@
 id: AzureCloud.canadacentral
 name: AzureCloud.canadacentral
 metadata:
-  change_number: 97
+  change_number: 98
   region: canadacentral
   platform: Azure
   system_service: ""
@@ -142,6 +142,7 @@ address_prefixes:
     - 145.191.0.0/17
     - 151.206.107.128/25
     - 151.206.150.0/24
+    - 151.206.176.0/24
     - 216.220.210.0/24
     - 2603:1030:f00::/47
     - 2603:1030:f02::/48
@@ -318,6 +319,7 @@ address_prefixes:
     - 145.191.0.0/17
     - 151.206.107.128/25
     - 151.206.150.0/24
+    - 151.206.176.0/24
     - 216.220.210.0/24
   ipv6:
     - 2603:1030:f00::/47
@@ -363,6 +365,6 @@ address_prefixes:
     - 2a01:111:f403:d916::/64
     - 2a01:111:f403:e019::/64
   counts:
-    total: 175
-    ipv4: 133
+    total: 176
+    ipv4: 134
     ipv6: 42

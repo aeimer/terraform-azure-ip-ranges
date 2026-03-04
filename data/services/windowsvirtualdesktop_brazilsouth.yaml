@@ -1,7 +1,7 @@
 id: WindowsVirtualDesktop.BrazilSouth
 name: WindowsVirtualDesktop.BrazilSouth
 metadata:
-  change_number: 7
+  change_number: 8
   region: brazilsouth
   platform: Azure
   system_service: WindowsVirtualDesktop
@@ -10,13 +10,15 @@ address_prefixes:
   all:
     - 40.64.144.224/29
     - 40.64.145.64/28
+    - 40.64.148.128/27
     - 2603:1061:2010:2::/117
   ipv4:
     - 40.64.144.224/29
     - 40.64.145.64/28
+    - 40.64.148.128/27
   ipv6:
     - 2603:1061:2010:2::/117
   counts:
-    total: 3
-    ipv4: 2
+    total: 4
+    ipv4: 3
     ipv6: 1

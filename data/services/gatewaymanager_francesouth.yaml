@@ -1,7 +1,7 @@
 id: GatewayManager.FranceSouth
 name: GatewayManager.FranceSouth
 metadata:
-  change_number: 4
+  change_number: 5
   region: southfrance
   platform: Azure
   system_service: GatewayManager
@@ -10,6 +10,7 @@ metadata:
 address_prefixes:
   all:
     - 40.79.178.88/29
+    - 40.80.105.224/27
     - 40.82.236.2/32
     - 40.82.236.13/32
     - 51.105.88.72/29
@@ -17,6 +18,7 @@ address_prefixes:
     - 2603:1020:905::40/122
   ipv4:
     - 40.79.178.88/29
+    - 40.80.105.224/27
     - 40.82.236.2/32
     - 40.82.236.13/32
     - 51.105.88.72/29
@@ -24,6 +26,6 @@ address_prefixes:
   ipv6:
     - 2603:1020:905::40/122
   counts:
-    total: 6
-    ipv4: 5
+    total: 7
+    ipv4: 6
     ipv6: 1

@@ -1,7 +1,7 @@
 id: Storage.CentralIndia
 name: Storage.CentralIndia
 metadata:
-  change_number: 12
+  change_number: 13
   region: centralindia
   platform: Azure
   system_service: AzureStorage
@@ -33,6 +33,7 @@ address_prefixes:
     - 104.211.109.80/28
     - 104.211.109.96/28
     - 135.130.174.0/23
+    - 145.190.158.0/24
     - 2603:1040:a07::/48
   ipv4:
     - 20.33.153.0/24
@@ -56,9 +57,10 @@ address_prefixes:
     - 104.211.109.80/28
     - 104.211.109.96/28
     - 135.130.174.0/23
+    - 145.190.158.0/24
   ipv6:
     - 2603:1040:a07::/48
   counts:
-    total: 22
-    ipv4: 21
+    total: 23
+    ipv4: 22
     ipv6: 1

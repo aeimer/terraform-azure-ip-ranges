@@ -1,7 +1,7 @@
 id: GatewayManager.BrazilSouth
 name: GatewayManager.BrazilSouth
 metadata:
-  change_number: 4
+  change_number: 5
   region: brazilsouth
   platform: Azure
   system_service: GatewayManager
@@ -9,6 +9,7 @@ metadata:
     - NSG
 address_prefixes:
   all:
+    - 4.201.244.192/27
     - 191.233.203.208/29
     - 191.233.245.75/32
     - 191.233.245.118/32
@@ -16,6 +17,7 @@ address_prefixes:
     - 191.238.78.96/27
     - 2603:1050:6:1::40/122
   ipv4:
+    - 4.201.244.192/27
     - 191.233.203.208/29
     - 191.233.245.75/32
     - 191.233.245.118/32
@@ -24,6 +26,6 @@ address_prefixes:
   ipv6:
     - 2603:1050:6:1::40/122
   counts:
-    total: 6
-    ipv4: 5
+    total: 7
+    ipv4: 6
     ipv6: 1

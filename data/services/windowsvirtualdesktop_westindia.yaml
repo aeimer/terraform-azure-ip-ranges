@@ -1,7 +1,7 @@
 id: WindowsVirtualDesktop.WestIndia
 name: WindowsVirtualDesktop.WestIndia
 metadata:
-  change_number: 7
+  change_number: 8
   region: westindia
   platform: Azure
   system_service: WindowsVirtualDesktop
@@ -9,12 +9,14 @@ metadata:
 address_prefixes:
   all:
     - 40.64.146.0/28
+    - 40.64.150.0/27
     - 2603:1061:2010:1a::/117
   ipv4:
     - 40.64.146.0/28
+    - 40.64.150.0/27
   ipv6:
     - 2603:1061:2010:1a::/117
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

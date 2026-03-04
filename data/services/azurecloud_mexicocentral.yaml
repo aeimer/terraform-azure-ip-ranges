@@ -1,7 +1,7 @@
 id: AzureCloud.mexicocentral
 name: AzureCloud.mexicocentral
 metadata:
-  change_number: 37
+  change_number: 38
   region: mexicocentral
   platform: Azure
   system_service: ""
@@ -70,6 +70,7 @@ address_prefixes:
     - 68.155.0.0/16
     - 70.152.44.0/24
     - 151.206.158.0/24
+    - 151.206.184.0/24
     - 158.23.0.0/16
     - 172.195.0.0/17
     - 216.220.208.0/24
@@ -174,6 +175,7 @@ address_prefixes:
     - 68.155.0.0/16
     - 70.152.44.0/24
     - 151.206.158.0/24
+    - 151.206.184.0/24
     - 158.23.0.0/16
     - 172.195.0.0/17
     - 216.220.208.0/24
@@ -219,6 +221,6 @@ address_prefixes:
     - 2a01:111:f403:dc11::/64
     - 2a01:111:f403:e411::/64
   counts:
-    total: 103
-    ipv4: 63
+    total: 104
+    ipv4: 64
     ipv6: 40

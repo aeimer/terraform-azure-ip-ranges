@@ -1,7 +1,7 @@
 id: GatewayManager.ChileCentral
 name: GatewayManager.ChileCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: chilec
   platform: Azure
   system_service: GatewayManager
@@ -9,13 +9,15 @@ metadata:
     - NSG
 address_prefixes:
   all:
+    - 57.156.76.16/28
     - 68.211.19.192/26
     - 2603:1050:301::40/122
   ipv4:
+    - 57.156.76.16/28
     - 68.211.19.192/26
   ipv6:
     - 2603:1050:301::40/122
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

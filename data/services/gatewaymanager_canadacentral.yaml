@@ -1,7 +1,7 @@
 id: GatewayManager.CanadaCentral
 name: GatewayManager.CanadaCentral
 metadata:
-  change_number: 4
+  change_number: 5
   region: canadacentral
   platform: Azure
   system_service: GatewayManager
@@ -12,14 +12,16 @@ address_prefixes:
     - 13.71.170.240/29
     - 20.116.42.128/27
     - 52.228.80.72/29
+    - 145.191.111.64/27
     - 2603:1030:f05:1::40/122
   ipv4:
     - 13.71.170.240/29
     - 20.116.42.128/27
     - 52.228.80.72/29
+    - 145.191.111.64/27
   ipv6:
     - 2603:1030:f05:1::40/122
   counts:
-    total: 4
-    ipv4: 3
+    total: 5
+    ipv4: 4
     ipv6: 1

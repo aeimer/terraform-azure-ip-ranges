@@ -1,7 +1,7 @@
 id: GatewayManager.CentralUS
 name: GatewayManager.CentralUS
 metadata:
-  change_number: 6
+  change_number: 7
   region: centralus
   platform: Azure
   system_service: GatewayManager
@@ -15,6 +15,7 @@ address_prefixes:
     - 20.118.195.160/27
     - 52.143.250.137/32
     - 52.143.251.22/32
+    - 172.170.121.128/27
     - 2603:1030:10:1::40/122
   ipv4:
     - 13.89.171.96/29
@@ -23,9 +24,10 @@ address_prefixes:
     - 20.118.195.160/27
     - 52.143.250.137/32
     - 52.143.251.22/32
+    - 172.170.121.128/27
   ipv6:
     - 2603:1030:10:1::40/122
   counts:
-    total: 7
-    ipv4: 6
+    total: 8
+    ipv4: 7
     ipv6: 1

@@ -1,7 +1,7 @@
 id: GatewayManager.EastUS3
 name: GatewayManager.EastUS3
 metadata:
-  change_number: 1
+  change_number: 2
   region: eastus3
   platform: Azure
   system_service: GatewayManager
@@ -9,13 +9,15 @@ metadata:
     - NSG
 address_prefixes:
   all:
+    - 51.57.139.192/28
     - 134.138.64.64/26
     - 2603:1030:1402::40/122
   ipv4:
+    - 51.57.139.192/28
     - 134.138.64.64/26
   ipv6:
     - 2603:1030:1402::40/122
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

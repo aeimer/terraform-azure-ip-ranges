@@ -1,7 +1,7 @@
 id: AzureCloud.israelcentral
 name: AzureCloud.israelcentral
 metadata:
-  change_number: 41
+  change_number: 42
   region: israelcentral
   platform: Azure
   system_service: ""
@@ -77,6 +77,7 @@ address_prefixes:
     - 70.152.42.0/24
     - 151.206.69.128/25
     - 151.206.152.0/24
+    - 151.206.178.0/24
     - 2603:1040:1401::/48
     - 2603:1040:1402::/47
     - 2603:1040:1404::/48
@@ -193,6 +194,7 @@ address_prefixes:
     - 70.152.42.0/24
     - 151.206.69.128/25
     - 151.206.152.0/24
+    - 151.206.178.0/24
   ipv6:
     - 2603:1040:1401::/48
     - 2603:1040:1402::/47
@@ -243,6 +245,6 @@ address_prefixes:
     - 2a01:111:f403:e20d::/64
     - 2a01:111:f403:e20e::/64
   counts:
-    total: 115
-    ipv4: 67
+    total: 116
+    ipv4: 68
     ipv6: 48

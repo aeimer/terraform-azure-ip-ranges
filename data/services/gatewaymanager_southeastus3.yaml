@@ -1,7 +1,7 @@
 id: GatewayManager.SoutheastUS3
 name: GatewayManager.SoutheastUS3
 metadata:
-  change_number: 1
+  change_number: 2
   region: southeastus3
   platform: Azure
   system_service: GatewayManager
@@ -10,12 +10,14 @@ metadata:
 address_prefixes:
   all:
     - 74.7.40.64/26
+    - 74.7.67.192/28
     - 2603:1030:1302::40/122
   ipv4:
     - 74.7.40.64/26
+    - 74.7.67.192/28
   ipv6:
     - 2603:1030:1302::40/122
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

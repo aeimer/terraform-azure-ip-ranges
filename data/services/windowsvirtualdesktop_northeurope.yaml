@@ -1,7 +1,7 @@
 id: WindowsVirtualDesktop.NorthEurope
 name: WindowsVirtualDesktop.NorthEurope
 metadata:
-  change_number: 5
+  change_number: 6
   region: northeurope
   platform: Azure
   system_service: WindowsVirtualDesktop
@@ -9,12 +9,14 @@ metadata:
 address_prefixes:
   all:
     - 40.64.144.64/27
+    - 40.64.147.64/28
     - 2603:1061:2010:12::/117
   ipv4:
     - 40.64.144.64/27
+    - 40.64.147.64/28
   ipv6:
     - 2603:1061:2010:12::/117
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

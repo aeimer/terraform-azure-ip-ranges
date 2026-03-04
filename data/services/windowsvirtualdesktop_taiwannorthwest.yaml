@@ -1,7 +1,7 @@
 id: WindowsVirtualDesktop.TaiwanNorthwest
 name: WindowsVirtualDesktop.TaiwanNorthwest
 metadata:
-  change_number: 2
+  change_number: 3
   region: taiwannorthwest
   platform: Azure
   system_service: WindowsVirtualDesktop
@@ -9,12 +9,14 @@ metadata:
 address_prefixes:
   all:
     - 40.64.144.144/29
+    - 40.64.153.32/27
     - 2603:1061:2010:3e::/117
   ipv4:
     - 40.64.144.144/29
+    - 40.64.153.32/27
   ipv6:
     - 2603:1061:2010:3e::/117
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

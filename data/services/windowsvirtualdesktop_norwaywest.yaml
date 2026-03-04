@@ -1,7 +1,7 @@
 id: WindowsVirtualDesktop.NorwayWest
 name: WindowsVirtualDesktop.NorwayWest
 metadata:
-  change_number: 2
+  change_number: 3
   region: norwayw
   platform: Azure
   system_service: WindowsVirtualDesktop
@@ -9,12 +9,14 @@ metadata:
 address_prefixes:
   all:
     - 40.64.147.216/29
+    - 40.64.153.192/27
     - 2603:1061:2010:2b::/117
   ipv4:
     - 40.64.147.216/29
+    - 40.64.153.192/27
   ipv6:
     - 2603:1061:2010:2b::/117
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1
