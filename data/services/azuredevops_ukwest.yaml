@@ -1,0 +1,20 @@
+id: AzureDevOps.UKWest
+name: AzureDevOps.UKWest
+metadata:
+  change_number: 1
+  region: ukwest
+  platform: Azure
+  system_service: AzureDevOps
+  network_features: []
+address_prefixes:
+  all:
+    - 172.186.108.192/26
+    - 2603:1020:605:c::100/125
+  ipv4:
+    - 172.186.108.192/26
+  ipv6:
+    - 2603:1020:605:c::100/125
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1
