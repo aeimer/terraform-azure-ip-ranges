@@ -1,0 +1,20 @@
+id: AzureDevOps.SwedenSouth
+name: AzureDevOps.SwedenSouth
+metadata:
+  change_number: 1
+  region: swedensouth
+  platform: Azure
+  system_service: AzureDevOps
+  network_features: []
+address_prefixes:
+  all:
+    - 20.91.91.32/28
+    - 2603:1020:1104:8::118/125
+  ipv4:
+    - 20.91.91.32/28
+  ipv6:
+    - 2603:1020:1104:8::118/125
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

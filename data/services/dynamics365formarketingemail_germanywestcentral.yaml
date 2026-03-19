@@ -1,0 +1,18 @@
+id: Dynamics365ForMarketingEmail.GermanyWestCentral
+name: Dynamics365ForMarketingEmail.GermanyWestCentral
+metadata:
+  change_number: 1
+  region: germanywc
+  platform: Azure
+  system_service: Dynamics365ForMarketingEmail
+  network_features: []
+address_prefixes:
+  all:
+    - 48.201.168.32/27
+  ipv4:
+    - 48.201.168.32/27
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

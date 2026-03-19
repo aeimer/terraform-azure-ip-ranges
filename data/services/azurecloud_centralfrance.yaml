@@ -1,7 +1,7 @@
 id: AzureCloud.centralfrance
 name: AzureCloud.centralfrance
 metadata:
-  change_number: 97
+  change_number: 98
   region: centralfrance
   platform: Azure
   system_service: ""
@@ -166,7 +166,7 @@ address_prefixes:
     - 57.157.36.0/24
     - 57.157.37.0/27
     - 57.157.37.32/28
-    - 57.157.37.48/31
+    - 57.157.37.48/29
     - 70.37.152.0/24
     - 70.152.10.0/24
     - 70.152.46.0/23
@@ -379,7 +379,7 @@ address_prefixes:
     - 57.157.36.0/24
     - 57.157.37.0/27
     - 57.157.37.32/28
-    - 57.157.37.48/31
+    - 57.157.37.48/29
     - 70.37.152.0/24
     - 70.152.10.0/24
     - 70.152.46.0/23

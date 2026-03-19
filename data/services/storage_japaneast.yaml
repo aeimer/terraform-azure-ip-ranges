@@ -1,7 +1,7 @@
 id: Storage.JapanEast
 name: Storage.JapanEast
 metadata:
-  change_number: 14
+  change_number: 15
   region: japaneast
   platform: Azure
   system_service: AzureStorage
@@ -42,6 +42,7 @@ address_prefixes:
     - 52.239.144.0/23
     - 57.150.138.0/23
     - 57.150.170.0/23
+    - 145.190.165.0/24
     - 2603:1040:408::/48
   ipv4:
     - 13.73.8.16/28
@@ -74,9 +75,10 @@ address_prefixes:
     - 52.239.144.0/23
     - 57.150.138.0/23
     - 57.150.170.0/23
+    - 145.190.165.0/24
   ipv6:
     - 2603:1040:408::/48
   counts:
-    total: 31
-    ipv4: 30
+    total: 32
+    ipv4: 31
     ipv6: 1

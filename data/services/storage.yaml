@@ -1,7 +1,7 @@
 id: Storage
 name: Storage
 metadata:
-  change_number: 54
+  change_number: 55
   region: ""
   platform: Azure
   system_service: AzureStorage
@@ -380,6 +380,7 @@ address_prefixes:
     - 52.241.88.64/27
     - 52.245.40.0/24
     - 57.150.0.0/16
+    - 57.163.0.0/16
     - 104.41.232.16/28
     - 104.42.200.16/28
     - 104.46.31.16/28
@@ -955,6 +956,7 @@ address_prefixes:
     - 52.241.88.64/27
     - 52.245.40.0/24
     - 57.150.0.0/16
+    - 57.163.0.0/16
     - 104.41.232.16/28
     - 104.42.200.16/28
     - 104.46.31.16/28
@@ -1164,6 +1166,6 @@ address_prefixes:
     - 2603:1050:302::/48
     - 2603:1050:404::/48
   counts:
-    total: 574
-    ipv4: 495
+    total: 575
+    ipv4: 496
     ipv6: 79
