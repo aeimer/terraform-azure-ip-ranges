@@ -1,7 +1,7 @@
 id: AzureMonitor.BrazilSoutheast
 name: AzureMonitor.BrazilSoutheast
 metadata:
-  change_number: 14
+  change_number: 15
   region: brazilse
   platform: Azure
   system_service: AzureMonitor
@@ -11,7 +11,8 @@ address_prefixes:
   all:
     - 4.238.11.96/28
     - 4.238.15.0/28
-    - 4.238.24.64/27
+    - 4.238.24.64/26
+    - 4.238.25.128/26
     - 20.206.0.196/31
     - 20.206.5.40/29
     - 108.140.6.64/27
@@ -32,7 +33,8 @@ address_prefixes:
   ipv4:
     - 4.238.11.96/28
     - 4.238.15.0/28
-    - 4.238.24.64/27
+    - 4.238.24.64/26
+    - 4.238.25.128/26
     - 20.206.0.196/31
     - 20.206.5.40/29
     - 108.140.6.64/27
@@ -52,6 +54,6 @@ address_prefixes:
     - 2603:1050:403:7::660/123
     - 2603:1050:403:400::580/121
   counts:
-    total: 20
-    ipv4: 11
+    total: 21
+    ipv4: 12
     ipv6: 9

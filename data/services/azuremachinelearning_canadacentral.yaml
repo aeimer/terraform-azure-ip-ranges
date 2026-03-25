@@ -1,13 +1,18 @@
 id: AzureMachineLearning.CanadaCentral
 name: AzureMachineLearning.CanadaCentral
 metadata:
-  change_number: 2
+  change_number: 3
   region: canadacentral
   platform: Azure
   system_service: AzureMachineLearning
   network_features: []
 address_prefixes:
   all:
+    - 4.229.250.74/31
+    - 4.229.250.76/30
+    - 4.229.250.80/28
+    - 4.229.250.96/27
+    - 4.229.250.128/32
     - 13.71.170.192/28
     - 13.71.173.80/28
     - 20.38.147.128/28
@@ -17,7 +22,17 @@ address_prefixes:
     - 52.228.80.80/28
     - 52.246.155.128/28
     - 2603:1030:f05:1::2c0/122
+    - 2603:1030:f05:d::6f6/127
+    - 2603:1030:f05:d::7f8/126
+    - 2603:1030:f05:d::7fc/128
+    - 2603:1030:f05:e::80/123
+    - 2603:1030:f05:e::a0/124
   ipv4:
+    - 4.229.250.74/31
+    - 4.229.250.76/30
+    - 4.229.250.80/28
+    - 4.229.250.96/27
+    - 4.229.250.128/32
     - 13.71.170.192/28
     - 13.71.173.80/28
     - 20.38.147.128/28
@@ -28,7 +43,12 @@ address_prefixes:
     - 52.246.155.128/28
   ipv6:
     - 2603:1030:f05:1::2c0/122
+    - 2603:1030:f05:d::6f6/127
+    - 2603:1030:f05:d::7f8/126
+    - 2603:1030:f05:d::7fc/128
+    - 2603:1030:f05:e::80/123
+    - 2603:1030:f05:e::a0/124
   counts:
-    total: 9
-    ipv4: 8
-    ipv6: 1
+    total: 19
+    ipv4: 13
+    ipv6: 6

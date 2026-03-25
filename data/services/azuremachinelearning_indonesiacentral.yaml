@@ -1,20 +1,40 @@
 id: AzureMachineLearning.IndonesiaCentral
 name: AzureMachineLearning.IndonesiaCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: indonesiacentral
   platform: Azure
   system_service: AzureMachineLearning
   network_features: []
 address_prefixes:
   all:
+    - 48.193.55.110/31
+    - 48.193.72.88/30
+    - 48.193.72.92/32
+    - 48.193.72.128/27
+    - 48.193.72.160/28
     - 70.153.153.0/27
     - 2603:1040:1802:3::c0/122
+    - 2603:1040:1802:7::168/126
+    - 2603:1040:1802:7::16c/127
+    - 2603:1040:1802:7::16e/128
+    - 2603:1040:1802:7::2a0/123
+    - 2603:1040:1802:7::2c0/124
   ipv4:
+    - 48.193.55.110/31
+    - 48.193.72.88/30
+    - 48.193.72.92/32
+    - 48.193.72.128/27
+    - 48.193.72.160/28
     - 70.153.153.0/27
   ipv6:
     - 2603:1040:1802:3::c0/122
+    - 2603:1040:1802:7::168/126
+    - 2603:1040:1802:7::16c/127
+    - 2603:1040:1802:7::16e/128
+    - 2603:1040:1802:7::2a0/123
+    - 2603:1040:1802:7::2c0/124
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 12
+    ipv4: 6
+    ipv6: 6

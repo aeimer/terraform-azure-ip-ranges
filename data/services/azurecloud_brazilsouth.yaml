@@ -1,7 +1,7 @@
 id: AzureCloud.brazilsouth
 name: AzureCloud.brazilsouth
 metadata:
-  change_number: 93
+  change_number: 94
   region: brazilsouth
   platform: Azure
   system_service: ""
@@ -127,6 +127,7 @@ address_prefixes:
     - 52.253.186.0/24
     - 57.150.130.0/23
     - 70.152.2.0/24
+    - 70.152.215.0/24
     - 70.152.249.0/24
     - 70.152.250.0/24
     - 74.163.0.0/16
@@ -321,6 +322,7 @@ address_prefixes:
     - 52.253.186.0/24
     - 57.150.130.0/23
     - 70.152.2.0/24
+    - 70.152.215.0/24
     - 70.152.249.0/24
     - 70.152.250.0/24
     - 74.163.0.0/16
@@ -399,6 +401,6 @@ address_prefixes:
     - 2a01:111:f403:d919::/64
     - 2a01:111:f403:e01c::/64
   counts:
-    total: 193
-    ipv4: 153
+    total: 194
+    ipv4: 154
     ipv6: 40

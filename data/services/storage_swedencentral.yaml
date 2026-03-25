@@ -1,7 +1,7 @@
 id: Storage.SwedenCentral
 name: Storage.SwedenCentral
 metadata:
-  change_number: 12
+  change_number: 13
   region: swedencentral
   platform: Azure
   system_service: AzureStorage
@@ -23,6 +23,7 @@ address_prefixes:
     - 20.157.232.0/24
     - 20.209.216.0/23
     - 57.150.58.0/23
+    - 57.163.6.0/23
     - 135.130.110.0/23
     - 145.190.140.0/24
     - 145.190.164.0/24
@@ -39,12 +40,13 @@ address_prefixes:
     - 20.157.232.0/24
     - 20.209.216.0/23
     - 57.150.58.0/23
+    - 57.163.6.0/23
     - 135.130.110.0/23
     - 145.190.140.0/24
     - 145.190.164.0/24
   ipv6:
     - 2603:1020:1005::/48
   counts:
-    total: 15
-    ipv4: 14
+    total: 16
+    ipv4: 15
     ipv6: 1

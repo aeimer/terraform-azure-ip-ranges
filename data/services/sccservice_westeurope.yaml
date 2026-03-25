@@ -1,26 +1,22 @@
 id: SCCservice.WestEurope
 name: SCCservice.WestEurope
 metadata:
-  change_number: 3
+  change_number: 4
   region: westeurope
   platform: Azure
   system_service: SCCservice
   network_features: []
 address_prefixes:
   all:
-    - 40.74.56.205/32
     - 48.209.79.32/27
     - 52.178.17.16/28
-    - 104.46.32.191/32
     - 2603:1020:206:12::440/123
   ipv4:
-    - 40.74.56.205/32
     - 48.209.79.32/27
     - 52.178.17.16/28
-    - 104.46.32.191/32
   ipv6:
     - 2603:1020:206:12::440/123
   counts:
-    total: 5
-    ipv4: 4
+    total: 3
+    ipv4: 2
     ipv6: 1
