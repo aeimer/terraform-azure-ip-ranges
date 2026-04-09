@@ -1,7 +1,7 @@
 id: AzureBackup.BrazilSoutheast
 name: AzureBackup.BrazilSoutheast
 metadata:
-  change_number: 3
+  change_number: 4
   region: brazilse
   platform: Azure
   system_service: AzureBackup
@@ -11,14 +11,16 @@ address_prefixes:
     - 20.195.146.128/26
     - 191.233.50.224/27
     - 191.233.51.64/26
+    - 2603:1050:403:8::180/121
     - 2603:1050:403:400::500/121
   ipv4:
     - 20.195.146.128/26
     - 191.233.50.224/27
     - 191.233.51.64/26
   ipv6:
+    - 2603:1050:403:8::180/121
     - 2603:1050:403:400::500/121
   counts:
-    total: 4
+    total: 5
     ipv4: 3
-    ipv6: 1
+    ipv6: 2

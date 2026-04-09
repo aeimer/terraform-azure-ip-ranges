@@ -1,7 +1,7 @@
 id: StorageMover
 name: StorageMover
 metadata:
-  change_number: 2
+  change_number: 3
   region: ""
   platform: Azure
   system_service: StorageMover
@@ -13,8 +13,10 @@ metadata:
 address_prefixes:
   all:
     - 4.149.115.4/31
+    - 4.188.14.120/29
     - 4.194.225.198/31
     - 4.207.244.164/30
+    - 4.229.250.240/29
     - 20.14.127.112/31
     - 20.15.14.124/31
     - 20.26.20.122/31
@@ -36,8 +38,10 @@ address_prefixes:
     - 172.182.175.184/30
   ipv4:
     - 4.149.115.4/31
+    - 4.188.14.120/29
     - 4.194.225.198/31
     - 4.207.244.164/30
+    - 4.229.250.240/29
     - 20.14.127.112/31
     - 20.15.14.124/31
     - 20.26.20.122/31
@@ -59,6 +63,6 @@ address_prefixes:
     - 172.182.175.184/30
   ipv6: []
   counts:
-    total: 22
-    ipv4: 22
+    total: 24
+    ipv4: 24
     ipv6: 0

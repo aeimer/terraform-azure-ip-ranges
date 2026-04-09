@@ -1,7 +1,7 @@
 id: PowerPlatformPlex.GermanyWestCentral
 name: PowerPlatformPlex.GermanyWestCentral
 metadata:
-  change_number: 5
+  change_number: 6
   region: germanywc
   platform: Azure
   system_service: PowerPlatformPlex
@@ -15,6 +15,7 @@ address_prefixes:
     - 20.52.95.216/30
     - 20.79.108.100/30
     - 20.79.108.104/30
+    - 48.201.171.128/25
     - 98.67.183.168/29
     - 98.67.183.176/29
     - 135.220.124.0/25
@@ -25,12 +26,13 @@ address_prefixes:
     - 20.52.95.216/30
     - 20.79.108.100/30
     - 20.79.108.104/30
+    - 48.201.171.128/25
     - 98.67.183.168/29
     - 98.67.183.176/29
     - 135.220.124.0/25
   ipv6:
     - 2603:1061:2004:4900::/57
   counts:
-    total: 9
-    ipv4: 8
+    total: 10
+    ipv4: 9
     ipv6: 1

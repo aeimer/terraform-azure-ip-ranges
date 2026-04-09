@@ -1,7 +1,7 @@
 id: PowerPlatformInfra.KoreaSouth
 name: PowerPlatformInfra.KoreaSouth
 metadata:
-  change_number: 5
+  change_number: 6
   region: koreasouth
   platform: Azure
   system_service: PowerPlatformInfra
@@ -27,6 +27,7 @@ address_prefixes:
     - 52.231.143.171/32
     - 52.231.164.79/32
     - 52.231.185.0/32
+    - 52.231.238.0/25
     - 2603:1061:2002:2100::/57
   ipv4:
     - 4.243.45.128/26
@@ -44,9 +45,10 @@ address_prefixes:
     - 52.231.143.171/32
     - 52.231.164.79/32
     - 52.231.185.0/32
+    - 52.231.238.0/25
   ipv6:
     - 2603:1061:2002:2100::/57
   counts:
-    total: 16
-    ipv4: 15
+    total: 17
+    ipv4: 16
     ipv6: 1

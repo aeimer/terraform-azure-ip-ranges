@@ -1,7 +1,7 @@
 id: Storage.DenmarkEast
 name: Storage.DenmarkEast
 metadata:
-  change_number: 1
+  change_number: 2
   region: denmarkeast
   platform: Azure
   system_service: AzureStorage
@@ -16,15 +16,19 @@ address_prefixes:
     - 20.153.33.0/24
     - 57.150.199.0/24
     - 57.150.200.0/22
+    - 57.163.24.0/23
+    - 145.190.168.0/24
     - 2603:1020:1603::/48
   ipv4:
     - 20.153.21.0/24
     - 20.153.33.0/24
     - 57.150.199.0/24
     - 57.150.200.0/22
+    - 57.163.24.0/23
+    - 145.190.168.0/24
   ipv6:
     - 2603:1020:1603::/48
   counts:
-    total: 5
-    ipv4: 4
+    total: 7
+    ipv4: 6
     ipv6: 1

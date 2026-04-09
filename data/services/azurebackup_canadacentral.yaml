@@ -1,7 +1,7 @@
 id: AzureBackup.CanadaCentral
 name: AzureBackup.CanadaCentral
 metadata:
-  change_number: 2
+  change_number: 3
   region: canadacentral
   platform: Azure
   system_service: AzureBackup
@@ -15,6 +15,7 @@ address_prefixes:
     - 20.48.197.0/26
     - 52.246.155.0/27
     - 52.246.155.64/26
+    - 2603:1030:f05:e::380/121
     - 2603:1030:f05:402::200/121
     - 2603:1030:f05:802::180/121
     - 2603:1030:f05:c02::180/121
@@ -27,10 +28,11 @@ address_prefixes:
     - 52.246.155.0/27
     - 52.246.155.64/26
   ipv6:
+    - 2603:1030:f05:e::380/121
     - 2603:1030:f05:402::200/121
     - 2603:1030:f05:802::180/121
     - 2603:1030:f05:c02::180/121
   counts:
-    total: 10
+    total: 11
     ipv4: 7
-    ipv6: 3
+    ipv6: 4

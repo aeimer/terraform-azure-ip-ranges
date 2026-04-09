@@ -1,7 +1,7 @@
 id: PowerPlatformPlex.KoreaCentral
 name: PowerPlatformPlex.KoreaCentral
 metadata:
-  change_number: 6
+  change_number: 7
   region: koreacentral
   platform: Azure
   system_service: PowerPlatformPlex
@@ -12,6 +12,7 @@ address_prefixes:
   all:
     - 4.181.26.80/29
     - 4.218.236.128/28
+    - 4.230.161.128/25
     - 20.200.198.200/29
     - 20.200.199.88/29
     - 72.155.105.192/26
@@ -20,6 +21,7 @@ address_prefixes:
   ipv4:
     - 4.181.26.80/29
     - 4.218.236.128/28
+    - 4.230.161.128/25
     - 20.200.198.200/29
     - 20.200.199.88/29
     - 72.155.105.192/26
@@ -27,6 +29,6 @@ address_prefixes:
   ipv6:
     - 2603:1061:2004:1800::/57
   counts:
-    total: 7
-    ipv4: 6
+    total: 8
+    ipv4: 7
     ipv6: 1

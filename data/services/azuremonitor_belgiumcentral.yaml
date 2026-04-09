@@ -1,7 +1,7 @@
 id: AzureMonitor.BelgiumCentral
 name: AzureMonitor.BelgiumCentral
 metadata:
-  change_number: 4
+  change_number: 5
   region: belgiumcentral
   platform: Azure
   system_service: AzureMonitor
@@ -24,6 +24,7 @@ address_prefixes:
     - 9.160.90.240/28
     - 9.160.114.136/29
     - 9.160.114.240/28
+    - 9.160.174.224/27
     - 2603:1020:1501:f::10/127
     - 2603:1020:1502:2::480/121
     - 2603:1020:1502:2::500/120
@@ -44,12 +45,13 @@ address_prefixes:
     - 9.160.90.240/28
     - 9.160.114.136/29
     - 9.160.114.240/28
+    - 9.160.174.224/27
   ipv6:
     - 2603:1020:1501:f::10/127
     - 2603:1020:1502:2::480/121
     - 2603:1020:1502:2::500/120
     - 2603:1020:1502:5::260/123
   counts:
-    total: 19
-    ipv4: 15
+    total: 20
+    ipv4: 16
     ipv6: 4

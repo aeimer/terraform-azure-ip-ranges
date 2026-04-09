@@ -1,7 +1,7 @@
 id: AzureBackup.JapanEast
 name: AzureBackup.JapanEast
 metadata:
-  change_number: 2
+  change_number: 3
   region: japaneast
   platform: Azure
   system_service: AzureBackup
@@ -15,6 +15,7 @@ address_prefixes:
     - 40.79.187.64/26
     - 40.79.195.32/27
     - 40.79.195.64/26
+    - 2603:1040:407:f::/121
     - 2603:1040:407:402::200/121
     - 2603:1040:407:802::180/121
     - 2603:1040:407:c02::180/121
@@ -27,10 +28,11 @@ address_prefixes:
     - 40.79.195.32/27
     - 40.79.195.64/26
   ipv6:
+    - 2603:1040:407:f::/121
     - 2603:1040:407:402::200/121
     - 2603:1040:407:802::180/121
     - 2603:1040:407:c02::180/121
   counts:
-    total: 10
+    total: 11
     ipv4: 7
-    ipv6: 3
+    ipv6: 4

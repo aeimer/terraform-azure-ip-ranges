@@ -1,7 +1,7 @@
 id: AzureBackup.WestCentralUS
 name: AzureBackup.WestCentralUS
 metadata:
-  change_number: 2
+  change_number: 3
   region: westcentralus
   platform: Azure
   system_service: AzureBackup
@@ -11,14 +11,16 @@ address_prefixes:
     - 13.71.195.64/26
     - 13.71.195.128/27
     - 20.69.1.0/26
+    - 2603:1030:b04:f::700/121
     - 2603:1030:b04:402::200/121
   ipv4:
     - 13.71.195.64/26
     - 13.71.195.128/27
     - 20.69.1.0/26
   ipv6:
+    - 2603:1030:b04:f::700/121
     - 2603:1030:b04:402::200/121
   counts:
-    total: 4
+    total: 5
     ipv4: 3
-    ipv6: 1
+    ipv6: 2

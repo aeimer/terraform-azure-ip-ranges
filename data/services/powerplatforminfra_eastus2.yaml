@@ -1,7 +1,7 @@
 id: PowerPlatformInfra.EastUS2
 name: PowerPlatformInfra.EastUS2
 metadata:
-  change_number: 2
+  change_number: 3
   region: eastus2
   platform: Azure
   system_service: PowerPlatformInfra
@@ -15,14 +15,16 @@ address_prefixes:
     - 40.84.87.192/26
     - 40.84.88.0/23
     - 40.84.90.0/26
+    - 57.162.15.128/25
     - 2603:1061:2002:300::/57
   ipv4:
     - 40.84.87.192/26
     - 40.84.88.0/23
     - 40.84.90.0/26
+    - 57.162.15.128/25
   ipv6:
     - 2603:1061:2002:300::/57
   counts:
-    total: 4
-    ipv4: 3
+    total: 5
+    ipv4: 4
     ipv6: 1

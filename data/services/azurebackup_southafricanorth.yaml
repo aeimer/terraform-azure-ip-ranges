@@ -1,7 +1,7 @@
 id: AzureBackup.SouthAfricaNorth
 name: AzureBackup.SouthAfricaNorth
 metadata:
-  change_number: 3
+  change_number: 4
   region: southafricanorth
   platform: Azure
   system_service: AzureBackup
@@ -14,6 +14,7 @@ address_prefixes:
     - 102.133.155.128/27
     - 102.133.251.0/27
     - 102.133.254.128/26
+    - 2603:1000:104:b::280/121
     - 2603:1000:104:402::200/121
     - 2603:1000:104:802::180/121
     - 2603:1000:104:c02::180/121
@@ -25,10 +26,11 @@ address_prefixes:
     - 102.133.251.0/27
     - 102.133.254.128/26
   ipv6:
+    - 2603:1000:104:b::280/121
     - 2603:1000:104:402::200/121
     - 2603:1000:104:802::180/121
     - 2603:1000:104:c02::180/121
   counts:
-    total: 9
+    total: 10
     ipv4: 6
-    ipv6: 3
+    ipv6: 4

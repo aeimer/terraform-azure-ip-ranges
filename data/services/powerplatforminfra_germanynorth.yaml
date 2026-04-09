@@ -1,7 +1,7 @@
 id: PowerPlatformInfra.GermanyNorth
 name: PowerPlatformInfra.GermanyNorth
 metadata:
-  change_number: 3
+  change_number: 4
   region: germanyn
   platform: Azure
   system_service: PowerPlatformInfra
@@ -15,6 +15,7 @@ address_prefixes:
     - 4.184.2.208/28
     - 4.184.3.0/26
     - 4.184.3.128/25
+    - 20.170.254.128/25
     - 51.116.1.237/32
     - 51.116.2.101/32
     - 51.116.2.239/32
@@ -33,6 +34,7 @@ address_prefixes:
     - 4.184.2.208/28
     - 4.184.3.0/26
     - 4.184.3.128/25
+    - 20.170.254.128/25
     - 51.116.1.237/32
     - 51.116.2.101/32
     - 51.116.2.239/32
@@ -49,6 +51,6 @@ address_prefixes:
   ipv6:
     - 2603:1061:2002:5000::/57
   counts:
-    total: 17
-    ipv4: 16
+    total: 18
+    ipv4: 17
     ipv6: 1

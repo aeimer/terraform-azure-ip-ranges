@@ -1,7 +1,7 @@
 id: AzureBackup.EastUSSTG
 name: AzureBackup.EastUSSTG
 metadata:
-  change_number: 1
+  change_number: 2
   region: usstagee
   platform: Azure
   system_service: AzureBackup
@@ -13,6 +13,7 @@ address_prefixes:
     - 20.99.9.128/26
     - 40.67.59.96/27
     - 40.67.59.128/26
+    - 2603:1030:104:6::280/121
     - 2603:1030:104:402::200/121
     - 2603:1030:104:402::680/121
     - 2603:1030:104:802::100/121
@@ -23,10 +24,11 @@ address_prefixes:
     - 40.67.59.96/27
     - 40.67.59.128/26
   ipv6:
+    - 2603:1030:104:6::280/121
     - 2603:1030:104:402::200/121
     - 2603:1030:104:402::680/121
     - 2603:1030:104:802::100/121
   counts:
-    total: 8
+    total: 9
     ipv4: 5
-    ipv6: 3
+    ipv6: 4

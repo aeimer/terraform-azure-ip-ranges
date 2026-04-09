@@ -1,7 +1,7 @@
 id: AzureBackup.WestEurope
 name: AzureBackup.WestEurope
 metadata:
-  change_number: 2
+  change_number: 3
   region: westeurope
   platform: Azure
   system_service: AzureBackup
@@ -16,6 +16,7 @@ address_prefixes:
     - 20.61.103.0/26
     - 52.236.187.0/27
     - 52.236.187.128/25
+    - 2603:1020:206:23::180/121
     - 2603:1020:206:402::200/121
     - 2603:1020:206:802::180/121
     - 2603:1020:206:c02::180/121
@@ -29,10 +30,11 @@ address_prefixes:
     - 52.236.187.0/27
     - 52.236.187.128/25
   ipv6:
+    - 2603:1020:206:23::180/121
     - 2603:1020:206:402::200/121
     - 2603:1020:206:802::180/121
     - 2603:1020:206:c02::180/121
   counts:
-    total: 11
+    total: 12
     ipv4: 8
-    ipv6: 3
+    ipv6: 4

@@ -1,7 +1,7 @@
 id: AzureBackup.CentralUS
 name: AzureBackup.CentralUS
 metadata:
-  change_number: 2
+  change_number: 3
   region: centralus
   platform: Azure
   system_service: AzureBackup
@@ -15,6 +15,7 @@ address_prefixes:
     - 20.44.8.64/26
     - 52.182.139.64/27
     - 52.182.139.128/26
+    - 2603:1030:10:20::300/121
     - 2603:1030:10:402::200/121
     - 2603:1030:10:802::180/121
     - 2603:1030:10:c02::180/121
@@ -27,10 +28,11 @@ address_prefixes:
     - 52.182.139.64/27
     - 52.182.139.128/26
   ipv6:
+    - 2603:1030:10:20::300/121
     - 2603:1030:10:402::200/121
     - 2603:1030:10:802::180/121
     - 2603:1030:10:c02::180/121
   counts:
-    total: 10
+    total: 11
     ipv4: 7
-    ipv6: 3
+    ipv6: 4

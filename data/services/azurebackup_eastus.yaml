@@ -1,7 +1,7 @@
 id: AzureBackup.EastUS
 name: AzureBackup.EastUS
 metadata:
-  change_number: 3
+  change_number: 4
   region: eastus
   platform: Azure
   system_service: AzureBackup
@@ -16,6 +16,7 @@ address_prefixes:
     - 40.78.227.128/25
     - 40.79.155.64/26
     - 40.79.155.128/25
+    - 2603:1030:210:2f::180/121
     - 2603:1030:210:402::200/121
     - 2603:1030:210:802::180/121
     - 2603:1030:210:c02::180/121
@@ -29,10 +30,11 @@ address_prefixes:
     - 40.79.155.64/26
     - 40.79.155.128/25
   ipv6:
+    - 2603:1030:210:2f::180/121
     - 2603:1030:210:402::200/121
     - 2603:1030:210:802::180/121
     - 2603:1030:210:c02::180/121
   counts:
-    total: 11
+    total: 12
     ipv4: 8
-    ipv6: 3
+    ipv6: 4

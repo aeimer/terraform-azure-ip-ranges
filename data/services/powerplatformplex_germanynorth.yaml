@@ -1,7 +1,7 @@
 id: PowerPlatformPlex.GermanyNorth
 name: PowerPlatformPlex.GermanyNorth
 metadata:
-  change_number: 6
+  change_number: 7
   region: germanyn
   platform: Azure
   system_service: PowerPlatformPlex
@@ -13,6 +13,7 @@ address_prefixes:
     - 4.184.2.8/29
     - 20.113.254.240/28
     - 20.170.228.128/25
+    - 20.170.254.0/25
     - 51.116.77.84/30
     - 51.116.77.248/30
     - 51.116.78.36/30
@@ -22,6 +23,7 @@ address_prefixes:
     - 4.184.2.8/29
     - 20.113.254.240/28
     - 20.170.228.128/25
+    - 20.170.254.0/25
     - 51.116.77.84/30
     - 51.116.77.248/30
     - 51.116.78.36/30
@@ -29,6 +31,6 @@ address_prefixes:
   ipv6:
     - 2603:1061:2004:4800::/57
   counts:
-    total: 8
-    ipv4: 7
+    total: 9
+    ipv4: 8
     ipv6: 1
