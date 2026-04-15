@@ -1,7 +1,7 @@
 id: PowerPlatformPlex
 name: PowerPlatformPlex
 metadata:
-  change_number: 20
+  change_number: 21
   region: ""
   platform: Azure
   system_service: PowerPlatformPlex
@@ -318,6 +318,8 @@ address_prefixes:
     - 57.152.116.184/29
     - 57.155.34.136/29
     - 57.165.80.0/25
+    - 57.165.85.0/25
+    - 57.165.209.0/25
     - 68.218.130.168/29
     - 68.218.130.176/28
     - 68.218.131.0/28
@@ -722,6 +724,8 @@ address_prefixes:
     - 57.152.116.184/29
     - 57.155.34.136/29
     - 57.165.80.0/25
+    - 57.165.85.0/25
+    - 57.165.209.0/25
     - 68.218.130.168/29
     - 68.218.130.176/28
     - 68.218.131.0/28
@@ -819,6 +823,6 @@ address_prefixes:
   ipv6:
     - 2603:1061:2004::/48
   counts:
-    total: 403
-    ipv4: 402
+    total: 405
+    ipv4: 404
     ipv6: 1

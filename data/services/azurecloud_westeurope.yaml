@@ -1,7 +1,7 @@
 id: AzureCloud.westeurope
 name: AzureCloud.westeurope
 metadata:
-  change_number: 183
+  change_number: 184
   region: westeurope
   platform: Azure
   system_service: ""
@@ -416,6 +416,8 @@ address_prefixes:
     - 57.157.56.128/26
     - 57.157.56.192/28
     - 57.157.56.208/29
+    - 57.157.56.216/30
+    - 57.157.56.220/31
     - 65.52.128.0/19
     - 68.219.160.0/19
     - 70.152.36.0/24
@@ -933,6 +935,8 @@ address_prefixes:
     - 57.157.56.128/26
     - 57.157.56.192/28
     - 57.157.56.208/29
+    - 57.157.56.216/30
+    - 57.157.56.220/31
     - 65.52.128.0/19
     - 68.219.160.0/19
     - 70.152.36.0/24
@@ -1045,6 +1049,6 @@ address_prefixes:
     - 2a01:111:f403:da01::/64
     - 2a01:111:f403:e201::/64
   counts:
-    total: 516
-    ipv4: 472
+    total: 518
+    ipv4: 474
     ipv6: 44
