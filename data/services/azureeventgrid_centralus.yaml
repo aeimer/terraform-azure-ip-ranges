@@ -1,14 +1,14 @@
 id: AzureEventGrid.CentralUS
 name: AzureEventGrid.CentralUS
 metadata:
-  change_number: 2
+  change_number: 3
   region: centralus
   platform: Azure
   system_service: AzureEventGrid
   network_features: []
 address_prefixes:
   all:
-    - 13.86.56.32/27
+    - 13.86.56.48/28
     - 13.86.56.160/27
     - 20.37.157.128/25
     - 40.89.240.144/28
@@ -17,7 +17,7 @@ address_prefixes:
     - 74.249.137.0/24
     - 2603:1030:10:1::380/121
   ipv4:
-    - 13.86.56.32/27
+    - 13.86.56.48/28
     - 13.86.56.160/27
     - 20.37.157.128/25
     - 40.89.240.144/28

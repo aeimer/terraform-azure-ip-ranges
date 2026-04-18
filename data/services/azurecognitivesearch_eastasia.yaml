@@ -1,7 +1,7 @@
 id: AzureCognitiveSearch.EastAsia
 name: AzureCognitiveSearch.EastAsia
 metadata:
-  change_number: 2
+  change_number: 3
   region: eastasia
   platform: Azure
   system_service: AzureCognitiveSearch
@@ -9,16 +9,12 @@ metadata:
 address_prefixes:
   all:
     - 20.189.106.128/26
-    - 40.81.29.152/32
-    - 52.184.80.221/32
     - 2603:1040:207::180/121
   ipv4:
     - 20.189.106.128/26
-    - 40.81.29.152/32
-    - 52.184.80.221/32
   ipv6:
     - 2603:1040:207::180/121
   counts:
-    total: 4
-    ipv4: 3
+    total: 2
+    ipv4: 1
     ipv6: 1

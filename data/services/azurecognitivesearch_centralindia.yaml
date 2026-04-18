@@ -1,22 +1,20 @@
 id: AzureCognitiveSearch.CentralIndia
 name: AzureCognitiveSearch.CentralIndia
 metadata:
-  change_number: 2
+  change_number: 3
   region: centralindia
   platform: Azure
   system_service: AzureCognitiveSearch
   network_features: []
 address_prefixes:
   all:
-    - 40.81.253.154/32
     - 52.140.105.64/26
     - 2603:1040:a06:1::180/121
   ipv4:
-    - 40.81.253.154/32
     - 52.140.105.64/26
   ipv6:
     - 2603:1040:a06:1::180/121
   counts:
-    total: 3
-    ipv4: 2
+    total: 2
+    ipv4: 1
     ipv6: 1

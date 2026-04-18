@@ -1,7 +1,7 @@
 id: AzureEventGrid.WestEurope
 name: AzureEventGrid.WestEurope
 metadata:
-  change_number: 3
+  change_number: 4
   region: westeurope
   platform: Azure
   system_service: AzureEventGrid
@@ -10,6 +10,7 @@ address_prefixes:
   all:
     - 4.210.129.0/24
     - 13.80.198.220/30
+    - 13.80.207.0/25
     - 40.74.31.128/25
     - 40.114.160.176/28
     - 40.114.160.192/28
@@ -19,6 +20,7 @@ address_prefixes:
   ipv4:
     - 4.210.129.0/24
     - 13.80.198.220/30
+    - 13.80.207.0/25
     - 40.74.31.128/25
     - 40.114.160.176/28
     - 40.114.160.192/28
@@ -27,6 +29,6 @@ address_prefixes:
   ipv6:
     - 2603:1020:206:1::380/121
   counts:
-    total: 8
-    ipv4: 7
+    total: 9
+    ipv4: 8
     ipv6: 1
