@@ -1,7 +1,7 @@
 id: DataFactory.CentralUSEUAP
 name: DataFactory.CentralUSEUAP
 metadata:
-  change_number: 6
+  change_number: 7
   region: centraluseuap
   platform: Azure
   system_service: DataFactory
@@ -17,6 +17,7 @@ address_prefixes:
     - 40.122.0.16/28
     - 52.176.232.16/28
     - 168.61.229.72/29
+    - 168.61.229.160/29
     - 172.215.36.224/27
     - 2603:1030:f:1::440/122
     - 2603:1030:f:1::500/121
@@ -30,6 +31,7 @@ address_prefixes:
     - 40.122.0.16/28
     - 52.176.232.16/28
     - 168.61.229.72/29
+    - 168.61.229.160/29
     - 172.215.36.224/27
   ipv6:
     - 2603:1030:f:1::440/122
@@ -37,6 +39,6 @@ address_prefixes:
     - 2603:1030:f:400::b30/124
     - 2603:1030:f:800::40/126
   counts:
-    total: 12
-    ipv4: 8
+    total: 13
+    ipv4: 9
     ipv6: 4

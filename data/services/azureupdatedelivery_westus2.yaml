@@ -1,7 +1,7 @@
 id: AzureUpdateDelivery.WestUS2
 name: AzureUpdateDelivery.WestUS2
 metadata:
-  change_number: 18
+  change_number: 19
   region: westus2
   platform: Azure
   system_service: AzureUpdateDelivery
@@ -33,7 +33,6 @@ address_prefixes:
     - 52.148.148.114/32
     - 52.148.150.130/32
     - 52.149.18.190/32
-    - 52.149.21.232/32
     - 52.149.22.183/32
     - 52.156.102.237/32
     - 52.156.144.83/32
@@ -75,7 +74,6 @@ address_prefixes:
     - 52.148.148.114/32
     - 52.148.150.130/32
     - 52.149.18.190/32
-    - 52.149.21.232/32
     - 52.149.22.183/32
     - 52.156.102.237/32
     - 52.156.144.83/32
@@ -93,6 +91,6 @@ address_prefixes:
     - 2603:1030:c02:5::4/128
     - 2603:1030:c02:6::10/128
   counts:
-    total: 41
-    ipv4: 34
+    total: 40
+    ipv4: 33
     ipv6: 7

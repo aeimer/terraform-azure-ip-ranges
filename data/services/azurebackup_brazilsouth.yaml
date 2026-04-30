@@ -1,13 +1,14 @@
 id: AzureBackup.BrazilSouth
 name: AzureBackup.BrazilSouth
 metadata:
-  change_number: 3
+  change_number: 4
   region: brazilsouth
   platform: Azure
   system_service: AzureBackup
   network_features: []
 address_prefixes:
   all:
+    - 4.228.169.144/28
     - 191.233.204.0/26
     - 191.233.204.64/27
     - 191.234.147.80/28
@@ -22,6 +23,7 @@ address_prefixes:
     - 2603:1050:6:802::180/121
     - 2603:1050:6:c02::180/121
   ipv4:
+    - 4.228.169.144/28
     - 191.233.204.0/26
     - 191.233.204.64/27
     - 191.234.147.80/28
@@ -37,6 +39,6 @@ address_prefixes:
     - 2603:1050:6:802::180/121
     - 2603:1050:6:c02::180/121
   counts:
-    total: 13
-    ipv4: 9
+    total: 14
+    ipv4: 10
     ipv6: 4

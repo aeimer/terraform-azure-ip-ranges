@@ -1,13 +1,15 @@
 id: AzureBackup.SouthCentralUS
 name: AzureBackup.SouthCentralUS
 metadata:
-  change_number: 3
+  change_number: 4
   region: southcentralus
   platform: Azure
   system_service: AzureBackup
   network_features: []
 address_prefixes:
   all:
+    - 13.85.230.180/32
+    - 13.85.230.208/28
     - 20.45.123.0/26
     - 20.45.123.64/28
     - 20.45.125.192/27
@@ -21,6 +23,8 @@ address_prefixes:
     - 2603:1030:807:802::180/121
     - 2603:1030:807:c02::180/121
   ipv4:
+    - 13.85.230.180/32
+    - 13.85.230.208/28
     - 20.45.123.0/26
     - 20.45.123.64/28
     - 20.45.125.192/27
@@ -35,6 +39,6 @@ address_prefixes:
     - 2603:1030:807:802::180/121
     - 2603:1030:807:c02::180/121
   counts:
-    total: 12
-    ipv4: 8
+    total: 14
+    ipv4: 10
     ipv6: 4

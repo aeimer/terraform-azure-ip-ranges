@@ -1,7 +1,7 @@
 id: AzureMonitor.CentralUS
 name: AzureMonitor.CentralUS
 metadata:
-  change_number: 41
+  change_number: 42
   region: centralus
   platform: Azure
   system_service: AzureMonitor
@@ -55,7 +55,6 @@ address_prefixes:
     - 52.182.144.224/28
     - 52.182.146.72/29
     - 52.230.224.237/32
-    - 52.242.230.209/32
     - 104.208.18.64/29
     - 104.208.33.155/32
     - 104.208.34.98/32
@@ -150,7 +149,6 @@ address_prefixes:
     - 52.182.144.224/28
     - 52.182.146.72/29
     - 52.230.224.237/32
-    - 52.242.230.209/32
     - 104.208.18.64/29
     - 104.208.33.155/32
     - 104.208.34.98/32
@@ -200,6 +198,6 @@ address_prefixes:
     - 2603:1030:10:802::480/121
     - 2603:1030:10:c02::480/121
   counts:
-    total: 94
-    ipv4: 58
+    total: 93
+    ipv4: 57
     ipv6: 36

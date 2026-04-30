@@ -1,7 +1,7 @@
 id: AzureCloud.westcentralus
 name: AzureCloud.westcentralus
 metadata:
-  change_number: 81
+  change_number: 82
   region: westcentralus
   platform: Azure
   system_service: ""
@@ -152,7 +152,8 @@ address_prefixes:
     - 57.157.81.0/26
     - 57.157.81.64/27
     - 57.157.81.96/28
-    - 57.157.81.112/31
+    - 57.157.81.112/30
+    - 57.157.81.116/31
     - 57.163.30.0/23
     - 64.4.8.0/24
     - 64.4.54.0/24
@@ -366,7 +367,8 @@ address_prefixes:
     - 57.157.81.0/26
     - 57.157.81.64/27
     - 57.157.81.96/28
-    - 57.157.81.112/31
+    - 57.157.81.112/30
+    - 57.157.81.116/31
     - 57.163.30.0/23
     - 64.4.8.0/24
     - 64.4.54.0/24
@@ -439,6 +441,6 @@ address_prefixes:
     - 2a01:111:f403:e017::/64
     - 2a01:111:f403:f910::/62
   counts:
-    total: 213
-    ipv4: 167
+    total: 214
+    ipv4: 168
     ipv6: 46

@@ -1,7 +1,7 @@
 id: PowerPlatformInfra
 name: PowerPlatformInfra
 metadata:
-  change_number: 27
+  change_number: 28
   region: ""
   platform: Azure
   system_service: PowerPlatformInfra
@@ -1423,7 +1423,6 @@ address_prefixes:
     - 104.42.214.62/32
     - 104.43.76.101/32
     - 104.43.76.102/32
-    - 104.43.76.124/32
     - 104.45.65.67/32
     - 104.45.67.10/32
     - 104.45.70.91/32
@@ -2921,7 +2920,6 @@ address_prefixes:
     - 104.42.214.62/32
     - 104.43.76.101/32
     - 104.43.76.102/32
-    - 104.43.76.124/32
     - 104.45.65.67/32
     - 104.45.67.10/32
     - 104.45.70.91/32
@@ -3009,6 +3007,6 @@ address_prefixes:
   ipv6:
     - 2603:1061:2002::/48
   counts:
-    total: 1497
-    ipv4: 1496
+    total: 1496
+    ipv4: 1495
     ipv6: 1
