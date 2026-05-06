@@ -12,9 +12,15 @@ locals {
   # Filter out metadata.yaml
   service_files = [for f in local.yaml_files : f if f != "metadata.yaml"]
 
+  # Filter out empty files
+  non_empty_service_files = [
+    for f in local.service_files :
+    f if trimspace(file("${path.module}/data/services/${f}")) != ""
+  ]
+
   # Load all services into a map
   services_raw = {
-    for filename in local.service_files :
+    for filename in local.non_empty_service_files :
     trimsuffix(filename, ".yaml") => yamldecode(file("${path.module}/data/services/${filename}"))
   }
 
