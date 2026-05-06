@@ -9,8 +9,17 @@ locals {
   # Load all YAML files from the services directory
   yaml_files = fileset("${path.module}/data/services", "*.yaml")
 
-  # Filter out metadata.yaml
-  service_files = [for f in local.yaml_files : f if f != "metadata.yaml"]
+  # Filter out metadata.yaml and any empty files (which would break yamldecode)
+  service_files = [
+    for f in local.yaml_files : f
+    if f != "metadata.yaml" && trimspace(file("${path.module}/data/services/${f}")) != ""
+  ]
+
+  # Empty files indicate a broken generator run; surface them rather than silently skipping
+  empty_service_files = [
+    for f in local.yaml_files : f
+    if f != "metadata.yaml" && trimspace(file("${path.module}/data/services/${f}")) == ""
+  ]
 
   # Load all services into a map
   services_raw = {

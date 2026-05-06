@@ -36,6 +36,11 @@ output "service_ids" {
   value       = sort(keys(local.services_by_id))
 }
 
+output "empty_service_files" {
+  description = "List of YAML files in data/services that are empty (indicates a broken generator run)"
+  value       = local.empty_service_files
+}
+
 # Statistics
 output "prefix_counts" {
   description = "Count of IP prefixes by type"
