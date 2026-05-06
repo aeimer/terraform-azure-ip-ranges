@@ -167,7 +167,9 @@ The module data is automatically updated through GitHub Actions:
 ```bash
 # Build the Go generator
 cd generate
-go build -o generator .
+go build -o now .
+cd ..
+./generate/now -json-input-file data/ServiceTags_Public.json -output data/services
 ```
 
 ## Contributing
