@@ -1,7 +1,7 @@
 id: AzureCloud.australiacentral
 name: AzureCloud.australiacentral
 metadata:
-  change_number: 37
+  change_number: 38
   region: australiacentral
   platform: Azure
   system_service: ""
@@ -69,6 +69,7 @@ address_prefixes:
     - 2603:1061:1725::/48
     - 2603:1061:2010:23::/64
     - 2603:1061:2011:23::/64
+    - 2603:1063:637::/56
     - 2603:1063:2202:c::/64
     - 2603:1063:2423::/48
     - 2603:1063:2623::/48
@@ -135,12 +136,13 @@ address_prefixes:
     - 2603:1061:1725::/48
     - 2603:1061:2010:23::/64
     - 2603:1061:2011:23::/64
+    - 2603:1063:637::/56
     - 2603:1063:2202:c::/64
     - 2603:1063:2423::/48
     - 2603:1063:2623::/48
     - 2603:1063:2821::/48
     - 2603:1063:2a21::/48
   counts:
-    total: 64
+    total: 65
     ipv4: 46
-    ipv6: 18
+    ipv6: 19

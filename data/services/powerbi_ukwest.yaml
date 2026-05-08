@@ -1,7 +1,7 @@
 id: PowerBI.UKWest
 name: PowerBI.UKWest
 metadata:
-  change_number: 4
+  change_number: 5
   region: ukwest
   platform: Azure
   system_service: PowerBI
@@ -23,6 +23,7 @@ address_prefixes:
     - 172.186.26.16/28
     - 172.186.55.128/26
     - 172.186.74.64/27
+    - 172.186.117.0/26
     - 172.187.32.32/27
     - 2603:1020:605::620/123
     - 2603:1020:605::640/122
@@ -38,11 +39,12 @@ address_prefixes:
     - 172.186.26.16/28
     - 172.186.55.128/26
     - 172.186.74.64/27
+    - 172.186.117.0/26
     - 172.187.32.32/27
   ipv6:
     - 2603:1020:605::620/123
     - 2603:1020:605::640/122
   counts:
-    total: 14
-    ipv4: 12
+    total: 15
+    ipv4: 13
     ipv6: 2

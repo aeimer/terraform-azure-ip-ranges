@@ -1,7 +1,7 @@
 id: PowerBI.JapanWest
 name: PowerBI.JapanWest
 metadata:
-  change_number: 4
+  change_number: 5
   region: japanwest
   platform: Azure
   system_service: PowerBI
@@ -24,6 +24,7 @@ address_prefixes:
     - 74.226.38.160/27
     - 135.149.130.48/28
     - 135.149.219.240/28
+    - 172.192.194.32/27
     - 2603:1040:606::620/123
     - 2603:1040:606::640/122
   ipv4:
@@ -39,10 +40,11 @@ address_prefixes:
     - 74.226.38.160/27
     - 135.149.130.48/28
     - 135.149.219.240/28
+    - 172.192.194.32/27
   ipv6:
     - 2603:1040:606::620/123
     - 2603:1040:606::640/122
   counts:
-    total: 14
-    ipv4: 12
+    total: 15
+    ipv4: 13
     ipv6: 2

@@ -1,7 +1,7 @@
 id: StorageSyncService
 name: StorageSyncService
 metadata:
-  change_number: 59
+  change_number: 60
   region: ""
   platform: Azure
   system_service: StorageSyncService
@@ -16,6 +16,7 @@ address_prefixes:
     - 9.160.69.152/29
     - 9.160.80.48/29
     - 9.205.52.88/29
+    - 9.205.71.232/29
     - 9.205.75.40/29
     - 13.73.248.112/29
     - 13.87.32.205/32
@@ -248,6 +249,7 @@ address_prefixes:
     - 9.160.69.152/29
     - 9.160.80.48/29
     - 9.205.52.88/29
+    - 9.205.71.232/29
     - 9.205.75.40/29
     - 13.73.248.112/29
     - 13.87.32.205/32
@@ -477,6 +479,6 @@ address_prefixes:
     - 2603:1050:301:400::120/123
     - 2603:1050:403::300/123
   counts:
-    total: 231
-    ipv4: 119
+    total: 232
+    ipv4: 120
     ipv6: 112

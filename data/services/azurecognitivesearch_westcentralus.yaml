@@ -1,7 +1,7 @@
 id: AzureCognitiveSearch.WestCentralUS
 name: AzureCognitiveSearch.WestCentralUS
 metadata:
-  change_number: 1
+  change_number: 2
   region: westcentralus
   platform: Azure
   system_service: AzureCognitiveSearch
@@ -9,14 +9,12 @@ metadata:
 address_prefixes:
   all:
     - 52.150.139.0/26
-    - 52.253.133.74/32
     - 2603:1030:b04::180/121
   ipv4:
     - 52.150.139.0/26
-    - 52.253.133.74/32
   ipv6:
     - 2603:1030:b04::180/121
   counts:
-    total: 3
-    ipv4: 2
+    total: 2
+    ipv4: 1
     ipv6: 1

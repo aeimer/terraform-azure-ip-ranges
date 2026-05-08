@@ -1,7 +1,7 @@
 id: PowerBI.CanadaEast
 name: PowerBI.CanadaEast
 metadata:
-  change_number: 3
+  change_number: 4
   region: canadaeast
   platform: Azure
   system_service: PowerBI
@@ -13,6 +13,7 @@ metadata:
 address_prefixes:
   all:
     - 4.229.115.96/27
+    - 4.239.1.32/27
     - 4.239.66.192/26
     - 20.175.2.248/31
     - 20.175.5.152/29
@@ -30,6 +31,7 @@ address_prefixes:
     - 2603:1030:1005::640/122
   ipv4:
     - 4.229.115.96/27
+    - 4.239.1.32/27
     - 4.239.66.192/26
     - 20.175.2.248/31
     - 20.175.5.152/29
@@ -47,6 +49,6 @@ address_prefixes:
     - 2603:1030:1005::620/123
     - 2603:1030:1005::640/122
   counts:
-    total: 16
-    ipv4: 14
+    total: 17
+    ipv4: 15
     ipv6: 2

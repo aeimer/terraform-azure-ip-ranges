@@ -1,7 +1,7 @@
 id: Storage.SwitzerlandWest
 name: Storage.SwitzerlandWest
 metadata:
-  change_number: 6
+  change_number: 7
   region: switzerlandw
   platform: Azure
   system_service: AzureStorage
@@ -19,6 +19,7 @@ address_prefixes:
     - 20.157.133.0/24
     - 52.239.250.0/24
     - 57.150.22.0/24
+    - 145.190.175.0/24
     - 2603:1020:b05::/48
   ipv4:
     - 20.47.26.0/24
@@ -28,9 +29,10 @@ address_prefixes:
     - 20.157.133.0/24
     - 52.239.250.0/24
     - 57.150.22.0/24
+    - 145.190.175.0/24
   ipv6:
     - 2603:1020:b05::/48
   counts:
-    total: 8
-    ipv4: 7
+    total: 9
+    ipv4: 8
     ipv6: 1

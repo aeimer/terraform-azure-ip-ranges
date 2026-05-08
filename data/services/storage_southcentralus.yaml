@@ -1,7 +1,7 @@
 id: Storage.SouthCentralUS
 name: Storage.SouthCentralUS
 metadata:
-  change_number: 34
+  change_number: 35
   region: southcentralus
   platform: Azure
   system_service: AzureStorage
@@ -103,6 +103,7 @@ address_prefixes:
     - 135.130.233.128/25
     - 135.130.234.0/24
     - 145.190.142.0/24
+    - 145.190.174.0/24
     - 168.62.128.128/26
     - 2603:1030:80b::/49
     - 2603:1030:80b:8000::/58
@@ -200,6 +201,7 @@ address_prefixes:
     - 135.130.233.128/25
     - 135.130.234.0/24
     - 145.190.142.0/24
+    - 145.190.174.0/24
     - 168.62.128.128/26
   ipv6:
     - 2603:1030:80b::/49
@@ -207,6 +209,6 @@ address_prefixes:
     - 2603:1030:80b:8040::/61
     - 2603:1030:80b:8048::/64
   counts:
-    total: 96
-    ipv4: 92
+    total: 97
+    ipv4: 93
     ipv6: 4
