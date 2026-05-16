@@ -1,0 +1,24 @@
+id: AppService.IndiaSouthCentral
+name: AppService.IndiaSouthCentral
+metadata:
+  change_number: 1
+  region: indiasouthcentral
+  platform: Azure
+  system_service: AzureAppService
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 172.198.93.0/24
+    - 2603:1040:1904:2::/120
+  ipv4:
+    - 172.198.93.0/24
+  ipv6:
+    - 2603:1040:1904:2::/120
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

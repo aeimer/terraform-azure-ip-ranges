@@ -1,0 +1,22 @@
+id: BatchNodeManagement.IndiaSouthCentral
+name: BatchNodeManagement.IndiaSouthCentral
+metadata:
+  change_number: 1
+  region: indiasouthcentral
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+address_prefixes:
+  all:
+    - 172.198.84.0/27
+    - 2603:1040:1904::500/122
+  ipv4:
+    - 172.198.84.0/27
+  ipv6:
+    - 2603:1040:1904::500/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

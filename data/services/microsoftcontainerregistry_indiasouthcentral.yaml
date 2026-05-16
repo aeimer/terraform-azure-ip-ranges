@@ -1,0 +1,32 @@
+id: MicrosoftContainerRegistry.IndiaSouthCentral
+name: MicrosoftContainerRegistry.IndiaSouthCentral
+metadata:
+  change_number: 1
+  region: indiasouthcentral
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 172.198.112.0/29
+    - 172.198.144.0/29
+    - 172.198.168.0/29
+    - 2603:1040:1904:400::/125
+    - 2603:1040:1904:800::/125
+    - 2603:1040:1904:c00::/125
+  ipv4:
+    - 172.198.112.0/29
+    - 172.198.144.0/29
+    - 172.198.168.0/29
+  ipv6:
+    - 2603:1040:1904:400::/125
+    - 2603:1040:1904:800::/125
+    - 2603:1040:1904:c00::/125
+  counts:
+    total: 6
+    ipv4: 3
+    ipv6: 3

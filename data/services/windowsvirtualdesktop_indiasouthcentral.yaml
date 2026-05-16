@@ -1,0 +1,18 @@
+id: WindowsVirtualDesktop.IndiaSouthCentral
+name: WindowsVirtualDesktop.IndiaSouthCentral
+metadata:
+  change_number: 1
+  region: indiasouthcentral
+  platform: Azure
+  system_service: WindowsVirtualDesktop
+  network_features: []
+address_prefixes:
+  all:
+    - 2603:1061:2010:41::/117
+  ipv4: []
+  ipv6:
+    - 2603:1061:2010:41::/117
+  counts:
+    total: 1
+    ipv4: 0
+    ipv6: 1

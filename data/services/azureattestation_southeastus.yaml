@@ -1,7 +1,7 @@
 id: AzureAttestation.SoutheastUS
 name: AzureAttestation.SoutheastUS
 metadata:
-  change_number: 1
+  change_number: 2
   region: southeastus
   platform: Azure
   system_service: AzureAttestation
@@ -9,12 +9,16 @@ metadata:
 address_prefixes:
   all:
     - 57.151.208.20/30
+    - 68.154.163.100/30
+    - 68.154.163.104/29
     - 2603:1030:902::5c0/124
   ipv4:
     - 57.151.208.20/30
+    - 68.154.163.100/30
+    - 68.154.163.104/29
   ipv6:
     - 2603:1030:902::5c0/124
   counts:
-    total: 2
-    ipv4: 1
+    total: 4
+    ipv4: 3
     ipv6: 1

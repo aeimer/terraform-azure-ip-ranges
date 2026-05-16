@@ -1,0 +1,36 @@
+id: Storage.IndiaSouthCentral
+name: Storage.IndiaSouthCentral
+metadata:
+  change_number: 1
+  region: indiasouthcentral
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 20.153.102.0/24
+    - 20.153.104.0/24
+    - 57.163.2.0/23
+    - 135.130.87.0/24
+    - 135.130.94.0/23
+    - 135.130.96.0/23
+    - 145.190.154.0/24
+    - 2603:1040:1905::/48
+  ipv4:
+    - 20.153.102.0/24
+    - 20.153.104.0/24
+    - 57.163.2.0/23
+    - 135.130.87.0/24
+    - 135.130.94.0/23
+    - 135.130.96.0/23
+    - 145.190.154.0/24
+  ipv6:
+    - 2603:1040:1905::/48
+  counts:
+    total: 8
+    ipv4: 7
+    ipv6: 1

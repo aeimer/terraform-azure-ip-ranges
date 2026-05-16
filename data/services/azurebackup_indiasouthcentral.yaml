@@ -1,0 +1,22 @@
+id: AzureBackup.IndiaSouthCentral
+name: AzureBackup.IndiaSouthCentral
+metadata:
+  change_number: 1
+  region: indiasouthcentral
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+address_prefixes:
+  all:
+    - 172.198.86.80/28
+    - 172.198.86.128/26
+    - 2603:1040:1904:1::/121
+  ipv4:
+    - 172.198.86.80/28
+    - 172.198.86.128/26
+  ipv6:
+    - 2603:1040:1904:1::/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

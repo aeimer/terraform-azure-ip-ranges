@@ -1,7 +1,7 @@
 id: AzureAttestation.IsraelNorthwest
 name: AzureAttestation.IsraelNorthwest
 metadata:
-  change_number: 1
+  change_number: 2
   region: israelnorthwest
   platform: Azure
   system_service: AzureAttestation
@@ -9,12 +9,16 @@ metadata:
 address_prefixes:
   all:
     - 20.217.248.20/30
+    - 51.4.158.244/30
+    - 51.4.158.248/29
     - 2603:1040:1702::540/124
   ipv4:
     - 20.217.248.20/30
+    - 51.4.158.244/30
+    - 51.4.158.248/29
   ipv6:
     - 2603:1040:1702::540/124
   counts:
-    total: 2
-    ipv4: 1
+    total: 4
+    ipv4: 3
     ipv6: 1

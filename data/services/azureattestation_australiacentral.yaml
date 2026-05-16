@@ -1,7 +1,7 @@
 id: AzureAttestation.AustraliaCentral
 name: AzureAttestation.AustraliaCentral
 metadata:
-  change_number: 3
+  change_number: 4
   region: australiacentral
   platform: Azure
   system_service: AzureAttestation
@@ -9,16 +9,20 @@ metadata:
 address_prefixes:
   all:
     - 4.199.198.248/29
+    - 4.199.215.160/29
+    - 4.199.215.168/30
     - 20.37.229.172/30
     - 20.53.0.104/30
     - 2603:1010:304:2::6b0/124
   ipv4:
     - 4.199.198.248/29
+    - 4.199.215.160/29
+    - 4.199.215.168/30
     - 20.37.229.172/30
     - 20.53.0.104/30
   ipv6:
     - 2603:1010:304:2::6b0/124
   counts:
-    total: 4
-    ipv4: 3
+    total: 6
+    ipv4: 5
     ipv6: 1

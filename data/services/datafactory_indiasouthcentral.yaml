@@ -1,0 +1,26 @@
+id: DataFactory.IndiaSouthCentral
+name: DataFactory.IndiaSouthCentral
+metadata:
+  change_number: 1
+  region: indiasouthcentral
+  platform: Azure
+  system_service: DataFactory
+  network_features:
+    - API
+    - NSG
+address_prefixes:
+  all:
+    - 172.198.96.192/28
+    - 172.198.96.224/27
+    - 172.198.97.0/24
+    - 2603:1040:1904:2::600/120
+  ipv4:
+    - 172.198.96.192/28
+    - 172.198.96.224/27
+    - 172.198.97.0/24
+  ipv6:
+    - 2603:1040:1904:2::600/120
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

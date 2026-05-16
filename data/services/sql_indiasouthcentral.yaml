@@ -1,0 +1,30 @@
+id: Sql.IndiaSouthCentral
+name: Sql.IndiaSouthCentral
+metadata:
+  change_number: 1
+  region: indiasouthcentral
+  platform: Azure
+  system_service: AzureSQL
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 172.198.99.32/27
+    - 172.198.99.64/27
+    - 172.198.99.128/26
+    - 2603:1040:1904:3::140/123
+    - 2603:1040:1904:3::280/121
+  ipv4:
+    - 172.198.99.32/27
+    - 172.198.99.64/27
+    - 172.198.99.128/26
+  ipv6:
+    - 2603:1040:1904:3::140/123
+    - 2603:1040:1904:3::280/121
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

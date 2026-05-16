@@ -1,0 +1,22 @@
+id: AzurePortal.IndiaSouthCentral
+name: AzurePortal.IndiaSouthCentral
+metadata:
+  change_number: 1
+  region: indiasouthcentral
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+address_prefixes:
+  all:
+    - 172.198.95.156/30
+    - 172.198.98.128/27
+    - 2603:1040:1904:3::80/121
+  ipv4:
+    - 172.198.95.156/30
+    - 172.198.98.128/27
+  ipv6:
+    - 2603:1040:1904:3::80/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

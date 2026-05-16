@@ -1,0 +1,24 @@
+id: HDInsight.IndiaSouthCentral
+name: HDInsight.IndiaSouthCentral
+metadata:
+  change_number: 1
+  region: indiasouthcentral
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 172.198.89.208/29
+    - 2603:1040:1904:1::4d0/124
+  ipv4:
+    - 172.198.89.208/29
+  ipv6:
+    - 2603:1040:1904:1::4d0/124
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

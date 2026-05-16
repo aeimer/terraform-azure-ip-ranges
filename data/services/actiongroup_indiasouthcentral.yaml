@@ -1,0 +1,18 @@
+id: ActionGroup.IndiaSouthCentral
+name: ActionGroup.IndiaSouthCentral
+metadata:
+  change_number: 1
+  region: indiasouthcentral
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+address_prefixes:
+  all:
+    - 172.198.114.96/30
+  ipv4:
+    - 172.198.114.96/30
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

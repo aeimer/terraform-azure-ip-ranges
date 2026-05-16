@@ -1,0 +1,22 @@
+id: AzureArcInfrastructure.IndiaSouthCentral
+name: AzureArcInfrastructure.IndiaSouthCentral
+metadata:
+  change_number: 1
+  region: indiasouthcentral
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+address_prefixes:
+  all:
+    - 172.198.94.164/30
+    - 172.198.114.104/32
+    - 2603:1040:1904:2::380/124
+  ipv4:
+    - 172.198.94.164/30
+    - 172.198.114.104/32
+  ipv6:
+    - 2603:1040:1904:2::380/124
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

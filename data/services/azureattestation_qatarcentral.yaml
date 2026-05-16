@@ -1,7 +1,7 @@
 id: AzureAttestation.QatarCentral
 name: AzureAttestation.QatarCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: qatarcentral
   platform: Azure
   system_service: AzureAttestation
@@ -9,12 +9,16 @@ metadata:
 address_prefixes:
   all:
     - 20.21.32.44/30
+    - 20.173.219.236/30
+    - 20.173.220.40/29
     - 2603:1040:1002:1::80/124
   ipv4:
     - 20.21.32.44/30
+    - 20.173.219.236/30
+    - 20.173.220.40/29
   ipv6:
     - 2603:1040:1002:1::80/124
   counts:
-    total: 2
-    ipv4: 1
+    total: 4
+    ipv4: 3
     ipv6: 1

@@ -1,7 +1,7 @@
 id: AzureAttestation.DenmarkEast
 name: AzureAttestation.DenmarkEast
 metadata:
-  change_number: 1
+  change_number: 2
   region: denmarkeast
   platform: Azure
   system_service: AzureAttestation
@@ -9,12 +9,16 @@ metadata:
 address_prefixes:
   all:
     - 9.205.32.20/30
+    - 9.205.179.72/29
+    - 9.205.179.80/30
     - 2603:1020:1602::540/124
   ipv4:
     - 9.205.32.20/30
+    - 9.205.179.72/29
+    - 9.205.179.80/30
   ipv6:
     - 2603:1020:1602::540/124
   counts:
-    total: 2
-    ipv4: 1
+    total: 4
+    ipv4: 3
     ipv6: 1

@@ -1,7 +1,7 @@
 id: AzureAttestation.EastUSSTG
 name: AzureAttestation.EastUSSTG
 metadata:
-  change_number: 1
+  change_number: 2
   region: usstagee
   platform: Azure
   system_service: AzureAttestation
@@ -9,14 +9,18 @@ metadata:
 address_prefixes:
   all:
     - 20.49.83.244/30
+    - 20.99.35.216/29
+    - 20.99.36.96/30
     - 40.67.52.116/30
     - 2603:1030:104::7a0/124
   ipv4:
     - 20.49.83.244/30
+    - 20.99.35.216/29
+    - 20.99.36.96/30
     - 40.67.52.116/30
   ipv6:
     - 2603:1030:104::7a0/124
   counts:
-    total: 3
-    ipv4: 2
+    total: 5
+    ipv4: 4
     ipv6: 1
