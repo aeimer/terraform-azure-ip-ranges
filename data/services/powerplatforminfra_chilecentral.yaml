@@ -1,0 +1,24 @@
+id: PowerPlatformInfra.ChileCentral
+name: PowerPlatformInfra.ChileCentral
+metadata:
+  change_number: 1
+  region: chilec
+  platform: Azure
+  system_service: PowerPlatformInfra
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 57.156.99.128/25
+    - 57.156.100.0/24
+  ipv4:
+    - 57.156.99.128/25
+    - 57.156.100.0/24
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

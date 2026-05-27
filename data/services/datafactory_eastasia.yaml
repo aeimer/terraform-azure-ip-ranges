@@ -1,7 +1,7 @@
 id: DataFactory.EastAsia
 name: DataFactory.EastAsia
 metadata:
-  change_number: 8
+  change_number: 9
   region: eastasia
   platform: Azure
   system_service: DataFactory
@@ -12,6 +12,7 @@ address_prefixes:
   all:
     - 4.252.148.192/27
     - 13.75.39.112/28
+    - 20.2.105.208/28
     - 20.189.104.128/25
     - 20.189.106.0/26
     - 20.189.109.232/29
@@ -29,6 +30,7 @@ address_prefixes:
   ipv4:
     - 4.252.148.192/27
     - 13.75.39.112/28
+    - 20.2.105.208/28
     - 20.189.104.128/25
     - 20.189.106.0/26
     - 20.189.109.232/29
@@ -45,6 +47,6 @@ address_prefixes:
     - 2603:1040:207:800::70/124
     - 2603:1040:207:c00::70/124
   counts:
-    total: 16
-    ipv4: 11
+    total: 17
+    ipv4: 12
     ipv6: 5

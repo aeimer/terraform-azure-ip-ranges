@@ -1,7 +1,7 @@
 id: Storage.CentralUS
 name: Storage.CentralUS
 metadata:
-  change_number: 37
+  change_number: 38
   region: centralus
   platform: Azure
   system_service: AzureStorage
@@ -115,6 +115,7 @@ address_prefixes:
     - 135.130.186.0/23
     - 145.190.145.0/24
     - 145.190.171.0/24
+    - 145.190.178.0/24
     - 168.61.128.192/26
     - 168.61.129.0/25
     - 168.61.130.64/26
@@ -231,6 +232,7 @@ address_prefixes:
     - 135.130.186.0/23
     - 145.190.145.0/24
     - 145.190.171.0/24
+    - 145.190.178.0/24
     - 168.61.128.192/26
     - 168.61.129.0/25
     - 168.61.130.64/26
@@ -245,6 +247,6 @@ address_prefixes:
     - 2603:1030:11:8060::/60
     - 2603:1030:11:8070::/63
   counts:
-    total: 115
-    ipv4: 110
+    total: 116
+    ipv4: 111
     ipv6: 5

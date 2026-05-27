@@ -1,0 +1,30 @@
+id: AzureKeyVault.NortheastUS5
+name: AzureKeyVault.NortheastUS5
+metadata:
+  change_number: 1
+  region: northeastus5
+  platform: Azure
+  system_service: AzureKeyVault
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 172.194.73.208/30
+    - 172.194.73.216/29
+    - 172.194.112.96/30
+    - 2603:1030:1602:1::3e8/125
+    - 2603:1030:1602:400::8/125
+  ipv4:
+    - 172.194.73.208/30
+    - 172.194.73.216/29
+    - 172.194.112.96/30
+  ipv6:
+    - 2603:1030:1602:1::3e8/125
+    - 2603:1030:1602:400::8/125
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

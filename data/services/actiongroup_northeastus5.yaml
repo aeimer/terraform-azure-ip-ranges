@@ -1,0 +1,24 @@
+id: ActionGroup.NortheastUS5
+name: ActionGroup.NortheastUS5
+metadata:
+  change_number: 1
+  region: northeastus5
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+address_prefixes:
+  all:
+    - 172.194.86.168/30
+    - 172.194.112.244/30
+    - 2603:1030:1602:3::610/125
+    - 2603:1030:1602:400::210/125
+  ipv4:
+    - 172.194.86.168/30
+    - 172.194.112.244/30
+  ipv6:
+    - 2603:1030:1602:3::610/125
+    - 2603:1030:1602:400::210/125
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

@@ -1,7 +1,7 @@
 id: ServiceFabric.IsraelNorthwest
 name: ServiceFabric.IsraelNorthwest
 metadata:
-  change_number: 1
+  change_number: 2
   region: israelnorthwest
   platform: Azure
   system_service: ServiceFabric
@@ -9,12 +9,16 @@ metadata:
 address_prefixes:
   all:
     - 51.4.160.12/30
+    - 51.4.224.24/29
+    - 2603:1040:1702:5::360/125
     - 2603:1040:1702:400::18/125
   ipv4:
     - 51.4.160.12/30
+    - 51.4.224.24/29
   ipv6:
+    - 2603:1040:1702:5::360/125
     - 2603:1040:1702:400::18/125
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 4
+    ipv4: 2
+    ipv6: 2

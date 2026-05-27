@@ -1,0 +1,22 @@
+id: BatchNodeManagement.NortheastUS5
+name: BatchNodeManagement.NortheastUS5
+metadata:
+  change_number: 1
+  region: northeastus5
+  platform: Azure
+  system_service: BatchNodeManagement
+  network_features:
+    - API
+    - NSG
+address_prefixes:
+  all:
+    - 172.194.68.0/27
+    - 2603:1030:1602::500/122
+  ipv4:
+    - 172.194.68.0/27
+  ipv6:
+    - 2603:1030:1602::500/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

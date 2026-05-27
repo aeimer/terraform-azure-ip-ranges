@@ -1,7 +1,7 @@
 id: AzureAttestation.NorwayEast
 name: AzureAttestation.NorwayEast
 metadata:
-  change_number: 2
+  change_number: 3
   region: norwaye
   platform: Azure
   system_service: AzureAttestation
@@ -9,16 +9,20 @@ metadata:
 address_prefixes:
   all:
     - 4.177.29.184/29
+    - 4.219.29.176/29
+    - 4.219.29.184/30
     - 51.120.100.244/30
     - 51.120.233.128/30
     - 2603:1020:e04::7a0/123
   ipv4:
     - 4.177.29.184/29
+    - 4.219.29.176/29
+    - 4.219.29.184/30
     - 51.120.100.244/30
     - 51.120.233.128/30
   ipv6:
     - 2603:1020:e04::7a0/123
   counts:
-    total: 4
-    ipv4: 3
+    total: 6
+    ipv4: 5
     ipv6: 1

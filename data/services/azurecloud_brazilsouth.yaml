@@ -1,7 +1,7 @@
 id: AzureCloud.brazilsouth
 name: AzureCloud.brazilsouth
 metadata:
-  change_number: 97
+  change_number: 98
   region: brazilsouth
   platform: Azure
   system_service: ""
@@ -22,7 +22,7 @@ address_prefixes:
     - 13.105.52.128/26
     - 20.20.96.0/25
     - 20.20.96.128/26
-    - 20.20.96.192/30
+    - 20.20.96.192/29
     - 20.20.96.228/30
     - 20.20.96.232/29
     - 20.20.96.240/28
@@ -225,7 +225,7 @@ address_prefixes:
     - 13.105.52.128/26
     - 20.20.96.0/25
     - 20.20.96.128/26
-    - 20.20.96.192/30
+    - 20.20.96.192/29
     - 20.20.96.228/30
     - 20.20.96.232/29
     - 20.20.96.240/28

@@ -1,22 +1,26 @@
 id: AzureAttestation.JapanEast
 name: AzureAttestation.JapanEast
 metadata:
-  change_number: 2
+  change_number: 3
   region: japaneast
   platform: Azure
   system_service: AzureAttestation
   network_features: []
 address_prefixes:
   all:
+    - 4.216.14.24/29
+    - 4.216.14.32/30
     - 4.241.53.192/29
     - 20.191.161.220/30
     - 40.79.189.116/30
   ipv4:
+    - 4.216.14.24/29
+    - 4.216.14.32/30
     - 4.241.53.192/29
     - 20.191.161.220/30
     - 40.79.189.116/30
   ipv6: []
   counts:
-    total: 3
-    ipv4: 3
+    total: 5
+    ipv4: 5
     ipv6: 0

@@ -1,0 +1,24 @@
+id: PowerPlatformInfra.MexicoCentral
+name: PowerPlatformInfra.MexicoCentral
+metadata:
+  change_number: 1
+  region: mexicocentral
+  platform: Azure
+  system_service: PowerPlatformInfra
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 172.195.122.128/25
+    - 172.195.123.0/24
+  ipv4:
+    - 172.195.122.128/25
+    - 172.195.123.0/24
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

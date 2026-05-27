@@ -1,7 +1,7 @@
 id: AzureCloud.denmarkeast
 name: AzureCloud.denmarkeast
 metadata:
-  change_number: 7
+  change_number: 8
   region: denmarkeast
   platform: Azure
   system_service: ""
@@ -10,8 +10,7 @@ metadata:
     - NSG
 address_prefixes:
   all:
-    - 9.205.0.0/17
-    - 9.205.128.0/18
+    - 9.205.0.0/16
     - 20.20.48.224/27
     - 20.20.52.0/27
     - 20.20.55.128/27
@@ -78,8 +77,7 @@ address_prefixes:
     - 2a01:111:f403:d91e::/64
     - 2a01:111:f403:e021::/64
   ipv4:
-    - 9.205.0.0/17
-    - 9.205.128.0/18
+    - 9.205.0.0/16
     - 20.20.48.224/27
     - 20.20.52.0/27
     - 20.20.55.128/27
@@ -147,6 +145,6 @@ address_prefixes:
     - 2a01:111:f403:d91e::/64
     - 2a01:111:f403:e021::/64
   counts:
-    total: 67
-    ipv4: 40
+    total: 66
+    ipv4: 39
     ipv6: 27

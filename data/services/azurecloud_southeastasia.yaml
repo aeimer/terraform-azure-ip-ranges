@@ -1,7 +1,7 @@
 id: AzureCloud.southeastasia
 name: AzureCloud.southeastasia
 metadata:
-  change_number: 101
+  change_number: 102
   region: southeastasia
   platform: Azure
   system_service: ""
@@ -186,6 +186,7 @@ address_prefixes:
     - 57.150.44.0/23
     - 57.155.0.0/16
     - 57.158.128.0/18
+    - 57.171.12.0/24
     - 70.152.26.0/24
     - 104.43.0.0/17
     - 104.44.89.32/27
@@ -447,6 +448,7 @@ address_prefixes:
     - 57.150.44.0/23
     - 57.155.0.0/16
     - 57.158.128.0/18
+    - 57.171.12.0/24
     - 70.152.26.0/24
     - 104.43.0.0/17
     - 104.44.89.32/27
@@ -533,6 +535,6 @@ address_prefixes:
     - 2a01:111:f403:dc01::/64
     - 2a01:111:f403:e401::/64
   counts:
-    total: 260
-    ipv4: 214
+    total: 261
+    ipv4: 215
     ipv6: 46

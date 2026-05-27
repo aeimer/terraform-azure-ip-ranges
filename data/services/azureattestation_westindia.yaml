@@ -1,7 +1,7 @@
 id: AzureAttestation.WestIndia
 name: AzureAttestation.WestIndia
 metadata:
-  change_number: 3
+  change_number: 4
   region: westindia
   platform: Azure
   system_service: AzureAttestation
@@ -10,15 +10,19 @@ address_prefixes:
   all:
     - 20.38.132.24/30
     - 52.136.53.132/30
+    - 57.159.150.128/29
     - 57.159.158.32/29
+    - 57.159.172.4/30
     - 2603:1040:806:3::1f0/124
   ipv4:
     - 20.38.132.24/30
     - 52.136.53.132/30
+    - 57.159.150.128/29
     - 57.159.158.32/29
+    - 57.159.172.4/30
   ipv6:
     - 2603:1040:806:3::1f0/124
   counts:
-    total: 4
-    ipv4: 3
+    total: 6
+    ipv4: 5
     ipv6: 1

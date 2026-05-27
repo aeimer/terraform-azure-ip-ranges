@@ -1,0 +1,22 @@
+id: AzureArcInfrastructure.NortheastUS5
+name: AzureArcInfrastructure.NortheastUS5
+metadata:
+  change_number: 1
+  region: northeastus5
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+address_prefixes:
+  all:
+    - 172.194.78.140/30
+    - 172.194.112.100/32
+    - 2603:1030:1602:2::240/124
+  ipv4:
+    - 172.194.78.140/30
+    - 172.194.112.100/32
+  ipv6:
+    - 2603:1030:1602:2::240/124
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

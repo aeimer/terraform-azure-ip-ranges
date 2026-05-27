@@ -1,0 +1,22 @@
+id: AzureDigitalTwins.NortheastUS5
+name: AzureDigitalTwins.NortheastUS5
+metadata:
+  change_number: 1
+  region: northeastus5
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+address_prefixes:
+  all:
+    - 172.194.70.0/29
+    - 172.194.70.32/27
+    - 2603:1030:1602::700/121
+  ipv4:
+    - 172.194.70.0/29
+    - 172.194.70.32/27
+  ipv6:
+    - 2603:1030:1602::700/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

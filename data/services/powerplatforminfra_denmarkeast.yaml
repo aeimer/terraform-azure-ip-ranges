@@ -1,0 +1,24 @@
+id: PowerPlatformInfra.DenmarkEast
+name: PowerPlatformInfra.DenmarkEast
+metadata:
+  change_number: 1
+  region: denmarkeast
+  platform: Azure
+  system_service: PowerPlatformInfra
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 9.205.180.128/25
+    - 9.205.181.0/24
+  ipv4:
+    - 9.205.180.128/25
+    - 9.205.181.0/24
+  ipv6: []
+  counts:
+    total: 2
+    ipv4: 2
+    ipv6: 0

@@ -1,0 +1,22 @@
+id: AzurePortal.NortheastUS5
+name: AzurePortal.NortheastUS5
+metadata:
+  change_number: 1
+  region: northeastus5
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+address_prefixes:
+  all:
+    - 172.194.81.60/30
+    - 172.194.82.192/27
+    - 2603:1030:1602:3::180/121
+  ipv4:
+    - 172.194.81.60/30
+    - 172.194.82.192/27
+  ipv6:
+    - 2603:1030:1602:3::180/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

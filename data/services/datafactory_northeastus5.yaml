@@ -1,0 +1,26 @@
+id: DataFactory.NortheastUS5
+name: DataFactory.NortheastUS5
+metadata:
+  change_number: 1
+  region: northeastus5
+  platform: Azure
+  system_service: DataFactory
+  network_features:
+    - API
+    - NSG
+address_prefixes:
+  all:
+    - 172.194.81.112/28
+    - 172.194.82.32/27
+    - 172.194.83.0/24
+    - 2603:1030:1602:3::/120
+  ipv4:
+    - 172.194.81.112/28
+    - 172.194.82.32/27
+    - 172.194.83.0/24
+  ipv6:
+    - 2603:1030:1602:3::/120
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

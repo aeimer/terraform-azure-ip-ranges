@@ -1,7 +1,7 @@
 id: GatewayManager.EastUS2
 name: GatewayManager.EastUS2
 metadata:
-  change_number: 6
+  change_number: 7
   region: eastus2
   platform: Azure
   system_service: GatewayManager
@@ -15,6 +15,7 @@ address_prefixes:
     - 48.204.192.0/27
     - 52.184.255.23/32
     - 52.251.12.161/32
+    - 57.167.184.192/26
     - 2603:1030:40c:1::40/122
   ipv4:
     - 20.41.0.72/29
@@ -23,9 +24,10 @@ address_prefixes:
     - 48.204.192.0/27
     - 52.184.255.23/32
     - 52.251.12.161/32
+    - 57.167.184.192/26
   ipv6:
     - 2603:1030:40c:1::40/122
   counts:
-    total: 7
-    ipv4: 6
+    total: 8
+    ipv4: 7
     ipv6: 1

@@ -1,7 +1,7 @@
 id: AzureCloud.canadaeast
 name: AzureCloud.canadaeast
 metadata:
-  change_number: 54
+  change_number: 55
   region: canadaeast
   platform: Azure
   system_service: ""
@@ -92,6 +92,7 @@ address_prefixes:
     - 104.44.95.32/28
     - 135.130.50.0/23
     - 145.190.159.0/24
+    - 145.191.128.0/17
     - 151.206.107.0/25
     - 2603:1030:1000::/47
     - 2603:1030:1002::/48
@@ -216,6 +217,7 @@ address_prefixes:
     - 104.44.95.32/28
     - 135.130.50.0/23
     - 145.190.159.0/24
+    - 145.191.128.0/17
     - 151.206.107.0/25
   ipv6:
     - 2603:1030:1000::/47
@@ -259,6 +261,6 @@ address_prefixes:
     - 2a01:111:f403:d917::/64
     - 2a01:111:f403:e01a::/64
   counts:
-    total: 123
-    ipv4: 83
+    total: 124
+    ipv4: 84
     ipv6: 40

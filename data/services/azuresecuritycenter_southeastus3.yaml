@@ -1,0 +1,18 @@
+id: AzureSecurityCenter.SoutheastUS3
+name: AzureSecurityCenter.SoutheastUS3
+metadata:
+  change_number: 1
+  region: southeastus3
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+address_prefixes:
+  all:
+    - 74.7.71.16/28
+  ipv4:
+    - 74.7.71.16/28
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

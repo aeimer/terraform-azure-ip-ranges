@@ -1,0 +1,18 @@
+id: AzureSecurityCenter.TaiwanNorthwest
+name: AzureSecurityCenter.TaiwanNorthwest
+metadata:
+  change_number: 1
+  region: taiwannorthwest
+  platform: Azure
+  system_service: AzureSecurityCenter
+  network_features: []
+address_prefixes:
+  all:
+    - 57.170.0.80/28
+  ipv4:
+    - 57.170.0.80/28
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

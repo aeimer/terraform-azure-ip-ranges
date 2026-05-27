@@ -1,7 +1,7 @@
 id: AzureDigitalTwins
 name: AzureDigitalTwins
 metadata:
-  change_number: 52
+  change_number: 53
   region: ""
   platform: Azure
   system_service: AzureDigitalTwins
@@ -332,6 +332,7 @@ address_prefixes:
     - 2603:1030:210:f::578/126
     - 2603:1030:40b:6::67c/126
     - 2603:1030:40c:e::5d4/126
+    - 2603:1030:40c:2a::/121
     - 2603:1030:504::560/123
     - 2603:1030:504:2::/121
     - 2603:1030:504:8::5f0/126
@@ -701,6 +702,7 @@ address_prefixes:
     - 2603:1030:210:f::578/126
     - 2603:1030:40b:6::67c/126
     - 2603:1030:40c:e::5d4/126
+    - 2603:1030:40c:2a::/121
     - 2603:1030:504::560/123
     - 2603:1030:504:2::/121
     - 2603:1030:504:8::5f0/126
@@ -749,6 +751,6 @@ address_prefixes:
     - 2603:1040:1b02::780/121
     - 2603:1050:301::580/121
   counts:
-    total: 367
+    total: 368
     ipv4: 289
-    ipv6: 78
+    ipv6: 79

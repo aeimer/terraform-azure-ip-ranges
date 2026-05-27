@@ -1,0 +1,24 @@
+id: ServiceFabric.NortheastUS5
+name: ServiceFabric.NortheastUS5
+metadata:
+  change_number: 1
+  region: northeastus5
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+address_prefixes:
+  all:
+    - 172.194.86.224/29
+    - 172.194.112.240/30
+    - 2603:1030:1602:3::618/125
+    - 2603:1030:1602:400::18/125
+  ipv4:
+    - 172.194.86.224/29
+    - 172.194.112.240/30
+  ipv6:
+    - 2603:1030:1602:3::618/125
+    - 2603:1030:1602:400::18/125
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

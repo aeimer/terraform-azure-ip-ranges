@@ -1,0 +1,20 @@
+id: PowerPlatformPlex.AustriaEast
+name: PowerPlatformPlex.AustriaEast
+metadata:
+  change_number: 1
+  region: austriaeast
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+address_prefixes:
+  all:
+    - 68.210.246.0/25
+  ipv4:
+    - 68.210.246.0/25
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

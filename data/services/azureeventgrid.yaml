@@ -1,7 +1,7 @@
 id: AzureEventGrid
 name: AzureEventGrid
 metadata:
-  change_number: 41
+  change_number: 42
   region: ""
   platform: Azure
   system_service: AzureEventGrid
@@ -141,6 +141,7 @@ address_prefixes:
     - 20.102.243.152/32
     - 20.104.130.115/32
     - 20.105.122.57/32
+    - 20.111.136.0/25
     - 20.112.150.125/32
     - 20.112.152.184/32
     - 20.112.153.189/32
@@ -613,6 +614,7 @@ address_prefixes:
     - 20.102.243.152/32
     - 20.104.130.115/32
     - 20.105.122.57/32
+    - 20.111.136.0/25
     - 20.112.150.125/32
     - 20.112.152.184/32
     - 20.112.153.189/32
@@ -957,6 +959,6 @@ address_prefixes:
     - 2603:1050:301::280/121
     - 2603:1050:403::380/121
   counts:
-    total: 471
-    ipv4: 391
+    total: 472
+    ipv4: 392
     ipv6: 80

@@ -1,7 +1,7 @@
 id: Storage.WestCentralUS
 name: Storage.WestCentralUS
 metadata:
-  change_number: 21
+  change_number: 22
   region: westcentralus
   platform: Azure
   system_service: AzureStorage
@@ -55,6 +55,7 @@ address_prefixes:
     - 135.130.212.0/23
     - 135.130.214.0/23
     - 145.190.137.0/24
+    - 145.190.177.0/24
     - 2603:1030:b06::/49
     - 2603:1030:b06:8000::/63
   ipv4:
@@ -101,10 +102,11 @@ address_prefixes:
     - 135.130.212.0/23
     - 135.130.214.0/23
     - 145.190.137.0/24
+    - 145.190.177.0/24
   ipv6:
     - 2603:1030:b06::/49
     - 2603:1030:b06:8000::/63
   counts:
-    total: 45
-    ipv4: 43
+    total: 46
+    ipv4: 44
     ipv6: 2

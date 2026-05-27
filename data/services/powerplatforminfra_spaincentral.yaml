@@ -1,7 +1,7 @@
 id: PowerPlatformInfra.SpainCentral
 name: PowerPlatformInfra.SpainCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: spaincentral
   platform: Azure
   system_service: PowerPlatformInfra
@@ -12,11 +12,15 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 158.158.140.128/25
+    - 158.158.141.0/24
     - 2603:1061:2002:c000::/57
-  ipv4: []
+  ipv4:
+    - 158.158.140.128/25
+    - 158.158.141.0/24
   ipv6:
     - 2603:1061:2002:c000::/57
   counts:
-    total: 1
-    ipv4: 0
+    total: 3
+    ipv4: 2
     ipv6: 1

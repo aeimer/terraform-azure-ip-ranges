@@ -1,0 +1,20 @@
+id: AzureMachineLearning.NortheastUS5
+name: AzureMachineLearning.NortheastUS5
+metadata:
+  change_number: 1
+  region: northeastus5
+  platform: Azure
+  system_service: AzureMachineLearning
+  network_features: []
+address_prefixes:
+  all:
+    - 172.194.65.64/27
+    - 2603:1030:1602::400/122
+  ipv4:
+    - 172.194.65.64/27
+  ipv6:
+    - 2603:1030:1602::400/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

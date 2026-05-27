@@ -1,24 +1,28 @@
 id: AzureAttestation.UAENorth
 name: AzureAttestation.UAENorth
 metadata:
-  change_number: 3
+  change_number: 4
   region: uaenorth
   platform: Azure
   system_service: AzureAttestation
   network_features: []
 address_prefixes:
   all:
+    - 4.161.21.108/30
+    - 4.161.21.176/29
     - 20.38.143.40/30
     - 20.174.245.112/29
     - 40.120.75.60/30
     - 2603:1040:904:2::6b0/124
   ipv4:
+    - 4.161.21.108/30
+    - 4.161.21.176/29
     - 20.38.143.40/30
     - 20.174.245.112/29
     - 40.120.75.60/30
   ipv6:
     - 2603:1040:904:2::6b0/124
   counts:
-    total: 4
-    ipv4: 3
+    total: 6
+    ipv4: 5
     ipv6: 1

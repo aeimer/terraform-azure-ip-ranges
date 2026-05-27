@@ -1,0 +1,20 @@
+id: PowerPlatformPlex.ChileCentral
+name: PowerPlatformPlex.ChileCentral
+metadata:
+  change_number: 1
+  region: chilec
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+address_prefixes:
+  all:
+    - 57.156.98.128/25
+  ipv4:
+    - 57.156.98.128/25
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

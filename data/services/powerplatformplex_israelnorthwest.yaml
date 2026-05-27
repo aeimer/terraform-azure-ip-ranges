@@ -1,0 +1,20 @@
+id: PowerPlatformPlex.IsraelNorthwest
+name: PowerPlatformPlex.IsraelNorthwest
+metadata:
+  change_number: 1
+  region: israelnorthwest
+  platform: Azure
+  system_service: PowerPlatformPlex
+  network_features:
+    - API
+    - NSG
+address_prefixes:
+  all:
+    - 51.4.230.0/25
+  ipv4:
+    - 51.4.230.0/25
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

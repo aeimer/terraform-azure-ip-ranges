@@ -1,7 +1,7 @@
 id: AzureAttestation.SwedenSouth
 name: AzureAttestation.SwedenSouth
 metadata:
-  change_number: 2
+  change_number: 3
   region: swedensouth
   platform: Azure
   system_service: AzureAttestation
@@ -9,14 +9,18 @@ metadata:
 address_prefixes:
   all:
     - 20.91.44.16/29
+    - 20.91.93.248/29
+    - 20.91.94.128/30
     - 51.12.198.4/30
     - 2603:1020:1104:1::3e0/123
   ipv4:
     - 20.91.44.16/29
+    - 20.91.93.248/29
+    - 20.91.94.128/30
     - 51.12.198.4/30
   ipv6:
     - 2603:1020:1104:1::3e0/123
   counts:
-    total: 3
-    ipv4: 2
+    total: 5
+    ipv4: 4
     ipv6: 1
