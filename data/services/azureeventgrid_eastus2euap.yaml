@@ -1,7 +1,7 @@
 id: AzureEventGrid.EastUS2EUAP
 name: AzureEventGrid.EastUS2EUAP
 metadata:
-  change_number: 3
+  change_number: 4
   region: eastus2euap
   platform: Azure
   system_service: AzureEventGrid
@@ -12,15 +12,21 @@ address_prefixes:
     - 20.39.20.16/28
     - 20.252.215.192/26
     - 48.223.85.0/25
+    - 48.223.88.0/22
+    - 48.223.92.0/23
+    - 48.223.94.0/24
     - 2603:1030:40b:1::380/121
   ipv4:
     - 20.39.11.128/25
     - 20.39.20.16/28
     - 20.252.215.192/26
     - 48.223.85.0/25
+    - 48.223.88.0/22
+    - 48.223.92.0/23
+    - 48.223.94.0/24
   ipv6:
     - 2603:1030:40b:1::380/121
   counts:
-    total: 5
-    ipv4: 4
+    total: 8
+    ipv4: 7
     ipv6: 1

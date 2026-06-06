@@ -1,24 +1,30 @@
 id: AzureEventGrid.SouthAfricaNorth
 name: AzureEventGrid.SouthAfricaNorth
 metadata:
-  change_number: 2
+  change_number: 3
   region: southafricanorth
   platform: Azure
   system_service: AzureEventGrid
   network_features: []
 address_prefixes:
   all:
+    - 4.221.250.0/23
+    - 4.221.252.0/22
+    - 4.253.104.0/23
     - 102.37.162.0/25
     - 102.133.135.16/28
     - 102.133.135.32/28
     - 2603:1000:104:1::380/121
   ipv4:
+    - 4.221.250.0/23
+    - 4.221.252.0/22
+    - 4.253.104.0/23
     - 102.37.162.0/25
     - 102.133.135.16/28
     - 102.133.135.32/28
   ipv6:
     - 2603:1000:104:1::380/121
   counts:
-    total: 4
-    ipv4: 3
+    total: 7
+    ipv4: 6
     ipv6: 1

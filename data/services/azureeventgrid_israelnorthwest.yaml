@@ -1,7 +1,7 @@
 id: AzureEventGrid.IsraelNorthwest
 name: AzureEventGrid.IsraelNorthwest
 metadata:
-  change_number: 1
+  change_number: 2
   region: israelnorthwest
   platform: Azure
   system_service: AzureEventGrid
@@ -9,12 +9,18 @@ metadata:
 address_prefixes:
   all:
     - 20.217.249.128/25
+    - 51.58.146.0/23
+    - 51.58.148.0/22
+    - 51.58.152.0/23
     - 2603:1040:1702::280/121
   ipv4:
     - 20.217.249.128/25
+    - 51.58.146.0/23
+    - 51.58.148.0/22
+    - 51.58.152.0/23
   ipv6:
     - 2603:1040:1702::280/121
   counts:
-    total: 2
-    ipv4: 1
+    total: 5
+    ipv4: 4
     ipv6: 1

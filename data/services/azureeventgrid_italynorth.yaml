@@ -1,7 +1,7 @@
 id: AzureEventGrid.ItalyNorth
 name: AzureEventGrid.ItalyNorth
 metadata:
-  change_number: 1
+  change_number: 2
   region: italynorth
   platform: Azure
   system_service: AzureEventGrid
@@ -9,12 +9,16 @@ metadata:
 address_prefixes:
   all:
     - 4.232.25.128/25
+    - 9.235.196.0/22
+    - 9.235.200.0/22
     - 2603:1020:1204::280/121
   ipv4:
     - 4.232.25.128/25
+    - 9.235.196.0/22
+    - 9.235.200.0/22
   ipv6:
     - 2603:1020:1204::280/121
   counts:
-    total: 2
-    ipv4: 1
+    total: 4
+    ipv4: 3
     ipv6: 1

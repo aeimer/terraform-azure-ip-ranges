@@ -1,7 +1,7 @@
 id: AzureCloud.southafricawest
 name: AzureCloud.southafricawest
 metadata:
-  change_number: 41
+  change_number: 42
   region: southafricawest
   platform: Azure
   system_service: ""
@@ -56,6 +56,7 @@ address_prefixes:
     - 52.143.203.0/24
     - 52.239.232.128/25
     - 70.152.23.0/24
+    - 74.160.0.0/17
     - 102.37.26.0/27
     - 102.37.64.0/21
     - 102.37.80.0/20
@@ -150,6 +151,7 @@ address_prefixes:
     - 52.143.203.0/24
     - 52.239.232.128/25
     - 70.152.23.0/24
+    - 74.160.0.0/17
     - 102.37.26.0/27
     - 102.37.64.0/21
     - 102.37.80.0/20
@@ -199,6 +201,6 @@ address_prefixes:
     - 2a01:111:f403:da09::/64
     - 2a01:111:f403:e209::/64
   counts:
-    total: 93
-    ipv4: 58
+    total: 94
+    ipv4: 59
     ipv6: 35

@@ -1,7 +1,7 @@
 id: AzureContainerRegistry
 name: AzureContainerRegistry
 metadata:
-  change_number: 99
+  change_number: 100
   region: ""
   platform: Azure
   system_service: AzureContainerRegistry
@@ -590,6 +590,7 @@ address_prefixes:
     - 172.211.120.0/23
     - 172.212.129.0/24
     - 172.215.133.0/24
+    - 172.215.171.96/27
     - 172.215.202.64/26
     - 172.215.203.128/25
     - 191.233.50.16/29
@@ -1788,6 +1789,7 @@ address_prefixes:
     - 172.211.120.0/23
     - 172.212.129.0/24
     - 172.215.133.0/24
+    - 172.215.171.96/27
     - 172.215.202.64/26
     - 172.215.203.128/25
     - 191.233.50.16/29
@@ -2410,6 +2412,6 @@ address_prefixes:
     - 2603:1050:403:400::98/125
     - 2603:1050:403:400::480/121
   counts:
-    total: 1197
-    ipv4: 591
+    total: 1198
+    ipv4: 592
     ipv6: 606

@@ -1,13 +1,16 @@
 id: AzureEventGrid.NorthEurope
 name: AzureEventGrid.NorthEurope
 metadata:
-  change_number: 2
+  change_number: 3
   region: northeurope
   platform: Azure
   system_service: AzureEventGrid
   network_features: []
 address_prefixes:
   all:
+    - 4.209.102.128/25
+    - 4.209.136.0/22
+    - 4.209.140.0/23
     - 20.38.87.0/25
     - 20.191.59.128/28
     - 20.191.59.176/28
@@ -16,6 +19,9 @@ address_prefixes:
     - 68.219.195.0/24
     - 2603:1020:5:1::380/121
   ipv4:
+    - 4.209.102.128/25
+    - 4.209.136.0/22
+    - 4.209.140.0/23
     - 20.38.87.0/25
     - 20.191.59.128/28
     - 20.191.59.176/28
@@ -25,6 +31,6 @@ address_prefixes:
   ipv6:
     - 2603:1020:5:1::380/121
   counts:
-    total: 7
-    ipv4: 6
+    total: 10
+    ipv4: 9
     ipv6: 1

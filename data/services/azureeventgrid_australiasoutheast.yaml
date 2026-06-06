@@ -1,24 +1,30 @@
 id: AzureEventGrid.AustraliaSoutheast
 name: AzureEventGrid.AustraliaSoutheast
 metadata:
-  change_number: 1
+  change_number: 2
   region: australiasoutheast
   platform: Azure
   system_service: AzureEventGrid
   network_features: []
 address_prefixes:
   all:
+    - 4.199.16.0/22
+    - 4.199.20.0/23
+    - 20.11.230.0/23
     - 20.40.175.48/28
     - 20.40.175.64/28
     - 20.42.228.0/25
     - 2603:1010:101::380/121
   ipv4:
+    - 4.199.16.0/22
+    - 4.199.20.0/23
+    - 20.11.230.0/23
     - 20.40.175.48/28
     - 20.40.175.64/28
     - 20.42.228.0/25
   ipv6:
     - 2603:1010:101::380/121
   counts:
-    total: 4
-    ipv4: 3
+    total: 7
+    ipv4: 6
     ipv6: 1

@@ -1,7 +1,7 @@
 id: AzureEventGrid.NortheastUS5
 name: AzureEventGrid.NortheastUS5
 metadata:
-  change_number: 1
+  change_number: 2
   region: northeastus5
   platform: Azure
   system_service: AzureEventGrid
@@ -9,12 +9,14 @@ metadata:
 address_prefixes:
   all:
     - 172.194.65.128/25
+    - 172.194.96.0/21
     - 2603:1030:1602::480/121
   ipv4:
     - 172.194.65.128/25
+    - 172.194.96.0/21
   ipv6:
     - 2603:1030:1602::480/121
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

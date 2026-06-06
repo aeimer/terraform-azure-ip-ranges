@@ -1,13 +1,16 @@
 id: AzureEventGrid.EastAsia
 name: AzureEventGrid.EastAsia
 metadata:
-  change_number: 2
+  change_number: 3
   region: eastasia
   platform: Azure
   system_service: AzureEventGrid
   network_features: []
 address_prefixes:
   all:
+    - 4.191.98.128/25
+    - 4.191.100.0/22
+    - 4.191.104.0/23
     - 20.6.143.0/24
     - 20.189.108.128/25
     - 20.189.115.80/28
@@ -15,6 +18,9 @@ address_prefixes:
     - 20.189.125.32/27
     - 2603:1040:207::380/121
   ipv4:
+    - 4.191.98.128/25
+    - 4.191.100.0/22
+    - 4.191.104.0/23
     - 20.6.143.0/24
     - 20.189.108.128/25
     - 20.189.115.80/28
@@ -23,6 +29,6 @@ address_prefixes:
   ipv6:
     - 2603:1040:207::380/121
   counts:
-    total: 6
-    ipv4: 5
+    total: 9
+    ipv4: 8
     ipv6: 1

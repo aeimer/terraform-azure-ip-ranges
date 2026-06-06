@@ -1,7 +1,7 @@
 id: AzureEventGrid.SouthCentralUS2
 name: AzureEventGrid.SouthCentralUS2
 metadata:
-  change_number: 1
+  change_number: 2
   region: southcentralus2
   platform: Azure
   system_service: AzureEventGrid
@@ -9,12 +9,14 @@ metadata:
 address_prefixes:
   all:
     - 48.216.17.128/25
+    - 48.219.32.0/21
     - 2603:1030:1102::280/121
   ipv4:
     - 48.216.17.128/25
+    - 48.219.32.0/21
   ipv6:
     - 2603:1030:1102::280/121
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

@@ -1,20 +1,26 @@
 id: AzureEventGrid.NewZealandNorth
 name: AzureEventGrid.NewZealandNorth
 metadata:
-  change_number: 1
+  change_number: 2
   region: newzealandnorth
   platform: Azure
   system_service: AzureEventGrid
   network_features: []
 address_prefixes:
   all:
+    - 172.196.90.0/23
+    - 172.196.92.0/22
+    - 172.196.96.0/23
     - 172.204.153.128/25
     - 2603:1010:502::280/121
   ipv4:
+    - 172.196.90.0/23
+    - 172.196.92.0/22
+    - 172.196.96.0/23
     - 172.204.153.128/25
   ipv6:
     - 2603:1010:502::280/121
   counts:
-    total: 2
-    ipv4: 1
+    total: 5
+    ipv4: 4
     ipv6: 1

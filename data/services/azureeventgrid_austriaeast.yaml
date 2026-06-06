@@ -1,7 +1,7 @@
 id: AzureEventGrid.AustriaEast
 name: AzureEventGrid.AustriaEast
 metadata:
-  change_number: 1
+  change_number: 2
   region: austriaeast
   platform: Azure
   system_service: AzureEventGrid
@@ -9,12 +9,16 @@ metadata:
 address_prefixes:
   all:
     - 68.210.161.128/25
+    - 68.210.216.0/22
+    - 68.210.252.0/22
     - 2603:1020:104:4::100/121
   ipv4:
     - 68.210.161.128/25
+    - 68.210.216.0/22
+    - 68.210.252.0/22
   ipv6:
     - 2603:1020:104:4::100/121
   counts:
-    total: 2
-    ipv4: 1
+    total: 4
+    ipv4: 3
     ipv6: 1

@@ -1,7 +1,7 @@
 id: AzureEventGrid.CanadaEast
 name: AzureEventGrid.CanadaEast
 metadata:
-  change_number: 1
+  change_number: 2
   region: canadaeast
   platform: Azure
   system_service: AzureEventGrid
@@ -11,14 +11,16 @@ address_prefixes:
     - 40.89.18.0/25
     - 52.139.85.16/28
     - 52.139.85.32/28
+    - 145.191.128.0/21
     - 2603:1030:1005::380/121
   ipv4:
     - 40.89.18.0/25
     - 52.139.85.16/28
     - 52.139.85.32/28
+    - 145.191.128.0/21
   ipv6:
     - 2603:1030:1005::380/121
   counts:
-    total: 4
-    ipv4: 3
+    total: 5
+    ipv4: 4
     ipv6: 1

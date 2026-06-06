@@ -1,24 +1,30 @@
 id: AzureEventGrid.JapanEast
 name: AzureEventGrid.JapanEast
 metadata:
-  change_number: 1
+  change_number: 2
   region: japaneast
   platform: Azure
   system_service: AzureEventGrid
   network_features: []
 address_prefixes:
   all:
+    - 4.214.170.0/23
+    - 4.214.172.0/22
+    - 4.214.176.0/23
     - 20.43.66.128/25
     - 20.44.168.64/28
     - 52.185.176.112/28
     - 2603:1040:407:1::380/121
   ipv4:
+    - 4.214.170.0/23
+    - 4.214.172.0/22
+    - 4.214.176.0/23
     - 20.43.66.128/25
     - 20.44.168.64/28
     - 52.185.176.112/28
   ipv6:
     - 2603:1040:407:1::380/121
   counts:
-    total: 4
-    ipv4: 3
+    total: 7
+    ipv4: 6
     ipv6: 1

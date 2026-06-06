@@ -1,7 +1,7 @@
 id: AzureEventGrid.MalaysiaSouth
 name: AzureEventGrid.MalaysiaSouth
 metadata:
-  change_number: 1
+  change_number: 2
   region: malaysiasouth
   platform: Azure
   system_service: AzureEventGrid
@@ -9,12 +9,18 @@ metadata:
 address_prefixes:
   all:
     - 20.17.49.128/25
+    - 172.197.34.0/23
+    - 172.197.36.0/22
+    - 172.197.40.0/23
     - 2603:1040:1503::280/121
   ipv4:
     - 20.17.49.128/25
+    - 172.197.34.0/23
+    - 172.197.36.0/22
+    - 172.197.40.0/23
   ipv6:
     - 2603:1040:1503::280/121
   counts:
-    total: 2
-    ipv4: 1
+    total: 5
+    ipv4: 4
     ipv6: 1

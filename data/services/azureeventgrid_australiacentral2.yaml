@@ -1,7 +1,7 @@
 id: AzureEventGrid.AustraliaCentral2
 name: AzureEventGrid.AustraliaCentral2
 metadata:
-  change_number: 1
+  change_number: 2
   region: australiacentral2
   platform: Azure
   system_service: AzureEventGrid
@@ -11,14 +11,20 @@ address_prefixes:
     - 20.36.121.0/25
     - 20.39.99.64/28
     - 20.39.99.240/28
+    - 20.167.230.0/23
+    - 20.167.232.0/22
+    - 20.167.236.0/23
     - 2603:1010:404::380/121
   ipv4:
     - 20.36.121.0/25
     - 20.39.99.64/28
     - 20.39.99.240/28
+    - 20.167.230.0/23
+    - 20.167.232.0/22
+    - 20.167.236.0/23
   ipv6:
     - 2603:1010:404::380/121
   counts:
-    total: 4
-    ipv4: 3
+    total: 7
+    ipv4: 6
     ipv6: 1

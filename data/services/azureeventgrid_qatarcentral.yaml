@@ -1,20 +1,22 @@
 id: AzureEventGrid.QatarCentral
 name: AzureEventGrid.QatarCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: qatarcentral
   platform: Azure
   system_service: AzureEventGrid
   network_features: []
 address_prefixes:
   all:
+    - 4.244.56.0/21
     - 20.21.33.128/25
     - 2603:1040:1002::480/121
   ipv4:
+    - 4.244.56.0/21
     - 20.21.33.128/25
   ipv6:
     - 2603:1040:1002::480/121
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

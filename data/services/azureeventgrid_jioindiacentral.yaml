@@ -1,7 +1,7 @@
 id: AzureEventGrid.JioIndiaCentral
 name: AzureEventGrid.JioIndiaCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: jioindiacentral
   platform: Azure
   system_service: AzureEventGrid
@@ -9,12 +9,16 @@ metadata:
 address_prefixes:
   all:
     - 20.192.228.0/25
+    - 20.207.28.0/22
+    - 20.207.32.0/22
     - 2603:1040:1104::280/121
   ipv4:
     - 20.192.228.0/25
+    - 20.207.28.0/22
+    - 20.207.32.0/22
   ipv6:
     - 2603:1040:1104::280/121
   counts:
-    total: 2
-    ipv4: 1
+    total: 4
+    ipv4: 3
     ipv6: 1

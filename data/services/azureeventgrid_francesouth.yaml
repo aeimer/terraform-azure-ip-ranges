@@ -1,7 +1,7 @@
 id: AzureEventGrid.FranceSouth
 name: AzureEventGrid.FranceSouth
 metadata:
-  change_number: 1
+  change_number: 2
   region: southfrance
   platform: Azure
   system_service: AzureEventGrid
@@ -11,14 +11,18 @@ address_prefixes:
     - 20.39.80.112/28
     - 20.39.80.128/28
     - 51.105.89.0/25
+    - 98.66.12.0/22
+    - 98.66.16.0/22
     - 2603:1020:905::380/121
   ipv4:
     - 20.39.80.112/28
     - 20.39.80.128/28
     - 51.105.89.0/25
+    - 98.66.12.0/22
+    - 98.66.16.0/22
   ipv6:
     - 2603:1020:905::380/121
   counts:
-    total: 4
-    ipv4: 3
+    total: 6
+    ipv4: 5
     ipv6: 1

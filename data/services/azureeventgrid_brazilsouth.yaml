@@ -1,24 +1,28 @@
 id: AzureEventGrid.BrazilSouth
 name: AzureEventGrid.BrazilSouth
 metadata:
-  change_number: 1
+  change_number: 2
   region: brazilsouth
   platform: Azure
   system_service: AzureEventGrid
   network_features: []
 address_prefixes:
   all:
+    - 4.228.180.0/22
+    - 4.228.240.0/22
     - 191.235.126.0/28
     - 191.235.126.144/28
     - 191.235.227.0/25
     - 2603:1050:6:1::380/121
   ipv4:
+    - 4.228.180.0/22
+    - 4.228.240.0/22
     - 191.235.126.0/28
     - 191.235.126.144/28
     - 191.235.227.0/25
   ipv6:
     - 2603:1050:6:1::380/121
   counts:
-    total: 4
-    ipv4: 3
+    total: 6
+    ipv4: 5
     ipv6: 1

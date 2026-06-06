@@ -1,7 +1,7 @@
 id: AzureEventGrid.SouthCentralUSSTG
 name: AzureEventGrid.SouthCentralUSSTG
 metadata:
-  change_number: 1
+  change_number: 2
   region: usstagec
   platform: Azure
   system_service: AzureEventGrid
@@ -9,10 +9,16 @@ metadata:
 address_prefixes:
   all:
     - 20.45.113.0/25
+    - 57.152.162.0/23
+    - 57.152.164.0/22
+    - 57.152.168.0/23
   ipv4:
     - 20.45.113.0/25
+    - 57.152.162.0/23
+    - 57.152.164.0/22
+    - 57.152.168.0/23
   ipv6: []
   counts:
-    total: 1
-    ipv4: 1
+    total: 4
+    ipv4: 4
     ipv6: 0
