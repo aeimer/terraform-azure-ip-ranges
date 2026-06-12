@@ -1,7 +1,7 @@
 id: AzureMonitor.NorwayWest
 name: AzureMonitor.NorwayWest
 metadata:
-  change_number: 14
+  change_number: 15
   region: norwayw
   platform: Azure
   system_service: AzureMonitor
@@ -21,6 +21,7 @@ address_prefixes:
     - 51.120.180.124/30
     - 51.120.183.160/29
     - 51.120.219.208/28
+    - 74.240.1.176/28
     - 2603:1020:f04::780/121
     - 2603:1020:f04:1::280/123
     - 2603:1020:f04:1::300/121
@@ -42,6 +43,7 @@ address_prefixes:
     - 51.120.180.124/30
     - 51.120.183.160/29
     - 51.120.219.208/28
+    - 74.240.1.176/28
   ipv6:
     - 2603:1020:f04::780/121
     - 2603:1020:f04:1::280/123
@@ -52,6 +54,6 @@ address_prefixes:
     - 2603:1020:f04:9::580/123
     - 2603:1020:f04:402::500/121
   counts:
-    total: 20
-    ipv4: 12
+    total: 21
+    ipv4: 13
     ipv6: 8

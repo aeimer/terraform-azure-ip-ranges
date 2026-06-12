@@ -1,7 +1,7 @@
 id: AzureCloud.northeastus5
 name: AzureCloud.northeastus5
 metadata:
-  change_number: 1
+  change_number: 2
   region: northeastus5
   platform: Azure
   system_service: ""
@@ -23,6 +23,7 @@ address_prefixes:
     - 57.157.96.184/30
     - 57.163.0.0/23
     - 57.163.4.0/23
+    - 74.149.0.0/17
     - 135.130.98.0/23
     - 135.130.100.0/24
     - 135.130.190.0/23
@@ -62,6 +63,7 @@ address_prefixes:
     - 57.157.96.184/30
     - 57.163.0.0/23
     - 57.163.4.0/23
+    - 74.149.0.0/17
     - 135.130.98.0/23
     - 135.130.100.0/24
     - 135.130.190.0/23
@@ -89,6 +91,6 @@ address_prefixes:
     - 2603:1061:174d::/63
     - 2603:1063:2204:14::/64
   counts:
-    total: 38
-    ipv4: 27
+    total: 39
+    ipv4: 28
     ipv6: 11

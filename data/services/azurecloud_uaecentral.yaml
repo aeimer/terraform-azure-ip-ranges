@@ -1,7 +1,7 @@
 id: AzureCloud.uaecentral
 name: AzureCloud.uaecentral
 metadata:
-  change_number: 43
+  change_number: 44
   region: uaecentral
   platform: Azure
   system_service: ""
@@ -70,6 +70,7 @@ address_prefixes:
     - 70.152.31.0/24
     - 70.152.216.0/24
     - 70.152.218.0/24
+    - 74.150.0.0/17
     - 74.243.0.0/17
     - 74.243.128.0/21
     - 74.243.144.0/20
@@ -176,6 +177,7 @@ address_prefixes:
     - 70.152.31.0/24
     - 70.152.216.0/24
     - 70.152.218.0/24
+    - 74.150.0.0/17
     - 74.243.0.0/17
     - 74.243.128.0/21
     - 74.243.144.0/20
@@ -223,6 +225,6 @@ address_prefixes:
     - 2a01:111:f403:dc0b::/64
     - 2a01:111:f403:e40b::/64
   counts:
-    total: 105
-    ipv4: 67
+    total: 106
+    ipv4: 68
     ipv6: 38

@@ -1,7 +1,7 @@
 id: AzureMonitor.EastUS2EUAP
 name: AzureMonitor.EastUS2EUAP
 metadata:
-  change_number: 24
+  change_number: 25
   region: eastus2euap
   platform: Azure
   system_service: AzureMonitor
@@ -27,6 +27,7 @@ address_prefixes:
     - 48.223.21.192/26
     - 48.223.29.192/28
     - 48.223.56.32/28
+    - 48.223.101.80/28
     - 52.138.90.48/30
     - 52.138.90.56/29
     - 68.220.85.64/29
@@ -69,6 +70,7 @@ address_prefixes:
     - 48.223.21.192/26
     - 48.223.29.192/28
     - 48.223.56.32/28
+    - 48.223.101.80/28
     - 52.138.90.48/30
     - 52.138.90.56/29
     - 68.220.85.64/29
@@ -94,6 +96,6 @@ address_prefixes:
     - 2603:1030:40b:c00::480/121
     - 2603:1030:40b:1000::200/121
   counts:
-    total: 41
-    ipv4: 24
+    total: 42
+    ipv4: 25
     ipv6: 17

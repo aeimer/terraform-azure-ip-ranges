@@ -1,7 +1,7 @@
 id: AzureIoTHub.GermanyNorth
 name: AzureIoTHub.GermanyNorth
 metadata:
-  change_number: 1
+  change_number: 2
   region: germanyn
   platform: Azure
   system_service: AzureIoTHub
@@ -11,14 +11,26 @@ address_prefixes:
     - 51.116.49.224/27
     - 51.116.50.0/25
     - 51.116.60.96/27
+    - 98.67.14.20/30
+    - 98.67.14.160/27
+    - 98.67.14.192/26
+    - 2603:1020:d04:a::3e8/126
+    - 2603:1020:d04:a::700/122
+    - 2603:1020:d04:a::740/123
     - 2603:1020:d04:402::300/123
   ipv4:
     - 51.116.49.224/27
     - 51.116.50.0/25
     - 51.116.60.96/27
+    - 98.67.14.20/30
+    - 98.67.14.160/27
+    - 98.67.14.192/26
   ipv6:
+    - 2603:1020:d04:a::3e8/126
+    - 2603:1020:d04:a::700/122
+    - 2603:1020:d04:a::740/123
     - 2603:1020:d04:402::300/123
   counts:
-    total: 4
-    ipv4: 3
-    ipv6: 1
+    total: 10
+    ipv4: 6
+    ipv6: 4

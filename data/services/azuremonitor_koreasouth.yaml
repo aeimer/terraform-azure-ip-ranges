@@ -1,7 +1,7 @@
 id: AzureMonitor.KoreaSouth
 name: AzureMonitor.KoreaSouth
 metadata:
-  change_number: 13
+  change_number: 14
   region: koreasouth
   platform: Azure
   system_service: AzureMonitor
@@ -9,6 +9,7 @@ metadata:
     - NSG
 address_prefixes:
   all:
+    - 4.243.7.160/28
     - 4.243.42.64/27
     - 4.243.44.128/26
     - 4.243.139.224/27
@@ -36,8 +37,10 @@ address_prefixes:
     - 2603:1040:e05:6::680/122
     - 2603:1040:e05:9::500/120
     - 2603:1040:e05:9::6e0/123
+    - 2603:1040:e05:b::580/123
     - 2603:1040:e05:402::80/121
   ipv4:
+    - 4.243.7.160/28
     - 4.243.42.64/27
     - 4.243.44.128/26
     - 4.243.139.224/27
@@ -66,8 +69,9 @@ address_prefixes:
     - 2603:1040:e05:6::680/122
     - 2603:1040:e05:9::500/120
     - 2603:1040:e05:9::6e0/123
+    - 2603:1040:e05:b::580/123
     - 2603:1040:e05:402::80/121
   counts:
-    total: 28
-    ipv4: 16
-    ipv6: 12
+    total: 30
+    ipv4: 17
+    ipv6: 13

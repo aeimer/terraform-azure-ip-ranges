@@ -1,7 +1,7 @@
 id: AzureMonitor.SwitzerlandNorth
 name: AzureMonitor.SwitzerlandNorth
 metadata:
-  change_number: 26
+  change_number: 27
   region: switzerlandn
   platform: Azure
   system_service: AzureMonitor
@@ -46,6 +46,7 @@ address_prefixes:
     - 2603:1020:a04:7::/122
     - 2603:1020:a04:9::5c0/123
     - 2603:1020:a04:9::600/120
+    - 2603:1020:a04:d::560/123
     - 2603:1020:a04:402::500/121
     - 2603:1020:a04:800::100/121
     - 2603:1020:a04:c02::480/121
@@ -88,10 +89,11 @@ address_prefixes:
     - 2603:1020:a04:7::/122
     - 2603:1020:a04:9::5c0/123
     - 2603:1020:a04:9::600/120
+    - 2603:1020:a04:d::560/123
     - 2603:1020:a04:402::500/121
     - 2603:1020:a04:800::100/121
     - 2603:1020:a04:c02::480/121
   counts:
-    total: 40
+    total: 41
     ipv4: 26
-    ipv6: 14
+    ipv6: 15
