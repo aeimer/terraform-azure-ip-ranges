@@ -1,7 +1,7 @@
 id: AzureMonitor.CentralUS
 name: AzureMonitor.CentralUS
 metadata:
-  change_number: 43
+  change_number: 44
   region: centralus
   platform: Azure
   system_service: AzureMonitor
@@ -102,6 +102,7 @@ address_prefixes:
     - 2603:1030:10:1f::440/122
     - 2603:1030:10:25::500/120
     - 2603:1030:10:26::540/123
+    - 2603:1030:10:27::200/119
     - 2603:1030:10:402::500/121
     - 2603:1030:10:802::480/121
     - 2603:1030:10:c02::480/121
@@ -200,10 +201,11 @@ address_prefixes:
     - 2603:1030:10:1f::440/122
     - 2603:1030:10:25::500/120
     - 2603:1030:10:26::540/123
+    - 2603:1030:10:27::200/119
     - 2603:1030:10:402::500/121
     - 2603:1030:10:802::480/121
     - 2603:1030:10:c02::480/121
   counts:
-    total: 96
+    total: 97
     ipv4: 58
-    ipv6: 38
+    ipv6: 39

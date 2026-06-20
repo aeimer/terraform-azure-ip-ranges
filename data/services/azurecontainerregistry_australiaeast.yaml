@@ -1,7 +1,7 @@
 id: AzureContainerRegistry.AustraliaEast
 name: AzureContainerRegistry.AustraliaEast
 metadata:
-  change_number: 9
+  change_number: 10
   region: australiaeast
   platform: Azure
   system_service: AzureContainerRegistry
@@ -23,6 +23,7 @@ address_prefixes:
     - 40.79.173.128/25
     - 40.79.174.0/25
     - 48.215.4.128/26
+    - 51.56.168.0/26
     - 68.218.136.0/25
     - 2603:1010:6:4::4c0/122
     - 2603:1010:6:402::90/125
@@ -45,6 +46,7 @@ address_prefixes:
     - 40.79.173.128/25
     - 40.79.174.0/25
     - 48.215.4.128/26
+    - 51.56.168.0/26
     - 68.218.136.0/25
   ipv6:
     - 2603:1010:6:4::4c0/122
@@ -57,6 +59,6 @@ address_prefixes:
     - 2603:1010:6:c02::90/125
     - 2603:1010:6:c02::400/121
   counts:
-    total: 21
-    ipv4: 12
+    total: 22
+    ipv4: 13
     ipv6: 9

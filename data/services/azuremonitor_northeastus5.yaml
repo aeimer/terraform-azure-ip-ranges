@@ -1,7 +1,7 @@
 id: AzureMonitor.NortheastUS5
 name: AzureMonitor.NortheastUS5
 metadata:
-  change_number: 1
+  change_number: 2
   region: northeastus5
   platform: Azure
   system_service: AzureMonitor
@@ -20,6 +20,8 @@ address_prefixes:
     - 2603:1030:1602:3::240/123
     - 2603:1030:1602:3::280/121
     - 2603:1030:1602:3::300/121
+    - 2603:1030:1602:5::200/119
+    - 2603:1030:1602:5::600/119
   ipv4:
     - 172.194.81.104/29
     - 172.194.82.224/29
@@ -33,7 +35,9 @@ address_prefixes:
     - 2603:1030:1602:3::240/123
     - 2603:1030:1602:3::280/121
     - 2603:1030:1602:3::300/121
+    - 2603:1030:1602:5::200/119
+    - 2603:1030:1602:5::600/119
   counts:
-    total: 11
+    total: 13
     ipv4: 6
-    ipv6: 5
+    ipv6: 7

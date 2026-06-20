@@ -1,7 +1,7 @@
 id: AzureMonitor.AustriaEast
 name: AzureMonitor.AustriaEast
 metadata:
-  change_number: 5
+  change_number: 6
   region: austriaeast
   platform: Azure
   system_service: AzureMonitor
@@ -32,6 +32,8 @@ address_prefixes:
     - 2603:1020:104:3::380/121
     - 2603:1020:104:3::400/121
     - 2603:1020:104:7::3c0/123
+    - 2603:1020:104:8::600/119
+    - 2603:1020:104:9::200/119
   ipv4:
     - 68.210.30.192/28
     - 68.210.59.224/27
@@ -57,7 +59,9 @@ address_prefixes:
     - 2603:1020:104:3::380/121
     - 2603:1020:104:3::400/121
     - 2603:1020:104:7::3c0/123
+    - 2603:1020:104:8::600/119
+    - 2603:1020:104:9::200/119
   counts:
-    total: 23
+    total: 25
     ipv4: 16
-    ipv6: 7
+    ipv6: 9

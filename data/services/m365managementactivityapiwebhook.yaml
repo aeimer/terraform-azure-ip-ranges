@@ -1,7 +1,7 @@
 id: M365ManagementActivityApiWebhook
 name: M365ManagementActivityApiWebhook
 metadata:
-  change_number: 31
+  change_number: 32
   region: ""
   platform: Azure
   system_service: M365ManagementActivityApiWebhook
@@ -139,6 +139,7 @@ address_prefixes:
     - 48.195.61.160/29
     - 48.195.61.168/30
     - 48.195.61.172/31
+    - 48.197.137.44/31
     - 48.199.208.204/30
     - 48.199.208.208/28
     - 48.201.165.49/32
@@ -512,6 +513,7 @@ address_prefixes:
     - 48.195.61.160/29
     - 48.195.61.168/30
     - 48.195.61.172/31
+    - 48.197.137.44/31
     - 48.199.208.204/30
     - 48.199.208.208/28
     - 48.201.165.49/32
@@ -757,6 +759,6 @@ address_prefixes:
     - 2603:1050:403:8::5c/126
     - 2603:1050:403:8::4f4/126
   counts:
-    total: 372
-    ipv4: 223
+    total: 373
+    ipv4: 224
     ipv6: 149

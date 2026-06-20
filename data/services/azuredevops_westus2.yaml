@@ -1,7 +1,7 @@
 id: AzureDevOps.WestUS2
 name: AzureDevOps.WestUS2
 metadata:
-  change_number: 2
+  change_number: 3
   region: westus2
   platform: Azure
   system_service: AzureDevOps
@@ -9,12 +9,20 @@ metadata:
 address_prefixes:
   all:
     - 20.42.134.0/23
+    - 172.179.226.116/30
+    - 172.179.229.96/27
+    - 172.179.229.128/26
     - 2603:1030:c06:1f::400/119
+    - 2603:1030:c06:1000::a/128
   ipv4:
     - 20.42.134.0/23
+    - 172.179.226.116/30
+    - 172.179.229.96/27
+    - 172.179.229.128/26
   ipv6:
     - 2603:1030:c06:1f::400/119
+    - 2603:1030:c06:1000::a/128
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 6
+    ipv4: 4
+    ipv6: 2

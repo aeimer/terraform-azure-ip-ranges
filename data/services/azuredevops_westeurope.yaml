@@ -1,7 +1,7 @@
 id: AzureDevOps.WestEurope
 name: AzureDevOps.WestEurope
 metadata:
-  change_number: 2
+  change_number: 3
   region: westeurope
   platform: Azure
   system_service: AzureDevOps
@@ -9,12 +9,18 @@ metadata:
 address_prefixes:
   all:
     - 40.74.28.0/23
+    - 172.199.233.80/28
+    - 172.199.233.128/26
     - 2603:1020:206:20::600/119
+    - 2603:1020:206:1000::a/128
   ipv4:
     - 40.74.28.0/23
+    - 172.199.233.80/28
+    - 172.199.233.128/26
   ipv6:
     - 2603:1020:206:20::600/119
+    - 2603:1020:206:1000::a/128
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 5
+    ipv4: 3
+    ipv6: 2

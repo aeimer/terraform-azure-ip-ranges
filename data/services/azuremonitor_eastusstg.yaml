@@ -1,7 +1,7 @@
 id: AzureMonitor.EastUSSTG
 name: AzureMonitor.EastUSSTG
 metadata:
-  change_number: 3
+  change_number: 4
   region: usstagee
   platform: Azure
   system_service: AzureMonitor
@@ -26,6 +26,7 @@ address_prefixes:
     - 2603:1030:104:1::280/122
     - 2603:1030:104:3::180/123
     - 2603:1030:104:3::1c0/122
+    - 2603:1030:104:6::400/119
     - 2603:1030:104:402::500/121
   ipv4:
     - 20.49.83.32/28
@@ -46,8 +47,9 @@ address_prefixes:
     - 2603:1030:104:1::280/122
     - 2603:1030:104:3::180/123
     - 2603:1030:104:3::1c0/122
+    - 2603:1030:104:6::400/119
     - 2603:1030:104:402::500/121
   counts:
-    total: 18
+    total: 19
     ipv4: 9
-    ipv6: 9
+    ipv6: 10

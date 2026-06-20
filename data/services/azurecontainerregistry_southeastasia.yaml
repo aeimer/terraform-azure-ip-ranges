@@ -1,7 +1,7 @@
 id: AzureContainerRegistry.SoutheastAsia
 name: AzureContainerRegistry.SoutheastAsia
 metadata:
-  change_number: 10
+  change_number: 11
   region: southeastasia
   platform: Azure
   system_service: AzureContainerRegistry
@@ -13,6 +13,7 @@ metadata:
 address_prefixes:
   all:
     - 4.145.75.128/25
+    - 4.145.224.0/25
     - 13.67.8.120/29
     - 13.67.14.0/25
     - 13.67.14.128/25
@@ -35,6 +36,7 @@ address_prefixes:
     - 2603:1040:5:c02::400/121
   ipv4:
     - 4.145.75.128/25
+    - 4.145.224.0/25
     - 13.67.8.120/29
     - 13.67.14.0/25
     - 13.67.14.128/25
@@ -57,6 +59,6 @@ address_prefixes:
     - 2603:1040:5:c02::90/125
     - 2603:1040:5:c02::400/121
   counts:
-    total: 21
-    ipv4: 12
+    total: 22
+    ipv4: 13
     ipv6: 9

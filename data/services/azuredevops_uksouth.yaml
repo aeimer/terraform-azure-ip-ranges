@@ -1,7 +1,7 @@
 id: AzureDevOps.UKSouth
 name: AzureDevOps.UKSouth
 metadata:
-  change_number: 2
+  change_number: 3
   region: uksouth
   platform: Azure
   system_service: AzureDevOps
@@ -9,12 +9,18 @@ metadata:
 address_prefixes:
   all:
     - 51.104.26.0/24
+    - 145.133.35.96/27
+    - 172.165.40.0/31
     - 2603:1020:705:13::600/120
+    - 2603:1020:705:1000::2/128
   ipv4:
     - 51.104.26.0/24
+    - 145.133.35.96/27
+    - 172.165.40.0/31
   ipv6:
     - 2603:1020:705:13::600/120
+    - 2603:1020:705:1000::2/128
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 5
+    ipv4: 3
+    ipv6: 2

@@ -1,7 +1,7 @@
 id: AzureDevOps.SouthCentralUS
 name: AzureDevOps.SouthCentralUS
 metadata:
-  change_number: 2
+  change_number: 3
   region: southcentralus
   platform: Azure
   system_service: AzureDevOps
@@ -9,12 +9,20 @@ metadata:
 address_prefixes:
   all:
     - 40.119.10.0/24
+    - 74.145.160.32/27
+    - 74.145.160.64/28
+    - 74.145.160.80/31
     - 2603:1030:807:14::500/120
+    - 2603:1030:807:1400::c/127
   ipv4:
     - 40.119.10.0/24
+    - 74.145.160.32/27
+    - 74.145.160.64/28
+    - 74.145.160.80/31
   ipv6:
     - 2603:1030:807:14::500/120
+    - 2603:1030:807:1400::c/127
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 6
+    ipv4: 4
+    ipv6: 2

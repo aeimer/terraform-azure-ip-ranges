@@ -1,7 +1,7 @@
 id: AzureMonitor.GermanyNorth
 name: AzureMonitor.GermanyNorth
 metadata:
-  change_number: 17
+  change_number: 18
   region: germanyn
   platform: Azure
   system_service: AzureMonitor
@@ -34,6 +34,7 @@ address_prefixes:
     - 2603:1020:d04:9::400/120
     - 2603:1020:d04:9::740/123
     - 2603:1020:d04:a::760/123
+    - 2603:1020:d04:b::200/119
     - 2603:1020:d04:402::500/121
   ipv4:
     - 4.184.2.128/26
@@ -62,8 +63,9 @@ address_prefixes:
     - 2603:1020:d04:9::400/120
     - 2603:1020:d04:9::740/123
     - 2603:1020:d04:a::760/123
+    - 2603:1020:d04:b::200/119
     - 2603:1020:d04:402::500/121
   counts:
-    total: 26
+    total: 27
     ipv4: 15
-    ipv6: 11
+    ipv6: 12

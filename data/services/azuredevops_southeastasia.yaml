@@ -1,20 +1,26 @@
 id: AzureDevOps.SoutheastAsia
 name: AzureDevOps.SoutheastAsia
 metadata:
-  change_number: 2
+  change_number: 3
   region: southeastasia
   platform: Azure
   system_service: AzureDevOps
   network_features: []
 address_prefixes:
   all:
+    - 4.145.0.106/31
+    - 4.145.0.192/27
     - 20.195.68.0/24
     - 2603:1040:5:15::100/120
+    - 2603:1040:5:1000::2/128
   ipv4:
+    - 4.145.0.106/31
+    - 4.145.0.192/27
     - 20.195.68.0/24
   ipv6:
     - 2603:1040:5:15::100/120
+    - 2603:1040:5:1000::2/128
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 5
+    ipv4: 3
+    ipv6: 2

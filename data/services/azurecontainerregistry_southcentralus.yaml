@@ -1,7 +1,7 @@
 id: AzureContainerRegistry.SouthCentralUS
 name: AzureContainerRegistry.SouthCentralUS
 metadata:
-  change_number: 12
+  change_number: 13
   region: southcentralus
   platform: Azure
   system_service: AzureContainerRegistry
@@ -24,6 +24,7 @@ address_prefixes:
     - 40.124.64.0/25
     - 48.221.168.64/26
     - 72.147.158.128/26
+    - 74.145.160.0/27
     - 104.214.18.184/29
     - 172.215.133.0/24
     - 172.215.171.96/27
@@ -50,6 +51,7 @@ address_prefixes:
     - 40.124.64.0/25
     - 48.221.168.64/26
     - 72.147.158.128/26
+    - 74.145.160.0/27
     - 104.214.18.184/29
     - 172.215.133.0/24
     - 172.215.171.96/27
@@ -65,6 +67,6 @@ address_prefixes:
     - 2603:1030:807:c02::400/121
     - 2603:1030:807:1000::8/125
   counts:
-    total: 25
-    ipv4: 15
+    total: 26
+    ipv4: 16
     ipv6: 10

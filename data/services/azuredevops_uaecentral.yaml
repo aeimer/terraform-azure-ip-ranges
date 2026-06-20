@@ -1,0 +1,20 @@
+id: AzureDevOps.UAECentral
+name: AzureDevOps.UAECentral
+metadata:
+  change_number: 1
+  region: uaecentral
+  platform: Azure
+  system_service: AzureDevOps
+  network_features: []
+address_prefixes:
+  all:
+    - 20.216.121.80/31
+    - 2603:1040:b04:c00::2/128
+  ipv4:
+    - 20.216.121.80/31
+  ipv6:
+    - 2603:1040:b04:c00::2/128
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

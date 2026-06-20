@@ -1,20 +1,24 @@
 id: AzureDevOps.EastAsia
 name: AzureDevOps.EastAsia
 metadata:
-  change_number: 2
+  change_number: 3
   region: eastasia
   platform: Azure
   system_service: AzureDevOps
   network_features: []
 address_prefixes:
   all:
+    - 20.2.105.224/30
     - 20.189.107.0/24
     - 2603:1040:207:f::700/120
+    - 2603:1040:207:1000::2/128
   ipv4:
+    - 20.2.105.224/30
     - 20.189.107.0/24
   ipv6:
     - 2603:1040:207:f::700/120
+    - 2603:1040:207:1000::2/128
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 4
+    ipv4: 2
+    ipv6: 2

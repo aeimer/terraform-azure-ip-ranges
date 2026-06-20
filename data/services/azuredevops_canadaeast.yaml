@@ -1,20 +1,24 @@
 id: AzureDevOps.CanadaEast
 name: AzureDevOps.CanadaEast
 metadata:
-  change_number: 1
+  change_number: 2
   region: canadaeast
   platform: Azure
   system_service: AzureDevOps
   network_features: []
 address_prefixes:
   all:
+    - 4.229.122.96/31
     - 20.200.34.0/26
     - 2603:1030:1005:c::2d8/125
+    - 2603:1030:1005:800::a/128
   ipv4:
+    - 4.229.122.96/31
     - 20.200.34.0/26
   ipv6:
     - 2603:1030:1005:c::2d8/125
+    - 2603:1030:1005:800::a/128
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 4
+    ipv4: 2
+    ipv6: 2

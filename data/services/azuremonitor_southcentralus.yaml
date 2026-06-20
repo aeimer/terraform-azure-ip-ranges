@@ -1,7 +1,7 @@
 id: AzureMonitor.SouthCentralUS
 name: AzureMonitor.SouthCentralUS
 metadata:
-  change_number: 30
+  change_number: 31
   region: southcentralus
   platform: Azure
   system_service: AzureMonitor
@@ -101,6 +101,7 @@ address_prefixes:
     - 2603:1030:807:16::/120
     - 2603:1030:807:16::200/122
     - 2603:1030:807:1b::220/123
+    - 2603:1030:807:1c::/118
     - 2603:1030:807:402::500/121
     - 2603:1030:807:802::480/121
     - 2603:1030:807:c02::480/121
@@ -202,6 +203,7 @@ address_prefixes:
     - 2603:1030:807:16::/120
     - 2603:1030:807:16::200/122
     - 2603:1030:807:1b::220/123
+    - 2603:1030:807:1c::/118
     - 2603:1030:807:402::500/121
     - 2603:1030:807:802::480/121
     - 2603:1030:807:c02::480/121
@@ -210,6 +212,6 @@ address_prefixes:
     - 2a01:111:f100:4002::9d37:c0bd/128
     - 2a01:111:f100:4002::9d37:c153/128
   counts:
-    total: 99
+    total: 100
     ipv4: 69
-    ipv6: 30
+    ipv6: 31

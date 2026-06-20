@@ -1,7 +1,7 @@
 id: AzureMonitor.SoutheastUS3
 name: AzureMonitor.SoutheastUS3
 metadata:
-  change_number: 2
+  change_number: 3
   region: southeastus3
   platform: Azure
   system_service: AzureMonitor
@@ -19,6 +19,8 @@ address_prefixes:
     - 74.7.83.48/28
     - 2603:1030:1302:2::480/121
     - 2603:1030:1302:2::500/120
+    - 2603:1030:1302:5::600/119
+    - 2603:1030:1302:6::200/119
   ipv4:
     - 74.7.53.76/30
     - 74.7.56.80/29
@@ -31,7 +33,9 @@ address_prefixes:
   ipv6:
     - 2603:1030:1302:2::480/121
     - 2603:1030:1302:2::500/120
+    - 2603:1030:1302:5::600/119
+    - 2603:1030:1302:6::200/119
   counts:
-    total: 10
+    total: 12
     ipv4: 8
-    ipv6: 2
+    ipv6: 4

@@ -1,20 +1,30 @@
 id: AzureDevOps.AustraliaEast
 name: AzureDevOps.AustraliaEast
 metadata:
-  change_number: 2
+  change_number: 3
   region: australiaeast
   platform: Azure
   system_service: AzureDevOps
   network_features: []
 address_prefixes:
   all:
+    - 4.198.222.196/30
+    - 4.198.222.200/29
+    - 4.198.222.208/28
+    - 4.198.222.224/31
     - 20.37.194.0/24
     - 2603:1010:6:d::/120
+    - 2603:1010:6:1000::a/128
   ipv4:
+    - 4.198.222.196/30
+    - 4.198.222.200/29
+    - 4.198.222.208/28
+    - 4.198.222.224/31
     - 20.37.194.0/24
   ipv6:
     - 2603:1010:6:d::/120
+    - 2603:1010:6:1000::a/128
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 7
+    ipv4: 5
+    ipv6: 2

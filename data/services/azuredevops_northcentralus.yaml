@@ -1,7 +1,7 @@
 id: AzureDevOps.NorthCentralUS
 name: AzureDevOps.NorthCentralUS
 metadata:
-  change_number: 2
+  change_number: 3
   region: northcentralus
   platform: Azure
   system_service: AzureDevOps
@@ -9,12 +9,16 @@ metadata:
 address_prefixes:
   all:
     - 40.80.187.0/24
+    - 130.213.112.120/30
     - 2603:1030:608:12::600/120
+    - 2603:1030:608:1000::a/128
   ipv4:
     - 40.80.187.0/24
+    - 130.213.112.120/30
   ipv6:
     - 2603:1030:608:12::600/120
+    - 2603:1030:608:1000::a/128
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 4
+    ipv4: 2
+    ipv6: 2

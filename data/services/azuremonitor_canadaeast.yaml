@@ -1,7 +1,7 @@
 id: AzureMonitor.CanadaEast
 name: AzureMonitor.CanadaEast
 metadata:
-  change_number: 17
+  change_number: 18
   region: canadaeast
   platform: Azure
   system_service: AzureMonitor
@@ -37,6 +37,8 @@ address_prefixes:
     - 2603:1030:1005:b::700/120
     - 2603:1030:1005:c::180/123
     - 2603:1030:1005:d::7a0/123
+    - 2603:1030:1005:e::200/119
+    - 2603:1030:1005:e::600/119
     - 2603:1030:1005:402::500/121
   ipv4:
     - 4.239.77.0/26
@@ -68,8 +70,10 @@ address_prefixes:
     - 2603:1030:1005:b::700/120
     - 2603:1030:1005:c::180/123
     - 2603:1030:1005:d::7a0/123
+    - 2603:1030:1005:e::200/119
+    - 2603:1030:1005:e::600/119
     - 2603:1030:1005:402::500/121
   counts:
-    total: 29
+    total: 31
     ipv4: 18
-    ipv6: 11
+    ipv6: 13

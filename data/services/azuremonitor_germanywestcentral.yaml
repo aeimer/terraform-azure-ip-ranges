@@ -1,7 +1,7 @@
 id: AzureMonitor.GermanyWestCentral
 name: AzureMonitor.GermanyWestCentral
 metadata:
-  change_number: 20
+  change_number: 21
   region: germanywc
   platform: Azure
   system_service: AzureMonitor
@@ -45,6 +45,7 @@ address_prefixes:
     - 2603:1020:c04:a::500/120
     - 2603:1020:c04:b::20/123
     - 2603:1020:c04:e::100/123
+    - 2603:1020:c04:e::400/118
     - 2603:1020:c04:402::500/121
     - 2603:1020:c04:800::100/121
     - 2603:1020:c04:c02::480/121
@@ -86,10 +87,11 @@ address_prefixes:
     - 2603:1020:c04:a::500/120
     - 2603:1020:c04:b::20/123
     - 2603:1020:c04:e::100/123
+    - 2603:1020:c04:e::400/118
     - 2603:1020:c04:402::500/121
     - 2603:1020:c04:800::100/121
     - 2603:1020:c04:c02::480/121
   counts:
-    total: 39
+    total: 40
     ipv4: 23
-    ipv6: 16
+    ipv6: 17

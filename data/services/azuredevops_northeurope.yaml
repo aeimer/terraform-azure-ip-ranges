@@ -1,7 +1,7 @@
 id: AzureDevOps.NorthEurope
 name: AzureDevOps.NorthEurope
 metadata:
-  change_number: 2
+  change_number: 3
   region: northeurope
   platform: Azure
   system_service: AzureDevOps
@@ -9,12 +9,20 @@ metadata:
 address_prefixes:
   all:
     - 20.166.41.0/24
+    - 134.149.110.74/31
+    - 134.149.110.76/30
+    - 134.149.110.112/29
     - 2603:1020:5:19::600/120
+    - 2603:1020:5:1000::2/128
   ipv4:
     - 20.166.41.0/24
+    - 134.149.110.74/31
+    - 134.149.110.76/30
+    - 134.149.110.112/29
   ipv6:
     - 2603:1020:5:19::600/120
+    - 2603:1020:5:1000::2/128
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 6
+    ipv4: 4
+    ipv6: 2

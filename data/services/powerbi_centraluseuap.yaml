@@ -1,7 +1,7 @@
 id: PowerBI.CentralUSEUAP
 name: PowerBI.CentralUSEUAP
 metadata:
-  change_number: 2
+  change_number: 3
   region: centraluseuap
   platform: Azure
   system_service: PowerBI
@@ -19,6 +19,7 @@ address_prefixes:
     - 20.45.192.224/28
     - 20.45.242.48/29
     - 20.46.15.56/30
+    - 57.173.22.128/28
     - 168.61.232.60/30
     - 168.61.239.8/30
     - 172.215.113.56/29
@@ -33,6 +34,7 @@ address_prefixes:
     - 20.45.192.224/28
     - 20.45.242.48/29
     - 20.46.15.56/30
+    - 57.173.22.128/28
     - 168.61.232.60/30
     - 168.61.239.8/30
     - 172.215.113.56/29
@@ -41,6 +43,6 @@ address_prefixes:
     - 2603:1030:f:1::620/123
     - 2603:1030:f:1::640/122
   counts:
-    total: 13
-    ipv4: 11
+    total: 14
+    ipv4: 12
     ipv6: 2
