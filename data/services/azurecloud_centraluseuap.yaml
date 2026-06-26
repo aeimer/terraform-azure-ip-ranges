@@ -1,7 +1,7 @@
 id: AzureCloud.centraluseuap
 name: AzureCloud.centraluseuap
 metadata:
-  change_number: 88
+  change_number: 89
   region: centraluseuap
   platform: Azure
   system_service: ""
@@ -130,6 +130,7 @@ address_prefixes:
     - 52.106.1.0/24
     - 52.106.6.0/24
     - 52.108.113.0/24
+    - 52.108.138.0/24
     - 52.109.140.0/22
     - 52.123.192.0/24
     - 52.123.194.0/24
@@ -393,6 +394,7 @@ address_prefixes:
     - 52.106.1.0/24
     - 52.106.6.0/24
     - 52.108.113.0/24
+    - 52.108.138.0/24
     - 52.109.140.0/22
     - 52.123.192.0/24
     - 52.123.194.0/24
@@ -537,6 +539,6 @@ address_prefixes:
     - 2a01:111:f403:d915::/64
     - 2a01:111:f403:e014::/64
   counts:
-    total: 262
-    ipv4: 159
+    total: 263
+    ipv4: 160
     ipv6: 103

@@ -1,7 +1,7 @@
 id: AzureCloud.northcentralus
 name: AzureCloud.northcentralus
 metadata:
-  change_number: 119
+  change_number: 120
   region: northcentralus
   platform: Azure
   system_service: ""
@@ -188,7 +188,7 @@ address_prefixes:
     - 57.157.64.0/24
     - 57.157.65.0/25
     - 57.157.65.128/28
-    - 57.157.65.144/30
+    - 57.157.65.144/29
     - 64.236.128.0/17
     - 65.52.0.0/19
     - 65.52.48.0/20
@@ -513,7 +513,7 @@ address_prefixes:
     - 57.157.64.0/24
     - 57.157.65.0/25
     - 57.157.65.128/28
-    - 57.157.65.144/30
+    - 57.157.65.144/29
     - 64.236.128.0/17
     - 65.52.0.0/19
     - 65.52.48.0/20

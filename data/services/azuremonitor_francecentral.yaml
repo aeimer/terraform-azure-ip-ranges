@@ -1,7 +1,7 @@
 id: AzureMonitor.FranceCentral
 name: AzureMonitor.FranceCentral
 metadata:
-  change_number: 27
+  change_number: 28
   region: centralfrance
   platform: Azure
   system_service: AzureMonitor
@@ -16,6 +16,7 @@ address_prefixes:
     - 4.211.103.0/24
     - 4.211.136.96/28
     - 4.211.136.128/27
+    - 4.211.199.0/28
     - 20.19.27.128/28
     - 20.40.137.91/32
     - 20.40.140.212/32
@@ -71,6 +72,7 @@ address_prefixes:
     - 4.211.103.0/24
     - 4.211.136.96/28
     - 4.211.136.128/27
+    - 4.211.199.0/28
     - 20.19.27.128/28
     - 20.40.137.91/32
     - 20.40.140.212/32
@@ -120,6 +122,6 @@ address_prefixes:
     - 2603:1020:805:802::480/121
     - 2603:1020:805:c02::480/121
   counts:
-    total: 54
-    ipv4: 39
+    total: 55
+    ipv4: 40
     ipv6: 15

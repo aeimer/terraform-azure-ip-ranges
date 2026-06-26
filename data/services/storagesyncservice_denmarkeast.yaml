@@ -1,7 +1,7 @@
 id: StorageSyncService.DenmarkEast
 name: StorageSyncService.DenmarkEast
 metadata:
-  change_number: 2
+  change_number: 3
   region: denmarkeast
   platform: Azure
   system_service: StorageSyncService
@@ -11,16 +11,18 @@ address_prefixes:
     - 9.205.52.88/29
     - 9.205.71.232/29
     - 9.205.75.40/29
+    - 9.205.210.184/29
     - 2603:1020:1602:4::/123
     - 2603:1020:1602:400::220/123
   ipv4:
     - 9.205.52.88/29
     - 9.205.71.232/29
     - 9.205.75.40/29
+    - 9.205.210.184/29
   ipv6:
     - 2603:1020:1602:4::/123
     - 2603:1020:1602:400::220/123
   counts:
-    total: 5
-    ipv4: 3
+    total: 6
+    ipv4: 4
     ipv6: 2

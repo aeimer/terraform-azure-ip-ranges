@@ -1,7 +1,7 @@
 id: AzureMonitor.MexicoCentral
 name: AzureMonitor.MexicoCentral
 metadata:
-  change_number: 11
+  change_number: 12
   region: mexicocentral
   platform: Azure
   system_service: AzureMonitor
@@ -26,6 +26,7 @@ address_prefixes:
     - 172.195.23.112/28
     - 172.195.54.240/28
     - 172.195.141.48/28
+    - 172.195.147.48/28
     - 2603:1030:701:7::12/127
     - 2603:1030:702:2::20/123
     - 2603:1030:702:2::40/122
@@ -53,6 +54,7 @@ address_prefixes:
     - 172.195.23.112/28
     - 172.195.54.240/28
     - 172.195.141.48/28
+    - 172.195.147.48/28
   ipv6:
     - 2603:1030:701:7::12/127
     - 2603:1030:702:2::20/123
@@ -64,6 +66,6 @@ address_prefixes:
     - 2603:1030:702:9::/119
     - 2603:1030:702:9::400/119
   counts:
-    total: 26
-    ipv4: 17
+    total: 27
+    ipv4: 18
     ipv6: 9

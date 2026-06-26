@@ -1,7 +1,7 @@
 id: AzureMonitor.WestCentralUS
 name: AzureMonitor.WestCentralUS
 metadata:
-  change_number: 30
+  change_number: 31
   region: westcentralus
   platform: Azure
   system_service: AzureMonitor
@@ -26,6 +26,7 @@ address_prefixes:
     - 40.67.122.0/26
     - 40.67.122.96/29
     - 40.67.124.128/29
+    - 48.194.237.224/27
     - 52.148.44.224/27
     - 52.150.152.48/28
     - 52.150.152.90/31
@@ -80,6 +81,7 @@ address_prefixes:
     - 40.67.122.0/26
     - 40.67.122.96/29
     - 40.67.124.128/29
+    - 48.194.237.224/27
     - 52.148.44.224/27
     - 52.150.152.48/28
     - 52.150.152.90/31
@@ -118,6 +120,6 @@ address_prefixes:
     - 2603:1030:b04:12::600/119
     - 2603:1030:b04:402::500/121
   counts:
-    total: 53
-    ipv4: 28
+    total: 54
+    ipv4: 29
     ipv6: 25

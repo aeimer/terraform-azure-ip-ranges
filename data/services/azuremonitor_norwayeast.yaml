@@ -1,7 +1,7 @@
 id: AzureMonitor.NorwayEast
 name: AzureMonitor.NorwayEast
 metadata:
-  change_number: 21
+  change_number: 22
   region: norwaye
   platform: Azure
   system_service: AzureMonitor
@@ -12,6 +12,8 @@ address_prefixes:
     - 4.177.29.144/28
     - 4.177.32.8/29
     - 4.177.34.0/24
+    - 4.177.37.208/28
+    - 4.177.44.0/26
     - 20.100.7.0/27
     - 20.100.7.48/28
     - 51.13.1.8/29
@@ -54,6 +56,8 @@ address_prefixes:
     - 4.177.29.144/28
     - 4.177.32.8/29
     - 4.177.34.0/24
+    - 4.177.37.208/28
+    - 4.177.44.0/26
     - 20.100.7.0/27
     - 20.100.7.48/28
     - 51.13.1.8/29
@@ -94,6 +98,6 @@ address_prefixes:
     - 2603:1020:e04:802::480/121
     - 2603:1020:e04:c00::80/121
   counts:
-    total: 41
-    ipv4: 25
+    total: 43
+    ipv4: 27
     ipv6: 16

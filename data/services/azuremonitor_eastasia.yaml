@@ -1,7 +1,7 @@
 id: AzureMonitor.EastAsia
 name: AzureMonitor.EastAsia
 metadata:
-  change_number: 29
+  change_number: 30
   region: eastasia
   platform: Azure
   system_service: AzureMonitor
@@ -21,6 +21,7 @@ address_prefixes:
     - 13.75.117.221/32
     - 13.75.119.169/32
     - 13.94.39.13/32
+    - 20.2.186.192/28
     - 20.6.185.208/28
     - 20.187.197.192/27
     - 20.189.81.11/32
@@ -81,6 +82,7 @@ address_prefixes:
     - 13.75.117.221/32
     - 13.75.119.169/32
     - 13.94.39.13/32
+    - 20.2.186.192/28
     - 20.6.185.208/28
     - 20.187.197.192/27
     - 20.189.81.11/32
@@ -130,6 +132,6 @@ address_prefixes:
     - 2a01:111:f102:8001::1761:4c10/128
     - 2a01:111:f102:8001::1761:4f3b/128
   counts:
-    total: 59
-    ipv4: 42
+    total: 60
+    ipv4: 43
     ipv6: 17

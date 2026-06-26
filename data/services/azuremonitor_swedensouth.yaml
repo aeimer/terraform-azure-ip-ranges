@@ -1,7 +1,7 @@
 id: AzureMonitor.SwedenSouth
 name: AzureMonitor.SwedenSouth
 metadata:
-  change_number: 14
+  change_number: 15
   region: swedensouth
   platform: Azure
   system_service: AzureMonitor
@@ -25,6 +25,7 @@ address_prefixes:
     - 51.12.203.208/28
     - 51.12.205.96/27
     - 74.241.60.16/28
+    - 74.241.63.160/28
     - 2603:1020:1101::3/128
     - 2603:1020:1104:1::160/123
     - 2603:1020:1104:1::180/122
@@ -58,6 +59,7 @@ address_prefixes:
     - 51.12.203.208/28
     - 51.12.205.96/27
     - 74.241.60.16/28
+    - 74.241.63.160/28
   ipv6:
     - 2603:1020:1101::3/128
     - 2603:1020:1104:1::160/123
@@ -76,6 +78,6 @@ address_prefixes:
     - 2603:1020:1104:400::440/123
     - 2603:1020:1104:400::480/121
   counts:
-    total: 32
-    ipv4: 16
+    total: 33
+    ipv4: 17
     ipv6: 16

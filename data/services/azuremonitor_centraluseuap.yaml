@@ -1,7 +1,7 @@
 id: AzureMonitor.CentralUSEUAP
 name: AzureMonitor.CentralUSEUAP
 metadata:
-  change_number: 15
+  change_number: 16
   region: centraluseuap
   platform: Azure
   system_service: AzureMonitor
@@ -22,6 +22,7 @@ address_prefixes:
     - 52.180.182.209/32
     - 57.173.15.0/24
     - 57.173.16.112/28
+    - 57.173.47.16/28
     - 134.138.212.16/28
     - 168.61.142.0/27
     - 168.61.239.96/27
@@ -51,6 +52,7 @@ address_prefixes:
     - 52.180.182.209/32
     - 57.173.15.0/24
     - 57.173.16.112/28
+    - 57.173.47.16/28
     - 134.138.212.16/28
     - 168.61.142.0/27
     - 168.61.239.96/27
@@ -68,6 +70,6 @@ address_prefixes:
     - 2603:1030:f:12::/119
     - 2603:1030:f:400::d00/121
   counts:
-    total: 28
-    ipv4: 18
+    total: 29
+    ipv4: 19
     ipv6: 10

@@ -1,7 +1,7 @@
 id: AzureMonitor.NorthEurope
 name: AzureMonitor.NorthEurope
 metadata:
-  change_number: 32
+  change_number: 33
   region: northeurope
   platform: Azure
   system_service: AzureMonitor
@@ -65,6 +65,7 @@ address_prefixes:
     - 52.169.64.244/32
     - 74.144.24.0/24
     - 74.144.26.160/27
+    - 74.144.69.32/27
     - 104.41.224.134/32
     - 137.116.226.81/32
     - 2603:1020:5::60/123
@@ -151,6 +152,7 @@ address_prefixes:
     - 52.169.64.244/32
     - 74.144.24.0/24
     - 74.144.26.160/27
+    - 74.144.69.32/27
     - 104.41.224.134/32
     - 137.116.226.81/32
   ipv6:
@@ -182,6 +184,6 @@ address_prefixes:
     - 2a01:111:f100:a004::bfeb:8d32/128
     - 2a01:111:f100:a004::bfeb:8dc7/128
   counts:
-    total: 85
-    ipv4: 58
+    total: 86
+    ipv4: 59
     ipv6: 27

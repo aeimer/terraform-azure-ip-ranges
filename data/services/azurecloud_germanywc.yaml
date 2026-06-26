@@ -1,7 +1,7 @@
 id: AzureCloud.germanywc
 name: AzureCloud.germanywc
 metadata:
-  change_number: 96
+  change_number: 97
   region: germanywc
   platform: Azure
   system_service: ""
@@ -129,6 +129,7 @@ address_prefixes:
     - 57.157.61.32/30
     - 70.152.12.0/24
     - 72.144.0.0/16
+    - 74.154.0.0/17
     - 98.67.128.0/17
     - 131.189.0.0/16
     - 135.130.200.0/23
@@ -301,6 +302,7 @@ address_prefixes:
     - 57.157.61.32/30
     - 70.152.12.0/24
     - 72.144.0.0/16
+    - 74.154.0.0/17
     - 98.67.128.0/17
     - 131.189.0.0/16
     - 135.130.200.0/23
@@ -355,6 +357,6 @@ address_prefixes:
     - 2a01:111:f403:da0c::/64
     - 2a01:111:f403:e20c::/64
   counts:
-    total: 171
-    ipv4: 130
+    total: 172
+    ipv4: 131
     ipv6: 41

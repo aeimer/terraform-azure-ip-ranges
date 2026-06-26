@@ -1,7 +1,7 @@
 id: AzureMonitor.SouthAfricaNorth
 name: AzureMonitor.SouthAfricaNorth
 metadata:
-  change_number: 19
+  change_number: 20
   region: southafricanorth
   platform: Azure
   system_service: AzureMonitor
@@ -16,6 +16,7 @@ address_prefixes:
     - 20.87.86.208/28
     - 20.164.159.160/27
     - 20.164.159.192/26
+    - 20.164.169.160/28
     - 102.37.72.240/29
     - 102.133.122.152/29
     - 102.133.123.240/29
@@ -58,6 +59,7 @@ address_prefixes:
     - 20.87.86.208/28
     - 20.164.159.160/27
     - 20.164.159.192/26
+    - 20.164.169.160/28
     - 102.37.72.240/29
     - 102.133.122.152/29
     - 102.133.123.240/29
@@ -94,6 +96,6 @@ address_prefixes:
     - 2603:1000:104:802::480/121
     - 2603:1000:104:c02::480/121
   counts:
-    total: 41
-    ipv4: 26
+    total: 42
+    ipv4: 27
     ipv6: 15

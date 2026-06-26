@@ -1,7 +1,7 @@
 id: AzureMonitor.CanadaCentral
 name: AzureMonitor.CanadaCentral
 metadata:
-  change_number: 20
+  change_number: 21
   region: canadacentral
   platform: Azure
   system_service: AzureMonitor
@@ -13,6 +13,7 @@ address_prefixes:
     - 4.172.83.112/28
     - 4.172.95.192/28
     - 4.173.102.64/28
+    - 4.173.136.112/28
     - 4.173.137.0/25
     - 4.174.145.0/27
     - 4.174.145.64/26
@@ -69,6 +70,7 @@ address_prefixes:
     - 4.172.83.112/28
     - 4.172.95.192/28
     - 4.173.102.64/28
+    - 4.173.136.112/28
     - 4.173.137.0/25
     - 4.174.145.0/27
     - 4.174.145.64/26
@@ -122,6 +124,6 @@ address_prefixes:
     - 2603:1030:f05:802::480/121
     - 2603:1030:f05:c02::480/121
   counts:
-    total: 55
-    ipv4: 39
+    total: 56
+    ipv4: 40
     ipv6: 16
