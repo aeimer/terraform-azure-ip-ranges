@@ -1,7 +1,7 @@
 id: ActionGroup.WestUS2
 name: ActionGroup.WestUS2
 metadata:
-  change_number: 6
+  change_number: 7
   region: westus2
   platform: Azure
   system_service: ActionGroup
@@ -13,9 +13,6 @@ address_prefixes:
     - 13.106.57.181/32
     - 13.106.57.196/31
     - 20.125.4.168/31
-    - 40.65.72.174/32
-    - 40.65.72.253/32
-    - 52.183.31.0/32
     - 104.47.217.71/32
     - 104.47.217.87/32
     - 2603:1030:c06:c::194/126
@@ -26,15 +23,12 @@ address_prefixes:
     - 13.106.57.181/32
     - 13.106.57.196/31
     - 20.125.4.168/31
-    - 40.65.72.174/32
-    - 40.65.72.253/32
-    - 52.183.31.0/32
     - 104.47.217.71/32
     - 104.47.217.87/32
   ipv6:
     - 2603:1030:c06:c::194/126
     - 2603:1030:c06:400::978/125
   counts:
-    total: 12
-    ipv4: 10
+    total: 9
+    ipv4: 7
     ipv6: 2

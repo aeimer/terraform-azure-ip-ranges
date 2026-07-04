@@ -1,7 +1,7 @@
 id: AzureMachineLearning.EastUS2
 name: AzureMachineLearning.EastUS2
 metadata:
-  change_number: 6
+  change_number: 7
   region: eastus2
   platform: Azure
   system_service: AzureMachineLearning
@@ -26,6 +26,8 @@ address_prefixes:
     - 57.162.12.30/32
     - 57.162.12.128/27
     - 57.162.12.160/28
+    - 74.145.69.64/26
+    - 74.145.69.128/28
     - 104.208.144.160/28
     - 2603:1030:40c:1::2c0/122
     - 2603:1030:40c:e::700/122
@@ -52,6 +54,8 @@ address_prefixes:
     - 57.162.12.30/32
     - 57.162.12.128/27
     - 57.162.12.160/28
+    - 74.145.69.64/26
+    - 74.145.69.128/28
     - 104.208.144.160/28
   ipv6:
     - 2603:1030:40c:1::2c0/122
@@ -61,6 +65,6 @@ address_prefixes:
     - 2603:1030:40c:25::660/124
     - 2603:1030:40c:25::670/125
   counts:
-    total: 25
-    ipv4: 19
+    total: 27
+    ipv4: 21
     ipv6: 6

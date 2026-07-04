@@ -1,7 +1,7 @@
 id: AzureFrontDoor.Frontend
 name: AzureFrontDoor.Frontend
 metadata:
-  change_number: 40
+  change_number: 41
   region: ""
   platform: Azure
   system_service: ""
@@ -226,6 +226,7 @@ address_prefixes:
     - 2603:1050:403::5a0/123
     - 2603:1061:11::/48
     - 2603:1061:14::/47
+    - 2603:1061:16::/50
     - 2603:1062:10::/48
     - 2620:1ec:27::/48
     - 2620:1ec:29::/48
@@ -452,6 +453,7 @@ address_prefixes:
     - 2603:1050:403::5a0/123
     - 2603:1061:11::/48
     - 2603:1061:14::/47
+    - 2603:1061:16::/50
     - 2603:1062:10::/48
     - 2620:1ec:27::/48
     - 2620:1ec:29::/48
@@ -463,6 +465,6 @@ address_prefixes:
     - 2620:1ec:50::/47
     - 2620:1ec:bdf::/48
   counts:
-    total: 224
+    total: 225
     ipv4: 122
-    ipv6: 102
+    ipv6: 103
