@@ -1,7 +1,7 @@
 id: PowerPlatformPlex.JapanEast
 name: PowerPlatformPlex.JapanEast
 metadata:
-  change_number: 6
+  change_number: 7
   region: japaneast
   platform: Azure
   system_service: PowerPlatformPlex
@@ -10,6 +10,9 @@ metadata:
     - NSG
 address_prefixes:
   all:
+    - 4.216.21.96/28
+    - 4.216.21.112/29
+    - 4.216.22.64/26
     - 4.216.203.208/28
     - 4.216.204.192/29
     - 20.48.77.192/26
@@ -22,6 +25,9 @@ address_prefixes:
     - 172.207.65.248/29
     - 2603:1061:2004:3000::/57
   ipv4:
+    - 4.216.21.96/28
+    - 4.216.21.112/29
+    - 4.216.22.64/26
     - 4.216.203.208/28
     - 4.216.204.192/29
     - 20.48.77.192/26
@@ -35,6 +41,6 @@ address_prefixes:
   ipv6:
     - 2603:1061:2004:3000::/57
   counts:
-    total: 11
-    ipv4: 10
+    total: 14
+    ipv4: 13
     ipv6: 1

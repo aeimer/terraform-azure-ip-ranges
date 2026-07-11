@@ -1,7 +1,7 @@
 id: PowerPlatformPlex.JapanWest
 name: PowerPlatformPlex.JapanWest
 metadata:
-  change_number: 6
+  change_number: 7
   region: japanwest
   platform: Azure
   system_service: PowerPlatformPlex
@@ -20,6 +20,9 @@ address_prefixes:
     - 20.189.199.32/30
     - 135.149.216.128/25
     - 135.149.217.0/26
+    - 172.192.222.184/29
+    - 172.192.222.224/28
+    - 172.192.223.0/26
     - 2603:1061:2004:3100::/57
   ipv4:
     - 4.190.136.184/29
@@ -32,9 +35,12 @@ address_prefixes:
     - 20.189.199.32/30
     - 135.149.216.128/25
     - 135.149.217.0/26
+    - 172.192.222.184/29
+    - 172.192.222.224/28
+    - 172.192.223.0/26
   ipv6:
     - 2603:1061:2004:3100::/57
   counts:
-    total: 11
-    ipv4: 10
+    total: 14
+    ipv4: 13
     ipv6: 1

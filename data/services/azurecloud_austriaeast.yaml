@@ -1,7 +1,7 @@
 id: AzureCloud.austriaeast
 name: AzureCloud.austriaeast
 metadata:
-  change_number: 15
+  change_number: 16
   region: austriaeast
   platform: Azure
   system_service: ""
@@ -29,6 +29,7 @@ address_prefixes:
     - 40.80.28.0/22
     - 40.93.89.0/24
     - 40.98.18.0/24
+    - 40.98.22.128/26
     - 40.100.4.128/25
     - 40.100.5.0/26
     - 40.101.116.0/25
@@ -111,6 +112,7 @@ address_prefixes:
     - 40.80.28.0/22
     - 40.93.89.0/24
     - 40.98.18.0/24
+    - 40.98.22.128/26
     - 40.100.4.128/25
     - 40.100.5.0/26
     - 40.101.116.0/25
@@ -175,6 +177,6 @@ address_prefixes:
     - 2a01:111:f403:da16::/64
     - 2a01:111:f403:e216::/64
   counts:
-    total: 81
-    ipv4: 50
+    total: 82
+    ipv4: 51
     ipv6: 31

@@ -1,7 +1,7 @@
 id: PowerPlatformInfra.JapanEast
 name: PowerPlatformInfra.JapanEast
 metadata:
-  change_number: 7
+  change_number: 8
   region: japaneast
   platform: Azure
   system_service: PowerPlatformInfra
@@ -12,6 +12,9 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 4.215.16.0/24
+    - 4.216.21.120/29
+    - 4.216.22.128/26
     - 20.18.7.104/29
     - 20.18.7.112/28
     - 20.43.70.206/31
@@ -41,6 +44,9 @@ address_prefixes:
     - 172.207.69.128/26
     - 2603:1061:2002:3900::/57
   ipv4:
+    - 4.215.16.0/24
+    - 4.216.21.120/29
+    - 4.216.22.128/26
     - 20.18.7.104/29
     - 20.18.7.112/28
     - 20.43.70.206/31
@@ -71,6 +77,6 @@ address_prefixes:
   ipv6:
     - 2603:1061:2002:3900::/57
   counts:
-    total: 28
-    ipv4: 27
+    total: 31
+    ipv4: 30
     ipv6: 1
