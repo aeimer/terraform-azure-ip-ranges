@@ -1,0 +1,40 @@
+id: Storage.SoutheastUS5
+name: Storage.SoutheastUS5
+metadata:
+  change_number: 1
+  region: southeastus5
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 20.153.39.0/24
+    - 20.153.60.0/24
+    - 20.153.62.0/24
+    - 20.153.93.0/24
+    - 57.150.246.0/23
+    - 57.150.248.0/24
+    - 135.130.8.0/23
+    - 135.130.14.0/23
+    - 135.130.76.0/23
+    - 2603:1030:1503::/48
+  ipv4:
+    - 20.153.39.0/24
+    - 20.153.60.0/24
+    - 20.153.62.0/24
+    - 20.153.93.0/24
+    - 57.150.246.0/23
+    - 57.150.248.0/24
+    - 135.130.8.0/23
+    - 135.130.14.0/23
+    - 135.130.76.0/23
+  ipv6:
+    - 2603:1030:1503::/48
+  counts:
+    total: 10
+    ipv4: 9
+    ipv6: 1

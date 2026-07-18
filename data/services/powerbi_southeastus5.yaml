@@ -1,0 +1,30 @@
+id: PowerBI.SoutheastUS5
+name: PowerBI.SoutheastUS5
+metadata:
+  change_number: 1
+  region: southeastus5
+  platform: Azure
+  system_service: PowerBI
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 74.7.188.74/31
+    - 74.7.188.112/30
+    - 74.7.188.120/29
+    - 2603:1030:1502:2::3c0/122
+    - 2603:1030:1502:2::500/123
+  ipv4:
+    - 74.7.188.74/31
+    - 74.7.188.112/30
+    - 74.7.188.120/29
+  ipv6:
+    - 2603:1030:1502:2::3c0/122
+    - 2603:1030:1502:2::500/123
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

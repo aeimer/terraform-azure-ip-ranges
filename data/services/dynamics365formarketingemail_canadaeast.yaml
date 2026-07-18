@@ -1,0 +1,18 @@
+id: Dynamics365ForMarketingEmail.CanadaEast
+name: Dynamics365ForMarketingEmail.CanadaEast
+metadata:
+  change_number: 1
+  region: canadaeast
+  platform: Azure
+  system_service: Dynamics365ForMarketingEmail
+  network_features: []
+address_prefixes:
+  all:
+    - 145.191.155.192/27
+  ipv4:
+    - 145.191.155.192/27
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

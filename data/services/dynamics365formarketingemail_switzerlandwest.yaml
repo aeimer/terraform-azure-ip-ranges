@@ -1,0 +1,18 @@
+id: Dynamics365ForMarketingEmail.SwitzerlandWest
+name: Dynamics365ForMarketingEmail.SwitzerlandWest
+metadata:
+  change_number: 1
+  region: switzerlandw
+  platform: Azure
+  system_service: Dynamics365ForMarketingEmail
+  network_features: []
+address_prefixes:
+  all:
+    - 57.160.28.160/27
+  ipv4:
+    - 57.160.28.160/27
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

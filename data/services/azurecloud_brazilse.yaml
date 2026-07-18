@@ -1,7 +1,7 @@
 id: AzureCloud.brazilse
 name: AzureCloud.brazilse
 metadata:
-  change_number: 35
+  change_number: 36
   region: brazilse
   platform: Azure
   system_service: ""
@@ -58,6 +58,8 @@ address_prefixes:
     - 52.123.29.0/24
     - 52.123.182.0/24
     - 52.253.197.0/24
+    - 57.171.20.0/24
+    - 57.171.22.0/24
     - 70.152.3.0/24
     - 70.152.234.0/24
     - 108.140.0.0/16
@@ -155,6 +157,8 @@ address_prefixes:
     - 52.123.29.0/24
     - 52.123.182.0/24
     - 52.253.197.0/24
+    - 57.171.20.0/24
+    - 57.171.22.0/24
     - 70.152.3.0/24
     - 70.152.234.0/24
     - 108.140.0.0/16
@@ -205,6 +209,6 @@ address_prefixes:
     - 2a01:111:f403:d91a::/64
     - 2a01:111:f403:e01d::/64
   counts:
-    total: 96
-    ipv4: 59
+    total: 98
+    ipv4: 61
     ipv6: 37

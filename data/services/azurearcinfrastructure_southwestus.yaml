@@ -1,0 +1,24 @@
+id: AzureArcInfrastructure.SouthwestUS
+name: AzureArcInfrastructure.SouthwestUS
+metadata:
+  change_number: 1
+  region: southwestus
+  platform: Azure
+  system_service: AzureArcInfrastructure
+  network_features: []
+address_prefixes:
+  all:
+    - 48.219.203.208/30
+    - 48.219.217.192/32
+    - 48.219.232.56/32
+    - 2603:1030:1202:2::20/124
+  ipv4:
+    - 48.219.203.208/30
+    - 48.219.217.192/32
+    - 48.219.232.56/32
+  ipv6:
+    - 2603:1030:1202:2::20/124
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

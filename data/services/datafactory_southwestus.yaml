@@ -1,0 +1,26 @@
+id: DataFactory.SouthwestUS
+name: DataFactory.SouthwestUS
+metadata:
+  change_number: 1
+  region: southwestus
+  platform: Azure
+  system_service: DataFactory
+  network_features:
+    - API
+    - NSG
+address_prefixes:
+  all:
+    - 48.219.206.0/23
+    - 48.219.234.208/28
+    - 2603:1030:1202:2::280/121
+    - 2603:1030:1202:400::320/124
+  ipv4:
+    - 48.219.206.0/23
+    - 48.219.234.208/28
+  ipv6:
+    - 2603:1030:1202:2::280/121
+    - 2603:1030:1202:400::320/124
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

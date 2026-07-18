@@ -1,0 +1,23 @@
+id: GatewayManager.SoutheastUS5
+name: GatewayManager.SoutheastUS5
+metadata:
+  change_number: 1
+  region: southeastus5
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+address_prefixes:
+  all:
+    - 74.7.176.64/26
+    - 74.7.202.176/28
+    - 2603:1030:1502::40/122
+  ipv4:
+    - 74.7.176.64/26
+    - 74.7.202.176/28
+  ipv6:
+    - 2603:1030:1502::40/122
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

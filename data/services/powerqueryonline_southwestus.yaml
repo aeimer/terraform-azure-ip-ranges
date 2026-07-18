@@ -1,0 +1,20 @@
+id: PowerQueryOnline.SouthwestUS
+name: PowerQueryOnline.SouthwestUS
+metadata:
+  change_number: 1
+  region: southwestus
+  platform: Azure
+  system_service: PowerQueryOnline
+  network_features: []
+address_prefixes:
+  all:
+    - 48.219.192.40/29
+    - 2603:1030:1202::1c0/123
+  ipv4:
+    - 48.219.192.40/29
+  ipv6:
+    - 2603:1030:1202::1c0/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

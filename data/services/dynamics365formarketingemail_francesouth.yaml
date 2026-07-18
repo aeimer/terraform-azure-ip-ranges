@@ -1,0 +1,18 @@
+id: Dynamics365ForMarketingEmail.FranceSouth
+name: Dynamics365ForMarketingEmail.FranceSouth
+metadata:
+  change_number: 1
+  region: southfrance
+  platform: Azure
+  system_service: Dynamics365ForMarketingEmail
+  network_features: []
+address_prefixes:
+  all:
+    - 98.66.37.192/27
+  ipv4:
+    - 98.66.37.192/27
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

@@ -1,0 +1,36 @@
+id: Storage.SouthwestUS
+name: Storage.SouthwestUS
+metadata:
+  change_number: 1
+  region: southwestus
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 20.153.11.0/24
+    - 20.153.45.0/24
+    - 57.150.174.0/23
+    - 57.150.176.0/24
+    - 57.150.254.0/23
+    - 135.130.210.0/23
+    - 145.190.146.0/23
+    - 2603:1030:1203::/48
+  ipv4:
+    - 20.153.11.0/24
+    - 20.153.45.0/24
+    - 57.150.174.0/23
+    - 57.150.176.0/24
+    - 57.150.254.0/23
+    - 135.130.210.0/23
+    - 145.190.146.0/23
+  ipv6:
+    - 2603:1030:1203::/48
+  counts:
+    total: 8
+    ipv4: 7
+    ipv6: 1

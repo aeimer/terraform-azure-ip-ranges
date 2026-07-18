@@ -1,0 +1,26 @@
+id: ServiceBus.SoutheastUS5
+name: ServiceBus.SoutheastUS5
+metadata:
+  change_number: 1
+  region: southeastus5
+  platform: Azure
+  system_service: AzureServiceBus
+  network_features:
+    - API
+    - NSG
+address_prefixes:
+  all:
+    - 74.7.181.128/25
+    - 74.7.216.16/29
+    - 74.7.216.32/28
+    - 2603:1030:1502:1::180/121
+  ipv4:
+    - 74.7.181.128/25
+    - 74.7.216.16/29
+    - 74.7.216.32/28
+  ipv6:
+    - 2603:1030:1502:1::180/121
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

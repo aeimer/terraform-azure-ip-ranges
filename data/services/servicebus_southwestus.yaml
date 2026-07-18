@@ -1,0 +1,26 @@
+id: ServiceBus.SouthwestUS
+name: ServiceBus.SouthwestUS
+metadata:
+  change_number: 1
+  region: southwestus
+  platform: Azure
+  system_service: AzureServiceBus
+  network_features:
+    - API
+    - NSG
+address_prefixes:
+  all:
+    - 48.219.198.0/25
+    - 48.219.232.16/29
+    - 48.219.232.32/28
+    - 2603:1030:1202::780/121
+  ipv4:
+    - 48.219.198.0/25
+    - 48.219.232.16/29
+    - 48.219.232.32/28
+  ipv6:
+    - 2603:1030:1202::780/121
+  counts:
+    total: 4
+    ipv4: 3
+    ipv6: 1

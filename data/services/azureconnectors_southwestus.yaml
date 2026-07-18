@@ -1,0 +1,24 @@
+id: AzureConnectors.SouthwestUS
+name: AzureConnectors.SouthwestUS
+metadata:
+  change_number: 1
+  region: southwestus
+  platform: Azure
+  system_service: AzureConnectors
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 48.219.203.0/26
+    - 2603:1030:1202:1::5c0/122
+  ipv4:
+    - 48.219.203.0/26
+  ipv6:
+    - 2603:1030:1202:1::5c0/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

@@ -1,0 +1,23 @@
+id: AppServiceManagement.SoutheastUS5
+name: AppServiceManagement.SoutheastUS5
+metadata:
+  change_number: 1
+  region: southeastus5
+  platform: Azure
+  system_service: AzureAppServiceManagement
+  network_features:
+    - NSG
+address_prefixes:
+  all:
+    - 74.7.157.0/29
+    - 74.7.189.0/26
+    - 2603:1030:1502:2::340/122
+  ipv4:
+    - 74.7.157.0/29
+    - 74.7.189.0/26
+  ipv6:
+    - 2603:1030:1502:2::340/122
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

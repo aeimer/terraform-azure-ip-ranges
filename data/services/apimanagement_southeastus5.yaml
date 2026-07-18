@@ -1,0 +1,24 @@
+id: ApiManagement.SoutheastUS5
+name: ApiManagement.SoutheastUS5
+metadata:
+  change_number: 1
+  region: southeastus5
+  platform: Azure
+  system_service: AzureApiManagement
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 74.7.180.16/28
+    - 2603:1030:1502::740/124
+  ipv4:
+    - 74.7.180.16/28
+  ipv6:
+    - 2603:1030:1502::740/124
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

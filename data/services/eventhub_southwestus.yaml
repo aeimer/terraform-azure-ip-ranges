@@ -1,0 +1,26 @@
+id: EventHub.SouthwestUS
+name: EventHub.SouthwestUS
+metadata:
+  change_number: 1
+  region: southwestus
+  platform: Azure
+  system_service: AzureEventHub
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 48.219.197.0/24
+    - 48.219.232.128/26
+    - 2603:1030:1202:1::/120
+  ipv4:
+    - 48.219.197.0/24
+    - 48.219.232.128/26
+  ipv6:
+    - 2603:1030:1202:1::/120
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

@@ -1,0 +1,22 @@
+id: AzurePortal.SoutheastUS5
+name: AzurePortal.SoutheastUS5
+metadata:
+  change_number: 1
+  region: southeastus5
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+address_prefixes:
+  all:
+    - 74.7.188.116/30
+    - 74.7.192.32/27
+    - 2603:1030:1502:2::600/121
+  ipv4:
+    - 74.7.188.116/30
+    - 74.7.192.32/27
+  ipv6:
+    - 2603:1030:1502:2::600/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

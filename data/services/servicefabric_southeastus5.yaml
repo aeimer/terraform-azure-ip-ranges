@@ -1,0 +1,20 @@
+id: ServiceFabric.SoutheastUS5
+name: ServiceFabric.SoutheastUS5
+metadata:
+  change_number: 1
+  region: southeastus5
+  platform: Azure
+  system_service: ServiceFabric
+  network_features: []
+address_prefixes:
+  all:
+    - 74.7.216.12/30
+    - 2603:1030:1502:400::18/125
+  ipv4:
+    - 74.7.216.12/30
+  ipv6:
+    - 2603:1030:1502:400::18/125
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

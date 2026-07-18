@@ -1,0 +1,18 @@
+id: Dynamics365ForMarketingEmail.SouthAfricaWest
+name: Dynamics365ForMarketingEmail.SouthAfricaWest
+metadata:
+  change_number: 1
+  region: southafricawest
+  platform: Azure
+  system_service: Dynamics365ForMarketingEmail
+  network_features: []
+address_prefixes:
+  all:
+    - 74.160.11.224/27
+  ipv4:
+    - 74.160.11.224/27
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

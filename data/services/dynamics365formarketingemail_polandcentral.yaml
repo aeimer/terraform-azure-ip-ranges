@@ -1,0 +1,22 @@
+id: Dynamics365ForMarketingEmail.PolandCentral
+name: Dynamics365ForMarketingEmail.PolandCentral
+metadata:
+  change_number: 1
+  region: polandcentral
+  platform: Azure
+  system_service: Dynamics365ForMarketingEmail
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 74.153.1.160/27
+  ipv4:
+    - 74.153.1.160/27
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

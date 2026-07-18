@@ -1,0 +1,23 @@
+id: GatewayManager.SouthwestUS
+name: GatewayManager.SouthwestUS
+metadata:
+  change_number: 1
+  region: southwestus
+  platform: Azure
+  system_service: GatewayManager
+  network_features:
+    - NSG
+address_prefixes:
+  all:
+    - 48.219.192.64/26
+    - 48.219.222.96/28
+    - 2603:1030:1202::40/122
+  ipv4:
+    - 48.219.192.64/26
+    - 48.219.222.96/28
+  ipv6:
+    - 2603:1030:1202::40/122
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

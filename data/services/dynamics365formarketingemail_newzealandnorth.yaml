@@ -1,0 +1,18 @@
+id: Dynamics365ForMarketingEmail.NewZealandNorth
+name: Dynamics365ForMarketingEmail.NewZealandNorth
+metadata:
+  change_number: 1
+  region: newzealandnorth
+  platform: Azure
+  system_service: Dynamics365ForMarketingEmail
+  network_features: []
+address_prefixes:
+  all:
+    - 172.196.116.96/27
+  ipv4:
+    - 172.196.116.96/27
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0

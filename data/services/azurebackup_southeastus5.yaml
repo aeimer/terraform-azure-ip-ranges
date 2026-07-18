@@ -1,0 +1,22 @@
+id: AzureBackup.SoutheastUS5
+name: AzureBackup.SoutheastUS5
+metadata:
+  change_number: 1
+  region: southeastus5
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+address_prefixes:
+  all:
+    - 74.7.180.80/28
+    - 74.7.180.128/26
+    - 2603:1030:1502:1::/121
+  ipv4:
+    - 74.7.180.80/28
+    - 74.7.180.128/26
+  ipv6:
+    - 2603:1030:1502:1::/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

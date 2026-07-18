@@ -1,0 +1,24 @@
+id: LogicApps.SoutheastUS5
+name: LogicApps.SoutheastUS5
+metadata:
+  change_number: 1
+  region: southeastus5
+  platform: Azure
+  system_service: LogicApps
+  network_features: []
+address_prefixes:
+  all:
+    - 74.7.194.64/28
+    - 74.7.194.96/27
+    - 2603:1030:1502:3::110/124
+    - 2603:1030:1502:3::200/123
+  ipv4:
+    - 74.7.194.64/28
+    - 74.7.194.96/27
+  ipv6:
+    - 2603:1030:1502:3::110/124
+    - 2603:1030:1502:3::200/123
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

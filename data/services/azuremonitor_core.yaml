@@ -1,7 +1,7 @@
 id: AzureMonitor.Core
 name: AzureMonitor.Core
 metadata:
-  change_number: 86
+  change_number: 87
   region: ""
   platform: Azure
   system_service: AzureMonitor
@@ -519,6 +519,7 @@ address_prefixes:
     - 172.198.112.168/29
     - 172.198.144.168/29
     - 172.198.168.168/29
+    - 172.198.239.96/27
     - 172.199.21.0/24
     - 172.204.167.0/27
     - 172.204.182.144/29
@@ -1497,6 +1498,7 @@ address_prefixes:
     - 172.198.112.168/29
     - 172.198.144.168/29
     - 172.198.168.168/29
+    - 172.198.239.96/27
     - 172.199.21.0/24
     - 172.204.167.0/27
     - 172.204.182.144/29
@@ -1968,6 +1970,6 @@ address_prefixes:
     - 2603:1050:403:9::600/119
     - 2603:1050:403:400::580/121
   counts:
-    total: 977
-    ipv4: 530
+    total: 978
+    ipv4: 531
     ipv6: 447

@@ -1,0 +1,18 @@
+id: Dynamics365ForMarketingEmail.UAECentral
+name: Dynamics365ForMarketingEmail.UAECentral
+metadata:
+  change_number: 1
+  region: uaecentral
+  platform: Azure
+  system_service: Dynamics365ForMarketingEmail
+  network_features: []
+address_prefixes:
+  all:
+    - 74.150.12.64/27
+  ipv4:
+    - 74.150.12.64/27
+  ipv6: []
+  counts:
+    total: 1
+    ipv4: 1
+    ipv6: 0
