@@ -1,7 +1,7 @@
 id: ApiManagement.KoreaSouth
 name: ApiManagement.KoreaSouth
 metadata:
-  change_number: 2
+  change_number: 3
   region: koreasouth
   platform: Azure
   system_service: AzureApiManagement
@@ -12,12 +12,18 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 4.243.180.132/30
+    - 4.243.180.136/29
+    - 4.243.180.192/31
     - 20.200.166.32/28
     - 40.80.232.185/32
     - 52.231.146.84/31
     - 52.231.147.176/28
     - 2603:1040:e05:5::210/124
   ipv4:
+    - 4.243.180.132/30
+    - 4.243.180.136/29
+    - 4.243.180.192/31
     - 20.200.166.32/28
     - 40.80.232.185/32
     - 52.231.146.84/31
@@ -25,6 +31,6 @@ address_prefixes:
   ipv6:
     - 2603:1040:e05:5::210/124
   counts:
-    total: 5
-    ipv4: 4
+    total: 8
+    ipv4: 7
     ipv6: 1

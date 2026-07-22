@@ -1,7 +1,7 @@
 id: ApiManagement.EastUS
 name: ApiManagement.EastUS
 metadata:
-  change_number: 5
+  change_number: 6
   region: eastus
   platform: Azure
   system_service: AzureApiManagement
@@ -19,6 +19,9 @@ address_prefixes:
     - 40.117.134.189/32
     - 40.121.13.26/32
     - 52.224.186.99/32
+    - 74.151.220.116/30
+    - 74.151.220.120/29
+    - 74.151.221.224/31
     - 135.222.50.218/31
     - 2603:1030:210:402::140/124
   ipv4:
@@ -29,10 +32,13 @@ address_prefixes:
     - 40.117.134.189/32
     - 40.121.13.26/32
     - 52.224.186.99/32
+    - 74.151.220.116/30
+    - 74.151.220.120/29
+    - 74.151.221.224/31
     - 135.222.50.218/31
   ipv6:
     - 2603:1030:210:402::140/124
   counts:
-    total: 9
-    ipv4: 8
+    total: 12
+    ipv4: 11
     ipv6: 1

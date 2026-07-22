@@ -1,7 +1,7 @@
 id: ApiManagement.BrazilSouth
 name: ApiManagement.BrazilSouth
 metadata:
-  change_number: 4
+  change_number: 5
   region: brazilsouth
   platform: Azure
   system_service: AzureApiManagement
@@ -12,6 +12,9 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 20.197.175.106/31
+    - 20.226.148.112/29
+    - 20.226.148.120/30
     - 74.163.143.250/31
     - 191.233.24.179/32
     - 191.233.203.28/31
@@ -19,6 +22,9 @@ address_prefixes:
     - 191.238.73.14/31
     - 2603:1050:6:402::140/124
   ipv4:
+    - 20.197.175.106/31
+    - 20.226.148.112/29
+    - 20.226.148.120/30
     - 74.163.143.250/31
     - 191.233.24.179/32
     - 191.233.203.28/31
@@ -27,6 +33,6 @@ address_prefixes:
   ipv6:
     - 2603:1050:6:402::140/124
   counts:
-    total: 6
-    ipv4: 5
+    total: 9
+    ipv4: 8
     ipv6: 1

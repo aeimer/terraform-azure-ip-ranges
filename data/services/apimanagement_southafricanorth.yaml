@@ -1,7 +1,7 @@
 id: ApiManagement.SouthAfricaNorth
 name: ApiManagement.SouthAfricaNorth
 metadata:
-  change_number: 4
+  change_number: 5
   region: southafricanorth
   platform: Azure
   system_service: AzureApiManagement
@@ -12,6 +12,9 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 4.222.0.38/31
+    - 4.222.1.20/30
+    - 4.222.1.24/29
     - 102.37.166.220/31
     - 102.133.130.197/32
     - 102.133.154.4/31
@@ -19,6 +22,9 @@ address_prefixes:
     - 172.209.191.124/31
     - 2603:1000:104:402::140/124
   ipv4:
+    - 4.222.0.38/31
+    - 4.222.1.20/30
+    - 4.222.1.24/29
     - 102.37.166.220/31
     - 102.133.130.197/32
     - 102.133.154.4/31
@@ -27,6 +33,6 @@ address_prefixes:
   ipv6:
     - 2603:1000:104:402::140/124
   counts:
-    total: 6
-    ipv4: 5
+    total: 9
+    ipv4: 8
     ipv6: 1

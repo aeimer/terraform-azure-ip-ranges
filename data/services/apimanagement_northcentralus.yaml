@@ -1,7 +1,7 @@
 id: ApiManagement.NorthCentralUS
 name: ApiManagement.NorthCentralUS
 metadata:
-  change_number: 4
+  change_number: 5
   region: northcentralus
   platform: Azure
   system_service: AzureApiManagement
@@ -13,6 +13,9 @@ metadata:
 address_prefixes:
   all:
     - 20.51.6.224/28
+    - 20.66.218.58/31
+    - 20.66.218.240/29
+    - 20.66.218.248/30
     - 23.96.224.175/32
     - 23.101.166.38/32
     - 40.81.47.216/32
@@ -22,6 +25,9 @@ address_prefixes:
     - 2603:1030:608:402::140/124
   ipv4:
     - 20.51.6.224/28
+    - 20.66.218.58/31
+    - 20.66.218.240/29
+    - 20.66.218.248/30
     - 23.96.224.175/32
     - 23.101.166.38/32
     - 40.81.47.216/32
@@ -31,6 +37,6 @@ address_prefixes:
     - 2603:1030:608:3::630/124
     - 2603:1030:608:402::140/124
   counts:
-    total: 8
-    ipv4: 6
+    total: 11
+    ipv4: 9
     ipv6: 2

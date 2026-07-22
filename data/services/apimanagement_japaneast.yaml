@@ -1,7 +1,7 @@
 id: ApiManagement.JapanEast
 name: ApiManagement.JapanEast
 metadata:
-  change_number: 4
+  change_number: 5
   region: japaneast
   platform: Azure
   system_service: AzureApiManagement
@@ -12,6 +12,9 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 4.216.20.126/31
+    - 4.216.23.160/29
+    - 4.216.23.168/30
     - 13.78.106.92/31
     - 13.78.108.176/28
     - 20.191.167.246/31
@@ -19,6 +22,9 @@ address_prefixes:
     - 135.149.50.220/31
     - 2603:1040:407:402::140/124
   ipv4:
+    - 4.216.20.126/31
+    - 4.216.23.160/29
+    - 4.216.23.168/30
     - 13.78.106.92/31
     - 13.78.108.176/28
     - 20.191.167.246/31
@@ -27,6 +33,6 @@ address_prefixes:
   ipv6:
     - 2603:1040:407:402::140/124
   counts:
-    total: 6
-    ipv4: 5
+    total: 9
+    ipv4: 8
     ipv6: 1

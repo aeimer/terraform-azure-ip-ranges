@@ -1,7 +1,7 @@
 id: ApiManagement.AustraliaSoutheast
 name: ApiManagement.AustraliaSoutheast
 metadata:
-  change_number: 4
+  change_number: 5
   region: australiasoutheast
   platform: Azure
   system_service: AzureApiManagement
@@ -13,6 +13,9 @@ metadata:
 address_prefixes:
   all:
     - 4.199.83.96/28
+    - 4.200.209.92/30
+    - 4.200.209.192/29
+    - 4.200.209.200/31
     - 13.77.50.68/31
     - 13.77.52.224/28
     - 20.40.160.107/32
@@ -21,6 +24,9 @@ address_prefixes:
     - 2603:1010:207::3c0/124
   ipv4:
     - 4.199.83.96/28
+    - 4.200.209.92/30
+    - 4.200.209.192/29
+    - 4.200.209.200/31
     - 13.77.50.68/31
     - 13.77.52.224/28
     - 20.40.160.107/32
@@ -29,6 +35,6 @@ address_prefixes:
     - 2603:1010:101:402::140/124
     - 2603:1010:207::3c0/124
   counts:
-    total: 7
-    ipv4: 5
+    total: 10
+    ipv4: 8
     ipv6: 2

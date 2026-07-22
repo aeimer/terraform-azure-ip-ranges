@@ -1,7 +1,7 @@
 id: ApiManagement.SouthIndia
 name: ApiManagement.SouthIndia
 metadata:
-  change_number: 3
+  change_number: 4
   region: southindia
   platform: Azure
   system_service: AzureApiManagement
@@ -12,6 +12,9 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 4.247.39.148/30
+    - 4.247.39.152/29
+    - 4.247.40.32/31
     - 20.44.33.246/32
     - 40.78.194.68/31
     - 40.78.195.224/28
@@ -19,6 +22,9 @@ address_prefixes:
     - 2603:1040:c06:3::2f0/124
     - 2603:1040:c06:402::140/124
   ipv4:
+    - 4.247.39.148/30
+    - 4.247.39.152/29
+    - 4.247.40.32/31
     - 20.44.33.246/32
     - 40.78.194.68/31
     - 40.78.195.224/28
@@ -27,6 +33,6 @@ address_prefixes:
     - 2603:1040:c06:3::2f0/124
     - 2603:1040:c06:402::140/124
   counts:
-    total: 6
-    ipv4: 4
+    total: 9
+    ipv4: 7
     ipv6: 2

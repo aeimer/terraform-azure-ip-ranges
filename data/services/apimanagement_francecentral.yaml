@@ -1,7 +1,7 @@
 id: ApiManagement.FranceCentral
 name: ApiManagement.FranceCentral
 metadata:
-  change_number: 4
+  change_number: 5
   region: centralfrance
   platform: Azure
   system_service: AzureApiManagement
@@ -12,6 +12,9 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 4.212.6.194/31
+    - 4.212.7.120/29
+    - 4.212.7.192/30
     - 40.66.60.111/32
     - 40.79.130.44/31
     - 40.79.131.192/28
@@ -19,6 +22,9 @@ address_prefixes:
     - 51.138.215.124/31
     - 2603:1020:805:402::140/124
   ipv4:
+    - 4.212.6.194/31
+    - 4.212.7.120/29
+    - 4.212.7.192/30
     - 40.66.60.111/32
     - 40.79.130.44/31
     - 40.79.131.192/28
@@ -27,6 +33,6 @@ address_prefixes:
   ipv6:
     - 2603:1020:805:402::140/124
   counts:
-    total: 6
-    ipv4: 5
+    total: 9
+    ipv4: 8
     ipv6: 1

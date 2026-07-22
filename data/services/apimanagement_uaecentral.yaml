@@ -1,7 +1,7 @@
 id: ApiManagement.UAECentral
 name: ApiManagement.UAECentral
 metadata:
-  change_number: 3
+  change_number: 4
   region: uaecentral
   platform: Azure
   system_service: AzureApiManagement
@@ -16,6 +16,9 @@ address_prefixes:
     - 20.37.76.32/28
     - 20.37.81.41/32
     - 20.203.91.208/28
+    - 74.150.12.112/30
+    - 74.243.159.226/31
+    - 74.243.159.232/29
     - 2603:1040:b04:2::690/124
     - 2603:1040:b04:402::140/124
   ipv4:
@@ -23,10 +26,13 @@ address_prefixes:
     - 20.37.76.32/28
     - 20.37.81.41/32
     - 20.203.91.208/28
+    - 74.150.12.112/30
+    - 74.243.159.226/31
+    - 74.243.159.232/29
   ipv6:
     - 2603:1040:b04:2::690/124
     - 2603:1040:b04:402::140/124
   counts:
-    total: 6
-    ipv4: 4
+    total: 9
+    ipv4: 7
     ipv6: 2

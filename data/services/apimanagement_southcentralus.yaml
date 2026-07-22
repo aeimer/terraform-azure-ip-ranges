@@ -1,7 +1,7 @@
 id: ApiManagement.SouthCentralUS
 name: ApiManagement.SouthCentralUS
 metadata:
-  change_number: 4
+  change_number: 5
   region: southcentralus
   platform: Azure
   system_service: AzureApiManagement
@@ -17,6 +17,9 @@ address_prefixes:
     - 20.97.32.190/31
     - 20.188.77.119/32
     - 48.221.128.2/31
+    - 74.145.188.190/31
+    - 74.145.198.220/30
+    - 74.145.199.88/29
     - 104.214.18.172/31
     - 104.214.19.224/28
     - 191.238.241.97/32
@@ -27,12 +30,15 @@ address_prefixes:
     - 20.97.32.190/31
     - 20.188.77.119/32
     - 48.221.128.2/31
+    - 74.145.188.190/31
+    - 74.145.198.220/30
+    - 74.145.199.88/29
     - 104.214.18.172/31
     - 104.214.19.224/28
     - 191.238.241.97/32
   ipv6:
     - 2603:1030:807:402::140/124
   counts:
-    total: 9
-    ipv4: 8
+    total: 12
+    ipv4: 11
     ipv6: 1

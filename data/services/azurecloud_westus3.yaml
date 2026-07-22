@@ -1,7 +1,7 @@
 id: AzureCloud.westus3
 name: AzureCloud.westus3
 metadata:
-  change_number: 108
+  change_number: 109
   region: westus3
   platform: Azure
   system_service: ""
@@ -189,6 +189,7 @@ address_prefixes:
     - 135.234.0.0/17
     - 145.190.62.0/24
     - 145.190.172.0/24
+    - 145.190.186.0/24
     - 151.206.160.0/24
     - 151.206.186.0/24
     - 172.173.16.0/20
@@ -416,6 +417,7 @@ address_prefixes:
     - 135.234.0.0/17
     - 145.190.62.0/24
     - 145.190.172.0/24
+    - 145.190.186.0/24
     - 151.206.160.0/24
     - 151.206.186.0/24
     - 172.173.16.0/20
@@ -465,6 +467,6 @@ address_prefixes:
     - 2a01:111:f403:d91c::/64
     - 2a01:111:f403:e01f::/64
   counts:
-    total: 226
-    ipv4: 187
+    total: 227
+    ipv4: 188
     ipv6: 39

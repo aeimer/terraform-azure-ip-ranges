@@ -1,7 +1,7 @@
 id: ApiManagement.CentralIndia
 name: ApiManagement.CentralIndia
 metadata:
-  change_number: 3
+  change_number: 4
   region: centralindia
   platform: Azure
   system_service: AzureApiManagement
@@ -12,6 +12,9 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 4.188.129.68/30
+    - 4.188.129.72/29
+    - 4.188.129.80/31
     - 13.71.49.1/32
     - 20.192.45.112/28
     - 104.211.81.28/31
@@ -19,6 +22,9 @@ address_prefixes:
     - 2603:1040:a06:2::280/124
     - 2603:1040:a06:402::140/124
   ipv4:
+    - 4.188.129.68/30
+    - 4.188.129.72/29
+    - 4.188.129.80/31
     - 13.71.49.1/32
     - 20.192.45.112/28
     - 104.211.81.28/31
@@ -27,6 +33,6 @@ address_prefixes:
     - 2603:1040:a06:2::280/124
     - 2603:1040:a06:402::140/124
   counts:
-    total: 6
-    ipv4: 4
+    total: 9
+    ipv4: 7
     ipv6: 2

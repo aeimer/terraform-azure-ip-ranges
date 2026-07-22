@@ -1,7 +1,7 @@
 id: ApiManagement.UKSouth
 name: ApiManagement.UKSouth
 metadata:
-  change_number: 4
+  change_number: 5
   region: uksouth
   platform: Azure
   system_service: AzureApiManagement
@@ -17,6 +17,9 @@ address_prefixes:
     - 51.140.149.0/28
     - 51.145.56.125/32
     - 131.145.110.138/31
+    - 172.165.36.182/31
+    - 172.165.36.184/29
+    - 172.165.36.208/30
     - 2603:1020:705:402::140/124
   ipv4:
     - 20.90.131.114/31
@@ -24,9 +27,12 @@ address_prefixes:
     - 51.140.149.0/28
     - 51.145.56.125/32
     - 131.145.110.138/31
+    - 172.165.36.182/31
+    - 172.165.36.184/29
+    - 172.165.36.208/30
   ipv6:
     - 2603:1020:705:402::140/124
   counts:
-    total: 6
-    ipv4: 5
+    total: 9
+    ipv4: 8
     ipv6: 1
