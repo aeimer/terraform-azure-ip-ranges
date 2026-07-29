@@ -1,7 +1,7 @@
 id: AzureAttestation.ItalyNorth
 name: AzureAttestation.ItalyNorth
 metadata:
-  change_number: 3
+  change_number: 4
   region: italynorth
   platform: Azure
   system_service: AzureAttestation
@@ -12,15 +12,19 @@ address_prefixes:
     - 9.235.70.112/29
     - 9.235.188.108/30
     - 9.235.190.232/29
+    - 9.235.245.180/30
+    - 9.235.245.184/29
     - 2603:1020:1204::5e0/124
   ipv4:
     - 4.232.28.24/30
     - 9.235.70.112/29
     - 9.235.188.108/30
     - 9.235.190.232/29
+    - 9.235.245.180/30
+    - 9.235.245.184/29
   ipv6:
     - 2603:1020:1204::5e0/124
   counts:
-    total: 5
-    ipv4: 4
+    total: 7
+    ipv4: 6
     ipv6: 1

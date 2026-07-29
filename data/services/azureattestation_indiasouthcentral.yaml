@@ -1,7 +1,7 @@
 id: AzureAttestation.IndiaSouthCentral
 name: AzureAttestation.IndiaSouthCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: indiasouthcentral
   platform: Azure
   system_service: AzureAttestation
@@ -11,14 +11,18 @@ address_prefixes:
     - 172.198.80.20/30
     - 172.198.109.200/29
     - 172.198.110.16/30
+    - 172.198.239.88/29
+    - 172.198.239.160/30
     - 2603:1040:1904::760/124
   ipv4:
     - 172.198.80.20/30
     - 172.198.109.200/29
     - 172.198.110.16/30
+    - 172.198.239.88/29
+    - 172.198.239.160/30
   ipv6:
     - 2603:1040:1904::760/124
   counts:
-    total: 4
-    ipv4: 3
+    total: 6
+    ipv4: 5
     ipv6: 1

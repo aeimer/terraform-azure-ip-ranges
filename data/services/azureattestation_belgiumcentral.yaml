@@ -1,7 +1,7 @@
 id: AzureAttestation.BelgiumCentral
 name: AzureAttestation.BelgiumCentral
 metadata:
-  change_number: 3
+  change_number: 4
   region: belgiumcentral
   platform: Azure
   system_service: AzureAttestation
@@ -13,6 +13,8 @@ address_prefixes:
     - 9.160.195.128/30
     - 9.160.195.144/29
     - 9.160.195.152/30
+    - 74.152.8.124/30
+    - 74.152.8.160/29
     - 2603:1020:1502::540/124
   ipv4:
     - 9.160.40.20/30
@@ -20,9 +22,11 @@ address_prefixes:
     - 9.160.195.128/30
     - 9.160.195.144/29
     - 9.160.195.152/30
+    - 74.152.8.124/30
+    - 74.152.8.160/29
   ipv6:
     - 2603:1020:1502::540/124
   counts:
-    total: 6
-    ipv4: 5
+    total: 8
+    ipv4: 7
     ipv6: 1

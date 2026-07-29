@@ -1,7 +1,7 @@
 id: AzureAttestation.NorthCentralUS
 name: AzureAttestation.NorthCentralUS
 metadata:
-  change_number: 5
+  change_number: 6
   region: northcentralus
   platform: Azure
   system_service: AzureAttestation
@@ -12,6 +12,8 @@ address_prefixes:
     - 20.59.214.128/29
     - 20.66.143.200/29
     - 20.66.143.208/30
+    - 20.66.224.32/29
+    - 20.66.224.40/30
     - 52.162.111.140/30
     - 2603:1030:608:3::650/124
   ipv4:
@@ -19,10 +21,12 @@ address_prefixes:
     - 20.59.214.128/29
     - 20.66.143.200/29
     - 20.66.143.208/30
+    - 20.66.224.32/29
+    - 20.66.224.40/30
     - 52.162.111.140/30
   ipv6:
     - 2603:1030:608:3::650/124
   counts:
-    total: 6
-    ipv4: 5
+    total: 8
+    ipv4: 7
     ipv6: 1

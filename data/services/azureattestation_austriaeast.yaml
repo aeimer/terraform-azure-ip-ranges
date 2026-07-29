@@ -1,7 +1,7 @@
 id: AzureAttestation.AustriaEast
 name: AzureAttestation.AustriaEast
 metadata:
-  change_number: 3
+  change_number: 4
   region: austriaeast
   platform: Azure
   system_service: AzureAttestation
@@ -13,16 +13,22 @@ address_prefixes:
     - 68.210.243.120/30
     - 68.210.245.188/30
     - 68.210.245.208/29
+    - 74.148.13.36/30
+    - 74.148.13.40/29
     - 2603:1020:104:4::420/124
+    - 2603:1020:104:9::1b0/124
   ipv4:
     - 68.210.160.20/30
     - 68.210.243.112/29
     - 68.210.243.120/30
     - 68.210.245.188/30
     - 68.210.245.208/29
+    - 74.148.13.36/30
+    - 74.148.13.40/29
   ipv6:
     - 2603:1020:104:4::420/124
+    - 2603:1020:104:9::1b0/124
   counts:
-    total: 6
-    ipv4: 5
-    ipv6: 1
+    total: 9
+    ipv4: 7
+    ipv6: 2

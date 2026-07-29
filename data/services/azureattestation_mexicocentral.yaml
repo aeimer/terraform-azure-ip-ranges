@@ -1,7 +1,7 @@
 id: AzureAttestation.MexicoCentral
 name: AzureAttestation.MexicoCentral
 metadata:
-  change_number: 3
+  change_number: 4
   region: mexicocentral
   platform: Azure
   system_service: AzureAttestation
@@ -12,15 +12,19 @@ address_prefixes:
     - 172.195.50.24/29
     - 172.195.119.152/29
     - 172.195.121.64/30
+    - 172.195.152.164/30
+    - 172.195.152.168/29
     - 2603:1030:702::5e0/124
   ipv4:
     - 158.23.100.152/30
     - 172.195.50.24/29
     - 172.195.119.152/29
     - 172.195.121.64/30
+    - 172.195.152.164/30
+    - 172.195.152.168/29
   ipv6:
     - 2603:1030:702::5e0/124
   counts:
-    total: 5
-    ipv4: 4
+    total: 7
+    ipv4: 6
     ipv6: 1

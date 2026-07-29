@@ -1,7 +1,7 @@
 id: AzureAttestation.SouthwestUS
 name: AzureAttestation.SouthwestUS
 metadata:
-  change_number: 1
+  change_number: 2
   region: southwestus
   platform: Azure
   system_service: AzureAttestation
@@ -9,16 +9,22 @@ metadata:
 address_prefixes:
   all:
     - 48.219.81.176/29
+    - 48.219.89.92/30
+    - 48.219.90.24/29
     - 48.219.192.20/30
     - 48.219.221.52/30
     - 2603:1030:1202::540/124
+    - 2603:1030:1202:5::7b0/124
   ipv4:
     - 48.219.81.176/29
+    - 48.219.89.92/30
+    - 48.219.90.24/29
     - 48.219.192.20/30
     - 48.219.221.52/30
   ipv6:
     - 2603:1030:1202::540/124
+    - 2603:1030:1202:5::7b0/124
   counts:
-    total: 4
-    ipv4: 3
-    ipv6: 1
+    total: 7
+    ipv4: 5
+    ipv6: 2

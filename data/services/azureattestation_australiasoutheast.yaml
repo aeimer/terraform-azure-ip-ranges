@@ -1,7 +1,7 @@
 id: AzureAttestation.AustraliaSoutheast
 name: AzureAttestation.AustraliaSoutheast
 metadata:
-  change_number: 4
+  change_number: 5
   region: australiasoutheast
   platform: Azure
   system_service: AzureAttestation
@@ -9,6 +9,8 @@ metadata:
 address_prefixes:
   all:
     - 4.199.42.232/29
+    - 4.200.209.204/30
+    - 4.200.209.240/29
     - 20.11.225.140/30
     - 20.11.225.160/29
     - 104.46.162.16/30
@@ -16,6 +18,8 @@ address_prefixes:
     - 2603:1010:207::3e0/124
   ipv4:
     - 4.199.42.232/29
+    - 4.200.209.204/30
+    - 4.200.209.240/29
     - 20.11.225.140/30
     - 20.11.225.160/29
     - 104.46.162.16/30
@@ -23,6 +27,6 @@ address_prefixes:
   ipv6:
     - 2603:1010:207::3e0/124
   counts:
-    total: 6
-    ipv4: 5
+    total: 8
+    ipv4: 7
     ipv6: 1

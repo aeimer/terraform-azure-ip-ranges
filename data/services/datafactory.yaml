@@ -1,7 +1,7 @@
 id: DataFactory
 name: DataFactory
 metadata:
-  change_number: 95
+  change_number: 96
   region: ""
   platform: Azure
   system_service: DataFactory
@@ -324,7 +324,6 @@ address_prefixes:
     - 40.120.64.112/28
     - 40.120.75.112/28
     - 40.120.86.64/26
-    - 40.122.0.16/28
     - 48.196.97.224/28
     - 48.196.98.128/27
     - 48.196.99.0/24
@@ -1289,7 +1288,6 @@ address_prefixes:
     - 40.120.64.112/28
     - 40.120.75.112/28
     - 40.120.86.64/26
-    - 40.122.0.16/28
     - 48.196.97.224/28
     - 48.196.98.128/27
     - 48.196.99.0/24
@@ -1943,6 +1941,6 @@ address_prefixes:
     - 2603:1050:403::500/122
     - 2603:1050:403:400::240/124
   counts:
-    total: 964
-    ipv4: 575
+    total: 963
+    ipv4: 574
     ipv6: 389

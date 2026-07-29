@@ -1,7 +1,7 @@
 id: AzureAttestation.SwitzerlandWest
 name: AzureAttestation.SwitzerlandWest
 metadata:
-  change_number: 4
+  change_number: 5
   region: switzerlandw
   platform: Azure
   system_service: AzureAttestation
@@ -13,6 +13,8 @@ address_prefixes:
     - 51.107.250.40/30
     - 57.160.5.108/30
     - 57.160.5.160/29
+    - 57.160.28.156/30
+    - 57.160.28.200/29
     - 2603:1020:b04:5::b0/124
   ipv4:
     - 4.226.197.72/29
@@ -20,9 +22,11 @@ address_prefixes:
     - 51.107.250.40/30
     - 57.160.5.108/30
     - 57.160.5.160/29
+    - 57.160.28.156/30
+    - 57.160.28.200/29
   ipv6:
     - 2603:1020:b04:5::b0/124
   counts:
-    total: 6
-    ipv4: 5
+    total: 8
+    ipv4: 7
     ipv6: 1

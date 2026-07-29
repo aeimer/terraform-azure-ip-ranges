@@ -1,7 +1,7 @@
 id: AzureAttestation.CentralIndia
 name: AzureAttestation.CentralIndia
 metadata:
-  change_number: 3
+  change_number: 4
   region: centralindia
   platform: Azure
   system_service: AzureAttestation
@@ -10,6 +10,8 @@ address_prefixes:
   all:
     - 4.188.30.180/30
     - 4.188.30.184/29
+    - 4.188.132.24/29
+    - 4.188.132.32/30
     - 4.247.186.56/29
     - 20.43.123.196/30
     - 20.192.43.76/30
@@ -17,12 +19,14 @@ address_prefixes:
   ipv4:
     - 4.188.30.180/30
     - 4.188.30.184/29
+    - 4.188.132.24/29
+    - 4.188.132.32/30
     - 4.247.186.56/29
     - 20.43.123.196/30
     - 20.192.43.76/30
   ipv6:
     - 2603:1040:a06:2::2a0/123
   counts:
-    total: 6
-    ipv4: 5
+    total: 8
+    ipv4: 7
     ipv6: 1

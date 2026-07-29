@@ -1,7 +1,7 @@
 id: AzureAttestation.CanadaEast
 name: AzureAttestation.CanadaEast
 metadata:
-  change_number: 5
+  change_number: 6
   region: canadaeast
   platform: Azure
   system_service: AzureAttestation
@@ -13,6 +13,8 @@ address_prefixes:
     - 20.200.5.104/29
     - 40.69.111.116/30
     - 40.89.23.44/30
+    - 145.191.155.244/30
+    - 145.191.155.248/29
     - 2603:1030:1005:3::1e0/124
   ipv4:
     - 4.239.0.248/29
@@ -20,9 +22,11 @@ address_prefixes:
     - 20.200.5.104/29
     - 40.69.111.116/30
     - 40.89.23.44/30
+    - 145.191.155.244/30
+    - 145.191.155.248/29
   ipv6:
     - 2603:1030:1005:3::1e0/124
   counts:
-    total: 6
-    ipv4: 5
+    total: 8
+    ipv4: 7
     ipv6: 1

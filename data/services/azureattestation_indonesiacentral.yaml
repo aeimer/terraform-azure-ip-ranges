@@ -1,7 +1,7 @@
 id: AzureAttestation.IndonesiaCentral
 name: AzureAttestation.IndonesiaCentral
 metadata:
-  change_number: 2
+  change_number: 3
   region: indonesiacentral
   platform: Azure
   system_service: AzureAttestation
@@ -10,15 +10,19 @@ address_prefixes:
   all:
     - 48.193.77.176/29
     - 48.193.77.184/30
+    - 48.193.109.152/29
+    - 48.193.109.192/30
     - 70.153.152.20/30
     - 2603:1040:1802::2e0/124
   ipv4:
     - 48.193.77.176/29
     - 48.193.77.184/30
+    - 48.193.109.152/29
+    - 48.193.109.192/30
     - 70.153.152.20/30
   ipv6:
     - 2603:1040:1802::2e0/124
   counts:
-    total: 4
-    ipv4: 3
+    total: 6
+    ipv4: 5
     ipv6: 1

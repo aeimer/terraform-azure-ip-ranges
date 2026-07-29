@@ -1,7 +1,7 @@
 id: AzureAttestation.MalaysiaSouth
 name: AzureAttestation.MalaysiaSouth
 metadata:
-  change_number: 3
+  change_number: 4
   region: malaysiasouth
   platform: Azure
   system_service: AzureAttestation
@@ -12,15 +12,21 @@ address_prefixes:
     - 85.211.94.232/29
     - 172.197.29.36/30
     - 172.197.29.40/29
+    - 172.197.52.24/29
+    - 172.197.52.144/30
     - 2603:1040:1503::620/124
+    - 2603:1040:1503:8::2d0/124
   ipv4:
     - 20.17.51.36/30
     - 85.211.94.232/29
     - 172.197.29.36/30
     - 172.197.29.40/29
+    - 172.197.52.24/29
+    - 172.197.52.144/30
   ipv6:
     - 2603:1040:1503::620/124
+    - 2603:1040:1503:8::2d0/124
   counts:
-    total: 5
-    ipv4: 4
-    ipv6: 1
+    total: 8
+    ipv4: 6
+    ipv6: 2

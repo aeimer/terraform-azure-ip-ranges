@@ -1,7 +1,7 @@
 id: AzureCloud.australiasoutheast
 name: AzureCloud.australiasoutheast
 metadata:
-  change_number: 75
+  change_number: 76
   region: australiasoutheast
   platform: Azure
   system_service: ""
@@ -119,6 +119,9 @@ address_prefixes:
     - 52.243.64.0/18
     - 52.245.20.0/22
     - 52.255.32.0/19
+    - 57.157.168.0/27
+    - 57.157.168.32/29
+    - 57.157.168.40/30
     - 68.218.160.0/19
     - 70.152.1.0/24
     - 70.152.219.0/24
@@ -295,6 +298,9 @@ address_prefixes:
     - 52.243.64.0/18
     - 52.245.20.0/22
     - 52.255.32.0/19
+    - 57.157.168.0/27
+    - 57.157.168.32/29
+    - 57.157.168.40/30
     - 68.218.160.0/19
     - 70.152.1.0/24
     - 70.152.219.0/24
@@ -363,6 +369,6 @@ address_prefixes:
     - 2a01:111:f403:dc0e::/64
     - 2a01:111:f403:e40e::/64
   counts:
-    total: 175
-    ipv4: 131
+    total: 178
+    ipv4: 134
     ipv6: 44

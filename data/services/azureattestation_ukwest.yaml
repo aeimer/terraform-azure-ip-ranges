@@ -1,7 +1,7 @@
 id: AzureAttestation.UKWest
 name: AzureAttestation.UKWest
 metadata:
-  change_number: 5
+  change_number: 6
   region: ukwest
   platform: Azure
   system_service: AzureAttestation
@@ -13,6 +13,8 @@ address_prefixes:
     - 51.140.215.168/30
     - 172.186.116.228/30
     - 172.186.116.240/29
+    - 172.186.143.108/30
+    - 172.186.143.128/29
     - 2603:1020:605:3::3d0/124
   ipv4:
     - 20.58.72.32/29
@@ -20,9 +22,11 @@ address_prefixes:
     - 51.140.215.168/30
     - 172.186.116.228/30
     - 172.186.116.240/29
+    - 172.186.143.108/30
+    - 172.186.143.128/29
   ipv6:
     - 2603:1020:605:3::3d0/124
   counts:
-    total: 6
-    ipv4: 5
+    total: 8
+    ipv4: 7
     ipv6: 1
