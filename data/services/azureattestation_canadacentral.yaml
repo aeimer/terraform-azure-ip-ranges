@@ -1,7 +1,7 @@
 id: AzureAttestation.CanadaCentral
 name: AzureAttestation.CanadaCentral
 metadata:
-  change_number: 5
+  change_number: 6
   region: canadacentral
   platform: Azure
   system_service: AzureAttestation
@@ -15,6 +15,7 @@ address_prefixes:
     - 4.173.153.240/30
     - 13.71.175.208/30
     - 20.48.193.180/30
+    - 2603:1030:f05:14::120/124
   ipv4:
     - 4.172.85.24/29
     - 4.173.15.64/29
@@ -23,8 +24,9 @@ address_prefixes:
     - 4.173.153.240/30
     - 13.71.175.208/30
     - 20.48.193.180/30
-  ipv6: []
+  ipv6:
+    - 2603:1030:f05:14::120/124
   counts:
-    total: 7
+    total: 8
     ipv4: 7
-    ipv6: 0
+    ipv6: 1

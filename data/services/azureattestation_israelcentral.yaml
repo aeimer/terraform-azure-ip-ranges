@@ -1,7 +1,7 @@
 id: AzureAttestation.IsraelCentral
 name: AzureAttestation.IsraelCentral
 metadata:
-  change_number: 4
+  change_number: 5
   region: israelcentral
   platform: Azure
   system_service: AzureAttestation
@@ -15,6 +15,7 @@ address_prefixes:
     - 51.58.109.124/30
     - 51.58.110.48/29
     - 2603:1040:1402::620/124
+    - 2603:1040:1402:a::750/124
   ipv4:
     - 20.217.40.44/30
     - 51.58.49.24/29
@@ -24,7 +25,8 @@ address_prefixes:
     - 51.58.110.48/29
   ipv6:
     - 2603:1040:1402::620/124
+    - 2603:1040:1402:a::750/124
   counts:
-    total: 7
+    total: 8
     ipv4: 6
-    ipv6: 1
+    ipv6: 2

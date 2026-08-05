@@ -1,7 +1,7 @@
 id: AzureAttestation.JioIndiaWest
 name: AzureAttestation.JioIndiaWest
 metadata:
-  change_number: 4
+  change_number: 5
   region: jioindiawest
   platform: Azure
   system_service: AzureAttestation
@@ -15,6 +15,7 @@ address_prefixes:
     - 20.244.215.88/30
     - 135.235.62.96/29
     - 2603:1040:d04:1::720/123
+    - 2603:1040:d04:9::220/124
   ipv4:
     - 4.187.48.236/30
     - 4.187.49.80/29
@@ -24,7 +25,8 @@ address_prefixes:
     - 135.235.62.96/29
   ipv6:
     - 2603:1040:d04:1::720/123
+    - 2603:1040:d04:9::220/124
   counts:
-    total: 7
+    total: 8
     ipv4: 6
-    ipv6: 1
+    ipv6: 2

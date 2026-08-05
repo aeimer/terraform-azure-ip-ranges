@@ -1,7 +1,7 @@
 id: AzureAttestation.NewZealandNorth
 name: AzureAttestation.NewZealandNorth
 metadata:
-  change_number: 4
+  change_number: 5
   region: newzealandnorth
   platform: Azure
   system_service: AzureAttestation
@@ -15,6 +15,7 @@ address_prefixes:
     - 172.204.152.20/30
     - 172.204.255.208/29
     - 2603:1010:502::5c0/124
+    - 2603:1010:502:8::b0/124
   ipv4:
     - 172.196.77.104/29
     - 172.196.77.112/30
@@ -24,7 +25,8 @@ address_prefixes:
     - 172.204.255.208/29
   ipv6:
     - 2603:1010:502::5c0/124
+    - 2603:1010:502:8::b0/124
   counts:
-    total: 7
+    total: 8
     ipv4: 6
-    ipv6: 1
+    ipv6: 2

@@ -1,7 +1,7 @@
 id: AzureAttestation.NorthEurope
 name: AzureAttestation.NorthEurope
 metadata:
-  change_number: 5
+  change_number: 6
   region: northeurope
   platform: Azure
   system_service: AzureAttestation
@@ -15,6 +15,7 @@ address_prefixes:
     - 52.146.132.244/30
     - 74.144.85.112/29
     - 74.144.85.120/30
+    - 2603:1020:5:25::7b0/124
   ipv4:
     - 4.209.98.40/29
     - 4.209.98.48/30
@@ -23,8 +24,9 @@ address_prefixes:
     - 52.146.132.244/30
     - 74.144.85.112/29
     - 74.144.85.120/30
-  ipv6: []
+  ipv6:
+    - 2603:1020:5:25::7b0/124
   counts:
-    total: 7
+    total: 8
     ipv4: 7
-    ipv6: 0
+    ipv6: 1

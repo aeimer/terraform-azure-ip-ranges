@@ -1,7 +1,7 @@
 id: AzureAttestation.PolandCentral
 name: AzureAttestation.PolandCentral
 metadata:
-  change_number: 4
+  change_number: 5
   region: polandcentral
   platform: Azure
   system_service: AzureAttestation
@@ -15,6 +15,7 @@ address_prefixes:
     - 134.112.195.40/29
     - 134.112.195.48/30
     - 2603:1020:1302::620/124
+    - 2603:1020:1302:b::780/124
   ipv4:
     - 20.215.0.44/30
     - 20.215.120.112/29
@@ -24,7 +25,8 @@ address_prefixes:
     - 134.112.195.48/30
   ipv6:
     - 2603:1020:1302::620/124
+    - 2603:1020:1302:b::780/124
   counts:
-    total: 7
+    total: 8
     ipv4: 6
-    ipv6: 1
+    ipv6: 2

@@ -1,7 +1,7 @@
 id: PowerPlatformInfra.AustriaEast
 name: PowerPlatformInfra.AustriaEast
 metadata:
-  change_number: 1
+  change_number: 2
   region: austriaeast
   platform: Azure
   system_service: PowerPlatformInfra
@@ -14,11 +14,13 @@ address_prefixes:
   all:
     - 68.210.247.0/24
     - 68.210.248.0/25
+    - 2603:1061:2002:c800::/57
   ipv4:
     - 68.210.247.0/24
     - 68.210.248.0/25
-  ipv6: []
+  ipv6:
+    - 2603:1061:2002:c800::/57
   counts:
-    total: 2
+    total: 3
     ipv4: 2
-    ipv6: 0
+    ipv6: 1

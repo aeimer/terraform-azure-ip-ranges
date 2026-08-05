@@ -1,7 +1,7 @@
 id: AzureAttestation.CentralUS
 name: AzureAttestation.CentralUS
 metadata:
-  change_number: 5
+  change_number: 6
   region: centralus
   platform: Azure
   system_service: AzureAttestation
@@ -15,6 +15,7 @@ address_prefixes:
     - 57.175.115.20/30
     - 57.175.115.24/29
     - 172.170.180.48/29
+    - 2603:1030:10:2b::10/124
   ipv4:
     - 20.40.225.60/30
     - 20.44.12.140/30
@@ -23,8 +24,9 @@ address_prefixes:
     - 57.175.115.20/30
     - 57.175.115.24/29
     - 172.170.180.48/29
-  ipv6: []
+  ipv6:
+    - 2603:1030:10:2b::10/124
   counts:
-    total: 7
+    total: 8
     ipv4: 7
-    ipv6: 0
+    ipv6: 1

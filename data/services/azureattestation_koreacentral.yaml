@@ -1,7 +1,7 @@
 id: AzureAttestation.KoreaCentral
 name: AzureAttestation.KoreaCentral
 metadata:
-  change_number: 4
+  change_number: 5
   region: koreacentral
   platform: Azure
   system_service: AzureAttestation
@@ -16,6 +16,7 @@ address_prefixes:
     - 20.194.72.148/30
     - 52.231.23.116/30
     - 2603:1040:f05::7a0/123
+    - 2603:1040:f05:10::460/124
   ipv4:
     - 4.217.214.72/29
     - 4.230.167.208/29
@@ -26,7 +27,8 @@ address_prefixes:
     - 52.231.23.116/30
   ipv6:
     - 2603:1040:f05::7a0/123
+    - 2603:1040:f05:10::460/124
   counts:
-    total: 8
+    total: 9
     ipv4: 7
-    ipv6: 1
+    ipv6: 2

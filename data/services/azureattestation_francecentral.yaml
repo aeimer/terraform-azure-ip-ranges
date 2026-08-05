@@ -1,7 +1,7 @@
 id: AzureAttestation.FranceCentral
 name: AzureAttestation.FranceCentral
 metadata:
-  change_number: 4
+  change_number: 5
   region: centralfrance
   platform: Azure
   system_service: AzureAttestation
@@ -15,6 +15,7 @@ address_prefixes:
     - 4.212.7.200/29
     - 40.79.141.132/30
     - 51.138.210.128/30
+    - 2603:1020:805:12::4f0/124
   ipv4:
     - 4.176.24.176/29
     - 4.211.160.76/30
@@ -23,8 +24,9 @@ address_prefixes:
     - 4.212.7.200/29
     - 40.79.141.132/30
     - 51.138.210.128/30
-  ipv6: []
+  ipv6:
+    - 2603:1020:805:12::4f0/124
   counts:
-    total: 7
+    total: 8
     ipv4: 7
-    ipv6: 0
+    ipv6: 1

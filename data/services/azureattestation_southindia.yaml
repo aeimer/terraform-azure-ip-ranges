@@ -1,7 +1,7 @@
 id: AzureAttestation.SouthIndia
 name: AzureAttestation.SouthIndia
 metadata:
-  change_number: 5
+  change_number: 6
   region: southindia
   platform: Azure
   system_service: AzureAttestation
@@ -16,6 +16,7 @@ address_prefixes:
     - 74.224.224.216/30
     - 74.225.41.64/29
     - 2603:1040:c06:3::390/124
+    - 2603:1040:c06:e::2f0/124
   ipv4:
     - 4.247.40.40/29
     - 4.247.40.64/30
@@ -26,7 +27,8 @@ address_prefixes:
     - 74.225.41.64/29
   ipv6:
     - 2603:1040:c06:3::390/124
+    - 2603:1040:c06:e::2f0/124
   counts:
-    total: 8
+    total: 9
     ipv4: 7
-    ipv6: 1
+    ipv6: 2

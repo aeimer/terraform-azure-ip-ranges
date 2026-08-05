@@ -1,7 +1,7 @@
 id: AzureAttestation.SpainCentral
 name: AzureAttestation.SpainCentral
 metadata:
-  change_number: 4
+  change_number: 5
   region: spaincentral
   platform: Azure
   system_service: AzureAttestation
@@ -15,6 +15,7 @@ address_prefixes:
     - 158.158.214.140/30
     - 158.158.214.240/29
     - 2603:1020:1403::5e0/124
+    - 2603:1020:1403:9::520/124
   ipv4:
     - 68.221.84.152/30
     - 70.156.172.240/29
@@ -24,7 +25,8 @@ address_prefixes:
     - 158.158.214.240/29
   ipv6:
     - 2603:1020:1403::5e0/124
+    - 2603:1020:1403:9::520/124
   counts:
-    total: 7
+    total: 8
     ipv4: 6
-    ipv6: 1
+    ipv6: 2

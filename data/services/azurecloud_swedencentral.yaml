@@ -1,7 +1,7 @@
 id: AzureCloud.swedencentral
 name: AzureCloud.swedencentral
 metadata:
-  change_number: 85
+  change_number: 86
   region: swedencentral
   platform: Azure
   system_service: ""
@@ -144,7 +144,7 @@ address_prefixes:
     - 57.150.58.0/23
     - 57.157.68.0/23
     - 57.157.70.0/24
-    - 57.157.71.0/31
+    - 57.157.71.0/28
     - 57.163.6.0/23
     - 57.174.0.0/16
     - 70.152.27.0/24
@@ -340,7 +340,7 @@ address_prefixes:
     - 57.150.58.0/23
     - 57.157.68.0/23
     - 57.157.70.0/24
-    - 57.157.71.0/31
+    - 57.157.71.0/28
     - 57.163.6.0/23
     - 57.174.0.0/16
     - 70.152.27.0/24

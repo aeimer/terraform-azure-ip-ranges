@@ -1,7 +1,7 @@
 id: AzureAttestation.SouthAfricaNorth
 name: AzureAttestation.SouthAfricaNorth
 metadata:
-  change_number: 4
+  change_number: 5
   region: southafricanorth
   platform: Azure
   system_service: AzureAttestation
@@ -15,6 +15,7 @@ address_prefixes:
     - 4.222.1.72/30
     - 102.133.126.132/30
     - 102.133.221.196/30
+    - 2603:1000:104:e::1c0/124
   ipv4:
     - 4.221.45.232/29
     - 4.221.237.84/30
@@ -23,8 +24,9 @@ address_prefixes:
     - 4.222.1.72/30
     - 102.133.126.132/30
     - 102.133.221.196/30
-  ipv6: []
+  ipv6:
+    - 2603:1000:104:e::1c0/124
   counts:
-    total: 7
+    total: 8
     ipv4: 7
-    ipv6: 0
+    ipv6: 1

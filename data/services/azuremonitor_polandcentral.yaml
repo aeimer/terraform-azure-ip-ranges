@@ -1,7 +1,7 @@
 id: AzureMonitor.PolandCentral
 name: AzureMonitor.PolandCentral
 metadata:
-  change_number: 11
+  change_number: 12
   region: polandcentral
   platform: Azure
   system_service: AzureMonitor
@@ -25,6 +25,7 @@ address_prefixes:
     - 20.215.158.128/29
     - 20.215.158.144/28
     - 20.215.168.224/27
+    - 74.153.3.64/26
     - 134.112.76.112/28
     - 134.112.77.0/27
     - 134.112.226.128/27
@@ -62,6 +63,7 @@ address_prefixes:
     - 20.215.158.128/29
     - 20.215.158.144/28
     - 20.215.168.224/27
+    - 74.153.3.64/26
     - 134.112.76.112/28
     - 134.112.77.0/27
     - 134.112.226.128/27
@@ -84,6 +86,6 @@ address_prefixes:
     - 2603:1020:1302:b::680/122
     - 2603:1020:1302:b::6c0/123
   counts:
-    total: 36
-    ipv4: 19
+    total: 37
+    ipv4: 20
     ipv6: 17

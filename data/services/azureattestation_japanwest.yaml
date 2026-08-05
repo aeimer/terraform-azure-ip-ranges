@@ -1,7 +1,7 @@
 id: AzureAttestation.JapanWest
 name: AzureAttestation.JapanWest
 metadata:
-  change_number: 5
+  change_number: 6
   region: japanwest
   platform: Azure
   system_service: AzureAttestation
@@ -16,6 +16,7 @@ address_prefixes:
     - 172.192.225.104/29
     - 172.192.225.144/30
     - 2603:1040:606:3::e0/124
+    - 2603:1040:606:10::480/124
   ipv4:
     - 20.63.252.136/29
     - 20.189.225.84/30
@@ -26,7 +27,8 @@ address_prefixes:
     - 172.192.225.144/30
   ipv6:
     - 2603:1040:606:3::e0/124
+    - 2603:1040:606:10::480/124
   counts:
-    total: 8
+    total: 9
     ipv4: 7
-    ipv6: 1
+    ipv6: 2

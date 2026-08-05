@@ -1,7 +1,7 @@
 id: AzureCloud.malaysiawest
 name: AzureCloud.malaysiawest
 metadata:
-  change_number: 23
+  change_number: 24
   region: malaysiawest
   platform: Azure
   system_service: ""
@@ -12,6 +12,7 @@ address_prefixes:
   all:
     - 9.129.54.64/26
     - 9.129.55.128/27
+    - 9.129.67.160/27
     - 20.17.80.0/20
     - 20.17.96.0/19
     - 20.17.128.0/18
@@ -106,6 +107,7 @@ address_prefixes:
   ipv4:
     - 9.129.54.64/26
     - 9.129.55.128/27
+    - 9.129.67.160/27
     - 20.17.80.0/20
     - 20.17.96.0/19
     - 20.17.128.0/18
@@ -199,6 +201,6 @@ address_prefixes:
     - 2a01:111:f403:dc15::/64
     - 2a01:111:f403:e415::/64
   counts:
-    total: 93
-    ipv4: 60
+    total: 94
+    ipv4: 61
     ipv6: 33
