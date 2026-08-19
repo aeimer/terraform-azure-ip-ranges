@@ -1,7 +1,7 @@
 id: AzureCloud.polandcentral
 name: AzureCloud.polandcentral
 metadata:
-  change_number: 62
+  change_number: 63
   region: polandcentral
   platform: Azure
   system_service: ""
@@ -80,6 +80,7 @@ address_prefixes:
     - 134.112.0.0/16
     - 135.130.208.0/23
     - 145.190.74.0/24
+    - 151.206.118.0/24
     - 151.206.155.0/24
     - 151.206.181.0/24
     - 2603:1020:1300::/47
@@ -195,6 +196,7 @@ address_prefixes:
     - 134.112.0.0/16
     - 135.130.208.0/23
     - 145.190.74.0/24
+    - 151.206.118.0/24
     - 151.206.155.0/24
     - 151.206.181.0/24
   ipv6:
@@ -241,6 +243,6 @@ address_prefixes:
     - 2a01:111:f403:da11::/64
     - 2a01:111:f403:e211::/64
   counts:
-    total: 114
-    ipv4: 72
+    total: 115
+    ipv4: 73
     ipv6: 42

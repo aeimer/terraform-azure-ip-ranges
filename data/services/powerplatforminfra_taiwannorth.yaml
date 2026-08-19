@@ -1,7 +1,7 @@
 id: PowerPlatformInfra.TaiwanNorth
 name: PowerPlatformInfra.TaiwanNorth
 metadata:
-  change_number: 1
+  change_number: 2
   region: taiwannorth
   platform: Azure
   system_service: PowerPlatformInfra
@@ -14,11 +14,13 @@ address_prefixes:
   all:
     - 70.157.171.128/25
     - 70.157.172.0/24
+    - 2603:1061:2002:e000::/57
   ipv4:
     - 70.157.171.128/25
     - 70.157.172.0/24
-  ipv6: []
+  ipv6:
+    - 2603:1061:2002:e000::/57
   counts:
-    total: 2
+    total: 3
     ipv4: 2
-    ipv6: 0
+    ipv6: 1

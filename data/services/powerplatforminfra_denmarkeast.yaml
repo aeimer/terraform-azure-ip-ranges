@@ -1,7 +1,7 @@
 id: PowerPlatformInfra.DenmarkEast
 name: PowerPlatformInfra.DenmarkEast
 metadata:
-  change_number: 1
+  change_number: 2
   region: denmarkeast
   platform: Azure
   system_service: PowerPlatformInfra
@@ -14,11 +14,13 @@ address_prefixes:
   all:
     - 9.205.180.128/25
     - 9.205.181.0/24
+    - 2603:1061:2002:d400::/57
   ipv4:
     - 9.205.180.128/25
     - 9.205.181.0/24
-  ipv6: []
+  ipv6:
+    - 2603:1061:2002:d400::/57
   counts:
-    total: 2
+    total: 3
     ipv4: 2
-    ipv6: 0
+    ipv6: 1

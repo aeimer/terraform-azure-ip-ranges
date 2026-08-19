@@ -1,7 +1,7 @@
 id: PowerPlatformPlex.MalaysiaSouth
 name: PowerPlatformPlex.MalaysiaSouth
 metadata:
-  change_number: 1
+  change_number: 2
   region: malaysiasouth
   platform: Azure
   system_service: PowerPlatformPlex
@@ -11,10 +11,12 @@ metadata:
 address_prefixes:
   all:
     - 172.197.30.0/25
+    - 2603:1061:2004:d400::/57
   ipv4:
     - 172.197.30.0/25
-  ipv6: []
+  ipv6:
+    - 2603:1061:2004:d400::/57
   counts:
-    total: 1
+    total: 2
     ipv4: 1
-    ipv6: 0
+    ipv6: 1

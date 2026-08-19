@@ -1,7 +1,7 @@
 id: PowerPlatformInfra.MalaysiaWest
 name: PowerPlatformInfra.MalaysiaWest
 metadata:
-  change_number: 1
+  change_number: 2
   region: malaysiawest
   platform: Azure
   system_service: PowerPlatformInfra
@@ -14,11 +14,13 @@ address_prefixes:
   all:
     - 172.197.134.128/25
     - 172.197.135.0/24
+    - 2603:1061:2002:d880::/57
   ipv4:
     - 172.197.134.128/25
     - 172.197.135.0/24
-  ipv6: []
+  ipv6:
+    - 2603:1061:2002:d880::/57
   counts:
-    total: 2
+    total: 3
     ipv4: 2
-    ipv6: 0
+    ipv6: 1

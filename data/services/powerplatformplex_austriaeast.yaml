@@ -1,7 +1,7 @@
 id: PowerPlatformPlex.AustriaEast
 name: PowerPlatformPlex.AustriaEast
 metadata:
-  change_number: 1
+  change_number: 2
   region: austriaeast
   platform: Azure
   system_service: PowerPlatformPlex
@@ -11,10 +11,12 @@ metadata:
 address_prefixes:
   all:
     - 68.210.246.0/25
+    - 2603:1061:2004:c800::/57
   ipv4:
     - 68.210.246.0/25
-  ipv6: []
+  ipv6:
+    - 2603:1061:2004:c800::/57
   counts:
-    total: 1
+    total: 2
     ipv4: 1
-    ipv6: 0
+    ipv6: 1

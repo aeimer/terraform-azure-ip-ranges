@@ -1,7 +1,7 @@
 id: AppConfiguration
 name: AppConfiguration
 metadata:
-  change_number: 75
+  change_number: 76
   region: ""
   platform: Azure
   system_service: AzureAppConfiguration
@@ -476,6 +476,7 @@ address_prefixes:
     - 167.105.104.192/27
     - 168.61.142.96/27
     - 172.129.84.0/26
+    - 172.129.101.32/27
     - 172.194.76.0/26
     - 172.194.112.64/27
     - 172.198.92.0/26
@@ -1209,6 +1210,7 @@ address_prefixes:
     - 167.105.104.192/27
     - 168.61.142.96/27
     - 172.129.84.0/26
+    - 172.129.101.32/27
     - 172.194.76.0/26
     - 172.194.112.64/27
     - 172.198.92.0/26
@@ -1479,6 +1481,6 @@ address_prefixes:
     - 2603:1050:301:c00::20/123
     - 2603:1050:403:400::200/123
   counts:
-    total: 732
-    ipv4: 491
+    total: 733
+    ipv4: 492
     ipv6: 241

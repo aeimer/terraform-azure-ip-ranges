@@ -1,7 +1,7 @@
 id: Storage.WestUS
 name: Storage.WestUS
 metadata:
-  change_number: 28
+  change_number: 29
   region: westus
   platform: Azure
   system_service: AzureStorage
@@ -94,6 +94,7 @@ address_prefixes:
     - 57.150.60.0/23
     - 57.150.146.0/23
     - 57.150.228.0/23
+    - 57.163.66.0/23
     - 104.42.200.16/28
     - 135.130.26.0/23
     - 135.130.66.0/23
@@ -194,6 +195,7 @@ address_prefixes:
     - 57.150.60.0/23
     - 57.150.146.0/23
     - 57.150.228.0/23
+    - 57.163.66.0/23
     - 104.42.200.16/28
     - 135.130.26.0/23
     - 135.130.66.0/23
@@ -213,6 +215,6 @@ address_prefixes:
     - 2603:1030:a0a:8040::/62
     - 2603:1030:a0a:8044::/63
   counts:
-    total: 99
-    ipv4: 95
+    total: 100
+    ipv4: 96
     ipv6: 4

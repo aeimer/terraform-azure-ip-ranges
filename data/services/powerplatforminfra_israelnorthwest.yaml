@@ -1,7 +1,7 @@
 id: PowerPlatformInfra.IsraelNorthwest
 name: PowerPlatformInfra.IsraelNorthwest
 metadata:
-  change_number: 1
+  change_number: 2
   region: israelnorthwest
   platform: Azure
   system_service: PowerPlatformInfra
@@ -14,11 +14,13 @@ address_prefixes:
   all:
     - 51.4.231.0/24
     - 51.58.144.0/25
+    - 2603:1061:2002:9100::/57
   ipv4:
     - 51.4.231.0/24
     - 51.58.144.0/25
-  ipv6: []
+  ipv6:
+    - 2603:1061:2002:9100::/57
   counts:
-    total: 2
+    total: 3
     ipv4: 2
-    ipv6: 0
+    ipv6: 1
