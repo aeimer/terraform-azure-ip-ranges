@@ -1,7 +1,7 @@
 id: AzureCloud.uksouth
 name: AzureCloud.uksouth
 metadata:
-  change_number: 114
+  change_number: 115
   region: uksouth
   platform: Azure
   system_service: ""
@@ -191,6 +191,7 @@ address_prefixes:
     - 57.157.40.96/28
     - 57.157.40.112/29
     - 57.157.40.120/30
+    - 57.157.40.124/31
     - 57.163.64.0/23
     - 70.152.33.0/24
     - 70.152.237.0/24
@@ -431,6 +432,7 @@ address_prefixes:
     - 57.157.40.96/28
     - 57.157.40.112/29
     - 57.157.40.120/30
+    - 57.157.40.124/31
     - 57.163.64.0/23
     - 70.152.33.0/24
     - 70.152.237.0/24
@@ -491,6 +493,6 @@ address_prefixes:
     - 2a01:111:f403:da04::/64
     - 2a01:111:f403:e204::/64
   counts:
-    total: 239
-    ipv4: 199
+    total: 240
+    ipv4: 200
     ipv6: 40

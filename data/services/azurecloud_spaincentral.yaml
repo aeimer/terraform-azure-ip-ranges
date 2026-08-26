@@ -1,7 +1,7 @@
 id: AzureCloud.spaincentral
 name: AzureCloud.spaincentral
 metadata:
-  change_number: 52
+  change_number: 53
   region: spaincentral
   platform: Azure
   system_service: ""
@@ -25,6 +25,7 @@ address_prefixes:
     - 20.95.114.0/23
     - 20.143.16.0/22
     - 20.143.28.0/23
+    - 20.143.228.0/23
     - 20.153.9.0/24
     - 20.157.208.0/24
     - 20.157.243.0/24
@@ -135,6 +136,7 @@ address_prefixes:
     - 20.95.114.0/23
     - 20.143.16.0/22
     - 20.143.28.0/23
+    - 20.143.228.0/23
     - 20.153.9.0/24
     - 20.157.208.0/24
     - 20.157.243.0/24
@@ -231,6 +233,6 @@ address_prefixes:
     - 2a01:111:f403:da05::/64
     - 2a01:111:f403:e205::/64
   counts:
-    total: 109
-    ipv4: 63
+    total: 110
+    ipv4: 64
     ipv6: 46
