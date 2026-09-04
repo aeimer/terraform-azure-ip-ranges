@@ -1,7 +1,7 @@
 id: EventHub.AustraliaSoutheast
 name: EventHub.AustraliaSoutheast
 metadata:
-  change_number: 8
+  change_number: 9
   region: australiasoutheast
   platform: Azure
   system_service: AzureEventHub
@@ -12,12 +12,14 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 4.199.88.128/26
     - 13.77.50.32/27
     - 20.92.2.0/24
     - 2603:1010:101::240/122
     - 2603:1010:101:2::600/119
     - 2603:1010:101:402::1c0/123
   ipv4:
+    - 4.199.88.128/26
     - 13.77.50.32/27
     - 20.92.2.0/24
   ipv6:
@@ -25,6 +27,6 @@ address_prefixes:
     - 2603:1010:101:2::600/119
     - 2603:1010:101:402::1c0/123
   counts:
-    total: 5
-    ipv4: 2
+    total: 6
+    ipv4: 3
     ipv6: 3

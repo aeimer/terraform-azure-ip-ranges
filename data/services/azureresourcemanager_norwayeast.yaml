@@ -5,8 +5,7 @@ metadata:
   region: norwaye
   platform: Azure
   system_service: AzureResourceManager
-  network_features:
-    - API
+  network_features: []
 address_prefixes:
   all:
     - 51.120.46.0/23

@@ -1,7 +1,7 @@
 id: ServiceBus.EastUS3
 name: ServiceBus.EastUS3
 metadata:
-  change_number: 1
+  change_number: 2
   region: eastus3
   platform: Azure
   system_service: AzureServiceBus
@@ -11,12 +11,14 @@ metadata:
 address_prefixes:
   all:
     - 134.138.71.128/25
+    - 134.138.96.16/29
     - 2603:1030:1402:1::180/121
   ipv4:
     - 134.138.71.128/25
+    - 134.138.96.16/29
   ipv6:
     - 2603:1030:1402:1::180/121
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

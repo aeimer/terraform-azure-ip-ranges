@@ -1,7 +1,7 @@
 id: EventHub
 name: EventHub
 metadata:
-  change_number: 88
+  change_number: 89
   region: ""
   platform: Azure
   system_service: AzureEventHub
@@ -19,6 +19,7 @@ address_prefixes:
     - 4.177.25.0/26
     - 4.186.6.64/26
     - 4.190.144.128/26
+    - 4.199.88.128/26
     - 4.206.228.192/26
     - 4.232.29.0/24
     - 4.232.107.64/26
@@ -682,6 +683,7 @@ address_prefixes:
     - 4.177.25.0/26
     - 4.186.6.64/26
     - 4.190.144.128/26
+    - 4.199.88.128/26
     - 4.206.228.192/26
     - 4.232.29.0/24
     - 4.232.107.64/26
@@ -1340,6 +1342,6 @@ address_prefixes:
     - 2603:10e1:100:2::348b:476/128
     - 2603:10e1:100:2::34bf:e4f5/128
   counts:
-    total: 662
-    ipv4: 378
+    total: 663
+    ipv4: 379
     ipv6: 284
