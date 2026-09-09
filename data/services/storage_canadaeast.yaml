@@ -1,7 +1,7 @@
 id: Storage.CanadaEast
 name: Storage.CanadaEast
 metadata:
-  change_number: 10
+  change_number: 11
   region: canadaeast
   platform: Azure
   system_service: AzureStorage
@@ -29,6 +29,10 @@ address_prefixes:
     - 52.229.80.64/27
     - 52.239.164.128/26
     - 52.239.190.0/25
+    - 57.163.75.0/24
+    - 57.163.76.0/23
+    - 57.163.79.0/24
+    - 57.163.81.0/24
     - 135.130.50.0/23
     - 145.190.159.0/24
     - 2603:1030:1006::/48
@@ -50,11 +54,15 @@ address_prefixes:
     - 52.229.80.64/27
     - 52.239.164.128/26
     - 52.239.190.0/25
+    - 57.163.75.0/24
+    - 57.163.76.0/23
+    - 57.163.79.0/24
+    - 57.163.81.0/24
     - 135.130.50.0/23
     - 145.190.159.0/24
   ipv6:
     - 2603:1030:1006::/48
   counts:
-    total: 20
-    ipv4: 19
+    total: 24
+    ipv4: 23
     ipv6: 1

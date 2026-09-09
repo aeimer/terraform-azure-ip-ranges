@@ -1,7 +1,7 @@
 id: MicrosoftDefenderForEndpoint
 name: MicrosoftDefenderForEndpoint
 metadata:
-  change_number: 9
+  change_number: 10
   region: ""
   platform: Azure
   system_service: MicrosoftDefenderForEndpoint
@@ -35,6 +35,7 @@ address_prefixes:
     - 20.242.181.0/24
     - 20.254.173.48/28
     - 40.80.103.192/28
+    - 48.196.155.32/28
     - 51.4.226.144/28
     - 51.57.176.192/28
     - 52.172.85.0/28
@@ -67,6 +68,7 @@ address_prefixes:
     - 20.242.181.0/24
     - 20.254.173.48/28
     - 40.80.103.192/28
+    - 48.196.155.32/28
     - 51.4.226.144/28
     - 51.57.176.192/28
     - 52.172.85.0/28
@@ -77,6 +79,6 @@ address_prefixes:
     - 172.129.100.32/28
   ipv6: []
   counts:
-    total: 31
-    ipv4: 31
+    total: 32
+    ipv4: 32
     ipv6: 0

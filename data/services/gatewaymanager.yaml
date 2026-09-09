@@ -1,7 +1,7 @@
 id: GatewayManager
 name: GatewayManager
 metadata:
-  change_number: 45
+  change_number: 46
   region: ""
   platform: Azure
   system_service: GatewayManager
@@ -294,6 +294,7 @@ address_prefixes:
     - 134.112.169.240/28
     - 134.138.64.64/26
     - 145.191.111.64/27
+    - 145.191.173.128/26
     - 158.23.96.64/26
     - 158.158.133.112/28
     - 167.105.251.240/28
@@ -678,6 +679,7 @@ address_prefixes:
     - 134.112.169.240/28
     - 134.138.64.64/26
     - 145.191.111.64/27
+    - 145.191.173.128/26
     - 158.23.96.64/26
     - 158.158.133.112/28
     - 167.105.251.240/28
@@ -781,6 +783,6 @@ address_prefixes:
     - 2603:1050:301::40/122
     - 2603:1050:403::40/122
   counts:
-    total: 383
-    ipv4: 302
+    total: 384
+    ipv4: 303
     ipv6: 81

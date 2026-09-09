@@ -1,7 +1,7 @@
 id: GuestAndHybridManagement
 name: GuestAndHybridManagement
 metadata:
-  change_number: 60
+  change_number: 61
   region: ""
   platform: Azure
   system_service: AzureAutomation
@@ -520,6 +520,7 @@ address_prefixes:
     - 130.131.132.216/29
     - 134.138.70.96/27
     - 135.225.41.32/27
+    - 145.191.174.0/27
     - 157.55.90.60/30
     - 157.55.90.96/27
     - 157.55.90.192/29
@@ -1427,6 +1428,7 @@ address_prefixes:
     - 130.131.132.216/29
     - 134.138.70.96/27
     - 135.225.41.32/27
+    - 145.191.174.0/27
     - 157.55.90.60/30
     - 157.55.90.96/27
     - 157.55.90.192/29
@@ -1827,6 +1829,6 @@ address_prefixes:
     - 2603:1050:403:5::100/122
     - 2603:1050:403:400::1e0/124
   counts:
-    total: 906
-    ipv4: 548
+    total: 907
+    ipv4: 549
     ipv6: 358

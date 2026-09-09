@@ -1,7 +1,7 @@
 id: AzureHealthcareAPIs
 name: AzureHealthcareAPIs
 metadata:
-  change_number: 33
+  change_number: 34
   region: ""
   platform: Azure
   system_service: AzureAPIForFHIR
@@ -299,6 +299,7 @@ address_prefixes:
     - 108.140.45.244/30
     - 134.138.71.32/27
     - 145.191.108.6/31
+    - 145.191.174.32/27
     - 158.23.101.32/27
     - 172.129.79.32/27
     - 172.166.4.134/31
@@ -686,6 +687,7 @@ address_prefixes:
     - 108.140.45.244/30
     - 134.138.71.32/27
     - 145.191.108.6/31
+    - 145.191.174.32/27
     - 158.23.101.32/27
     - 172.129.79.32/27
     - 172.166.4.134/31
@@ -787,6 +789,6 @@ address_prefixes:
     - 2603:1050:301::6c0/123
     - 2603:1050:403:2::380/123
   counts:
-    total: 386
-    ipv4: 305
+    total: 387
+    ipv4: 306
     ipv6: 81

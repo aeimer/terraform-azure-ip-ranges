@@ -1,7 +1,7 @@
 id: MicrosoftContainerRegistry.CanadaEast
 name: MicrosoftContainerRegistry.CanadaEast
 metadata:
-  change_number: 2
+  change_number: 3
   region: canadaeast
   platform: Azure
   system_service: MicrosoftContainerRegistry
@@ -13,12 +13,16 @@ metadata:
 address_prefixes:
   all:
     - 40.69.106.72/29
+    - 145.191.175.96/29
+    - 2603:1030:1005:12::648/125
     - 2603:1030:1005:402::88/125
   ipv4:
     - 40.69.106.72/29
+    - 145.191.175.96/29
   ipv6:
+    - 2603:1030:1005:12::648/125
     - 2603:1030:1005:402::88/125
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 4
+    ipv4: 2
+    ipv6: 2

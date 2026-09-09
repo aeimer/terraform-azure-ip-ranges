@@ -1,7 +1,7 @@
 id: AzureConnectors.CanadaEast
 name: AzureConnectors.CanadaEast
 metadata:
-  change_number: 7
+  change_number: 8
   region: canadaeast
   platform: Azure
   system_service: AzureConnectors
@@ -21,6 +21,7 @@ address_prefixes:
     - 52.242.30.112/32
     - 52.242.35.152/32
     - 52.242.36.40/32
+    - 145.191.174.192/26
     - 2603:1030:1005:3::640/122
     - 2603:1030:1005:402::180/122
   ipv4:
@@ -33,10 +34,11 @@ address_prefixes:
     - 52.242.30.112/32
     - 52.242.35.152/32
     - 52.242.36.40/32
+    - 145.191.174.192/26
   ipv6:
     - 2603:1030:1005:3::640/122
     - 2603:1030:1005:402::180/122
   counts:
-    total: 11
-    ipv4: 9
+    total: 12
+    ipv4: 10
     ipv6: 2

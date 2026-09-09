@@ -1,7 +1,7 @@
 id: AzureSignalR.CanadaEast
 name: AzureSignalR.CanadaEast
 metadata:
-  change_number: 5
+  change_number: 6
   region: canadaeast
   platform: Azure
   system_service: AzureSignalR
@@ -11,14 +11,16 @@ address_prefixes:
     - 4.229.80.192/27
     - 40.69.110.128/27
     - 52.139.107.96/27
+    - 145.191.180.128/26
     - 2603:1030:1005:2::100/120
   ipv4:
     - 4.229.80.192/27
     - 40.69.110.128/27
     - 52.139.107.96/27
+    - 145.191.180.128/26
   ipv6:
     - 2603:1030:1005:2::100/120
   counts:
-    total: 4
-    ipv4: 3
+    total: 5
+    ipv4: 4
     ipv6: 1

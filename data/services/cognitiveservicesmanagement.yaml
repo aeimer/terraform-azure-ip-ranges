@@ -1,7 +1,7 @@
 id: CognitiveServicesManagement
 name: CognitiveServicesManagement
 metadata:
-  change_number: 83
+  change_number: 84
   region: ""
   platform: Azure
   system_service: CognitiveServicesManagement
@@ -708,6 +708,7 @@ address_prefixes:
     - 48.196.98.192/27
     - 48.196.100.0/26
     - 48.196.100.88/29
+    - 48.196.153.192/26
     - 48.197.89.208/28
     - 48.197.89.224/27
     - 48.197.90.128/26
@@ -2217,6 +2218,7 @@ address_prefixes:
     - 48.196.98.192/27
     - 48.196.100.0/26
     - 48.196.100.88/29
+    - 48.196.153.192/26
     - 48.197.89.208/28
     - 48.197.89.224/27
     - 48.197.90.128/26
@@ -3030,6 +3032,6 @@ address_prefixes:
     - 2603:1050:301:2::480/122
     - 2603:1050:403::640/122
   counts:
-    total: 1508
-    ipv4: 1271
+    total: 1509
+    ipv4: 1272
     ipv6: 237

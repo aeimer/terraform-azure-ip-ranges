@@ -1,7 +1,7 @@
 id: VideoIndexer
 name: VideoIndexer
 metadata:
-  change_number: 27
+  change_number: 28
   region: ""
   platform: Azure
   system_service: AzureVideoAnalyzerForMedia
@@ -174,6 +174,7 @@ address_prefixes:
     - 104.208.199.24/29
     - 104.208.199.48/31
     - 134.138.71.120/30
+    - 145.191.173.20/30
     - 158.23.103.36/30
     - 172.129.81.60/30
     - 172.160.222.50/31
@@ -405,6 +406,7 @@ address_prefixes:
     - 104.208.199.24/29
     - 104.208.199.48/31
     - 134.138.71.120/30
+    - 145.191.173.20/30
     - 158.23.103.36/30
     - 172.129.81.60/30
     - 172.160.222.50/31
@@ -475,6 +477,6 @@ address_prefixes:
     - 2603:1040:1b02:1::410/124
     - 2603:1050:301:1::1b0/124
   counts:
-    total: 230
-    ipv4: 184
+    total: 231
+    ipv4: 185
     ipv6: 46
