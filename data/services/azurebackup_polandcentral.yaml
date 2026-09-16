@@ -1,7 +1,7 @@
 id: AzureBackup.PolandCentral
 name: AzureBackup.PolandCentral
 metadata:
-  change_number: 2
+  change_number: 3
   region: polandcentral
   platform: Azure
   system_service: AzureBackup
@@ -12,6 +12,7 @@ address_prefixes:
     - 20.215.19.0/26
     - 20.215.27.0/26
     - 20.215.155.64/26
+    - 74.153.12.192/26
     - 134.112.192.188/30
     - 134.112.194.16/28
     - 2603:1020:1302::680/121
@@ -23,6 +24,7 @@ address_prefixes:
     - 20.215.19.0/26
     - 20.215.27.0/26
     - 20.215.155.64/26
+    - 74.153.12.192/26
     - 134.112.192.188/30
     - 134.112.194.16/28
   ipv6:
@@ -31,6 +33,6 @@ address_prefixes:
     - 2603:1020:1302:800::100/121
     - 2603:1020:1302:c00::100/121
   counts:
-    total: 10
-    ipv4: 6
+    total: 11
+    ipv4: 7
     ipv6: 4

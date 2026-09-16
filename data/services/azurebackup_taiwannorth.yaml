@@ -1,7 +1,7 @@
 id: AzureBackup.TaiwanNorth
 name: AzureBackup.TaiwanNorth
 metadata:
-  change_number: 2
+  change_number: 3
   region: taiwannorth
   platform: Azure
   system_service: AzureBackup
@@ -10,13 +10,15 @@ address_prefixes:
   all:
     - 51.53.28.0/26
     - 70.157.168.128/26
+    - 70.157.193.0/26
     - 2603:1040:1302::680/121
   ipv4:
     - 51.53.28.0/26
     - 70.157.168.128/26
+    - 70.157.193.0/26
   ipv6:
     - 2603:1040:1302::680/121
   counts:
-    total: 3
-    ipv4: 2
+    total: 4
+    ipv4: 3
     ipv6: 1

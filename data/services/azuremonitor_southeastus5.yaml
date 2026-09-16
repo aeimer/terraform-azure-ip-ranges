@@ -1,7 +1,7 @@
 id: AzureMonitor.SoutheastUS5
 name: AzureMonitor.SoutheastUS5
 metadata:
-  change_number: 1
+  change_number: 2
   region: southeastus5
   platform: Azure
   system_service: AzureMonitor
@@ -9,6 +9,7 @@ metadata:
     - NSG
 address_prefixes:
   all:
+    - 48.200.141.64/27
     - 74.7.192.128/28
     - 74.7.192.144/31
     - 74.7.192.160/27
@@ -23,6 +24,7 @@ address_prefixes:
     - 2603:1030:1502:5::400/119
     - 2603:1030:1502:6::/119
   ipv4:
+    - 48.200.141.64/27
     - 74.7.192.128/28
     - 74.7.192.144/31
     - 74.7.192.160/27
@@ -38,6 +40,6 @@ address_prefixes:
     - 2603:1030:1502:5::400/119
     - 2603:1030:1502:6::/119
   counts:
-    total: 13
-    ipv4: 7
+    total: 14
+    ipv4: 8
     ipv6: 6

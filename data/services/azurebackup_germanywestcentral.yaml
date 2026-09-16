@@ -1,7 +1,7 @@
 id: AzureBackup.GermanyWestCentral
 name: AzureBackup.GermanyWestCentral
 metadata:
-  change_number: 3
+  change_number: 4
   region: germanywc
   platform: Azure
   system_service: AzureBackup
@@ -9,6 +9,7 @@ metadata:
 address_prefixes:
   all:
     - 20.52.88.0/26
+    - 48.203.201.0/26
     - 51.116.155.128/26
     - 51.116.155.192/27
     - 51.116.156.144/28
@@ -24,6 +25,7 @@ address_prefixes:
     - 2603:1020:c04:c02::180/121
   ipv4:
     - 20.52.88.0/26
+    - 48.203.201.0/26
     - 51.116.155.128/26
     - 51.116.155.192/27
     - 51.116.156.144/28
@@ -39,6 +41,6 @@ address_prefixes:
     - 2603:1020:c04:802::180/121
     - 2603:1020:c04:c02::180/121
   counts:
-    total: 14
-    ipv4: 10
+    total: 15
+    ipv4: 11
     ipv6: 4

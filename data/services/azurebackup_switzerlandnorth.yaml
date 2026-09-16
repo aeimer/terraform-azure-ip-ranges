@@ -1,7 +1,7 @@
 id: AzureBackup.SwitzerlandNorth
 name: AzureBackup.SwitzerlandNorth
 metadata:
-  change_number: 4
+  change_number: 5
   region: switzerlandn
   platform: Azure
   system_service: AzureBackup
@@ -13,6 +13,7 @@ address_prefixes:
     - 51.107.59.64/26
     - 51.107.59.128/27
     - 51.107.243.0/26
+    - 74.161.250.0/26
     - 74.242.176.248/29
     - 74.242.177.80/30
     - 74.242.177.84/32
@@ -26,6 +27,7 @@ address_prefixes:
     - 51.107.59.64/26
     - 51.107.59.128/27
     - 51.107.243.0/26
+    - 74.161.250.0/26
     - 74.242.176.248/29
     - 74.242.177.80/30
     - 74.242.177.84/32
@@ -35,6 +37,6 @@ address_prefixes:
     - 2603:1020:a04:802::180/121
     - 2603:1020:a04:c02::180/121
   counts:
-    total: 12
-    ipv4: 8
+    total: 13
+    ipv4: 9
     ipv6: 4

@@ -1,13 +1,14 @@
 id: AzureBackup.JapanEast
 name: AzureBackup.JapanEast
 metadata:
-  change_number: 4
+  change_number: 5
   region: japaneast
   platform: Azure
   system_service: AzureBackup
   network_features: []
 address_prefixes:
   all:
+    - 4.215.24.192/26
     - 4.216.12.0/26
     - 13.78.108.32/27
     - 13.78.108.64/26
@@ -21,6 +22,7 @@ address_prefixes:
     - 2603:1040:407:802::180/121
     - 2603:1040:407:c02::180/121
   ipv4:
+    - 4.215.24.192/26
     - 4.216.12.0/26
     - 13.78.108.32/27
     - 13.78.108.64/26
@@ -35,6 +37,6 @@ address_prefixes:
     - 2603:1040:407:802::180/121
     - 2603:1040:407:c02::180/121
   counts:
-    total: 12
-    ipv4: 8
+    total: 13
+    ipv4: 9
     ipv6: 4

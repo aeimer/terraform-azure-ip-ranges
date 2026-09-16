@@ -1,13 +1,14 @@
 id: AzureBackup.NorwayEast
 name: AzureBackup.NorwayEast
 metadata:
-  change_number: 5
+  change_number: 6
   region: norwaye
   platform: Azure
   system_service: AzureBackup
   network_features: []
 address_prefixes:
   all:
+    - 4.177.63.0/26
     - 4.219.29.22/32
     - 4.219.29.48/28
     - 51.120.99.96/27
@@ -24,6 +25,7 @@ address_prefixes:
     - 2603:1020:e04:802::180/121
     - 2603:1020:e04:c02::180/121
   ipv4:
+    - 4.177.63.0/26
     - 4.219.29.22/32
     - 4.219.29.48/28
     - 51.120.99.96/27
@@ -41,6 +43,6 @@ address_prefixes:
     - 2603:1020:e04:802::180/121
     - 2603:1020:e04:c02::180/121
   counts:
-    total: 15
-    ipv4: 11
+    total: 16
+    ipv4: 12
     ipv6: 4

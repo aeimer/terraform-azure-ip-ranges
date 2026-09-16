@@ -1,13 +1,14 @@
 id: AzureBackup.FranceCentral
 name: AzureBackup.FranceCentral
 metadata:
-  change_number: 4
+  change_number: 5
   region: centralfrance
   platform: Azure
   system_service: AzureBackup
   network_features: []
 address_prefixes:
   all:
+    - 4.212.251.192/26
     - 40.79.131.0/26
     - 40.79.131.64/27
     - 40.79.142.192/26
@@ -18,6 +19,7 @@ address_prefixes:
     - 2603:1020:805:802::180/121
     - 2603:1020:805:c02::180/121
   ipv4:
+    - 4.212.251.192/26
     - 40.79.131.0/26
     - 40.79.131.64/27
     - 40.79.142.192/26
@@ -29,6 +31,6 @@ address_prefixes:
     - 2603:1020:805:802::180/121
     - 2603:1020:805:c02::180/121
   counts:
-    total: 9
-    ipv4: 5
+    total: 10
+    ipv4: 6
     ipv6: 4

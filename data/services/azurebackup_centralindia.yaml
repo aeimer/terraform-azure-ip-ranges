@@ -1,13 +1,14 @@
 id: AzureBackup.CentralIndia
 name: AzureBackup.CentralIndia
 metadata:
-  change_number: 3
+  change_number: 4
   region: centralindia
   platform: Azure
   system_service: AzureBackup
   network_features: []
 address_prefixes:
   all:
+    - 4.188.125.0/26
     - 20.192.44.128/26
     - 20.192.99.80/28
     - 20.192.99.128/26
@@ -20,6 +21,7 @@ address_prefixes:
     - 2603:1040:a06:802::180/121
     - 2603:1040:a06:c02::180/121
   ipv4:
+    - 4.188.125.0/26
     - 20.192.44.128/26
     - 20.192.99.80/28
     - 20.192.99.128/26
@@ -33,6 +35,6 @@ address_prefixes:
     - 2603:1040:a06:802::180/121
     - 2603:1040:a06:c02::180/121
   counts:
-    total: 11
-    ipv4: 7
+    total: 12
+    ipv4: 8
     ipv6: 4
