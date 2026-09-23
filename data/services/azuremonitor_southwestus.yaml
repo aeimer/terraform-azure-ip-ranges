@@ -1,7 +1,7 @@
 id: AzureMonitor.SouthwestUS
 name: AzureMonitor.SouthwestUS
 metadata:
-  change_number: 2
+  change_number: 3
   region: southwestus
   platform: Azure
   system_service: AzureMonitor
@@ -10,6 +10,7 @@ metadata:
 address_prefixes:
   all:
     - 48.219.91.224/27
+    - 48.219.96.128/27
     - 48.219.203.242/31
     - 48.219.205.208/29
     - 48.219.205.216/30
@@ -24,6 +25,7 @@ address_prefixes:
     - 2603:1030:1202:6::/119
   ipv4:
     - 48.219.91.224/27
+    - 48.219.96.128/27
     - 48.219.203.242/31
     - 48.219.205.208/29
     - 48.219.205.216/30
@@ -38,6 +40,6 @@ address_prefixes:
     - 2603:1030:1202:5::400/119
     - 2603:1030:1202:6::/119
   counts:
-    total: 13
-    ipv4: 9
+    total: 14
+    ipv4: 10
     ipv6: 4

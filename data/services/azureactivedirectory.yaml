@@ -1,7 +1,7 @@
 id: AzureActiveDirectory
 name: AzureActiveDirectory
 metadata:
-  change_number: 30
+  change_number: 31
   region: ""
   platform: Azure
   system_service: AzureAD
@@ -114,7 +114,6 @@ address_prefixes:
     - 20.83.195.128/28
     - 20.88.66.0/27
     - 20.89.1.112/30
-    - 20.111.78.128/28
     - 20.150.227.112/28
     - 20.167.247.96/28
     - 20.187.197.32/27
@@ -520,7 +519,6 @@ address_prefixes:
     - 20.83.195.128/28
     - 20.88.66.0/27
     - 20.89.1.112/30
-    - 20.111.78.128/28
     - 20.150.227.112/28
     - 20.167.247.96/28
     - 20.187.197.32/27
@@ -826,6 +824,6 @@ address_prefixes:
     - 2603:1057:2::/48
     - 2603:1061:1601::/48
   counts:
-    total: 405
-    ipv4: 312
+    total: 404
+    ipv4: 311
     ipv6: 93

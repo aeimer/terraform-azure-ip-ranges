@@ -1,7 +1,7 @@
 id: AzureMonitor.EastUS3
 name: AzureMonitor.EastUS3
 metadata:
-  change_number: 4
+  change_number: 5
   region: eastus3
   platform: Azure
   system_service: AzureMonitor
@@ -10,6 +10,7 @@ metadata:
 address_prefixes:
   all:
     - 51.57.210.224/27
+    - 51.57.211.128/27
     - 134.138.82.12/30
     - 134.138.82.144/29
     - 134.138.82.152/30
@@ -26,6 +27,7 @@ address_prefixes:
     - 2603:1030:1402:6::400/119
   ipv4:
     - 51.57.210.224/27
+    - 51.57.211.128/27
     - 134.138.82.12/30
     - 134.138.82.144/29
     - 134.138.82.152/30
@@ -42,6 +44,6 @@ address_prefixes:
     - 2603:1030:1402:6::/119
     - 2603:1030:1402:6::400/119
   counts:
-    total: 15
-    ipv4: 9
+    total: 16
+    ipv4: 10
     ipv6: 6

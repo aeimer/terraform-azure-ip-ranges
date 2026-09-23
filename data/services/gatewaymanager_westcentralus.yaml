@@ -1,7 +1,7 @@
 id: GatewayManager.WestCentralUS
 name: GatewayManager.WestCentralUS
 metadata:
-  change_number: 6
+  change_number: 7
   region: westcentralus
   platform: Azure
   system_service: GatewayManager
@@ -17,6 +17,7 @@ address_prefixes:
     - 52.159.19.113/32
     - 52.159.20.67/32
     - 52.159.21.124/32
+    - 74.159.69.64/26
     - 2603:1030:b04::40/122
   ipv4:
     - 13.71.194.232/29
@@ -27,9 +28,10 @@ address_prefixes:
     - 52.159.19.113/32
     - 52.159.20.67/32
     - 52.159.21.124/32
+    - 74.159.69.64/26
   ipv6:
     - 2603:1030:b04::40/122
   counts:
-    total: 9
-    ipv4: 8
+    total: 10
+    ipv4: 9
     ipv6: 1
