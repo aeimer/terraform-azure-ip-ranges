@@ -1,7 +1,7 @@
 id: DataFactory.WestEurope
 name: DataFactory.WestEurope
 metadata:
-  change_number: 6
+  change_number: 7
   region: westeurope
   platform: Azure
   system_service: DataFactory
@@ -22,6 +22,7 @@ address_prefixes:
     - 57.153.246.72/29
     - 57.153.246.80/28
     - 57.153.246.96/30
+    - 74.144.162.0/25
     - 2603:1020:206:1::480/121
     - 2603:1020:206:1::500/122
     - 2603:1020:206:1::700/121
@@ -42,6 +43,7 @@ address_prefixes:
     - 57.153.246.72/29
     - 57.153.246.80/28
     - 57.153.246.96/30
+    - 74.144.162.0/25
   ipv6:
     - 2603:1020:206:1::480/121
     - 2603:1020:206:1::500/122
@@ -51,6 +53,6 @@ address_prefixes:
     - 2603:1020:206:802::210/124
     - 2603:1020:206:c02::210/124
   counts:
-    total: 19
-    ipv4: 12
+    total: 20
+    ipv4: 13
     ipv6: 7

@@ -1,7 +1,7 @@
 id: DataFactory.CanadaEast
 name: DataFactory.CanadaEast
 metadata:
-  change_number: 8
+  change_number: 9
   region: canadaeast
   platform: Azure
   system_service: DataFactory
@@ -19,6 +19,7 @@ address_prefixes:
     - 52.139.111.64/26
     - 52.242.45.56/29
     - 145.191.177.0/24
+    - 145.191.183.80/28
     - 2603:1030:1005::440/122
     - 2603:1030:1005::500/121
     - 2603:1030:1005:13::100/121
@@ -33,12 +34,13 @@ address_prefixes:
     - 52.139.111.64/26
     - 52.242.45.56/29
     - 145.191.177.0/24
+    - 145.191.183.80/28
   ipv6:
     - 2603:1030:1005::440/122
     - 2603:1030:1005::500/121
     - 2603:1030:1005:13::100/121
     - 2603:1030:1005:402::330/124
   counts:
-    total: 13
-    ipv4: 9
+    total: 14
+    ipv4: 10
     ipv6: 4

@@ -1,7 +1,7 @@
 id: AzureDigitalTwins.CanadaEast
 name: AzureDigitalTwins.CanadaEast
 metadata:
-  change_number: 2
+  change_number: 3
   region: canadaeast
   platform: Azure
   system_service: AzureDigitalTwins
@@ -9,12 +9,14 @@ metadata:
 address_prefixes:
   all:
     - 52.139.106.96/27
+    - 145.191.182.80/29
     - 2603:1030:1005:3::200/121
   ipv4:
     - 52.139.106.96/27
+    - 145.191.182.80/29
   ipv6:
     - 2603:1030:1005:3::200/121
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

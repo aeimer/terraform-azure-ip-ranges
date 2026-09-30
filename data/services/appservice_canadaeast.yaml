@@ -1,7 +1,7 @@
 id: AppService.CanadaEast
 name: AppService.CanadaEast
 metadata:
-  change_number: 3
+  change_number: 4
   region: canadaeast
   platform: Azure
   system_service: AzureAppService
@@ -23,6 +23,7 @@ address_prefixes:
     - 52.242.41.0/24
     - 52.242.42.0/23
     - 2603:1030:1005:2::400/118
+    - 2603:1030:1005:13::400/120
     - 2603:1030:1005:402::a0/123
   ipv4:
     - 40.69.106.96/27
@@ -37,8 +38,9 @@ address_prefixes:
     - 52.242.42.0/23
   ipv6:
     - 2603:1030:1005:2::400/118
+    - 2603:1030:1005:13::400/120
     - 2603:1030:1005:402::a0/123
   counts:
-    total: 12
+    total: 13
     ipv4: 10
-    ipv6: 2
+    ipv6: 3

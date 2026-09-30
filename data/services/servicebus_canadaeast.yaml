@@ -1,7 +1,7 @@
 id: ServiceBus.CanadaEast
 name: ServiceBus.CanadaEast
 metadata:
-  change_number: 6
+  change_number: 7
   region: canadaeast
   platform: Azure
   system_service: AzureServiceBus
@@ -15,6 +15,7 @@ address_prefixes:
     - 52.139.110.0/25
     - 2603:1030:1005::220/123
     - 2603:1030:1005:1::500/120
+    - 2603:1030:1005:13::280/121
     - 2603:1030:1005:402::170/125
   ipv4:
     - 4.248.102.128/25
@@ -23,8 +24,9 @@ address_prefixes:
   ipv6:
     - 2603:1030:1005::220/123
     - 2603:1030:1005:1::500/120
+    - 2603:1030:1005:13::280/121
     - 2603:1030:1005:402::170/125
   counts:
-    total: 6
+    total: 7
     ipv4: 3
-    ipv6: 3
+    ipv6: 4

@@ -1,7 +1,7 @@
 id: AzureDataExplorerManagement
 name: AzureDataExplorerManagement
 metadata:
-  change_number: 55
+  change_number: 56
   region: ""
   platform: Azure
   system_service: AzureDataExplorerManagement
@@ -277,6 +277,7 @@ address_prefixes:
     - 2603:1030:f05::600/121
     - 2603:1030:f05:402::150/124
     - 2603:1030:1005:1::380/121
+    - 2603:1030:1005:13::300/123
     - 2603:1030:1005:402::150/124
     - 2603:1030:1102:1::1c0/123
     - 2603:1030:1202:1::1e0/123
@@ -593,6 +594,7 @@ address_prefixes:
     - 2603:1030:f05::600/121
     - 2603:1030:f05:402::150/124
     - 2603:1030:1005:1::380/121
+    - 2603:1030:1005:13::300/123
     - 2603:1030:1005:402::150/124
     - 2603:1030:1102:1::1c0/123
     - 2603:1030:1202:1::1e0/123
@@ -643,6 +645,6 @@ address_prefixes:
     - 2603:1050:403:1::400/121
     - 2603:1050:403:400::2b0/124
   counts:
-    total: 314
+    total: 315
     ipv4: 183
-    ipv6: 131
+    ipv6: 132

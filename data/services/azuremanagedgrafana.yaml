@@ -1,7 +1,7 @@
 id: AzureManagedGrafana
 name: AzureManagedGrafana
 metadata:
-  change_number: 17
+  change_number: 18
   region: ""
   platform: Azure
   system_service: AzureManagedGrafana
@@ -208,6 +208,7 @@ address_prefixes:
     - 128.203.48.24/31
     - 134.138.216.0/28
     - 134.138.216.16/30
+    - 145.191.183.72/29
     - 158.158.129.76/30
     - 158.158.129.144/28
     - 167.105.250.44/30
@@ -642,6 +643,7 @@ address_prefixes:
     - 128.203.48.24/31
     - 134.138.216.0/28
     - 134.138.216.16/30
+    - 145.191.183.72/29
     - 158.158.129.76/30
     - 158.158.129.144/28
     - 167.105.250.44/30
@@ -881,6 +883,6 @@ address_prefixes:
     - 2603:1050:403:7::5e0/124
     - 2603:1050:403:7::5f0/126
   counts:
-    total: 433
-    ipv4: 219
+    total: 434
+    ipv4: 220
     ipv6: 214

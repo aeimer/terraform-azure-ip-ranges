@@ -1,7 +1,7 @@
 id: AzureCloud.indonesiacentral
 name: AzureCloud.indonesiacentral
 metadata:
-  change_number: 30
+  change_number: 31
   region: indonesiacentral
   platform: Azure
   system_service: ""
@@ -15,6 +15,8 @@ address_prefixes:
     - 9.129.114.0/25
     - 9.129.118.0/26
     - 9.129.119.96/27
+    - 9.129.218.0/24
+    - 9.129.242.64/26
     - 13.105.30.192/26
     - 13.105.31.0/26
     - 13.105.31.64/27
@@ -111,6 +113,8 @@ address_prefixes:
     - 9.129.114.0/25
     - 9.129.118.0/26
     - 9.129.119.96/27
+    - 9.129.218.0/24
+    - 9.129.242.64/26
     - 13.105.30.192/26
     - 13.105.31.0/26
     - 13.105.31.64/27
@@ -203,6 +207,6 @@ address_prefixes:
     - 2a01:111:f403:dc14::/64
     - 2a01:111:f403:e414::/64
   counts:
-    total: 95
-    ipv4: 60
+    total: 97
+    ipv4: 62
     ipv6: 35

@@ -1,7 +1,7 @@
 id: Storage.CentralUSEUAP
 name: Storage.CentralUSEUAP
 metadata:
-  change_number: 13
+  change_number: 14
   region: centraluseuap
   platform: Azure
   system_service: AzureStorage
@@ -30,6 +30,7 @@ address_prefixes:
     - 52.239.238.0/24
     - 57.150.126.0/23
     - 57.163.8.0/23
+    - 57.163.86.0/23
     - 135.130.247.0/24
     - 135.130.252.0/25
     - 135.130.254.0/23
@@ -54,6 +55,7 @@ address_prefixes:
     - 52.239.238.0/24
     - 57.150.126.0/23
     - 57.163.8.0/23
+    - 57.163.86.0/23
     - 135.130.247.0/24
     - 135.130.252.0/25
     - 135.130.254.0/23
@@ -61,6 +63,6 @@ address_prefixes:
     - 2603:1030:12::/49
     - 2603:1030:12:8000::/64
   counts:
-    total: 23
-    ipv4: 21
+    total: 24
+    ipv4: 22
     ipv6: 2
