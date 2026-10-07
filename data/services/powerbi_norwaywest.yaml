@@ -1,7 +1,7 @@
 id: PowerBI.NorwayWest
 name: PowerBI.NorwayWest
 metadata:
-  change_number: 1
+  change_number: 2
   region: norwayw
   platform: Azure
   system_service: PowerBI
@@ -18,6 +18,7 @@ address_prefixes:
     - 51.120.224.122/31
     - 51.120.224.124/30
     - 51.120.224.208/29
+    - 74.240.18.64/29
     - 2603:1020:f04::620/123
     - 2603:1020:f04::640/122
   ipv4:
@@ -27,10 +28,11 @@ address_prefixes:
     - 51.120.224.122/31
     - 51.120.224.124/30
     - 51.120.224.208/29
+    - 74.240.18.64/29
   ipv6:
     - 2603:1020:f04::620/123
     - 2603:1020:f04::640/122
   counts:
-    total: 8
-    ipv4: 6
+    total: 9
+    ipv4: 7
     ipv6: 2

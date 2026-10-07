@@ -1,7 +1,7 @@
 id: AzureCloud.southwestus
 name: AzureCloud.southwestus
 metadata:
-  change_number: 2
+  change_number: 3
   region: southwestus
   platform: Azure
   system_service: ""
@@ -32,6 +32,8 @@ address_prefixes:
     - 57.150.174.0/23
     - 57.150.176.0/24
     - 57.150.254.0/23
+    - 57.163.62.0/23
+    - 57.163.88.0/23
     - 135.130.210.0/23
     - 145.190.146.0/23
     - 209.199.33.192/28
@@ -72,6 +74,8 @@ address_prefixes:
     - 57.150.174.0/23
     - 57.150.176.0/24
     - 57.150.254.0/23
+    - 57.163.62.0/23
+    - 57.163.88.0/23
     - 135.130.210.0/23
     - 145.190.146.0/23
     - 209.199.33.192/28
@@ -91,6 +95,6 @@ address_prefixes:
     - 2603:1061:1748::/63
     - 2603:1063:2204:c::/64
   counts:
-    total: 39
-    ipv4: 26
+    total: 41
+    ipv4: 28
     ipv6: 13

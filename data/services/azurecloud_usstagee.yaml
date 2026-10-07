@@ -1,7 +1,7 @@
 id: AzureCloud.usstagee
 name: AzureCloud.usstagee
 metadata:
-  change_number: 17
+  change_number: 18
   region: usstagee
   platform: Azure
   system_service: ""
@@ -33,6 +33,7 @@ address_prefixes:
     - 40.67.48.0/20
     - 40.67.64.0/19
     - 40.67.96.0/20
+    - 40.81.97.10/32
     - 40.82.80.0/22
     - 40.90.18.16/28
     - 40.90.31.32/27
@@ -118,6 +119,7 @@ address_prefixes:
     - 40.67.48.0/20
     - 40.67.64.0/19
     - 40.67.96.0/20
+    - 40.81.97.10/32
     - 40.82.80.0/22
     - 40.90.18.16/28
     - 40.90.31.32/27
@@ -181,6 +183,6 @@ address_prefixes:
     - 2603:1061:2010:27::/64
     - 2603:1061:2011:27::/64
   counts:
-    total: 84
-    ipv4: 52
+    total: 85
+    ipv4: 53
     ipv6: 32

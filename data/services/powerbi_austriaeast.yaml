@@ -1,7 +1,7 @@
 id: PowerBI.AustriaEast
 name: PowerBI.AustriaEast
 metadata:
-  change_number: 1
+  change_number: 2
   region: austriaeast
   platform: Azure
   system_service: PowerBI
@@ -17,6 +17,7 @@ address_prefixes:
     - 68.210.173.160/29
     - 68.210.182.48/28
     - 68.210.182.192/28
+    - 74.148.21.240/28
     - 2603:1020:104:3::140/122
     - 2603:1020:104:3::180/123
   ipv4:
@@ -25,10 +26,11 @@ address_prefixes:
     - 68.210.173.160/29
     - 68.210.182.48/28
     - 68.210.182.192/28
+    - 74.148.21.240/28
   ipv6:
     - 2603:1020:104:3::140/122
     - 2603:1020:104:3::180/123
   counts:
-    total: 7
-    ipv4: 5
+    total: 8
+    ipv4: 6
     ipv6: 2
