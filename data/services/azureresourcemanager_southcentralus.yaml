@@ -1,7 +1,7 @@
 id: AzureResourceManager.SouthCentralUS
 name: AzureResourceManager.SouthCentralUS
 metadata:
-  change_number: 3
+  change_number: 4
   region: southcentralus
   platform: Azure
   system_service: AzureResourceManager
@@ -11,16 +11,20 @@ address_prefixes:
     - 13.73.240.224/28
     - 13.73.246.0/23
     - 20.65.128.0/23
+    - 74.145.160.112/31
     - 2603:1030:807::180/122
     - 2603:1030:807:402::280/122
+    - 2603:1030:807:1400::1c/127
   ipv4:
     - 13.73.240.224/28
     - 13.73.246.0/23
     - 20.65.128.0/23
+    - 74.145.160.112/31
   ipv6:
     - 2603:1030:807::180/122
     - 2603:1030:807:402::280/122
+    - 2603:1030:807:1400::1c/127
   counts:
-    total: 5
-    ipv4: 3
-    ipv6: 2
+    total: 7
+    ipv4: 4
+    ipv6: 3

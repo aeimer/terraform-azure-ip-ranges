@@ -1,7 +1,7 @@
 id: AzureCloud.southcentralus
 name: AzureCloud.southcentralus
 metadata:
-  change_number: 207
+  change_number: 208
   region: southcentralus
   platform: Azure
   system_service: ""
@@ -488,6 +488,7 @@ address_prefixes:
     - 157.55.204.33/32
     - 157.55.204.34/31
     - 168.62.128.0/19
+    - 172.143.128.0/17
     - 172.202.128.0/17
     - 172.206.128.0/18
     - 172.215.128.0/18
@@ -1185,6 +1186,7 @@ address_prefixes:
     - 157.55.204.33/32
     - 157.55.204.34/31
     - 168.62.128.0/19
+    - 172.143.128.0/17
     - 172.202.128.0/17
     - 172.206.128.0/18
     - 172.215.128.0/18
@@ -1405,6 +1407,6 @@ address_prefixes:
     - 2a01:111:f403:e016::/64
     - 2a01:111:f403:f90c::/62
   counts:
-    total: 696
-    ipv4: 488
+    total: 697
+    ipv4: 489
     ipv6: 208
