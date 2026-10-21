@@ -1,7 +1,7 @@
 id: DataFactory.JioIndiaCentral
 name: DataFactory.JioIndiaCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: jioindiacentral
   platform: Azure
   system_service: DataFactory
@@ -10,17 +10,29 @@ metadata:
     - NSG
 address_prefixes:
   all:
+    - 4.240.138.0/28
+    - 4.240.203.0/25
+    - 4.240.203.128/26
+    - 4.240.203.224/27
     - 20.192.226.0/23
     - 20.192.238.96/28
     - 2603:1040:1104::600/121
+    - 2603:1040:1104:a::7d8/125
+    - 2603:1040:1104:a::7e0/124
     - 2603:1040:1104:400::500/124
   ipv4:
+    - 4.240.138.0/28
+    - 4.240.203.0/25
+    - 4.240.203.128/26
+    - 4.240.203.224/27
     - 20.192.226.0/23
     - 20.192.238.96/28
   ipv6:
     - 2603:1040:1104::600/121
+    - 2603:1040:1104:a::7d8/125
+    - 2603:1040:1104:a::7e0/124
     - 2603:1040:1104:400::500/124
   counts:
-    total: 4
-    ipv4: 2
-    ipv6: 2
+    total: 10
+    ipv4: 6
+    ipv6: 4
