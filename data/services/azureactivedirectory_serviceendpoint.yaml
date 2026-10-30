@@ -1,7 +1,7 @@
 id: AzureActiveDirectory.ServiceEndpoint
 name: AzureActiveDirectory.ServiceEndpoint
 metadata:
-  change_number: 51
+  change_number: 52
   region: ""
   platform: Azure
   system_service: AzureIdentity
@@ -962,6 +962,7 @@ address_prefixes:
     - 2603:1027:1:28::/121
     - 2603:1027:1:30::/121
     - 2603:1027:1:38::/121
+    - 2603:1027:1:40::40/122
     - 2603:1027:1:60::/121
     - 2603:1027:1:68::/121
     - 2603:1027:1:70::/121
@@ -2250,6 +2251,7 @@ address_prefixes:
     - 2603:1027:1:28::/121
     - 2603:1027:1:30::/121
     - 2603:1027:1:38::/121
+    - 2603:1027:1:40::40/122
     - 2603:1027:1:60::/121
     - 2603:1027:1:68::/121
     - 2603:1027:1:70::/121
@@ -2583,6 +2585,6 @@ address_prefixes:
     - 2603:1057:2:38::/121
     - 2603:1057:2:60::/121
   counts:
-    total: 1286
+    total: 1287
     ipv4: 848
-    ipv6: 438
+    ipv6: 439

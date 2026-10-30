@@ -1,0 +1,22 @@
+id: AzurePortal.SoutheastAsia3
+name: AzurePortal.SoutheastAsia3
+metadata:
+  change_number: 1
+  region: southeastasia3
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+address_prefixes:
+  all:
+    - 48.198.97.244/30
+    - 48.198.101.96/27
+    - 2603:1040:1b02:3::300/121
+  ipv4:
+    - 48.198.97.244/30
+    - 48.198.101.96/27
+  ipv6:
+    - 2603:1040:1b02:3::300/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

@@ -1,7 +1,7 @@
 id: OneDsCollector
 name: OneDsCollector
 metadata:
-  change_number: 6
+  change_number: 7
   region: ""
   platform: Azure
   system_service: OneDsCollector
@@ -47,6 +47,8 @@ address_prefixes:
     - 20.50.201.200/29
     - 20.52.64.200/29
     - 20.52.72.112/28
+    - 20.66.247.50/31
+    - 20.66.247.52/30
     - 20.89.1.8/29
     - 20.111.117.64/27
     - 20.151.32.144/29
@@ -248,6 +250,8 @@ address_prefixes:
     - 20.50.201.200/29
     - 20.52.64.200/29
     - 20.52.72.112/28
+    - 20.66.247.50/31
+    - 20.66.247.52/30
     - 20.89.1.8/29
     - 20.111.117.64/27
     - 20.151.32.144/29
@@ -413,6 +417,6 @@ address_prefixes:
     - 2603:1050:6:3::500/122
     - 2603:1050:403:2::780/122
   counts:
-    total: 200
-    ipv4: 134
+    total: 202
+    ipv4: 136
     ipv6: 66

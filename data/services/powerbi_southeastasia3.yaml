@@ -1,0 +1,30 @@
+id: PowerBI.SoutheastAsia3
+name: PowerBI.SoutheastAsia3
+metadata:
+  change_number: 1
+  region: southeastasia3
+  platform: Azure
+  system_service: PowerBI
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 48.198.95.150/31
+    - 48.198.97.240/30
+    - 48.198.97.248/29
+    - 2603:1040:1b02:2::760/123
+    - 2603:1040:1b02:2::7c0/122
+  ipv4:
+    - 48.198.95.150/31
+    - 48.198.97.240/30
+    - 48.198.97.248/29
+  ipv6:
+    - 2603:1040:1b02:2::760/123
+    - 2603:1040:1b02:2::7c0/122
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

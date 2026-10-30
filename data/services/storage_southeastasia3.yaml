@@ -1,0 +1,38 @@
+id: Storage.SoutheastAsia3
+name: Storage.SoutheastAsia3
+metadata:
+  change_number: 1
+  region: southeastasia3
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 20.153.122.0/24
+    - 57.163.38.0/23
+    - 135.130.148.0/23
+    - 135.130.150.0/24
+    - 135.130.153.0/24
+    - 135.130.154.0/24
+    - 145.190.150.0/24
+    - 145.190.181.0/24
+    - 2603:1040:1b03::/49
+  ipv4:
+    - 20.153.122.0/24
+    - 57.163.38.0/23
+    - 135.130.148.0/23
+    - 135.130.150.0/24
+    - 135.130.153.0/24
+    - 135.130.154.0/24
+    - 145.190.150.0/24
+    - 145.190.181.0/24
+  ipv6:
+    - 2603:1040:1b03::/49
+  counts:
+    total: 9
+    ipv4: 8
+    ipv6: 1

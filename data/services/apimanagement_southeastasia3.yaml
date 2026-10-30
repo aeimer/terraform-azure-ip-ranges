@@ -1,0 +1,24 @@
+id: ApiManagement.SoutheastAsia3
+name: ApiManagement.SoutheastAsia3
+metadata:
+  change_number: 1
+  region: southeastasia3
+  platform: Azure
+  system_service: AzureApiManagement
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 48.198.86.16/28
+    - 2603:1040:1b02::740/124
+  ipv4:
+    - 48.198.86.16/28
+  ipv6:
+    - 2603:1040:1b02::740/124
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

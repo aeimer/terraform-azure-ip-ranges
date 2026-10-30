@@ -1,0 +1,22 @@
+id: ServiceBus.SoutheastAsia3
+name: ServiceBus.SoutheastAsia3
+metadata:
+  change_number: 1
+  region: southeastasia3
+  platform: Azure
+  system_service: AzureServiceBus
+  network_features:
+    - API
+    - NSG
+address_prefixes:
+  all:
+    - 48.198.89.0/25
+    - 2603:1040:1b02:1::180/121
+  ipv4:
+    - 48.198.89.0/25
+  ipv6:
+    - 2603:1040:1b02:1::180/121
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

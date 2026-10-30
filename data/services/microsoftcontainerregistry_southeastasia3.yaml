@@ -1,0 +1,24 @@
+id: MicrosoftContainerRegistry.SoutheastAsia3
+name: MicrosoftContainerRegistry.SoutheastAsia3
+metadata:
+  change_number: 1
+  region: southeastasia3
+  platform: Azure
+  system_service: MicrosoftContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 48.198.97.72/29
+    - 2603:1040:1b02:2::700/125
+  ipv4:
+    - 48.198.97.72/29
+  ipv6:
+    - 2603:1040:1b02:2::700/125
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

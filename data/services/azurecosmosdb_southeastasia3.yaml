@@ -1,0 +1,26 @@
+id: AzureCosmosDB.SoutheastAsia3
+name: AzureCosmosDB.SoutheastAsia3
+metadata:
+  change_number: 1
+  region: southeastasia3
+  platform: Azure
+  system_service: AzureCosmosDB
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 48.198.84.32/27
+    - 48.198.84.64/26
+    - 2603:1040:1b02::5c0/123
+  ipv4:
+    - 48.198.84.32/27
+    - 48.198.84.64/26
+  ipv6:
+    - 2603:1040:1b02::5c0/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

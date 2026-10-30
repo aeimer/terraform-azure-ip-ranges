@@ -1,0 +1,26 @@
+id: AzureEventGrid.SoutheastAsia3
+name: AzureEventGrid.SoutheastAsia3
+metadata:
+  change_number: 1
+  region: southeastasia3
+  platform: Azure
+  system_service: AzureEventGrid
+  network_features: []
+address_prefixes:
+  all:
+    - 48.198.81.128/25
+    - 48.198.110.0/23
+    - 48.198.144.0/22
+    - 48.198.148.0/23
+    - 2603:1040:1b02::480/121
+  ipv4:
+    - 48.198.81.128/25
+    - 48.198.110.0/23
+    - 48.198.144.0/22
+    - 48.198.148.0/23
+  ipv6:
+    - 2603:1040:1b02::480/121
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

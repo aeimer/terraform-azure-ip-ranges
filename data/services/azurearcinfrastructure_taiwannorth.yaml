@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.TaiwanNorth
 name: AzureArcInfrastructure.TaiwanNorth
 metadata:
-  change_number: 1
+  change_number: 2
   region: taiwannorth
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -11,16 +11,20 @@ address_prefixes:
     - 51.53.41.76/30
     - 51.53.43.104/29
     - 51.53.43.112/31
+    - 51.53.51.228/31
     - 51.53.110.138/32
+    - 70.157.200.40/29
     - 2603:1040:1302:2::620/124
   ipv4:
     - 51.53.41.76/30
     - 51.53.43.104/29
     - 51.53.43.112/31
+    - 51.53.51.228/31
     - 51.53.110.138/32
+    - 70.157.200.40/29
   ipv6:
     - 2603:1040:1302:2::620/124
   counts:
-    total: 5
-    ipv4: 4
+    total: 7
+    ipv4: 6
     ipv6: 1

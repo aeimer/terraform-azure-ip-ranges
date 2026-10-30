@@ -1,7 +1,7 @@
 id: AzureSecurityCenter
 name: AzureSecurityCenter
 metadata:
-  change_number: 15
+  change_number: 16
   region: ""
   platform: Azure
   system_service: AzureSecurityCenter
@@ -64,6 +64,8 @@ address_prefixes:
     - 9.160.68.0/24
     - 9.160.69.0/26
     - 9.160.69.64/27
+    - 9.205.223.96/27
+    - 9.205.223.128/29
     - 9.223.161.0/24
     - 9.223.162.0/23
     - 9.223.164.0/25
@@ -470,6 +472,8 @@ address_prefixes:
     - 9.160.68.0/24
     - 9.160.69.0/26
     - 9.160.69.64/27
+    - 9.205.223.96/27
+    - 9.205.223.128/29
     - 9.223.161.0/24
     - 9.223.162.0/23
     - 9.223.164.0/25
@@ -823,6 +827,6 @@ address_prefixes:
     - 191.237.224.128/27
   ipv6: []
   counts:
-    total: 405
-    ipv4: 405
+    total: 407
+    ipv4: 407
     ipv6: 0
