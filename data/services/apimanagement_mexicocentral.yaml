@@ -1,7 +1,7 @@
 id: ApiManagement.MexicoCentral
 name: ApiManagement.MexicoCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: mexicocentral
   platform: Azure
   system_service: AzureApiManagement
@@ -12,13 +12,15 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 68.155.250.56/30
     - 158.23.100.128/28
     - 2603:1030:702::5c0/124
   ipv4:
+    - 68.155.250.56/30
     - 158.23.100.128/28
   ipv6:
     - 2603:1030:702::5c0/124
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

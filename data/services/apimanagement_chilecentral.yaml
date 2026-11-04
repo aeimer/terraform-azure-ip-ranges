@@ -1,7 +1,7 @@
 id: ApiManagement.ChileCentral
 name: ApiManagement.ChileCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: chilec
   platform: Azure
   system_service: AzureApiManagement
@@ -13,12 +13,14 @@ metadata:
 address_prefixes:
   all:
     - 68.211.4.48/28
+    - 68.211.33.20/30
     - 2603:1050:301::520/124
   ipv4:
     - 68.211.4.48/28
+    - 68.211.33.20/30
   ipv6:
     - 2603:1050:301::520/124
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

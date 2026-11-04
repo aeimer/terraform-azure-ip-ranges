@@ -1,7 +1,7 @@
 id: ApiManagement.BelgiumCentral
 name: ApiManagement.BelgiumCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: belgiumcentral
   platform: Azure
   system_service: AzureApiManagement
@@ -12,13 +12,15 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 9.160.17.12/30
     - 9.160.43.176/28
     - 2603:1020:1502::520/124
   ipv4:
+    - 9.160.17.12/30
     - 9.160.43.176/28
   ipv6:
     - 2603:1020:1502::520/124
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

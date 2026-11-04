@@ -1,7 +1,7 @@
 id: ApiManagement.NorthEurope
 name: ApiManagement.NorthEurope
 metadata:
-  change_number: 5
+  change_number: 6
   region: northeurope
   platform: Azure
   system_service: AzureApiManagement
@@ -18,6 +18,7 @@ address_prefixes:
     - 40.112.94.196/32
     - 52.142.95.35/32
     - 52.146.139.194/31
+    - 74.144.43.96/30
     - 104.41.217.243/32
     - 104.41.218.160/32
     - 134.149.92.118/31
@@ -29,12 +30,13 @@ address_prefixes:
     - 40.112.94.196/32
     - 52.142.95.35/32
     - 52.146.139.194/31
+    - 74.144.43.96/30
     - 104.41.217.243/32
     - 104.41.218.160/32
     - 134.149.92.118/31
   ipv6:
     - 2603:1020:5:402::140/124
   counts:
-    total: 10
-    ipv4: 9
+    total: 11
+    ipv4: 10
     ipv6: 1

@@ -1,7 +1,7 @@
 id: ApiManagement.WestEurope
 name: ApiManagement.WestEurope
 metadata:
-  change_number: 5
+  change_number: 6
   region: westeurope
   platform: Azure
   system_service: AzureApiManagement
@@ -17,6 +17,7 @@ address_prefixes:
     - 20.86.92.254/31
     - 23.101.67.140/32
     - 51.145.179.78/32
+    - 74.144.134.0/30
     - 134.149.156.80/31
     - 137.117.160.56/32
     - 2603:1020:206:402::140/124
@@ -27,12 +28,13 @@ address_prefixes:
     - 20.86.92.254/31
     - 23.101.67.140/32
     - 51.145.179.78/32
+    - 74.144.134.0/30
     - 134.149.156.80/31
     - 137.117.160.56/32
   ipv6:
     - 2603:1020:206:402::140/124
     - 2603:1020:206:403::60/124
   counts:
-    total: 9
-    ipv4: 7
+    total: 10
+    ipv4: 8
     ipv6: 2

@@ -1,7 +1,7 @@
 id: ApiManagement.SoutheastAsia
 name: ApiManagement.SoutheastAsia
 metadata:
-  change_number: 5
+  change_number: 6
   region: southeastasia
   platform: Azure
   system_service: AzureApiManagement
@@ -12,6 +12,7 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 4.145.226.12/30
     - 4.146.0.14/31
     - 4.146.0.232/29
     - 4.146.0.240/30
@@ -22,6 +23,7 @@ address_prefixes:
     - 135.171.51.128/28
     - 2603:1040:5:402::140/124
   ipv4:
+    - 4.145.226.12/30
     - 4.146.0.14/31
     - 4.146.0.232/29
     - 4.146.0.240/30
@@ -33,6 +35,6 @@ address_prefixes:
   ipv6:
     - 2603:1040:5:402::140/124
   counts:
-    total: 9
-    ipv4: 8
+    total: 10
+    ipv4: 9
     ipv6: 1

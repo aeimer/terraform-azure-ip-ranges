@@ -1,7 +1,7 @@
 id: ApiManagement.UAENorth
 name: ApiManagement.UAENorth
 metadata:
-  change_number: 5
+  change_number: 6
   region: uaenorth
   platform: Azure
   system_service: AzureApiManagement
@@ -12,6 +12,7 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 4.161.168.68/30
     - 20.46.144.85/32
     - 40.120.87.48/31
     - 65.52.250.4/31
@@ -20,6 +21,7 @@ address_prefixes:
     - 2603:1040:904:2::690/124
     - 2603:1040:904:402::140/124
   ipv4:
+    - 4.161.168.68/30
     - 20.46.144.85/32
     - 40.120.87.48/31
     - 65.52.250.4/31
@@ -29,6 +31,6 @@ address_prefixes:
     - 2603:1040:904:2::690/124
     - 2603:1040:904:402::140/124
   counts:
-    total: 7
-    ipv4: 5
+    total: 8
+    ipv4: 6
     ipv6: 2

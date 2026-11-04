@@ -1,7 +1,7 @@
 id: ApiManagement.WestUS2
 name: ApiManagement.WestUS2
 metadata:
-  change_number: 5
+  change_number: 6
   region: westus2
   platform: Azure
   system_service: AzureApiManagement
@@ -19,6 +19,7 @@ address_prefixes:
     - 20.83.221.86/31
     - 51.143.127.203/32
     - 52.183.115.244/32
+    - 74.146.135.140/30
     - 2603:1030:c06:400::940/124
   ipv4:
     - 13.66.138.92/31
@@ -28,9 +29,10 @@ address_prefixes:
     - 20.83.221.86/31
     - 51.143.127.203/32
     - 52.183.115.244/32
+    - 74.146.135.140/30
   ipv6:
     - 2603:1030:c06:400::940/124
   counts:
-    total: 8
-    ipv4: 7
+    total: 9
+    ipv4: 8
     ipv6: 1

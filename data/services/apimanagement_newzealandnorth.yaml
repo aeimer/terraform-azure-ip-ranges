@@ -1,7 +1,7 @@
 id: ApiManagement.NewZealandNorth
 name: ApiManagement.NewZealandNorth
 metadata:
-  change_number: 1
+  change_number: 2
   region: newzealandnorth
   platform: Azure
   system_service: AzureApiManagement
@@ -12,13 +12,15 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 172.204.108.136/30
     - 172.204.154.240/28
     - 2603:1010:502::5a0/124
   ipv4:
+    - 172.204.108.136/30
     - 172.204.154.240/28
   ipv6:
     - 2603:1010:502::5a0/124
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

@@ -1,7 +1,7 @@
 id: ApiManagement.MalaysiaWest
 name: ApiManagement.MalaysiaWest
 metadata:
-  change_number: 1
+  change_number: 2
   region: malaysiawest
   platform: Azure
   system_service: AzureApiManagement
@@ -13,12 +13,14 @@ metadata:
 address_prefixes:
   all:
     - 20.17.114.240/28
+    - 85.211.145.28/30
     - 2603:1040:1602::5a0/124
   ipv4:
     - 20.17.114.240/28
+    - 85.211.145.28/30
   ipv6:
     - 2603:1040:1602::5a0/124
   counts:
-    total: 2
-    ipv4: 1
+    total: 3
+    ipv4: 2
     ipv6: 1

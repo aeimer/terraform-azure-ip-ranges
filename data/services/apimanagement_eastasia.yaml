@@ -1,7 +1,7 @@
 id: ApiManagement.EastAsia
 name: ApiManagement.EastAsia
 metadata:
-  change_number: 5
+  change_number: 6
   region: eastasia
   platform: Azure
   system_service: AzureApiManagement
@@ -15,6 +15,7 @@ address_prefixes:
     - 13.75.34.148/31
     - 13.75.38.16/28
     - 13.75.67.143/32
+    - 20.6.192.72/30
     - 20.6.203.30/31
     - 20.6.204.12/30
     - 20.6.204.32/29
@@ -28,6 +29,7 @@ address_prefixes:
     - 13.75.34.148/31
     - 13.75.38.16/28
     - 13.75.67.143/32
+    - 20.6.192.72/30
     - 20.6.203.30/31
     - 20.6.204.12/30
     - 20.6.204.32/29
@@ -39,6 +41,6 @@ address_prefixes:
     - 2603:1040:207:1::4a0/124
     - 2603:1040:207:402::140/124
   counts:
-    total: 12
-    ipv4: 10
+    total: 13
+    ipv4: 11
     ipv6: 2

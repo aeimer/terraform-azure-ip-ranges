@@ -1,7 +1,7 @@
 id: ApiManagement.NorwayEast
 name: ApiManagement.NorwayEast
 metadata:
-  change_number: 3
+  change_number: 4
   region: norwaye
   platform: Azure
   system_service: AzureApiManagement
@@ -12,12 +12,14 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 4.177.48.40/30
     - 51.120.2.185/32
     - 51.120.98.176/28
     - 51.120.234.240/28
     - 2603:1020:e04::6f0/124
     - 2603:1020:e04:402::140/124
   ipv4:
+    - 4.177.48.40/30
     - 51.120.2.185/32
     - 51.120.98.176/28
     - 51.120.234.240/28
@@ -25,6 +27,6 @@ address_prefixes:
     - 2603:1020:e04::6f0/124
     - 2603:1020:e04:402::140/124
   counts:
-    total: 5
-    ipv4: 3
+    total: 6
+    ipv4: 4
     ipv6: 2

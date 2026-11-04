@@ -1,7 +1,7 @@
 id: ApiManagement.SwitzerlandNorth
 name: ApiManagement.SwitzerlandNorth
 metadata:
-  change_number: 3
+  change_number: 4
   region: switzerlandn
   platform: Azure
   system_service: AzureApiManagement
@@ -12,12 +12,14 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 20.250.248.208/30
     - 51.107.0.91/32
     - 51.107.59.0/28
     - 51.107.246.176/28
     - 2603:1020:a04:2::510/124
     - 2603:1020:a04:402::140/124
   ipv4:
+    - 20.250.248.208/30
     - 51.107.0.91/32
     - 51.107.59.0/28
     - 51.107.246.176/28
@@ -25,6 +27,6 @@ address_prefixes:
     - 2603:1020:a04:2::510/124
     - 2603:1020:a04:402::140/124
   counts:
-    total: 5
-    ipv4: 3
+    total: 6
+    ipv4: 4
     ipv6: 2

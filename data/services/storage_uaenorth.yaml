@@ -1,7 +1,7 @@
 id: Storage.UAENorth
 name: Storage.UAENorth
 metadata:
-  change_number: 13
+  change_number: 14
   region: uaenorth
   platform: Azure
   system_service: AzureStorage
@@ -25,6 +25,7 @@ address_prefixes:
     - 52.239.233.128/25
     - 57.150.230.0/23
     - 57.163.54.0/23
+    - 145.190.202.0/24
     - 2603:1040:905::/48
   ipv4:
     - 20.33.139.0/24
@@ -40,9 +41,10 @@ address_prefixes:
     - 52.239.233.128/25
     - 57.150.230.0/23
     - 57.163.54.0/23
+    - 145.190.202.0/24
   ipv6:
     - 2603:1040:905::/48
   counts:
-    total: 14
-    ipv4: 13
+    total: 15
+    ipv4: 14
     ipv6: 1
