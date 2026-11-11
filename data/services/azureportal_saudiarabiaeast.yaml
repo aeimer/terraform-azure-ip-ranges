@@ -1,0 +1,22 @@
+id: AzurePortal.SaudiArabiaEast
+name: AzurePortal.SaudiArabiaEast
+metadata:
+  change_number: 1
+  region: saudiarabiaeast
+  platform: Azure
+  system_service: AzurePortal
+  network_features: []
+address_prefixes:
+  all:
+    - 48.197.89.196/30
+    - 48.197.90.224/27
+    - 2603:1040:1a02:3::200/121
+  ipv4:
+    - 48.197.89.196/30
+    - 48.197.90.224/27
+  ipv6:
+    - 2603:1040:1a02:3::200/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

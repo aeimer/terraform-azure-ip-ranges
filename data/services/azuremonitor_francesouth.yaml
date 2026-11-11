@@ -1,7 +1,7 @@
 id: AzureMonitor.FranceSouth
 name: AzureMonitor.FranceSouth
 metadata:
-  change_number: 17
+  change_number: 18
   region: southfrance
   platform: Azure
   system_service: AzureMonitor
@@ -23,6 +23,7 @@ address_prefixes:
     - 52.136.191.12/31
     - 98.66.23.176/28
     - 98.66.30.160/27
+    - 98.66.43.128/27
     - 2603:1020:905::780/121
     - 2603:1020:905:1::280/123
     - 2603:1020:905:1::300/121
@@ -49,6 +50,7 @@ address_prefixes:
     - 52.136.191.12/31
     - 98.66.23.176/28
     - 98.66.30.160/27
+    - 98.66.43.128/27
   ipv6:
     - 2603:1020:905::780/121
     - 2603:1020:905:1::280/123
@@ -62,6 +64,6 @@ address_prefixes:
     - 2603:1020:905:b::600/119
     - 2603:1020:905:402::500/121
   counts:
-    total: 25
-    ipv4: 14
+    total: 26
+    ipv4: 15
     ipv6: 11

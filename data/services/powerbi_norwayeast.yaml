@@ -1,7 +1,7 @@
 id: PowerBI.NorwayEast
 name: PowerBI.NorwayEast
 metadata:
-  change_number: 1
+  change_number: 2
   region: norwaye
   platform: Azure
   system_service: PowerBI
@@ -12,6 +12,7 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 4.219.40.48/28
     - 4.219.252.64/27
     - 20.100.1.168/29
     - 20.100.2.40/29
@@ -24,6 +25,7 @@ address_prefixes:
     - 2603:1020:e04:1::5e0/123
     - 2603:1020:e04:1::600/122
   ipv4:
+    - 4.219.40.48/28
     - 4.219.252.64/27
     - 20.100.1.168/29
     - 20.100.2.40/29
@@ -37,6 +39,6 @@ address_prefixes:
     - 2603:1020:e04:1::5e0/123
     - 2603:1020:e04:1::600/122
   counts:
-    total: 11
-    ipv4: 7
+    total: 12
+    ipv4: 8
     ipv6: 4

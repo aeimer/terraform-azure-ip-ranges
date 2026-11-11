@@ -1,7 +1,7 @@
 id: Storage.SoutheastUS
 name: Storage.SoutheastUS
 metadata:
-  change_number: 1
+  change_number: 2
   region: southeastus
   platform: Azure
   system_service: AzureStorage
@@ -17,6 +17,7 @@ address_prefixes:
     - 57.150.23.0/24
     - 57.150.24.0/23
     - 57.150.93.0/24
+    - 57.163.102.0/23
     - 2603:1030:903::/48
   ipv4:
     - 20.33.215.0/24
@@ -24,9 +25,10 @@ address_prefixes:
     - 57.150.23.0/24
     - 57.150.24.0/23
     - 57.150.93.0/24
+    - 57.163.102.0/23
   ipv6:
     - 2603:1030:903::/48
   counts:
-    total: 6
-    ipv4: 5
+    total: 7
+    ipv4: 6
     ipv6: 1

@@ -1,7 +1,7 @@
 id: PowerPlatformInfra.CentralIndia
 name: PowerPlatformInfra.CentralIndia
 metadata:
-  change_number: 6
+  change_number: 7
   region: centralindia
   platform: Azure
   system_service: PowerPlatformInfra
@@ -12,6 +12,7 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 4.186.248.128/25
     - 4.213.29.160/29
     - 4.213.29.192/26
     - 4.213.80.0/24
@@ -40,6 +41,7 @@ address_prefixes:
     - 52.140.110.0/26
     - 2603:1061:2002:4000::/57
   ipv4:
+    - 4.186.248.128/25
     - 4.213.29.160/29
     - 4.213.29.192/26
     - 4.213.80.0/24
@@ -69,6 +71,6 @@ address_prefixes:
   ipv6:
     - 2603:1061:2002:4000::/57
   counts:
-    total: 27
-    ipv4: 26
+    total: 28
+    ipv4: 27
     ipv6: 1

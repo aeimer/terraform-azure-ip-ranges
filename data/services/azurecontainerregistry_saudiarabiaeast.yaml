@@ -1,0 +1,30 @@
+id: AzureContainerRegistry.SaudiArabiaEast
+name: AzureContainerRegistry.SaudiArabiaEast
+metadata:
+  change_number: 1
+  region: saudiarabiaeast
+  platform: Azure
+  system_service: AzureContainerRegistry
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 48.197.76.192/26
+    - 48.197.88.128/26
+    - 2603:1040:1a02::700/125
+    - 2603:1040:1a02:2::580/121
+    - 2603:1040:1a02:400::8/125
+  ipv4:
+    - 48.197.76.192/26
+    - 48.197.88.128/26
+  ipv6:
+    - 2603:1040:1a02::700/125
+    - 2603:1040:1a02:2::580/121
+    - 2603:1040:1a02:400::8/125
+  counts:
+    total: 5
+    ipv4: 2
+    ipv6: 3

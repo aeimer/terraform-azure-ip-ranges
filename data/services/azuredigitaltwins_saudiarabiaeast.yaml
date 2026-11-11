@@ -1,0 +1,22 @@
+id: AzureDigitalTwins.SaudiArabiaEast
+name: AzureDigitalTwins.SaudiArabiaEast
+metadata:
+  change_number: 1
+  region: saudiarabiaeast
+  platform: Azure
+  system_service: AzureDigitalTwins
+  network_features: []
+address_prefixes:
+  all:
+    - 48.197.76.152/29
+    - 48.197.78.32/27
+    - 2603:1040:1a02::780/121
+  ipv4:
+    - 48.197.76.152/29
+    - 48.197.78.32/27
+  ipv6:
+    - 2603:1040:1a02::780/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

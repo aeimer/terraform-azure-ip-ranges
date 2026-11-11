@@ -1,0 +1,22 @@
+id: AzureBackup.SaudiArabiaEast
+name: AzureBackup.SaudiArabiaEast
+metadata:
+  change_number: 1
+  region: saudiarabiaeast
+  platform: Azure
+  system_service: AzureBackup
+  network_features: []
+address_prefixes:
+  all:
+    - 48.197.78.80/28
+    - 48.197.78.128/26
+    - 2603:1040:1a02:1::/121
+  ipv4:
+    - 48.197.78.80/28
+    - 48.197.78.128/26
+  ipv6:
+    - 2603:1040:1a02:1::/121
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

@@ -1,7 +1,7 @@
 id: AzureMonitor.IndiaSouthCentral
 name: AzureMonitor.IndiaSouthCentral
 metadata:
-  change_number: 5
+  change_number: 6
   region: indiasouthcentral
   platform: Azure
   system_service: AzureMonitor
@@ -9,6 +9,7 @@ metadata:
     - NSG
 address_prefixes:
   all:
+    - 172.128.3.192/27
     - 172.198.96.216/29
     - 172.198.98.160/29
     - 172.198.98.168/31
@@ -31,6 +32,7 @@ address_prefixes:
     - 2603:1040:1904:5::100/123
     - 2603:1040:1904:5::400/118
   ipv4:
+    - 172.128.3.192/27
     - 172.198.96.216/29
     - 172.198.98.160/29
     - 172.198.98.168/31
@@ -54,6 +56,6 @@ address_prefixes:
     - 2603:1040:1904:5::100/123
     - 2603:1040:1904:5::400/118
   counts:
-    total: 21
-    ipv4: 14
+    total: 22
+    ipv4: 15
     ipv6: 7

@@ -1,7 +1,7 @@
 id: Storage.EastUS
 name: Storage.EastUS
 metadata:
-  change_number: 61
+  change_number: 62
   region: eastus
   platform: Azure
   system_service: AzureStorage
@@ -120,6 +120,7 @@ address_prefixes:
     - 57.163.34.0/23
     - 57.163.48.0/23
     - 57.163.94.0/23
+    - 57.163.100.0/23
     - 135.130.12.0/23
     - 135.130.36.0/23
     - 135.130.64.0/23
@@ -262,6 +263,7 @@ address_prefixes:
     - 57.163.34.0/23
     - 57.163.48.0/23
     - 57.163.94.0/23
+    - 57.163.100.0/23
     - 135.130.12.0/23
     - 135.130.36.0/23
     - 135.130.64.0/23
@@ -297,6 +299,6 @@ address_prefixes:
     - 2603:1030:213::/49
     - 2603:1030:213:8000::/59
   counts:
-    total: 141
-    ipv4: 139
+    total: 142
+    ipv4: 140
     ipv6: 2

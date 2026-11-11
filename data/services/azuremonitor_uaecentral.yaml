@@ -1,7 +1,7 @@
 id: AzureMonitor.UAECentral
 name: AzureMonitor.UAECentral
 metadata:
-  change_number: 18
+  change_number: 19
   region: uaecentral
   platform: Azure
   system_service: AzureMonitor
@@ -21,6 +21,7 @@ address_prefixes:
     - 20.216.92.48/28
     - 40.120.8.192/27
     - 40.120.9.88/29
+    - 74.150.19.192/27
     - 74.243.3.192/27
     - 74.243.7.0/26
     - 74.243.21.0/29
@@ -49,6 +50,7 @@ address_prefixes:
     - 20.216.92.48/28
     - 40.120.8.192/27
     - 40.120.9.88/29
+    - 74.150.19.192/27
     - 74.243.3.192/27
     - 74.243.7.0/26
     - 74.243.21.0/29
@@ -66,6 +68,6 @@ address_prefixes:
     - 2603:1040:b04:a::/118
     - 2603:1040:b04:402::500/121
   counts:
-    total: 27
-    ipv4: 16
+    total: 28
+    ipv4: 17
     ipv6: 11

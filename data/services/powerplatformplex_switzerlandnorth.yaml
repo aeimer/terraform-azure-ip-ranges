@@ -1,7 +1,7 @@
 id: PowerPlatformPlex.SwitzerlandNorth
 name: PowerPlatformPlex.SwitzerlandNorth
 metadata:
-  change_number: 9
+  change_number: 10
   region: switzerlandn
   platform: Azure
   system_service: PowerPlatformPlex
@@ -20,6 +20,7 @@ address_prefixes:
     - 74.161.173.192/26
     - 74.161.174.0/26
     - 74.242.188.32/29
+    - 172.161.115.0/25
     - 2603:1061:2004:5000::/57
   ipv4:
     - 20.208.5.84/30
@@ -32,9 +33,10 @@ address_prefixes:
     - 74.161.173.192/26
     - 74.161.174.0/26
     - 74.242.188.32/29
+    - 172.161.115.0/25
   ipv6:
     - 2603:1061:2004:5000::/57
   counts:
-    total: 11
-    ipv4: 10
+    total: 12
+    ipv4: 11
     ipv6: 1

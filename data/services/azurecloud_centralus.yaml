@@ -1,7 +1,7 @@
 id: AzureCloud.centralus
 name: AzureCloud.centralus
 metadata:
-  change_number: 221
+  change_number: 222
   region: centralus
   platform: Azure
   system_service: ""
@@ -478,6 +478,7 @@ address_prefixes:
     - 52.113.129.0/24
     - 52.114.2.0/24
     - 52.114.128.0/22
+    - 52.114.190.0/24
     - 52.115.76.0/22
     - 52.115.88.0/22
     - 52.115.92.0/24
@@ -1459,6 +1460,7 @@ address_prefixes:
     - 52.113.129.0/24
     - 52.114.2.0/24
     - 52.114.128.0/22
+    - 52.114.190.0/24
     - 52.115.76.0/22
     - 52.115.88.0/22
     - 52.115.92.0/24
@@ -1973,6 +1975,6 @@ address_prefixes:
     - 2a01:111:f403:e01e::/64
     - 2a01:111:f403:f904::/62
   counts:
-    total: 980
-    ipv4: 705
+    total: 981
+    ipv4: 706
     ipv6: 275

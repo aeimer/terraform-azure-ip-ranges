@@ -1,7 +1,7 @@
 id: PowerBI.SwitzerlandWest
 name: PowerBI.SwitzerlandWest
 metadata:
-  change_number: 2
+  change_number: 3
   region: switzerlandw
   platform: Azure
   system_service: PowerBI
@@ -13,6 +13,10 @@ metadata:
 address_prefixes:
   all:
     - 20.199.201.80/29
+    - 20.199.234.67/32
+    - 20.199.234.72/29
+    - 20.199.235.160/28
+    - 20.199.235.176/30
     - 51.107.144.122/31
     - 51.107.144.124/30
     - 51.107.144.208/29
@@ -24,6 +28,10 @@ address_prefixes:
     - 2603:1020:b04::640/122
   ipv4:
     - 20.199.201.80/29
+    - 20.199.234.67/32
+    - 20.199.234.72/29
+    - 20.199.235.160/28
+    - 20.199.235.176/30
     - 51.107.144.122/31
     - 51.107.144.124/30
     - 51.107.144.208/29
@@ -35,6 +43,6 @@ address_prefixes:
     - 2603:1020:b04::620/123
     - 2603:1020:b04::640/122
   counts:
-    total: 10
-    ipv4: 8
+    total: 14
+    ipv4: 12
     ipv6: 2

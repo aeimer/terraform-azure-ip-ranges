@@ -1,7 +1,7 @@
 id: PowerPlatformPlex.CentralIndia
 name: PowerPlatformPlex.CentralIndia
 metadata:
-  change_number: 7
+  change_number: 8
   region: centralindia
   platform: Azure
   system_service: PowerPlatformPlex
@@ -10,6 +10,7 @@ metadata:
     - NSG
 address_prefixes:
   all:
+    - 4.186.249.0/25
     - 4.213.28.0/29
     - 20.193.248.192/26
     - 20.204.192.108/30
@@ -23,6 +24,7 @@ address_prefixes:
     - 135.13.168.128/25
     - 2603:1061:2004:3900::/57
   ipv4:
+    - 4.186.249.0/25
     - 4.213.28.0/29
     - 20.193.248.192/26
     - 20.204.192.108/30
@@ -37,6 +39,6 @@ address_prefixes:
   ipv6:
     - 2603:1061:2004:3900::/57
   counts:
-    total: 12
-    ipv4: 11
+    total: 13
+    ipv4: 12
     ipv6: 1

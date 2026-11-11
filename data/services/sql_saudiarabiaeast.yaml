@@ -1,0 +1,30 @@
+id: Sql.SaudiArabiaEast
+name: Sql.SaudiArabiaEast
+metadata:
+  change_number: 1
+  region: saudiarabiaeast
+  platform: Azure
+  system_service: AzureSQL
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 48.197.92.96/27
+    - 48.197.92.128/27
+    - 48.197.92.192/26
+    - 2603:1040:1a02:3::400/123
+    - 2603:1040:1a02:3::480/121
+  ipv4:
+    - 48.197.92.96/27
+    - 48.197.92.128/27
+    - 48.197.92.192/26
+  ipv6:
+    - 2603:1040:1a02:3::400/123
+    - 2603:1040:1a02:3::480/121
+  counts:
+    total: 5
+    ipv4: 3
+    ipv6: 2

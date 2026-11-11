@@ -1,7 +1,7 @@
 id: PowerBI.SouthIndia
 name: PowerBI.SouthIndia
 metadata:
-  change_number: 4
+  change_number: 5
   region: southindia
   platform: Azure
   system_service: PowerBI
@@ -12,6 +12,9 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 4.247.1.0/29
+    - 4.247.49.156/30
+    - 4.247.49.192/26
     - 20.41.192.122/31
     - 20.41.192.124/30
     - 20.41.193.144/29
@@ -29,6 +32,9 @@ address_prefixes:
     - 2603:1040:c06::620/123
     - 2603:1040:c06::640/122
   ipv4:
+    - 4.247.1.0/29
+    - 4.247.49.156/30
+    - 4.247.49.192/26
     - 20.41.192.122/31
     - 20.41.192.124/30
     - 20.41.193.144/29
@@ -47,6 +53,6 @@ address_prefixes:
     - 2603:1040:c06::620/123
     - 2603:1040:c06::640/122
   counts:
-    total: 16
-    ipv4: 14
+    total: 19
+    ipv4: 17
     ipv6: 2

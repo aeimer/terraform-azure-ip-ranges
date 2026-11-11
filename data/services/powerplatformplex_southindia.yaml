@@ -1,7 +1,7 @@
 id: PowerPlatformPlex.SouthIndia
 name: PowerPlatformPlex.SouthIndia
 metadata:
-  change_number: 7
+  change_number: 8
   region: southindia
   platform: Azure
   system_service: PowerPlatformPlex
@@ -10,6 +10,7 @@ metadata:
     - NSG
 address_prefixes:
   all:
+    - 4.247.0.128/25
     - 20.40.5.0/26
     - 20.192.157.248/29
     - 20.207.219.24/29
@@ -22,6 +23,7 @@ address_prefixes:
     - 135.13.50.128/25
     - 2603:1061:2004:3800::/57
   ipv4:
+    - 4.247.0.128/25
     - 20.40.5.0/26
     - 20.192.157.248/29
     - 20.207.219.24/29
@@ -35,6 +37,6 @@ address_prefixes:
   ipv6:
     - 2603:1061:2004:3800::/57
   counts:
-    total: 11
-    ipv4: 10
+    total: 12
+    ipv4: 11
     ipv6: 1

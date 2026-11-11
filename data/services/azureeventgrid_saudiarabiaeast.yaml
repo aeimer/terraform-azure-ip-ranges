@@ -1,0 +1,26 @@
+id: AzureEventGrid.SaudiArabiaEast
+name: AzureEventGrid.SaudiArabiaEast
+metadata:
+  change_number: 1
+  region: saudiarabiaeast
+  platform: Azure
+  system_service: AzureEventGrid
+  network_features: []
+address_prefixes:
+  all:
+    - 48.197.73.128/25
+    - 48.197.102.0/23
+    - 48.197.128.0/22
+    - 48.197.132.0/23
+    - 2603:1040:1a02::480/121
+  ipv4:
+    - 48.197.73.128/25
+    - 48.197.102.0/23
+    - 48.197.128.0/22
+    - 48.197.132.0/23
+  ipv6:
+    - 2603:1040:1a02::480/121
+  counts:
+    total: 5
+    ipv4: 4
+    ipv6: 1

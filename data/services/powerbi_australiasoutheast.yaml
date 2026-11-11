@@ -1,7 +1,7 @@
 id: PowerBI.AustraliaSoutheast
 name: PowerBI.AustraliaSoutheast
 metadata:
-  change_number: 4
+  change_number: 5
   region: australiasoutheast
   platform: Azure
   system_service: PowerBI
@@ -23,6 +23,9 @@ address_prefixes:
     - 20.42.227.64/26
     - 20.92.4.144/28
     - 20.211.229.128/26
+    - 48.215.184.224/27
+    - 48.215.185.0/26
+    - 48.215.185.64/28
     - 2603:1010:101::620/123
     - 2603:1010:101::640/122
   ipv4:
@@ -37,10 +40,13 @@ address_prefixes:
     - 20.42.227.64/26
     - 20.92.4.144/28
     - 20.211.229.128/26
+    - 48.215.184.224/27
+    - 48.215.185.0/26
+    - 48.215.185.64/28
   ipv6:
     - 2603:1010:101::620/123
     - 2603:1010:101::640/122
   counts:
-    total: 13
-    ipv4: 11
+    total: 16
+    ipv4: 14
     ipv6: 2

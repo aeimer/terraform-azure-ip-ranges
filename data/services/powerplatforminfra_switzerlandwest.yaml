@@ -1,7 +1,7 @@
 id: PowerPlatformInfra.SwitzerlandWest
 name: PowerPlatformInfra.SwitzerlandWest
 metadata:
-  change_number: 4
+  change_number: 5
   region: switzerlandw
   platform: Azure
   system_service: PowerPlatformInfra
@@ -14,6 +14,7 @@ address_prefixes:
   all:
     - 20.199.206.120/29
     - 20.199.207.48/28
+    - 20.199.234.128/25
     - 51.107.96.36/32
     - 51.107.96.48/29
     - 51.107.96.104/32
@@ -34,6 +35,7 @@ address_prefixes:
   ipv4:
     - 20.199.206.120/29
     - 20.199.207.48/28
+    - 20.199.234.128/25
     - 51.107.96.36/32
     - 51.107.96.48/29
     - 51.107.96.104/32
@@ -53,6 +55,6 @@ address_prefixes:
   ipv6:
     - 2603:1061:2002:5900::/57
   counts:
-    total: 19
-    ipv4: 18
+    total: 20
+    ipv4: 19
     ipv6: 1

@@ -1,7 +1,7 @@
 id: PowerPlatformInfra.SwitzerlandNorth
 name: PowerPlatformInfra.SwitzerlandNorth
 metadata:
-  change_number: 4
+  change_number: 5
   region: switzerlandn
   platform: Azure
   system_service: PowerPlatformInfra
@@ -33,6 +33,7 @@ address_prefixes:
     - 74.242.149.192/26
     - 74.242.150.0/25
     - 74.242.150.128/26
+    - 172.161.114.128/25
     - 2603:1061:2002:5800::/57
   ipv4:
     - 20.208.4.0/26
@@ -56,9 +57,10 @@ address_prefixes:
     - 74.242.149.192/26
     - 74.242.150.0/25
     - 74.242.150.128/26
+    - 172.161.114.128/25
   ipv6:
     - 2603:1061:2002:5800::/57
   counts:
-    total: 22
-    ipv4: 21
+    total: 23
+    ipv4: 22
     ipv6: 1

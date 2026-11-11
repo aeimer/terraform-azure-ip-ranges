@@ -1,0 +1,20 @@
+id: AzureSignalR.SaudiArabiaEast
+name: AzureSignalR.SaudiArabiaEast
+metadata:
+  change_number: 1
+  region: saudiarabiaeast
+  platform: Azure
+  system_service: AzureSignalR
+  network_features: []
+address_prefixes:
+  all:
+    - 48.197.156.64/26
+    - 2603:1040:1a02:7::400/122
+  ipv4:
+    - 48.197.156.64/26
+  ipv6:
+    - 2603:1040:1a02:7::400/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

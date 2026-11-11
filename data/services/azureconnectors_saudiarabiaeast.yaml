@@ -1,0 +1,24 @@
+id: AzureConnectors.SaudiArabiaEast
+name: AzureConnectors.SaudiArabiaEast
+metadata:
+  change_number: 1
+  region: saudiarabiaeast
+  platform: Azure
+  system_service: AzureConnectors
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 48.197.84.192/26
+    - 2603:1040:1a02:2::100/122
+  ipv4:
+    - 48.197.84.192/26
+  ipv6:
+    - 2603:1040:1a02:2::100/122
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

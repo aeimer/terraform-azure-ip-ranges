@@ -1,0 +1,26 @@
+id: AzureCosmosDB.SaudiArabiaEast
+name: AzureCosmosDB.SaudiArabiaEast
+metadata:
+  change_number: 1
+  region: saudiarabiaeast
+  platform: Azure
+  system_service: AzureCosmosDB
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 48.197.76.32/27
+    - 48.197.76.64/26
+    - 2603:1040:1a02::5c0/123
+  ipv4:
+    - 48.197.76.32/27
+    - 48.197.76.64/26
+  ipv6:
+    - 2603:1040:1a02::5c0/123
+  counts:
+    total: 3
+    ipv4: 2
+    ipv6: 1

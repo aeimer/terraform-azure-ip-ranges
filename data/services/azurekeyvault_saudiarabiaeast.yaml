@@ -1,0 +1,28 @@
+id: AzureKeyVault.SaudiArabiaEast
+name: AzureKeyVault.SaudiArabiaEast
+metadata:
+  change_number: 1
+  region: saudiarabiaeast
+  platform: Azure
+  system_service: AzureKeyVault
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 48.197.81.216/30
+    - 48.197.81.224/29
+    - 2603:1040:1a02:1::428/125
+    - 2603:1040:1a02:400::80/125
+  ipv4:
+    - 48.197.81.216/30
+    - 48.197.81.224/29
+  ipv6:
+    - 2603:1040:1a02:1::428/125
+    - 2603:1040:1a02:400::80/125
+  counts:
+    total: 4
+    ipv4: 2
+    ipv6: 2

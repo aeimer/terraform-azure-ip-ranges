@@ -1,7 +1,7 @@
 id: AzureMonitor.JioIndiaCentral
 name: AzureMonitor.JioIndiaCentral
 metadata:
-  change_number: 10
+  change_number: 11
   region: jioindiacentral
   platform: Azure
   system_service: AzureMonitor
@@ -9,6 +9,7 @@ metadata:
     - NSG
 address_prefixes:
   all:
+    - 4.240.138.64/27
     - 4.240.149.32/27
     - 4.240.149.64/26
     - 20.192.32.192/27
@@ -32,6 +33,7 @@ address_prefixes:
     - 2603:1040:1104:8::/118
     - 2603:1040:1104:400::460/123
   ipv4:
+    - 4.240.138.64/27
     - 4.240.149.32/27
     - 4.240.149.64/26
     - 20.192.32.192/27
@@ -56,6 +58,6 @@ address_prefixes:
     - 2603:1040:1104:8::/118
     - 2603:1040:1104:400::460/123
   counts:
-    total: 22
-    ipv4: 11
+    total: 23
+    ipv4: 12
     ipv6: 11

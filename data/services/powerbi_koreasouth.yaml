@@ -1,7 +1,7 @@
 id: PowerBI.KoreaSouth
 name: PowerBI.KoreaSouth
 metadata:
-  change_number: 3
+  change_number: 4
   region: koreasouth
   platform: Azure
   system_service: PowerBI
@@ -14,6 +14,7 @@ address_prefixes:
   all:
     - 4.243.117.16/29
     - 4.243.139.160/28
+    - 4.243.188.240/28
     - 20.200.166.224/28
     - 40.80.168.122/31
     - 40.80.168.124/30
@@ -25,6 +26,7 @@ address_prefixes:
   ipv4:
     - 4.243.117.16/29
     - 4.243.139.160/28
+    - 4.243.188.240/28
     - 20.200.166.224/28
     - 40.80.168.122/31
     - 40.80.168.124/30
@@ -35,6 +37,6 @@ address_prefixes:
     - 2603:1040:e05:6::1c0/122
     - 2603:1040:e05:6::200/123
   counts:
-    total: 10
-    ipv4: 8
+    total: 11
+    ipv4: 9
     ipv6: 2

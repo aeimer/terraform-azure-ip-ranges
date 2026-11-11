@@ -1,0 +1,24 @@
+id: HDInsight.SaudiArabiaEast
+name: HDInsight.SaudiArabiaEast
+metadata:
+  change_number: 1
+  region: saudiarabiaeast
+  platform: Azure
+  system_service: HDInsight
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 48.197.81.208/29
+    - 2603:1040:1a02:1::4d0/124
+  ipv4:
+    - 48.197.81.208/29
+  ipv6:
+    - 2603:1040:1a02:1::4d0/124
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

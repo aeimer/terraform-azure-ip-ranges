@@ -1,7 +1,7 @@
 id: PowerPlatformPlex.UAENorth
 name: PowerPlatformPlex.UAENorth
 metadata:
-  change_number: 9
+  change_number: 10
   region: uaenorth
   platform: Azure
   system_service: PowerPlatformPlex
@@ -10,6 +10,7 @@ metadata:
     - NSG
 address_prefixes:
   all:
+    - 4.161.191.0/25
     - 20.74.196.12/30
     - 20.74.196.64/30
     - 20.74.196.104/29
@@ -22,6 +23,7 @@ address_prefixes:
     - 172.164.238.24/29
     - 2603:1061:2004:6800::/57
   ipv4:
+    - 4.161.191.0/25
     - 20.74.196.12/30
     - 20.74.196.64/30
     - 20.74.196.104/29
@@ -35,6 +37,6 @@ address_prefixes:
   ipv6:
     - 2603:1061:2004:6800::/57
   counts:
-    total: 11
-    ipv4: 10
+    total: 12
+    ipv4: 11
     ipv6: 1

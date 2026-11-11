@@ -1,0 +1,32 @@
+id: PowerBI.SaudiArabiaEast
+name: PowerBI.SaudiArabiaEast
+metadata:
+  change_number: 1
+  region: saudiarabiaeast
+  platform: Azure
+  system_service: PowerBI
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 48.197.84.96/27
+    - 48.197.87.142/31
+    - 48.197.89.192/30
+    - 48.197.89.200/29
+    - 2603:1040:1a02:2::740/122
+    - 2603:1040:1a02:3::100/123
+  ipv4:
+    - 48.197.84.96/27
+    - 48.197.87.142/31
+    - 48.197.89.192/30
+    - 48.197.89.200/29
+  ipv6:
+    - 2603:1040:1a02:2::740/122
+    - 2603:1040:1a02:3::100/123
+  counts:
+    total: 6
+    ipv4: 4
+    ipv6: 2

@@ -1,7 +1,7 @@
 id: PowerBI.FranceSouth
 name: PowerBI.FranceSouth
 metadata:
-  change_number: 2
+  change_number: 3
   region: southfrance
   platform: Azure
   system_service: PowerBI
@@ -20,6 +20,10 @@ address_prefixes:
     - 51.105.88.208/28
     - 52.136.186.112/30
     - 52.136.190.184/29
+    - 98.66.42.122/31
+    - 98.66.42.124/30
+    - 98.66.43.208/32
+    - 98.66.43.224/27
     - 2603:1020:905::620/123
     - 2603:1020:905::640/122
   ipv4:
@@ -31,10 +35,14 @@ address_prefixes:
     - 51.105.88.208/28
     - 52.136.186.112/30
     - 52.136.190.184/29
+    - 98.66.42.122/31
+    - 98.66.42.124/30
+    - 98.66.43.208/32
+    - 98.66.43.224/27
   ipv6:
     - 2603:1020:905::620/123
     - 2603:1020:905::640/122
   counts:
-    total: 10
-    ipv4: 8
+    total: 14
+    ipv4: 12
     ipv6: 2

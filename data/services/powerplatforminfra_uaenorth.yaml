@@ -1,7 +1,7 @@
 id: PowerPlatformInfra.UAENorth
 name: PowerPlatformInfra.UAENorth
 metadata:
-  change_number: 5
+  change_number: 6
   region: uaenorth
   platform: Azure
   system_service: PowerPlatformInfra
@@ -12,6 +12,7 @@ metadata:
     - FW
 address_prefixes:
   all:
+    - 4.161.190.128/25
     - 20.38.140.32/27
     - 20.38.140.64/26
     - 20.38.142.120/29
@@ -32,6 +33,7 @@ address_prefixes:
     - 172.164.233.0/24
     - 2603:1061:2002:7000::/57
   ipv4:
+    - 4.161.190.128/25
     - 20.38.140.32/27
     - 20.38.140.64/26
     - 20.38.142.120/29
@@ -53,6 +55,6 @@ address_prefixes:
   ipv6:
     - 2603:1061:2002:7000::/57
   counts:
-    total: 19
-    ipv4: 18
+    total: 20
+    ipv4: 19
     ipv6: 1

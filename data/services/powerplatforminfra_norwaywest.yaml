@@ -1,7 +1,7 @@
 id: PowerPlatformInfra.NorwayWest
 name: PowerPlatformInfra.NorwayWest
 metadata:
-  change_number: 4
+  change_number: 5
   region: norwayw
   platform: Azure
   system_service: PowerPlatformInfra
@@ -23,6 +23,7 @@ address_prefixes:
     - 51.120.228.48/28
     - 51.120.228.64/26
     - 51.120.228.128/28
+    - 74.240.18.128/25
     - 2603:1061:2002:1900::/57
   ipv4:
     - 4.220.153.0/26
@@ -36,9 +37,10 @@ address_prefixes:
     - 51.120.228.48/28
     - 51.120.228.64/26
     - 51.120.228.128/28
+    - 74.240.18.128/25
   ipv6:
     - 2603:1061:2002:1900::/57
   counts:
-    total: 12
-    ipv4: 11
+    total: 13
+    ipv4: 12
     ipv6: 1

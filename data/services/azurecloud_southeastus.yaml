@@ -1,7 +1,7 @@
 id: AzureCloud.southeastus
 name: AzureCloud.southeastus
 metadata:
-  change_number: 8
+  change_number: 9
   region: southeastus
   platform: Azure
   system_service: ""
@@ -33,6 +33,7 @@ address_prefixes:
     - 57.150.93.0/24
     - 57.151.160.0/19
     - 57.151.192.0/18
+    - 57.163.102.0/23
     - 68.154.128.0/17
     - 209.199.22.0/25
     - 2603:1030:901::/48
@@ -73,6 +74,7 @@ address_prefixes:
     - 57.150.93.0/24
     - 57.151.160.0/19
     - 57.151.192.0/18
+    - 57.163.102.0/23
     - 68.154.128.0/17
     - 209.199.22.0/25
   ipv6:
@@ -91,6 +93,6 @@ address_prefixes:
     - 2603:1061:2011:46::/64
     - 2603:1063:2200:34::/64
   counts:
-    total: 39
-    ipv4: 25
+    total: 40
+    ipv4: 26
     ipv6: 14

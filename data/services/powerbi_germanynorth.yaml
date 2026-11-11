@@ -1,7 +1,7 @@
 id: PowerBI.GermanyNorth
 name: PowerBI.GermanyNorth
 metadata:
-  change_number: 3
+  change_number: 4
   region: germanyn
   platform: Azure
   system_service: PowerBI
@@ -22,6 +22,9 @@ address_prefixes:
     - 51.116.48.136/29
     - 51.116.55.168/30
     - 51.116.75.72/29
+    - 98.67.30.216/29
+    - 98.67.31.16/30
+    - 98.67.31.32/27
     - 2603:1020:d04::620/123
     - 2603:1020:d04::640/122
   ipv4:
@@ -35,10 +38,13 @@ address_prefixes:
     - 51.116.48.136/29
     - 51.116.55.168/30
     - 51.116.75.72/29
+    - 98.67.30.216/29
+    - 98.67.31.16/30
+    - 98.67.31.32/27
   ipv6:
     - 2603:1020:d04::620/123
     - 2603:1020:d04::640/122
   counts:
-    total: 12
-    ipv4: 10
+    total: 15
+    ipv4: 13
     ipv6: 2

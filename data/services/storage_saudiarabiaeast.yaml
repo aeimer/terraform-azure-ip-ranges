@@ -1,0 +1,34 @@
+id: Storage.SaudiArabiaEast
+name: Storage.SaudiArabiaEast
+metadata:
+  change_number: 1
+  region: saudiarabiaeast
+  platform: Azure
+  system_service: AzureStorage
+  network_features:
+    - API
+    - NSG
+    - UDR
+    - FW
+address_prefixes:
+  all:
+    - 20.153.114.0/24
+    - 135.130.101.0/24
+    - 135.130.132.0/23
+    - 135.130.151.0/24
+    - 135.130.152.0/24
+    - 145.190.152.0/24
+    - 2603:1040:1a03::/49
+  ipv4:
+    - 20.153.114.0/24
+    - 135.130.101.0/24
+    - 135.130.132.0/23
+    - 135.130.151.0/24
+    - 135.130.152.0/24
+    - 145.190.152.0/24
+  ipv6:
+    - 2603:1040:1a03::/49
+  counts:
+    total: 7
+    ipv4: 6
+    ipv6: 1

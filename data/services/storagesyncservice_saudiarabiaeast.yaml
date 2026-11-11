@@ -1,0 +1,20 @@
+id: StorageSyncService.SaudiArabiaEast
+name: StorageSyncService.SaudiArabiaEast
+metadata:
+  change_number: 1
+  region: saudiarabiaeast
+  platform: Azure
+  system_service: StorageSyncService
+  network_features: []
+address_prefixes:
+  all:
+    - 48.197.87.144/29
+    - 2603:1040:1a02:2::480/123
+  ipv4:
+    - 48.197.87.144/29
+  ipv6:
+    - 2603:1040:1a02:2::480/123
+  counts:
+    total: 2
+    ipv4: 1
+    ipv6: 1

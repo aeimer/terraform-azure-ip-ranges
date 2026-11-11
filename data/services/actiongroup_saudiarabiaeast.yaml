@@ -1,0 +1,22 @@
+id: ActionGroup.SaudiArabiaEast
+name: ActionGroup.SaudiArabiaEast
+metadata:
+  change_number: 1
+  region: saudiarabiaeast
+  platform: Azure
+  system_service: ActionGroup
+  network_features: []
+address_prefixes:
+  all:
+    - 48.197.94.96/30
+    - 2603:1040:1a02:3::698/125
+    - 2603:1040:1a02:400::18/125
+  ipv4:
+    - 48.197.94.96/30
+  ipv6:
+    - 2603:1040:1a02:3::698/125
+    - 2603:1040:1a02:400::18/125
+  counts:
+    total: 3
+    ipv4: 1
+    ipv6: 2
