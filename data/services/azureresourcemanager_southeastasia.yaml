@@ -1,13 +1,14 @@
 id: AzureResourceManager.SoutheastAsia
 name: AzureResourceManager.SoutheastAsia
 metadata:
-  change_number: 4
+  change_number: 5
   region: southeastasia
   platform: Azure
   system_service: AzureResourceManager
   network_features: []
 address_prefixes:
   all:
+    - 4.145.226.20/30
     - 13.67.18.0/23
     - 20.135.84.112/32
     - 20.135.86.130/32
@@ -16,7 +17,9 @@ address_prefixes:
     - 40.78.234.176/28
     - 2603:1040:5::280/122
     - 2603:1040:5:402::280/122
+    - 2603:1040:5:1000::6c/126
   ipv4:
+    - 4.145.226.20/30
     - 13.67.18.0/23
     - 20.135.84.112/32
     - 20.135.86.130/32
@@ -26,7 +29,8 @@ address_prefixes:
   ipv6:
     - 2603:1040:5::280/122
     - 2603:1040:5:402::280/122
+    - 2603:1040:5:1000::6c/126
   counts:
-    total: 8
-    ipv4: 6
-    ipv6: 2
+    total: 10
+    ipv4: 7
+    ipv6: 3

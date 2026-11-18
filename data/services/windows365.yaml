@@ -1,7 +1,7 @@
 id: Windows365
 name: Windows365
 metadata:
-  change_number: 1
+  change_number: 2
   region: ""
   platform: Azure
   system_service: Windows365
@@ -32,6 +32,7 @@ address_prefixes:
     - 4.151.103.186/31
     - 4.156.6.120/31
     - 4.156.6.124/30
+    - 4.171.9.16/29
     - 4.172.219.80/28
     - 4.172.219.96/29
     - 4.172.219.104/30
@@ -787,6 +788,7 @@ address_prefixes:
     - 4.151.103.186/31
     - 4.156.6.120/31
     - 4.156.6.124/30
+    - 4.171.9.16/29
     - 4.172.219.80/28
     - 4.172.219.96/29
     - 4.172.219.104/30
@@ -1523,6 +1525,6 @@ address_prefixes:
     - 191.234.157.184/32
   ipv6: []
   counts:
-    total: 754
-    ipv4: 754
+    total: 755
+    ipv4: 755
     ipv6: 0

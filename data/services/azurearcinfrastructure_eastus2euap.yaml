@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.EastUS2EUAP
 name: AzureArcInfrastructure.EastUS2EUAP
 metadata:
-  change_number: 5
+  change_number: 6
   region: eastus2euap
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -17,7 +17,13 @@ address_prefixes:
     - 40.89.121.188/31
     - 48.223.58.80/32
     - 52.138.90.54/31
+    - 74.151.95.145/32
+    - 74.151.95.146/31
+    - 74.151.95.148/30
     - 2603:1030:40b:10::755/128
+    - 2603:1030:40b:18::2a5/128
+    - 2603:1030:40b:18::3a4/126
+    - 2603:1030:40b:18::3a8/127
   ipv4:
     - 20.39.12.228/30
     - 20.39.14.84/30
@@ -28,9 +34,15 @@ address_prefixes:
     - 40.89.121.188/31
     - 48.223.58.80/32
     - 52.138.90.54/31
+    - 74.151.95.145/32
+    - 74.151.95.146/31
+    - 74.151.95.148/30
   ipv6:
     - 2603:1030:40b:10::755/128
+    - 2603:1030:40b:18::2a5/128
+    - 2603:1030:40b:18::3a4/126
+    - 2603:1030:40b:18::3a8/127
   counts:
-    total: 10
-    ipv4: 9
-    ipv6: 1
+    total: 16
+    ipv4: 12
+    ipv6: 4

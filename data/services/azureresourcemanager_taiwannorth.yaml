@@ -1,7 +1,7 @@
 id: AzureResourceManager.TaiwanNorth
 name: AzureResourceManager.TaiwanNorth
 metadata:
-  change_number: 1
+  change_number: 2
   region: taiwannorth
   platform: Azure
   system_service: AzureResourceManager
@@ -9,12 +9,16 @@ metadata:
 address_prefixes:
   all:
     - 51.53.98.0/23
+    - 70.157.83.68/31
     - 2603:1040:1302:2::100/120
+    - 2603:1040:1302:1000::2/127
   ipv4:
     - 51.53.98.0/23
+    - 70.157.83.68/31
   ipv6:
     - 2603:1040:1302:2::100/120
+    - 2603:1040:1302:1000::2/127
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 4
+    ipv4: 2
+    ipv6: 2

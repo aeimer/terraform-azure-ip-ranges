@@ -1,26 +1,30 @@
 id: AzureResourceManager.KoreaSouth
 name: AzureResourceManager.KoreaSouth
 metadata:
-  change_number: 2
+  change_number: 3
   region: koreasouth
   platform: Azure
   system_service: AzureResourceManager
   network_features: []
 address_prefixes:
   all:
+    - 4.243.130.76/31
     - 40.80.174.0/23
     - 52.147.96.0/24
     - 52.231.148.64/28
     - 52.231.150.0/24
     - 2603:1040:e05:5::500/120
+    - 2603:1040:e05:800::2/127
   ipv4:
+    - 4.243.130.76/31
     - 40.80.174.0/23
     - 52.147.96.0/24
     - 52.231.148.64/28
     - 52.231.150.0/24
   ipv6:
     - 2603:1040:e05:5::500/120
+    - 2603:1040:e05:800::2/127
   counts:
-    total: 5
-    ipv4: 4
-    ipv6: 1
+    total: 7
+    ipv4: 5
+    ipv6: 2

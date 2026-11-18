@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.CentralUS
 name: AzureArcInfrastructure.CentralUS
 metadata:
-  change_number: 5
+  change_number: 6
   region: centralus
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -16,7 +16,9 @@ address_prefixes:
     - 52.182.141.60/31
     - 74.249.138.70/31
     - 74.249.138.88/29
+    - 172.134.133.0/30
     - 172.202.64.0/22
+    - 2603:1030:10:30::77c/126
     - 2603:1030:13:200::/62
   ipv4:
     - 13.89.179.20/30
@@ -27,10 +29,12 @@ address_prefixes:
     - 52.182.141.60/31
     - 74.249.138.70/31
     - 74.249.138.88/29
+    - 172.134.133.0/30
     - 172.202.64.0/22
   ipv6:
+    - 2603:1030:10:30::77c/126
     - 2603:1030:13:200::/62
   counts:
-    total: 10
-    ipv4: 9
-    ipv6: 1
+    total: 12
+    ipv4: 10
+    ipv6: 2

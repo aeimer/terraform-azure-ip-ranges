@@ -1,7 +1,7 @@
 id: AzureResourceManager.SoutheastUS3
 name: AzureResourceManager.SoutheastUS3
 metadata:
-  change_number: 1
+  change_number: 2
   region: southeastus3
   platform: Azure
   system_service: AzureResourceManager
@@ -9,12 +9,16 @@ metadata:
 address_prefixes:
   all:
     - 74.7.48.0/23
+    - 74.7.100.16/31
     - 2603:1030:1302:1::300/120
+    - 2603:1030:1302:800::a/127
   ipv4:
     - 74.7.48.0/23
+    - 74.7.100.16/31
   ipv6:
     - 2603:1030:1302:1::300/120
+    - 2603:1030:1302:800::a/127
   counts:
-    total: 2
-    ipv4: 1
-    ipv6: 1
+    total: 4
+    ipv4: 2
+    ipv6: 2

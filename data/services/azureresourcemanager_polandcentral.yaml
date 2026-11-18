@@ -1,7 +1,7 @@
 id: AzureResourceManager.PolandCentral
 name: AzureResourceManager.PolandCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: polandcentral
   platform: Azure
   system_service: AzureResourceManager
@@ -10,15 +10,19 @@ address_prefixes:
   all:
     - 20.215.10.0/23
     - 20.215.156.0/26
+    - 74.248.243.212/31
     - 2603:1020:1302:1::400/120
     - 2603:1020:1302:400::1c0/122
+    - 2603:1020:1302:1000::2/127
   ipv4:
     - 20.215.10.0/23
     - 20.215.156.0/26
+    - 74.248.243.212/31
   ipv6:
     - 2603:1020:1302:1::400/120
     - 2603:1020:1302:400::1c0/122
+    - 2603:1020:1302:1000::2/127
   counts:
-    total: 4
-    ipv4: 2
-    ipv6: 2
+    total: 6
+    ipv4: 3
+    ipv6: 3

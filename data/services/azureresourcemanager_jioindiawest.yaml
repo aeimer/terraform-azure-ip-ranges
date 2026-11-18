@@ -1,7 +1,7 @@
 id: AzureResourceManager.JioIndiaWest
 name: AzureResourceManager.JioIndiaWest
 metadata:
-  change_number: 1
+  change_number: 2
   region: jioindiawest
   platform: Azure
   system_service: AzureResourceManager
@@ -10,15 +10,19 @@ address_prefixes:
   all:
     - 20.193.196.0/23
     - 20.193.204.0/26
+    - 20.244.251.20/31
     - 2603:1040:d04:1::400/120
     - 2603:1040:d04:400::180/122
+    - 2603:1040:d04:1000::2/127
   ipv4:
     - 20.193.196.0/23
     - 20.193.204.0/26
+    - 20.244.251.20/31
   ipv6:
     - 2603:1040:d04:1::400/120
     - 2603:1040:d04:400::180/122
+    - 2603:1040:d04:1000::2/127
   counts:
-    total: 4
-    ipv4: 2
-    ipv6: 2
+    total: 6
+    ipv4: 3
+    ipv6: 3

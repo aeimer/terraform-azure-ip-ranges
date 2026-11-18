@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.SouthAfricaNorth
 name: AzureArcInfrastructure.SouthAfricaNorth
 metadata:
-  change_number: 5
+  change_number: 6
   region: southafricanorth
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -9,6 +9,7 @@ metadata:
 address_prefixes:
   all:
     - 4.221.233.2/32
+    - 4.222.15.190/31
     - 20.164.154.166/31
     - 20.164.158.128/29
     - 102.133.127.176/31
@@ -18,8 +19,10 @@ address_prefixes:
     - 102.133.254.200/30
     - 102.133.254.204/32
     - 2603:1000:104:b::dc/128
+    - 2603:1000:104:12::510/127
   ipv4:
     - 4.221.233.2/32
+    - 4.222.15.190/31
     - 20.164.154.166/31
     - 20.164.158.128/29
     - 102.133.127.176/31
@@ -30,7 +33,8 @@ address_prefixes:
     - 102.133.254.204/32
   ipv6:
     - 2603:1000:104:b::dc/128
+    - 2603:1000:104:12::510/127
   counts:
-    total: 10
-    ipv4: 9
-    ipv6: 1
+    total: 12
+    ipv4: 10
+    ipv6: 2

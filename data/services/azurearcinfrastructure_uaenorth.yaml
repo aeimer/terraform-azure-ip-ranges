@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.UAENorth
 name: AzureArcInfrastructure.UAENorth
 metadata:
-  change_number: 4
+  change_number: 5
   region: uaenorth
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -9,6 +9,7 @@ metadata:
 address_prefixes:
   all:
     - 4.161.12.132/32
+    - 4.161.190.120/30
     - 20.38.138.56/30
     - 20.38.141.8/30
     - 20.38.157.132/31
@@ -16,8 +17,10 @@ address_prefixes:
     - 40.120.77.176/30
     - 65.52.252.250/31
     - 2603:1040:904:8::743/128
+    - 2603:1040:904:11::50/126
   ipv4:
     - 4.161.12.132/32
+    - 4.161.190.120/30
     - 20.38.138.56/30
     - 20.38.141.8/30
     - 20.38.157.132/31
@@ -26,7 +29,8 @@ address_prefixes:
     - 65.52.252.250/31
   ipv6:
     - 2603:1040:904:8::743/128
+    - 2603:1040:904:11::50/126
   counts:
-    total: 8
-    ipv4: 7
-    ipv6: 1
+    total: 10
+    ipv4: 8
+    ipv6: 2

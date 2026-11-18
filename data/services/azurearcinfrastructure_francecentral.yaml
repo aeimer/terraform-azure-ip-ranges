@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.FranceCentral
 name: AzureArcInfrastructure.FranceCentral
 metadata:
-  change_number: 5
+  change_number: 6
   region: centralfrance
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -9,6 +9,7 @@ metadata:
 address_prefixes:
   all:
     - 4.176.33.182/32
+    - 4.211.127.100/31
     - 20.43.43.160/30
     - 20.43.45.240/30
     - 40.79.138.46/31
@@ -18,8 +19,10 @@ address_prefixes:
     - 98.66.128.36/31
     - 98.66.128.72/29
     - 2603:1020:805:e::a7/128
+    - 2603:1020:805:18::67c/127
   ipv4:
     - 4.176.33.182/32
+    - 4.211.127.100/31
     - 20.43.43.160/30
     - 20.43.45.240/30
     - 40.79.138.46/31
@@ -30,7 +33,8 @@ address_prefixes:
     - 98.66.128.72/29
   ipv6:
     - 2603:1020:805:e::a7/128
+    - 2603:1020:805:18::67c/127
   counts:
-    total: 10
-    ipv4: 9
-    ipv6: 1
+    total: 12
+    ipv4: 10
+    ipv6: 2

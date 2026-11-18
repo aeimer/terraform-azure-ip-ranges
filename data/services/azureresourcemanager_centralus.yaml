@@ -1,7 +1,7 @@
 id: AzureResourceManager.CentralUS
 name: AzureResourceManager.CentralUS
 metadata:
-  change_number: 3
+  change_number: 4
   region: centralus
   platform: Azure
   system_service: AzureResourceManager
@@ -15,9 +15,11 @@ address_prefixes:
     - 20.135.188.46/32
     - 20.135.193.49/32
     - 40.90.21.227/32
+    - 57.175.74.172/30
     - 172.169.142.0/23
     - 2603:1030:10::180/122
     - 2603:1030:10:402::280/122
+    - 2603:1030:10:1000::c0/126
   ipv4:
     - 13.89.180.0/23
     - 20.40.206.240/28
@@ -26,11 +28,13 @@ address_prefixes:
     - 20.135.188.46/32
     - 20.135.193.49/32
     - 40.90.21.227/32
+    - 57.175.74.172/30
     - 172.169.142.0/23
   ipv6:
     - 2603:1030:10::180/122
     - 2603:1030:10:402::280/122
+    - 2603:1030:10:1000::c0/126
   counts:
-    total: 10
-    ipv4: 8
-    ipv6: 2
+    total: 12
+    ipv4: 9
+    ipv6: 3

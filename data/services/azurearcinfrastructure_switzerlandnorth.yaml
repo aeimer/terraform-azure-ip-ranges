@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.SwitzerlandNorth
 name: AzureArcInfrastructure.SwitzerlandNorth
 metadata:
-  change_number: 5
+  change_number: 6
   region: switzerlandn
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -17,7 +17,9 @@ address_prefixes:
     - 51.107.60.152/32
     - 51.107.129.104/30
     - 74.242.152.101/32
+    - 172.161.116.162/31
     - 2603:1020:a04:b::81/128
+    - 2603:1020:a04:12::6e8/127
   ipv4:
     - 20.208.21.162/31
     - 20.208.151.204/31
@@ -28,9 +30,11 @@ address_prefixes:
     - 51.107.60.152/32
     - 51.107.129.104/30
     - 74.242.152.101/32
+    - 172.161.116.162/31
   ipv6:
     - 2603:1020:a04:b::81/128
+    - 2603:1020:a04:12::6e8/127
   counts:
-    total: 10
-    ipv4: 9
-    ipv6: 1
+    total: 12
+    ipv4: 10
+    ipv6: 2

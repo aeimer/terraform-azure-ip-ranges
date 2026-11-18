@@ -1,26 +1,30 @@
 id: AzureResourceManager.BrazilSouth
 name: AzureResourceManager.BrazilSouth
 metadata:
-  change_number: 1
+  change_number: 2
   region: brazilsouth
   platform: Azure
   system_service: AzureResourceManager
   network_features: []
 address_prefixes:
   all:
+    - 20.197.160.76/31
     - 191.233.205.16/28
     - 191.234.140.0/23
     - 191.234.158.0/23
     - 2603:1050:6::180/122
     - 2603:1050:6:402::280/122
+    - 2603:1050:6:1000::52/127
   ipv4:
+    - 20.197.160.76/31
     - 191.233.205.16/28
     - 191.234.140.0/23
     - 191.234.158.0/23
   ipv6:
     - 2603:1050:6::180/122
     - 2603:1050:6:402::280/122
+    - 2603:1050:6:1000::52/127
   counts:
-    total: 5
-    ipv4: 3
-    ipv6: 2
+    total: 7
+    ipv4: 4
+    ipv6: 3

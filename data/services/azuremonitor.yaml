@@ -1,7 +1,7 @@
 id: AzureMonitor
 name: AzureMonitor
 metadata:
-  change_number: 197
+  change_number: 198
   region: ""
   platform: Azure
   system_service: AzureMonitor
@@ -1113,6 +1113,7 @@ address_prefixes:
     - 48.219.9.32/27
     - 48.219.9.64/27
     - 48.219.53.96/27
+    - 48.219.53.128/27
     - 48.219.91.224/27
     - 48.219.96.128/27
     - 48.219.203.242/31
@@ -4314,6 +4315,7 @@ address_prefixes:
     - 48.219.9.32/27
     - 48.219.9.64/27
     - 48.219.53.96/27
+    - 48.219.53.128/27
     - 48.219.91.224/27
     - 48.219.96.128/27
     - 48.219.203.242/31
@@ -6415,6 +6417,6 @@ address_prefixes:
     - 2a01:111:f102:8001::1761:4c10/128
     - 2a01:111:f102:8001::1761:4f3b/128
   counts:
-    total: 3200
-    ipv4: 1949
+    total: 3201
+    ipv4: 1950
     ipv6: 1251

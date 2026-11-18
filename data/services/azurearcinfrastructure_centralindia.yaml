@@ -1,13 +1,15 @@
 id: AzureArcInfrastructure.CentralIndia
 name: AzureArcInfrastructure.CentralIndia
 metadata:
-  change_number: 5
+  change_number: 6
   region: centralindia
   platform: Azure
   system_service: AzureArcInfrastructure
   network_features: []
 address_prefixes:
   all:
+    - 4.186.251.41/32
+    - 4.186.251.44/30
     - 20.43.121.252/32
     - 20.43.123.220/30
     - 20.192.101.26/31
@@ -18,7 +20,11 @@ address_prefixes:
     - 52.140.110.108/30
     - 57.159.92.207/32
     - 2603:1040:a06:c::2bf/128
+    - 2603:1040:a06:15::a7/128
+    - 2603:1040:a06:15::284/126
   ipv4:
+    - 4.186.251.41/32
+    - 4.186.251.44/30
     - 20.43.121.252/32
     - 20.43.123.220/30
     - 20.192.101.26/31
@@ -30,7 +36,9 @@ address_prefixes:
     - 57.159.92.207/32
   ipv6:
     - 2603:1040:a06:c::2bf/128
+    - 2603:1040:a06:15::a7/128
+    - 2603:1040:a06:15::284/126
   counts:
-    total: 10
-    ipv4: 9
-    ipv6: 1
+    total: 14
+    ipv4: 11
+    ipv6: 3

@@ -1,7 +1,7 @@
 id: AzureResourceManager.NorthEurope
 name: AzureResourceManager.NorthEurope
 metadata:
-  change_number: 2
+  change_number: 3
   region: northeurope
   platform: Azure
   system_service: AzureResourceManager
@@ -15,8 +15,10 @@ address_prefixes:
     - 20.135.136.30/32
     - 20.135.138.85/32
     - 52.146.134.0/23
+    - 74.144.43.100/30
     - 2603:1020:5::180/122
     - 2603:1020:5:402::280/122
+    - 2603:1020:5:1000::cc/126
   ipv4:
     - 13.69.229.224/28
     - 13.69.234.0/23
@@ -25,10 +27,12 @@ address_prefixes:
     - 20.135.136.30/32
     - 20.135.138.85/32
     - 52.146.134.0/23
+    - 74.144.43.100/30
   ipv6:
     - 2603:1020:5::180/122
     - 2603:1020:5:402::280/122
+    - 2603:1020:5:1000::cc/126
   counts:
-    total: 9
-    ipv4: 7
-    ipv6: 2
+    total: 11
+    ipv4: 8
+    ipv6: 3

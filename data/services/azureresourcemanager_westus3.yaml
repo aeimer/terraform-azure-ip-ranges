@@ -1,7 +1,7 @@
 id: AzureResourceManager.WestUS3
 name: AzureResourceManager.WestUS3
 metadata:
-  change_number: 2
+  change_number: 3
   region: westus3
   platform: Azure
   system_service: AzureResourceManager
@@ -13,18 +13,22 @@ address_prefixes:
     - 20.135.226.149/32
     - 20.150.225.128/26
     - 20.150.242.0/23
+    - 172.182.17.150/31
     - 2603:1030:504::400/120
     - 2603:1030:504:402::180/122
+    - 2603:1030:504:1400::12/127
   ipv4:
     - 20.135.223.67/32
     - 20.135.224.159/32
     - 20.135.226.149/32
     - 20.150.225.128/26
     - 20.150.242.0/23
+    - 172.182.17.150/31
   ipv6:
     - 2603:1030:504::400/120
     - 2603:1030:504:402::180/122
+    - 2603:1030:504:1400::12/127
   counts:
-    total: 7
-    ipv4: 5
-    ipv6: 2
+    total: 9
+    ipv4: 6
+    ipv6: 3

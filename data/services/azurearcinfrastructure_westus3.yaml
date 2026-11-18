@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.WestUS3
 name: AzureArcInfrastructure.WestUS3
 metadata:
-  change_number: 3
+  change_number: 4
   region: westus3
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -10,15 +10,19 @@ address_prefixes:
   all:
     - 20.150.165.140/30
     - 20.150.190.84/30
+    - 172.147.11.24/30
     - 172.182.155.194/31
     - 172.182.155.200/29
+    - 2603:1030:504:25::cc/126
   ipv4:
     - 20.150.165.140/30
     - 20.150.190.84/30
+    - 172.147.11.24/30
     - 172.182.155.194/31
     - 172.182.155.200/29
-  ipv6: []
+  ipv6:
+    - 2603:1030:504:25::cc/126
   counts:
-    total: 4
-    ipv4: 4
-    ipv6: 0
+    total: 6
+    ipv4: 5
+    ipv6: 1

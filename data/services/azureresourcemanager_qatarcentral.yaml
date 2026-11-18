@@ -1,24 +1,28 @@
 id: AzureResourceManager.QatarCentral
 name: AzureResourceManager.QatarCentral
 metadata:
-  change_number: 1
+  change_number: 2
   region: qatarcentral
   platform: Azure
   system_service: AzureResourceManager
   network_features: []
 address_prefixes:
   all:
+    - 4.244.154.88/31
     - 20.21.44.0/26
     - 20.21.50.0/23
     - 2603:1040:1002:1::600/120
     - 2603:1040:1002:400::1c0/122
+    - 2603:1040:1002:1000::a/127
   ipv4:
+    - 4.244.154.88/31
     - 20.21.44.0/26
     - 20.21.50.0/23
   ipv6:
     - 2603:1040:1002:1::600/120
     - 2603:1040:1002:400::1c0/122
+    - 2603:1040:1002:1000::a/127
   counts:
-    total: 4
-    ipv4: 2
-    ipv6: 2
+    total: 6
+    ipv4: 3
+    ipv6: 3

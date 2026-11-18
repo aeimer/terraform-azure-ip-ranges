@@ -1,7 +1,7 @@
 id: AzureArcInfrastructure.AustraliaEast
 name: AzureArcInfrastructure.AustraliaEast
 metadata:
-  change_number: 4
+  change_number: 5
   region: australiaeast
   platform: Azure
   system_service: AzureArcInfrastructure
@@ -16,7 +16,13 @@ address_prefixes:
     - 40.79.167.20/32
     - 40.79.173.36/32
     - 48.215.89.121/32
+    - 172.146.5.128/30
+    - 172.146.5.132/31
+    - 172.146.5.134/32
     - 2603:1010:6:e::686/128
+    - 2603:1010:6:1a::5d5/128
+    - 2603:1010:6:1b::71c/126
+    - 2603:1010:6:1b::7d0/127
   ipv4:
     - 13.70.79.64/32
     - 13.70.79.198/31
@@ -26,9 +32,15 @@ address_prefixes:
     - 40.79.167.20/32
     - 40.79.173.36/32
     - 48.215.89.121/32
+    - 172.146.5.128/30
+    - 172.146.5.132/31
+    - 172.146.5.134/32
   ipv6:
     - 2603:1010:6:e::686/128
+    - 2603:1010:6:1a::5d5/128
+    - 2603:1010:6:1b::71c/126
+    - 2603:1010:6:1b::7d0/127
   counts:
-    total: 9
-    ipv4: 8
-    ipv6: 1
+    total: 15
+    ipv4: 11
+    ipv6: 4

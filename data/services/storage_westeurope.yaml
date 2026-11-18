@@ -1,7 +1,7 @@
 id: Storage.WestEurope
 name: Storage.WestEurope
 metadata:
-  change_number: 44
+  change_number: 45
   region: westeurope
   platform: Azure
   system_service: AzureStorage
@@ -91,6 +91,7 @@ address_prefixes:
     - 57.150.166.0/23
     - 57.150.224.0/23
     - 57.163.36.0/23
+    - 57.163.112.0/23
     - 104.214.243.32/28
     - 135.130.102.0/23
     - 135.130.162.0/23
@@ -195,6 +196,7 @@ address_prefixes:
     - 57.150.166.0/23
     - 57.150.224.0/23
     - 57.163.36.0/23
+    - 57.163.112.0/23
     - 104.214.243.32/28
     - 135.130.102.0/23
     - 135.130.162.0/23
@@ -221,6 +223,6 @@ address_prefixes:
   ipv6:
     - 2603:1020:207::/48
   counts:
-    total: 103
-    ipv4: 102
+    total: 104
+    ipv4: 103
     ipv6: 1
